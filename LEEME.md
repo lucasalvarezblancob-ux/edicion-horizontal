@@ -45,13 +45,18 @@ Con opciones (otra carpeta, o un creador que viene con la skill):
 & ([scriptblock]::Create((irm https://raw.githubusercontent.com/lucasalvarezblancob-ux/edicion-horizontal/main/instalar.ps1))) -Carpeta "$HOME\Desktop\Horizontal" -Creador reinoselva
 ```
 
-### macOS
+### macOS (un solo comando)
+
+En **Terminal**:
 
 ```sh
-git clone https://github.com/lucasalvarezblancob-ux/edicion-horizontal.git ~/Projects/edicion-horizontal
-bash ~/Projects/edicion-horizontal/instalar.sh "$HOME/Desktop/Horizontal"          # añade --creador <n> si viene con la skill
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/lucasalvarezblancob-ux/edicion-horizontal/main/instalar-mac.sh)"
 ```
-Instala con Homebrew lo que falte (ffmpeg, node, python, yt-dlp, gh) y lo demás igual que en Windows.
+
+Instala Homebrew si falta (te pide la contraseña del Mac) y con él git, ffmpeg, node, python, yt-dlp y gh; Claude Code
+si falta; descarga la skill en `~/Projects/edicion-horizontal` y crea la carpeta de edición en `~/Desktop/Horizontal`
+con todo lo demás, igual que en Windows. Con creador u otra carpeta, añade al final `_ --creador reinoselva` (y/o
+`--carpeta "<ruta>"`).
 
 ### Opciones de `instalar.sh`
 - `--creador <n>`: deja ya hecha la personalización de un creador que viene con la skill (`creadores/<n>/`) y enlaza sus
@@ -68,12 +73,30 @@ skill, la primera vez te preguntará lo del perfil (`personal/<creador>/perfil.m
 
 | Creador | Qué trae | Dónde están sus recursos |
 |---|---|---|
-| `reinoselva` (Reino Selva / RayWild) | perfil, preferencias, recursos.md, marca (ES y EN), ajustes, fichas de sus vídeos (`refs/`), sus gráficos propios (la tortuga, logos) | su disco duro externo: `<disco>\Horizontal\personaleinoselvaecursos` (archivo de especies, intro, outro, música…) y `…efs` (sus vídeos y fotogramas) |
+| `reinoselva` (Reino Selva / RayWild) | perfil, preferencias, recursos.md, marca (ES y EN), ajustes, fichas de sus vídeos (`refs/`), sus gráficos propios (la tortuga, logos) | su disco duro externo: `<disco>\Horizontal\personal
+einoselva
+ecursos` (archivo de especies, intro, outro, música…) y `…
+efs` (sus vídeos y fotogramas) |
 
-Para **Reino Selva**: conecta el disco duro y lanza el comando de Windows con `-Creador reinoselva`. Queda
-`personal/reinoselva/` con todo, y `personal/reinoselva/recursos` enlazado al disco (busca la letra que tenga, D:, E:…).
-Si el disco cambia de letra o no estaba conectado al instalar: `bash .claude/skills/edicion-horizontal/conectar_disco.sh reinoselva`
-desde la carpeta de edición. Al abrir Claude Code se avisa si el disco no está conectado.
+Para **Reino Selva**: conecta su disco duro y lanza el instalador con su creador:
+
+```sh
+# Mac (Terminal)
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/lucasalvarezblancob-ux/edicion-horizontal/main/instalar-mac.sh)" _ --creador reinoselva
+```
+```powershell
+# Windows (PowerShell)
+& ([scriptblock]::Create((irm https://raw.githubusercontent.com/lucasalvarezblancob-ux/edicion-horizontal/main/instalar.ps1))) -Creador reinoselva
+```
+
+Queda `personal/reinoselva/` con todo, y `personal/reinoselva/recursos` enlazado al disco (en Mac lo busca en
+`/Volumes/<disco>/Horizontal/…`; en Windows, en cualquier letra). Si el disco no estaba conectado al instalar o cambia de
+letra: `bash .claude/skills/edicion-horizontal/conectar_disco.sh reinoselva` desde la carpeta de edición. Al abrir
+Claude Code se avisa si el disco no está conectado.
+
+> El disco de Reino Selva está en **NTFS**: en Mac se lee pero **no se puede escribir** en él (sus recursos se usan
+> igual; lo que no se puede es guardar en el disco clips nuevos, música o el `INDICE.md`). Para escribir desde Mac hay
+> que pasarlo a **exFAT** (vale para Mac y Windows; hay que vaciarlo antes) o instalar un driver NTFS para Mac.
 
 ## Usar
 
@@ -102,7 +125,7 @@ Pone al día las herramientas y los gráficos de serie que no hayas tocado. **Nu
 | `proteger.sh` | hook que impide editar la skill si no eres el autor |
 | `modo.sh` | imprime `autor` o `local` |
 | `conectar_disco.sh` | enlazar los recursos de un creador a su disco duro |
-| `instalar.ps1` | instalador de Windows de un solo comando (programas + skill + carpeta) |
+| `instalar.ps1` / `instalar-mac.sh` | instalador de un solo comando para Windows / macOS (programas + skill + carpeta) |
 | `publicar.sh` | solo el autor: commit y push al repo |
 
 ## Estado de las pruebas (2026-11-12)

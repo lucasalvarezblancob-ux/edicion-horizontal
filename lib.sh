@@ -231,6 +231,10 @@ conectar_disco() {   # enlaza personal/<n>/recursos al disco y copia lo pesado d
   if es_windows; then cmd //c mklink //J "$(cygpath -w "$enlace")" "$(cygpath -w "$disco/recursos")" >/dev/null
   else ln -s "$disco/recursos" "$enlace"; fi
   echo "  ✓ personal/$n/recursos → $disco/recursos"
+  if ! ( : > "$disco/recursos/.prueba_escritura" ) 2>/dev/null; then
+    echo "  ⚠️  El disco es de SOLO LECTURA en este ordenador (en Mac pasa con discos NTFS): se pueden usar sus recursos, pero"
+    echo "     no guardar nada nuevo en él (clips de archivo, música, INDICE.md). Para escribir: formatearlo en exFAT o un driver NTFS."
+  else rm -f "$disco/recursos/.prueba_escritura"; fi
   if [ -d "$disco/refs" ]; then
     (cd "$disco/refs" && find . -type f | sed 's|^\./||') | while IFS= read -r f; do
       [ -e "$dest/personal/$n/refs/$f" ] && continue; mkdir -p "$(dirname "$dest/personal/$n/refs/$f")"; cp -p "$disco/refs/$f" "$dest/personal/$n/refs/$f"
