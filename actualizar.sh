@@ -11,10 +11,14 @@ if [ -z "${EDICION_HORIZONTAL_SIN_PULL:-}" ] && git -C "$REPO_DIR" rev-parse --i
   git -C "$REPO_DIR" pull -q --ff-only --autostash origin main || echo "⚠️  No se pudo hacer pull (¿cambios locales en el repo de skills?). Sigo con lo que hay."
 fi
 
-echo "→ Referencias estándar"; bajar_refs || echo "⚠️  No se pudieron bajar todas las referencias."
-echo "→ Programas"; instalar_programas || echo "⚠️  Faltan programas (mira arriba)."
-echo "→ Skills de apoyo"; instalar_skills "$DEST"
-echo "→ Python y Remotion"; instalar_pesados "$DEST" || echo "⚠️  Revisa lo de arriba."
+# RAPIDO (actualización automática al abrir sesión): solo la plantilla; lo lento se deja para un actualizar.sh normal.
+RAPIDO="${EDICION_HORIZONTAL_RAPIDO:-}"
+if [ -z "$RAPIDO" ]; then
+  echo "→ Referencias estándar"; bajar_refs || echo "⚠️  No se pudieron bajar todas las referencias."
+  echo "→ Programas"; instalar_programas || echo "⚠️  Faltan programas (mira arriba)."
+  echo "→ Skills de apoyo"; instalar_skills "$DEST"
+  echo "→ Python y Remotion"; instalar_pesados "$DEST" || echo "⚠️  Revisa lo de arriba."
+fi
 enlazar_skill "$DEST" || true
 
 echo "→ Plantilla (herramientas, componentes, config)"
@@ -37,8 +41,12 @@ while IFS= read -r f; do
   echo "${viejo:-$nuevo}  $f" >> "$NUEVO"
 done < <(archivos_plantilla)
 mv "$NUEVO" "$MAN"
-[ $cambio_pkg = 1 ] && (cd "$DEST/estudio" && npm install --no-audit --no-fund -q)
-[ $cambio_req = 1 ] && "$(py_venv "$DEST")" -m pip install -q -r "$DEST/herramientas/requirements.txt"
+if [ -n "$RAPIDO" ] && [ $((cambio_pkg + cambio_req)) -gt 0 ]; then
+  echo "  La versión nueva cambia dependencias (npm/pip): lanza bash .claude/skills/$NOMBRE/actualizar.sh antes de renderizar."
+else
+  [ $cambio_pkg = 1 ] && (cd "$DEST/estudio" && npm install --no-audit --no-fund -q)
+  [ $cambio_req = 1 ] && "$(py_venv "$DEST")" -m pip install -q -r "$DEST/herramientas/requirements.txt"
+fi
 if [ ${#tocados[@]} -gt 0 ]; then
   echo "Hay versión nueva de estos archivos, pero los has cambiado en local y no los toco:"
   printf '  · %s\n' "${tocados[@]}"; echo "  (la versión estándar está en .claude/skills/$NOMBRE/plantilla/<ruta>: compárala y decide)"

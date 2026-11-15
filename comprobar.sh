@@ -25,4 +25,11 @@ for d in "$CARPETA"/personal/*/; do
 done
 [ -d "$CARPETA/recursos" ] && echo "$NOMBRE: queda una carpeta recursos/ en la raíz; los recursos van ahora dentro de cada creador → herramientas/montaje/mover_recursos.py <creador> (no borra nada tuyo)."
 [ "$hay" = 0 ] && echo "$NOMBRE: aún no hay ningún creador en personal/ → antes del primer edit: herramientas/montaje/nuevo_creador.py <nombre> y rellenar su perfil."
+# Actualización automática: se lanza con exec desde una copia, así este archivo queda libre para que git lo sustituya.
+if [ -z "${EDICION_HORIZONTAL_SIN_AUTO:-}" ]; then
+  tmp="$(mktemp)"; cat > "$tmp" <<FIN
+source "$SKILL/lib.sh"; auto_actualizar "$CARPETA"; rm -f "$tmp"
+FIN
+  exec bash "$tmp"
+fi
 exit 0

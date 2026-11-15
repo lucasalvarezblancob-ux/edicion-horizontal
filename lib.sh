@@ -242,3 +242,32 @@ conectar_disco() {   # enlaza personal/<n>/recursos al disco y copia lo pesado d
     echo "  ✓ personal/$n/refs: vídeos y fotogramas copiados del disco"
   fi
 }
+
+# ── Versiones y actualización automática ──
+# Cada publicación es una versión (etiqueta vMAYOR.MENOR + Release en GitHub). Al abrir sesión (hook comprobar.sh),
+# como mucho cada 6 h, se mira si hay versión nueva en GitHub y, si la copia local está limpia, se pone al día sola
+# (git fast-forward + plantilla sin pisar lo tocado). Para no actualizar sola: crear <carpeta>/.claude/$NOMBRE-sin-auto.
+version_actual() { git -C "$REPO_DIR" describe --tags --abbrev=0 2>/dev/null | limpia || echo "sin versión"; }
+git_rapido() { git -C "$REPO_DIR" -c http.lowSpeedLimit=1000 -c http.lowSpeedTime=15 "$@"; }
+auto_actualizar() {
+  local dest="$1" marca="$1/.claude/$NOMBRE-ultima-comprobacion" ahora antes viejo nuevo n
+  git -C "$REPO_DIR" rev-parse --is-inside-work-tree >/dev/null 2>&1 || return 0
+  [ -e "$dest/.claude/$NOMBRE-sin-auto" ] && return 0
+  ahora="$(date +%s)"; antes="$(limpia < "$marca" 2>/dev/null || true)"
+  [ -n "${EDICION_HORIZONTAL_FORZAR:-}" ] || [ $((ahora - ${antes:-0})) -ge 21600 ] || return 0
+  mkdir -p "$dest/.claude"; echo "$ahora" > "$marca"
+  git_rapido fetch -q --tags origin main 2>/dev/null || return 0
+  viejo="$(git -C "$REPO_DIR" rev-parse HEAD)"; nuevo="$(git -C "$REPO_DIR" rev-parse origin/main)"
+  [ "$viejo" = "$nuevo" ] && return 0
+  if ! git -C "$REPO_DIR" merge-base --is-ancestor HEAD origin/main; then
+    git -C "$REPO_DIR" merge-base --is-ancestor origin/main HEAD && return 0     # vas por delante (autor sin publicar)
+    echo "$NOMBRE: hay versión nueva en GitHub, pero esta copia tiene commits propios sin publicar → publicar.sh o actualizar.sh."; return 0
+  fi
+  if [ -n "$(git -C "$REPO_DIR" status --porcelain)" ]; then
+    echo "$NOMBRE: hay versión nueva en GitHub, pero hay cambios sin publicar en la skill: no la actualizo sola (publicar.sh primero)."; return 0
+  fi
+  git -C "$REPO_DIR" merge -q --ff-only origin/main || return 0
+  n="$(git -C "$REPO_DIR" rev-list --count "$viejo..HEAD")"
+  echo "$NOMBRE: actualizada sola a $(version_actual) ($n cambios). Novedades: git -C \"$REPO_DIR\" log --oneline $viejo..HEAD"
+  EDICION_HORIZONTAL_SIN_PULL=1 EDICION_HORIZONTAL_RAPIDO=1 bash "$SKILL/actualizar.sh" "$dest" 2>&1 | grep -E '^  (\+|↻|·)|dependencias|versión nueva de estos' || true
+}

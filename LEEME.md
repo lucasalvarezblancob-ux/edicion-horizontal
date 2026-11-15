@@ -107,10 +107,25 @@ Claude Code se avisa si el disco no está conectado.
 
 La música la pones tú (tu banco, tu licencia) en `personal/<creador>/recursos/musica/`. Claude no sube nada a ningún sitio.
 
-## Actualizar
+## Actualizar y versiones
+
+**Se actualiza sola.** Al abrir Claude Code en la carpeta de edición (como mucho cada 6 h) mira si hay versión nueva en
+GitHub y, si la hay, se pone al día: la skill y las herramientas y gráficos de serie que no hayas tocado. Si la versión
+nueva cambia dependencias (npm/pip), avisa para lanzar el actualizador completo:
 
 ```sh
-bash .claude/skills/edicion-horizontal/actualizar.sh      # desde tu carpeta de edición (hace git pull de la skill)
+bash .claude/skills/edicion-horizontal/actualizar.sh      # completo: también programas, skills de apoyo y dependencias
+```
+Para que no se actualice sola en una carpeta: crea el archivo `.claude/edicion-horizontal-sin-auto`.
+
+Cada publicación es una **versión** (`v1.0`, `v1.1`…) con su Release en
+[GitHub](https://github.com/lucasalvarezblancob-ux/edicion-horizontal/releases). El autor publica y, si algo sale mal,
+vuelve atrás para todos:
+
+```sh
+bash .claude/skills/edicion-horizontal/publicar.sh "qué cambió y por qué"     # versión nueva (--mayor: v2.0)
+bash .claude/skills/edicion-horizontal/publicar.sh --versiones               # lista de versiones
+bash .claude/skills/edicion-horizontal/publicar.sh --volver v1.2             # rollback (se publica como versión nueva)
 ```
 Pone al día las herramientas y los gráficos de serie que no hayas tocado. **Nunca pisa** `personal/` (con tus recursos), `refs/`,
 `out/`, `marca.ts`, tus gráficos propios ni nada que hayas cambiado (te lo lista).
@@ -121,12 +136,12 @@ Pone al día las herramientas y los gráficos de serie que no hayas tocado. **Nu
 |---|---|
 | `instalar.sh` | crear (o adoptar) una carpeta de edición |
 | `actualizar.sh` | poner al día herramientas y gráficos de serie |
-| `comprobar.sh` | avisos al abrir la sesión (lo lanza un hook): programas, perfil sin rellenar, limpieza a 30 días |
+| `comprobar.sh` | al abrir la sesión (lo lanza un hook): actualización automática, avisos (programas, perfil, disco), limpieza a 30 días |
 | `proteger.sh` | hook que impide editar la skill si no eres el autor |
 | `modo.sh` | imprime `autor` o `local` |
 | `conectar_disco.sh` | enlazar los recursos de un creador a su disco duro |
 | `instalar.ps1` / `instalar-mac.sh` | instalador de un solo comando para Windows / macOS (programas + skill + carpeta) |
-| `publicar.sh` | solo el autor: commit y push al repo |
+| `publicar.sh` | solo el autor: publicar versión nueva, listar versiones, volver a una anterior |
 
 ## Estado de las pruebas (2026-11-12)
 

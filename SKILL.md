@@ -312,10 +312,14 @@ flujo funciona con Whisper local, los sonidos de serie y la música del creador.
 - `bash <skill>/instalar.sh "<ruta>"` — crea la carpeta de edición desde `plantilla/` (con `personal/_plantilla/`),
   enlaza la skill, instala lo que falte (`--adoptar` para una carpeta que ya existe; `--ligero` sin skills de apoyo,
   `.venv` ni `node_modules`). Detalle en `<skill>/LEEME.md`.
-- `bash <skill>/actualizar.sh` — pone al día herramientas y componentes de serie que no se hayan tocado en local.
+- La skill **se actualiza sola** al abrir sesión (hook `comprobar.sh`, como mucho cada 6 h): si hay versión nueva en
+  GitHub y la copia está limpia, fast-forward y plantilla al día. Si el hook dice que se actualizó, tenlo en cuenta (lee
+  las novedades si afectan a lo que vas a hacer).
+- `bash <skill>/actualizar.sh` — completo: además programas, skills de apoyo y dependencias. Pone al día herramientas y componentes de serie que no se hayan tocado en local.
   **Nunca pisa** `personal/` (con los recursos de cada creador), `refs/`, `out/`, `marca.ts`, `estudio/src/personal/` ni nada cambiado en
   local (lo lista).
 - `bash <skill>/conectar_disco.sh <creador>` — enlaza `personal/<creador>/recursos` a su disco duro (lo busca en todas
   las unidades) y copia lo pesado de sus `refs/`. Para cuando cambia la letra del disco o se conecta por primera vez.
 - `bash <skill>/publicar.sh "<mensaje>"` — **solo modo autor y solo cuando Lucas lo pida expresamente**: commit de
-  todo el repo y push a `main`.
+  todo el repo, push a `main` y versión nueva (`vX.Y`, con Release). `--versiones` las lista; `--volver vX.Y` hace
+  rollback para todos (publicado como versión nueva; no borra historial).
