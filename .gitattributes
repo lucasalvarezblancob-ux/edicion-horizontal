@@ -1,0 +1,22 @@
+# Finales de línea LF siempre: en Windows, un retorno de carro dentro de una lista (VIDEOS.txt, SKILLS.txt, AUTORES)
+# acaba metido en nombres de archivo y rompe los scripts.
+* text=auto eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.mjs text eol=lf
+*.mp3 binary
+*.onnx binary
+*.cube text eol=lf
+*.jpg binary
+*.png binary
+*.ps1 text eol=crlf
+*.webm binary
+*.mp4 binary
+*.wav binary
+*.woff2 binary
+*.ttf binary

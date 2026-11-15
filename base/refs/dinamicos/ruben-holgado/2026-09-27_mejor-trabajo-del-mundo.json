@@ -1,0 +1,852 @@
+{
+ "video": {
+  "archivo": "refs/dinamicos/ruben-holgado/2026-09-27_mejor-trabajo-del-mundo.mp4",
+  "creador": "Rubén Holgado",
+  "url": "https://www.youtube.com/watch?v=8cKZWMFUVaM",
+  "titulo": "Probé el Mejor Trabajo del Mundo",
+  "duracion": "25:11",
+  "publicado": "2026-09-27",
+  "tramo_analizado": "0:00–25:11 (entero; copia 1280×720 a 29,97 fps)"
+ },
+ "resumen": "Vlog de 3 días como voluntario en un refugio de monos del Amazonas peruano, montado como una lista de tareas que se va tachando en pantalla (7 tareas + un 'Examen Final' de 3). Abre con un gancho de 22 s en voz en off con 14 planos-tráiler (1,5 s/plano), rótulos con flecha, emojis, una tarjeta de dato y un vídeo vertical con interrogantes; después una cabecera dibujada de 4,2 s que entra y sale con una transición de papel arrugado. El desarrollo va a 4,5 s/plano de media (358 cortes, 14,2 por minuto, casi todos secos) y alterna habla a cámara/en plano con 23 bloques cortos de voz en off (264 s, 17,5 % del vídeo, 10 s de media) que hacen de puente entre escenas. En el muestreo de un minuto de cada tres, el 43 % del tiempo con voz va sobre b-roll o gráficos, casi todo material del propio rodaje. Los gráficos son pocos tipos y muy repetidos: lista manuscrita de tareas (10 apariciones), rótulos sans bold con emojis, 'DÍA 2/3', capturas de web, miniaturas de YouTube y fotos en tarjeta que aparecen de golpe. La música ocupa el 67 % del vídeo; bajo la voz queda a 13–19 dB el día 1 pero solo a 4–8 dB en el gancho, el despertar del día 2 y todo el día 3, y en los montajes sin voz sube al nivel de la voz (−21 a −27 dB). Se subtitula solo a los cuidadores locales cuando se les entiende mal (3 tramos, unas 14 frases). Cierra con una reflexión en off de 43 s sobre 20 planos-recuerdo, fundido a negro y pantalla final dibujada con flecha 'mira este vídeo'.",
+ "estructura": [
+  {
+   "desde": "0:00",
+   "hasta": "0:22",
+   "parte": "Gancho / tráiler",
+   "que_pasa": "Voz en off presenta dos monos, el momento estrella (un mono le chupa la oreja), el lugar, la misión (cuidar monos rescatados del tráfico) y las tareas; acaba en \"empieza la aventurilla\"."
+  },
+  {
+   "desde": "0:22",
+   "hasta": "0:26",
+   "parte": "Cabecera",
+   "que_pasa": "Animación dibujada \"las aventurillas de ruben · edición Jungla\" (4,2 s), entra y sale con papel arrugado."
+  },
+  {
+   "desde": "0:26",
+   "hasta": "1:45",
+   "parte": "Llegada y contexto",
+   "que_pasa": "Plano de paisaje sin voz (3 s), a cámara en el mirador, barca, llegada a la isla; chiste con tarjeta de un vídeo anterior (0:41); tour con Jair con pantalla partida rescatar/rehabilitar/liberar (1:14)."
+  },
+  {
+   "desde": "1:45",
+   "hasta": "2:00",
+   "parte": "Planteamiento de las reglas",
+   "que_pasa": "Voz en off + lista \"Tareas\" a pantalla completa (1:52–1:57): 7 tareas y una prueba final. Fija la estructura del vídeo."
+  },
+  {
+   "desde": "2:00",
+   "hasta": "7:29",
+   "parte": "Día 1",
+   "que_pasa": "Recoger suministros (tachada 3:22), conocer a los bebés y a los monos desconfiados (Gusi, Malqui; etiquetas con nombre 4:06–4:14), cuidar a los bebés (tachada 5:34), preparar y repartir comida con montaje musical (6:16–6:40), alimentar (tachada 7:06), despedida de noche a cámara."
+  },
+  {
+   "desde": "7:29",
+   "hasta": "18:48",
+   "parte": "Día 2",
+   "que_pasa": "Rótulo DÍA 2; sacar a los monos y limpiar, medicinas (tachada 10:20), cicatrices del cuidador, \"house tour\" con rótulos por estancia (10:45–13:20), historia del fundador con fotos (12:16–12:57), búsqueda fallida del perezoso (13:20–14:40), recoger a Malki, monólogo sobre tráfico y donaciones con capturas de la web (15:24–16:24), pesca con miniaturas y foto (16:26–17:44), playa al atardecer."
+  },
+  {
+   "desde": "18:48",
+   "hasta": "19:02",
+   "parte": "Puente al día 3",
+   "que_pasa": "Voz en off anuncia la prueba; lista de tareas sobre el atardecer con \"Ganarme el respeto\" tachándose; fundido a negro; rótulo DÍA 3."
+  },
+  {
+   "desde": "19:02",
+   "hasta": "23:50",
+   "parte": "Día 3 / Examen Final (clímax)",
+   "que_pasa": "Montaje sin voz preparando y repartiendo comida (19:04–19:38), Gusi por fin confía (flashbacks en blanco y negro 19:58 y 20:40), sub-lista \"Examen Final\" tachándose (21:04, 22:10, 23:48), liberación de la tortuga en plano largo (23:20–23:46)."
+  },
+  {
+   "desde": "23:50",
+   "hasta": "24:11",
+   "parte": "Remate de la lista",
+   "que_pasa": "Aparece el perezoso (24:03) y se tacha la última tarea pendiente (24:07–24:09)."
+  },
+  {
+   "desde": "24:11",
+   "hasta": "24:55",
+   "parte": "Reflexión",
+   "que_pasa": "Voz en off escrita (\"aprender a dejar ir\") sobre 20 planos-recuerdo; fundido a negro 1,8 s."
+  },
+  {
+   "desde": "24:55",
+   "hasta": "25:11",
+   "parte": "Pantalla final",
+   "que_pasa": "Dibujo sobre crema con flecha \"mira este vídeo\"; la voz recomienda otro vídeo y dice adiós."
+  }
+ ],
+ "ritmo": {
+  "s_por_plano": {
+   "global": "4,21 de media, 3,0 de mediana (359 planos; 14,2 cortes/min; 6 % de planos <1 s, 26 % >5 s; máximo 26,2 s)",
+   "gancho_0:00-0:22": 1.47,
+   "llegada_y_tour_0:26-1:45": 3.58,
+   "dia1": 4.35,
+   "dia2": 4.22,
+   "dia3": 4.98,
+   "montajes_musicales": "2,4 (comida día 1, 6:16–6:40) y 3,1 (comida día 3, 19:04–19:38)",
+   "momento_fuerte_liberacion_tortuga_23:00-23:47": "11,8 (se deja respirar: un plano de 26,2 s)",
+   "monologo_a_camara_15:24-16:03": 5.6,
+   "reflexion_final_24:11-24:55": 2.1,
+   "cierre_pantalla_final": "un único plano de 15,5 s",
+   "nota": "cortes.json no ve jump cuts de mismo encuadre ni la transición de papel; las cifras de monólogo e historia de Gilberto están algo infladas por eso."
+  },
+  "jump_cuts": "Sí, en todos los tramos a cámara con trípode. Historia de Gilberto (12:16–12:57): 6 cortes detectados en 41 s sin cambiar de encuadre (medido 12:28,9→12:30,7: escala 1,000, es decir, jump cut puro sin punch-in). Monólogo 15:24–16:03: 6 cortes detectados en 39 s y además cambia entre 3 encuadres del mismo sitio (cerrado 15:24–15:34, medio 15:36–15:46, abierto 15:48–16:02). No rellena los jump cuts con b-roll: 38 s seguidos de busto parlante sin música.",
+  "j_l_cuts": "Medido en los 23 bloques de voz en off (primera palabra frente al corte más cercano): 5 empiezan clavados en el corte (±0,1 s: 1:45,40; 3:14,11; 5:25,95; 15:01,18; 24:55,50), 7 entran antes del corte (J-cut: 0,2–0,5 s en 4:06,46, 7:45,01 y 9:26,60; 1 s en 14:05,6; 3–5 s en 16:23,0 y 23:42,6, donde la voz arranca sobre el final del plano anterior) y el resto 0,1–1,1 s después. L-cut claro: 16:03,6–16:17, la voz a cámara sigue 13,5 s bajo las capturas de la web.",
+  "match_cuts": "No se han visto match cuts de forma o movimiento. Lo más parecido: 7:26–7:29 acerca la cara al objetivo y corta a DÍA 2 (corte por tapado, sin fundido), y el paso de plano general a primer plano del mismo instante en 0:03→0:04 y 12:08→12:10 (medido: el primer plano es ×2,1 del general)."
+ },
+ "intro": {
+  "cold_open": "Sí. Empieza en el fotograma 0 con voz en off y música a la vez, sin saludo: \"Este es un mono capuchino, este es un mono chorongo, y este soy yo mientras un mono me chupa la oreja\" (0:00–0:05,6). Fórmula: esto es A / esto es B / y este soy yo en la situación absurda.",
+  "recap": {
+   "existe": true,
+   "desde": "0:00",
+   "hasta": "0:22",
+   "n_planos": 14,
+   "s_por_plano": 1.47,
+   "de_donde_salen": [
+    {
+     "t": "0:00,0–0:01,4",
+     "plano": "capuchino en el césped",
+     "origen": "b-roll de la isla (no localizado en el desarrollo)",
+     "frase": "\"Este es un mono capuchino\""
+    },
+    {
+     "t": "0:01,4–0:03,0",
+     "plano": "chorongo colgando",
+     "origen": "b-roll de la isla",
+     "frase": "\"este es un mono chorongo\""
+    },
+    {
+     "t": "0:03,0–0:04,1",
+     "plano": "general: él sentado con el mono al hombro",
+     "origen": "12:02–12:16 (día 2, plano de trípode)",
+     "frase": "\"y este soy yo\""
+    },
+    {
+     "t": "0:04,1–0:05,6",
+     "plano": "primer plano del mismo instante",
+     "origen": "12:10 / 12:14",
+     "frase": "\"mientras un mono me chupa la oreja\""
+    },
+    {
+     "t": "0:05,6–0:07,5",
+     "plano": "foto de una isla + monos recortados",
+     "origen": "stock + gráfico",
+     "frase": "\"En la isla de los monos\""
+    },
+    {
+     "t": "0:07,5–0:10,5",
+     "plano": "camiseta blanca, mono envuelto en un trapo",
+     "origen": "día 1, ~5:14–5:18 (mismo material que el flashback de 20:58)",
+     "frase": "\"dispuesto a pasar mis próximos días cuidando…\" + sonido directo \"A la mano, chicos\""
+    },
+    {
+     "t": "0:10,5–0:11,9",
+     "plano": "camiseta verde con monos en brazos",
+     "origen": "día 2/3 (vuelve en la pantalla partida de 1:16)",
+     "frase": "\"O más bien intentando cuidar\""
+    },
+    {
+     "t": "0:11,9–0:12,7",
+     "plano": "mono agarrado al cuello",
+     "origen": "~14:58",
+     "frase": "\"a monos rescatados\""
+    },
+    {
+     "t": "0:12,7–0:14,1",
+     "plano": "monos enjaulados + tarjeta de dato",
+     "origen": "archivo/stock",
+     "frase": "\"del tráfico ilegal\""
+    },
+    {
+     "t": "0:14,1–0:15,0",
+     "plano": "dando comida en las jaulas",
+     "origen": "día 3, ~19:20–19:30",
+     "frase": "\"Mis tareas no serán nada fáciles\""
+    },
+    {
+     "t": "0:15,0–0:16,0",
+     "plano": "jeringa / medicina",
+     "origen": "día 2, ~9:38–9:50",
+     "frase": "\"pasando por alimentarlos\""
+    },
+    {
+     "t": "0:16,0–0:16,9",
+     "plano": "mono comiendo, detalle",
+     "origen": "día 2",
+     "frase": "\"darles medicina\""
+    },
+    {
+     "t": "0:16,9–0:18,1",
+     "plano": "POV: mono lamiendo la jeringa",
+     "origen": "día 2, ~9:56–10:05",
+     "frase": "\"y…\""
+    },
+    {
+     "t": "0:18,1–0:22,0",
+     "plano": "vídeo vertical de móvil con un mono en la cabeza",
+     "origen": "móvil; no reaparece en el vídeo",
+     "frase": "\"Y bueno, aquí no sé muy bien lo que estoy haciendo. En fin, empieza la aventurilla.\""
+    }
+   ],
+   "frase": "Voz en off de 21,5 s, 75 palabras (3,5 pal/s). Estructura: presentación cómica (0–5,6) → lugar (5,7) → misión con autocorrección (\"cuidando… o más bien intentando cuidar\", 5,7–14) → tareas en lista de tres que se rompe (14–18) → remate de humildad y frase de arranque (18,6–21,5)."
+  },
+  "titulo_cabecera": "0:21,99–0:26,23 (4,2 s), después del gancho. Entra con transición de papel arrugado (una bola de papel aparece sobre el plano y se despliega hasta llenar el cuadro en ~0,2 s). Panel 1: papel crema con mancha verde de acuarela y dibujo lineal negro (fila de monos sobre un muro); el logo \"las aventurillas de ruben\" se escribe de izquierda a derecha en 0,3 s (0:22,2–0:22,5), manuscrito grueso, alto de la palabra ≈ 17 % de la pantalla, arriba a la derecha. 0:23,4–0:24,4 barrido lateral con desenfoque de movimiento (1,0 s) al panel 2: \"edición Jungla\" en manuscrita fina a la izquierda y caricatura de él con un mono en la cabeza. Fijo (escala medida 1,000) hasta 0:26,2; sale arrugándose en una bola que encoge sobre el plano siguiente (0,3 s). No aparece el título del vídeo en ningún momento.",
+  "motion_graphics": "En 22 s: 2 rótulos \"mono\" con flecha roja y emojis (0:00 y 0:01,4), flecha roja + signo de exclamación señalándole (0:03), título \"la isla de los monos\" palabra a palabra con monos recortados (0:05,7), tarjeta blanca de dato con subrayado amarillo (0:12,7), vídeo vertical sobre negro con 16 interrogantes (0:18). Es decir, 6 gráficos en 22 s, uno cada 3,7 s.",
+  "musica_entra_s": 0,
+  "linea_de_tiempo": [
+   {
+    "t": "0:00,0",
+    "que": "Voz y música desde el primer fotograma. Capuchino; en 0:00,1 aparece \"mono\" + flecha roja y un foco (el resto del cuadro se oscurece) en 0,2 s."
+   },
+   {
+    "t": "0:00,7–0:01,1",
+    "que": "Entran emojis de taza de café, uno cada 0,1 s (chiste visual con \"capuchino\")."
+   },
+   {
+    "t": "0:01,4",
+    "que": "Corte a chorongo; \"mono\" + flecha siguen al animal (tracking); emojis plátano / mono / plátano en 0:02,6–0:02,8."
+   },
+   {
+    "t": "0:03,0",
+    "que": "Corte (con acento de sonido) al plano general de él; flecha roja y \"!\" señalándole."
+   },
+   {
+    "t": "0:04,1",
+    "que": "Corte (con acento) a primer plano del mismo momento: el mono le chupa la oreja."
+   },
+   {
+    "t": "0:05,6",
+    "que": "Foto de isla; \"la / isla / de / los / monos\" aparece palabra a palabra con la voz (5,7; 5,8; 6,0; 6,1; 6,3); monos recortados suben desde abajo en 6,2–6,4; zoom lento 1,16→1,20."
+   },
+   {
+    "t": "0:07,5",
+    "que": "Plano de 3 s con sonido directo: \"A la mano, chicos\" (la voz en off se interrumpe 1 s para dejarlo oír). La música baja (resto −34/−37 dB entre 0:08 y 0:10)."
+   },
+   {
+    "t": "0:10,5–0:18,1",
+    "que": "7 planos de 0,8–1,4 s; tarjeta de dato en 0:12,7 con golpe de sonido (resto sube a −16 dB en 0:13)."
+   },
+   {
+    "t": "0:18,1",
+    "que": "Vídeo vertical sobre negro (3,9 s) con golpe de sonido (−18 dB); interrogantes blancos, uno nuevo cada ~0,25 s."
+   },
+   {
+    "t": "0:21,5",
+    "que": "Fin de la voz en off (\"empieza la aventurilla\")."
+   },
+   {
+    "t": "0:22,0",
+    "que": "Papel arrugado → cabecera; cambio de música (sin percusión)."
+   },
+   {
+    "t": "0:26,2",
+    "que": "Papel arrugado → paisaje al atardecer, 3,2 s solo con música (−24 dB)."
+   },
+   {
+    "t": "0:29,4",
+    "que": "Primer plano a cámara; primera frase en directo a 0:30,3: \"Pues nada, estamos en Amazonas y hoy es nuestro primer día de trabajo\". La música cae a −41/−44 dB."
+   },
+   {
+    "t": "0:41,5",
+    "que": "Tarjeta de YouTube de un vídeo anterior sobre blanco (2,7 s) para el chiste \"la última vez que vi un mono me robó\"."
+   },
+   {
+    "t": "0:53,0",
+    "que": "Primer bloque de voz en off del desarrollo (\"Al llegar a la isla conocimos a Jair…\")."
+   }
+  ]
+ },
+ "broll": {
+  "proporcion_sobre_voz": {
+   "valor": "≈ 43 % del tiempo con voz va sobre b-roll o gráfico a pantalla completa (41 % b-roll + 2 % gráfico); 57 % con el que habla en plano.",
+   "metodo": "Muestreo de un minuto de cada tres (minutos 0, 3, 6, 9, 12, 15, 18, 21, 24) sobre las hojas min_* (30 celdas de 2 s por minuto, 270 celdas). Cada celda se etiquetó a ojo: C = quien habla está en plano; B = la imagen es otra cosa (b-roll, acción bajo voz en off, flashback); G = gráfico a pantalla completa. Solo cuentan las celdas con voz (voz_db > −30 dB en por_segundo): 230 celdas → C 132, B 94, G 4.",
+   "por_minuto": {
+    "0": 0.71,
+    "3": 0.32,
+    "6": 0.36,
+    "9": 0.54,
+    "12": 0.0,
+    "15": 0.2,
+    "18": 0.38,
+    "21": 0.44,
+    "24": 0.93
+   },
+   "lectura": "Muy desigual: gancho y reflexión final van casi enteros sobre b-roll (71 % y 93 %); los tramos de trípode a cámara no llevan ninguno (minuto 12: 0 %; ahí solo se superponen 2 fotos). En el desarrollo normal, 30–55 %. Error estimado ±8 puntos (celdas de 2 s y etiquetado a ojo)."
+  },
+  "origenes": {
+   "mismo_video": "≈ 95 %. Sobre todo acción del mismo momento que cuenta la voz en off; también planos de animales grabados aparte en la isla y 3 flashbacks a días anteriores (19:58 y 20:40 en blanco y negro, 20:58 en color). Reutiliza planos: el mono de pelaje malo de 8:44–8:48 vuelve en 11:50 para ilustrar \"se les cae el pelaje\".",
+   "recursos": "Fotos del fundador (12:22 y 12:36), capturas de la web del refugio (16:03–16:17), miniaturas y tarjeta de vídeos propios (0:41, 17:22), foto de móvil (17:29), vídeo vertical de móvil (0:18).",
+   "stock_archivo": "Solo 2 planos en el gancho: foto de isla (0:05,6) y monos enjaulados (0:12,7)."
+  },
+  "duracion_tipica_s": "Insertos sueltos sobre habla en directo: 2–4 s (p. ej. 3:46–3:50, 13:52–13:56, 15:18, 21:10). Bajo voz en off: series de 2–7 planos de 1,5–4 s. Montajes musicales sin voz: 20–35 s con planos de 2,4–3,1 s.",
+  "vuelta_a_camara": "Siempre por corte seco, normalmente al empezar una frase nueva en directo; tras un bloque de voz en off vuelve al sonido directo de la escena que acaba de presentar (la voz en off termina de media 0,5 s antes del corte de vuelta).",
+  "ejemplos": [
+   "3:14–3:25: voz en off sobre él cargando el saco → lista de tareas → 3:25,7 corte a cámara dentro del refugio.",
+   "9:26–9:41: voz en off de las medicinas sobre 7 planos (mezcla, jeringa, monos).",
+   "13:52–13:56: hojas agujereadas y copa del árbol mientras explica cómo se localiza un perezoso.",
+   "15:18: 2 s de primer plano del mono en mitad de la explicación a cámara.",
+   "19:58 y 20:40: flashbacks en blanco y negro de 2–4 s para recordar quién es cada mono.",
+   "24:11–24:53: 20 planos-recuerdo bajo la reflexión."
+  ]
+ },
+ "voz_en_off": {
+  "uso": "23 bloques, 264 s en total (17,5 % del vídeo). Duración: mediana ≈ 10 s, rango 3,8–42,7 s (gancho 21,5 s; reflexión final 42,7 s; el resto 5–15 s). Aparece cada 1–2 minutos y siempre hace una de estas cuatro cosas: (1) puente entre escenas con elipsis (\"Con todos los monitos pasando el día fuera pudimos limpiar…\", 8:54), (2) plantear la siguiente tarea (1:45, 9:26, 18:48), (3) contar lo que no se grabó o resumir tiempo (\"estuvimos más de una hora dando vueltas…\", 14:05), (4) chiste o giro (\"Pregunté si podía prepararles una tortilla de patatas…\", 5:47). Bloques medidos (inicio–fin, s): 0:00–0:21,5 (21,5) · 0:53–1:02 (9,0) · 1:45–2:00 (14,6) · 3:14–3:25 (11,1) · 4:06–4:21 (15,0) · 5:26–5:35 (9,4) · 5:48–6:00 (11,9) · 7:45–7:56 (11,1) · 8:54–9:02 (7,1) · 9:27–9:41 (14,6) · 14:06–14:11 (5,0) · 14:26–14:30 (3,8) · 15:01–15:11 (9,8) · 16:23–16:35 (11,7) · 17:18–17:29 (10,3) · 17:45–17:53 (7,4) · 18:49–18:57 (8,5) · 19:55–20:01 (5,6) · 20:04–20:10 (6,2) · 22:10–22:15 (4,9) · 23:43–23:56 (13,3) · 24:11–24:54 (42,7) · 24:55–25:05 (9,8). La separación entre voz en off y directo se hizo leyendo la transcripción (tiempo verbal y contenido) y mirando las hojas, no por escucha.",
+  "guion": "Escrita y leída, en pasado (\"conocimos\", \"tocaba\", \"tuve que\"), frente al presente del directo. Ritmo 3,4–4,8 palabras/s (más rápido que el directo). Frases de 15–25 palabras encadenadas con \"así que\", \"pero\", \"y es que\". Casi todos los bloques acaban en un gancho hacia lo siguiente (\"…pero al menos, al llegar, tocaba una tarea mucho más divertida\", 3:19; \"…tuve que ir a demostrárselo\", 16:33). Humor de autocrítica. La reflexión final cambia a registro general (\"hay veces en la vida…\").",
+  "mezcla": "Voz en off a −21/−22 dB RMS (igual que el directo, −22/−23). Bajo ella el resto (música + ambiente) queda entre 14 y 28 dB por debajo en los días 1–2 y entre 8 y 14 dB en el día 3. En 4 bloques no hay música ni apenas ambiente (resto −63/−65 dB: 0:53, 5:48, 8:54, 15:01): ahí el directo se silencia del todo. Entra antes del corte en 7 de 23 bloques (J-cut de 0,2 a 5 s) y clavada al corte en 5; ver ritmo.j_l_cuts. En el gancho se interrumpe 1 s (0:09,6) para dejar oír una frase en directo."
+ },
+ "transiciones": [
+  {
+   "tipo": "Corte seco",
+   "veces": "≈ 350 de 358 cortes detectados",
+   "donde": "Todo el vídeo; también para entrar y salir de casi todos los gráficos.",
+   "ejemplos_t": [
+    "0:01,4",
+    "3:25,7",
+    "10:45,5"
+   ]
+  },
+  {
+   "tipo": "Papel arrugado (bola de papel que se despliega o se arruga, 0,2–0,4 s)",
+   "veces": 3,
+   "donde": "Solo para entrar/salir de las pantallas dibujadas sobre papel: entrada y salida de la cabecera y entrada a la lista de tareas a pantalla completa. Es la transición \"de marca\".",
+   "ejemplos_t": [
+    "0:21,9",
+    "0:26,2",
+    "1:52,0"
+   ]
+  },
+  {
+   "tipo": "Barrido con desenfoque de movimiento",
+   "veces": 2,
+   "donde": "Dentro de la cabecera (lateral, 1,0 s) y para meter la captura de la web (vertical, 0,4 s).",
+   "ejemplos_t": [
+    "0:23,4",
+    "16:03,6"
+   ]
+  },
+  {
+   "tipo": "Paneles diagonales que entran deslizándose (pantalla partida)",
+   "veces": 1,
+   "donde": "Tres paneles, uno por verbo: rescatar / rehabilitar / liberar; el primero entra en 0,3 s.",
+   "ejemplos_t": [
+    "1:14,1"
+   ]
+  },
+  {
+   "tipo": "Fundido a negro",
+   "veces": 2,
+   "donde": "Fin del día 2 (≈1 s de fundido y ≈1 s de negro antes de DÍA 3) y final del vídeo (1,8 s de fundido + 0,7 s de negro).",
+   "ejemplos_t": [
+    "18:57",
+    "24:52,9"
+   ]
+  },
+  {
+   "tipo": "Corte por tapado (acerca la cara al objetivo)",
+   "veces": 1,
+   "donde": "Fin del día 1 → DÍA 2.",
+   "ejemplos_t": [
+    "7:26–7:29,5"
+   ]
+  },
+  {
+   "tipo": "Paso a blanco y negro",
+   "veces": 3,
+   "donde": "Por corte seco; 2–4 s. Dos son flashbacks a un día anterior (19:58, 20:40); el tercero es el plano de la habitación en el house tour (13:02).",
+   "ejemplos_t": [
+    "13:02",
+    "19:58",
+    "20:40"
+   ]
+  },
+  {
+   "tipo": "Resumen de frecuencia",
+   "veces": "≈ 12 transiciones que no son corte seco en 25 min = 4,8 por cada 10 min",
+   "donde": "Concentradas en la intro (4 en los dos primeros minutos) y en los cambios de día.",
+   "ejemplos_t": []
+  }
+ ],
+ "zooms": {
+  "mediciones": [
+   {
+    "t": "0:05,7–0:07,4 (foto de la isla)",
+    "escala": "1,16→1,20",
+    "duracion_s": 1.6,
+    "tipo": "zoom lento de edición, ≈2,4 %/s. Fiable (imagen fija). El salto inicial de la curva es el fotograma de transición, no un punch-in."
+   },
+   {
+    "t": "0:22,4–0:23,3 (cabecera, panel 1)",
+    "escala": 1.0,
+    "duracion_s": 0.8,
+    "tipo": "fijo. Fiable."
+   },
+   {
+    "t": "0:24,5–0:26,1 (cabecera, panel 2)",
+    "escala": 1.0,
+    "duracion_s": 1.5,
+    "tipo": "fijo. Fiable."
+   },
+   {
+    "t": "0:41,6–0:43,3 (tarjeta de YouTube)",
+    "escala": 1.154,
+    "duracion_s": 1.6,
+    "tipo": "zoom rápido de edición, 9,6 %/s, lineal. Bastante fiable (fondo blanco), aunque el vídeo incrustado se mueve."
+   },
+   {
+    "t": "0:43,5–0:44,1 (misma tarjeta, 2º clip)",
+    "escala": 1.02,
+    "duracion_s": 0.5,
+    "tipo": "sigue el zoom a 4 %/s. Fiable."
+   },
+   {
+    "t": "1:52,6–1:57,0 (lista de tareas a pantalla completa)",
+    "escala": 1.019,
+    "duracion_s": 4.3,
+    "tipo": "zoom lento de edición, 0,44 %/s, perfectamente lineal. Fiable."
+   },
+   {
+    "t": "3:22,8–3:25,6 (b-roll bajo la lista)",
+    "escala": 0.999,
+    "duracion_s": 2.7,
+    "tipo": "fijo: el overlay de la lista no lleva zoom. Fiable."
+   },
+   {
+    "t": "12:15,9–12:29,0 (trípode, historia de Gilberto)",
+    "escala": 1.015,
+    "duracion_s": 13.0,
+    "tipo": "prácticamente fijo (0,12 %/s; el mono moviéndose en cuadro explica la deriva). Sin zoom de edición."
+   },
+   {
+    "t": "12:30,7–12:41,4 (mismo trípode)",
+    "escala": 1.003,
+    "duracion_s": 10.6,
+    "tipo": "fijo. Fiable."
+   },
+   {
+    "t": "12:28,9→12:30,7 (a ambos lados de un jump cut)",
+    "escala": 1.0,
+    "duracion_s": 0,
+    "tipo": "jump cut sin punch-in (1.152 puntos coincidentes). Fiable."
+   },
+   {
+    "t": "12:14,9→12:15,9 (primer plano → general)",
+    "escala": "0,48 (el primer plano es ×2,1)",
+    "duracion_s": 0,
+    "tipo": "cambio de tamaño de plano por corte; no se sabe si es segunda cámara o recorte."
+   },
+   {
+    "t": "16:08,4–16:10,8 y 16:11–16:17 (capturas web)",
+    "escala": "1,006 y 1,010",
+    "duracion_s": "2,3 y 5,9",
+    "tipo": "sin zoom; desplazamiento vertical de 0,19 y 0,09 alturas de pantalla (scroll de la página a ≈8 % y ≈1,6 % de alto por segundo). Fiable."
+   },
+   {
+    "t": "17:23,0–17:25,2 (miniaturas)",
+    "escala": 1.015,
+    "duracion_s": 2.1,
+    "tipo": "fijo tras la animación de entrada. Fiable."
+   },
+   {
+    "t": "18:48,9–19:01,1 (lista sobre atardecer)",
+    "escala": 1.007,
+    "duracion_s": 12.1,
+    "tipo": "sin zoom; el desplazamiento vertical de 0,31 es el scroll de la lista, no la cámara."
+   },
+   {
+    "t": "7:29,7–7:31,7 (b-roll bajo DÍA 2)",
+    "escala": 1.021,
+    "duracion_s": 1.9,
+    "tipo": "NO fiable: cámara en mano con teleobjetivo."
+   },
+   {
+    "t": "2:40–2:54 y 10:45,6–10:50,2 (a cámara)",
+    "escala": "0,96 y 0,94",
+    "duracion_s": "13,9 y 4,5",
+    "tipo": "NO fiable como zoom de edición: es él moviéndose respecto a la cámara / cámara en mano."
+   },
+   {
+    "t": "21:03,9–21:08 (b-roll bajo Examen Final)",
+    "escala": 1.035,
+    "duracion_s": 4.0,
+    "tipo": "NO fiable: cámara en mano (salto de 3 % en un fotograma)."
+   }
+  ],
+  "patron": "No hay punch-ins de edición sobre el busto parlante ni zooms lentos sobre el material de cámara: en los planos de trípode la escala medida es 1,000–1,003 y los jump cuts mantienen el encuadre. El zoom de edición se reserva para las imágenes fijas y tarjetas: lento y lineal (0,4–2,5 %/s) en lista y foto, rápido (≈10 %/s durante 1,6 s) en la tarjeta de YouTube. El dinamismo viene de cámara en mano con gran angular, cambios reales de tamaño de plano (general ↔ primer plano ×2,1) y POV. No se aprecia cámara virtual."
+ },
+ "tipografia": [
+  {
+   "tipo": "Rótulo-etiqueta del gancho (\"mono\" + flecha roja)",
+   "fuente_parecida_google": "Arimo Bold (aspecto Arial/Helvetica Bold); alternativa Inter Bold",
+   "peso": "700",
+   "tamano_rel": "altura de x 37 px = 5,1 % del alto (720 px); equivale a mayúscula ≈ 7 %",
+   "posicion": "junto al animal; en el 2º plano lo sigue con tracking",
+   "color": "blanco; flecha roja plana de ~90×80 px",
+   "borde_sombra": "sin borde ni sombra; se apoya en un foco (el resto del plano oscurecido)",
+   "entrada": "de golpe en 0:00,1; el foco funde en 0,2 s; emojis de uno en uno cada 0,1 s",
+   "salida": "corte",
+   "duracion_s": "1,3 y 1,6",
+   "ejemplos_t": [
+    "0:00,1",
+    "0:01,4"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2026-09-27_mejor-trabajo-del-mundo/rotulos/01_mono_flecha_0m00.jpg"
+  },
+  {
+   "tipo": "Título de lugar (\"la isla de los monos\")",
+   "fuente_parecida_google": "Arimo Bold",
+   "peso": "700",
+   "tamano_rel": "ascendente 89 px = 12,4 % del alto; 2 líneas; bloque de 611 px = 48 % del ancho",
+   "posicion": "centrado, tercio superior (y 4–30 %)",
+   "color": "blanco ligeramente translúcido",
+   "borde_sombra": "ninguno",
+   "entrada": "palabra a palabra sincronizada con la voz (5 palabras en 0,6 s); monos recortados suben desde abajo en 0,2 s",
+   "salida": "corte",
+   "duracion_s": 1.9,
+   "ejemplos_t": [
+    "0:05,7"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2026-09-27_mejor-trabajo-del-mundo/rotulos/03_isla_de_los_monos_0m06.jpg"
+  },
+  {
+   "tipo": "Tarjeta de dato (\"Cada año 200 000 primates de Perú son objeto de tráfico\")",
+   "fuente_parecida_google": "Arimo Bold",
+   "peso": "700",
+   "tamano_rel": "mayúscula ≈ 28 px = 3,9 % del alto; caja blanca de 705×130 px (55 % × 18 %) al final",
+   "posicion": "abajo centrada (centro vertical ≈ 80 %)",
+   "color": "texto negro sobre caja blanca; subrayado/resaltado amarillo",
+   "borde_sombra": "caja opaca, sin sombra apreciable",
+   "entrada": "presente desde el primer fotograma; la tarjeta crece ≈ 25 % en 1,3 s; el amarillo barre de izquierda a derecha en 0,3 s (0:13,0–0:13,3)",
+   "salida": "corte",
+   "duracion_s": 1.4,
+   "ejemplos_t": [
+    "0:12,7"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2026-09-27_mejor-trabajo-del-mundo/rotulos/04_dato_tarjeta_0m13.jpg"
+  },
+  {
+   "tipo": "Cabecera de serie (\"las aventurillas de ruben\" / \"edición Jungla\")",
+   "fuente_parecida_google": "lettering dibujado a mano, no es fuente; lo más cercano: Gochi Hand o Caveat Brush para el logo y Caveat para \"edición Jungla\"",
+   "peso": "logo grueso; subtítulo fino",
+   "tamano_rel": "logo ≈ 17 % del alto; \"edición Jungla\" ≈ 10 % por línea",
+   "posicion": "logo arriba a la derecha; \"edición Jungla\" a la izquierda, centrado en vertical",
+   "color": "negro sobre papel crema con mancha verde",
+   "borde_sombra": "marco fino negro dibujado",
+   "entrada": "el logo se escribe de izquierda a derecha en 0,3 s",
+   "salida": "papel arrugado",
+   "duracion_s": 4.2,
+   "ejemplos_t": [
+    "0:22,0"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2026-09-27_mejor-trabajo-del-mundo/rotulos/06_cabecera_aventurillas_0m22.jpg"
+  },
+  {
+   "tipo": "Lista de tareas manuscrita (\"Tareas\" y \"Examen Final\")",
+   "fuente_parecida_google": "manuscrita monolínea fina y redonda: Patrick Hand o Coming Soon (parecido aproximado)",
+   "peso": "400",
+   "tamano_rel": "Pantalla completa: \"Tareas\" ≈ 70 px (9,7 %), ítems con mayúscula ≈ 39 px (5,4 %), interlínea ≈ 72 px (10 %). Overlay: título ≈ 66 px (9,2 %), ítems ≈ 40 px (5,5 %), interlínea ≈ 90 px (12,5 %)",
+   "posicion": "pantalla completa: bloque centrado sobre papel crema; overlay: alineada a la izquierda con margen ≈ 3,5 % del ancho, desde arriba",
+   "color": "negro sobre crema (pantalla completa); blanco sobre vídeo oscurecido (overlay)",
+   "borde_sombra": "sin borde; título subrayado con una raya a mano; tareas hechas tachadas con raya a mano y atenuadas",
+   "entrada": "pantalla completa: papel arrugado (0,4 s); overlay: corte seco junto con el b-roll. A +1,0–1,1 s se dibuja el tachado de izquierda a derecha en 0,2 s",
+   "salida": "corte",
+   "duracion_s": "5,0 a pantalla completa; 3–5 s en overlay (9 s en 18:48)",
+   "ejemplos_t": [
+    "1:52",
+    "3:22,7",
+    "5:34",
+    "7:06",
+    "10:20",
+    "18:48",
+    "21:03,8",
+    "22:10",
+    "23:48",
+    "24:06,8"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2026-09-27_mejor-trabajo-del-mundo/rotulos/09_tareas_completa_1m54.jpg, refs/dinamicos/_analisis/2026-09-27_mejor-trabajo-del-mundo/rotulos/19_tareas_overlay_18m50.jpg, refs/dinamicos/_analisis/2026-09-27_mejor-trabajo-del-mundo/rotulos/20_examen_final_21m04.jpg"
+  },
+  {
+   "tipo": "Rótulo de día (\"DÍA 2\", \"DÍA 3\")",
+   "fuente_parecida_google": "Arimo Bold",
+   "peso": "700",
+   "tamano_rel": "mayúscula 88 px = 12,2 % del alto; ancho ≈ 27 % del ancho",
+   "posicion": "centro de la pantalla",
+   "color": "blanco",
+   "borde_sombra": "sombra suave, sin contorno",
+   "entrada": "por corte, ya puesto, sin animación",
+   "salida": "corte; se mantiene a través de un corte entre dos b-rolls",
+   "duracion_s": "≈ 4 (DÍA 2) y ≈ 2 (DÍA 3)",
+   "ejemplos_t": [
+    "7:29,5",
+    "19:01"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2026-09-27_mejor-trabajo-del-mundo/rotulos/12_dia2_7m30.jpg"
+  },
+  {
+   "tipo": "Rótulo de sección/estancia con emojis (\"house tour\", \"monillos que hacen ruido\", \"rip oídos\", \"bebedero\", \"habitación\", \"cocina\", \"almacén\", \"recepción\")",
+   "fuente_parecida_google": "Arimo Bold",
+   "peso": "700",
+   "tamano_rel": "minúsculas; ascendente 55–59 px = 7,6–8,2 % del alto (38 px = 5,3 % cuando va en 2 líneas)",
+   "posicion": "centro de la pantalla, encima del sujeto",
+   "color": "blanco, con un emoji a cada lado",
+   "borde_sombra": "sombra suave difusa, sin contorno",
+   "entrada": "en el primer fotograma tras el corte, sin animación",
+   "salida": "desaparece de golpe o con el corte",
+   "duracion_s": "2–4",
+   "ejemplos_t": [
+    "10:45,5",
+    "11:06",
+    "11:08",
+    "11:30",
+    "13:02",
+    "13:06",
+    "13:10",
+    "13:18"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2026-09-27_mejor-trabajo-del-mundo/rotulos/13_house_tour_10m46.jpg, refs/dinamicos/_analisis/2026-09-27_mejor-trabajo-del-mundo/rotulos/13b_monillos_11m06.jpg, refs/dinamicos/_analisis/2026-09-27_mejor-trabajo-del-mundo/rotulos/13c_bebedero_11m30.jpg, refs/dinamicos/_analisis/2026-09-27_mejor-trabajo-del-mundo/rotulos/13d_recepcion_13m18.jpg"
+  },
+  {
+   "tipo": "Etiqueta pequeña de nombre o comentario (\"gusi\", \"malqui\", \"sacha\", \"hola :p\")",
+   "fuente_parecida_google": "Arimo Bold",
+   "peso": "700",
+   "tamano_rel": "nombres: ascendente ≈ 18 px = 2,5 % del alto; \"hola :p\": ≈ 36 px = 5 %",
+   "posicion": "pegada al animal",
+   "color": "blanco, minúsculas",
+   "borde_sombra": "sombra suave",
+   "entrada": "de golpe",
+   "salida": "de golpe",
+   "duracion_s": "2–4",
+   "ejemplos_t": [
+    "4:06",
+    "4:12",
+    "5:08",
+    "9:24",
+    "13:16"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2026-09-27_mejor-trabajo-del-mundo/rotulos/10_etiqueta_malqui_4m12.jpg, refs/dinamicos/_analisis/2026-09-27_mejor-trabajo-del-mundo/rotulos/14_hola_p_13m16.jpg"
+  },
+  {
+   "tipo": "Subtítulo",
+   "fuente_parecida_google": "Arimo Bold",
+   "peso": "700",
+   "tamano_rel": "ascendente ≈ 36 px = 5 % del alto",
+   "posicion": "abajo centrado, centro vertical ≈ 84–85 %; 1 o 2 líneas",
+   "color": "blanco",
+   "borde_sombra": "sombra negra suave, sin caja ni contorno",
+   "entrada": "corte, frase a frase",
+   "salida": "corte",
+   "duracion_s": "1–2,5 por frase",
+   "ejemplos_t": [
+    "5:22",
+    "6:50",
+    "8:26"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2026-09-27_mejor-trabajo-del-mundo/rotulos/11_subtitulo_5m22.jpg"
+  },
+  {
+   "tipo": "Pantalla final (\"mira este vídeo\")",
+   "fuente_parecida_google": "sans fina dentro de una flecha dibujada: Nunito o Quicksand Regular (aproximado)",
+   "peso": "400",
+   "tamano_rel": "texto ≈ 3,5 % del alto; flecha ≈ 37 % del ancho",
+   "posicion": "dibujo en x 60–85 %; la flecha apunta a la izquierda",
+   "color": "texto negro, flecha verde con interior blanco, cresta roja",
+   "borde_sombra": "trazo dibujado",
+   "entrada": "corte desde negro",
+   "salida": "fin del vídeo",
+   "duracion_s": 15.5,
+   "ejemplos_t": [
+    "24:55,4"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2026-09-27_mejor-trabajo-del-mundo/rotulos/21_pantalla_final_24m58.jpg"
+  }
+ ],
+ "motion_graphics": [
+  {
+   "tipo": "Foco/viñeta sobre un sujeto",
+   "t": "0:00,1; 0:43,4",
+   "duracion_s": "1–1,5",
+   "como_entra": "funde en 0,2 s",
+   "estilo": "todo el plano oscurecido salvo un círculo difuminado sobre el mono; en 0:43 sigue al mono dentro de la tarjeta de YouTube."
+  },
+  {
+   "tipo": "Emojis decorativos",
+   "t": "0:00,7; 0:02,6; rótulos de 10:45–13:18",
+   "duracion_s": "1–4",
+   "como_entra": "en el gancho, uno cada 0,1 s; en los rótulos, fijos a ambos lados del texto",
+   "estilo": "emojis de sistema (taza, plátano, mono, destellos, gotas, cama, cocinero, manzana, campana)."
+  },
+  {
+   "tipo": "Flecha roja y signo de exclamación",
+   "t": "0:00,1; 0:01,4; 0:03,0",
+   "duracion_s": "1–1,6",
+   "como_entra": "de golpe",
+   "estilo": "flecha plana roja sin contorno, ~12 % del alto. Recorte: rotulos/02_flecha_yo_0m03.jpg."
+  },
+  {
+   "tipo": "Collage de recortes (monos recortados sobre foto de isla)",
+   "t": "0:05,6",
+   "duracion_s": 1.9,
+   "como_entra": "los recortes suben desde el borde inferior en 0,2 s",
+   "estilo": "monos recortados en fila abajo; zoom lento 2,4 %/s. Recorte: rotulos/03b_isla_completo_0m06.jpg."
+  },
+  {
+   "tipo": "Vídeo vertical sobre negro con interrogantes",
+   "t": "0:18,05",
+   "duracion_s": 3.9,
+   "como_entra": "corte; interrogantes blancos de tamaños distintos, uno nuevo cada ~0,25 s (16 en total), cada uno funde en ~0,2 s y se queda",
+   "estilo": "el clip ocupa ≈ 39 % del ancho, centrado y a toda la altura. Recorte: rotulos/05_interrogantes_vertical_0m20.jpg."
+  },
+  {
+   "tipo": "Cabecera dibujada",
+   "t": "0:22,0",
+   "duracion_s": 4.2,
+   "como_entra": "papel arrugado",
+   "estilo": "ver intro.titulo_cabecera. Recortes: rotulos/06_cabecera_aventurillas_0m22.jpg y 06b_cabecera_edicion_jungla_0m25.jpg."
+  },
+  {
+   "tipo": "Tarjeta de YouTube (vídeo anterior)",
+   "t": "0:41,5",
+   "duracion_s": 2.7,
+   "como_entra": "corte; zoom +15 % en 1,6 s",
+   "estilo": "fondo blanco puro; reproductor con esquinas redondeadas (≈ 63 % del ancho), debajo el título \"Sobreviví 7 Días en el País Más Caótico del Mundo\" y la fila de canal e iconos. Recortes: rotulos/07_tarjeta_youtube_0m42.jpg y 07b_tarjeta_youtube_foco_0m43.jpg."
+  },
+  {
+   "tipo": "Pantalla partida de 3 paneles",
+   "t": "1:14,1",
+   "duracion_s": 3.5,
+   "como_entra": "paneles con bordes diagonales que entran deslizándose de uno en uno (0,3 s el primero) al decir cada verbo",
+   "estilo": "tres vídeos a la vez sobre el plano base. Recorte: rotulos/08_pantalla_partida_1m15.jpg."
+  },
+  {
+   "tipo": "Lista de tareas (contador de progreso)",
+   "t": "1:52 (completa); 3:22, 5:34, 7:06, 10:20, 18:48, 24:07 (overlay); \"Examen Final\" 21:04, 22:10, 23:48",
+   "duracion_s": "3–9",
+   "como_entra": "papel arrugado la primera vez; después por corte seco sobre un b-roll oscurecido; el tachado se dibuja en 0,2 s un segundo después; en 18:48 la lista hace scroll hacia arriba",
+   "estilo": "manuscrita blanca alineada a la izquierda; es el hilo del vídeo: 10 apariciones, una cada ~2,5 min. Recortes: rotulos/09b_tareas_overlay_3m22.jpg y 19b_tareas_perezoso_24m07.jpg."
+  },
+  {
+   "tipo": "Colorete añadido en las mejillas",
+   "t": "7:28,8",
+   "duracion_s": 0.7,
+   "como_entra": "aparece con tracking de la cara",
+   "estilo": "dos círculos rosas difuminados; gag de menos de un segundo."
+  },
+  {
+   "tipo": "Foto en tarjeta sobre el plano",
+   "t": "12:22,8; ≈12:36; 17:29,7",
+   "duracion_s": "2,5–6",
+   "como_entra": "de golpe (1 fotograma), sin animación",
+   "estilo": "fotos del fundador sin marco (≈ 28 % × 30 % de la pantalla) en el hueco libre del plano de trípode; captura vertical de móvil con fondo negro y esquinas redondeadas (≈ 29 % × 62 %) centrada. Recortes: rotulos/15_foto_gilberto_12m24.jpg y 18_foto_pez_17m30.jpg."
+  },
+  {
+   "tipo": "Capturas de web a pantalla completa",
+   "t": "16:03,6–16:17",
+   "duracion_s": 13.5,
+   "como_entra": "barrido vertical con desenfoque (0,4 s); dentro, scroll lento y cortes secos entre 3 secciones",
+   "estilo": "la página del refugio tal cual, sin marco de navegador ni cursor. Recorte: rotulos/16_captura_web_16m08.jpg."
+  },
+  {
+   "tipo": "Miniaturas de YouTube",
+   "t": "17:22,2",
+   "duracion_s": 3.0,
+   "como_entra": "la primera crece desde un punto junto a su mano (0,6 s) mientras el vídeo de fondo se desenfoca y se cubre con un velo blanco; la segunda sale de detrás deslizándose (0,3 s)",
+   "estilo": "dos miniaturas con esquinas redondeadas (≈ 37 % del ancho cada una) con su título debajo. Recorte: rotulos/17_miniaturas_17m23.jpg."
+  },
+  {
+   "tipo": "Mapas",
+   "t": "—",
+   "duracion_s": 0,
+   "como_entra": "—",
+   "estilo": "No hay ningún mapa en este vídeo; el lugar se presenta con la foto de la isla (0:05,6) y un plano de paisaje (0:26)."
+  },
+  {
+   "tipo": "Contadores numéricos",
+   "t": "—",
+   "duracion_s": 0,
+   "como_entra": "—",
+   "estilo": "No hay contadores animados; el único dato en pantalla es la tarjeta de 0:12,7. El papel de contador lo hace la lista de tareas."
+  }
+ ],
+ "musica": {
+  "tramos_resumen": "Música en el 67 % del vídeo, desde el segundo 0; 36 tramos detectados (por percusión/bajo). Gancho 0–22 s con percusión; cabecera con otra pieza sin percusión; día 1 con música casi continua y muy baja hasta 3:37; huecos sin música en las conversaciones con cuidadores (3:37–4:24, 5:36–6:06), la noche (7:13–7:29), las cicatrices (10:22–10:45), el monólogo (15:11–16:23) y parte de la tortuga. Cambios de pista detectados en 11:04, 13:20, 14:34, 19:12 y 19:36. La reflexión final (24:11–24:52) lleva música sin percusión (ritmo −65 dB, resto −33 dB), que el detector de tramos no marca.",
+  "voz_menos_musica_db": {
+   "comprobacion": "Confirmado solo en parte: la mediana global voz−música es 12,4 dB, pero varía mucho por secciones. En el gancho, el despertar del día 2 y todo el día 3 queda en 4–8 dB; en el día 1 y casi todo el día 2, en 13–19 dB.",
+   "por_secciones_mediana_con_voz_y_musica": {
+    "gancho_0:00-0:22": "4,0 dB (voz −23, resto −28; picos del resto a −16/−18 dB en 0:04, 0:12–0:13 y 0:18)",
+    "cabecera_0:22-0:26": "2,2 dB (casi sin voz)",
+    "llegada_0:26-0:53": "18,1 dB",
+    "tour_Jair_0:53-1:45": "12,8 dB",
+    "tareas_y_dia1_1:45-3:25": "14,9–18,7 dB",
+    "bebes_y_comida_dia1_3:25-7:10": "15,7–17,8 dB",
+    "despertar_dia2_7:29-8:54": "7,7 dB",
+    "limpieza_y_medicina_8:54-10:20": "15,2 dB",
+    "house_tour_10:45-13:20": "13,5 dB",
+    "perezoso_13:20-15:01": "10,5 dB",
+    "pesca_16:23-17:45": "14,9 dB",
+    "playa_17:45-18:48": "15,6 dB",
+    "dia3_examen_19:02-21:02": "6,6 dB",
+    "dia3_monos_y_Alpa_21:02-22:09": "7,3 dB",
+    "tortuga_22:09-23:42": "7,2 dB",
+    "despedida_23:42-24:11": "11,4 dB",
+    "reflexion_24:11-24:55": "≈ 10 dB (música sin percusión)",
+    "pantalla_final": "14,4 dB"
+   },
+   "musica_sin_voz": "En los montajes sin habla la música sube a −21/−27 dB, el mismo nivel que la voz (−22 dB): 6:21–6:37 (−21/−25), 7:07–7:10 (−22), 19:11–19:21 (−21/−23). Es decir, atenuación de 10–17 dB bajo la voz el día 1 y de solo 5–10 dB el día 3.",
+   "aviso": "\"resto\" es todo lo que no es voz (música + ambiente de selva + efectos), así que en los tramos de 4–8 dB parte del nivel puede ser ambiente y golpes de sonido; en el gancho los picos coinciden con acentos, no con la base musical."
+  },
+  "cambia_por_secciones": "Sí. Pieza con percusión en el gancho; otra sin percusión en la cabecera; base discreta el día 1; cambios al empezar bloques (house tour 11:04, perezoso 13:20, día 3 19:12); música más presente y continua el día 3; pieza sin percusión para la reflexión; vuelve la percusión en la pantalla final (24:58).",
+  "a_ritmo_de_cortes": "Poco. Solo el 37 % de los cortes que caen en música coincide con un pulso y el 16 % de los cortes (59 de 358) lleva un acento de sonido. Donde más se nota es en el gancho (acentos en 0:03,0 y 0:04,1) y en los montajes del día 3 (8 cortes con acento en el minuto 19 y 6 en el 20).",
+  "silencios_intencionados": "Sí: la música se corta (no baja) para las conversaciones serias: cicatrices del cuidador (10:22–10:45), monólogo sobre tráfico de monos (15:11–16:23, 72 s sin música con el resto a −58 dB) y 4 bloques de voz en off en seco. También baja unos 10 dB en 0:08–0:10 para dejar oír la frase en directo del gancho."
+ },
+ "sfx": {
+  "por_minuto_estimado": "audio.json da 23 acentos/min de media, pero no son todos efectos: los minutos 19 y 20 (87 y 70 acentos) son la percusión de la música a volumen alto y otros muchos son ruidos de la escena. Efectos de edición deducibles con cierta seguridad: unos 2–4 por minuto en los dos primeros minutos y menos de 1 por minuto después. Cifra orientativa.",
+  "tipos": "No se han oído; se deducen de acento + imagen: golpes en la entrada de gráficos del gancho, barridos en las transiciones de papel y probablemente un trazo en los tachados de la lista.",
+  "donde": "Gancho (9 acentos en los primeros 4,2 s, coincidiendo con las entradas de \"mono\", emojis y flechas; picos del resto a −16/−18 dB en 0:04, 0:12–0:13 y 0:18), cabecera (acentos en 0:22,1 y 0:22,9) y transición a la lista (1:52,3, corte con acento).",
+  "ejemplos_t": [
+   "0:00,2–0:02,7 (uno por emoji/rótulo)",
+   "0:03,0 y 0:04,1 (cortes con acento)",
+   "0:13 (tarjeta de dato)",
+   "0:18 (vídeo vertical)",
+   "0:22,1 (papel arrugado)",
+   "1:52,3 (papel arrugado)",
+   "3:22,7 (entrada de la lista, corte con acento)"
+  ]
+ },
+ "subtitulos": {
+  "hay": true,
+  "cuando": "Solo a los cuidadores locales cuando se les entiende mal, nunca a él, y no siempre: 5:22–5:24 (2 frases), 6:50–6:57 (4 frases) y 8:26–8:42 (≈ 8 frases). Otros tramos de los mismos cuidadores van sin subtítulos (4:25–4:50, 10:20–10:45, 17:01–17:17, 22:27–22:43, 22:54–23:15). No hay ningún tramo en otro idioma. Los subtítulos corrigen y resumen lo dicho (p. ej. \"les dan miedo los que están aquí fuera\", \"hay que tratarlos a la mayoría\").",
+  "estilo": "Blanco, sans bold (Arimo/Arial Bold), ascendente ≈ 36 px = 5 % del alto, centrado abajo (centro ≈ 84–85 % del alto), sombra negra suave, sin caja; frase a frase por corte, 1–2,5 s cada una, 1 línea (2 como máximo), minúsculas. Recortes: rotulos/11_subtitulo_5m22.jpg y 11b_subtitulo_2lineas_8m30.jpg."
+ },
+ "cierre": {
+  "como_acaba": "Tras tachar la última tarea (24:07–24:09), 43 s de reflexión en voz en off (24:11–24:54) sobre 20 planos-recuerdo de 2,1 s de media; el último (él con el mono en el plano de trípode) funde a negro en 1,8 s (24:52,9–24:54,7) al acabar la frase; 0,7 s de negro.",
+  "cta": "Dos. A mitad (16:03–16:17), a cámara y con la web en pantalla: donar/apadrinar y voluntariado, \"os voy a dejar el enlace en la descripción\". Al final, en off (24:55,5–25:05): \"Si te ha gustado este vídeo, mira este otro en el que vamos a vivir 7 días con esquimales… No hay monos, pero sí que hay muchos huskies y algunos renos. Adiós.\" En la transcripción no pide suscripción ni \"me gusta\".",
+  "pantalla_final": "24:55,4–25:10,9 (15,5 s): fondo crema, a la derecha un dibujo lineal de él disfrazado de gallina sujetando una flecha verde \"mira este vídeo\" que apunta a la izquierda, donde queda libre el hueco para la tarjeta de vídeo de YouTube; el dibujo se anima a saltos (la flecha se agita, el personaje parpadea). Música con percusión a −30 dB."
+ },
+ "para_copiar": [
+  "Gancho de 20–22 s en off con la fórmula \"este es A, este es B y este soy yo [situación absurda]\", 14 planos de ~1,5 s sacados de los tres días y un gráfico cada ~4 s; meter una frase de sonido directo de 1 s en medio bajando la música 10 dB.",
+  "Cabecera de serie de 4 s DESPUÉS del gancho, con una transición propia (papel arrugado) que solo se usa para entrar y salir de las pantallas dibujadas.",
+  "Convertir el vídeo en una lista de tareas: enseñarla entera una vez a pantalla completa (5 s, minuto 1:52) y después recuperarla 3–5 s como overlay a la izquierda sobre un b-roll oscurecido, con el tachado dibujándose en 0,2 s un segundo después de entrar. Dejar una tarea sin tachar hasta el final como hilo pendiente.",
+  "Bloques de voz en off de ~10 s cada 1–2 minutos para saltar de escena, en pasado, a 4 palabras/s y acabados en gancho; entrar clavado al corte o 0,2–0,5 s antes.",
+  "Un solo tipo de letra (sans bold blanca con sombra suave) para todo lo no dibujado, en tres tamaños: 12 % del alto para DÍA N y títulos, 8 % para rótulos de sección con un emoji a cada lado, 5 % para subtítulos; siempre centrado y sin animación de entrada.",
+  "Fotos y capturas como tarjetas que aparecen de golpe en el hueco libre del plano de trípode (28–30 % del ancho), sin marco ni animación; webs a pantalla completa con scroll lento mientras sigue la voz.",
+  "Sin punch-ins sobre el busto parlante: variar con cambio real de plano (general ↔ primer plano ×2) y reservar el zoom de edición para imágenes fijas (0,4–2,5 %/s) y tarjetas (+15 % en 1,6 s).",
+  "Música: cortarla del todo en las conversaciones serias y dejarla subir al nivel de la voz en montajes de 20–35 s sin habla (planos de 2,5–3 s); bajo la voz, 13–18 dB por debajo como norma y 6–8 dB solo en el gancho y el clímax.",
+  "Flashbacks de 2–4 s en blanco y negro para recordar un personaje o un momento de un día anterior.",
+  "Subtitular solo a terceros que se entienden mal, corrigiendo la frase, en blanco al 5 % del alto.",
+  "Cierre: tachar la última tarea, 40 s de reflexión en off sobre planos-recuerdo de 2 s, fundido a negro y pantalla final dibujada con flecha hacia el vídeo recomendado, nombrando ese vídeo en la voz."
+ ],
+ "dudas": [
+  "No se ha escuchado el audio: los efectos de sonido (tipo y número) se deducen de los acentos de audio.json y de la imagen. La cifra de 23 acentos/min no equivale a efectos.",
+  "voz−música usa el \"resto\" (música + ambiente + efectos); en el día 3 parte de los 6–8 dB puede ser ambiente de selva y no solo música más alta.",
+  "Qué es voz en off y qué es directo se decidió por la transcripción y las hojas, sin escuchar; algún bloque corto (14:26, 19:55, 20:04, 22:10) puede ser directo.",
+  "Fuentes: identificación visual sobre recortes a 720p. La sans bold es de tipo Arial/Helvetica; la manuscrita de la lista y la de la pantalla final son aproximaciones.",
+  "No se sabe si los primeros planos de 0:04 y 12:10/12:14 son una segunda cámara o un recorte ×2,1 del plano general.",
+  "Origen de varios planos del gancho (0:07,5, 0:10,5, 0:14, 0:15, 0:16) localizado solo por parecido de escena y vestuario, con ±30 s de margen; los dos planos de animales iniciales no se han localizado en el desarrollo.",
+  "Tiempos de las apariciones de la lista en 5:34, 7:06, 10:20 y 22:10, de las etiquetas de nombre (4:06, 4:12, 5:08, 9:24) y de los subtítulos, tomados de hojas cada 2 s (±1 s); no se revisaron a 0,1 s. Los textos de las etiquetas pequeñas se leyeron a baja resolución.",
+  "La proporción de b-roll (43 %) sale de etiquetar a ojo celdas de 2 s; margen estimado ±8 puntos.",
+  "Jump cuts: cortes.json no detecta los de encuadre idéntico, así que el número real en los tramos de trípode es mayor que el contado.",
+  "La salida de la lista a pantalla completa (1:57,15) y la de varios overlays se dan como corte seco por las hojas; no se comprobó fotograma a fotograma.",
+  "medir_zoom.py no es fiable en planos de cámara en mano (marcados en zooms.mediciones); no se puede descartar algún zoom lento de edición sobre b-roll en mano."
+ ]
+}

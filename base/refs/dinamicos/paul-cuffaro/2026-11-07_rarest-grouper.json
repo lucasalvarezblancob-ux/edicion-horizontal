@@ -1,0 +1,1015 @@
+{
+ "video": {
+  "archivo": "refs/dinamicos/paul-cuffaro/2026-11-07_rarest-grouper.mp4",
+  "creador": "Paul Cuffaro",
+  "url": "https://www.youtube.com/watch?v=yfE2WBzp_EA",
+  "titulo": "I Bought the RAREST GROUPER in the WORLD!!",
+  "duracion": "51:15",
+  "publicado": "2026-11-07",
+  "tramo_analizado": "0:00-51:15 (dos partes)"
+ },
+ "intro": {
+  "cold_open": "Sí: tráiler de 27,0 s que arranca en frío con la frase de Carl ya empezada y subtitulada en amarillo. No hay saludo hasta 5:58.",
+  "recap": {
+   "existe": true,
+   "desde": "0:00",
+   "hasta": "0:27",
+   "n_planos": 11,
+   "s_por_plano": 2.46,
+   "de_donde_salen": [
+    {
+     "t": "0:00,0–0:02,4",
+     "origen": "20:51–20:54 (Carl: «you were the first person… to be offered that fish»), con los mismos subtítulos amarillos"
+    },
+    {
+     "t": "0:02,4–0:05,0",
+     "origen": "≈9:58–10:02 (cámara subacuática, tiburón: «Oh my gosh, dude, look at the belly on him»)"
+    },
+    {
+     "t": "0:05,0–0:06,8",
+     "origen": "≈22:35–22:43 (pez pescador: «watch this… oh my God»)"
+    },
+    {
+     "t": "0:06,8–0:11,5 (2 planos, corte interno en 10,1)",
+     "origen": "14:26–14:33 (Five Guys: «Nothing compares to a Five Guys… 10 out of 10»)"
+    },
+    {
+     "t": "0:11,5–0:17,4 (2 planos, corte en 15,35)",
+     "origen": "23:44–23:53 («Do you want to catch him? No? Okay. I trust you more than me»)"
+    },
+    {
+     "t": "0:17,4–0:18,8",
+     "origen": "≈24:13–24:15 (salpicón al meter el salabre)"
+    },
+    {
+     "t": "0:18,8–0:21,3",
+     "origen": "28:05–28:08, parte 2 («This is by far the coolest fish we have ever got»)"
+    },
+    {
+     "t": "0:21,3–0:23,6",
+     "origen": "≈18:04–18:08 (cara de asombro antes de ver el pez)"
+    },
+    {
+     "t": "0:23,6–0:27,0",
+     "origen": "≈18:10–18:14 («Oh… my gosh»); el plano acaba en el barrido de cámara hacia el acuario y se corta a negro justo antes de que se vea el pez"
+    }
+   ],
+   "frase": "Sin locución añadida: frases sueltas del propio material. Abre con «You were the first person in the United States to be offered that fish» y cierra con «Oh… my gosh» cortado antes de enseñar el pez."
+  },
+  "titulo_cabecera": "No hay título ni logo. Solo la cartela de fecha «NOVEMBER 7TH, 2026» (0:27,0–0:28,4 visible; negro hasta 0:29,2).",
+  "motion_graphics": "Solo el latido de la cartela (escala + desenfoque, 3 pulsos de ≈0,45 s) y los subtítulos amarillos del primer plano.",
+  "musica_entra_s": 1,
+  "linea_de_tiempo": [
+   {
+    "t": "0:00,0",
+    "que": "Plano 1 del tráiler; subtítulo «YOU WERE THE FIRST PERSON» (0,0–1,0), «IN THE UNITED STATES» (1,0–1,5), «TO BE OFFER THAT FISH» (1,5–2,4)"
+   },
+   {
+    "t": "0:01",
+    "que": "Entra la música (primer tramo detectado 1–8 s a −24 dB; solo 6 dB bajo la voz)"
+   },
+   {
+    "t": "0:02,4–0:27,0",
+    "que": "10 planos más a corte seco; 9 de los 10 cortes internos del tráiler coinciden con un acento de sonido (golpe de música o sonido del plano)"
+   },
+   {
+    "t": "0:16",
+    "que": "Segundo tramo de música, que sigue por debajo del bloque de merch hasta 1:22"
+   },
+   {
+    "t": "0:26,5–0:27,0",
+    "que": "Barrido rápido de la cámara (movimiento real, no transición) y corte a negro"
+   },
+   {
+    "t": "0:27,03",
+    "que": "Cartela de fecha con golpe de sonido (fondo a −16 dB en ese segundo); acentos en 27,28 / 27,70 / 28,12 / 28,56 s (cada ≈0,43 s), al ritmo del latido"
+   },
+   {
+    "t": "0:28,5–0:29,2",
+    "que": "Negro limpio 0,7 s"
+   },
+   {
+    "t": "0:29,2",
+    "que": "Corte seco a mitad de un movimiento (cámara subiendo desde el pantalón): «Those are the new PC joggers». Empieza el bloque de merch, no el vlog"
+   },
+   {
+    "t": "0:42–0:59",
+    "que": "B-roll de producto sobre la voz: gorras (0,96 s), dron de la finca (1,0 s), mesa de premios (1,6 s), PS5 (1,6 s), cámara de acción (3,2 s), Switch (2,4 s)"
+   }
+  ]
+ },
+ "cierre": {
+  "como_acaba": "Epílogo en la nave dos días después (48:46,5): confirma que el pez vive, lo enseña desde arriba (48:53–49:09), repite el dato estrella («one of six in the entire country»), anuncia que el estanque tendrá su propio episodio (49:53 «stay tuned… full episode», 50:01 «I hate to hit you with a part two thing») y se despide a cámara en un plano de 14,8 s: «Love you guys. All right, peace out» con saludo de mano (50:54–50:57).",
+  "cta": "Tres en el tramo, todos hablados a cámara y sin gráfico: 29:11–29:22 (pausa, like, suscríbete, merch y sorteo, justo antes de la revelación), 48:41–48:46 (suscríbete y like) y 50:25–50:52 (merch, sorteo de viaje a la finca y código de descuento, único con rótulo: «CASPER» 50:45,2–50:48,2). Más petición de comentarios para el nombre del pez en 30:40–30:48.",
+  "pantalla_final": "50:57,2 cartón verde «THANKS FOR WATCHING» (2,4 s) → 50:59,7 «DON'T FORGET TO LIKE THE VIDEO» con pulgar (2,3 s) → 51:02,1 «AND PLEASE SUBSCRIBE» (2,6 s) → 51:04,66 pantalla ilustrada «Watch Next» con hueco para un vídeo (8,14 s, hasta 51:12,80) → 0,2 s de barras de color → 1,8 s de cabra gritando (hasta 51:14,8). Música a -20 dB sin voz de 50:56 a 51:13. Total del cierre gráfico: 17,6 s."
+ },
+ "parte_1_0-26": {
+  "resumen": "Primera mitad (0:00–26:00) de un vlog de 51 min. Se repite el patrón del creador: tráiler en frío de 27,0 s con 11 planos del propio vídeo y su sonido original (2,46 s/plano), cartela de fecha blanca sobre negro que late con la música (27,0–29,2 s), casi todo corte seco (213 de 214 cortes detectados) y ningún zoom de edición comprobable. Lo que cambia: justo tras la cartela mete un bloque de merchandising/sorteo de 5 min 28 s (0:29–5:57) con ritmo de anuncio (mediana 2,2 s/plano, b-roll de producto, rótulos y cartela negra de cierre), y el vlog «de verdad» no empieza hasta 5:58. El vlog en sí va mucho más lento (10–14 s/plano de media, tomas de hasta 64 s) y sostiene el interés con promesas verbales («later in the video», 7 en 26 min), cambio de localización cada 1–6 min, dos montajes a música sin voz (11:54–12:09 y 17:27–17:39) y la revelación del pez aplazada hasta 18:15, hecha en una única toma continua de 64 s con la música entrando de golpe tras unos 20 s casi en silencio. Hay más rótulos que en otros vídeos suyos (unas 18 apariciones, casi todas en merch y patrocinio) y subtítulos amarillos solo para la voz lejana del dueño de la tienda (4 momentos). Música de cama a una mediana de 14 dB bajo la voz (15–20 dB en merch y nave; 8–13 dB dentro de locales, donde probablemente se cuela música ambiente). Proporción de b-roll sobre voz ≈7 % en el muestreo (35 % en el arranque del bloque de merch, ≈5 % en el vlog).",
+  "estructura": [
+   {
+    "desde": "0:00",
+    "hasta": "0:27",
+    "parte": "Tráiler en frío",
+    "que_pasa": "11 planos de momentos posteriores con su sonido directo: Carl diciendo que es el primero de EE. UU. (subtitulado), tiburón con barriga, pez pescador comiendo, batido en Five Guys, «do you want to catch him?», salpicón al pescarlo, «the coolest fish we have ever got», reacción al verlo por primera vez. El pez blanco solo se intuye al fondo del primer plano (0:00–0:02) y en el salpicón (0:17)."
+   },
+   {
+    "desde": "0:27",
+    "hasta": "0:29",
+    "parte": "Cartela de fecha",
+    "que_pasa": "«NOVEMBER 7TH, 2026» blanco sobre negro, 3 latidos; 0,7 s de negro limpio antes del siguiente plano."
+   },
+   {
+    "desde": "0:29",
+    "hasta": "5:58",
+    "parte": "Bloque de merch y sorteo (autopromoción)",
+    "que_pasa": "Paul en el almacén de merch: joggers, gorras, sudadera, camisetas una a una (1:07–3:28), libro de Lola (3:35–4:23), URL y CTA (4:28–4:42), sorteo de viaje + PS5 + cámara + Switch (4:42–5:39), agradecimiento y «back to the video» (5:56). Intercala dos sesiones de grabación (con gorra = discurso a cámara; sin gorra = enseñando prendas). Cierra con cartela negra URL + «Every item purchased = 1 Entry» (5:57,4–5:58,3)."
+   },
+   {
+    "desde": "5:58",
+    "hasta": "11:08",
+    "parte": "Planteamiento en la nave de peces",
+    "que_pasa": "«What's going on, fros»: historia del mensaje de Carl, enseña el vídeo del pez en la pantalla del móvil (6:22–6:29), repaso de la tina, el Neptune grouper de 15.000 $ (8:18–8:31), el bumblebee normal como comparación (8:42–9:02), preparación del agua (9:04–9:27), tiburón con barriga (9:45–10:20) y promesas de lo que viene."
+   },
+   {
+    "desde": "11:08",
+    "hasta": "12:09",
+    "parte": "Obra del recinto de tortugas",
+    "que_pasa": "Exterior: explica el nuevo recinto, flashback de 5 s al vídeo anterior de la inundación (11:23,5–11:28,6, rotulado «LAST VIDEO»), chiste rotulado «TORTOISES FLY?» (11:48) y montaje a música de la obra con time-lapse final (11:54–12:09)."
+   },
+   {
+    "desde": "12:09",
+    "hasta": "16:14",
+    "parte": "Mukbang en Five Guys",
+    "que_pasa": "Pedido en mostrador (toma de 48 s), máquina de refrescos, puntuación del batido (14:07–14:40), hamburguesas; avisa dos veces del patrocinador «more on them in just a little bit» (15:03–15:16)."
+   },
+   {
+    "desde": "16:14",
+    "hasta": "17:06",
+    "parte": "Llegada a la tienda + patrocinio",
+    "que_pasa": "2 planos de situación del rótulo de Fintastic (16:14–16:18), lectura de Packdraw delante de la tienda con capturas de la web y apertura de un pack en el móvil (16:19–17:06), 3 rótulos de oferta."
+   },
+   {
+    "desde": "17:06",
+    "hasta": "18:03",
+    "parte": "Entrada a la tienda y montaje",
+    "que_pasa": "Saludo a Carl, «Enjoy a bunch of beautiful fish» (17:25) y montaje sin voz de 5 planos de peces/corales a ritmo de música (17:27,5–17:38,9); después camina por el pasillo hacia el fondo (toma de 25 s)."
+   },
+   {
+    "desde": "18:03",
+    "hasta": "19:08",
+    "parte": "Revelación del pez (clímax del tramo)",
+    "que_pasa": "Una sola toma de 64,4 s: reacción de Paul antes de ver el pez (18:04–18:14), giro de cámara al pez blanco (18:15) con entrada de música, y sigue en la misma toma con el tarpón y el pez globo."
+   },
+   {
+    "desde": "19:08",
+    "hasta": "22:14",
+    "parte": "Conversación con Carl y datos",
+    "que_pasa": "Negocia el pez globo, anuncia el estanque que comprará («you'll see it later in the video», 19:35), primer plano largo del pez (19:56–20:29, 33 s), Carl explica el origen (subtítulos amarillos), «one of six in the United States», dirección de la tienda en pantalla (22:10)."
+   },
+   {
+    "desde": "22:14",
+    "hasta": "23:39",
+    "parte": "Paseo por la tienda",
+    "que_pasa": "Peces pescadores comiendo (22:15–22:49), otros acuarios, mantis; funciona de respiro antes de la captura."
+   },
+   {
+    "desde": "23:39",
+    "hasta": "26:00",
+    "parte": "Captura y embolsado",
+    "que_pasa": "«Back to our grouper»: Carl lo pesca (24:02–24:35, salpicón a 24:14), pez en la caja (24:36–24:54), embolsado mientras Paul y Carl charlan; el gancho siguiente llega en 26:15 «wait till you see what I'm about to do» (ya en la parte 2)."
+   }
+  ],
+  "ritmo": {
+   "s_por_plano": {
+    "tramo_completo_0_26min": "215 planos, media 7,26 s, mediana 3,24 s, máx 64,4 s",
+    "trailer_0:00-0:27": "11 planos, media 2,46 s (1,3–3,8 s)",
+    "merch_0:29-5:58": "≈91 planos, media ≈3,8 s, mediana ≈2,2 s; ráfagas de producto de 0,5–1,5 s en 5:15–5:30",
+    "nave_6:00-11:54": "33 planos, media 10,4 s, mediana 7,0 s, máx 31,8 s",
+    "montaje_obra_11:54-12:09": "10 planos en 14,8 s = 1,5 s/plano",
+    "five_guys_12:09-16:14": "17 planos, media ≈14 s, máx 48,3 s",
+    "patrocinio_16:14-17:06": "12 planos, media 4,3 s",
+    "montaje_tienda_17:24-17:39": "6 planos, media 2,4 s",
+    "revelacion_18:03-19:08": "1 plano de 64,4 s",
+    "tienda_19:08-26:00": "33 planos, media 12,5 s, máx 58,1 s"
+   },
+   "jump_cuts": "Sí, pero solo en el bloque de merch: discurso a cámara con gorra troceado con cambio de encuadre/distancia entre frases (p. ej. 0:29–0:47: cortes en 36,5, 42,3, 43,2; 4:28–4:45; 5:04–5:14). En el vlog casi no hay: se prefiere dejar la toma larga con la cámara en mano girando entre personas y peces.",
+   "j_l_cuts": "Escasos. J-cut claro en 16:14,6: «We are here. Fintastic's behind me…» empieza 0,4 s antes del corte y suena 3,2 s sobre los dos planos de situación del rótulo antes de verle hablar (16:17,8). Mismo recurso en 6:14,6–6:17,5 (voz continua sobre el rótulo de la tienda). El resto de cambios de escena son corte seco de imagen y sonido a la vez (5:58,6; 11:08; 12:09,5; 23:39). En el tráiler cada plano lleva su propio audio sincronizado, sin solapes.",
+   "match_cuts": "No se han visto. Lo más cercano: los dos planos del rótulo de Fintastic (cerca → abierto) encadenados en 16:15→16:17 y reutilizados idénticos en 6:14."
+  },
+  "broll": {
+   "proporcion_sobre_voz": "≈7 % del tiempo con voz (≈36 s de ≈500 s). Método: muestreo de un minuto de cada tres (min 0, 3, 6, 9, 12, 15, 18, 21, 24) sobre las hojas de 2 s y la lista de cortes; se cuenta como b-roll cada plano insertado que no es la toma sincronizada de quien habla (los giros de cámara hacia el pez o la comida dentro de la misma toma NO cuentan). Por minuto: min 0 → 10,8 s de 30,8 s con voz fuera del tráiler (35 %); min 3 → 4,0 s (7 %); min 6 → 2,9 s (5 %); min 9 → 16,4 s (27 %); min 12 → 0 s sobre voz (más 9,6 s de montaje sin voz); min 15 → 1,8 s (3 %); min 18, 21 y 24 → 0 s. Es decir: bloque de merch alto, vlog ≈5 %, y dentro de la tienda prácticamente cero porque el «b-roll» lo hace la propia cámara girando al pez.",
+   "origenes": {
+    "mismo_video": "Mayoría en el vlog: planos subacuáticos de la tina y del estanque grabados con otra cámara en el mismo rodaje (9:01–9:17; 9:56–10:03; 10:13–10:17), el rótulo de Fintastic adelantado desde 16:14 a 6:14, insertos de comida (15:27).",
+    "recursos": "En merch: bodegones de producto grabados aparte (gorras 0:42; mesa de premios 0:50 y 5:24; tarjetas regalo 1:02; AirPods 5:22; firma de libros 4:00–4:09; páginas del libro 3:55 y 4:12–4:16), dron de la finca (0:47, 4:46–4:48) y del hotel (4:49–4:51), bocetos de los diseños (1:44), capturas de la web de Packdraw (16:23–16:27).",
+    "stock_archivo": "Archivo propio: beso a la nutria (3:51,6–3:53,8), ganadores anteriores en la finca (5:00–5:03), 3 planos del vídeo anterior de la inundación (11:23,5–11:28,6) con su sonido y etiqueta «LAST VIDEO». No se aprecia stock de terceros."
+   },
+   "duracion_tipica_s": "Merch: 1–3 s por inserto (0,96–3,2 s medidos). Vlog: 3–9 s (subacuáticos 3,2 / 3,3 / 8,7 s; rótulo de tienda 2,9 s).",
+   "vuelta_a_camara": "Siempre a corte seco, a mitad de frase, sin transición ni efecto; en merch vuelve a un encuadre distinto del anterior (más cerca o más lejos), lo que disimula el salto.",
+   "ejemplos": [
+    "0:47,7–0:48,7 dron de la finca al decir «a trip to the PC farm»",
+    "0:50,5–0:59,3 cuatro insertos seguidos de premios nombrándolos uno a uno",
+    "4:49,0–4:51,4 dron del hotel con rótulo «2 NIGHTS, 3 DAYS @ JUPITER BEACH RESORT»",
+    "6:14,6–6:17,5 rótulo de Fintastic al nombrar la tienda",
+    "9:01,5–9:16,7 tres planos de la tina (cenital + 2 subacuáticos) mientras cuenta que la vació y la rehízo",
+    "11:23,5–11:28,6 flashback al vídeo de la inundación"
+   ]
+  },
+  "voz_en_off": {
+   "uso": "No hay voz en off grabada aparte en el tramo. Toda la voz es directo a cámara; cuando hay b-roll, la voz que suena es la de la toma de cámara que continúa por debajo.",
+   "guion": "Improvisado y coloquial; solo el bloque de merch y la lectura del patrocinador (16:19–17:06) siguen un guion de puntos (producto → oferta → URL/código → CTA).",
+   "mezcla": "Voz a −19,3 dB de media; música de cama por debajo (ver música). En los dos montajes sin voz la música sube a −18/−22 dB, al nivel que tenía la voz."
+  },
+  "transiciones": [
+   {
+    "tipo": "Corte seco",
+    "veces": "213 de 214 cortes detectados en 26 min (≈82 por cada 10 min; 8,2 cortes/min de media, pero 11–25/min en merch y 1–5/min en la tienda)",
+    "donde": "Todo el tramo, incluidos los cambios de localización",
+    "ejemplos_t": [
+     "5:58,6",
+     "11:08",
+     "12:09,5",
+     "16:14,9",
+     "23:39"
+    ]
+   },
+   {
+    "tipo": "Corte a negro con cartela",
+    "veces": 2,
+    "donde": "Final del tráiler (fecha) y final del bloque de merch (URL)",
+    "ejemplos_t": [
+     "0:27,0–0:29,2",
+     "5:57,4–5:58,6"
+    ]
+   },
+   {
+    "tipo": "Time-lapse / saltos sobre plano fijo",
+    "veces": 1,
+    "donde": "Cierre del montaje de la obra: mismo encuadre fijo con la valla avanzando (cortes en 12:07,6, 12:08,6 y 12:09,5; el detector marca aquí su única «transición» de 0,13 s, que es el cambio rápido del time-lapse, no un fundido)",
+    "ejemplos_t": [
+     "12:06–12:09,5"
+    ]
+   },
+   {
+    "tipo": "Barrido de cámara real como bisagra",
+    "veces": "≥3",
+    "donde": "El plano termina en un barrido en mano y se corta en el borrón; no es efecto de edición",
+    "ejemplos_t": [
+     "0:26,5",
+     "9:15",
+     "12:40"
+    ]
+   },
+   {
+    "tipo": "Fundidos, whips o zooms de transición añadidos",
+    "veces": 0,
+    "donde": "No se ha visto ninguno en 0–26 min",
+    "ejemplos_t": []
+   }
+  ],
+  "zooms": {
+   "mediciones": [
+    {
+     "t": "0:06,9–0:10,0",
+     "escala": 0.969,
+     "duracion_s": 3.0,
+     "tipo": "cámara apoyada en mesa (batido); −1 %/s = deriva, sin zoom de edición. Fiable"
+    },
+    {
+     "t": "0:42,4–0:43,2",
+     "escala": 1.001,
+     "duracion_s": 0.7,
+     "tipo": "bodegón de gorras: fijo. Fiable"
+    },
+    {
+     "t": "0:50,6–0:52,1",
+     "escala": 0.913,
+     "duracion_s": 1.4,
+     "tipo": "mesa de premios: alejamiento suave −8,7 % con frenada; parece retroceso de cámara en mano, no zoom digital (no concluyente)"
+    },
+    {
+     "t": "0:29,4–0:36,3",
+     "escala": 0.536,
+     "duracion_s": 6.8,
+     "tipo": "cámara en mano subiendo y acercándose: cifra NO fiable"
+    },
+    {
+     "t": "4:37,9–4:44,4",
+     "escala": 1.178,
+     "duracion_s": 6.4,
+     "tipo": "busto con cámara en mano: oscila 0,91–1,21; NO fiable, sin punch-in"
+    },
+    {
+     "t": "4:49,1–4:51,3",
+     "escala": 0.929,
+     "duracion_s": 2.1,
+     "tipo": "dron del hotel: avance del dron + salto de medida; NO fiable"
+    },
+    {
+     "t": "6:00–6:12",
+     "escala": 1.364,
+     "duracion_s": 11.9,
+     "tipo": "selfie andando por la nave: NO fiable"
+    },
+    {
+     "t": "12:09,7–12:17",
+     "escala": 1.059,
+     "duracion_s": 7.2,
+     "tipo": "cámara en mano entrando a Five Guys: NO fiable"
+    },
+    {
+     "t": "16:15,1–16:17,7",
+     "escala": 0.554,
+     "duracion_s": 2.5,
+     "tipo": "rótulo de Fintastic: la cámara se aleja y gira (cambia la perspectiva): movimiento físico, no zoom de edición"
+    },
+    {
+     "t": "17:10–17:24",
+     "escala": 1.065,
+     "duracion_s": 13.9,
+     "tipo": "en mano dentro de la tienda: NO fiable"
+    },
+    {
+     "t": "18:17–18:30",
+     "escala": 0.08,
+     "duracion_s": 12.9,
+     "tipo": "toma de la revelación, cámara persiguiendo al pez: NO fiable"
+    },
+    {
+     "t": "20:00–20:28",
+     "escala": 0.342,
+     "duracion_s": 28.0,
+     "tipo": "primer plano del pez pegado al cristal, en mano: NO fiable"
+    },
+    {
+     "t": "22:35–22:48",
+     "escala": 0.456,
+     "duracion_s": 12.9,
+     "tipo": "pez pescador: estable (0,96–1,00) durante 1,4 s y luego recolocación de cámara; sin zoom de edición"
+    }
+   ],
+   "patron": "Se confirma el patrón: ningún punch-in ni zoom lento de edición en 0–26 min. Los dos planos realmente fijos medidos dan 1,00 y 0,97. Todo el dinamismo es físico: gran angular en mano, acercarse/alejarse del sujeto, giros rápidos de cámara y cambios de distancia entre cortes en el bloque de merch."
+  },
+  "tipografia": [
+   {
+    "tipo": "Cartela de fecha",
+    "fuente_parecida_google": "Dela Gothic One / Unbounded Black (palo seco ancha y muy negra, «unicase»: la e minúscula mezclada con mayúsculas)",
+    "peso": "black",
+    "tamano_rel": "alto de letra ≈5–7 % del alto de pantalla según el latido; ancho del texto 50–75 %",
+    "posicion": "centrada, algo por encima del centro (y≈47 %)",
+    "color": "blanco sobre negro",
+    "borde_sombra": "ninguno; desenfoque de movimiento durante el latido",
+    "entrada": "aparece al corte ya creciendo; 3 latidos de escala (≈0,45 s cada uno) sincronizados con los golpes de la música",
+    "salida": "desaparece al tercer latido (≈0:28,45); negro 0,7 s",
+    "duracion_s": 1.4,
+    "ejemplos_t": [
+     "0:27,0"
+    ],
+    "recorte": "refs/dinamicos/_analisis/2026-11-07_rarest-grouper/rotulos/fecha.jpg"
+   },
+   {
+    "tipo": "Subtítulo de voz lejana",
+    "fuente_parecida_google": "la misma familia de la cartela (Dela Gothic One)",
+    "peso": "black",
+    "tamano_rel": "alto de letra ≈5 %; una línea, 2–5 palabras por bloque",
+    "posicion": "centrado abajo (base en y≈92 %)",
+    "color": "amarillo puro",
+    "borde_sombra": "sombra/halo negro suave",
+    "entrada": "corte seco, bloque a bloque siguiendo la frase",
+    "salida": "corte seco",
+    "duracion_s": "0,5–1,6 por bloque",
+    "ejemplos_t": [
+     "0:00,0",
+     "20:24,5",
+     "20:51,8",
+     "21:01,5"
+    ],
+    "recorte": "refs/dinamicos/_analisis/2026-11-07_rarest-grouper/rotulos/sub_coldopen.jpg"
+   },
+   {
+    "tipo": "Dato/precio y ofertas del patrocinador",
+    "fuente_parecida_google": "misma familia (Dela Gothic One)",
+    "peso": "black",
+    "tamano_rel": "«$15,000» ≈7,5 %; ofertas a 2 líneas ≈9 % por línea; «use code» pequeño (≈3 %) sobre «CUFFARO» (≈8 %)",
+    "posicion": "centrado en el tercio inferior (y≈70–88 %)",
+    "color": "blanco con la cifra o la palabra clave en verde neón",
+    "borde_sombra": "contorno negro grueso + sombra",
+    "entrada": "aparición seca (pop en ≤0,25 s)",
+    "salida": "corte seco; «$15,000» sale cayendo hacia abajo (8:27,75)",
+    "duracion_s": "1,4–3,4",
+    "ejemplos_t": [
+     "8:26,0–8:27,8 «$15,000»",
+     "16:58,75–17:00,1 «use code CUFFARO»",
+     "17:00,25–17:03,6 «5% BONUS ON ANY DEOSIT UP TO $200» (con errata)",
+     "17:03,75–17:06,1 «UP TO $4000 A DAY»"
+    ],
+    "recorte": "refs/dinamicos/_analisis/2026-11-07_rarest-grouper/rotulos/bonus.jpg"
+   },
+   {
+    "tipo": "Rótulos del bloque de merch (URL, CTA, mecánica)",
+    "fuente_parecida_google": "Anton / Bebas Neue (condensada, mayúsculas)",
+    "peso": "bold",
+    "tamano_rel": "URL ≈10 %; «1 ITEM = 1 ENTRY» ≈15 %; ancho 70–90 % de pantalla",
+    "posicion": "centrados, tercio inferior o centro",
+    "color": "blanco",
+    "borde_sombra": "contorno negro + sombra dura; «1 ITEM = 1 ENTRY» con contorno verde oliva",
+    "entrada": "aparición seca",
+    "salida": "corte seco o relevo directo por el siguiente rótulo (5:37,5)",
+    "duracion_s": "1,2–3,9",
+    "ejemplos_t": [
+     "4:37,75–4:38,9 «PAULCUFFAROBRAND.COM»",
+     "4:39,0–4:40,4 «LINK IN DESCRIPTION!»",
+     "5:34,0–5:37,4 «1 ITEM = 1 ENTRY»",
+     "5:37,5–5:41,4 «PAULCUFFAROBRAND.COM»"
+    ],
+    "recorte": "refs/dinamicos/_analisis/2026-11-07_rarest-grouper/rotulos/url.jpg"
+   },
+   {
+    "tipo": "Aclaraciones en merch",
+    "fuente_parecida_google": "Dela Gothic One (blanca, una línea a todo el ancho) y Oswald / Bebas Neue (hotel)",
+    "peso": "black / medium",
+    "tamano_rel": "≈4–4,5 %",
+    "posicion": "centrado abajo (y≈90–93 %)",
+    "color": "blanco",
+    "borde_sombra": "sombra negra",
+    "entrada": "aparición seca",
+    "salida": "corte seco",
+    "duracion_s": "1,7–2,4",
+    "ejemplos_t": [
+     "4:49,0–4:51,4 «2 NIGHTS, 3 DAYS @ JUPITER BEACH RESORT»",
+     "5:12,25–5:13,9 «EVERYTHING ANNOUNCED FIRST WEEK OF JANUARY!»"
+    ],
+    "recorte": "refs/dinamicos/_analisis/2026-11-07_rarest-grouper/rotulos/anuncio.jpg"
+   },
+   {
+    "tipo": "Texto legal",
+    "fuente_parecida_google": "Arimo / Roboto (tipo Arial)",
+    "peso": "regular",
+    "tamano_rel": "≈2 %",
+    "posicion": "centrado en el borde inferior (y≈96 %)",
+    "color": "blanco semitransparente",
+    "borde_sombra": "ninguno",
+    "entrada": "seca",
+    "salida": "seca",
+    "duracion_s": "≈2,5–3,3",
+    "ejemplos_t": [
+     "1:04,25–1:07,5",
+     "5:27,0–5:29,5 «no purchase necessary, read giveaway terms & conditions on website»"
+    ],
+    "recorte": "refs/dinamicos/_analisis/2026-11-07_rarest-grouper/rotulos/legal.jpg"
+   },
+   {
+    "tipo": "Cartela negra de cierre de merch",
+    "fuente_parecida_google": "Anton (URL) + línea secundaria condensada",
+    "peso": "bold",
+    "tamano_rel": "URL ≈9 %; segunda línea ≈5 %",
+    "posicion": "centrada",
+    "color": "blanco; segunda línea blanca con contorno verde",
+    "borde_sombra": "sin sombra sobre negro",
+    "entrada": "corte seco desde el plano",
+    "salida": "corte a negro 0,3 s y corte seco al vlog",
+    "duracion_s": 0.9,
+    "ejemplos_t": [
+     "5:57,4–5:58,3"
+    ],
+    "recorte": "refs/dinamicos/_analisis/2026-11-07_rarest-grouper/rotulos/cartela_merch.jpg"
+   },
+   {
+    "tipo": "Etiqueta de archivo",
+    "fuente_parecida_google": "Dela Gothic One",
+    "peso": "black",
+    "tamano_rel": "≈6 %",
+    "posicion": "esquina superior izquierda",
+    "color": "blanco semitransparente",
+    "borde_sombra": "ninguno",
+    "entrada": "con el corte",
+    "salida": "con el corte",
+    "duracion_s": 5.1,
+    "ejemplos_t": [
+     "11:23,5–11:28,6 «LAST VIDEO»"
+    ],
+    "recorte": "refs/dinamicos/_analisis/2026-11-07_rarest-grouper/rotulos/flood.jpg"
+   },
+   {
+    "tipo": "Rótulo-chiste y dirección",
+    "fuente_parecida_google": "Dela Gothic One",
+    "peso": "black",
+    "tamano_rel": "≈4 %",
+    "posicion": "abajo, centrado o bajo el gesto",
+    "color": "magenta («TORTOISES FLY?»), naranja (dirección, 2 líneas)",
+    "borde_sombra": "contorno/sombra oscuros",
+    "entrada": "seca",
+    "salida": "seca",
+    "duracion_s": "0,9 y 3,4",
+    "ejemplos_t": [
+     "11:48,75–11:49,6",
+     "22:10,5–22:13,9 «3305 NW MAIN AVE, JENSEN BEACH, FL 34957»"
+    ],
+    "recorte": "refs/dinamicos/_analisis/2026-11-07_rarest-grouper/rotulos/direccion.jpg"
+   }
+  ],
+  "motion_graphics": [
+   {
+    "tipo": "Latido de la cartela de fecha",
+    "t": "0:27,0",
+    "duracion_s": 1.4,
+    "como_entra": "al corte, escalando a ritmo de la música",
+    "estilo": "texto blanco sobre negro con desenfoque de movimiento"
+   },
+   {
+    "tipo": "Logo animado del patrocinador (Packdraw)",
+    "t": "15:06,25",
+    "duracion_s": 1.9,
+    "como_entra": "aparece sobre el plano a la altura del pecho al nombrar la marca",
+    "estilo": "logo morado/rosa con icono, semitransparente al entrar y salir"
+   },
+   {
+    "tipo": "Capturas de pantalla de la web del patrocinador a pantalla completa",
+    "t": "16:23,4–16:27,6",
+    "duracion_s": 4.2,
+    "como_entra": "corte seco; dos capturas seguidas",
+    "estilo": "grabación de pantalla sin marco"
+   },
+   {
+    "tipo": "Mapas, contadores, flechas, recortes",
+    "t": "—",
+    "duracion_s": 0,
+    "como_entra": "—",
+    "estilo": "no hay ninguno en 0–26 min; el vídeo del pez recibido por mensaje se enseña grabando la pantalla del móvil con la cámara (6:22–6:29), no con un inserto gráfico"
+   }
+  ],
+  "musica": {
+   "tramos_resumen": "Música detectada en el 73 % del tramo (30 tramos). 0:01–0:08 a −24 dB y 0:16–1:22 (tráiler + arranque de merch); cama casi continua en merch (1:39–5:58) y nave (5:59–11:40) a −35/−37 dB; montaje de obra 11:54–12:42 a −27,5 dB (−18 dB sin voz); tramos sueltos en Five Guys; montaje de tienda 17:05–17:46 (−22 dB sin voz); revelación 18:12–19:09 a −28 dB; 19:15–20:35; sin música 20:35–22:12 mientras Carl explica el origen; 22:51–23:56; captura 24:13–25:01; 25:17–25:50. Cambios de pista detectados en 0:40, 5:50, 17:24, 23:30, 24:34 y 25:32.",
+   "voz_menos_musica_db": "Mediana 14,0 dB en el tramo (vídeo entero 15,5). Merch y nave: 15–20 dB (0:16–1:22: 12,6; 1:39–5:58: 15,5–19,7; 6:00–11:40: 15–18, con un tramo a 23,7). Dentro de locales 8–13 dB (Five Guys 10–13; revelación 8,5; 19:15–20:35: 10,4; 25:17: 8,0): ahí la medida mezcla la música ambiente del local, así que no es comparable.",
+   "cambia_por_secciones": "Sí: una pista para tráiler/merch, otra desde 5:50 para la nave, pista con más pegada para cada montaje (11:54 y 17:24) y entrada nueva en la revelación (18:12–18:15).",
+   "a_ritmo_de_cortes": "Solo en los montajes y en la cartela. Montaje de tienda: los 6 cortes (17:27,55 / 29,92 / 32,32 / 34,12 / 37,16 / 38,89) caen sobre un acento de la música (pulso de 0,60 s; planos de 4, 4, 3, 5 y 3 pulsos). Montaje de obra: 7 de 10 cortes a menos de 0,15 s de un acento. En el resto no: en el tramo el 29 % de los cortes coincide con un acento (63 de 214).",
+   "silencios_intencionados": "Sí, el más claro antes de la revelación: tras el montaje la música se apaga (17:46) y de 17:55 a 18:12 el fondo queda a ≈−50 dB, solo pasos y voz («I didn't know he was that big»); la música entra de golpe a −16/−17 dB en 18:15, justo cuando la cámara enseña el pez. También sin música 1:22–1:39 (chiste de probarse la sudadera), 4:03–4:30, 14:07–14:46 (veredicto del batido) y 20:35–22:12 (explicación de Carl)."
+  },
+  "sfx": {
+   "por_minuto_estimado": "≈0–1 por minuto (estimación baja; el detector da 24 acentos/min pero casi todos son pulsos de música o golpes del sonido directo)",
+   "tipos": "Probables: golpe grave al entrar la cartela de fecha; «caja registradora» o campanilla con «$15,000»; golpes suaves al entrar algunos rótulos de merch. No hay whooshes asociables a transiciones porque no hay transiciones.",
+   "donde": "Cartelas y rótulos de dato; el resto es sonido directo (salpicones, máquina de refrescos, sierra en la obra) dejado alto.",
+   "ejemplos_t": [
+    "0:27,0 (fondo a −16 dB al corte a la cartela)",
+    "8:25,9–8:26,2 (dos acentos al aparecer «$15,000», fondo −24 dB)",
+    "4:37,5 y 5:37,5 (acento al entrar la URL)",
+    "11:23,3 (acento al entrar el flashback)"
+   ]
+  },
+  "subtitulos": {
+   "hay": true,
+   "cuando": "Solo cuando habla Carl (dueño de la tienda), que está lejos del micro y con ruido de bombas de acuario: 0:00–0:02,4 (tráiler), 20:24,5–20:26,3 («IT'S A BUMBLEBEE / YELLOWFIN HYBRID»), 20:51,75–20:54,0 («YOU WERE THE FIRST PERSON / IN THE UNITED STATES / TO BE OFFER THAT FISH») y 21:01,5–21:03,1 («I THINK MAYBE 6 CAME OVER»). Se subtitulan únicamente las frases-dato, no todo lo que dice (20:29–20:48 queda sin subtitular). La voz de Paul nunca se subtitula.",
+   "estilo": "Amarillo puro, misma fuente negra ancha de la cartela, una línea de 2–5 palabras, centrado abajo (y≈92 %), alto de letra ≈5 %, sombra negra, cambio de bloque a corte seco siguiendo el habla; con erratas («OFFER» por «OFFERED»)."
+  },
+  "para_copiar": [
+   "Tráiler en frío de 25–27 s con 10–11 planos de 1,3–3,8 s y sonido directo, que empieza con la frase de más valor («el primero del país») y termina cortando a negro justo antes de enseñar lo prometido.",
+   "No enseñar el objeto estrella a pantalla completa en el tráiler: aquí solo se intuye al fondo y en un salpicón; la primera vista limpia llega en 18:15.",
+   "Cartela de fecha de 1,4 s que late con la música + 0,7 s de negro: funciona como cabecera barata y marca el paso del tráiler al contenido.",
+   "Revelación en una sola toma larga (64 s): cara de reacción primero (10 s), giro de cámara al objeto después, y la música entrando en el giro tras unos 20 s casi en silencio.",
+   "Montajes de respiro de 11–15 s sin voz, planos de 1,5–2,4 s cortados sobre el pulso de la música, anunciados por una frase («Enjoy a bunch of beautiful fish») y colocados justo antes del momento fuerte.",
+   "Promesas verbales cada 3–4 min («more on that later in the video», «you'll see it later», «I'll show you why later») y aviso del patrocinador 70 s antes de la lectura.",
+   "Cambiar de sitio cada 1–6 min en la primera parte (almacén → nave → jardín → restaurante → tienda) y dejar el tramo largo sin cambio (9 min) para donde está el clímax.",
+   "Subtitular solo la voz lejana y solo las frases-dato, en amarillo y por bloques de 2–5 palabras; el resto de la voz se deja limpia.",
+   "Reutilizar un plano de situación del propio vídeo (rótulo de la tienda) como b-roll cuando se nombra el sitio 10 min antes de llegar.",
+   "Flashback al vídeo anterior de 5 s con su sonido y la etiqueta «LAST VIDEO» en la esquina para dar contexto sin explicarlo.",
+   "Rótulos de dato con la cifra en verde neón y el resto en blanco con contorno negro, 1,5–3,5 s, aparición seca.",
+   "Si hay autopromoción larga, separarla con cartela de entrada y de salida y darle ritmo propio (2 s/plano, insertos de producto de 1–3 s al nombrar cada cosa); ojo: aquí retrasa el inicio real del vlog a 5:58."
+  ],
+  "dudas": [
+   "Efectos de sonido: no se han podido oír; se deducen de acentos y niveles. No se puede asegurar qué sonido acompaña a la cartela ni a «$15,000».",
+   "Animación exacta de entrada/salida de los rótulos: revisada a 0,25 s; parecen apariciones secas, pero un pop de 2–3 fotogramas no se distinguiría. La caída de «$15,000» se ve en un solo fotograma.",
+   "Fuente exacta de la cartela y los subtítulos: identificada solo por parecido (ancha, negra, unicase).",
+   "El alejamiento de 0:50,6–0:52,1 (−8,7 %) puede ser movimiento de cámara o zoom digital; parece físico.",
+   "La diferencia voz−música dentro de Five Guys y de la tienda incluye música ambiente y ruido de bombas; el nivel real de la música añadida ahí no se puede aislar.",
+   "medir_zoom.py no es fiable en 9 de los 13 planos medidos por ser cámara en mano; la ausencia de zooms de edición se apoya en los planos fijos y en la revisión visual de las hojas.",
+   "Las correspondencias del tráiler con el minuto de origen son por coincidencia de imagen y frase en hojas de 2 s (±2 s); el plano de 0:18,8 se ha comprobado en 28:05–28:08.",
+   "La transcripción sitúa «what's» en 11:54,5, antes del montaje; por imagen, la frase del mukbang empieza tras el corte de 12:09,5 (probable error de tiempos de la transcripción).",
+   "Proporción de b-roll: muestreo de 9 minutos con resolución de 2 s; margen de error estimado ±3 puntos.",
+   "Los límites de música proceden de la detección de batería+bajo: una pista sin percusión podría no haberse detectado en los huecos señalados como silencio."
+  ]
+ },
+ "parte_2_26-51": {
+  "resumen": "Segunda mitad de un vlog de 51 min: salida de la tienda, llegada a casa, revelación y suelta del mero leucístico (clímax en 29:29–30:35, a los 3,5 min de empezar el tramo) y, a partir de ahí, 20 minutos sostenidos con una segunda trama (recoger un tanque de 720 galones y construirle un soporte en el porche) más un epílogo «dos días después». Se repite el patrón del creador: 133 cortes en 25 min, TODOS secos (0 fundidos, 0 zooms de edición), 11,3 s por plano de media (mediana 6,8 s; 23 planos de más de 20 s y uno de 85 s). En todo el tramo hay UN solo rótulo (el código de descuento «CASPER», 3 s, pequeño y pegado a la pared) y ningún subtítulo. La música de cama suena el 70 % del tiempo a unos 14 dB bajo la voz (mediana) y solo sube a -17/-21 dB en cinco montajes cortos sin voz y en un interludio de 66 s. El interés se sostiene con ganchos HABLADOS («the video ain't over yet», «the moment we've all been waiting for», «back to pond build»), cambios de localización cada 1–4 min, desvíos de animales (tortugas, nutrias) y humor con los obreros, no con recursos de posproducción. El b-roll por corte es escaso (≈8 % del tiempo con voz); lo habitual es que la cámara en mano panee al objeto dentro del mismo plano (≈18 %). Cierre idéntico a otros vídeos: despedida a cámara, tres cartones verdes de ~2,4 s, «Watch Next» de 8,1 s y una coletilla de 2 s.",
+  "estructura": [
+   {
+    "desde": "26:00",
+    "hasta": "27:23",
+    "parte": "Salida de la tienda",
+    "que_pasa": "Despedida de Carl en Fintastic Aquariums: anuncia el plan de convertir el salón en estanque de 15.000 galones (gancho hablado 26:15 «wait till you see what I'm about to do»); sacan la caja al aparcamiento y la suben a la pick-up. Un plano de 45,2 s (26:02,9–26:48,1) en el que el cámara panea a la caja en vez de cortar."
+   },
+   {
+    "desde": "27:23",
+    "hasta": "27:48",
+    "parte": "Montaje de carga y viaje (a música)",
+    "que_pasa": "25 s, 11 planos: precintar la caja, giro brusco de cámara dentro de plano (27:28–27:31), «Our groupers loaded up, time to head home» a cámara, descarga en la finca. No se ve el trayecto: la elipsis de 40 min se resuelve con 4 planos."
+   },
+   {
+    "desde": "27:48",
+    "hasta": "29:23",
+    "parte": "Llegada a la nave y preparación",
+    "que_pasa": "«And he's home». A cámara: «el pez más cool en 12 años de vídeos». Abre la caja; primer vistazo del pez dentro de la bolsa (28:21–28:37, 16,5 s, aún velado). Arrastra la caja al estanque. Inserto de 2,9 s de la red (28:58,6). CTA de suscripción/like/merch a cámara 29:11–29:22 justo ANTES de la revelación."
+   },
+   {
+    "desde": "29:23",
+    "hasta": "31:22",
+    "parte": "Clímax: revelación y suelta del pez",
+    "que_pasa": "29:23 «without a net». 29:29,5 corte a primerísimo plano (GoPro en mano) del pez saliendo de la bolsa; 29:32,7–29:41,8 lo sostiene ante la cámara (9 s); 29:44,9 corte a cámara submarina dentro del estanque (21,3 s y luego 24,3 s). Bautizo «Casper» y petición de comentarios (30:37–30:48). Más submarina 30:49–31:08."
+   },
+   {
+    "desde": "31:22",
+    "hasta": "35:28",
+    "parte": "Explicación y charla en la nave",
+    "que_pasa": "Cambio de fondo (31:21,9) para dar contexto: híbrido bumblebee×yellowfin, fotos en el móvil (31:35–31:43, el cámara encuadra la pantalla), inserto de un mero en acuario oscuro (31:27–31:29,4) y del bumblebee (32:08–32:11,7). Planos larguísimos de charla con Ty (49,5 s y 85,3 s, el más largo del vídeo, 33:15–34:41). Cierra con gancho hablado 35:18: «the video ain't over yet… it's actually three hours away»."
+   },
+   {
+    "desde": "35:28",
+    "hasta": "36:34",
+    "parte": "Interludio a música: recoger el tanque en Plant City",
+    "que_pasa": "66 s grabados por otra persona (Uncle Nick) con otra cámara: tanque de fibra de 720 galones, vendedor Clinton, tanque cargado en la pick-up. Música a nivel de montaje (-17/-21 dB) durante TODO el bloque, incluso bajo las voces."
+   },
+   {
+    "desde": "36:34",
+    "hasta": "40:44",
+    "parte": "En casa: llega el tanque y plan de obra",
+    "que_pasa": "Corte seco a «It's home» (36:34,5; otro día, camiseta blanca). Agradece a Nick, presenta a Hector y a su hermano, enseña el salón vacío (37:58), explica el plan en el porche, desvío de 45 s a las tortugas y el varano (38:57–39:42), vuelve a la obra («bad day to be a two by six», 5 s solo música 39:54–39:58)."
+   },
+   {
+    "desde": "40:44",
+    "hasta": "44:10",
+    "parte": "Construcción del soporte",
+    "que_pasa": "«Time-lapse of a frame build» dicho a cámara (40:44) → 3,0 s de time-lapse real (40:47,5–40:50,5) + planos de detalle a música (martillo, taladro). Luego comedia: él atornilla, clase de español con Hector (41:27–41:58), pregunta al móvil cuánto pesan 720 galones (42:14–42:38), broma de la paga (42:46–43:36), presenta a Edgar."
+   },
+   {
+    "desde": "44:10",
+    "hasta": "44:51",
+    "parte": "Desvío: el camino de grava",
+    "que_pasa": "«So yesterday, off camera…»: flashback SOLO hablado (sin rótulo ni imágenes de archivo); recorre el camino en un plano de 33,3 s. Cierra con «all right, back to pond build» (44:49)."
+   },
+   {
+    "desde": "44:51",
+    "hasta": "46:46",
+    "parte": "Medidas, tanque y mosquitera",
+    "que_pasa": "«The moment we've all been waiting for» (44:51): mide soporte (63,5 pulgadas) y tanque (53), prueba el peso, quita la mosquitera del porche y explica la filtración (plano fijo sentado 46:18,9–46:45,8, 26,9 s)."
+   },
+   {
+    "desde": "46:46",
+    "hasta": "47:53",
+    "parte": "Desvío: nutrias",
+    "que_pasa": "«What's a video without an otter»: da de comer a las nutrias; un solo plano de 47,6 s (47:05,4–47:53) con la cámara en su mano apuntando a los animales mientras explica la dieta."
+   },
+   {
+    "desde": "47:53",
+    "hasta": "48:46",
+    "parte": "Montaje: el tanque sube al soporte + CTA 2",
+    "que_pasa": "47:53–48:04 cuatro planos a música sin voz de cómo meten el tanque; reacción («that's the perfect height»); imagina el resultado; 48:41–48:46 segundo CTA («make sure you're subscribed… hit the like button»)."
+   },
+   {
+    "desde": "48:46",
+    "hasta": "50:57",
+    "parte": "Epílogo dos días después y despedida",
+    "que_pasa": "Corte seco a la nave (48:46,5): «Walked in here and the fish is alive. It's been two days». Planos del pez desde arriba, resumen («one of six in the country»), anuncia parte 2 del estanque (49:53–50:13), merch + sorteo + código de descuento rotulado (50:45), despedida «Love you guys… peace out» con saludo (50:56)."
+   },
+   {
+    "desde": "50:57",
+    "hasta": "51:15",
+    "parte": "Cartones y pantalla final",
+    "que_pasa": "Tres cartones verdes (2,4 + 2,3 + 2,6 s), pantalla «Watch Next» de dibujos (8,14 s), barras de color (0,2 s) y coletilla de una cabra gritando (1,8 s)."
+   }
+  ],
+  "ritmo": {
+   "s_por_plano": {
+    "tramo_completo_26:00-51:15": {
+     "planos": 134,
+     "media": 11.3,
+     "mediana": 6.8,
+     "p10": 1.9,
+     "p90": 26.8,
+     "max": 85.3,
+     "menos_de_1s": 8,
+     "mas_de_20s": 23
+    },
+    "por_parte": {
+     "Salida de la tienda": 13.8,
+     "Montaje de carga y viaje (a música)": 2.3,
+     "Llegada a la nave y preparación": 13.6,
+     "Clímax: revelación y suelta del pez": 9.9,
+     "Explicación y charla en la nave": 24.6,
+     "Interludio a música: recoger el tanque en Plant City": 16.6,
+     "En casa: llega el tanque y plan de obra": 11.9,
+     "Construcción del soporte": 9.0,
+     "Desvío: el camino de grava": 20.5,
+     "Medidas, tanque y mosquitera": 8.8,
+     "Desvío: nutrias": 22.3,
+     "Montaje: el tanque sube al soporte + CTA 2": 8.9,
+     "Epílogo dos días después y despedida": 14.5,
+     "Cartones y pantalla final": 2.9
+    },
+    "nota": "Calculado con cortes.json filtrado a t>=1560 s. Los momentos fuertes NO se montan más rápido: la revelación va con planos de 9, 21 y 24 s; lo único rápido son los montajes a música (≈2,3 s/plano en 27:23–27:48; ≈3 s/plano en 47:53–48:04)."
+   },
+   "jump_cuts": "Pocos y sin disimular: como casi todo es cámara en mano que sigue a la acción, los cortes dentro de una misma charla cambian de encuadre (p. ej. 29:17,1 y 29:23,1 durante el CTA, mismo fondo desplazado; 34:40,7→34:43,4; 49:16,1→49:19,5→49:36,3). No hay punch-in para taparlos. Estimación: 10–15 en 25 min (≈0,5/min).",
+   "j_l_cuts": "No demostrables. 103 de los 127 cortes del cuerpo (81 %) caen con la voz sonando a menos de 0,25 s, pero es porque hablan sin parar; el audio parece ir pegado a su imagen. Excepciones claras de voz que sigue sobre otra imagen (inserto): 28:58,6–29:01,5 (red), 29:44,9–30:06 y 30:10–30:34 (submarina con su voz en directo desde fuera del agua), 31:27–31:29,4 y 32:08–32:11,7 (meros).",
+   "match_cuts": "Ninguno deliberado. Lo más parecido: 29:41,8→29:44,9→submarina, tres ángulos seguidos de la misma acción de soltar el pez (cámara del ayudante → GoPro a ras de agua → cámara sumergida)."
+  },
+  "broll": {
+   "proporcion_sobre_voz": {
+    "valor": "26 % del tiempo con voz muestra otra cosa que a quien habla; solo 8 % es b-roll insertado por corte, el 18 % restante es la propia cámara en mano paneando al objeto dentro del plano",
+    "metodo": "Muestreo de un minuto de cada tres (min 26, 29, 32, 35, 38, 41, 44, 47, 50) sobre las hojas de 2 s (30 celdas/min). Se cuentan las celdas con voz (transcripción) y, de ellas, las que no muestran a la persona que habla; se cruzan con cortes.json para separar «inserto por corte» de «paneo dentro del plano».",
+    "detalle_por_minuto": {
+     "26": "2/30 (paneo a la caja)",
+     "29": "10/30 (insertos: red, pez en bolsa, GoPro, submarina)",
+     "32": "10/30 (2 inserto bumblebee + 8 paneos al estanque/mesa de billar)",
+     "35": "4/30 (planos del tanque con voz del cámara)",
+     "38": "3/30 (paneos salón/perro)",
+     "41": "5/30 (detalles de taladro)",
+     "44": "10/30 (paneos al camino de grava y cinta métrica)",
+     "47": "22/26 (nutrias; un solo plano POV de 47,6 s)",
+     "50": "2/28 (paneo al estanque)"
+    },
+    "total": "68 de 264 celdas con voz; 21 por corte, 47 por paneo"
+   },
+   "origenes": {
+    "mismo_video": "Casi todo: segunda cámara simultánea (GoPro en mano y cámara sumergida en el estanque) y planos del mismo momento. Los insertos de los meros (31:27 y 32:08) son planos de acuario grabados aparte, sin rótulo.",
+    "recursos": "Bloque de 66 s grabado por un tercero (Uncle Nick) con otra cámara en Plant City (35:28–36:34). Pantalla del móvil con fotos de internet (31:35–31:43) grabada en directo, no captura.",
+    "stock_archivo": "Ninguno."
+   },
+   "duracion_tipica_s": "Insertos por corte de 2,5–3,7 s (2,9 / 3,2 / 2,5 / 3,7 s); la submarina es la excepción con 21,3 y 24,3 s seguidos.",
+   "vuelta_a_camara": "Siempre por corte seco al mismo plano de cámara en mano; sin transición.",
+   "ejemplos": [
+    {
+     "t": "28:58,6-29:01,5",
+     "que": "primer plano de la mano en la red del estanque sobre «Get ready for the real moment here»"
+    },
+    {
+     "t": "29:29,5-29:32,7",
+     "que": "GoPro dentro de la bolsa: primer plano del pez sobre «Oh my gosh»"
+    },
+    {
+     "t": "29:44,9-30:06,1",
+     "que": "cámara submarina: el pez entra al agua y nada; su voz sigue desde fuera"
+    },
+    {
+     "t": "31:27,0-31:29,4",
+     "que": "mero en acuario oscuro mientras dice «it's a bumblebee yellowfin hybrid»"
+    },
+    {
+     "t": "32:08,0-32:11,7",
+     "que": "mero bumblebee «which you guys know»"
+    },
+    {
+     "t": "47:05-47:53",
+     "que": "nutrias comiendo mientras explica la dieta: no es inserto, es un único plano POV"
+    }
+   ]
+  },
+  "voz_en_off": {
+   "uso": "Ninguna voz en off grabada aparte en el tramo. Todo es sonido directo: a cámara, o hablando desde detrás de la cámara mientras enseña (POV).",
+   "guion": "Improvisado. Las transiciones de bloque se dicen en voz alta y hacen de rótulo de capítulo: «Our groupers loaded up, time to head home» (27:31), «And he's home» (27:49), «the video ain't over yet» (35:18), «All right, we're here to pick up the tank» (35:28), «It's home» (36:35), «time-lapse of a frame build» (40:44), «back to pond build» (44:49), «The moment we've all been waiting for» (44:51), «What's a video without an otter» (46:45), «It's been two days» (48:53).",
+   "mezcla": "Voz en torno a -19 dB (mediana por segundo -19,3) constante en todos los minutos; la música queda 9–26 dB por debajo según el tramo (mediana 13,9 dB)."
+  },
+  "transiciones": [
+   {
+    "tipo": "corte seco",
+    "veces": 133,
+    "donde": "todo el tramo, incluidos todos los cambios de localización y de día (27:48,5 llegada; 35:28,4 Plant City; 36:34,5 casa otro día; 48:46,5 dos días después)",
+    "ejemplos_t": [
+     "27:48,5",
+     "35:28,4",
+     "36:34,5",
+     "48:46,5"
+    ],
+    "por_10_min": 52.7
+   },
+   {
+    "tipo": "fundido / encadenado / barrido",
+    "veces": 0,
+    "donde": "cortes.json no marca ninguna transición con duración en el tramo y las hojas a 0,1 s de 35:28 y 48:46 lo confirman",
+    "ejemplos_t": []
+   },
+   {
+    "tipo": "glitch/distorsión entre cartones finales",
+    "veces": 3,
+    "donde": "solo en el cierre: entre cartón 1 y 2 (50:59,3–50:59,7), entre 2 y 3 (51:01,5–51:02,1) y salida del 3 (51:04,0–51:04,6, con ruido tipo TV)",
+    "ejemplos_t": [
+     "50:59,5",
+     "51:02,0",
+     "51:04,3"
+    ]
+   },
+   {
+    "tipo": "barras de color (0,2 s) como separador",
+    "veces": 1,
+    "donde": "51:12,8, entre «Watch Next» y la coletilla de la cabra",
+    "ejemplos_t": [
+     "51:12,8"
+    ]
+   },
+   {
+    "tipo": "aceleración (time-lapse)",
+    "veces": 1,
+    "donde": "40:47,5–40:50,5, plano general de los obreros montando el marco, anunciado de palabra",
+    "ejemplos_t": [
+     "40:47,5"
+    ]
+   }
+  ],
+  "zooms": {
+   "mediciones": [
+    {
+     "t": "35:36-35:45",
+     "escala": 0.993,
+     "duracion_s": 8.9,
+     "tipo": "fijo (cámara casi inmóvil; fiable)"
+    },
+    {
+     "t": "46:24,5-46:45",
+     "escala": 0.992,
+     "duracion_s": 20.4,
+     "tipo": "fijo (cámara apoyada; oscila 0,95–1,14 por su brazo delante del objetivo; fiable el valor final)"
+    },
+    {
+     "t": "29:33,2-29:41,4",
+     "escala": 0.942,
+     "duracion_s": 8.1,
+     "tipo": "sin zoom de edición; -0,7 %/s por pequeño movimiento de la cámara y del pez (poco fiable)"
+    },
+    {
+     "t": "29:02-29:16",
+     "escala": 0.826,
+     "duracion_s": 13.9,
+     "tipo": "cámara en mano del ayudante; NO fiable"
+    },
+    {
+     "t": "36:09-36:33",
+     "escala": 0.861,
+     "duracion_s": 23.9,
+     "tipo": "cámara en mano con paneos; NO fiable"
+    },
+    {
+     "t": "30:35-30:48,5",
+     "escala": 0.444,
+     "duracion_s": 13.4,
+     "tipo": "él se mueve delante del objetivo; NO fiable (salto 0,34 por movimiento del sujeto)"
+    },
+    {
+     "t": "49:41-50:11",
+     "escala": 1.776,
+     "duracion_s": 29.9,
+     "tipo": "cámara en mano, él se acerca al objetivo; NO fiable"
+    },
+    {
+     "t": "50:43-50:56,5",
+     "escala": 0.949,
+     "duracion_s": 13.4,
+     "tipo": "cámara en mano en la despedida; NO fiable"
+    },
+    {
+     "t": "28:01-28:20",
+     "escala": 2.22,
+     "duracion_s": 18.9,
+     "tipo": "cámara en mano que baja a la caja; NO fiable"
+    },
+    {
+     "t": "47:08-47:50",
+     "escala": 0.035,
+     "duracion_s": 41.9,
+     "tipo": "POV con nutrias; medida rota por el movimiento, NO fiable"
+    }
+   ],
+   "patron": "Ningún zoom ni punch-in de edición detectado en 25 min. En los dos únicos planos casi fijos la escala es 0,99. Todo el dinamismo es físico: gran angular en mano, la cámara se acerca al objeto o él se acerca al objetivo, y la cámara sumergida. medir_zoom.py da saltos falsos en casi todos los planos por ser cámara en mano."
+  },
+  "tipografia": [
+   {
+    "tipo": "dato/código de descuento («CASPER»)",
+    "fuente_parecida_google": "Lilita One (redondeada y pesada, con la «e» en forma de minúscula; parece la misma familia que los rótulos de la primera mitad; duda)",
+    "peso": "black",
+    "tamano_rel": "altura de letra ≈2,5 % del alto de pantalla (≈18 px en 720p); ancho total ≈7 % del ancho",
+    "posicion": "arriba a la derecha (x≈88–97 %, y≈27 %), sobre el conducto del techo, anclado al fondo (se desplaza con la cámara)",
+    "color": "blanco",
+    "borde_sombra": "sombra/halo gris suave, sin contorno negro",
+    "entrada": "aparece en 50:45,2 entrando con el movimiento del fondo",
+    "salida": "sale de cuadro con el movimiento de cámara hacia 50:48,2",
+    "duracion_s": 3.0,
+    "ejemplos_t": [
+     "50:45,2-50:48,2"
+    ],
+    "recorte": "rotulos_p2/rotulo_codigo_casper.jpg (fotograma completo: rotulos_p2/full_3046.jpg; tira a 0,1 s: detalle_p2/n_casper_tira.jpg)"
+   },
+   {
+    "tipo": "cartones finales («THANKS FOR WATCHING» / «DON'T FORGET TO LIKE THE VIDEO» / «AND PLEASE SUBSCRIBE»)",
+    "fuente_parecida_google": "Teko o Bebas Neue (condensada geométrica de esquinas redondeadas)",
+    "peso": "semibold/bold",
+    "tamano_rel": "palabra principal ≈22–40 % del alto de pantalla (FOR ≈40 %, LIKE ≈37 %, SUBSCRIBE ≈22 %); línea secundaria ≈8–15 %",
+    "posicion": "centrado (cartón 1), centro-izquierda con icono de pulgar a la derecha (2), centro-izquierda (3)",
+    "color": "blanco sobre verde plano (#1FC83F aprox.); pulgar blanco con puño naranja y contorno gris oscuro",
+    "borde_sombra": "ninguno",
+    "entrada": "corte + distorsión glitch con aberración cromática de ~0,3 s",
+    "salida": "la misma distorsión glitch",
+    "duracion_s": 2.4,
+    "ejemplos_t": [
+     "50:57,2",
+     "50:59,7",
+     "51:02,1"
+    ],
+    "recorte": "rotulos_p2/cierre_montaje.jpg (y carton1_thanks.jpg, carton2_like.jpg, carton3_subscribe.jpg)"
+   },
+   {
+    "tipo": "«Watch Next» (pantalla final)",
+    "fuente_parecida_google": "Anton o Passion One (grotesca muy pesada)",
+    "peso": "black",
+    "tamano_rel": "≈6 % del alto",
+    "posicion": "arriba a la derecha, sobre el hueco blanco para el vídeo recomendado (x 80–99 %, y 28–52 %)",
+    "color": "blanco",
+    "borde_sombra": "contorno negro grueso",
+    "entrada": "animada: cae letra a letra hacia 51:07,0–51:07,4",
+    "salida": "corte",
+    "duracion_s": 5.5,
+    "ejemplos_t": [
+     "51:07,2-51:12,8"
+    ],
+    "recorte": "rotulos_p2/watch_next.jpg"
+   }
+  ],
+  "motion_graphics": [
+   {
+    "tipo": "cartones verdes animados (plantilla)",
+    "t": "50:57,2-51:04,7",
+    "duracion_s": 7.4,
+    "como_entra": "corte seco desde el saludo; entre cartones, glitch de ~0,3 s",
+    "estilo": "fondo verde plano, texto blanco condensado, icono de pulgar; idéntico a otros vídeos del canal"
+   },
+   {
+    "tipo": "pantalla final ilustrada «Watch Next»",
+    "t": "51:04,7-51:12,8",
+    "duracion_s": 8.14,
+    "como_entra": "corte; el dibujo de Paul con palo selfie entra desde la izquierda (51:05,0–51:06,0), luego los animales (pavo, cerdo, gallo, vaca, cabra) aparecen uno a uno hasta 51:07,3 y cae el letrero",
+    "estilo": "ilustración de granja tipo dibujo animado, hueco blanco con borde negro para la tarjeta de YouTube"
+   },
+   {
+    "tipo": "barras de color + coletilla",
+    "t": "51:12,8-51:14,8",
+    "duracion_s": 2.0,
+    "como_entra": "corte",
+    "estilo": "0,2 s de barras de TV y 1,8 s de vídeo real de una cabra gritando"
+   },
+   {
+    "tipo": "mapas, contadores, flechas, recortes",
+    "t": "-",
+    "duracion_s": 0,
+    "como_entra": "-",
+    "estilo": "No hay ninguno en el tramo (búsqueda automática de texto blanco contorneado a 2 fps en 26:00–50:57: sin resultados; el código «CASPER» se localizó a ojo)."
+   }
+  ],
+  "musica": {
+   "tramos_resumen": "Música en el 70 % del tramo (1.058 de 1.515 s), en 40 tramos. Cama casi continua bajo la voz en los bloques de acción (26:52–29:26 a -30,5 dB; 29:44–32:00 a -33 dB; 37:19–39:38 a -36 dB; 40:37–43:08 a -33/-38 dB; 44:35–46:44 a -29/-30 dB). Sin música (o inaudible, por debajo de -44 dB) en las charlas largas: 33:00–35:13, 36:50–37:19, 43:57–44:35, 47:09–47:52 (nutrias) y casi todo el epílogo 49:35–50:47. Sube a primer plano en: 27:33–27:38 (-19/-22 dB), 35:28–36:34 (interludio Plant City, -17/-21 dB durante 66 s), 39:54–39:58 (-18 dB, 5 s), 40:47–40:50 (time-lapse, -17/-18 dB, 3 s), 47:53–48:01 (-18/-20 dB, 8 s) y cartones finales 50:56–51:13 (-20 dB).",
+   "voz_menos_musica_db": {
+    "mediana_tramo": 13.9,
+    "rango_habitual": "9–20 dB",
+    "charlas_tranquilas": "20–31 dB (casi inaudible)",
+    "interludio_35:28-36:34": -3.5,
+    "nota": "En el interludio la música va 3,5 dB POR ENCIMA de las voces (del cámara y del vendedor), que quedan como ambiente: es la gran diferencia respecto al patrón."
+   },
+   "cambia_por_secciones": "Sí: cambios de pista detectados en 30:38, 35:30 (entrada del interludio) y 42:48; además la música entra y sale con los bloques (corta con «It's home» en 36:34–36:35; reentra en 29:44 con la submarina tras dejar la revelación casi sin música).",
+   "a_ritmo_de_cortes": "No de forma demostrable: 43 % de cortes sobre pulso en el vídeo entero (dato de audio.json, compatible con azar). En el montaje 27:23–27:38 los cortes van a 0,5–3 s sin patrón regular.",
+   "silencios_intencionados": "La revelación (29:26–29:44) va sin música detectable (componente rítmico por debajo de -40 dB; lo que suena es agua, plástico y sus exclamaciones); la música vuelve en 29:44 al entrar el pez al agua. También sin música el momento serio «life or death if I walk in and this thing is not doing well» (34:50–35:13) y el desvío de las nutrias."
+  },
+  "sfx": {
+   "por_minuto_estimado": "≈0 en el cuerpo (no se aprecian efectos añadidos); 3–5 en los 18 s del cierre",
+   "tipos": "Probables glitch/whoosh en los cambios de cartón y ruido de TV en las barras de color; grito de cabra final (sonido del propio clip).",
+   "donde": "Solo cierre. audio.json da 26,6 acentos/min en el tramo, pero coinciden con golpes de obra (martillo, taladro 40:50–41:25), agua, risas y el pulso de la música cuando sube (p. ej. acentos cada ~0,3 s en 40:47,8–40:53,8), no con cortes: solo 34 % de los cortes tienen acento.",
+   "ejemplos_t": [
+    "50:59,5",
+    "51:02,0",
+    "51:04,3",
+    "51:12,8",
+    "51:13,0"
+   ]
+  },
+  "subtitulos": {
+   "hay": false,
+   "cuando": "Nunca en 26:00–51:15. No se subtitula ni la voz lejana y tapada por música del vendedor Clinton (35:36–36:02), ni el diálogo en español/spanglish con Hector (41:27–41:58), ni las voces de fondo de los obreros.",
+   "estilo": "-"
+  },
+  "para_copiar": [
+   "Poner el CTA de suscripción pegado al clímax y ANTES de él (29:11–29:22, el pez sale de la bolsa 8 s después): quien quiere ver el pez aguanta los 11 s.",
+   "Revelar en tres ángulos encadenados por corte seco y sin música: detalle en mano (3 s) → plano sosteniéndolo ante cámara (9 s) → cámara ya sumergida esperando al pez (21 s). La música entra solo cuando el pez toca el agua.",
+   "Tras el clímax, abrir una segunda trama con un gancho hablado explícito («the video ain't over yet… it's three hours away», 35:18) y cortar en seco a la nueva localización.",
+   "Decir en voz alta las transiciones en lugar de rotularlas («time to head home», «it's home», «back to pond build», «it's been two days»): cero rótulos de capítulo en 25 min.",
+   "Resolver las elipsis (viajes, obra) con montajes muy cortos a música alta sin voz: 5–25 s, planos de 1–3 s, música a -18/-20 dB que vuelve a bajar a -30/-35 dB en cuanto habla.",
+   "Anunciar el time-lapse a cámara y que dure solo 3 s, seguido de 3–4 detalles a velocidad normal.",
+   "Meter un desvío de 45–70 s con animales cada ~8 min (tortugas 38:57, nutrias 46:45) y cerrarlo con una frase de vuelta al tema.",
+   "En vez de b-roll por corte, panear la cámara en mano al objeto mientras se sigue hablando (18 % del tiempo con voz) y reservar el inserto por corte para ~3 s de detalle.",
+   "Código de descuento como rótulo pequeño «escondido» y anclado al fondo durante 3 s («somewhere on the screen») para que el espectador lo busque.",
+   "Epílogo «X días después» de ~2 min que confirma el resultado, promete la parte 2 y enlaza merch antes de los cartones (3 × ~2,4 s) y un «Watch Next» de 8 s."
+  ],
+  "dudas": [
+   "Efectos de sonido: no se pueden oír; se deducen de audio.json y casi todos los acentos son sonido directo. Los whoosh/glitch del cierre son probables, no confirmados.",
+   "J/L cuts: no se pueden distinguir de cortes con voz continua porque hablan sin pausas y los tiempos de palabra de la transcripción no tienen precisión suficiente.",
+   "Fuente del rótulo «CASPER» y de los cartones: identificación aproximada a ojo sobre copia 720p.",
+   "No se sabe de cuándo son los insertos de los meros (31:27 y 32:08) ni qué pez es exactamente el de 31:27; no llevan rótulo.",
+   "El instante exacto del cambio de cartón 2→3 no lo detecta cortes.json (transición glitch); se ha fijado en 51:02,1 a ojo con hoja a 0,25 s.",
+   "El rótulo «CASPER» parece anclado (tracking) al fondo, pero con una copia a 720p y 3 s de duración no se puede descartar que sea un simple desplazamiento lateral.",
+   "medir_zoom.py solo es fiable en 2 planos del tramo (cámara casi inmóvil); en el resto mide el movimiento de la cámara en mano.",
+   "La búsqueda automática de rótulos (texto blanco fino junto a negro, 2 fps) no ve rótulos pequeños sin contorno: no detectó «CASPER». Podría haber algún otro rótulo pequeño y breve que tampoco se aprecie en las hojas de 2 s a 320 px.",
+   "Los límites de los tramos de música de menos de -40 dB son poco fiables (separación con demucs); «sin música» significa «no detectable»."
+  ]
+ }
+}

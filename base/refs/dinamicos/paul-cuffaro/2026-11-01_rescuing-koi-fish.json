@@ -1,0 +1,560 @@
+{
+ "video": {
+  "archivo": "refs/dinamicos/paul-cuffaro/2026-11-01_rescuing-koi-fish.mp4",
+  "creador": "Paul Cuffaro",
+  "url": "https://www.youtube.com/watch?v=eAVA1jdBXd4",
+  "titulo": "RESCUING KOI FISH TRAPPED in a POND!!",
+  "duracion": "33:58",
+  "publicado": "2026-11-01",
+  "tramo_analizado": "0:00–33:58 (entero)"
+ },
+ "resumen": "Vlog diario de 34 min montado casi solo a corte seco: 258 cortes, 7,9 s de media por plano (mediana 5,6 s), sin zooms digitales, sin subtítulos y con solo 4 rótulos en todo el vídeo. Abre con un teaser de 23 s (10 planos, 2,3 s/plano) hecho con frases y momentos del propio vídeo, con el pez estrella pixelado, y una cartela de fecha sobre negro; después no hay cabecera ni título. El dinamismo sale de la cámara en mano gran angular (selfie que gira a POV), de dos cámaras en el rescate y de una cámara sumergida en la suelta, no de efectos. La música suena el 68 % del tiempo muy por debajo de la voz (mediana 13,8 dB) y solo sube a primer plano en huecos sin voz (montaje de viaje 2:51, captura grande 6:45). El vídeo junta tres bloques (rescate, comida en el coche, ronda de alimentación en la granja) con un único flash-forward rotulado «LATER IN THIS VIDEO» en 1:45 y avisos hablados de próximos episodios. Hay un patrocinio hablado de 15 s (17:56) y un CTA de suscripción de 32 s en el minuto 22, apoyado con un lower third de Snapchat. Cierra con despedida a cámara, tres cartelas verdes animadas, pantalla final de dibujos con hueco «Watch Next» y un clip-meme de cabra de 2 s.",
+ "estructura": [
+  {
+   "desde": "0:00",
+   "hasta": "0:23",
+   "parte": "Teaser (cold open)",
+   "que_pasa": "10 planos de momentos fuertes del vídeo con su frase original; termina con el koi blanco pixelado."
+  },
+  {
+   "desde": "0:23",
+   "hasta": "0:26",
+   "parte": "Cartela de fecha",
+   "que_pasa": "«NOVEMBER 1ST, 2026» en blanco sobre negro 1,5 s con golpe de sonido + 1,5 s de negro en silencio."
+  },
+  {
+   "desde": "0:26",
+   "hasta": "1:38",
+   "parte": "Arranque en casa",
+   "que_pasa": "Broma sobre cuántas intros ha grabado (toma única de 16 s sin música), saludo en 0:37, enseña su estanque y da de comer a los koi."
+  },
+  {
+   "desde": "1:38",
+   "hasta": "2:51",
+   "parte": "Planteamiento de la misión",
+   "que_pasa": "Cuenta el encargo (flash-forward rotulado 1:44,9–1:49,5), enseña la camioneta preparada y plantea la incertidumbre: 46 min de viaje, mal tiempo, nº de peces desconocido."
+  },
+  {
+   "desde": "2:51",
+   "hasta": "2:59",
+   "parte": "Montaje de viaje",
+   "que_pasa": "5 planos de 1,0–3,5 s sin voz (GPS, carretera, claxon, gafas, llegada) con la música a tope y cortes en el golpe."
+  },
+  {
+   "desde": "2:59",
+   "hasta": "10:07",
+   "parte": "Rescate (núcleo)",
+   "que_pasa": "Capturas en escalada: 1.er pez 4:00, goldfish gigante 4:30, huevo de juguete 5:13, koi blanco mariposa 5:20–5:50, «el más grande» 6:40–6:53, otro 7:30–8:23, el «sin escamas» 8:29–9:15; comprobación final con la cámara dentro del estanque 9:36–10:07."
+  },
+  {
+   "desde": "10:07",
+   "hasta": "12:03",
+   "parte": "Balance del rescate",
+   "que_pasa": "«Mission accomplished», recuento (5 koi + 2 goldfish), enchufan la bomba, bromas; sin música casi todo el tramo."
+  },
+  {
+   "desde": "12:03",
+   "hasta": "15:13",
+   "parte": "Comida en el coche (mukbang)",
+   "que_pasa": "Pedido en el drive-thru, notas a batido, patatas y hamburguesa; planos detalle de comida intercalados."
+  },
+  {
+   "desde": "15:13",
+   "hasta": "17:43",
+   "parte": "Vuelta a la granja",
+   "que_pasa": "Toma de 35 s enseñando la cámara de seguridad en el móvil; regalo del tronco; avance de la pajarera con anuncio de episodio propio «mid-November»."
+  },
+  {
+   "desde": "17:43",
+   "hasta": "20:51",
+   "parte": "Suelta en el estanque (segundo clímax)",
+   "que_pasa": "Barrido de cámara de entrada; patrocinio hablado 17:56–18:11; cada pez se suelta en superficie y se corta a la cámara sumergida; montaje subacuático 20:37–20:51."
+  },
+  {
+   "desde": "20:51",
+   "hasta": "32:42",
+   "parte": "Ronda de alimentación (otro día, otra ropa)",
+   "que_pasa": "Cocina de dietas 21:09, CTA de suscripción 22:11–22:43, tortugas 22:48, cabras y emús 23:36, queja de la lluvia con tarjeta de El Niño 24:10, coatí 25:38, mofeta 26:53, zorro y coatí grande 28:34, muelle de la pajarera 30:02, nutrias 31:04."
+  },
+  {
+   "desde": "32:42",
+   "hasta": "33:40",
+   "parte": "Despedida",
+   "que_pasa": "Resumen de lo hecho en 15 s, aviso de merch retrasado, «peace out» y mano que tapa el objetivo."
+  },
+  {
+   "desde": "33:40",
+   "hasta": "33:58",
+   "parte": "Cartelas y pantalla final",
+   "que_pasa": "Tres cartelas verdes (gracias / like / suscríbete), pantalla de dibujos «Watch Next» 8,1 s y clip de cabra de 2 s."
+  }
+ ],
+ "ritmo": {
+  "global": {
+   "cortes": 258,
+   "s_por_plano_media": 7.87,
+   "mediana": 5.57,
+   "p10": 1.87,
+   "p90": 16.65,
+   "plano_mas_largo_s": 39.6,
+   "planos_de_menos_de_1s": "2 %",
+   "planos_de_mas_de_5s": "56 %"
+  },
+  "s_por_plano": {
+   "teaser_0:00-0:23": 2.3,
+   "arranque_y_planteamiento_0:26-2:51": "8,0 de media (mediana 4,2; tomas de 16, 18 y 38 s)",
+   "montaje_viaje_2:51-2:59": 1.7,
+   "rescate_2:59-11:30": "8,4 de media (mediana 7,1)",
+   "momento_fuerte_koi_blanco_5:20-6:00": 3.6,
+   "mukbang_12:03-15:13": 5.8,
+   "vuelta_a_granja_15:13-17:46": 13.9,
+   "suelta_17:46-20:51": "6,0 (mediana 4,9)",
+   "ronda_alimentacion_20:51-33:02": "9,4 (mediana 7,0; tomas de hasta 39,6 s)",
+   "despedida_33:02-33:40": 5.4,
+   "cartelas_finales": 3.0
+  },
+  "jump_cuts": "Sí, es el corte por defecto al hablar: mismo sitio y misma cámara, reencuadrado porque la cámara va en mano (no se disimulan con zoom). Unos 40–50 en todo el vídeo, contados a ojo. Ejemplos: 0:42,2 y 0:45,9; 2:27–2:45 (3 seguidos); 8,0 y 8,9 s dentro del teaser; 12:55,5/12:56,5; 19:44,0/19:44,9; 25:45,7/25:46,5 (plano de 0,8 s); 26:54,0/26:55,3. Los cortes van pegados a la frase siguiente: en 217 de 258 cortes no hay pausa de voz alrededor.",
+  "j_l_cuts": "Pocos y siempre L-cut (la voz sigue sobre otra imagen): 1:44,9–1:49,5 sobre el flash-forward; 17:56–17:58 sobre la lona del patrocinador; 20:37–20:51 sobre el montaje subacuático; 18:22, 19:06, 19:29 y 19:52 sobre la cámara sumergida. No se ha identificado ningún J-cut claro. El dato automático «186 cortes dentro de una palabra» no es fiable (los tiempos de palabra se estiran sobre las pausas).",
+  "match_cuts": "Corte en la acción entre dos cámaras al soltar cada pez: mano en superficie → mismo pez bajo el agua (18:22, 18:33, 19:04, 19:29, 19:52, 20:08). En el rescate, corte de la cámara de Paul a la del acompañante en el mismo gesto (6:48–6:50, 7:30). No hay match cuts gráficos."
+ },
+ "intro": {
+  "cold_open": "Sí: 0:00–0:23,2, teaser de 10 planos con audio original, sin presentación previa.",
+  "recap": {
+   "existe": true,
+   "desde": "0:00",
+   "hasta": "0:23",
+   "n_planos": 10,
+   "s_por_plano": 2.3,
+   "de_donde_salen": "Todo del propio vídeo, en orden cronológico: goldfish en la red (≈4:32), huevo de juguete (≈5:15), brazo dentro del estanque (≈6:02), red vista desde arriba (≈6:48), reacción al batido en el coche (≈13:41, 2 planos con jump cut), pienso a las cabras (≈23:36), coatí comiendo (≈26:05), nutrias (≈31:21) y koi blanco en la red (≈5:43) con el pez pixelado en mosaico.",
+   "frase": "No hay locución escrita: se encadenan las frases originales de cada momento («that's a goldfish» / «a dinosaur» / «oh dude I almost grabbed him in my hand» / «that might be the biggest one» / «you couldn't have got this any better» / «as you can tell the otter's favorite thing to do in the world is eat fish» / «you just never know what you're gonna find, that is a beautiful, beautiful koi fish»)."
+  },
+  "titulo_cabecera": "No hay título ni cabecera del canal. Lo único es la cartela de fecha «NOVEMBER 1ST, 2026» (0:23,2–0:24,7) sobre negro, que hace de separador entre teaser y vídeo.",
+  "motion_graphics": "Solo la cartela de fecha (texto que late de tamaño con desenfoque) y el mosaico que tapa el pez en 0:19,1–0:23,2. Nada más en el primer minuto.",
+  "musica_entra_s": 1,
+  "linea_de_tiempo": [
+   {
+    "t": "0:00,0",
+    "que": "Arranca en acción, sin música el primer segundo: goldfish en la red, «that's a goldfish»."
+   },
+   {
+    "t": "0:01,0",
+    "que": "Entra la música (−18 dB, casi al nivel de la voz)."
+   },
+   {
+    "t": "0:01,7",
+    "que": "Corte: huevo de juguete, «a dinosaur»."
+   },
+   {
+    "t": "0:03,2",
+    "que": "Corte: brazo dentro del estanque; la música se retira en el segundo 5."
+   },
+   {
+    "t": "0:06,6",
+    "que": "Corte: red desde arriba, «that might be the biggest one»."
+   },
+   {
+    "t": "0:08,0",
+    "que": "Corte al coche (2 planos, jump cut en 0:08,9); la música se corta 3 s (8–11) y queda solo la voz."
+   },
+   {
+    "t": "0:11,4",
+    "que": "Corte: pienso a las cabras; vuelve la música."
+   },
+   {
+    "t": "0:13,5",
+    "que": "Corte: coatí comiendo, «oh my god»."
+   },
+   {
+    "t": "0:15,9",
+    "que": "Corte: nutrias, frase sobre las nutrias."
+   },
+   {
+    "t": "0:19,1",
+    "que": "Corte: koi blanco en la red, pixelado; la música se retira (19–22 s) y queda la frase limpia."
+   },
+   {
+    "t": "0:23,2",
+    "que": "Corte a negro + cartela de fecha con golpe de sonido (pico −15 dB); el texto late 1,5 s."
+   },
+   {
+    "t": "0:24,7",
+    "que": "Negro sin texto y silencio total 1,5 s."
+   },
+   {
+    "t": "0:26,2",
+    "que": "Corte seco a Paul junto al estanque; charla de 16 s en una sola toma, sin música."
+   },
+   {
+    "t": "0:37,5",
+    "que": "Saludo «what is going on pros, welcome back to another video»; música 0:38–0:43."
+   },
+   {
+    "t": "0:42,2",
+    "que": "Primer jump cut del bloque hablado."
+   },
+   {
+    "t": "0:45,9",
+    "que": "Jump cut; «behind me is my 3,000 gallon koi pond»; la música entra de fondo (−35 dB) y se queda."
+   }
+  ]
+ },
+ "broll": {
+  "proporcion_sobre_voz": "Muy baja: ≈3–4 % del tiempo hablado (unos 60–70 s en 34 min) lleva imagen de otro plano. Lo normal es «b-roll en cámara»: gira la cámara de selfie a lo que señala sin cortar.",
+  "origenes": {
+   "mismo_video": "100 % (flash-forward de planos de más adelante, cámara sumergida, planos detalle de comida, lona del patrocinador)",
+   "recursos": "Ninguno",
+   "stock_archivo": "Ninguno; solo una captura de búsqueda de Google (definición de El Niño) superpuesta en 24:10 y un clip-meme de cabra al final (33:56)"
+  },
+  "duracion_tipica_s": "3–6 s por inserto; el montaje subacuático dura 14 s (20:37–20:51).",
+  "vuelta_a_camara": "Siempre a corte seco, sin transición, al terminar la frase o al cambiar de idea.",
+  "ejemplos": [
+   {
+    "t": "1:44,9–1:49,5",
+    "que": "Flash-forward de 2 planos (2,9 s + 1,7 s) mientras dice «we've got a pond that is way too small, the koi fish are growing too big»."
+   },
+   {
+    "t": "13:56 y 14:08–14:16",
+    "que": "Planos detalle de patatas y hamburguesa durante la cata."
+   },
+   {
+    "t": "17:56–17:58",
+    "que": "Lona «NEXTDAYKOI» al nombrar al patrocinador."
+   },
+   {
+    "t": "18:22–20:11",
+    "que": "6 insertos de cámara sumergida de 3–9 s, uno por pez soltado."
+   },
+   {
+    "t": "20:37–20:51",
+    "que": "Montaje subacuático de 14 s bajo «every type of koi fish you can imagine»."
+   }
+  ]
+ },
+ "voz_en_off": {
+  "uso": "No hay voz en off grabada aparte. Toda la voz es directo (98 % del vídeo con habla). Lo más parecido son los L-cuts citados.",
+  "guion": "Improvisado, en segunda persona («you guys», «look at this»), con frases gancho antes de cada captura («this next one's gonna be really dope», 6:32) y frases que se repiten como muletilla de tensión («might be the last one», 9:15).",
+  "mezcla": "Voz a −19,4 dB de media, siempre por delante; la música queda 13,8 dB por debajo (mediana) y baja a −35/−38 dB en los bloques hablados largos."
+ },
+ "transiciones": [
+  {
+   "tipo": "Corte seco",
+   "veces": "≈250 de 258",
+   "donde": "Todo el vídeo, también entre secciones y entre días.",
+   "ejemplos_t": [
+    "2:59,9",
+    "12:03,1",
+    "15:48,7",
+    "20:51,7"
+   ]
+  },
+  {
+   "tipo": "Corte a negro con cartela",
+   "veces": 1,
+   "donde": "Entre teaser y vídeo.",
+   "ejemplos_t": [
+    "0:23,2–0:26,2"
+   ]
+  },
+  {
+   "tipo": "Barrido de cámara (whip pan) con corte oculto en el desenfoque",
+   "veces": "1 (ida y vuelta)",
+   "donde": "Paso de la obra de la pajarera a la suelta de peces.",
+   "ejemplos_t": [
+    "17:43,6",
+    "17:45,2"
+   ]
+  },
+  {
+   "tipo": "Mano que tapa el objetivo → corte",
+   "veces": 1,
+   "donde": "De la despedida a la primera cartela final.",
+   "ejemplos_t": [
+    "33:40,4"
+   ]
+  },
+  {
+   "tipo": "Estirado/glitch entre cartelas",
+   "veces": 3,
+   "donde": "Solo entre las cartelas verdes finales (0,3–0,4 s cada uno).",
+   "ejemplos_t": [
+    "33:42,5",
+    "33:45,0",
+    "33:47,5"
+   ]
+  },
+  {
+   "tipo": "Fundidos/encadenados",
+   "veces": 0,
+   "donde": "No hay. Los fotogramas oscuros de 3:06, 4:08, 9:30 y 22:58 son la cámara entrando en sombra, no fundidos.",
+   "ejemplos_t": []
+  }
+ ],
+ "zooms": {
+  "mediciones": [
+   {
+    "t": "0:00,1–0:01,6",
+    "escala": 0.76,
+    "duracion_s": 1.4,
+    "tipo": "alejamiento rápido (−17 %/s) en el primer plano del teaser; probablemente movimiento de la mano, no digital"
+   },
+   {
+    "t": "0:08,1–0:08,8",
+    "escala": 1.01,
+    "duracion_s": 0.6,
+    "tipo": "fijo (coche)"
+   },
+   {
+    "t": "0:09,0–0:11,2",
+    "escala": 1.005,
+    "duracion_s": 2.1,
+    "tipo": "fijo (máx. 1,04 por pulso de la mano)"
+   },
+   {
+    "t": "0:19,2–0:23,1",
+    "escala": 1.18,
+    "duracion_s": 3.8,
+    "tipo": "acercamiento de cámara en mano (pico 1,30 al primer segundo); no es un punch-in limpio"
+   },
+   {
+    "t": "0:26,3–0:42,1",
+    "escala": 0.61,
+    "duracion_s": 15.7,
+    "tipo": "cámara en mano andando; medida no fiable"
+   },
+   {
+    "t": "0:46,0–1:03,6",
+    "escala": 1.28,
+    "duracion_s": 17.5,
+    "tipo": "cámara en mano con paneo al estanque"
+   },
+   {
+    "t": "1:49,7–2:27,0",
+    "escala": 0.36,
+    "duracion_s": 37.2,
+    "tipo": "toma andando hasta la camioneta; sin zoom digital"
+   },
+   {
+    "t": "10:30,0–10:57,2",
+    "escala": 1.4,
+    "duracion_s": 27.2,
+    "tipo": "selfie en mano, se acerca y aleja con el brazo"
+   },
+   {
+    "t": "11:38,0–12:02,9",
+    "escala": 1.1,
+    "duracion_s": 24.9,
+    "tipo": "selfie en mano"
+   },
+   {
+    "t": "16:53,6–17:26,2",
+    "escala": 1.7,
+    "duracion_s": 32.5,
+    "tipo": "selfie en mano"
+   },
+   {
+    "t": "21:41,0–22:11,0",
+    "escala": 0.5,
+    "duracion_s": 30.0,
+    "tipo": "selfie andando"
+   },
+   {
+    "t": "22:11,5–22:34,6",
+    "escala": 0.56,
+    "duracion_s": 23.1,
+    "tipo": "selfie en mano (CTA)"
+   },
+   {
+    "t": "32:33,4–33:02,4",
+    "escala": 0.29,
+    "duracion_s": 28.9,
+    "tipo": "selfie en mano (despedida)"
+   }
+  ],
+  "patron": "No se ha encontrado ningún punch-in ni zoom lento digital. Los únicos planos estables (coche) dan 1,00–1,01. En el resto la escala varía porque la cámara va en mano con gran angular; la herramienta lo marca como «salto» pero es movimiento real. No hay cámara virtual ni keyframes; el horizonte gira libremente en varios planos (0:00, 4:32), así que tampoco se nivela en edición."
+ },
+ "tipografia": [
+  {
+   "tipo": "Cartela de fecha",
+   "fuente_parecida_google": "Poppins Black o Montserrat Black (geométrica muy gruesa, con la «e» en minúscula a altura de mayúscula: «NOVeMBeR»)",
+   "peso": 900,
+   "tamano_rel": "alto de mayúscula ≈ 9 % del alto; ancho ≈ 72 % de pantalla",
+   "posicion": "centrada en pantalla",
+   "color": "blanco sobre negro",
+   "borde_sombra": "ninguno",
+   "entrada": "aparece con el corte, pequeña (≈65 %), y late 3–4 veces entre ≈65 % y 100 % con desenfoque intermitente",
+   "salida": "se apaga a negro en un fotograma",
+   "duracion_s": 1.5,
+   "ejemplos_t": [
+    "0:23,2–0:24,7"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2026-11-01_rescuing-koi-fish/rotulos/fecha_recorte.jpg"
+  },
+  {
+   "tipo": "Rótulo de flash-forward «LATER IN THIS VIDEO»",
+   "fuente_parecida_google": "La misma (Poppins Black / Montserrat Black, «e» minúscula)",
+   "peso": 900,
+   "tamano_rel": "alto de mayúscula ≈ 8 %; ancho ≈ 68 %",
+   "posicion": "arriba centrado, centro del texto al 10 % del alto",
+   "color": "blanco ligeramente translúcido",
+   "borde_sombra": "ninguno",
+   "entrada": "con el corte, ya en pantalla",
+   "salida": "con el corte",
+   "duracion_s": 4.6,
+   "ejemplos_t": [
+    "1:44,9–1:49,5"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2026-11-01_rescuing-koi-fish/rotulos/later_recorte.jpg"
+  },
+  {
+   "tipo": "Lower third de red social (Snapchat «@JUNOPAUL»)",
+   "fuente_parecida_google": "Bebas Neue u Oswald 600 (condensada en mayúsculas)",
+   "peso": "600–700",
+   "tamano_rel": "alto de mayúscula ≈ 4 %; icono ≈ 13 % del alto",
+   "posicion": "abajo a la izquierda (icono a ≈3 % del borde izquierdo y ≈12 % del inferior)",
+   "color": "texto blanco; icono amarillo de Snapchat",
+   "borde_sombra": "sin borde; sombra muy leve o ninguna",
+   "entrada": "el icono aparece en el centro (22:30,4), baja a la esquina en 0,6 s y el texto se despliega hacia la derecha en 0,2 s",
+   "salida": "el texto se recoge y el icono desaparece en ≈0,3 s",
+   "duracion_s": 3.8,
+   "ejemplos_t": [
+    "22:30,4–22:34,2"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2026-11-01_rescuing-koi-fish/rotulos/snapchat_recorte.jpg"
+  },
+  {
+   "tipo": "Tarjeta de dato (captura de Google en modo oscuro con la definición de El Niño)",
+   "fuente_parecida_google": "Roboto / Google Sans (es una captura, no un rótulo propio)",
+   "peso": 400,
+   "tamano_rel": "caja de 72 % de ancho × 28 % de alto; texto ≈ 3 % del alto",
+   "posicion": "tercio inferior centrado (del 66 % al 95 % del alto)",
+   "color": "texto blanco sobre caja gris casi negra, frase resaltada en azul",
+   "borde_sombra": "ninguno",
+   "entrada": "corte directo sincronizado con «here's the definition of El Niño»",
+   "salida": "corte directo",
+   "duracion_s": 4.4,
+   "ejemplos_t": [
+    "24:10,0–24:14,4"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2026-11-01_rescuing-koi-fish/rotulos/elnino_recorte.jpg"
+  },
+  {
+   "tipo": "Cartelas finales (THANKS FOR WATCHING / DON'T FORGET TO LIKE THE VIDEO / AND PLEASE SUBSCRIBE)",
+   "fuente_parecida_google": "Bebas Neue o Big Shoulders Display (condensada alta)",
+   "peso": 700,
+   "tamano_rel": "palabra principal ≈ 25–30 % del alto; secundarias ≈ 8–10 %",
+   "posicion": "centrado sobre fondo verde liso",
+   "color": "blanco sobre verde #1FC42F aprox.; icono de pulgar blanco y naranja",
+   "borde_sombra": "ninguno",
+   "entrada": "estirado vertical con aberración cromática",
+   "salida": "el mismo estirado/glitch",
+   "duracion_s": "2,0–2,5 cada una",
+   "ejemplos_t": [
+    "33:40,5",
+    "33:42,9",
+    "33:45,3"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2026-11-01_rescuing-koi-fish/rotulos/final_thanks.jpg"
+  }
+ ],
+ "motion_graphics": [
+  {
+   "tipo": "Mosaico (pixelado) sobre el pez en el teaser",
+   "t": "0:19,1–0:23,2",
+   "duracion_s": 4.1,
+   "como_entra": "puesto desde el primer fotograma del plano, sigue al pez",
+   "estilo": "bloques gruesos; el mismo plano se enseña sin pixelar en 1:47,8 y 5:43"
+  },
+  {
+   "tipo": "Cartela de fecha animada",
+   "t": "0:23,2",
+   "duracion_s": 1.5,
+   "como_entra": "corte a negro",
+   "estilo": "texto blanco que late con desenfoque"
+  },
+  {
+   "tipo": "Rótulo «LATER IN THIS VIDEO»",
+   "t": "1:44,9",
+   "duracion_s": 4.6,
+   "como_entra": "corte",
+   "estilo": "estático, sin animación"
+  },
+  {
+   "tipo": "Lower third de Snapchat",
+   "t": "22:30,4",
+   "duracion_s": 3.8,
+   "como_entra": "icono que salta del centro a la esquina y despliega el texto",
+   "estilo": "plano, sin caja"
+  },
+  {
+   "tipo": "Captura de Google (definición)",
+   "t": "24:10,0",
+   "duracion_s": 4.4,
+   "como_entra": "corte",
+   "estilo": "pantallazo tal cual, sin animar"
+  },
+  {
+   "tipo": "Cartelas verdes + pantalla final de dibujos",
+   "t": "33:40,5",
+   "duracion_s": 15.5,
+   "como_entra": "tras la mano que tapa el objetivo",
+   "estilo": "plantilla del canal: fondo verde, texto condensado, granja de dibujos con personajes que entran uno a uno y recuadro blanco «Watch Next»"
+  }
+ ],
+ "musica": {
+  "tramos_resumen": "Suena el 68 % del vídeo en 37 tramos. Entra en 0:01 a −18 dB en el teaser y se corta dentro de él en 0:08–0:11 y 0:19–0:22 para dejar frases limpias. Bloque hablado inicial a −35 dB (0:46–2:37). Montaje de viaje 2:51–2:57 a −15 dB sin voz. Rescate con música casi continua 2:38–9:23 (−27 a −34 dB) con cambios de pista en 2:38 y 3:58. Mukbang en trozos cortos de 8–40 s. Granja y suelta 15:45–20:42 a −34/−38 dB. Ronda de alimentación con música muy baja (−35/−40 dB) y huecos largos. Pista final 33:34–33:57 a −20 dB.",
+  "voz_menos_musica_db": {
+   "mediana": 13.8,
+   "rango_por_tramo": "5,6 (14:01–14:09, mordiscos) a 20,7 (28:07–28:11)",
+   "teaser": 8.6,
+   "bloques_hablados": "15–18",
+   "musica_sola_db": "−15 a −21"
+  },
+  "cambia_por_secciones": "Sí: cambios de pista detectados en 2:38 (subida al coche), 3:58 (primera captura), 11:22, 16:34, 17:24 y 20:58 (nuevo día). Cada bloque (rescate, comida, granja, ronda) lleva pista distinta.",
+  "a_ritmo_de_cortes": "Solo en los dos montajes: en 2:51–2:59 los 5 cortes caen sobre un golpe (acentos en 171,36 / 172,62 / 173,64 / 175,26 / 178,91 frente a cortes en 171,34 / 172,61 / 173,64 / 175,34 / 178,88) y en el teaser 4 de 9. En el resto no: 52 % de los cortes con música caen en pulso, que es azar.",
+  "silencios_intencionados": "Sí. 0:24,7–0:26,2 silencio total tras la cartela; 0:26–0:38 charla sin música antes del saludo; 5:13–5:20 se retira la música para la broma del huevo; 9:23–11:14 sin música en la comprobación final y el balance; 24:06–25:03 sin música en la queja por la lluvia; 30:54–33:34 sin música en nutrias y despedida. Al revés, la música sube a −18 dB en 6:45–6:49 (captura del más grande) y 14:03–14:06 (mordiscos)."
+ },
+ "sfx": {
+  "por_minuto_estimado": "Menos de 1 por minuto con certeza. La herramienta da 25,8 acentos/min, pero 758 de 877 caen dentro de música (son golpes de la pista); en los minutos sin música quedan 3–6 por minuto, que es sonido ambiente (agua, red, puertas).",
+  "tipos": "Golpe grave con la cartela de fecha; posibles whooshes en los estirados de las cartelas finales; grito de cabra del clip final. No se detectan pops, dings ni risas enlatadas sobre la acción.",
+  "donde": "Solo en los rótulos de principio y final.",
+  "ejemplos_t": [
+   "0:23,0",
+   "33:42,5",
+   "33:56,0"
+  ]
+ },
+ "subtitulos": {
+  "hay": false,
+  "cuando": "Nunca, ni en los tramos de viento, lluvia o voz lejana del acompañante.",
+  "estilo": "—"
+ },
+ "cierre": {
+  "como_acaba": "32:42 «thanks so much for watching today» + resumen de 15 s de los tres bloques; 33:02 posdata sobre el merch retrasado (28 s, 6 planos con jump cuts); 33:31 «I love you, see you in the next one, peace out» y mano al objetivo en 33:40,4.",
+  "cta": "Suscripción a mitad de vídeo (22:11–22:43, 32 s, con lower third de Snapchat), patrocinio hablado con código de descuento (17:56–18:11), «follow me there» a otras redes (32:42) y tres cartelas finales de like y suscripción. Además avisa dos veces del próximo episodio de la pajarera (17:07–17:26 y 30:02–31:04).",
+  "pantalla_final": "33:47,9–33:56,0 (8,1 s): granja de dibujos, personajes que entran en 2,5 s y recuadro blanco «Watch Next» arriba a la derecha para el vídeo sugerido; música a −20 dB. Después, 2 s de una cabra gritando como chiste final."
+ },
+ "para_copiar": [
+  "Teaser de 20–25 s con 9–10 momentos del propio vídeo en orden cronológico, 2–2,5 s por plano, usando la frase original de cada momento en vez de locución.",
+  "Pixelar en el teaser el plano más valioso (aquí el pez estrella) y enseñarlo limpio más tarde.",
+  "Cortar la música 2–3 s dentro del teaser para que una frase suene sola y volver a meterla en el corte siguiente.",
+  "Separar teaser y vídeo con una cartela de fecha de 1,5 s sobre negro con golpe de sonido y 1,5 s de silencio, y entrar a corte seco ya hablando.",
+  "Un único flash-forward rotulado «LATER IN THIS VIDEO» (4–5 s, 2 planos, texto arriba al 8 % del alto) justo cuando se explica la misión.",
+  "Montaje de trayecto de 8 s: 5 planos de 1–3,5 s sin voz, música a −15 dB y cada corte en un golpe; al volver la voz, música 10–20 dB abajo.",
+  "Grabar los momentos clave con dos cámaras (la propia y la del acompañante) y una sumergida, y cortar en la acción: mano que suelta → pez bajo el agua.",
+  "Acelerar el corte solo en el momento fuerte (3,6 s/plano en la captura del koi blanco frente a 8,4 s en el resto del rescate) y subir la música cuando nadie habla.",
+  "En bloques hablados, música a 15–18 dB por debajo de la voz y quitarla del todo en las partes de charla seria o de broma seca.",
+  "CTA de suscripción a mitad de vídeo apoyado con un lower third pequeño (icono + usuario, 3,8 s, abajo a la izquierda).",
+  "Cierre: mano que tapa el objetivo como transición a 3 cartelas de 2–2,5 s y pantalla final de 8 s con hueco para el vídeo sugerido."
+ ],
+ "dudas": [
+  "Los efectos de sonido no se pueden oír: el golpe de la cartela y los whooshes finales se deducen de picos de audio; puede haber más SFX tapados por la música.",
+  "La fuente de la cartela y del rótulo es una aproximación; la «e» minúscula entre mayúsculas apunta a una tipografía comercial que no está en Google Fonts.",
+  "Origen exacto de dos planos del teaser (cabras ≈23:36 y coatí ≈26:05 o 28:46) localizado por parecido en hojas cada 2 s, sin comprobar fotograma a fotograma.",
+  "medir_zoom.py no es fiable con cámara en mano gran angular: las escalas de los planos en movimiento describen el movimiento del brazo, no un zoom de edición.",
+  "No se sabe si el alejamiento del primer plano (0:00–0:01,6) y el acercamiento de 0:19 son digitales o de cámara.",
+  "El recuento de jump cuts (40–50) es a ojo; cortes.json no distingue jump cuts de cambios de plano.",
+  "No se puede saber si los cortes de música del teaser son silencios editados o el final natural de un fragmento de pista.",
+  "El barrido de 17:43,6 parece un corte oculto en el desenfoque, pero la salida de 17:45,2 podría ser un giro real de cámara.",
+  "Las hojas min_13 a min_33 se revisaron enteras una vez; de los minutos 24, 26, 27, 29, 31 y 33 no se hicieron hojas de detalle adicionales, así que un rótulo de menos de 2 s en esos minutos podría haberse escapado."
+ ]
+}

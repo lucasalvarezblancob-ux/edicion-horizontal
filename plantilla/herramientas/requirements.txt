@@ -1,0 +1,12 @@
+numpy
+scipy
+librosa
+soundfile
+opencv-python-headless<5
+pillow
+faster-whisper
+torch
+torchaudio
+torchcodec
+demucs
+rembg[cpu]

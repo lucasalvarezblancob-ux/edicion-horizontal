@@ -1,0 +1,14 @@
+{
+  "acento": "#FBBA1C",
+  "canal": "Reino Selva",
+  "handle": "",
+  "codigo": "",
+  "logo": "logo_con_letra.png",
+  "idiomas": {
+    "en": {
+      "canal": "RayWild",
+      "handle": "@raywild10",
+      "logo": "logo_raywild.png"
+    }
+  }
+}

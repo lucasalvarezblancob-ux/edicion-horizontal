@@ -1,0 +1,408 @@
+{
+ "video": {
+  "archivo": "refs/dinamicos/elxokas/2025-11-16_cafe-de-colombia.mp4",
+  "creador": "elxokas",
+  "url": "https://www.youtube.com/watch?v=t_Y973V_XiA",
+  "titulo": "¡PRUEBO el CAFÉ de COLOMBIA! ¿EL MEJOR DEL MUNDO? #6 | Xokas",
+  "duracion": "23:13 (1392,88 s; 34 822 fotogramas)",
+  "publicado": "2025-11-16",
+  "fps": "25 reales (ffprobe: r_frame_rate = avg_frame_rate = 25/1, AV1 1280x720). Sin fotogramas duplicados: solo 272 de 34 822 fotogramas son idénticos al anterior y 174 de ellos son la pantalla final estática (el resto, negro inicial y planos quietos). Todas las duraciones van en s y en fotogramas a 25 fps (1 f = 0,04 s)."
+ },
+ "resumen": "Vlog-entrevista sobrio, casi sin grafismo: en 23 min hay SOLO 5 textos (0,2 por minuto) y ningún motion graphic (ni mapa, ni flechas, ni círculos, ni stickers, ni memes, ni contador; tampoco título, «#6», rótulo de lugar ni de nombre). El dinamismo sale de tres cosas: (1) multicámara con cambio de tamaño en el corte (41 de 164 cortes son el mismo eje reencuadrado, escala mediana x1,51); (2) tres golpes de blanco y negro (flash-forward, cámara lenta, falso final); (3) el monólogo final a una cámara, que es donde el editor juega de verdad con zooms: unos 9 por minuto entre cortes de tamaño y zooms animados de 0,5 a 1,5 s. Como referencia de TEXTOS vale por la contención y por 4 recetas concretas (cartela «a continuación…», palabra-chiste centrada con fondo desenfocado, subtítulos a dos colores, lista que entra palabra a palabra). Como referencia de motion graphics «chulos» NO vale.",
+ "estructura": [
+  "0:00,24-0:23,3 Tráiler en frío de 23 s: 12 planos de momentos fuertes del propio vídeo (carta de 55 cafés, bolsa «Peligro Café» de 20:07, olerlo, cata final de 21:30), 1,9 s/plano, etalonaje apagado y cartela fija «a continuación…» abajo a la izquierda todo el rato. Se oye hablar desde el fotograma 6: no hay cabecera ni logo.",
+  "0:23,3-1:00,5 Presentación a cámara en un balcón: prácticamente una toma de 37 s con un único punch-in de 0,56 s y un inserto de 3,1 s del rótulo de la tienda cuando la nombra. Sin título, sin número de episodio, sin rótulo de lugar.",
+  "1:00,5-1:19 Montaje de llegada: 10 planos de recurso en 19 s (mediana 1,5 s) andando por el centro comercial hasta el cartel de la tienda.",
+  "1:19-7:17 Entrevista con el barista delante de la carta y de los cuencos de grano: 2-3 ángulos + detalles, mediana 5,2 s/plano, tomas de hasta 39 s.",
+  "7:17-9:39 La planta de café: se entra con un barrido borroso y hay una toma de 120 s sin cortes (cámara en mano que se acerca y se aleja).",
+  "9:39-14:25 Molienda y método: aquí están el texto-chiste «FLO» (11:02), los únicos subtítulos (11:58) y el flash-forward en blanco y negro (12:02).",
+  "14:25-18:20 Preparación del filtrado: el tramo con más corte (mediana 3,8 s) y más plano detalle.",
+  "18:20-20:27 Cata en la tienda: lista «1. Caliente 2. Tibio 3. Frío» (18:22) y macro en blanco y negro a cámara lenta (20:00).",
+  "20:27-23:03 Cata final solo en una mesa, a una cámara: zooms continuos, falso final en blanco y negro (22:23-22:31,6) y despedida real.",
+  "23:03-23:13 Fundido de 14 f a la pantalla final (logo sobre degradado verde-azul oscuro con partículas e iconos de redes), 9,4 s."
+ ],
+ "cortes": {
+  "global": "164 cortes detectados, 165 planos, media 8,44 s, mediana 4,04 s, p10 1,28 s, p90 17,5 s, máximo 120 s; 7,1 cortes/min. Solo el 2 % de los planos dura menos de 1 s y el 22 % menos de 2 s; el 42 % pasa de 5 s. Es un montaje LENTO comparado con lo que pide Lucas.",
+  "por_parte": [
+   {
+    "parte": "tráiler 0:00-0:23",
+    "planos": 12,
+    "media_s": 1.94,
+    "mediana_s": 1.8,
+    "menos_de_2s": "67 %"
+   },
+   {
+    "parte": "presentación 0:23-1:00",
+    "planos": 5,
+    "media_s": 7.44,
+    "mediana_s": 7.72,
+    "nota": "una toma de 37 s partida por un punch-in y un inserto"
+   },
+   {
+    "parte": "montaje de llegada 1:00-1:19",
+    "planos": 11,
+    "mediana_s": 1.48,
+    "menos_de_2s": "83 %"
+   },
+   {
+    "parte": "tienda 1:19-7:17",
+    "planos": 36,
+    "media_s": 9.06,
+    "mediana_s": 5.2,
+    "mas_de_10s": "28 %"
+   },
+   {
+    "parte": "planta 7:17-9:39",
+    "planos": 6,
+    "media_s": 33.7,
+    "mediana_s": 7.2,
+    "max_s": 120
+   },
+   {
+    "parte": "molienda y método 9:39-14:25",
+    "planos": 26,
+    "media_s": 8.92,
+    "mediana_s": 5.5
+   },
+   {
+    "parte": "preparación 14:25-18:20",
+    "planos": 39,
+    "media_s": 5.93,
+    "mediana_s": 3.8
+   },
+   {
+    "parte": "cata 18:20-20:27",
+    "planos": 14,
+    "media_s": 9.16,
+    "mediana_s": 6.0
+   },
+   {
+    "parte": "cierre en la mesa 20:27-23:03",
+    "planos": 15,
+    "media_s": 10.8,
+    "mediana_s": 3.4,
+    "nota": "pocos cortes pero unos 5 zooms animados por minuto dentro de los planos"
+   }
+  ],
+  "planos_menos_de_1s": "3 en todo el vídeo: 0:00,00 (0,24 s de negro), 0:31,04 (punch-in de 0,56 s = 14 f) y 14:40,12 (0,96 s).",
+  "rafagas": "Ninguna con el criterio de 3 cortes en 2 s (0 por minuto). Lo más parecido: tráiler (12 planos en 23 s), montaje de llegada 1:00,5-1:19 (10 cortes en 19 s), 14:40-14:46 (5 cortes en 5,6 s), 16:07,9-16:12,8 (4 cortes en 4,9 s: general, primer plano x1,76, general, primer plano x1,83) y 20:58,6-21:02,8 (3 cortes de tamaño en 4,2 s).",
+  "jump_cuts_al_hablar": "Casi no hay. La presentación del balcón (37 s, unas 95 palabras) es una toma. Con el barista se corta entre cámaras cada 5 s de mediana, no dentro de la frase. En el monólogo final hay un jump cut claro en 22:17,96-22:18,12 (baja la taza y salta con punch x1,33). Los jump cuts con encuadre idéntico no se han podido contar (ver dudas).",
+  "cortes_a_mitad_de_frase": "Sí en los cambios de tamaño: 0:31,04 entra a mitad de «es cierto que os prometí…», 18:22,40 entra justo en «Caliente» y 18:24,48 sale justo antes de «En cada una…».",
+  "insertos_cortos": "No hay insertos de 0,2-0,6 s ni memes. Los insertos duran 2-3 s: rótulo de la tienda 0:42,6-0:45,7 (3,1 s), planta de café 5:41 (unos 2 s), flash-forward en blanco y negro 12:02,96-12:05,6 (2,7 s), macro en blanco y negro 20:00,2-20:03,2 (3,0 s).",
+  "camara_lenta_rapida": "Cámara lenta en el macro en blanco y negro de la jarra (20:00,2-20:03,2). Barrido borroso de 1 s en 7:17. Sin congelados, rebobinados ni repeticiones; lo único repetido es el material del tráiler, que vuelve a salir en su sitio (bolsa en 20:07, cata en 21:30)."
+ },
+ "zooms": [
+  {
+   "tipo": "Punch-in por corte (mismo eje, reencuadre al cortar) y vuelta por corte",
+   "escala": "x1,0 -> x1,51 de mediana (p25-p75: x1,39-x1,59; extremos x1,28 y x1,83)",
+   "duracion": "0 f (corte seco); se queda dentro 0,56 s (14 f) el más corto, 1-2 s lo habitual, hasta 7,8 s",
+   "curva": "golpe seco, sin animación ni rebote",
+   "centro": "cara del que habla o reacciona",
+   "disparador": "arranque de una explicación o reacción: 0:31,04 al empezar a justificarse; 16:07,88 cuando mira el café; 19:43,2 al probarlo; 20:58,6 y 21:28,7 al oler y beber",
+   "extras": "sin temblor, sin blur, sin sonido visible",
+   "por_minuto": "41 cortes con salto de escala en 23,2 min = 1,8/min (25 % de todos los cortes); en el cierre 4,4/min",
+   "ejemplos_t": [
+    "0:31,04 x1,56 durante 14 f y vuelve (x0,655) en 0:31,60",
+    "4:16,32 x1,64 durante 1,08 s",
+    "16:07,88 x1,76 durante 1,16 s, vuelve y repite x1,83 en 16:11,76",
+    "19:43,20 x1,60 durante 7,8 s",
+    "20:58,60 x1,51 durante 1,96 s"
+   ]
+  },
+  {
+   "tipo": "Zoom-in animado dentro del plano (monólogo final)",
+   "escala": "x1,0 -> x1,29 a x1,45",
+   "duracion": "22-37 f (0,9-1,5 s)",
+   "curva": "lineal a 1-2 % por fotograma, o con arranque rápido y frenada suave (2-2-2-1-1 % por fotograma)",
+   "centro": "cara",
+   "disparador": "cuando empieza a describir el sabor o se pone serio",
+   "extras": "sin temblor ni blur",
+   "por_minuto": "unos 3 por minuto en 20:27-23:03; 0 en el resto",
+   "ejemplos_t": [
+    "21:08,44 x1,29 en 25 f",
+    "21:41,04 x1,32 en 26 f y sigue en 21:43,04 x1,36 en 37 f",
+    "21:50,72 x1,45 en 22 f"
+   ]
+  },
+  {
+   "tipo": "Snap zoom-in (golpe animado muy corto)",
+   "escala": "x1,0 -> x1,33 (7-8 % por fotograma)",
+   "duracion": "4 f (0,16 s)",
+   "curva": "golpe casi seco, lineal",
+   "centro": "cara y manos",
+   "disparador": "gesto de las dos manos abiertas hacia cámara en 21:48,56",
+   "extras": "coincide con que él se echa hacia delante; se mantiene 0,8 s y sale con zoom-out de 31 f",
+   "por_minuto": "1 claro en todo el vídeo (más el del final del tráiler)",
+   "ejemplos_t": [
+    "21:48,56 x1,33 en 4 f",
+    "0:23,16-0:23,24 x1,07 y x1,30 en 2 f hacia el ojo, como transición",
+    "22:18,04 punch x1,33 pegado a un jump cut y +10 % más en 12 f"
+   ]
+  },
+  {
+   "tipo": "Zoom-out animado",
+   "escala": "x1,0 -> x0,68-0,72 (el del falso final, x0,35-0,4)",
+   "duracion": "13-19 f (0,5-0,75 s); 31 f el más largo",
+   "curva": "con aceleración y frenada (-1 -3 -5 -5 -5 -4 -3 -2 -1 % por fotograma)",
+   "centro": "de la cara al plano general de la mesa",
+   "disparador": "final de frase o remate; en 22:30,1 es la carcajada que rompe el falso final",
+   "extras": "sin blur añadido",
+   "por_minuto": "unos 2 por minuto en el cierre; 0 en el resto",
+   "ejemplos_t": [
+    "21:51,64 x0,68 en 13 f",
+    "22:21,72 x0,70 en 19 f",
+    "22:30,08-22:30,64 x0,35-0,4 en 14 f (en blanco y negro)",
+    "21:49,36 x0,51 en 31 f"
+   ]
+  },
+  {
+   "tipo": "Zoom lento sostenido",
+   "escala": "x1,15 -> aprox. x2,5 sobre la cara",
+   "duracion": "7 s (22:23,04-22:30,08)",
+   "curva": "lenta, con tirones cuando él se acerca",
+   "centro": "cara",
+   "disparador": "el falso final («tengo bastante prisa, vamos a terminar ya el vídeo»)",
+   "extras": "en blanco y negro",
+   "por_minuto": "1 en todo el vídeo. En el resto NO hay zoom lento de edición: las derivas de ±3-9 % cada 5 s son de la cámara en mano",
+   "ejemplos_t": [
+    "22:23,04-22:30,08"
+   ]
+  },
+  {
+   "tipo": "Acercamiento de cámara en mano (operador), no de edición",
+   "escala": "x1,5 a x3 o más",
+   "duracion": "1-4 s",
+   "curva": "irregular",
+   "centro": "objeto que se enseña (bolsa, grano en la mano, esfera, jarra)",
+   "disparador": "cuando alguien enseña un objeto",
+   "extras": "barrido de movimiento real",
+   "por_minuto": "aprox. 1 por minuto en la tienda",
+   "ejemplos_t": [
+    "0:07,32 hacia la bolsa, x1,8 en 22 f (plano de 20:07)",
+    "5:05-5:09 hasta el grano en la palma",
+    "11:05-11:13 hasta la esfera",
+    "8:17-8:21 hasta el barista"
+   ]
+  },
+  {
+   "tipo": "No aparecen",
+   "escala": "-",
+   "duracion": "-",
+   "curva": "-",
+   "centro": "-",
+   "disparador": "-",
+   "extras": "zoom con temblor, zoom con rebote, pantalla partida, cámara virtual que sigue a alguien",
+   "por_minuto": "0",
+   "ejemplos_t": []
+  }
+ ],
+ "textos": [
+  {
+   "tipo": "Cartela de tráiler «a continuación…» (lo único parecido a una cabecera: NO hay título del vídeo, ni «#6», ni logo de apertura)",
+   "fuente_parecida_google": "Instrument Serif (alternativa: DM Serif Display); serif de alto contraste con las letras muy juntas (tracking aprox. -3 %)",
+   "peso": "Regular (400)",
+   "caja": "todo minúsculas, con puntos suspensivos",
+   "color": "blanco roto #F5F7F6",
+   "borde_sombra": "sin borde; sombra negra muy suave y difusa, casi imperceptible. Se lee porque el tráiler va oscurecido y desaturado",
+   "tamano_rel": "altura de la x 33 px de 720 = 4,6 %; ascendentes 49 px = 6,8 %; ancho del texto 30 % del ancho de pantalla",
+   "posicion": "abajo a la izquierda: margen izquierdo 4,5 % del ancho (x=57 de 1280), línea base al 93 % de la altura (y=670 de 720)",
+   "entrada": "3 f (0:00,28-0:00,36): entra subiendo desde abajo-izquierda a la vez que el primer plano se abre con zoom borroso y separación de colores; desde 0:00,40 quieta",
+   "salida": "corte seco en 0:23,30, tapada por el snap zoom al ojo (2 f) con desenfoque; el texto NO hace zoom con la imagen",
+   "duracion_s": "23,0 s (575 f), fija sobre los 12 planos del tráiler",
+   "por_minuto": "1 vez en el vídeo",
+   "disparador": "ninguno: está desde el primer fotograma con imagen",
+   "ejemplos_t": [
+    "0:00,28-0:23,26"
+   ],
+   "recorte": [
+    "refs/dinamicos/_analisis/2025-11-16_cafe-de-colombia/rotulos/01_a-continuacion_recorte.png",
+    "refs/dinamicos/_analisis/2025-11-16_cafe-de-colombia/rotulos/01_a-continuacion_completo.jpg",
+    "refs/dinamicos/_analisis/2025-11-16_cafe-de-colombia/rotulos/01_a-continuacion_entrada_fotograma-a-fotograma.jpg"
+   ]
+  },
+  {
+   "tipo": "Texto-chiste / comentario del editor / palabra suelta resaltada: «FLO» entre comillas (el barista dice «flow» y el editor lo escribe como suena)",
+   "fuente_parecida_google": "Inter Black Italic (alternativas: Archivo ExtraBold Italic, Arimo Bold Italic). Es de la familia Helvetica Neue Heavy Italic",
+   "peso": "Black / Heavy (900), cursiva de unos 12 grados",
+   "caja": "MAYÚSCULAS con comillas tipográficas",
+   "color": "blanco puro #FFFFFF",
+   "borde_sombra": "sin borde; sombra negra dura desplazada unos 6 px abajo-izquierda con algo de difuminado (a 720p)",
+   "tamano_rel": "altura de mayúscula 108 px de 720 = 15 %; ancho con comillas 33 % del ancho de pantalla",
+   "posicion": "centro exacto de pantalla (centro en x=649, y=360), encima de las dos personas",
+   "entrada": "fundido de 5 f (11:02,50-11:02,66) a la vez que el fondo se desenfoca y se oscurece aprox. un 45 % en esos mismos 5 f. Sin escala ni rebote",
+   "salida": "corte seco: desaparece con el cambio de plano en 11:03,44",
+   "duracion_s": "0,96 s (24 f): 5 f de entrada + 19 f quieto",
+   "por_minuto": "1 vez en el vídeo",
+   "disparador": "la palabra «flow» (dicha en 11:02,46; el texto empieza 1 f después)",
+   "ejemplos_t": [
+    "11:02,50-11:03,44"
+   ],
+   "recorte": [
+    "refs/dinamicos/_analisis/2025-11-16_cafe-de-colombia/rotulos/02_texto-chiste_FLO_recorte.png",
+    "refs/dinamicos/_analisis/2025-11-16_cafe-de-colombia/rotulos/02_texto-chiste_FLO_completo.jpg",
+    "refs/dinamicos/_analisis/2025-11-16_cafe-de-colombia/rotulos/02_texto-chiste_FLO_entrada-salida_fotogramas.jpg"
+   ]
+  },
+  {
+   "tipo": "Subtítulos a dos colores (un color por persona)",
+   "fuente_parecida_google": "Inter Bold (alternativa: Arimo Bold); es Helvetica/Arial negrita",
+   "peso": "Bold (700)",
+   "caja": "minúsculas, sin mayúscula inicial, con puntos suspensivos cuando se pisan",
+   "color": "barista: lima #D9FE23; Xokas: blanco #FFFFFF",
+   "borde_sombra": "sin borde ni caja; sombra mínima. El plano va oscuro, por eso se lee",
+   "tamano_rel": "ascendentes 36 px de 720 = 5 %; altura de la x 26 px = 3,6 %; la frase larga ocupa el 56 % del ancho",
+   "posicion": "centrado abajo, línea base al 92 % de la altura (y=663 de 720), una sola línea",
+   "entrada": "corte seco (0 f); el primero entra con el cambio de plano",
+   "salida": "corte seco; el último («para…») se corta con un glitch de 2 f",
+   "duracion_s": "4,16 s en total (104 f): 1,68 s, 0,60 s, 0,96 s y 0,92 s por rótulo",
+   "por_minuto": "1 tramo en todo el vídeo (4 rótulos)",
+   "disparador": "dos personas hablando a la vez y en voz baja; además prepara el chiste: «para…» se corta y salta al flash-forward en blanco y negro de él con cara de sufrir",
+   "ejemplos_t": [
+    "11:58,64 «probemos algo un poco más…» (lima)",
+    "12:00,32 «aromático» (lima)",
+    "12:00,92 «arom… me gusta, sí» (blanco)",
+    "12:01,88 «para…» (lima) hasta 12:02,80"
+   ],
+   "recorte": [
+    "refs/dinamicos/_analisis/2025-11-16_cafe-de-colombia/rotulos/03_subtitulo_amarillo_recorte.png",
+    "refs/dinamicos/_analisis/2025-11-16_cafe-de-colombia/rotulos/04_subtitulo_blanco_recorte.png",
+    "refs/dinamicos/_analisis/2025-11-16_cafe-de-colombia/rotulos/03_subtitulo_amarillo_completo.jpg",
+    "refs/dinamicos/_analisis/2025-11-16_cafe-de-colombia/rotulos/03_subtitulos_secuencia_fotogramas.jpg"
+   ]
+  },
+  {
+   "tipo": "Lista / dato que se construye palabra a palabra: «1. Caliente / 2. Tibio / 3. Frío»",
+   "fuente_parecida_google": "Inter Bold (alternativa: Arimo Bold)",
+   "peso": "Bold (700)",
+   "caja": "Mayúscula inicial",
+   "color": "número en blanco #FFFFFF; palabra en color: Caliente naranja #EE580A, Tibio verde menta #7ADCA9, Frío azul #12A7F5",
+   "borde_sombra": "contorno negro de unos 3 px + sombra negra suave",
+   "tamano_rel": "altura de mayúscula 56 px de 720 = 7,8 %; interlineado 190 px = 26 % de la altura (líneas muy separadas)",
+   "posicion": "tres líneas centradas en horizontal (centro x=638), en y = 20 %, 47 % y 73 % de la altura, entre las dos caras",
+   "entrada": "en 18:22,40 el plano salta por corte a x1,535 y queda desenfocado y oscurecido un 30 % (todo en 1 f); cada línea entra con fundido de 2-3 f justo cuando se dice la palabra: «Caliente» 18:22,44 (dicha en 22,36), «Tibio» 18:23,32 (dicha en 23,22), «Frío» 18:23,96 (dicha en 23,94). Sin movimiento",
+   "salida": "corte seco de todo a la vez en 18:24,48, volviendo a x1,0 nítido, justo antes de la frase siguiente",
+   "duracion_s": "2,08 s (52 f) en total; completa solo 0,5 s",
+   "por_minuto": "1 vez en el vídeo",
+   "disparador": "enumeración hablada («lo podemos probar en tres tiempos: caliente, tibio, frío»)",
+   "ejemplos_t": [
+    "18:22,40-18:24,48"
+   ],
+   "recorte": [
+    "refs/dinamicos/_analisis/2025-11-16_cafe-de-colombia/rotulos/05_lista_caliente-tibio-frio_recorte.png",
+    "refs/dinamicos/_analisis/2025-11-16_cafe-de-colombia/rotulos/05_lista_caliente-tibio-frio_completo.jpg",
+    "refs/dinamicos/_analisis/2025-11-16_cafe-de-colombia/rotulos/05_lista_entrada-salida_fotogramas.jpg"
+   ]
+  },
+  {
+   "tipo": "Pantalla final (logo y redes)",
+   "fuente_parecida_google": "texto «ELXOKAS» muy pequeño en palo seco con mucho espaciado (tipo Montserrat SemiBold espaciada)",
+   "peso": "SemiBold",
+   "caja": "MAYÚSCULAS espaciadas",
+   "color": "blanco sobre degradado verde azulado oscuro a azul noche, con partículas",
+   "borde_sombra": "ninguno",
+   "tamano_rel": "logo aprox. 12 % de la altura; texto menos del 1 %",
+   "posicion": "logo centrado al 30 % de la altura; fila de 4 iconos de redes al 68 %",
+   "entrada": "fundido encadenado de 14 f (23:02,96-23:03,50) desde el plano; el logo aparece con fundido y los iconos unos 3 s después",
+   "salida": "fin del vídeo",
+   "duracion_s": "9,4 s",
+   "por_minuto": "1 vez",
+   "disparador": "despedida («hasta luego»)",
+   "ejemplos_t": [
+    "23:03,5-23:12,9"
+   ],
+   "recorte": [
+    "refs/dinamicos/_analisis/2025-11-16_cafe-de-colombia/rotulos/06_pantalla-final_completo.jpg",
+    "refs/dinamicos/_analisis/2025-11-16_cafe-de-colombia/rotulos/06_pantalla-final_fundido_fotogramas.jpg"
+   ]
+  },
+  {
+   "tipo": "NO EXISTEN en este vídeo",
+   "fuente_parecida_google": "-",
+   "peso": "-",
+   "caja": "-",
+   "color": "-",
+   "borde_sombra": "-",
+   "tamano_rel": "-",
+   "posicion": "-",
+   "entrada": "-",
+   "salida": "-",
+   "duracion_s": "0",
+   "por_minuto": "0",
+   "disparador": "-",
+   "ejemplos_t": [],
+   "recorte": [],
+   "detalle": "título o cabecera de apertura, número de episodio («#6» solo está en el título de YouTube), rótulo de lugar (Medellín se dice, no se escribe), nombre de persona (Juan Pablo se presenta de palabra), precios o datos sobreimpresos, cuenta atrás, capítulos. Comprobado con las hojas de 2 s, un muestreo propio cada 0,5 s y un detector del color lima de los subtítulos en la franja inferior; un texto pequeño y blanco de menos de 0,5 s podría haberse escapado."
+  }
+ ],
+ "subtitulos": "No subtitulan el vídeo. Solo 4 rótulos seguidos en 11:58,64-12:02,80 (4,2 s) donde dos personas hablan a la vez en voz baja: lima #D9FE23 para el barista, blanco para Xokas, Inter/Helvetica Bold en minúsculas, centrado abajo (base al 92 %), altura del 5 %, entrada y salida por corte, una frase por rótulo (0,6-1,7 s cada uno). Funcionan como gag: la última palabra se corta en seco con un glitch. Al barista colombiano NO se le subtitula en el resto.",
+ "otros_recursos": {
+  "motion_graphics": "Ninguno «chulo»: sin mapas de viaje, flechas, círculos, recortes de persona, stickers, emojis, memes, contadores ni gráficos explicativos. Lo único gráfico son la lista de 18:22 y la pantalla final. Para motion graphics hay que mirar otras referencias, no esta.",
+  "blanco_y_negro": "3 veces, siempre como remate o cambio de tono: 12:02,96-12:05,6 (2,7 s, flash-forward de su cara de sufrir, entra con glitch), 20:00,2-20:03,2 (3,0 s, macro de la jarra a cámara lenta antes del café «peligroso»), 22:23,04-22:31,64 (8,6 s, falso final con zoom lento a la cara; el color vuelve por corte cuando dice «No, bueno, ahora fuera bromas»).",
+  "fondo_desenfocado_y_oscurecido_bajo_texto": "Siempre que el texto va en el centro (FLO y lista) el plano se desenfoca y se oscurece un 30-45 %; con la lista además salta a x1,5.",
+  "etalonaje_del_trailer": "Los 23 s del tráiler van desaturados y más oscuros que el resto, para separarlos del vídeo.",
+  "inserto_al_nombrar": "Al decir «la tienda del café» (0:42,9) entra 3,1 s el rótulo luminoso de la tienda con paneo; la voz sigue por debajo.",
+  "barras_marcos": "No hay barras de cine, marcos ni pantalla partida.",
+  "musica_y_efectos": "No se puede medir (no hay audio.json)."
+ },
+ "transiciones": {
+  "resumen": "Más del 96 % son cortes secos. Solo 6 transiciones con efecto en 23 min (0,26 por minuto), todas en bordes de bloque o de inserto.",
+  "lista": [
+   {
+    "t": "0:00,20-0:00,28",
+    "tipo": "apertura desde negro con zoom borroso y separación de colores (RGB)",
+    "duracion": "3 f"
+   },
+   {
+    "t": "0:23,16-0:23,42",
+    "tipo": "snap zoom al ojo (x1,07 y x1,30 en 2 f) + desenfoque y aberración cromática; el plano siguiente arranca borroso y se asienta en 3-4 f. Separa tráiler y vídeo",
+    "duracion": "7 f (0,28 s)"
+   },
+   {
+    "t": "0:42,50-0:42,90",
+    "tipo": "destello a blanco (4 f) y entrada del inserto desde gris (6 f)",
+    "duracion": "10 f (0,4 s); la vuelta en 0:45,72 es corte seco"
+   },
+   {
+    "t": "7:17",
+    "tipo": "barrido borroso (whip) para cambiar de zona de la tienda",
+    "duracion": "aprox. 1 s"
+   },
+   {
+    "t": "12:02,80-12:02,88",
+    "tipo": "glitch con desplazamiento RGB y bloques, hacia el flash-forward en blanco y negro",
+    "duracion": "2 f; la vuelta en 12:05,6 es corte seco"
+   },
+   {
+    "t": "23:02,96-23:03,50",
+    "tipo": "fundido encadenado a la pantalla final",
+    "duracion": "14 f (0,56 s)"
+   }
+  ]
+ },
+ "receta": [
+  "Tráiler en frío de 20-25 s: 10-12 planos de los mejores momentos (1,5-2,5 s cada uno), desaturado y un 20-30 % más oscuro, con la cartela fija «a continuación…» (Instrument Serif Regular, minúsculas, blanco, altura de x 4,6 % de la pantalla, margen izquierdo 4,5 %, base al 93 %).",
+  "Salida del tráiler: snap zoom de 2 f (x1,07 y x1,30) a los ojos + desenfoque con separación RGB; el primer plano del vídeo entra borroso y se asienta en 3-4 f. Total 7 f.",
+  "Nada de título ni rótulos de lugar/nombre si ya se dicen de palabra: máximo 1 texto cada 4-5 min, y cada uno tiene que ser un chiste, una enumeración o una ayuda para entender.",
+  "Palabra-chiste: una sola palabra entre comillas, Inter Black Italic en mayúsculas, blanca con sombra negra dura (6 px abajo-izquierda a 720p), altura de mayúscula 15 % de la pantalla, centrada. Entra con fundido de 5 f, 1 f después de la palabra dicha, mientras el fondo se desenfoca y se oscurece un 45 % en esos 5 f; dura 24 f en total y se va por corte.",
+  "Lista hablada: en el corte, punch-in x1,5 + desenfoque + oscurecer 30 % (1 f); cada elemento entra con fundido de 2-3 f en el fotograma en que se dice; número en blanco y palabra en su color (naranja #EE580A, menta #7ADCA9, azul #12A7F5), Inter Bold con contorno negro de 3 px, altura 7,8 %, tres líneas centradas al 20 / 47 / 73 % de la altura. Sale todo por corte antes de la frase siguiente (2 s en total).",
+  "Subtítulos solo cuando no se entiende o se pisan: Inter Bold minúsculas, altura 5 %, centrado con la base al 92 %, sin caja, sobre plano oscurecido; un color por persona (lima #D9FE23 y blanco); cambios por corte, 0,6-1,7 s por rótulo.",
+  "Punch-in por corte a x1,5 (entre x1,4 y x1,6) sobre la cara en el arranque de una idea o en la reacción; mantener 0,5-2 s (mínimo 14 f) y volver por corte a x1,0. Objetivo: 1 de cada 4 cortes; unos 2 por minuto en entrevista y 4-5 por minuto en monólogo.",
+  "En monólogo a una cámara, zoom-in animado de x1,0 a x1,3-1,45 en 22-37 f (1-2 % por fotograma, lineal o frenando al final) cuando empieza una idea; unos 3 por minuto.",
+  "Zoom-out animado de x1,0 a x0,7 en 13-19 f con aceleración y frenada al terminar la frase o en el remate; unos 2 por minuto en monólogo.",
+  "Snap zoom de 4 f a x1,33 sincronizado con un gesto grande hacia cámara; mantener 0,8 s y salir con zoom-out de 1 s. Máximo 1 cada 2-3 min.",
+  "Blanco y negro como signo de puntuación, 3 veces en 23 min: flash-forward de 2,7 s con glitch de 2 f de entrada, macro a cámara lenta de 3 s antes del momento fuerte, y falso final de 8-9 s con zoom lento a la cara (x1,15 a x2,5 en 7 s) que se rompe con un zoom-out de 14 f.",
+  "Al nombrar un sitio, inserto de 3 s de su rótulo con la voz por debajo; entrada con destello a blanco de 4 f y vuelta por corte.",
+  "Ritmo de corte: 1,5-2 s por plano en tráiler y montajes de recurso; 4-6 s de mediana en conversación, dejando tomas de 20-40 s cuando lo que se dice aguanta.",
+  "Cierre: fundido encadenado de 14 f a una pantalla final de 9-10 s con logo e iconos."
+ ],
+ "dudas": [
+  "No se puede asegurar qué zooms del monólogo final son digitales (edición) y cuáles son de la cámara o de él acercándose: se midieron sobre el fondo (techo y laterales), así que el fondo escala de verdad, pero la deriva de ±3-9 % cada 5 s sugiere cámara en mano u operador. Los de perfil suave de 13-37 f y los cortes de tamaño sí parecen de edición.",
+  "En el falso final (22:23-22:30) el zoom lento mezcla zoom y que él se acerca al objetivo: la escala final x2,5 es aproximada.",
+  "Los 41 «punch-in por corte» se identificaron porque el fotograma anterior y el posterior al corte casan con un cambio de escala; alguno puede ser una segunda cámara en el mismo eje con otro objetivo y no un recorte digital.",
+  "Jump cuts con encuadre idéntico: cortes.json no los ve y no se han podido contar de forma fiable; a ojo son escasos.",
+  "Las fuentes son la más parecida de Google Fonts vista a 720p: la serif del tráiler podría ser una de pago (tipo Editorial New) y la de «FLO» y los subtítulos es de la familia Helvetica.",
+  "Los porcentajes de oscurecido (30-45 %) y el desplazamiento de la sombra están estimados a ojo sobre fotogramas de 720p.",
+  "Música y efectos de sonido: sin datos (no hay audio.json); no se sabe si el snap zoom, el glitch o «FLO» llevan sonido.",
+  "No se usó medir_zoom.py tal cual sino el mismo método (ORB + afín parcial, fotograma a fotograma a 25 fps) sobre todo el vídeo y, en el cierre y el balcón, solo sobre el fondo."
+ ]
+}

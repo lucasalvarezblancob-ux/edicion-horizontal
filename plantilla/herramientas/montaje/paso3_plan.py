@@ -1,0 +1,235 @@
+"""Paso 3: de la línea de voz al plan de IMAGEN (trabajo/video.json) y de GRÁFICOS (estudio/src/videos/<slug>/capas.json).
+Lee plan.py del vídeo (todo opcional; lo que no esté, no se pone):
+  BROLL     planos de recurso sobre la voz           FUERTES   frases con punch-in de golpe x1,65
+  TRK       rótulos anclados a un sujeto             ENTRADAS  zoom-in animado rápido (con frenada)
+  DETALLE   rótulos tras los que se cierra al sujeto  DATOS     cifra junto a la cara
+  MAPAS     mapa a pantalla completa                 GOLPES    palabra-golpe grande abajo
+  SUBS      subtítulos (solo donde se oye mal)       NOTAS     comentario del editor
+  TITULO    título sobre la marca "titulo"           SUSCRIBE  (antiguo) botón dibujado; para suscribirse se usa BOTONES
+  BOTONES   botones animados de la skill (suscríbete, me gusta, campana): [(ancla, nº, {x, y, esc, vel}?)]; SIEMPRE que se
+            pide suscribirse, like o campana, y abajo en el CENTRO (de serie). Catálogo: base/recursos.md -> «Botones de
+            YouTube». Llevan texto en español: si hay versión en el IDIOMA del vídeo (bNN_<idioma>.webm, la hace
+            herramientas/boton_idioma.py) se coge sola. vel: 1.25 = un 25 % más rápido, para que quepa (el sonido también)
+  PROPIOS   gráficos PROPIOS del creador (su mascota, su logo…): [(ancla, segundos, "tipo", {datos})]; los pinta
+            estudio/src/personal/<creador>/ y se documentan en personal/<creador>/recursos.md
+Los cortes de escala los pone dinamica.py. Al final imprime el ritmo (mediana de plano, cortes/min) y los avisos."""
+import json, os, subprocess
+import numpy as np, cv2
+from comun import ALTO as AH, ANCHO as AW, CAPAS_JSON, CREADOR, ESTUDIO, F, FPS, IDIOMA, TRABAJO, Linea, bruto, buscar, marca, texto_dicho
+import plan      # después de comun: es quien mete la carpeta del vídeo en el path
+from dinamica import Caras, Z_FUERTE, encuadre, planos_de_voz
+
+g = lambda n, d: getattr(plan, n, d)
+BROLL, TRK, DETALLE, MAPAS, SUBS = g("BROLL", []), g("TRK", []), set(g("DETALLE", ())), g("MAPAS", []), g("SUBS", [])
+FUERTES, ENTRADAS, DATOS, GOLPES, NOTAS = g("FUERTES", []), g("ENTRADAS", []), g("DATOS", []), g("GOLPES", []), g("NOTAS", [])
+TITULO, SUSCRIBE, BOTONES, PROPIOS = g("TITULO", None), g("SUSCRIBE", None), g("BOTONES", []), g("PROPIOS", [])
+L = Linea(); P, W, M = L.piezas, L.palabras, L.marcas
+
+
+def src2out(c, t):
+    """Frame de salida (y pieza) en que se ve el segundo t del bruto c."""
+    f = round(t * FPS)
+    for p in P:
+        if p["clip"] == c and p["speed"] == 1 and p["k"] == "T" and p["in"] <= f < p["out"]: return p["o"] + f - p["in"], p
+    for p in P:
+        if p["clip"] == c and p["speed"] == 1 and p["n"] > F(1.6) and p["in"] <= f < p["out"]: return p["o"] + f - p["in"], p
+    raise SystemExit(f"{c} {t}s no está en el montaje")
+
+
+def seguir(c, t0, t1, caja):
+    """Seguimiento de puntos (Lucas-Kanade + mediana) a 960 px de ancho; devuelve [x, y] por frame en px del lienzo."""
+    n = round((t1 - t0) * FPS); sw = 960; sh = 2 * round(sw * AH / AW / 2); k = AW / sw
+    raw = subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-ss", f"{t0}", "-i", bruto(c), "-frames:v", str(n), "-vf", f"fps={FPS},scale={sw}:{sh}", "-pix_fmt", "gray", "-f", "rawvideo", "-"], capture_output=True, check=True).stdout
+    fr = np.frombuffer(raw, np.uint8).reshape(-1, sh, sw); cx, cy, r = [v / k for v in caja]; pos = [[cx, cy]]
+    for i in range(1, len(fr)):
+        m = np.zeros((sh, sw), np.uint8); m[max(0, int(cy - r)):int(cy + r), max(0, int(cx - r)):int(cx + r)] = 255
+        p0 = cv2.goodFeaturesToTrack(fr[i - 1], 80, 0.01, 4, mask=m)
+        if p0 is not None:
+            p1, st, _ = cv2.calcOpticalFlowPyrLK(fr[i - 1], fr[i], p0, None, winSize=(31, 31), maxLevel=3)
+            ok = st.ravel() == 1
+            if ok.sum() >= 4:
+                d = np.median((p1 - p0)[ok].reshape(-1, 2), axis=0); cx += float(d[0]); cy += float(d[1])
+        pos.append([cx, cy])
+    pos = np.array(pos) * k
+    q = np.ones(5) / 5; sm = np.stack([np.convolve(np.pad(pos[:, j], 2, mode="edge"), q, "valid") for j in (0, 1)], 1)
+    return sm.round(1).tolist()
+
+
+items = []; esp = []
+# ---- rótulos con seguimiento: (clip, t0, t1 del bruto, caja inicial [cx, cy, medio lado] en px del lienzo, grande, pequeño, lado) ----
+TRK_REC = [t for t in TRK if len(t) == 8]      # con ancla: van sobre un plano de RECURSO (se colocan después de BROLL)
+for c, t0, t1, caja, grande, peq, lado in [t for t in TRK if len(t) == 7]:
+    o0, p = src2out(c, t0); o1, p1 = src2out(c, t1 - 0.04)
+    assert p is p1, f"rótulo con seguimiento cruza un corte: {c} {t0}-{t1}"
+    resto = (p["o"] + p["n"] - o1) / FPS; extra = min(2.6, resto - 0.4) if resto > 1.6 else 0     # zoom al detalle después del rótulo
+    if grande not in DETALLE: extra = 0      # solo donde se ha comprobado a ojo que el seguimiento aguanta
+    pos = seguir(c, t0, t1 + extra, caja); n = round((t1 - t0) * FPS)
+    items.append({"t": "trk", "f0": o0, "f1": o0 + n, "pos": pos[:n], "grande": grande, "peq": peq, "lado": lado})
+    esp.append({"tipo": "fijo", "z": 1.0, "f0": o0 - F(0.4), "f1": o0 + n})
+    if extra:
+        cx, cy = np.median(np.array(pos[n:]), axis=0); esp.append({"tipo": "detalle", "z": 1.6, "t": F(0.4), "f0": o0 + n, "f1": o0 + len(pos), "cx": float(cx), "cy": float(cy)})
+    print("seguimiento", grande, round(o0 / FPS, 1), "s; desplazamiento", np.ptp(np.array(pos), axis=0).round(), "detalle", round(extra, 1), "s")
+
+# ---- especiales: frase fuerte, entrada animada, dato ----
+for c, fr, n in FUERTES:
+    a, b = buscar(W, c, fr, n); f0 = int(W[a]["o0"]) - F(0.08); esp.append({"tipo": "fuerte", "z": Z_FUERTE, "f0": f0, "f1": max(int(round(W[b]["o1"])) + F(0.12), f0 + F(0.64))})
+for c, fr, n, z in ENTRADAS:
+    a, b = buscar(W, c, fr, n); f0 = int(W[a]["o0"]) - F(0.08); esp.append({"tipo": "entra", "z": z, "f0": f0, "f1": max(int(round(W[b]["o1"])) + F(0.12), f0 + F(1.6))})
+for i, (an, grande, peq, d) in enumerate(DATOS):
+    a, b = buscar(W, *an); f0 = int(W[a]["o0"]) - F(0.08)
+    esp.append({"tipo": "dato", "z": 1.3, "ax": 0.3 if i % 2 == 0 else 0.7, "f0": f0, "f1": max(int(round(W[b]["o1"])) + F(0.12), f0 + F(d)), "grande": grande, "peq": peq})
+orden = sorted(esp, key=lambda e: e["f0"])
+for x, y in zip(orden, orden[1:]):
+    if y["f0"] < x["f1"]: print("AVISO: especiales solapados", x["tipo"], x["f0"], x["f1"], y["tipo"], y["f0"]); x["f1"] = y["f0"]
+
+vid = planos_de_voz(P, W, Caras(TRABAJO), esp, L.secciones)
+
+
+def cortar(f):   # parte el plano que contiene el frame f
+    for i, v in enumerate(vid):
+        if v["o"] < f < v["o"] + v["n"]:
+            k = f - v["o"]; b = dict(v); b["in"] = v["in"] + round(k * v["speed"]); b["n"] = v["n"] - k; b["o"] = f; v["n"] = k
+            if b.get("t"): b["z0"] = b["z1"]; b["t"] = 0
+            vid.insert(i + 1, b); return
+
+
+# ---- planos de recurso sobre la voz: (ancla, clip origen, segundo origen, duración s | None = hasta el final de la pieza[, (zoom, cx, cy)]) ----
+nb = 0
+for a, c, t, d, *zz in BROLL:
+    f0 = L.ancla(a)
+    if d is None:
+        p = next(p for p in P if p["o"] <= f0 < p["o"] + p["n"]); f1 = p["o"] + p["n"]
+    else: f1 = f0 + F(d)
+    def pegar(f):   # nada de planos de un puñado de frames: el recurso se pega al corte más cercano
+        cs = [v["o"] for v in vid] + [L.total]; c_ = min(cs, key=lambda x: abs(x - f)); return c_ if abs(c_ - f) <= F(0.48) else f
+    f0, f1 = pegar(f0), pegar(f1)
+    cortar(f0); cortar(f1)
+    i0 = next(i for i, v in enumerate(vid) if v["o"] == f0); i1 = next((i for i, v in enumerate(vid) if v["o"] == f1), len(vid))
+    n = f1 - f0; base = {"clip": c, "speed": 1.0, "b": 1, "t": 0, "cx": None, "cy": None, "ax": 0.5, "ay": 0.5}
+    if zz: nuevos = [{**base, "in": round(t * FPS), "n": n, "o": f0, "z0": zz[0][0], "z1": zz[0][0], "cx": zz[0][1], "cy": zz[0][2]}]   # zoom al sujeto
+    elif n >= F(3.2):   # recurso largo: corte de escala a la mitad (x1,0 -> x1,25), sin zoom lento
+        h = round(n * 0.52); nuevos = [{**base, "in": round(t * FPS), "n": h, "o": f0, "z0": 1.0, "z1": 1.0}, {**base, "in": round(t * FPS) + h, "n": n - h, "o": f0 + h, "z0": 1.25, "z1": 1.25}]
+    else: nuevos = [{**base, "in": round(t * FPS), "n": n, "o": f0, "z0": 1.0, "z1": 1.0}]
+    vid[i0:i1] = nuevos; nb += 1
+assert all(vid[i]["o"] + vid[i]["n"] == vid[i + 1]["o"] for i in range(len(vid) - 1)) and vid[-1]["o"] + vid[-1]["n"] == L.total
+# rótulo con seguimiento sobre un plano de recurso: (clip, t0, t1, caja, grande, pequeño, lado, ancla del frame en que suena t0)
+for c, t0, t1, caja, grande, peq, lado, a in TRK_REC:
+    o0 = L.ancla(a); v = next(v for v in vid if v["o"] <= o0 < v["o"] + v["n"]); n = round((t1 - t0) * FPS)
+    if not (v["b"] and v["clip"] == c and v["z0"] == v["z1"] and o0 + n <= v["o"] + v["n"]): raise SystemExit(f"rótulo {grande}: en el frame {o0} no hay un recurso de {c} con zoom fijo que dure {n} frames (hay {v['clip']}, recurso={v['b']}, hasta {v['o'] + v['n']})")
+    dt = (v["in"] + o0 - v["o"]) / FPS - t0
+    if abs(dt) > 0.06: raise SystemExit(f"rótulo {grande}: en el frame {o0} el recurso enseña el segundo {t0 + dt:.2f} de {c}, no el {t0}")
+    z = v["z0"]; w, h, x, y = encuadre(z, v.get("cx"), v.get("cy"), v.get("ax", 0.5), v.get("ay", 0.5))
+    pos = [[round(px * z - x, 1), round(py * z - y, 1)] for px, py in seguir(c, t0, t1, caja)][:n]
+    items.append({"t": "trk", "f0": o0, "f1": o0 + n, "pos": pos, "grande": grande, "peq": peq, "lado": lado})
+    print("seguimiento sobre recurso", grande, round(o0 / FPS, 1), "s; en pantalla", np.array(pos)[[0, -1]].round().tolist())
+
+# ---- gráficos ----
+if TITULO and "titulo" in M:
+    items.append({"t": "titulo", "f0": M["titulo"], "f1": M["titulo"] + F(TITULO.get("dur", 4.0)), "arriba": TITULO.get("arriba", ""), "grande": TITULO["grande"], "abajo": TITULO.get("abajo", "")})
+for s in L.secciones:
+    items.append({"t": "seccion", "f0": s["o"] + F(0.12), "f1": s["o"] + F(3.12), "n": s["n"], "de": len(L.secciones), "titulo": s["titulo"], "sub": s["sub"]})
+for a, d, reg, nueva in MAPAS:
+    f0 = L.ancla(a); items.append({"t": "mapa", "f0": f0, "f1": f0 + F(d), "reg": reg, "nueva": nueva})
+for a, d, txt, *col in SUBS:
+    f0 = L.ancla(a); items.append({"t": "sub", "f0": f0, "f1": f0 + F(d), "txt": txt, **({"color": col[0]} if col else {})})
+if SUSCRIBE:
+    f0 = L.ancla(SUSCRIBE[0]); items.append({"t": "suscribe", "f0": f0, "f1": f0 + F(2.8), "txt": SUSCRIBE[1]})
+for a, n, *op in BOTONES:
+    o = dict(op[0]) if op else {}; vel = float(o.pop("vel", 1)); base = f"b{n:02d}"; bj = f"{ESTUDIO}/public/botones/{base}.json"
+    if not os.path.exists(bj): raise SystemExit(f"No existe el botón {n} ({bj}); los hay del 1 al 16")
+    arch = f"{base}_{IDIOMA}" if IDIOMA and os.path.exists(f"{ESTUDIO}/public/botones/{base}_{IDIOMA}.webm") else base      # su versión en el idioma del vídeo, si la hay
+    if IDIOMA and IDIOMA != "es" and arch == base:
+        print(f"AVISO: el vídeo es en «{IDIOMA}» y el botón {n} no tiene versión en ese idioma: si lleva texto (base/recursos.md -> Botones), saldrá en español. El 2 se traduce con herramientas/boton_idioma.py")
+    caja = json.load(open(bj)); f0 = L.ancla(a)
+    items.append({"t": "boton", "f0": f0, "f1": f0 + F(caja["dur"] / vel), "n": n, "arch": arch, "vel": vel, "caja": caja, "snd": [f"botones/{base}.mp3", 0.35, vel], **o})
+# Cada gráfico propio recibe el idioma del vídeo y el logo de la marca en ese idioma (marca.json -> "logo", archivo de
+# estudio/public/personal/<creador>/). Si el logo de ese idioma no está, va "" y se avisa: mejor sin logo que con el de otro canal.
+_m = marca(); _logo = _m.get("logo")
+if _logo and not os.path.exists(f"{ESTUDIO}/public/personal/{CREADOR}/{_logo}"):
+    print(f"AVISO: falta el logo de la marca para «{IDIOMA}»: estudio/public/personal/{CREADOR}/{_logo}. Los gráficos propios que lo usan saldrán SIN logo. Pídeselo al creador.")
+    _logo = ""
+for a, d, tipo, *op in PROPIOS:
+    f0 = L.ancla(a); items.append({"t": tipo, "f0": f0, "f1": f0 + F(d), "idioma": IDIOMA, **({} if _logo is None else {"logo": _logo}), **(op[0] if op else {})})
+for i, e in enumerate(esp):
+    if e["tipo"] != "dato": continue
+    pl = [v for v in vid if v.get("esp") == i and not v["b"]]
+    if not pl: print("AVISO: dato sin plano (tapado por recurso o sin sitio):", e["grande"]); continue
+    v = pl[0]; x, y, mw = 0.5, 0.74, 0.4
+    if v["cx"] is not None and v["z1"] > 1.2:   # cara a un lado -> la cifra, centrada en el hueco del otro
+        w, h, cxr, cyr = encuadre(v["z1"], v["cx"], v["cy"], v["ax"], v["ay"]); xo = (v["cx"] * v["z1"] - cxr) / AW
+        x, y = ((xo + 0.11 + 0.98) / 2 if xo < 0.5 else (xo - 0.11 + 0.02) / 2), 0.46; mw = (0.98 - xo - 0.11 if xo < 0.5 else xo - 0.11 - 0.02) * 0.92
+    else: print("AVISO: dato sin cara, va abajo al centro:", e["grande"])
+    items.append({"t": "dato", "f0": v["o"] + F(0.08), "f1": pl[-1]["o"] + pl[-1]["n"], "grande": e["grande"], "peq": e["peq"], "x": round(x, 3), "y": y, "mw": round(mw, 3)})
+for a, d, txt in GOLPES:
+    f0 = L.ancla(a); items.append({"t": "golpe", "f0": f0, "f1": f0 + F(d), "txt": txt})
+for a, ret, d, txt in NOTAS:
+    f0 = L.ancla(a) + F(ret); items.append({"t": "nota", "f0": f0, "f1": f0 + F(d), "txt": txt})
+# ---- ningún texto se va antes de que se haya DICHO entero y se pueda leer (comun.texto_dicho) ----
+# Se alarga solo hasta medio segundo después de su última palabra (o hasta la pausa) y nunca menos que el tiempo de
+# leerlo; sin pisar el texto siguiente. Imprime lo que alarga: si un texto crece mucho, mira si el ancla está bien.
+_voz = {"golpe", "nota"} | {p[2] for p in PROPIOS}
+_cortes = sorted({v["o"] for v in vid} | {L.total})
+_tx = sorted([it for it in items if it["t"] in _voz and any(it.get(k) for k in ("txt", "grande", "sub"))], key=lambda x: x["f0"])
+for it in _tx:
+    txt = " ".join(str(it.get(k, "")) for k in ("txt", "grande", "sub") if it.get(k))
+    fe = it["f0"] + F(getattr(plan, "RETARDO_TEXTO", {}).get(it["t"], 0))      # desde cuándo se puede LEER (una burbuja que asoma)
+    fin, ult = texto_dicho(L.palabras, it.get("txt") or it.get("grande") or txt, fe, it["f1"])
+    fin = max(fin, fe + max(F(1.2), F(0.6 + 0.3 * len(txt.split()))))
+    if fin <= it["f1"]: continue
+    sig = min((o["f0"] for o in items if o is not it and o["f0"] > it["f0"] and o["t"] not in ("trk", "boton", "suscribe") and o["f0"] < fin + F(0.8)), default=None)
+    tope = sig - F(0.3) if sig is not None else L.total
+    if tope < fin: print(f"AVISO: «{txt[:30]}» necesita hasta {fin / FPS:.1f} s para decirse y leerse, pero el texto siguiente entra en {sig / FPS:.1f} s: sepáralos en plan.py")
+    nuevo = max(it["f1"], min(fin, tope))
+    cs = [c for c in _cortes if nuevo - F(0.5) < c < nuevo and c - it["f0"] >= F(0.5)]      # sin colas: si cruza un corte, lo pisa medio segundo
+    if cs and nuevo > it["f1"] and max(cs) + F(0.5) <= tope: nuevo = max(cs) + F(0.5)
+    if nuevo > it["f1"]: print(f"texto alargado {(nuevo - it['f1']) / FPS:+.1f} s hasta que se dice y se lee: «{txt[:40]}»" + (f" (última palabra «{ult['w']}»)" if ult else "")); it["f1"] = nuevo
+    it["_min"], it["_tope"] = nuevo, tope
+# ---- los textos van con los cortes ----
+# Un texto que acaba a unos fotogramas de un corte se ajusta a él, y uno que entra unos fotogramas antes de un corte entra
+# EN el corte (Lucas, 2026-11-12: un texto que se cuela 2 fotogramas en el plano siguiente, o que se va 3 antes, se nota).
+# Nunca se adelanta la entrada: un texto no sale antes de su palabra. Lo demás (que entre en SU palabra y aguante la
+# frase) se decide en plan.py y se mide con timing_textos.py.
+_cortes = sorted({v["o"] for v in vid} | {L.total})
+_ajusta = {"golpe", "nota", "sub", "suscribe"} | {p[2] for p in PROPIOS}
+for it in items:
+    if it["t"] not in _ajusta: continue
+    c1 = min(_cortes, key=lambda c: abs(c - it["f1"])); c0 = min((c for c in _cortes if c > it["f0"]), default=None)
+    if 0 < abs(c1 - it["f1"]) <= F(0.24) and c1 - it["f0"] >= F(0.5):
+        if c1 >= it.get("_min", 0): it["f1"] = c1
+        elif c1 + F(0.5) <= it.get("_tope", 10 ** 9): it["f1"] = c1 + F(0.5)      # no se recorta lo que hace falta para decirlo y leerlo: pisa el plano siguiente medio segundo
+    if c0 is not None and c0 - it["f0"] <= F(0.2) and it["f1"] - c0 >= F(0.5): it["f0"] = c0
+for it in items: it.pop("_min", None); it.pop("_tope", None)
+# ---- el botón de suscribir va SOLO en pantalla ----
+# Lucas, 2026-11-14 (prueba-3): «se solapan el botón de suscribir y el texto de "soltar cable"». El botón se cuelga de
+# «suscribiros» y el texto, de la frase de justo después: los dos caen abajo en el centro. Ningún texto ni gráfico comparte
+# tiempo con el botón: el texto va a la repetición de su frase o a la siguiente, después del botón (o el botón a otra
+# frase). No se renderiza con un choque.
+_choques = [(b, it) for b in items if b["t"] in ("boton", "suscribe") for it in items
+            if it is not b and it["t"] not in ("boton", "suscribe") and it["f0"] < b["f1"] and it["f1"] > b["f0"]]
+for b, it in _choques:
+    txt = " ".join(str(it.get(k, "")) for k in ("txt", "grande", "titulo", "sub") if it.get(k)) or it["t"]
+    print(f"CHOQUE: «{txt[:40]}» ({it['t']}, {it['f0'] / FPS:.1f}-{it['f1'] / FPS:.1f} s) pisa el botón de suscribir ({b['f0'] / FPS:.1f}-{b['f1'] / FPS:.1f} s)")
+if _choques: raise SystemExit("El botón de suscribir va solo: cuelga esos textos de después del botón (la repetición de su frase o la siguiente) o mueve el botón en plan.py")
+items.sort(key=lambda x: x["f0"])
+# rangos con gráfico (los que Remotion renderiza): se funden los que quedan a menos de medio segundo
+rangos = []
+for it in items:
+    if rangos and it["f0"] <= rangos[-1][1] + F(0.48): rangos[-1][1] = max(rangos[-1][1], it["f1"])
+    else: rangos.append([it["f0"], it["f1"]])
+os.makedirs(os.path.dirname(CAPAS_JSON), exist_ok=True)
+json.dump({"fps": FPS, "total": L.total, "ancho": AW, "alto": AH, "creador": CREADOR, "marca": marca(), "items": items, "rangos": rangos}, open(CAPAS_JSON, "w", encoding="utf-8"), ensure_ascii=False)
+# ---- tramos de render: ~24 s o 12 planos, sin partir ningún gráfico ----
+tramos = []; cur = []
+libre = lambda fin: not any(r[0] < fin < r[1] for r in rangos)
+for v in vid:
+    cur.append(v); fin = v["o"] + v["n"]
+    if (fin - cur[0]["o"] >= F(24) or len(cur) >= 12) and libre(fin): tramos.append(cur); cur = []
+if cur: tramos.append(cur)
+json.dump({"total": L.total, "tramos": tramos, "rangos": rangos}, open(f"{TRABAJO}/video.json", "w"))
+dur = np.array([v["n"] / FPS for v in vid]); zs = [v for v in vid if v["z0"] != 1 or v["z1"] != 1]
+print("planos de menos de 0,5 s:", [(v["o"], v["n"]) for v in vid if v["n"] < F(0.48)])
+print(f"{len(vid)} planos, media {dur.mean():.2f} s, mediana {np.median(dur):.2f} s, {100 * (dur < 1).mean():.0f} % < 1 s, máx {dur.max():.1f} s; {len(vid) / (L.total / FPS / 60):.1f} cortes/min")
+print(f"{len(zs)} planos con escala, {sum(1 for v in vid if v.get('t'))} animados, {sum(1 for v in vid if v['z1'] >= min(1.55, Z_FUERTE))} fuertes, {nb} recursos; máx planos por tramo {max(len(t) for t in tramos)}; {len(tramos)} tramos; {len(rangos)} rangos de gráficos = {sum(b - a for a, b in rangos) / FPS:.0f} s")
+print("especiales:", [(e["tipo"], e["f0"], e["f1"]) for e in sorted(esp, key=lambda e: e["f0"]) if e["tipo"] in ("entra", "detalle", "fijo")])
+print("planos > 5 s (¿falta un recurso o un corte de escala?):", [(round(v["o"] / FPS), round(v["n"] / FPS, 1), v["clip"], v["b"]) for v in vid if v["n"] > F(5)])
+print("Antes de renderizar: timing_textos.py (cada texto frente a la voz y los cortes), hoja_recursos.py (mirar TODOS los recursos) y ver.py en los frames con texto o zoom.")

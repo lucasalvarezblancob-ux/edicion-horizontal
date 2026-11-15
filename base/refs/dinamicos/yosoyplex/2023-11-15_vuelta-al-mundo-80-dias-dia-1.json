@@ -1,0 +1,375 @@
+{
+ "video": {
+  "archivo": "refs/dinamicos/yosoyplex/2023-11-15_vuelta-al-mundo-80-dias-dia-1.mp4",
+  "creador": "YoSoyPlex",
+  "url": "https://www.youtube.com/watch?v=H60gIOBl-PM",
+  "titulo": "La Vuelta Al Mundo En 80 Días II - Día 1",
+  "duracion": "24:47 (1487,2 s)",
+  "publicado": "2023-11-15",
+  "fps_nota": "El archivo es 1280×720 a 60 fps, pero 1 de cada 6 fotogramas está duplicado: el montaje real es de 50 fps, no de 30. Las duraciones se dan en segundos y convertidas a fotogramas de 30 fps (f30)."
+ },
+ "resumen": "Vlog de grupo grabado en selfie con gran angular. El dinamismo NO sale de zooms continuos: sale de (1) cortes secos muy frecuentes (mediana 1,8 s; 25 % de planos < 1 s) alternando cámaras/personas, (2) punch-ins de golpe y grandes (×1,5 a ×3) de 0,3–1,2 s sobre el remate de un chiste, (3) 2–3 snap zooms digitales animados (×1,9–×2,2 en 0,65–0,85 s) concentrados en el primer minuto, (4) insertos-chiste de 0,5–1,5 s (coche/avión animado con sus caras, meme recurrente, fotograma en B/N o teñido), (5) clips verticales de móvil con fondo desenfocado y pegatina «JOPA CAM · REC», y (6) un sistema de textos muy coherente con UNA sola familia ancha en negrita: subtítulo amarillo para terceros, blanco para comentario del editor, rojo para dinero, pin rojo + país para lugar, cartelas negras en mayúsculas para el giro de guion. Zoom lento sostenido prácticamente no hay.",
+ "estructura": [
+  "0:00–0:21 Intro cinematográfica sin texto: barras negras 2,35:1, fundido desde negro de 0,25 s, cada miembro andando con su maleta (planos de 2–4 s, tilt de piernas a cara), a 0:20 los cuatro en fila.",
+  "0:21,5–0:23,2 Cabecera «LA VUELTA AL MUNDO 2 / DIA 01/80» sobre mapamundi animado con nubes (1,7 s); sale con un avión rojo que cruza de izquierda a derecha y destapa el plano siguiente.",
+  "0:23–1:40 Presentación de los miembros uno a uno (chistes de ropa/maleta): aquí están casi todos los snap zooms y punch-ins extremos.",
+  "1:40–2:38 Los fans eligen destino sobre un mapa de papel; 2:38–5:00 coche al aeropuerto (tramo más picado: 1,65 s/plano, 3 insertos del coche animado).",
+  "5:00–9:16 Aeropuerto de Madrid: despedida, ayuda a desconocidos (subtitulado), control de pasaporte, problema con las maletas (clip vertical 7:53–8:01).",
+  "9:16–9:38 Embarque; 9:38 mapa animado con ruta → 9:43 rótulo «QATAR»; compras (precio «-380€» a 11:29); 12:00 segundo vuelo, visión nocturna durmiendo.",
+  "12:46 mapa animado → Tanzania (rótulo a 15:06); guía, jeep rotulado, 17:22–18:47 poblado masái con baile montado en ráfaga (18:02–18:17).",
+  "18:47–18:52 Giro con 4 cartelas negras («TODO IBA BIEN» … «ADRI HABÍA PERDIDO SU EQUIPAJE») → búsqueda de la maleta, «minutos después...» a 20:36.",
+  "22:00–24:45 Vuelta en jeep hablando a cámara, llegada de noche al lodge (guía subtitulado 22:52–23:21) y cierre a cámara en la habitación; 24:46 último plano suelto de un miembro (1 s) y fin. Sin pantalla final ni CTA gráfico visible."
+ ],
+ "cortes": {
+  "global": "553 planos, 22,3 cortes/min, media 2,69 s, mediana 1,82 s, p10 0,58 s, p90 5,78 s, máx 25 s; 25 % < 1 s; 14 % > 5 s. Solo 2 planos < 0,2 s; 59 planos (11 %) de 0,2–0,6 s.",
+  "por_parte": {
+   "intro 0–60 s": "3,2 s/plano (cinematográfica)",
+   "1–2 min": "2,2 s",
+   "2–4 min (coche)": "1,65–1,8 s, 30 % < 1 s",
+   "5–6 min (ayuda a desconocidos)": "5,8 s (el tramo más lento)",
+   "6–17 min": "2,4–3,2 s",
+   "13–14 min": "2,4 s con 44 % < 1 s",
+   "18–19 min (baile masái)": "1,5 s, 47 % < 1 s (el más rápido)",
+   "19–22 min": "2,4–3,5 s",
+   "23–24 min (cierre a cámara)": "5,3 s, ningún plano < 1 s"
+  },
+  "rafagas": "27 ráfagas (≥ 3 cortes seguidos separados ≤ 1 s) = 1,1 por minuto. Sitios: 0:48,7–0:50,2 (cara-cara-pies, presentación); 1:45–1:48 (risas del público + foto B/N); 2:39–2:55 (cuatro ráfagas en el coche, alternando conductor / asiento de atrás / inserto animado); 3:08–3:35; 8:22; 13:10–13:35 (llegada bajo la lluvia); 18:02–18:17 (baile: 18 cortes en 14 s, 0,7–1 s por plano, un ángulo distinto en cada corte); 18:55–19:24; 20:50–21:02; 22:10.",
+  "jump_cuts_al_hablar": "Hablando a cámara corta cada 2,8–3,8 s (13:22–14:16: 19 cortes en 54 s; 22:00–22:50: 16 en 50 s; cierre 23:40–24:45: 17 en 65 s), es decir cada frase o media frase (≈ 8–12 palabras). En el coche (2:00–3:00) cada 1,6 s. Muchos jump cuts cambian a otro ángulo/otra cámara en vez de repetir encuadre (15:01,6; 15:11,4).",
+  "cortes_a_mitad_de_frase": "Sí: los insertos-chiste entran en mitad de la frase (2:40,6; 2:43,7; 2:47,9); sin audio separado no puedo confirmar que la voz siga por debajo, pero el plano de después retoma el mismo encuadre.",
+  "insertos_cortos": "Coche de dibujos rojo «95» con las caras de los cuatro en las ventanillas: 2:40,6 (0,9 s), 2:43,7 (0,5 s), 2:47,9 (0,6 s) = gag repetido 3 veces en 8 s. Avión de dibujos «95» con sus caras: 9:22,7 (1,2 s). Meme recurrente de una mujer: 9:36,2 (0,8 s), 13:56 y 20:35,0 (1,5 s, teñido naranja). Fotograma en B/N de alto contraste: 1:47,2 (0,9 s) y 22:10,0 (1,2 s). Plano de reacción de otro miembro de 0,9 s: 0:49,3.",
+  "velocidad": "No he visto cámara rápida, lenta, congelados largos ni rebobinados en los tramos mirados a 0,1 s. Los insertos B/N parecen fotos fijas (congelado de ~1 s)."
+ },
+ "zooms": [
+  {
+   "tipo": "Punch-in extremo de golpe en el corte (remate de chiste)",
+   "escala": "×1,0 → ×2 a ×3 (a ojo: ×3 a los ojos/gafas; ×2 a la cara; ×2,5 a un detalle del mapa)",
+   "duracion": "0,5–1,0 s (15–30 f30) y vuelve a ×1,0 por corte",
+   "curva": "golpe seco (corte), sin animación",
+   "centro": "ojos / cara / objeto del que se habla",
+   "disparador": "palabra clave o remate («Hey Meta, take a photo», «porque no entraba», señalar un punto del mapa)",
+   "extras": "sin temblor ni blur; a veces con tinte de color (ver siguiente)",
+   "por_minuto": "≈ 3 en el primer minuto y medio; después ≈ 0,3/min (estimado)",
+   "ejemplos_t": [
+    "0:42,0–0:43,0 (×3)",
+    "0:48,8–0:49,3 (×2)",
+    "1:42,3–1:43,1 (×2,5)"
+   ]
+  },
+  {
+   "tipo": "Punch-in + tinte de color (rojo/naranja)",
+   "escala": "×1,0 → ×1,8 (a ojo)",
+   "duracion": "1,0 s (30 f30)",
+   "curva": "golpe seco al entrar y al salir",
+   "centro": "cara",
+   "disparador": "frase-chiste («me he cansado de ser malo»)",
+   "extras": "imagen teñida de rojo-naranja saturado todo el plano; mismo tinte en el meme de 20:35",
+   "por_minuto": "2 vistos en todo el vídeo",
+   "ejemplos_t": [
+    "0:29,1–0:30,1",
+    "20:35,0–20:36,5 (inserto teñido, sin punch)"
+   ]
+  },
+  {
+   "tipo": "Snap zoom digital animado dentro del plano",
+   "escala": "×1,0 → ×1,86 (cara) y ×1,0 → ×2,18 (zapato), medidos con medir_zoom",
+   "duracion": "0,65 s (≈ 20 f30) y 0,85 s (≈ 25 f30); se queda arriba 0,4–3 s y sale por corte",
+   "curva": "casi lineal con frenada suave en los 2–3 últimos fotogramas; sin rebote",
+   "centro": "cara que se ríe / objeto del chiste (chancla)",
+   "disparador": "reacción-risa justo tras la frase; objeto ridículo («vas a pasar frío por ese pie»)",
+   "extras": "sin temblor; algo de pérdida de nitidez por el reescalado",
+   "por_minuto": "2 en el primer minuto; no he visto más en el resto de tramos mirados",
+   "ejemplos_t": [
+    "0:32,15–0:32,8",
+    "0:52,55–0:53,4"
+   ]
+  },
+  {
+   "tipo": "Empuje medio al presentar a una persona",
+   "escala": "×1,0 → ×1,20 (medido)",
+   "duracion": "1,4 s (42 f30) = 14 %/s",
+   "curva": "lineal",
+   "centro": "persona de cuerpo entero → medio",
+   "disparador": "primer plano de un miembro tras la cabecera",
+   "extras": "puede ser en parte movimiento real de cámara",
+   "por_minuto": "1 medido, en la intro",
+   "ejemplos_t": [
+    "0:23,4–0:24,9"
+   ]
+  },
+  {
+   "tipo": "Punch-in medio en el corte al hablar (jump cut con escala), a veces en dos escalones",
+   "escala": "×1,0 → ×1,5 ; segundo escalón ×1,25 ; vuelta a ×1,0 (a ojo)",
+   "duracion": "0,3–1,5 s cada escalón (9–45 f30)",
+   "curva": "golpe seco",
+   "centro": "cara del que habla",
+   "disparador": "énfasis de la frase / cambio de idea",
+   "extras": "ninguno",
+   "por_minuto": "≈ 0,5–1 (estimado)",
+   "ejemplos_t": [
+    "15:06,7–15:07,0 (×1,5, 0,3 s)",
+    "20:30,9–20:32,1 (×1,5) → 20:32,1–20:33,6 (×1,25) → ×1,0",
+    "22:13,0–22:17,4 (≈ ×1,5 sostenido 4,4 s, entra progresivo en ~1,2 s; puede ser el brazo)"
+   ]
+  },
+  {
+   "tipo": "Zoom lento sostenido",
+   "escala": "—",
+   "duracion": "—",
+   "curva": "—",
+   "centro": "—",
+   "disparador": "—",
+   "extras": "NO se usa en lo medido: 20:31–20:32 (×1,00), 22:13–22:17 (−1,5 %/s, ruido de mano), 0:49,3–0:50,1 (×0,99). El movimiento continuo lo pone la cámara en mano.",
+   "por_minuto": "0",
+   "ejemplos_t": []
+  },
+  {
+   "tipo": "Whip/tilt en cámara (no digital) a un detalle",
+   "escala": "—",
+   "duracion": "0,3–0,5 s de barrido",
+   "curva": "movimiento real con desenfoque de movimiento",
+   "centro": "de la cara a la maleta / a los pies / a otra persona",
+   "disparador": "«mira lo que…», señalar algo",
+   "extras": "funciona como transición natural y a menudo se corta en mitad del barrido",
+   "por_minuto": "≈ 1–2 (estimado)",
+   "ejemplos_t": [
+    "0:26,6–0:27,9",
+    "0:50,2–0:50,6",
+    "11:07,3–11:08,0"
+   ]
+  },
+  {
+   "tipo": "Vídeo reducido sobre negro (formato meme) y vídeo vertical con fondo desenfocado",
+   "escala": "horizontal reducido a ×0,61 del ancho, pegado arriba; vertical a alto completo (≈ 0,22 del ancho) sobre copia desenfocada a pantalla completa, o con barras negras laterales",
+   "duracion": "5,7 s (meme); 2,7–7,6 s (verticales)",
+   "curva": "entra y sale por corte",
+   "centro": "—",
+   "disparador": "chiste de formato («- ella: … / - los pibes:») / material grabado con móvil",
+   "extras": "pegatina arriba a la derecha «JOPA CAM» + cara-emoji + «REC» con punto rojo",
+   "por_minuto": "≈ 0,3",
+   "ejemplos_t": [
+    "11:09,4–11:15,0 (meme)",
+    "7:53,3–8:00,9 (vertical + blur)",
+    "2:54,0–2:56,7 y 9:16,0–9:18,7"
+   ]
+  }
+ ],
+ "textos": [
+  {
+   "tipo": "Cabecera del episodio «LA VUELTA AL MUNDO 2 / DIA 01/80»",
+   "fuente_parecida_google": "Archivo (eje de ancho 125, «Archivo Expanded») 800–900; alternativa: Unbounded 700–800. El original parece Monument Extended o similar",
+   "peso": "900",
+   "caja": "MAYÚSCULAS",
+   "color": "blanco",
+   "borde_sombra": "sin borde; sombra suave difusa",
+   "tamano_rel": "línea 1: 0,074; línea 2 («DIA 01/80»): 0,157 del alto",
+   "posicion": "centrado, bloque entre el 35 % y el 63 % del alto; fondo propio: mapamundi ilustrado con nubes",
+   "entrada": "por corte (ya puesto en el primer fotograma)",
+   "salida": "cortinilla: avión rojo cruza de izq. a dcha. en 0,5 s (15 f30) y destapa el plano siguiente",
+   "duracion_s": 1.7,
+   "por_minuto": "1 en todo el vídeo",
+   "disparador": "fin de la intro (0:21,5)",
+   "ejemplos_t": [
+    "0:21,5–0:23,2"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2023-11-15_vuelta-al-mundo-80-dias-dia-1/rotulos/titulo_dia_recorte.jpg"
+  },
+  {
+   "tipo": "Lugar (pin rojo + país)",
+   "fuente_parecida_google": "Archivo (eje de ancho 125, «Archivo Expanded») 800–900; alternativa: Unbounded 700–800. El original parece Monument Extended o similar",
+   "peso": "800–900",
+   "caja": "MAYÚSCULAS",
+   "color": "blanco; icono de pin rojo a la izquierda",
+   "borde_sombra": "sombra negra suave, sin caja",
+   "tamano_rel": "0,046 (pin 0,115)",
+   "posicion": "abajo a la izquierda, margen 1 % izq. y 3 % inferior",
+   "entrada": "sube desde fuera del borde inferior en ≈ 0,18 s (5–6 f30), frenando (visto fotograma a fotograma)",
+   "salida": "baja por el borde inferior en ≈ 0,2 s (6 f30)",
+   "duracion_s": "1,5–3",
+   "por_minuto": "2 en todo el vídeo (1 por país nuevo)",
+   "disparador": "primer plano en el país, 1 s después del mapa animado o al nombrarlo",
+   "ejemplos_t": [
+    "9:43,4 (QATAR)",
+    "15:05,9 (TANZANIA)"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2023-11-15_vuelta-al-mundo-80-dias-dia-1/rotulos/lugar_qatar_recorte.jpg"
+  },
+  {
+   "tipo": "Precio / gasto",
+   "fuente_parecida_google": "Archivo (eje de ancho 125, «Archivo Expanded») 800–900; alternativa: Unbounded 700–800. El original parece Monument Extended o similar",
+   "peso": "900",
+   "caja": "cifras",
+   "color": "rojo vivo",
+   "borde_sombra": "borde/sombra negra gruesa",
+   "tamano_rel": "0,083",
+   "posicion": "abajo centrado (≈ 88 % del alto)",
+   "entrada": "por corte, con el plano de la caja (visto fotograma a fotograma)",
+   "salida": "por corte",
+   "duracion_s": 3.2,
+   "por_minuto": "1 visto",
+   "disparador": "plano del datáfono al pagar",
+   "ejemplos_t": [
+    "11:29,6–11:32,7 («-380€»)"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2023-11-15_vuelta-al-mundo-80-dias-dia-1/rotulos/precio_recorte.jpg"
+  },
+  {
+   "tipo": "Cartelas negras de giro de guion",
+   "fuente_parecida_google": "Archivo (eje de ancho 125, «Archivo Expanded») 800–900; alternativa: Unbounded 700–800. El original parece Monument Extended o similar",
+   "peso": "800–900",
+   "caja": "MAYÚSCULAS",
+   "color": "blanco sobre negro puro",
+   "borde_sombra": "ninguno",
+   "tamano_rel": "0,078; 1–2 líneas",
+   "posicion": "centrado en pantalla",
+   "entrada": "por corte",
+   "salida": "por corte a la siguiente cartela",
+   "duracion_s": "1,0 / 1,2 / 1,0 / 1,4 (total 4,6 s)",
+   "por_minuto": "1 bloque de 4 en todo el vídeo",
+   "disparador": "cambio de capítulo con problema («TODO IBA BIEN» · «NOS IBAN A ENSEÑAR SUS COSTUMBRES» · «CUANDO DE REPENTE...» · «ADRI HABÍA PERDIDO SU EQUIPAJE»)",
+   "ejemplos_t": [
+    "18:47,6",
+    "18:48,6",
+    "18:49,8",
+    "18:50,8"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2023-11-15_vuelta-al-mundo-80-dias-dia-1/rotulos/cartela_negra1_recorte.jpg"
+  },
+  {
+   "tipo": "Salto de tiempo («minutos después...»)",
+   "fuente_parecida_google": "Archivo (eje de ancho 125, «Archivo Expanded») 800–900; alternativa: Unbounded 700–800. El original parece Monument Extended o similar",
+   "peso": "800",
+   "caja": "minúsculas",
+   "color": "blanco",
+   "borde_sombra": "sombra negra suave",
+   "tamano_rel": "0,055",
+   "posicion": "arriba a la izquierda (margen 1,5 % / 5 %)",
+   "entrada": "por corte",
+   "salida": "no vista (sigue al acabar el tramo mirado)",
+   "duracion_s": "≥ 3,5",
+   "por_minuto": "1 visto",
+   "disparador": "elipsis",
+   "ejemplos_t": [
+    "20:36,5"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2023-11-15_vuelta-al-mundo-80-dias-dia-1/rotulos/despues_recorte.jpg"
+  },
+  {
+   "tipo": "Comentario del editor (blanco)",
+   "fuente_parecida_google": "Archivo (eje de ancho 125, «Archivo Expanded») 800–900; alternativa: Unbounded 700–800. El original parece Monument Extended o similar",
+   "peso": "800",
+   "caja": "minúsculas; a veces entre *asteriscos* o con «lol»",
+   "color": "blanco",
+   "borde_sombra": "borde negro fino + sombra",
+   "tamano_rel": "0,055–0,06",
+   "posicion": "abajo centrado (≈ 80 %) o centro de pantalla (52 %) si abajo van subtítulos",
+   "entrada": "de golpe",
+   "salida": "de golpe",
+   "duracion_s": "0,9–4",
+   "por_minuto": "≈ 0,2",
+   "disparador": "aclaración o chiste del editor",
+   "ejemplos_t": [
+    "7:53,3–7:57,2 («*No nos dejaban meter las maletas*»)",
+    "12:45,1–12:46,0 («duermo con un ojo abierto lol»)",
+    "5:56 (frase en blanco)"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2023-11-15_vuelta-al-mundo-80-dias-dia-1/rotulos/comentario_blanco_recorte.jpg"
+  },
+  {
+   "tipo": "Texto de meme sobre negro",
+   "fuente_parecida_google": "Archivo (eje de ancho 125, «Archivo Expanded») 800–900; alternativa: Unbounded 700–800. El original parece Monument Extended o similar",
+   "peso": "800",
+   "caja": "minúsculas",
+   "color": "blanco",
+   "borde_sombra": "ninguno",
+   "tamano_rel": "0,06; 2 líneas",
+   "posicion": "centrado bajo el vídeo reducido (78 % y 89 % del alto)",
+   "entrada": "por corte",
+   "salida": "por corte",
+   "duracion_s": 5.7,
+   "por_minuto": "1 visto",
+   "disparador": "chiste de formato",
+   "ejemplos_t": [
+    "11:09,4"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2023-11-15_vuelta-al-mundo-80-dias-dia-1/rotulos/meme_fondo_negro_recorte.jpg"
+  },
+  {
+   "tipo": "Web de su marca («dreamwolf.es»)",
+   "fuente_parecida_google": "Archivo (eje de ancho 125, «Archivo Expanded») 800–900; alternativa: Unbounded 700–800. El original parece Monument Extended o similar",
+   "peso": "900",
+   "caja": "minúsculas",
+   "color": "blanco",
+   "borde_sombra": "sombra negra marcada",
+   "tamano_rel": "0,085",
+   "posicion": "abajo centrado (91 %)",
+   "entrada": "no medida",
+   "salida": "no medida",
+   "duracion_s": "≈ 3",
+   "por_minuto": "1 visto",
+   "disparador": "mención de la marca de ropa",
+   "ejemplos_t": [
+    "12:08–12:11"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2023-11-15_vuelta-al-mundo-80-dias-dia-1/rotulos/url_patro_recorte.jpg"
+  },
+  {
+   "tipo": "Subtítulo amarillo (ya conocido)",
+   "fuente_parecida_google": "Archivo (eje de ancho 125, «Archivo Expanded») 800–900; alternativa: Unbounded 700–800. El original parece Monument Extended o similar",
+   "peso": "800",
+   "caja": "minúsculas, sin punto final, a menudo sin tildes",
+   "color": "amarillo",
+   "borde_sombra": "borde negro + sombra",
+   "tamano_rel": "0,055",
+   "posicion": "abajo centrado (91 %)",
+   "entrada": "de golpe (sin animación apreciable a 0,1 s)",
+   "salida": "de golpe",
+   "duracion_s": "1–2 por línea de 2–6 palabras",
+   "por_minuto": "≈ 3,4 bloques/min; 11 % del metraje",
+   "disparador": "habla alguien que no es Plex a cámara",
+   "ejemplos_t": [
+    "5:26–5:42",
+    "18:52–18:56",
+    "22:52–23:21"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2023-11-15_vuelta-al-mundo-80-dias-dia-1/rotulos/subtitulo_recorte.jpg"
+  }
+ ],
+ "subtitulos": "No subtitulan todo: solo frases sueltas de terceros (desconocidos, azafatas, guía, miembros lejos del micro o con ruido) y remates que no se oyen bien. Medido por color: ≈ 165 s con subtítulo amarillo (11 % del vídeo), 85 bloques, repartidos de forma irregular (0–22 s por minuto; máximos en 19:00–20:00 y 22:52–23:21, donde subtitulan seguido al guía). Una línea, 2–6 palabras, frase a frase (no palabra a palabra), cambia de golpe. Variación única: «somos españoles» con letras rojas y amarillas (12:22).",
+ "otros_recursos": {
+  "mapa_animado": "Mapamundi ilustrado (mismo arte que la cabecera) con caras-pegatina en los países y un avión rojo que dibuja la ruta: 9:38,7–9:42,5 (3,9 s) y 12:46,1–12:49,8 (3,8 s). Entra y sale por corte. Es el separador de capítulo/país.",
+  "pegatinas": "«JOPA CAM · REC» con cara-emoji arriba a la derecha en los clips verticales; caras recortadas en coche/avión animado y en el mapa.",
+  "censura": "pixelado de boca/cara (2:38; pasaporte 7:19,7).",
+  "color": "tinte rojo-naranja (0:29, 20:35); B/N de alto contraste tipo umbral (1:47, 22:10); visión nocturna verde en el avión (12:38–12:43).",
+  "barras": "barras de cine 2,35:1 en la intro (0:00–0:21); planos con barras laterales negras de material de otro formato (17:02–17:12).",
+  "flechas_circulos": "no he visto flechas ni círculos dibujados."
+ },
+ "transiciones": "Casi todo corte seco. Con gráfico: 1 cortinilla de avión (0:22,8–0:23,3, 0,5 s), 2 mapas animados (≈ 3,9 s), 1 bloque de cartelas negras (4,6 s), 1 fundido desde negro al inicio (0,25 s): unas 5 en 25 min (2 por cada 10 min). Las 120 «transiciones» de cortes.json son, por lo visto en las hojas, barridos de cámara en mano y no fundidos.",
+ "receta": [
+  "Ritmo base: mediana 1,8 s/plano y media 2,7 s; nunca más de ~6 s sin corte salvo conversación con un tercero (ahí hasta 10–25 s con subtítulos).",
+  "Hablando a cámara: jump cut cada 2,8–3,8 s (cada frase); parte de ellos cambia de escala: ×1,5 de golpe durante 0,3–1,5 s, opcional segundo escalón ×1,25, y vuelta a ×1,0 en el siguiente corte.",
+  "Remate de chiste: punch-in de golpe ×2–×3 al ojo/cara/objeto, 0,5–1,0 s (15–30 f a 30 fps), vuelta por corte. 2–3 en el primer minuto y medio, luego 1 cada 3–4 min.",
+  "Snap zoom animado: ×1,0 → ×1,9–×2,2 en 0,65–0,85 s (20–25 f), lineal con frenada en los 3 últimos fotogramas, sin rebote ni temblor; mantener 0,4–3 s y salir por corte. Solo 2–3 por vídeo, en la presentación.",
+  "Presentar a una persona: empuje ×1,0 → ×1,2 en 1,4 s (42 f) y corte.",
+  "Nada de zoom lento sostenido: si no hay golpe, escala fija.",
+  "Ráfaga 1 por minuto de media: 3–6 planos de 0,5–1,0 s alternando personas/ángulos; en momentos de baile/acción, 15–18 cortes en 14 s (0,7–1 s por plano).",
+  "Inserto-chiste: 0,5–1,5 s en mitad de la frase; el mismo inserto se repite 2–3 veces en 8–10 s (0,9 → 0,5 → 0,6 s) y reaparece más tarde.",
+  "Énfasis de color 2–3 veces por vídeo: tinte rojo-naranja o B/N de alto contraste durante 1,0–1,5 s sobre un plano fijo o punch-in.",
+  "Una sola tipografía ancha en negrita (Archivo expandida 800–900 o Unbounded) para todo; color = función: amarillo terceros, blanco editor, rojo dinero, blanco sobre negro capítulo.",
+  "Tamaños (alto de mayúscula ÷ alto de pantalla): subtítulo/comentario 0,055; lugar 0,046 (pin 0,115); precio y web 0,083; cartela negra 0,078; cabecera 0,074 + 0,157.",
+  "Lugar: pin rojo + PAÍS abajo a la izquierda; entra subiendo desde el borde en 5–6 f (0,18 s), 1,5–3 s en pantalla, sale bajando en 6 f. Precedido de un mapa animado de 3,8–3,9 s con la ruta.",
+  "Cabecera a los 21 s tras intro con barras de cine: 1,7 s, «SERIE / DIA NN/80», sale con cortinilla de objeto que cruza en 0,5 s (15 f).",
+  "Giro de guion: 4 cartelas negras en mayúsculas de 1,0–1,4 s cada una por corte seco (4,6 s en total).",
+  "Subtítulos y textos entran y salen de golpe, 1–2 s por línea de 2–6 palabras; precio visible 3 s mientras dura el plano del pago.",
+  "Material vertical: a alto completo sobre copia desenfocada (o barras negras), con pegatina «CAM · REC» arriba a la derecha; formato meme: vídeo a ×0,61 arriba sobre negro y 2 líneas blancas debajo, 5–6 s."
+ ],
+ "dudas": [
+  "COBERTURA: a 0,1 s se miraron 0:20–1:00 y 16 tramos de 12 s (≈ 4 min en total: 1:40, 2:38, 2:50, 7:16, 7:50, 9:16, 9:34, 11:04, 11:26, 12:42, 15:00, 18:02, 18:44, 20:28, 22:06). El resto solo cada 2 s. Los «por minuto» de zooms salen de esa muestra: puede haber más punch-ins cortos (0,3 s) sin contar.",
+  "Las hojas de 0:15–0:20 y de los minutos 0–11 se miraron una sola vez y de pasada (salvo 5 y 8, repasadas); la estructura de ese tramo se apoya sobre todo en la transcripción y en los tramos de detalle.",
+  "Escalas de punch-in por corte: a ojo (tamaño de cara entre planos). Medidas con medir_zoom solo: 0:23,4 (×1,20), 0:32,15 (×1,86), 0:52,55 (×2,18) y las comprobaciones de «sin zoom».",
+  "Los snap zooms de 0:32 y 0:52 parecen digitales (trayectoria lisa y centrada), pero con cámara en mano no se puede descartar que parte sea movimiento real; el «empuje» de 22:12–22:13 puede ser el brazo.",
+  "Sin audio.json: no sé dónde entra la música, si la intro lleva voz, ni qué efectos de sonido acompañan a punch-ins e insertos.",
+  "La fuente exacta no está identificada; Archivo expandida / Unbounded son aproximaciones. Colores sin código exacto (copia comprimida).",
+  "El vídeo no es de 30 fps: máster de 50 fps en archivo de 60 fps con duplicados. Fotogramas convertidos a 30 fps con error de ±1.",
+  "El recuento de subtítulos amarillos es por detección de color en la franja inferior (2 muestras/s): la sudadera amarilla puede inflar algún minuto. La duración del rótulo de Tanzania (≈ 1,4 s) frente a Qatar (≥ 2,6 s) no está afinada."
+ ]
+}

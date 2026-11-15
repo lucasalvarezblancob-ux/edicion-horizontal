@@ -1,0 +1,219 @@
+{
+ "fecha": "2026-11-14",
+ "por_que": "Tanda 3, de prueba: 30 paquetes inventados (10 animales, 10 viajes, 10 aventuras) con el presentador de Reino Selva como protagonista, para ver cómo quedan las reglas aprendidas (atrezo que dice el título dentro de una escena que pasa, cara grande a la lente, sin texto, sin imagen partida) fuera de sus vídeos. Títulos inventados: no son vídeos reales. Títulos repasados con los §§ 1, 3 y 4 de base/titulos-miniaturas.md (verbo con resultado o cuerpo, cifras con dígitos y pegadas, superlativo solo de lo que se ve, la imagen no enseña el final).",
+ "ref_cara": "ramon_B2",
+ "prefijo": "Create a YouTube thumbnail, 16:9 landscape, everything important in the central area. The attached image is the man: keep his exact face, wavy brown hair, full beard and build (same person, do not beautify, do not change his age). Ignore the background and clothes of the attached photo; dress him as described.",
+ "sufijo": "STYLE: like a top YouTube thumbnail: one huge hero prop or animal that tells the story, simple composition, bright saturated colors, clean uncluttered background, everything razor sharp. His face clearly visible, about 30 % of the frame height, well lit, looking straight into the lens, calm wide-eyed deadpan, mouth closed. Photorealistic, like a real photo, not an illustration, no plastic AI skin. No text, no numbers, no logos, no watermarks, nothing in the bottom-right corner.",
+ "conceptos": [
+  {
+   "id": "01",
+   "tema": "animales",
+   "titulo": "Adopté un Cerdo que Cree que es un Perro",
+   "idea": "Un cerdo sentado como un perro, con collar, correa y una pelota en la boca; él sujeta la correa",
+   "escena": "SCENE: a sunny green park. In the foreground a pink pig sits upright exactly like a well-trained dog, wearing a red dog collar with a leash, a yellow tennis ball in its mouth, tail wagging. He stands right behind it in a casual green t-shirt, holding the leash, looking into the lens."
+  },
+  {
+   "id": "02",
+   "tema": "animales",
+   "titulo": "Me Dejé una Barba de 10.000 Abejas",
+   "idea": "Su barba entera cubierta por un enjambre de abejas; él quieto y serio",
+   "escena": "SCENE: a beekeeping yard with white hive boxes softly out of focus and a blue sky. Close-up portrait: his whole beard and jaw are covered by a thick living swarm of honeybees forming a huge bee beard, a few bees flying around. He wears a plain white t-shirt, perfectly still, eyes wide, looking into the lens. Golden sunlight."
+  },
+  {
+   "id": "03",
+   "tema": "animales",
+   "titulo": "El Loro que Me Grita Todas las Mañanas",
+   "idea": "Un guacamayo en su hombro gritándole al oído con el pico abierto; él con cara de sueño",
+   "escena": "SCENE: a bright bedroom in the morning, window light. He sits up in bed in a grey t-shirt with messy hair. A big red-and-green macaw stands on his shoulder screaming into his ear, beak wide open, wings half spread. He looks into the lens, tired and deadpan."
+  },
+  {
+   "id": "04",
+   "tema": "animales",
+   "titulo": "Construí un Hotel de Lujo para Mis Gallinas",
+   "idea": "Un hotel en miniatura con alfombra roja y una gallina entrando; él de botones",
+   "escena": "SCENE: a farmyard. A miniature luxury hotel the size of a doghouse, white with golden details and a tiny red carpet with brass posts leading to its revolving door. A brown hen walks along the red carpet. He crouches beside it dressed as a hotel bellboy (red jacket with gold buttons and a little round cap), looking into the lens."
+  },
+  {
+   "id": "05",
+   "tema": "animales",
+   "titulo": "Encontré la Rana Más Pequeña del Mundo",
+   "idea": "Una rana diminuta sobre la uña de su dedo, vista a través de una lupa gigante",
+   "escena": "SCENE: lush green rainforest background, softly blurred. He holds up one finger close to the camera; on his fingernail sits a tiny bright orange frog no bigger than the nail. A big magnifying glass in his other hand enlarges the frog. His face behind, looking into the lens, wearing a khaki field shirt."
+  },
+  {
+   "id": "06",
+   "tema": "animales",
+   "titulo": "Mi Tortuga Cumple 100 Años",
+   "idea": "Una tortuga gigante delante de una tarta con muchas velas; él con gorro de fiesta",
+   "escena": "SCENE: a sunny garden with colorful party balloons. A giant Aldabra tortoise in the foreground faces a big cake covered in dozens of lit candles. He kneels behind the tortoise wearing a pointed paper party hat and a party horn in his hand, looking into the lens."
+  },
+  {
+   "id": "07",
+   "tema": "animales",
+   "titulo": "Dormí 24h en la Jaula de un Lagarto Gigante",
+   "idea": "Él en saco de dormir dentro de un terrario enorme, con un varano a su lado mirándole",
+   "escena": "SCENE: inside a huge glass terrarium with sand, rocks and a heat lamp. He lies in a blue sleeping bag with only his head out. Right next to his face, a large monitor lizard stares at him, tongue flicking. He looks into the lens."
+  },
+  {
+   "id": "08",
+   "tema": "animales",
+   "titulo": "Construí una Piscina de Lujo para Mi Ajolote",
+   "idea": "Una piscina de lujo en miniatura con un ajolote rosa en una hamaca flotante; él la sostiene",
+   "escena": "SCENE: he holds a miniature luxury infinity pool (like a small glass-walled aquarium with turquoise water, tiny sun loungers and a tiny striped parasol) close to the camera. A pink axolotl floats on a tiny inflatable lounger in it, smiling. His face behind it, looking into the lens, wearing a Hawaiian shirt."
+  },
+  {
+   "id": "09",
+   "tema": "animales",
+   "titulo": "Mi Perro Desenterró un Huevo Gigante",
+   "idea": "Un perro blanco grande junto a un hoyo con un huevo enorme dentro; él agachado al lado",
+   "escena": "SCENE: a garden lawn. A big fluffy white dog with floppy ears sits proudly next to a freshly dug hole, dirt on its nose. In the hole lies a huge cream-colored egg bigger than a watermelon. He crouches on the other side of the hole in a grey hoodie, hands on his knees, looking into the lens."
+  },
+  {
+   "id": "10",
+   "tema": "animales",
+   "titulo": "Di de Comer a 500 Peces Koi a la Vez",
+   "idea": "Una masa de bocas de koi abiertas en la superficie; él con un saco gigante de comida",
+   "escena": "SCENE: the edge of a big pond. The water surface is packed with hundreds of orange, white and black koi, all mouths wide open toward the camera in a feeding frenzy. He kneels at the edge holding a huge open sack of fish food, a scoop in his hand, looking into the lens."
+  },
+  {
+   "id": "11",
+   "tema": "viajes",
+   "titulo": "Sobreviví una Semana en Japón con 100€",
+   "idea": "Calle de neones de Tokio; él enseña una cartera vacía con un solo billete y un onigiri",
+   "escena": "SCENE: a narrow Tokyo street at dusk with glowing neon signs (blurred, no readable letters). He stands in the foreground with a backpack, holding an open wallet toward the camera with only one banknote inside, and in the other hand a single rice ball. He looks into the lens."
+  },
+  {
+   "id": "12",
+   "tema": "viajes",
+   "titulo": "Dormí en el Hotel Más Barato de Marruecos",
+   "idea": "Un colchón en una azotea de Marrakech al amanecer, con una cabra tumbada a su lado",
+   "escena": "SCENE: a flat rooftop in Marrakech at sunrise, terracotta walls, a minaret in the soft distance. He lies on a thin old mattress under a striped blanket. A goat lies on the mattress beside him, chewing. He props himself on one elbow, looking into the lens."
+  },
+  {
+   "id": "13",
+   "tema": "viajes",
+   "titulo": "Me Comí el Plato Más Picante de Tailandia",
+   "idea": "Un cuenco enorme rebosante de guindillas rojas; él sudando y un extintor al lado",
+   "escena": "SCENE: a Thai street food stall with warm lights and a blurred wok fire. In the foreground a huge bowl overflowing with red chili peppers and red curry. He sits behind it holding chopsticks, face flushed red and sweating, a red fire extinguisher on the table next to the bowl. He looks into the lens."
+  },
+  {
+   "id": "14",
+   "tema": "viajes",
+   "titulo": "Recorrí Islandia en la Furgoneta Más Pequeña del Mundo",
+   "idea": "Una furgoneta camper diminuta, más baja que él, ante una cascada islandesa",
+   "escena": "SCENE: Iceland, a huge waterfall and green cliffs behind. In front, a tiny vintage camper van, so small it only reaches his waist, with a little roof tent. He stands next to it in a red puffer jacket, leaning on its roof, looking into the lens."
+  },
+  {
+   "id": "15",
+   "tema": "viajes",
+   "titulo": "Me Perdí en el Mercado Más Grande del Mundo",
+   "idea": "El Gran Bazar con lámparas de colores; él asoma tras un mapa de papel gigante",
+   "escena": "SCENE: the Grand Bazaar of Istanbul, vaulted ceiling, hundreds of colorful mosaic lamps hanging. He stands in the middle holding a gigantic unfolded paper map that covers his body, only his face above it, looking into the lens, confused."
+  },
+  {
+   "id": "16",
+   "tema": "viajes",
+   "titulo": "Dormí en un Iglú de Cristal Bajo la Aurora",
+   "idea": "Un iglú de cristal bajo la aurora boreal; un reno asoma por el cristal",
+   "escena": "SCENE: Lapland at night, a glass dome igloo on snow under a bright green aurora borealis. He sits inside in a wool sweater, wrapped in a blanket, close to the glass. Outside, a reindeer presses its nose against the glass right next to his face. He looks into the lens."
+  },
+  {
+   "id": "17",
+   "tema": "viajes",
+   "titulo": "Viajé en el Tren Más Lento del Mundo",
+   "idea": "Él asomado a la ventanilla del tren; fuera, un caracol le adelanta",
+   "escena": "SCENE: an old green train crossing mountain countryside. He leans out of an open train window, chin on his arm, bored. On the windowsill outside, a big snail slowly overtakes the train, its shell in sharp focus near the camera. He looks into the lens."
+  },
+  {
+   "id": "18",
+   "tema": "viajes",
+   "titulo": "Subí a 5.000 Metros a por la Montaña de 7 Colores",
+   "idea": "La montaña arcoíris de Perú; una llama mete la cabeza junto a su cara",
+   "escena": "SCENE: Rainbow Mountain in Peru, vivid striped mountain behind under a blue sky. He stands in the foreground in a colorful knitted hat and a trekking jacket. A fluffy white llama sticks its head right next to his face, photobombing. He looks into the lens."
+  },
+  {
+   "id": "19",
+   "tema": "viajes",
+   "titulo": "Acabé Rosa Entero en la Fiesta de los Colores de la India",
+   "idea": "Él cubierto de polvo rosa y amarillo en plena fiesta Holi, serio",
+   "escena": "SCENE: a joyful Holi festival street, clouds of bright pink, yellow and blue powder in the air, happy blurred crowd. He stands in the foreground in a white kurta, his face, hair and beard completely covered in pink and yellow powder, perfectly deadpan, looking into the lens."
+  },
+  {
+   "id": "20",
+   "tema": "viajes",
+   "titulo": "Mi Primer Vuelo en Globo Salió Fatal",
+   "idea": "En la cesta de un globo sobre Capadocia, con una cigüeña dentro de la cesta con él",
+   "escena": "SCENE: Cappadocia at sunrise, dozens of hot air balloons and fairy chimneys below. He stands in the wicker basket of a hot air balloon, gripping the edge. A big white stork stands inside the basket next to him, very close. He looks into the lens."
+  },
+  {
+   "id": "21",
+   "tema": "aventuras",
+   "titulo": "Sobreviví 48h en una Isla Desierta",
+   "idea": "Una isla diminuta con una sola palmera; él sentado y un cangrejo robándole la chancla",
+   "escena": "SCENE: a tiny sand island with one single palm tree in a turquoise sea, nothing else to the horizon. He sits under the palm in a torn shirt, with one flip-flop. A red crab walks away with his other flip-flop in its claw, close to the camera. He looks into the lens."
+  },
+  {
+   "id": "22",
+   "tema": "aventuras",
+   "titulo": "Bajé a la Cueva Más Profunda de España",
+   "idea": "Colgado de una cuerda con frontal en una sima enorme, murciélagos alrededor",
+   "escena": "SCENE: a gigantic dark cave shaft, the light of his headlamp cutting through. He hangs on a rope in a red caving suit and helmet with headlamp, close to the camera. Bats fly around him, the abyss drops into darkness below. He looks into the lens."
+  },
+  {
+   "id": "23",
+   "tema": "aventuras",
+   "titulo": "Me Quedé Sin Comida en Plena Selva",
+   "idea": "Él con un solo plátano diminuto; detrás, un mono se lleva su mochila",
+   "escena": "SCENE: dense green jungle with light beams. He stands in the foreground in a sweaty khaki shirt, holding up one tiny banana. Behind him, a monkey on a branch runs off with his backpack full of food. He looks into the lens."
+  },
+  {
+   "id": "24",
+   "tema": "aventuras",
+   "titulo": "Crucé un Río Lleno de Cocodrilos",
+   "idea": "Él sobre un tronco estrecho que cruza un río; ojos de cocodrilo asoman bajo él",
+   "escena": "SCENE: a wide brown jungle river. He balances on a narrow fallen log crossing the river, arms out, in a khaki explorer outfit. Below the log, several crocodile eyes and snouts poke out of the water, one close to the camera. He looks into the lens."
+  },
+  {
+   "id": "25",
+   "tema": "aventuras",
+   "titulo": "Acampé al Lado de un Volcán Activo",
+   "idea": "Una tienda en una ladera volcánica negra; él tuesta una nube de azúcar sobre la lava",
+   "escena": "SCENE: black volcanic rock at dusk, a glowing orange lava flow in the background and a smoking crater. A small orange tent stands behind him. He sits in the foreground in a hiking jacket, roasting a marshmallow on a long stick toward the lava glow. He looks into the lens."
+  },
+  {
+   "id": "26",
+   "tema": "aventuras",
+   "titulo": "Nadé al Lado del Pez Más Grande del Mar",
+   "idea": "Bajo el agua con gafas y tubo; detrás, la boca abierta de un tiburón ballena",
+   "escena": "SCENE: underwater, clear blue ocean with sun rays. He floats close to the camera with a snorkel mask pushed up on his forehead so his whole face shows, holding his breath. Right behind him, the huge open mouth of a spotted whale shark approaches. He looks into the lens."
+  },
+  {
+   "id": "27",
+   "tema": "aventuras",
+   "titulo": "Construí una Casa en un Árbol en 24h",
+   "idea": "Una casa del árbol a medio hacer al atardecer; una ardilla le pasa un clavo",
+   "escena": "SCENE: a big oak tree at sunset with a half-built wooden treehouse on a platform. He sits on the platform with a hammer and a tool belt, in a plaid shirt. A red squirrel on the branch next to him holds out a nail to him. He looks into the lens."
+  },
+  {
+   "id": "28",
+   "tema": "aventuras",
+   "titulo": "Dormí Solo en un Bosque Lleno de Búhos",
+   "idea": "Bosque con niebla de noche; él en el saco junto a una hoguera y decenas de ojos de búho brillando",
+   "escena": "SCENE: a dark misty forest at night. He sits in a sleeping bag next to a small campfire that lights his face. In the trees behind him, dozens of pairs of glowing owl eyes stare at him. He looks into the lens."
+  },
+  {
+   "id": "29",
+   "tema": "aventuras",
+   "titulo": "Escalé una Cascada Congelada",
+   "idea": "Colgado de dos piolets en una cascada de hielo azul",
+   "escena": "SCENE: a huge frozen waterfall of blue ice in a snowy canyon. He hangs on the ice with two ice axes, crampons on his boots, wearing a red mountaineering jacket and helmet, close to the camera, frost in his beard. He looks into the lens."
+  },
+  {
+   "id": "30",
+   "tema": "aventuras",
+   "titulo": "Busqué Oro en un Río y Encontré Esto",
+   "idea": "Una batea con una pepita de oro enorme y brillante; él con botas de agua en el río",
+   "escena": "SCENE: a clear mountain river with pine trees. He stands in the water in rubber waders, holding a gold pan toward the camera. In the pan lies a huge shining gold nugget the size of a fist among the gravel. He looks into the lens, eyes wide."
+  }
+ ]
+}

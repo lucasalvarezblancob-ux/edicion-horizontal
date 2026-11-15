@@ -1,0 +1,482 @@
+{
+ "video": "2026-09-23_rgNC-4pXWA4",
+ "titulo": "Le construí una selva entera tras diez años juntos, y ahora vienen las lluvias",
+ "duracion_s": 946,
+ "estructura": {
+  "gancho": {
+   "t0": 0.0,
+   "t1": 31.3,
+   "que": "0,8 s en negro y un rayo (efecto de relámpago superpuesto, 0,8-1,4 s); después tráiler de 30 s con 4 frases adelantadas del propio vídeo («Zafira lleva más de una década conmigo…», «vino desde Perú… 4 metros y medio», «hoy supera los 40 metros cuadrados», «faltaba la lluvia, ya la tenemos aquí») sobre recursos del recinto, el lagarto (boca abierta, cenitales), 4 s a cámara (10-14 s) y dos planos de la obra; música desde el segundo 0; sin rótulos ni tortuga"
+  },
+  "intro": {
+   "t0": 31.32,
+   "t1": 36.08,
+   "antes": "Último plano del gancho (niebla del sistema de lluvia), que sale con un barrido borroso de ~0,1 s; después de la intro, corte seco al creador a cámara en el exterior («hoy entramos en la várzea…»)",
+   "encima": "Logo CON letras (tortuga con corona + «REINO SELVA») centrado, caja aprox. [35, 14, 65, 86] % del cuadro; aparece en 33,1 s con un destello blanco de 0,2 s cuando el dron ya está sobre las copas y se queda fijo hasta el corte (2,9 s). Sin título ni otro texto. El clip dura 4,76 s (recortado respecto a los ~8 s del original)",
+   "audio": "La voz calla de 32 a 36 s y el resto sube de -37 dB a -12/-13 dB (sonido o música añadidos a la cabecera, porque el clip no tiene sonido); audio.json marca cambio de pista en 28 s y en 60 s; al volver la voz la música baja a -36/-37 dB"
+  },
+  "secciones": [
+   {
+    "t0": 0.0,
+    "titulo": "Gancho: relámpago + tráiler con frases del vídeo"
+   },
+   {
+    "t0": 31.3,
+    "titulo": "Intro (dron + logo)"
+   },
+   {
+    "t0": 36.1,
+    "titulo": "Presentación a cámara en el exterior y primera llamada a suscribirse (botón)"
+   },
+   {
+    "t0": 62.8,
+    "titulo": "Dentro de la várzea: por qué se construyó y quién es Zafira (evolución convergente, teído, 60 años, dieta, origen y primer hábitat)"
+   },
+   {
+    "t0": 180.0,
+    "titulo": "Pensado para el resto de su vida; comportamiento natural y clima"
+   },
+   {
+    "t0": 240.8,
+    "titulo": "Pausa de recursos sin voz y «más de 10 meses de construcción» (vídeos de la obra, ríos de aguas blancas, próximos episodios)"
+   },
+   {
+    "t0": 300.0,
+    "titulo": "La mordida (anécdota de los tres dedos)"
+   },
+   {
+    "t0": 322.0,
+    "titulo": "Mensaje: los reptiles no entienden el contacto físico"
+   },
+   {
+    "t0": 380.0,
+    "titulo": "El sistema de lluvia respetando los tiempos del animal"
+   },
+   {
+    "t0": 395.0,
+    "titulo": "Montaje de la obra sin voz, con música alta (instalación de la lluvia)"
+   },
+   {
+    "t0": 470.0,
+    "titulo": "Por qué se esperó: adaptación del animal"
+   },
+   {
+    "t0": 530.0,
+    "titulo": "Zafira curiosa e inteligente, dieta, otros animales y peces"
+   },
+   {
+    "t0": 602.0,
+    "titulo": "Exterior, parte técnica: cuadro, filtración, calefactor, grifo de la lluvia, estaciones"
+   },
+   {
+    "t0": 728.0,
+    "titulo": "Autollenado, plantas y «última instalación en la várzea»"
+   },
+   {
+    "t0": 787.0,
+    "titulo": "Qué nebulizadores ha usado (metálicos) y ósmosis"
+   },
+   {
+    "t0": 874.5,
+    "titulo": "Despedida a cámara con llamada a suscribirse (botón)"
+   },
+   {
+    "t0": 884.0,
+    "titulo": "Montaje final de la lluvia sin voz (destello + rayos, 31 s de recursos; después 10 s del creador mirando la lluvia)"
+   },
+   {
+    "t0": 926.3,
+    "titulo": "Outro"
+   }
+  ],
+  "outro": {
+   "t0": 926.3,
+   "t1": 946.2,
+   "encima": "Nada: ni logo, ni texto, ni pantalla final incrustada, ni vídeos sugeridos (queda limpio; los elementos de pantalla final de YouTube no se ven en el archivo). Entra con destello blanco y rayos (926,1-926,4 s). El clip de ~8 s está alargado a 20 s en vaivén: hacia delante, hacia atrás y otra vez hacia delante (el fotograma de 927,0 se repite en 943,0). Acaba a corte, sin fundido de imagen",
+   "audio": "Sin voz; resto entre -16 y -20 dB, continuo con el tramo de música 823-946 s (no hay cambio de pista detectado en 926 s: si suena el sonido propio del clip o sigue la música, no comprobado); en los 3 últimos segundos baja de -18 a -32 dB (fundido de salida)"
+  }
+ },
+ "tortuga": [
+  {
+   "t0": 125.5,
+   "t1": 130.1,
+   "animacion": "encogiendo_hombros (variante que señala: guiña un ojo, levanta el dedo y señala hacia la burbuja, a su izquierda; no encaja con «explicando» porque no abre los brazos)",
+   "texto": "Es como si la dracaena hubiese evolucionado con traje de caimán, pero habilidades de lagarto",
+   "tipo": "dato curioso (analogía que resume lo que acaba de explicar)",
+   "voz": "«Es uno de los pocos que tiene esta adaptación tan sorprendente.»",
+   "caja_tortuga_pct": [
+    75.5,
+    66.1,
+    92.0,
+    100.0
+   ],
+   "caja_burbuja_pct": [
+    43.5,
+    45.0,
+    77.3,
+    70.0
+   ],
+   "entrada": "Sin corte: la tortuga sube deslizándose desde el borde inferior (~0,4 s); la burbuja aparece después, vacía y creciendo (pop), y el texto entra ~0,2 s más tarde (tortuga 125,5; burbuja 125,9; texto 126,1). El plano de fondo no cambia de escala (medido 0,986)",
+   "salida": "Tortuga y burbuja bajan juntas deslizándose por el borde inferior en ~0,2 s (130,0-130,2), sin corte de plano",
+   "sonido": "Acentos de audio.json en 125,90 y 126,46 (coinciden con la burbuja), pero hay voz encima: posible efecto, no comprobado",
+   "fotograma": "_analisis/2026-09-23_rgNC-4pXWA4/creador/tortuga_02-08.jpg"
+  },
+  {
+   "t0": 236.1,
+   "t1": 240.8,
+   "animacion": "encogiendo_hombros (variante que señala: guiña un ojo, levanta el dedo y señala hacia la burbuja, a su izquierda; no encaja con «explicando» porque no abre los brazos)",
+   "texto": "¿Te ha pasado que si hay sol estás de mejor humor? Bueno, con los animales es igual",
+   "tipo": "broma o reacción (pregunta al espectador que acerca lo que se dice)",
+   "voz": "«no sé si será por la presión atmosférica, por las lunas, de si es luna llena o no, pero ella aquí tiene todos los estímulos»",
+   "caja_tortuga_pct": [
+    76.2,
+    63.6,
+    92.2,
+    100.0
+   ],
+   "caja_burbuja_pct": [
+    43.5,
+    45.0,
+    77.3,
+    70.0
+   ],
+   "entrada": "Sin corte: la tortuga sube deslizándose desde el borde inferior (~0,4 s); la burbuja aparece después, vacía y creciendo (pop), y el texto entra ~0,2 s más tarde (tortuga 236,1; burbuja 236,4; texto 236,6)",
+   "salida": "Tortuga y burbuja bajan juntas deslizándose por el borde inferior en ~0,2 s (240,6-240,8), justo sobre el cambio de plano de 240,75 s",
+   "sonido": "Ningún acento de audio.json entre 235 y 241,5 s: sin efecto detectable",
+   "fotograma": "_analisis/2026-09-23_rgNC-4pXWA4/creador/tortuga_03-58.jpg"
+  },
+  {
+   "t0": 316.5,
+   "t1": 321.15,
+   "animacion": "preocupada (mira hacia arriba con el ceño fruncido; al final abre más el ojo). Dibujo distinto al de las otras cuatro: caparazón de placas naranja oscuro",
+   "texto": "Recuerda siempre tomar todas las precauciones posibles cuando necesites trasladar a un animal. // Ya sean dientes o garras, son mecanismos de respuesta ante una situación que los estresa",
+   "tipo": "aviso (consejo de seguridad en dos burbujas seguidas)",
+   "voz": "«se colocó una toalla justo por encima rodeándome los dedos. Si no, creo que habría podido perderlo. La mordida de este animal es brutal.»",
+   "caja_tortuga_pct": [
+    74.2,
+    63.7,
+    93.1,
+    100.0
+   ],
+   "caja_burbuja_pct": [
+    41.0,
+    54.4,
+    74.1,
+    74.4
+   ],
+   "entrada": "La tortuga sube desde el borde inferior (316,5-316,9) y la burbuja aparece después; aquí el texto se escribe palabra a palabra (~0,4 s). Lleva DOS textos en la misma aparición: el primero de 316,7 a 318,9 y el segundo de 319,0 a 321,1; el cambio coincide con el corte de plano de 319,03 s y la tortuga sigue en pantalla",
+   "salida": "Tortuga y burbuja bajan juntas deslizándose por el borde inferior en ~0,2 s (321,0-321,15)",
+   "sonido": "Ningún acento de audio.json entre 315,5 y 322,6 s: sin efecto detectable",
+   "fotograma": "_analisis/2026-09-23_rgNC-4pXWA4/creador/tortuga_05-18.jpg"
+  },
+  {
+   "t0": 589.35,
+   "t1": 594.15,
+   "animacion": "encogiendo_hombros (variante que señala: guiña un ojo, levanta el dedo y señala hacia la burbuja, a su izquierda; no encaja con «explicando» porque no abre los brazos)",
+   "texto": "Si queréis saber qué peces hay en nuestra Várzea y más habitantes del reino, revisa nuestras playlists",
+   "tipo": "otro: llamada a ver las listas de reproducción del canal",
+   "voz": "«mientras estaba instalando el sistema de lluvia en esa parte de ahí se veían un montón de peces»",
+   "caja_tortuga_pct": [
+    70.4,
+    66.5,
+    91.1,
+    100.0
+   ],
+   "caja_burbuja_pct": [
+    40.3,
+    49.4,
+    77.0,
+    70.3
+   ],
+   "entrada": "Sin corte: la tortuga sube deslizándose desde el borde inferior (~0,4 s); la burbuja aparece después, vacía y creciendo (pop), y el texto entra ~0,2 s más tarde (tortuga 589,35; burbuja 589,7; texto 589,9)",
+   "salida": "Tortuga y burbuja bajan juntas deslizándose por el borde inferior en ~0,2 s (594,0-594,2)",
+   "sonido": "Sin acento en la entrada; acentos en 593,22 y 594,06 cerca de la salida, con voz encima: no comprobado",
+   "fotograma": "_analisis/2026-09-23_rgNC-4pXWA4/creador/tortuga_09-52.jpg"
+  },
+  {
+   "t0": 812.55,
+   "t1": 817.35,
+   "animacion": "encogiendo_hombros (variante que señala: guiña un ojo, levanta el dedo y señala hacia la burbuja, a su izquierda; no encaja con «explicando» porque no abre los brazos)",
+   "texto": "A diferencia del plástico, el metal resiste de forma excelente la intemperie, los cambios climáticos y las altas presiones sin romperse.",
+   "tipo": "aclaración (dato técnico que completa lo que el creador deja a medias)",
+   "voz": "«los de plástico siempre acaban dando problemas, me prefería utilizar los metálicos por un tema de preferencias»",
+   "caja_tortuga_pct": [
+    74.7,
+    66.1,
+    91.2,
+    100.0
+   ],
+   "caja_burbuja_pct": [
+    40.3,
+    49.4,
+    77.0,
+    70.3
+   ],
+   "entrada": "Empieza justo después del corte de plano de 812,47 s: la tortuga sube desde abajo (812,55-813,0), la burbuja aparece vacía en 813,0 y el texto en 813,1-813,2",
+   "salida": "Tortuga y burbuja bajan juntas deslizándose por el borde inferior en ~0,2 s (817,2-817,4)",
+   "sonido": "Acento de audio.json en 812,93 (coincide con la burbuja), con voz encima: posible efecto, no comprobado",
+   "fotograma": "_analisis/2026-09-23_rgNC-4pXWA4/creador/tortuga_13-35.jpg"
+  }
+ ],
+ "rotulos": {
+  "tipos": [
+   {
+    "tipo": "palabra o idea clave que el creador acaba de decir (término técnico, cifra, frase resumen); una o dos líneas",
+    "fuente": "condensada en negrita tipo Bebas Neue, todo mayúsculas",
+    "color": "blanco con contorno negro fino y sombra; sin caja",
+    "posicion": "tercio inferior centrado (línea superior hacia el 55-65 % del alto), o a un lado cuando el creador ocupa el centro (a la derecha en 5:46-6:05). Entra en ~0,2 s cayendo desde arriba con desenfoque vertical y rebote; sale bajando rápido o con el corte de plano; dura de 1 a 7 s",
+    "alto_pct": 14,
+    "ejemplos": [
+     {
+      "t": 38.9,
+      "texto": "LA VÁRZEA"
+     },
+     {
+      "t": 96,
+      "texto": "EVOLUCIÓN CONVERGENTE"
+     },
+     {
+      "t": 106.5,
+      "texto": "TEÍDO"
+     },
+     {
+      "t": 132,
+      "texto": "60 AÑOS"
+     },
+     {
+      "t": 194,
+      "texto": "EL RESTO DE SU VIDA"
+     },
+     {
+      "t": 360,
+      "texto": "INMUNODEPRESIÓN POR ESTRÉS"
+     },
+     {
+      "t": 620,
+      "texto": "YA ESTÁ TODO CONECTADO"
+     },
+     {
+      "t": 634,
+      "texto": "SISTEMA DE FILTRACIÓN"
+     },
+     {
+      "t": 678,
+      "texto": "INVIERNO: LLUVIAS"
+     },
+     {
+      "t": 682,
+      "texto": "VERANO: SECO"
+     },
+     {
+      "t": 698,
+      "texto": "LLUVIAS 2 VECES AL DÍA"
+     },
+     {
+      "t": 742,
+      "texto": "PLANTAS"
+     },
+     {
+      "t": 778,
+      "texto": "ÚLTIMA INSTALACIÓN EN LA VÁRZEA"
+     },
+     {
+      "t": 854,
+      "texto": "SISTEMA DE OSMOSIS"
+     }
+    ]
+   },
+   {
+    "tipo": "rótulo en dos niveles: una línea y otra de distinto tamaño (titular + frase, o etiqueta pequeña + cifra grande); la segunda línea entra ~0,4 s después de la primera",
+    "fuente": "la misma condensada en mayúsculas",
+    "color": "blanco con contorno negro fino y sombra",
+    "posicion": "tercio inferior centrado (2:47) o columna a la derecha del creador (5:46 y 5:52)",
+    "alto_pct": 12,
+    "ejemplos": [
+     {
+      "t": 167.2,
+      "texto": "PRIMER HÁBITAT DE SAPHIRA (pequeña, 5,8 %) / 4,5 X 1 X 1,5 METROS (grande, 11,9 %)"
+     },
+     {
+      "t": 346,
+      "texto": "QUE ESTÉ BIEN (11,9 %) / QUE SE COMPORTE DE MANERA NATURAL (9 %)"
+     },
+     {
+      "t": 352,
+      "texto": "LOS REPTILES / NO ENTIENDEN EL CONTACTO FÍSICO"
+     },
+     {
+      "t": 756,
+      "texto": "ENTRE 2 Y 3 MESES / PARA QUE SAPHIRA SE ADAPTE"
+     }
+    ]
+   },
+   {
+    "tipo": "texto de la burbuja de la tortuga",
+    "fuente": "cuatro apariciones con condensada muy negra tipo Anton o Impact; la de 5:16 con redonda en negrita tipo Montserrat o Poppins; en minúsculas con mayúscula inicial (no todo mayúsculas), centrado, 3-4 líneas",
+    "color": "negro sobre bocadillo blanco con borde negro grueso y cola hacia la tortuga",
+    "posicion": "centro-derecha, a la izquierda de la tortuga",
+    "alto_pct": 3,
+    "ejemplos": [
+     {
+      "t": 126.1,
+      "texto": "Es como si la dracaena hubiese evolucionado con traje de caimán, pero habilidades de lagarto"
+     }
+    ]
+   }
+  ],
+  "por_minuto": 1.1
+ },
+ "musica": {
+  "pct_con_musica": 97,
+  "tramos": [
+   {
+    "t0": 0,
+    "t1": 67,
+    "nota": "gancho, intro y presentación; -31 dB de media; sube a -12/-13 dB en la intro (32-36 s) y a -19/-25 dB en la transición de 62-66 s; cambios de pista en 28 y 60 s"
+   },
+   {
+    "t0": 67,
+    "t1": 71,
+    "nota": "sin música (4 s)"
+   },
+   {
+    "t0": 71,
+    "t1": 90,
+    "nota": "muy baja bajo la voz (-38 dB, 20 dB por debajo)"
+   },
+   {
+    "t0": 90,
+    "t1": 97,
+    "nota": "sin música (7 s)"
+   },
+   {
+    "t0": 97,
+    "t1": 136,
+    "nota": "baja bajo la voz (-35 dB)"
+   },
+   {
+    "t0": 136,
+    "t1": 142,
+    "nota": "sin música (6 s)"
+   },
+   {
+    "t0": 142,
+    "t1": 207,
+    "nota": "baja bajo la voz; sube en la pausa de recursos de 183-187 s"
+   },
+   {
+    "t0": 207,
+    "t1": 215,
+    "nota": "sin música (8 s)"
+   },
+   {
+    "t0": 215,
+    "t1": 820,
+    "nota": "tramo continuo de 10 min a -34 dB bajo la voz; sube a -12/-20 dB cuando calla la voz: 240-249, 292-300, 395-469 (montaje de la obra), 527-530 y 598-602 s; cambios de pista en 300, 356 y 524 s"
+   },
+   {
+    "t0": 820,
+    "t1": 823,
+    "nota": "sin música (3 s)"
+   },
+   {
+    "t0": 823,
+    "t1": 946,
+    "nota": "despedida y, desde 884 s, montaje final y outro sin voz a -14/-22 dB; cambio de pista en 884 s"
+   }
+  ],
+  "nivel_vs_voz_db": -17.9,
+  "pistas": 7,
+  "tipo": "De fondo casi permanente y muy por debajo de la voz; solo pasa a primer plano en las pausas sin voz (intro, montaje de la obra, final de la lluvia). Género e instrumentos: no comprobado. Pistas: 6 cambios detectados por audio.json = unas 7, no comprobado de oído"
+ },
+ "sfx": {
+  "por_minuto": 0.7,
+  "usos": [
+   {
+    "t": 0.8,
+    "con": "relámpago superpuesto del arranque (resto a -15 dB en el segundo 0, sin voz): trueno probable"
+   },
+   {
+    "t": 31.3,
+    "con": "entrada de la intro: el resto salta de -36,6 a -16,5 dB en el segundo 31"
+   },
+   {
+    "t": 48.95,
+    "con": "botón de suscripción 1 (acento junto a la aparición; con voz encima, no comprobado)"
+   },
+   {
+    "t": 125.9,
+    "con": "burbuja de la tortuga 1 (acentos en 125,90 y 126,46; no comprobado)"
+   },
+   {
+    "t": 414.13,
+    "con": "botón de suscripción 3 (dentro del montaje con música alta; no comprobado)"
+   },
+   {
+    "t": 812.93,
+    "con": "burbuja de la tortuga 5 (no comprobado)"
+   },
+   {
+    "t": 873.3,
+    "con": "botón de suscripción 4 (no comprobado)"
+   },
+   {
+    "t": 884.5,
+    "con": "destello blanco + rayos hacia el montaje final: el resto salta de -42 a -14 dB"
+   },
+   {
+    "t": 915.6,
+    "con": "destello + rayos: el resto salta de -18,8 a -12,7 dB"
+   },
+   {
+    "t": 926.2,
+    "con": "destello + rayos hacia el outro (acento en 926,20)"
+   }
+  ]
+ },
+ "ritmo": {
+  "plano_medio_s": 5.7,
+  "plano_mediana_s": 3.27,
+  "pct_a_camara": 65,
+  "zooms": "Hay acercamientos en posproducción dentro de planos a cámara fijos: ×1,09 en 1 s antes del rótulo «TEÍDO» (104,9-105,9), ×1,43 en 1,5 s para «EL RESTO DE SU VIDA» (193,0-194,5) y un zoom progresivo de ×1,5 en ~11 s (507-518 s). Otros planos fijos no se tocan (331-342 s: 1,01; 552-565 s: 1,00). Cuando sale la tortuga el plano NO cambia de escala (0,986 y 1,002 medidos). En el exterior la cámara va en mano y se acerca y se aleja sola (612-632 s llega a ×1,55): si es zoom de cámara o de edición, no comprobado",
+  "transiciones": "Casi todo corte seco (165 cortes detectados, 10,5 por minuto; faltan algunos entre 36 y 78 s, así que el plano medio real es algo menor). Transiciones con efecto solo en los cambios de bloque: barrido borroso a la intro (31,3), deformación en espejo hacia un recurso (62,6-62,8), desenfoque al entrar al interior (65,8-66,2) y destello blanco con rayos tres veces al final (884-885,9; 915,5-915,9; 926,1-926,4), más el rayo del segundo 0,8",
+  "velocidades": "No se aprecia cámara rápida en el montaje de la obra (fotogramas cada 0,2 s con movimiento normal) ni se puede confirmar cámara lenta en los planos de lluvia del final: no comprobado. Sin pantalla partida. Material de archivo: vídeos de la obra (3:16-3:19, 4:12-4:19, 6:35-7:57), planos de río y selva aérea (4:34-4:39), otros animales (9:42-9:47) y tres fotos en recuadro arriba a la derecha sobre el creador (2:26 pejerrey; 13:16-13:19 pérgola; 13:24-13:27 nebulizadores)"
+ },
+ "botones": [
+  {
+   "t0": 48.4,
+   "t1": 57.7,
+   "que": "animación todo en uno: punto rojo → logo de YouTube → barra blanca con pulgar, «SUSCRÍBETE» y campana; un cursor de mano pulsa me gusta (azul), suscribirse (pasa a «SUSCRITO») y campana (amarilla); se recoge y desaparece. 9,3 s. Mientras dice «no olvidéis suscribiros al canal»",
+   "posicion": "abajo centrado, caja [20.5, 75.7, 78.0, 92.4] % (57,5 % de ancho × 16,7 % de alto)"
+  },
+  {
+   "t0": 294.0,
+   "t1": 303.2,
+   "que": "la misma animación, sobre recursos del lagarto sin voz, tras «le pondré todos los detalles»; atraviesa dos cortes de plano",
+   "posicion": "la misma"
+  },
+  {
+   "t0": 415.0,
+   "t1": 424.3,
+   "que": "la misma animación, dentro del montaje de la obra sin voz; atraviesa cortes de plano",
+   "posicion": "la misma"
+  },
+  {
+   "t0": 874.4,
+   "t1": 883.8,
+   "que": "la misma animación, en la despedida a cámara («suscribiros al canal»); termina justo antes del destello final",
+   "posicion": "la misma"
+  }
+ ],
+ "logo": "No hay logo ni marca de agua fijos en ningún momento (revisadas las 16 hojas del cuadrante inferior derecho y las 16 hojas por minuto). El logo solo sale en la intro, centrado y con letras, de 33,1 a 36,1 s.",
+ "color_formato": "16:9 a cuadro completo, sin bandas ni viñeta; sin filtro evidente (los planos de niebla y lluvia son así de rodaje); copia de 1280×720 a 60 fps. Sin subtítulos incrustados. Único efecto de imagen: destellos blancos con rayos superpuestos.",
+ "no_comprobado": [
+  "Todo lo sonoro: si hay efecto al salir la tortuga, la burbuja o los botones; el género y el número real de pistas; si el outro suena con su sonido propio",
+  "Cámara lenta o rápida en los montajes",
+  "Si los zooms del exterior (cámara en mano) son de cámara o de edición",
+  "Tiempos de los rótulos: salvo «LA VÁRZEA», «TEÍDO» y «PRIMER HÁBITAT…» (medidos a 0,1-0,2 s), salen de hojas con una celda cada 2 s (±2 s); puede faltar algún rótulo de menos de 2 s",
+  "Los cortes de 36 a 78 s que cortes.json no detecta (hay al menos tres): plano medio y mediana son los del archivo, sin corregir",
+  "El porcentaje a cámara (65 %) está contado en celdas de 2 s, no plano a plano",
+  "La tortuga de este vídeo es amarilla y naranja con contorno verde oscuro, de trazo vectorial, no verde en pixel-art; el nombre de animación es el más parecido de la lista"
+ ]
+}

@@ -1,0 +1,868 @@
+{
+  "video": {
+    "archivo": "refs/dinamicos/ruben-holgado/2026-08-16_aprendiz-de-sumo-japon.mp4",
+    "creador": "Rubén Holgado",
+    "url": "https://www.youtube.com/watch?v=zViswHE1zTo",
+    "titulo": "Viví Como un Aprendiz de Sumo en Japón",
+    "duracion": "21:30",
+    "publicado": "2026-08-16",
+    "tramo_analizado": "0:00–21:30 (entero)"
+  },
+  "resumen": "Vlog de reto de 21:30 (1080p, 29,97 fps) con 349 planos: media 3,7 s, mediana 2,5 s, 16,2 cortes/min. Abre con 55 s de busto parlante en casa troceado con archivo, una cita de prensa en tarjeta, un sello rojo, b-roll grabado a propósito y un tráiler de 14 planos (1,2 s/plano) que ilustra palabra por palabra lo que promete; después, cabecera dibujada de 5,3 s. El desarrollo alterna tres registros: voz en off en pasado sobre b-roll (21 bloques, 440 s, 34 % del metraje, 1,7–4,5 s/plano), directo a cámara/selfie sin cubrir, y conversaciones con los luchadores subtituladas con un color por persona. Los momentos fuertes (combates) se dejan en plano largo sin cortar (hasta 57,9 s) con la música unos 10 dB más alta y sin voz. Casi todo es corte seco (más del 98 %); las transiciones con efecto se reservan a la cabecera (papel roto) y a dos cortes a negro. Los grafismos son pocos pero muy variados y casi siempre de un solo uso: contador de kilos sobre las cabezas, dato amarillo gigante, flecha manuscrita, estampas en tarjetas, ficha del luchador, infografía de pirámide, contador de peso en la esquina, capturas de YouTube. No hay mapas. Hay música el 80 % del tiempo, unos 10–12 dB por debajo de la voz, y tramos deliberados sin música (2:28–3:25, 9:00–9:46, 13:54–14:05). Cierra con una reflexión en off de 105 s sobre un montaje-resumen del propio vídeo y de vídeos antiguos, despedida en plano único y pantalla final dibujada con CTA hablado.",
+  "estructura": [
+    {
+      "desde": "0:00",
+      "hasta": "0:55",
+      "parte": "Gancho a cámara + tráiler",
+      "que_pasa": "Tesis (deporte cerrado), obstáculo (permiso denegado durante años), solución cómica (enviar un fax), promesa (2 días dentro de un establo) con tráiler de 14 planos; remate 'nos tocará hacer lo que nadie quiere' y salida por la puerta."
+    },
+    {
+      "desde": "0:55",
+      "hasta": "1:00",
+      "parte": "Cabecera",
+      "que_pasa": "Animación dibujada 'las aventurillas de rubén · edición agujetas' (5,3 s) que entra y sale con papel roto."
+    },
+    {
+      "desde": "1:00",
+      "hasta": "1:59",
+      "parte": "Llegada y reglas",
+      "que_pasa": "Entra susurrando (subtitulado), off 'os lo explico por encima', 14 s de entreno solo con respiraciones y música, reglas del sumo, contador de kilos, hoja de ruta de los dos días con planos adelantados (1:36–1:57)."
+    },
+    {
+      "desde": "1:59",
+      "hasta": "5:22",
+      "parte": "Día 1: primer entreno",
+      "que_pasa": "Ponerse el mawashi en directo (2:00–2:28), ejercicios explicados en off sin música (2:29–3:25), el entrenador les habla (subs amarillos), combates de los veteranos en planos largos con música alta (3:59–4:58), Rubén pelea y se pesa (5:05–5:21)."
+    },
+    {
+      "desde": "5:22",
+      "hasta": "7:21",
+      "parte": "Tareas y charla",
+      "que_pasa": "Selfie agotado, barrer y ritual de la sal en off, charla sentados con subtítulos de colores e imágenes de anime en tarjeta (5:44–6:38), lavar la espalda a los veteranos y baño."
+    },
+    {
+      "desde": "7:21",
+      "hasta": "10:20",
+      "parte": "Comida",
+      "que_pasa": "Cocina, reglas de la nevera, chanko, 'no podía ni un grano de arroz más', siesta frustrada, lavar platos."
+    },
+    {
+      "desde": "10:20",
+      "hasta": "11:45",
+      "parte": "Recado en bici",
+      "que_pasa": "Off de contexto sobre la vida de los aprendices con flecha 'maestro', estampas y archivo (10:25–10:51); supermercado y entrevista subtitulada (11:10–11:35)."
+    },
+    {
+      "desde": "11:45",
+      "hasta": "13:57",
+      "parte": "Cena de retirada",
+      "que_pasa": "Montaje musical de arreglarse y viaje (cortes sobre acentos 11:35–11:51), ficha de Yuma y gag del pelo (12:08–12:13), a cámara andando, festín, infografía de divisiones (13:27–13:38), vuelta de noche."
+    },
+    {
+      "desde": "13:57",
+      "hasta": "16:42",
+      "parte": "Entreno nocturno y dormir",
+      "que_pasa": "Estiramientos (captura de un vídeo antiguo a 14:00), peso muerto con contador 50→140 kg, gag del globo (15:44), confesión del luchador subtitulada, 30,8 s en la cama en un solo plano."
+    },
+    {
+      "desde": "16:42",
+      "hasta": "19:13",
+      "parte": "Día 2: la pelea (clímax)",
+      "que_pasa": "Negro 6 s con rótulo 'DÍA 2', selfie de mañana, off rápido del entreno (17:09–17:40), vendas, pelea en plano único de 57,9 s (17:50–18:48), reacción y segunda pelea de 14,4 s."
+    },
+    {
+      "desde": "19:13",
+      "hasta": "20:58",
+      "parte": "Reflexión",
+      "que_pasa": "Off de 105 s (moraleja: el esfuerzo tarda en verse) sobre 44 cortes: recap del vídeo, congelado con icono de pausa, ventana de YouTube, clips y miniaturas de vídeos antiguos; remate cómico con la tortilla."
+    },
+    {
+      "desde": "20:58",
+      "hasta": "21:30",
+      "parte": "Despedida y pantalla final",
+      "que_pasa": "Despedida en la puerta en plano único de 15,9 s y pantalla final dibujada con CTA en off (9,7 s)."
+    }
+  ],
+  "ritmo": {
+    "s_por_plano": {
+      "global": "media 3,7 / mediana 2,5 (349 planos; 13 % duran <1 s, 21 % >5 s)",
+      "intro_0_60": "media 1,63 / mediana 1,37 (37 planos; 32 % <1 s)",
+      "trailer_0:25_0:43": "1,21 (14 planos en 16,9 s; el más corto 0,50 s, el último 3,0 s)",
+      "minuto_1": "media 2,22 / mediana 1,67 (27 planos)",
+      "desarrollo_min_2_16": "media por minuto entre 3,1 y 5,6 s; mediana típica 2,5–3,8 s",
+      "bajo_voz_en_off": "1,7–4,5 según bloque; mediana ≈2,4",
+      "combates": "min 4: media 9,0 s (5 planos, máx 19,9 s); pelea final 57,9 s + 14,4 s",
+      "montaje_reflexion_19:14_20:58": "2,3 (44 cortes en 105 s); min 20: media 2,24 / mediana 1,67",
+      "cierre": "15,9 s (despedida) + 9,7 s (pantalla final)"
+    },
+    "jump_cuts": "Pocos y casi solo en el busto de la intro: 0:08,3 (+10 % de escala), 0:23,7 y 0:44,2 (+20 %), siempre con cambio de escala para que no parezca un salto. cortes.json no ve los de 0:08,3 y 0:44,2 (detectados con medir_zoom). En el resto, los directos largos van sin cortar: 12:30–12:48 (18,4 s), 16:11–16:42 (30,8 s), 8:18–8:30 (12,5 s).",
+    "j_l_cuts": "De 21 entradas de voz en off, 8 empiezan antes del corte de imagen (J-cut): 3:29 (−0,63 s), 5:30 (−0,06), 6:46 (−0,54), 9:24 (−0,24), 10:26 (−0,10), 11:35 (−0,50), 18:48 (−0,25), 21:20 (−0,32); 7 entran entre 0,0 y 0,9 s después del corte (1:06 +0,48; 2:29 +0,13; 5:11 +0,28; 11:59 +0,73; 13:13 +0,01; 17:09 +0,89; 19:14 +0,26); el resto empieza a mitad de plano. Medido comparando la primera palabra de cada bloque (transcripcion.json) con el corte más cercano (cortes.json). L-cut grande en la intro: la voz a cámara sigue 17,9 s sobre el tráiler (0:24,8–0:42,7).",
+    "match_cuts": "No hay match cuts clásicos. Dos trucos de continuidad: corte a un recorte ~2,5× del mismo plano con comentario (1:35,4) y sustitución en encuadre bloqueado (15:44,8: Rubén desaparece y queda un globo rojo en su sitio)."
+  },
+  "intro": {
+    "cold_open": "No hay cold open con acción: arranca a cámara en casa (sudadera verde, trípode) con la primera frase ya en marcha en el fotograma 0 y un zoom-out brusco (1,00→0,85 en 0,4 s). A los 1,4 s ya hay archivo: 3 planos de torneo (1,4 / 0,5+0,6 / 0,7 s) y a 0:04,6 la tarjeta con la cita de prensa.",
+    "recap": {
+      "existe": true,
+      "desde": "0:25,8",
+      "hasta": "0:42,7",
+      "n_planos": 14,
+      "s_por_plano": 1.21,
+      "de_donde_salen": [
+        {
+          "t": "0:25,8–0:27,5",
+          "plano": "en el tren entre dos luchadores",
+          "origen": "12:13"
+        },
+        {
+          "t": "0:27,5–0:29,2",
+          "plano": "general del dojo haciendo shiko",
+          "origen": "1:50 (mismo plano)"
+        },
+        {
+          "t": "0:29,2–0:30,1",
+          "plano": "Rubén sentado mirando el entreno",
+          "origen": "1:18"
+        },
+        {
+          "t": "0:30,1–0:31,6",
+          "plano": "barriendo el dojo",
+          "origen": "5:32"
+        },
+        {
+          "t": "0:31,6–0:33,1",
+          "plano": "luchador en el dormitorio",
+          "origen": "16:50"
+        },
+        {
+          "t": "0:33,1–0:34,4",
+          "plano": "comiendo chanko",
+          "origen": "8:44"
+        },
+        {
+          "t": "0:34,4–0:35,3",
+          "plano": "combate",
+          "origen": "día 2, ≈17:52"
+        },
+        {
+          "t": "0:35,3–0:35,9",
+          "plano": "estiramiento abierto de piernas",
+          "origen": "13:58"
+        },
+        {
+          "t": "0:35,9–0:36,4",
+          "plano": "luchador señalando",
+          "origen": "16:00"
+        },
+        {
+          "t": "0:36,4–0:37,2",
+          "plano": "combate en el dojo",
+          "origen": "≈19:14"
+        },
+        {
+          "t": "0:37,2–0:37,8",
+          "plano": "Rubén haciendo shiko",
+          "origen": "≈17:28"
+        },
+        {
+          "t": "0:37,8–0:38,9",
+          "plano": "bajando escaleras en yukata",
+          "origen": "12:02"
+        },
+        {
+          "t": "0:38,9–0:39,7",
+          "plano": "en bici",
+          "origen": "10:26"
+        },
+        {
+          "t": "0:39,7–0:42,7",
+          "plano": "cena en el restaurante",
+          "origen": "12:50"
+        },
+        {
+          "t": "0:45,5–0:46,4",
+          "plano": "cogiendo huevos en el súper (inserto posterior, fuera del recap)",
+          "origen": "10:54"
+        },
+        {
+          "t": "0:46,4–0:48,3",
+          "plano": "lavando la espalda a un veterano (inserto posterior, fuera del recap)",
+          "origen": "7:00"
+        }
+      ],
+      "frase": "«…viviremos dentro de una casa de sumo profesional, dormiremos donde duermen ellos, comeremos lo que comen ellos y entrenaremos junto con algunos de los mejores luchadores de sumo de este país para descubrir cómo es realmente la vida detrás de este deporte tan secreto». Cada verbo cae sobre su plano: 'dormiremos' → dormitorio (0:31,6), 'comeremos' → chanko (0:33,1), 'entrenaremos' → combate (0:34,4). Los dos insertos posteriores ilustran «nos tocará hacer lo que nadie [quiere]». Los orígenes están identificados a ojo en las hojas min_* (±2 s; los de combates y shiko son aproximados)."
+    },
+    "titulo_cabecera": "0:55,2–1:00,5 (5,3 s). Animación 2D dibujada a mano con textura de papel, marco crema, fondo verde y arena. Plano 1 (0:55,5–0:57,0): Rubén dibujado haciendo shiko y el título 'las aventurillas de rubén' en letra manuscrita negra que se escribe letra a letra en 0,4 s (0:55,6–0:56,0). Plano 2 (0:57,0–1:00,5): Rubén diminuto frente a un sumo enorme, que a 0:59,2 lo lanza volando; a 0:59,7 aparece 'edición agujetas' en manuscrita fina con fundido de 0,2 s. La voz dice «Las aventurillas de Rubén. Edición Agujetas».",
+    "motion_graphics": "Tarjeta de cita de prensa con subrayado fluorescente (0:04,5–0:07,3); sello rojo con kanji 禁 sobre la cara + tinte rosa + subtítulo «denegado» (0:16,7–0:18,1); transición de papel roto (0:55,2 y 1:00,5).",
+    "musica_entra_s": 0,
+    "linea_de_tiempo": [
+      {
+        "t": "0:00,0",
+        "que": "A cámara, zoom-out brusco de 15 % en 0,4 s. «El sumo es uno de los deportes más cerrados del mundo»"
+      },
+      {
+        "t": "0:01,4",
+        "que": "Archivo torneo (1,4 s)"
+      },
+      {
+        "t": "0:02,8",
+        "que": "Archivo ceremonia (0,5 + 0,6 s); cortes sobre acentos de la música"
+      },
+      {
+        "t": "0:03,9",
+        "que": "Archivo luchador llorando (0,7 s)"
+      },
+      {
+        "t": "0:04,6",
+        "que": "Archivo dohyo oscuro + tarjeta de cita (2,7 s); el resaltado amarillo barre de 0:06,0 a 0:06,5"
+      },
+      {
+        "t": "0:07,3",
+        "que": "A cámara 5,6 s con zoom-in en rampa (+11 % en 0,9 s) y salto de escala (+10 %) a 0:08,3"
+      },
+      {
+        "t": "0:12,9",
+        "que": "Imagen de archivo (Hello Kitty de sumo) 1,8 s sobre «necesitas permiso exclusivo de la asociación»"
+      },
+      {
+        "t": "0:14,7",
+        "que": "A cámara cerrado con zoom-out de ≈19 % en 1,8 s (cifra orientativa: él se mueve)"
+      },
+      {
+        "t": "0:16,7",
+        "que": "Corte a encuadre abierto fijo: «denegado» + sello rojo + tinte rosa (1,4 s)"
+      },
+      {
+        "t": "0:18,1",
+        "que": "A cámara 0,7 s: «algo muy japonés»"
+      },
+      {
+        "t": "0:18,8",
+        "que": "B-roll grabado a propósito: busca en la tele cómo enviar un fax (3,5 s), pulgar arriba"
+      },
+      {
+        "t": "0:22,3",
+        "que": "A cámara: «nos han dado permiso» (salto a 0:23,7)"
+      },
+      {
+        "t": "0:24,8",
+        "que": "Plano general preparando la mochila (1,0 s)"
+      },
+      {
+        "t": "0:25,8",
+        "que": "Tráiler: 14 planos en 16,9 s con la voz a cámara encima"
+      },
+      {
+        "t": "0:42,7",
+        "que": "A cámara de pie con mochila; rampa +11 % y salto +20 % a 0:44,2"
+      },
+      {
+        "t": "0:45,5",
+        "que": "Dos insertos del vídeo (súper 0,9 s; lavar espalda 1,8 s)"
+      },
+      {
+        "t": "0:48,3",
+        "que": "A cámara de pie, plano fijo 4,6 s; a 0:52,8 abre la puerta y sale: «Empieza la aventurilla»"
+      },
+      {
+        "t": "0:55,2",
+        "que": "Papel roto (0,3 s) → cabecera animada"
+      },
+      {
+        "t": "1:00,5",
+        "que": "Papel roto (0,2 s) → entra por la puerta del establo, de espaldas"
+      }
+    ]
+  },
+  "broll": {
+    "proporcion_sobre_voz": "≈60 %. Método: muestreo de un minuto de cada tres (min 1, 4, 7, 10, 13, 16 y 19). Segundos de habla según las palabras de transcripcion.json: 253 s; de ellos 150 s son voz en off (cubierta al 100 % por definición) y ≈10 s son directo tapado por insertos (olla y arroz a 7:30–7:33 y 7:50–7:53; comida a 13:44–13:50) → 160/253 = 63 %. Contraste con el total del vídeo: 792 s de habla detectada, 412 s en off + 32 s de intro tapada + ≈15 s de insertos = 58 %. Reparto muy desigual: min 1, 19 y 20 casi 100 %; min 7, 8 y 16 ≈0–10 % (directo sin cubrir).",
+    "origenes": {
+      "mismo_video": "≈90 %. La off se cubre con la acción que describe (misma escena, grabada en ese momento); el tráiler, la hoja de ruta de 1:36–1:57 (5 planos adelantados: comer, barriga, huevos, cama, pelea) y el recap de 19:14–20:16 reutilizan planos de todo el vídeo.",
+      "recursos": "B-roll rodado aposta en casa para la intro (tele/fax 0:18,8–0:22,3; mochila 0:24,8); imágenes fijas en tarjeta (anime 6:14 y 6:20–6:27; estampas 10:38–10:44; ficha 12:08); clips y capturas de vídeos antiguos del canal (14:00,8–14:03,6; 20:18–20:45).",
+      "stock_archivo": "Archivo de torneos profesionales: 0:01,4–0:07,3 (4 planos), 3:04 (1 plano sobre «antes de los combates»), 10:46–10:49, 12:07,4–12:10,3 (fondo desenfocado de la ficha). ≈20 s en total."
+    },
+    "duracion_tipica_s": "2–3 s bajo voz en off (mediana ≈2,4); 0,5–1,5 s en el tráiler; insertos sobre directo de 1–3 s.",
+    "vuelta_a_camara": "Siempre por corte seco, sin transición. En la intro vuelve a cámara cada 2–18 s y cada vuelta cambia de escala o de encuadre (cerrado, abierto, de pie con mochila). En el desarrollo la off no 'vuelve' a un busto: desemboca en un directo de la misma escena (p. ej. 5:21,8 off → selfie «me cuesta respirar»; 9:38 off → directo «ya lo hemos recogido todo»).",
+    "ejemplos": [
+      "0:18,8 «enviar un fax» → plano grabado aposta buscando en la tele cómo se envía",
+      "1:42–1:54 hoja de ruta: «ganar algunos kilillos» = comiendo, «tareas de los novatos» = huevos, «dormiremos» = selfie en la cama, «pelea real» = combate",
+      "3:04 «antes de los combates siempre se hace este ejercicio» → archivo de torneo 2 s",
+      "10:32 «su vida gira alrededor del sumo» → planos del establo intercalados con la bici",
+      "17:38 «una hora de reloj» → plano del reloj de pared 2 s",
+      "20:18–20:45 «los primeros vídeos no llegaban a mil visitas» → ventana de YouTube, clips antiguos, scroll de miniaturas y cabecera del canal (944 K)"
+    ]
+  },
+  "voz_en_off": {
+    "uso": "21 bloques, 440 s en total (34 % del metraje; 52 % del habla detectada). Duración: mediana ≈10 s, casi todos entre 5 y 35 s; los largos son 2:29–3:22 (53 s) y la reflexión 19:14–20:59 (105 s). Sustituye al directo cuando (a) no se podía hablar (entreno en silencio: «para no estar todo el rato en silencio, os lo explico por encima», 1:06), (b) hay que dar contexto o datos (reglas 1:24, jerarquía 6:46, vida de los aprendices 10:26, divisiones 13:13), (c) hay que saltar tiempo («y por último…», «hasta que el entrenador vino…», «tocaba ponernos guapos…»). Ritmo de imagen bajo off: 1,7–4,5 s/plano.",
+    "guion": "Escrita en pasado y en primera persona del plural, con frases-puente que acaban apuntando a la escena siguiente («Pero antes de todo eso, tocaba quitarnos la ropa» 1:57; «Hasta que llegó el momento de la pelea» 17:38) y arranques con conector («Y…», «Pero…», «Así que…»). Tono coloquial con diminutivos («kilillos», «aventurilla») y un remate de humor por bloque («era pulgarcito dentro del establo» 5:13; «las bicis del Pokémon» 10:26). El directo va en presente («me cuesta respirar muchísimo»); el contraste de tiempos verbales distingue los dos registros.",
+    "mezcla": "Voz en off −22,1 dB de mediana frente a −22,7 dB del directo: igualadas. Bajo la off la música queda ≈12 dB por debajo (mediana voz−resto 11,9 dB; entre 6 y 20 dB según bloque). Tres bloques van sin música, solo con ambiente (2:29–3:22, 13:56–14:05, 14:36–14:48). La off entra antes del corte en 8 de 21 bloques (0,1–0,6 s) y hasta 0,9 s después en otros 7."
+  },
+  "transiciones": [
+    {
+      "tipo": "corte seco",
+      "veces": "≈343 de 349 (más del 98 %); ≈160 por cada 10 min",
+      "donde": "todo el vídeo",
+      "ejemplos_t": [
+        "0:01,4",
+        "2:29,3",
+        "17:50,4"
+      ]
+    },
+    {
+      "tipo": "papel roto (un agujero de papel rasgado se abre desde el centro y deja ver el plano siguiente; 0,2–0,3 s)",
+      "veces": 2,
+      "donde": "entrada y salida de la cabecera",
+      "ejemplos_t": [
+        "0:55,2",
+        "1:00,5"
+      ]
+    },
+    {
+      "tipo": "corte a negro",
+      "veces": 2,
+      "donde": "fin del día 1 (6 s de negro con el rótulo 'DÍA 2' los 2,1 últimos) y gag del peso muerto (0,6 s)",
+      "ejemplos_t": [
+        "16:42,3",
+        "15:46,6"
+      ]
+    },
+    {
+      "tipo": "empujón de zoom digital dentro del plano (+50 % en 0,4 s)",
+      "veces": 1,
+      "donde": "para señalar al maestro antes de la flecha",
+      "ejemplos_t": [
+        "10:36,9"
+      ]
+    },
+    {
+      "tipo": "congelado con icono de pausa + ventana que crece desde el centro",
+      "veces": 1,
+      "donde": "paso del presente a los vídeos antiguos en la reflexión",
+      "ejemplos_t": [
+        "20:17,5"
+      ]
+    },
+    {
+      "tipo": "empuje lateral entre gráficos",
+      "veces": 1,
+      "donde": "de la ficha del luchador al gag del pelo",
+      "ejemplos_t": [
+        "12:10,4"
+      ]
+    },
+    {
+      "tipo": "scroll rápido de página como transición",
+      "veces": 1,
+      "donde": "rejilla de miniaturas del canal",
+      "ejemplos_t": [
+        "20:40,2–20:44,0"
+      ]
+    },
+    {
+      "tipo": "barridos de cámara en mano dentro del plano (no son de edición)",
+      "veces": "≈3",
+      "donde": "dojo",
+      "ejemplos_t": [
+        "4:56",
+        "5:54",
+        "6:00"
+      ]
+    }
+  ],
+  "zooms": {
+    "mediciones": [
+      {
+        "t": "0:00,05–0:01,35",
+        "escala": 0.85,
+        "duracion_s": 0.4,
+        "tipo": "zoom-out brusco de arranque en plano fijo a cámara (fiable)"
+      },
+      {
+        "t": "0:07,4–0:12,8",
+        "escala": 1.22,
+        "duracion_s": 0.9,
+        "tipo": "rampa de +11 % en 0,9 s y salto de +10 % a 0:08,3 (jump cut con punch-in); luego estable. Fiable: trípode"
+      },
+      {
+        "t": "0:14,75–0:16,65",
+        "escala": 0.81,
+        "duracion_s": 1.8,
+        "tipo": "zoom-out progresivo (≈−10 %/s); orientativo, el presentador se mueve mucho"
+      },
+      {
+        "t": "0:16,8–0:18,05",
+        "escala": 0.99,
+        "duracion_s": 1.2,
+        "tipo": "fijo (plano del sello «denegado»)"
+      },
+      {
+        "t": "0:22,35–0:23,6",
+        "escala": 0.99,
+        "duracion_s": 1.2,
+        "tipo": "fijo"
+      },
+      {
+        "t": "0:42,8–0:45,4",
+        "escala": 1.32,
+        "duracion_s": 1.3,
+        "tipo": "rampa de +11 % en 1,3 s y salto de +20 % a 0:44,2 (punch-in por corte). Fiable: trípode"
+      },
+      {
+        "t": "0:48,3–0:52,75",
+        "escala": 1.0,
+        "duracion_s": 4.4,
+        "tipo": "fijo"
+      },
+      {
+        "t": "0:52,9–0:55,1",
+        "escala": 0.7,
+        "duracion_s": 2.1,
+        "tipo": "NO fiable: él camina hacia la puerta y el encuadre le sigue"
+      },
+      {
+        "t": "1:33,25–1:35,35",
+        "escala": 1.146,
+        "duracion_s": 2.0,
+        "tipo": "zoom-in lineal continuo de 7,3 %/s sobre el plano del contador de kilos (curva perfectamente lineal: zoom de edición)"
+      },
+      {
+        "t": "6:02,6–6:09,8",
+        "escala": 0.92,
+        "duracion_s": 7.1,
+        "tipo": "NO fiable: cámara en mano"
+      },
+      {
+        "t": "10:36,65–10:38,25",
+        "escala": 1.5,
+        "duracion_s": 0.4,
+        "tipo": "empujón digital con suavizado (1,00→1,55 en 0,4 s, asienta en 1,50) hacia el maestro; fiable"
+      },
+      {
+        "t": "13:00,0–13:12,7",
+        "escala": 1.0,
+        "duracion_s": 12.6,
+        "tipo": "fijo (a cámara en el restaurante, sin zoom añadido)"
+      },
+      {
+        "t": "13:58,6–14:00,7",
+        "escala": 1.0,
+        "duracion_s": 2.0,
+        "tipo": "fijo (trípode)"
+      },
+      {
+        "t": "16:11,6–16:42,2",
+        "escala": 1.019,
+        "duracion_s": 30.5,
+        "tipo": "prácticamente fijo (+0,06 %/s): 30 s en la cama sin zoom ni cortes"
+      },
+      {
+        "t": "17:50,5–18:48,2",
+        "escala": 0.64,
+        "duracion_s": 57.6,
+        "tipo": "NO fiable: pelea con cámara en mano y paneos"
+      },
+      {
+        "t": "21:04,3–21:20,0",
+        "escala": 0.99,
+        "duracion_s": 15.6,
+        "tipo": "NO fiable: paneo/movimiento de cámara en mano"
+      }
+    ],
+    "patron": "El zoom de edición se concentra en el busto de la intro: cada frase a cámara lleva una rampa corta (+11 % en 0,9–1,3 s) rematada con un salto de escala por corte (+10 % / +20 %), o un zoom-out; con el sello y el plano de pie se queda fijo. Fuera de la intro casi no hay zoom añadido: dos usos puntuales (7,3 %/s lineal con el contador de kilos a 1:33; empujón de +50 % en 0,4 s a 10:37) y recortes por corte para sacar un primer plano del mismo plano (1:35,4 ≈2,5×; 6:14,2 ≈1,6×; 15:47,2), estos estimados a ojo. Los directos largos y los combates van sin zoom. No se aprecia estabilización añadida (no se puede confirmar)."
+  },
+  "tipografia": [
+    {
+      "tipo": "subtítulo / traducción (el rótulo más usado)",
+      "fuente_parecida_google": "Arimo Bold (aspecto Arial/Helvetica Bold)",
+      "peso": "700",
+      "tamano_rel": "alto de mayúscula ≈4,3 % del alto de pantalla (≈46 px en 1080); una sola línea de 2–6 palabras",
+      "posicion": "centrado abajo, línea base al ≈93 % del alto",
+      "color": "blanco para Rubén; un color por interlocutor: amarillo (entrenador, 3:36), verde menta (5:08, 6:10, 8:54, 11:22), rosa (5:52, 6:00), azul claro (7:30, 14:18, 15:50), naranja (11:16)",
+      "borde_sombra": "sin caja; sombra/halo negro difuso alrededor",
+      "entrada": "corte seco, sin animación; todo en minúsculas, sin mayúscula inicial ni punto final, con signos solo de cierre («y tú?»)",
+      "salida": "corte seco",
+      "duracion_s": "1–3 por frase",
+      "ejemplos_t": [
+        "1:02",
+        "3:36",
+        "5:08",
+        "5:52",
+        "11:16",
+        "15:50"
+      ],
+      "recorte": "refs/dinamicos/_analisis/2026-08-16_aprendiz-de-sumo-japon/rotulos/_montaje_subs.jpg"
+    },
+    {
+      "tipo": "comentario del editor (pensamiento o broma, no es lo que se dice)",
+      "fuente_parecida_google": "Montserrat SemiBold (flotante) / Arimo Bold (abajo)",
+      "peso": "600–700",
+      "tamano_rel": "≈5 % flotante; igual que el subtítulo cuando va abajo",
+      "posicion": "flotante junto a la cabeza de quien 'piensa' (arriba-izquierda a 1:35; arriba junto al luchador a 8:02) o abajo como un subtítulo («se parten xd» 6:16; «delicioso :D» 7:32)",
+      "color": "blanco; azul claro en «en serio?» (8:02)",
+      "borde_sombra": "sombra suave",
+      "entrada": "aparece con el corte",
+      "salida": "corte",
+      "duracion_s": "1–2",
+      "ejemplos_t": [
+        "1:35,4",
+        "6:16",
+        "7:32",
+        "8:02"
+      ],
+      "recorte": "refs/dinamicos/_analisis/2026-08-16_aprendiz-de-sumo-japon/rotulos/comentario_0135.jpg"
+    },
+    {
+      "tipo": "dato grande",
+      "fuente_parecida_google": "Montserrat ExtraBold",
+      "peso": "800",
+      "tamano_rel": "alto de mayúscula ≈11 % del alto; ocupa ≈26 % del ancho",
+      "posicion": "centro exacto de pantalla",
+      "color": "amarillo (≈#F5DC1E)",
+      "borde_sombra": "sombra suave oscura",
+      "entrada": "aparece de golpe a 1:38,8, justo en la palabra «dos días»",
+      "salida": "desaparece con el corte a 1:39,6",
+      "duracion_s": 0.8,
+      "ejemplos_t": [
+        "1:38,8"
+      ],
+      "recorte": "refs/dinamicos/_analisis/2026-08-16_aprendiz-de-sumo-japon/rotulos/dato_2dias_0139.jpg"
+    },
+    {
+      "tipo": "contador de kilos sobre las cabezas",
+      "fuente_parecida_google": "Montserrat ExtraBold",
+      "peso": "800",
+      "tamano_rel": "cifras ≈6 % del alto; «kg» amarillo a ≈1/3 de ese tamaño",
+      "posicion": "encima de cada cabeza, siguiéndola",
+      "color": "rojo con contorno blanco",
+      "borde_sombra": "contorno blanco",
+      "entrada": "aparece en el corte a 1:33,2 y cuenta desde 0 en los dos a la vez (≈7 kg cada 0,1 s); el de Rubén se frena en 77 y el del luchador sigue hasta >150",
+      "salida": "corte a 1:35,4",
+      "duracion_s": 2.2,
+      "ejemplos_t": [
+        "1:33,2"
+      ],
+      "recorte": "refs/dinamicos/_analisis/2026-08-16_aprendiz-de-sumo-japon/rotulos/contador_kg_0134.jpg"
+    },
+    {
+      "tipo": "tarjeta de cita de prensa",
+      "fuente_parecida_google": "Source Serif 4 Bold (serif de titular de periódico)",
+      "peso": "700",
+      "tamano_rel": "tarjeta ≈87 % del ancho; alto de mayúscula ≈5 %; 2 líneas",
+      "posicion": "centrada, algo por encima del centro, sobre archivo oscurecido",
+      "color": "texto negro sobre papel blanco con cuadrícula tenue; resaltado amarillo fluorescente",
+      "borde_sombra": "sombra de tarjeta",
+      "entrada": "la tarjeta crece desde pequeña en ≈0,3 s (0:04,5–0:04,8); el texto se revela línea a línea hasta 0:05,25; el resaltado barre de izquierda a derecha en 0,5 s (0:06,0–0:06,5) sobre «necesitan permiso para casarse»",
+      "salida": "corte a 0:07,3",
+      "duracion_s": 2.8,
+      "ejemplos_t": [
+        "0:04,5"
+      ],
+      "recorte": "refs/dinamicos/_analisis/2026-08-16_aprendiz-de-sumo-japon/rotulos/tarjeta_cita_0006.jpg"
+    },
+    {
+      "tipo": "título de cabecera",
+      "fuente_parecida_google": "manuscrita propia; lo más cercano: Gochi Hand (título) y Amatic SC (subtítulo 'edición agujetas')",
+      "peso": "título grueso / subtítulo fino",
+      "tamano_rel": "título ≈15 % del alto; subtítulo ≈18 % en dos líneas",
+      "posicion": "título a la derecha del personaje; subtítulo a la izquierda",
+      "color": "negro (título); verde claro sobre verde (subtítulo)",
+      "borde_sombra": "ninguno",
+      "entrada": "título escrito letra a letra en 0,4 s; subtítulo con fundido de 0,2 s",
+      "salida": "corte interno / papel roto",
+      "duracion_s": "1,4 y 0,8",
+      "ejemplos_t": [
+        "0:55,6",
+        "0:59,7"
+      ],
+      "recorte": "refs/dinamicos/_analisis/2026-08-16_aprendiz-de-sumo-japon/rotulos/cabecera_titulo_0056.jpg"
+    },
+    {
+      "tipo": "etiqueta manuscrita con flecha",
+      "fuente_parecida_google": "Gochi Hand / Patrick Hand (manuscrita con letras separadas)",
+      "peso": "regular",
+      "tamano_rel": "≈4 % del alto",
+      "posicion": "junto a la cabeza del maestro, arriba a la derecha",
+      "color": "amarillo",
+      "borde_sombra": "ninguno",
+      "entrada": "la flecha curva se traza en 0,3 s (10:36,8–10:37,0) y «maestro» se escribe letra a letra en 0,4 s (10:37,1–10:37,5)",
+      "salida": "la tapa la tarjeta de la estampa a 10:38,5",
+      "duracion_s": 1.7,
+      "ejemplos_t": [
+        "10:36,8"
+      ],
+      "recorte": "refs/dinamicos/_analisis/2026-08-16_aprendiz-de-sumo-japon/rotulos/flecha_maestro_1037.jpg"
+    },
+    {
+      "tipo": "capítulo",
+      "fuente_parecida_google": "Arimo Bold",
+      "peso": "700",
+      "tamano_rel": "alto de mayúscula ≈10 % del alto; ≈21 % del ancho",
+      "posicion": "centro, sobre negro",
+      "color": "blanco",
+      "borde_sombra": "ninguno",
+      "entrada": "aparece de golpe a 16:46,2 tras 3,9 s de negro",
+      "salida": "corte a 16:48,3",
+      "duracion_s": 2.1,
+      "ejemplos_t": [
+        "16:46,2"
+      ],
+      "recorte": "refs/dinamicos/_analisis/2026-08-16_aprendiz-de-sumo-japon/rotulos/capitulo_dia2_1647.jpg"
+    },
+    {
+      "tipo": "contador de peso en esquina",
+      "fuente_parecida_google": "Montserrat ExtraBold Italic",
+      "peso": "800 cursiva",
+      "tamano_rel": "cifra ≈3,5 % del alto; con el icono ocupa ≈18 % × 15 % de pantalla",
+      "posicion": "abajo a la izquierda",
+      "color": "cifra blanca con contorno azul marino, «kg» amarillo pequeño, icono de mancuerna azul",
+      "borde_sombra": "contorno",
+      "entrada": "aparece con el corte a 14:47,3 (icono primero, cifra 0,2 s después)",
+      "salida": "desaparece hacia 15:50",
+      "duracion_s": "≈63 (cambia 50 → 100 a 14:58 → 120 a 15:12 → 140 a 15:34, siempre en un corte)",
+      "ejemplos_t": [
+        "14:47,3",
+        "15:12",
+        "15:34"
+      ],
+      "recorte": "refs/dinamicos/_analisis/2026-08-16_aprendiz-de-sumo-japon/rotulos/contador_pesas_1452.jpg"
+    },
+    {
+      "tipo": "etiquetas de la infografía",
+      "fuente_parecida_google": "Montserrat Bold (mayúsculas) y ExtraBold Italic para el «70»",
+      "peso": "700–800",
+      "tamano_rel": "etiquetas ≈2 % del alto dentro de píldoras; «70» ≈8 %",
+      "posicion": "a los lados de la pirámide",
+      "color": "blanco sobre píldora verde oscuro o naranja; «70» verde oscuro",
+      "borde_sombra": "ninguno",
+      "entrada": "fundido de 0,25 s (etiquetas 13:30,5); trofeo y «70» entran en 0,5 s (13:33,25–13:33,75)",
+      "salida": "corte a 13:37,9",
+      "duracion_s": "4–7",
+      "ejemplos_t": [
+        "13:30,5",
+        "13:33,3"
+      ],
+      "recorte": "refs/dinamicos/_analisis/2026-08-16_aprendiz-de-sumo-japon/rotulos/infografia_piramide_1333.jpg"
+    },
+    {
+      "tipo": "rótulo de pantalla final",
+      "fuente_parecida_google": "Patrick Hand",
+      "peso": "regular",
+      "tamano_rel": "≈4 % del alto, dentro de una flecha verde",
+      "posicion": "centro-derecha, apuntando al hueco de la izquierda",
+      "color": "negro sobre flecha verde con borde, fondo crema",
+      "borde_sombra": "ninguno",
+      "entrada": "corte",
+      "salida": "fin del vídeo",
+      "duracion_s": 9.7,
+      "ejemplos_t": [
+        "21:20,2"
+      ],
+      "recorte": "refs/dinamicos/_analisis/2026-08-16_aprendiz-de-sumo-japon/rotulos/pantalla_final_2123.jpg"
+    }
+  ],
+  "motion_graphics": [
+    {
+      "tipo": "tarjeta de cita de prensa con resaltado",
+      "t": "0:04,5",
+      "duracion_s": 2.8,
+      "como_entra": "escala desde pequeña (0,3 s), texto por líneas, barrido del resaltado (0,5 s)",
+      "estilo": "papel blanco cuadriculado, serif negra, amarillo fluorescente, sobre archivo oscuro"
+    },
+    {
+      "tipo": "sello de 'prohibido' sobre la cara + tinte",
+      "t": "0:16,9",
+      "duracion_s": 1.2,
+      "como_entra": "el círculo rojo con el kanji 禁 aparece con fundido en ≈0,3 s tapando la cara, mientras la imagen se tiñe de rosa progresivamente",
+      "estilo": "pincelada roja tipo sello japonés; subtítulo «denegado» entre comillas"
+    },
+    {
+      "tipo": "cabecera animada",
+      "t": "0:55,2",
+      "duracion_s": 5.3,
+      "como_entra": "transición de papel roto",
+      "estilo": "dibujo a línea 2D hecho a mano, textura de papel, verde y arena, marco crema; personalizada al tema del vídeo"
+    },
+    {
+      "tipo": "contador de kilos sobre dos personas",
+      "t": "1:33,2",
+      "duracion_s": 2.2,
+      "como_entra": "con el corte; cuenta desde 0 con zoom lineal de 7,3 %/s",
+      "estilo": "cifras rojas con contorno blanco pegadas a las cabezas"
+    },
+    {
+      "tipo": "dato grande «2 DÍAS»",
+      "t": "1:38,8",
+      "duracion_s": 0.8,
+      "como_entra": "de golpe sobre la palabra",
+      "estilo": "amarillo, centrado"
+    },
+    {
+      "tipo": "imagen en tarjeta (anime) dentro del plano",
+      "t": "6:14,2 y 6:20–6:27",
+      "duracion_s": "1,9 y ≈7",
+      "como_entra": "con un corte a recorte ≈1,6× del mismo plano; la imagen aparece ya puesta",
+      "estilo": "imagen cuadrada (≈23 % del ancho) a la derecha, sin marco, tapando una zona sin caras"
+    },
+    {
+      "tipo": "flecha manuscrita + etiqueta «maestro»",
+      "t": "10:36,8",
+      "duracion_s": 1.7,
+      "como_entra": "tras un empujón de zoom de +50 %; trazo dibujado en 0,3 s y texto letra a letra",
+      "estilo": "amarillo, trazo a mano"
+    },
+    {
+      "tipo": "estampas y foto en tarjetas apiladas",
+      "t": "10:38,3",
+      "duracion_s": "≈5,3 (3 tarjetas)",
+      "como_entra": "la primera sube desde abajo en 0,4 s; la segunda entra por la derecha en 0,4 s (10:39,4) y se apila; la tercera hacia 10:41,5",
+      "estilo": "marco crema, giro de ≈3°, sombra, ≈85 % de la pantalla; el plano de fondo sigue visible detrás"
+    },
+    {
+      "tipo": "ficha del luchador",
+      "t": "12:08,0",
+      "duracion_s": 2.3,
+      "como_entra": "escala + fundido en 0,2 s mientras el archivo de fondo se desenfoca",
+      "estilo": "tarjeta blanca tipo ficha de enciclopedia: foto a la izquierda y tabla de datos; ≈45 % del ancho"
+    },
+    {
+      "tipo": "gag de recorte: cabeza de Rubén con moño, katana y calva",
+      "t": "12:10,4",
+      "duracion_s": 2.7,
+      "como_entra": "empuje lateral; la katana cruza y la peluca cae en 0,4 s (12:10,6–12:11,0); queda calvo 2 s",
+      "estilo": "collage de fotos recortadas sobre fondo de estampa japonesa"
+    },
+    {
+      "tipo": "infografía de pirámide de divisiones",
+      "t": "13:27,2",
+      "duracion_s": 10.7,
+      "como_entra": "corte a fondo crema; los luchadores aparecen fila a fila de abajo arriba (13:27,75–13:30,25), línea discontinua y etiquetas (13:30,5), la cámara sube a la cima en 0,75 s, entra trofeo + «70» (13:33,25)",
+      "estilo": "vectorial plano, naranja/verde sobre crema, luchadores tipo emoji"
+    },
+    {
+      "tipo": "captura de YouTube de un vídeo antiguo",
+      "t": "14:00,8",
+      "duracion_s": 2.8,
+      "como_entra": "corte seco; el vídeo se reproduce dentro con un zoom lento y un corte interno a 14:01,6",
+      "estilo": "página clara de YouTube sobre fondo blanco, el vídeo ocupa ≈65 % del ancho"
+    },
+    {
+      "tipo": "contador de peso con icono",
+      "t": "14:47,3",
+      "duracion_s": "≈63",
+      "como_entra": "con el corte",
+      "estilo": "icono de mancuerna + cifra en cursiva, esquina inferior izquierda"
+    },
+    {
+      "tipo": "gag del globo + negro + destello rojo",
+      "t": "15:44,8",
+      "duracion_s": 3.8,
+      "como_entra": "sustitución en plano bloqueado (globo rojo 1,8 s), negro 0,6 s, primer plano recortado y tinte rojo de 0,4 s a 15:48,4",
+      "estilo": "efecto cómico, sin texto"
+    },
+    {
+      "tipo": "congelado con icono de pausa + ventana de YouTube",
+      "t": "20:17,5",
+      "duracion_s": 4.7,
+      "como_entra": "el plano se congela con un icono de pausa en el centro (0,5 s) y de ahí crece una ventana oscura de reproductor en ≈0,5 s",
+      "estilo": "interfaz oscura de YouTube flotando sobre el plano congelado"
+    },
+    {
+      "tipo": "captura de página de YouTube con sugerencias pixeladas",
+      "t": "20:25,7",
+      "duracion_s": 3.5,
+      "como_entra": "corte desde el mismo clip a pantalla completa (el clip pasa a verse dentro de la página)",
+      "estilo": "modo oscuro, columna de sugerencias desenfocada"
+    },
+    {
+      "tipo": "scroll de la rejilla de miniaturas y cabecera del canal",
+      "t": "20:40,2",
+      "duracion_s": 5.5,
+      "como_entra": "corte; scroll vertical rápido que termina en la cabecera del canal",
+      "estilo": "grabación de pantalla en modo oscuro"
+    },
+    {
+      "tipo": "pantalla final dibujada",
+      "t": "21:20,2",
+      "duracion_s": 9.7,
+      "como_entra": "corte seco",
+      "estilo": "Rubén dibujado a línea disfrazado de gallina, sostiene una flecha verde «mira este vídeo»; el dibujo vibra y la flecha salta a 21:26"
+    },
+    {
+      "tipo": "mapas animados",
+      "t": "—",
+      "duracion_s": 0,
+      "como_entra": "no hay ninguno en este vídeo (revisadas todas las hojas min_*)",
+      "estilo": "—"
+    }
+  ],
+  "musica": {
+    "tramos_resumen": "Entra en el segundo 0 y cubre el 80 % del vídeo en 26 tramos. Los largos: 1:14–2:28, 3:56–5:25, 5:45–8:29, 10:06–10:59, 11:08–12:57, 14:46–15:48 y 17:04–20:07. Sube claramente cuando no hay voz: 4:17–4:26 (−22,9 dB), 12:14–12:23 (−21,4 dB), pelea final 18:04–18:40 (≈−22 dB) frente a ≈−34 dB bajo la voz.",
+    "voz_menos_musica_db": "Mediana 9,9 dB (11,9 bajo voz en off; 11,5 en directo). Extremos: intro 14,5–23,9 dB (música muy baja bajo el busto); montajes 0–4,6 dB (3:56–5:25; 14:05–14:37).",
+    "cambia_por_secciones": "Sí. Cambios de pista detectados a 7:08, 7:22, 8:04, 8:18 y 13:20, y cada bloque narrativo tiene su tramo con parones entre medias (26 tramos separados por huecos de 3–57 s). El carácter de cada pista no se ha escuchado.",
+    "a_ritmo_de_cortes": "Solo en momentos concretos. Global: 32 % de los cortes en música caen en pulso y 15 % sobre un acento. Sí van a ritmo el arranque de la intro (acentos cada 0,39 s; cortes a 0:02,8, 0:03,3, 0:04,6 y 0:07,3 sobre acento), el montaje de arreglarse 11:35–11:51 (7 cortes seguidos sobre acento) y parte del montaje final 19:31–20:02 (7 cortes sobre acento).",
+    "silencios_intencionados": "Sí: 2:28–3:25 (explicación del shiko solo con ambiente del dojo), 3:36–3:39 (habla el entrenador), 3:49–3:57, 5:24–5:30, 9:00–9:46 (final de la comida), 11:03–11:07, 13:54–14:05, 14:38–14:46 y 16:02–16:09. Al revés, 1:16–1:30: 14 s sin voz, solo respiraciones y música, tras decir «lo único que se escuchaba eran respiraciones»."
+  },
+  "sfx": {
+    "por_minuto_estimado": "≈2–3 de media; ≈12 en el primer minuto y casi 0 en combates y directos. Estimación floja: los 26 acentos/min de audio.json son en su mayoría golpes de la música.",
+    "tipos": [
+      "golpe/whoosh al entrar tarjetas y gráficos",
+      "sello",
+      "clics de teclado de la tele",
+      "rasgado de papel",
+      "tic de contador",
+      "golpe al salir del negro"
+    ],
+    "donde": "Pegados a cada motion graphic y a los gags; nada en la conversación normal. Tipos deducidos de lo que se ve, no escuchados.",
+    "ejemplos_t": [
+      "0:04,7 (entra la tarjeta de cita)",
+      "0:16,4 (justo antes del sello «denegado»)",
+      "0:19,1–0:21,6 (6 acentos irregulares sobre el plano de la tele: tecleo)",
+      "0:55,7 y 1:00,6 (papel roto)",
+      "0:57,0 y 0:58,5 (golpes de la cabecera)",
+      "1:33,3–1:34,9 (5 acentos durante el contador de kilos)",
+      "1:38,9 («2 DÍAS»)",
+      "10:38,4 (entra la estampa)",
+      "15:47,3 (salida del negro del gag)"
+    ]
+  },
+  "subtitulos": {
+    "hay": true,
+    "cuando": "No hay subtítulos continuos; la voz en off y el directo limpio van sin texto. Se subtitula: (1) todo lo que dicen los luchadores y el entrenador en japonés o inglés, traducido al español (3:36, 5:08, 5:52–6:27, 7:30, 8:54, 9:38, 9:56–10:02, 11:10–11:35, 14:18–14:24, 15:50–15:58); (2) a Rubén cuando susurra o hay ruido (1:02–1:05 «justo están entrenando ahora / así que no podemos hablar»; 3:26; 3:42–3:46; 6:40–6:45; 7:06; 13:52–13:54 de noche en la calle; 18:58) y cuando él habla en inglés o japonés (5:06, 5:44–5:50, 11:10); (3) comentarios del editor.",
+    "estilo": "Una línea centrada abajo (línea base ≈93 % del alto), Arial/Arimo Bold, alto de mayúscula ≈4,3 % del alto, todo en minúsculas sin punto, halo negro difuso sin caja; frases de 2–6 palabras que cambian por corte seco cada 1–3 s. Blanco para Rubén y un color fijo por interlocutor dentro de cada escena (amarillo, verde menta, rosa, azul claro, naranja), de modo que se sabe quién habla sin poner nombres. Los clips de vídeos antiguos conservan sus propios subtítulos (20:22)."
+  },
+  "cierre": {
+    "como_acaba": "Reflexión en off de 105 s (19:14–20:59) que pasa de la anécdota a la moraleja y a su propia historia en YouTube, cortada por él mismo con humor («En fin, que no os quiero aburrir… conclusión, que el sumo no es lo mío. Mejor me quedo haciendo tortillas de patata») sobre planos de caídas y de la tortilla prometida a 5:44 (cierra ese hilo). Después, despedida de los luchadores en la puerta en un único plano de 15,9 s con sonido directo.",
+    "cta": "Solo al final y hablado en off (21:20–21:29): «Si te ha gustado este vídeo, mira este otro en el que voy a competir en las Olimpiadas del Barro de Japón. Creo que es de los vídeos más divertidos del canal y seguro que te gusta». No se oye ninguna petición de suscripción ni de 'me gusta' en la transcripción.",
+    "pantalla_final": "21:20,2–21:30 (9,7 s): fondo crema, dibujo a línea de Rubén disfrazado de gallina sosteniendo una flecha verde «mira este vídeo» que apunta al hueco de la izquierda (previsiblemente para la tarjeta del vídeo recomendado, que no sale en la copia). Mismo estilo gráfico que la cabecera; música baja (voz−música 18 dB)."
+  },
+  "para_copiar": [
+    "Empezar hablando en el fotograma 0 y meter el primer plano de archivo antes de 1,5 s; en los primeros 7 s, 5 planos y un rótulo.",
+    "Trocear el busto de la intro en frases de 1–5 s y cambiar algo en cada vuelta: rampa de +11 % en ≈1 s rematada con salto de +10/20 %, o un encuadre nuevo (sentado, abierto con sello, de pie con mochila).",
+    "Tráiler de la promesa: 14 planos a 1,2 s con la voz a cámara encima y un plano por verbo («dormiremos» = dormitorio, «comeremos» = comida); el último plano más largo (3 s) para respirar.",
+    "Rodar b-roll aposta para la intro que escenifique el chiste (buscar en la tele cómo enviar un fax) en vez de contarlo solo a cámara.",
+    "Cabecera de 5 s personalizada al tema, después del gancho (0:55) y no antes; entrar y salir con la misma transición.",
+    "Segundo mapa del vídeo justo después de la cabecera (1:36–1:57): hoja de ruta en off con 5 planos adelantados y un dato grande de 0,8 s.",
+    "Tres registros bien separados: off en pasado para contexto y saltos de tiempo (bloques de 5–35 s a ≈2,4 s/plano), directo en presente sin cubrir para la emoción, conversaciones con subtítulos.",
+    "Empezar la off 0,1–0,6 s antes del corte de imagen para coser escenas.",
+    "Subtítulos solo donde hacen falta (otro idioma, susurro, ruido), en minúsculas, una línea, y un color por interlocutor; añadir de vez en cuando un comentario del editor («se parten xd»).",
+    "Momentos fuertes en plano largo sin cortar (58 s de pelea) con la música ≈10 dB más alta y sin voz; el contraste con el montaje rápido es lo que les da peso.",
+    "Quitar la música a propósito en explicaciones con sonido ambiente potente (2:28–3:25).",
+    "Grafismos de un solo uso atados a una frase concreta: contador de kilos sobre las cabezas (2,2 s), flecha manuscrita trazada en 0,3 s, tarjetas con marco crema y giro de 3° que entran en 0,4 s, infografía de 10 s construida por pasos.",
+    "Recortar el mismo plano por corte para sacar un primer plano de reacción con un comentario flotante (1:35,4).",
+    "Contador persistente en la esquina que solo cambia en los cortes (50→100→120→140 kg) para que una escena repetitiva tenga progresión.",
+    "Separador de día mínimo: 4 s de negro y 2 s de rótulo blanco centrado, sin animación.",
+    "Cierre: recap a 2,3 s/plano bajo una moraleja en off, cortar la solemnidad con un chiste, cerrar un hilo abierto antes (la tortilla) y un único CTA hablado hacia otro vídeo sobre una pantalla final dibujada."
+  ],
+  "dudas": [
+    "Los efectos de sonido no se han escuchado: se deducen de los acentos de audio.json, que mezclan golpes de la música; el recuento por minuto y los tipos son una estimación floja.",
+    "El origen exacto de los planos de combate y de shiko del tráiler (0:34,4, 0:36,4, 0:37,2) es aproximado: hay muchos planos parecidos del dojo en los dos días.",
+    "Las fuentes son la más parecida a ojo; la manuscrita de la cabecera y de la pantalla final es dibujo propio, no tipografía.",
+    "Medidos en píxeles: subtítulo amarillo (caja de línea 959–1022 px a 3:36), «2 DÍAS», cifras del contador de kilos y «DÍA 2». El resto de tamaños (subtítulo blanco, comentarios, etiquetas, anchos de tarjetas) son estimaciones a ojo, ±0,5–1 % del alto.",
+    "medir_zoom no es fiable en los planos con cámara en mano o con el presentador desplazándose (0:14,7, 0:52,9, 6:02, 17:50, 21:04); marcado en cada medición. Los factores de recorte por corte (≈2,5×, ≈1,6×) son a ojo.",
+    "No se puede saber si la voz en off se grabó en estudio o con el mismo micro; el nivel es igual al del directo (−22 dB).",
+    "El número de bloques de off (21) depende de dónde se parte: la frontera entre off y directo se ha fijado por tiempo verbal y por lo que se ve en las hojas cada 2 s; ±2 bloques y ±5 % en los segundos.",
+    "No se ha comprobado si hay estabilización añadida ni corrección de color por escenas.",
+    "Qué suena durante los 6 s de negro de 16:42 no se ha podido determinar.",
+    "La tercera tarjeta de 10:41–10:44, el final exacto del contador de peso (≈15:50) y los colores de subtítulo de algunos interlocutores están vistos solo en hojas cada 2 s.",
+    "La copia no muestra los elementos interactivos de YouTube de la pantalla final, así que no se sabe qué tarjetas lleva."
+  ]
+}

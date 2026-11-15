@@ -1,0 +1,220 @@
+{
+ "video": {
+  "archivo": "refs/dinamicos/ruben-holgado/2025-12-16_ciudad-mas-fria-yakutia.mp4",
+  "creador": "Rubén Holgado",
+  "url": "https://www.youtube.com/watch?v=IZlB9E1scL4",
+  "titulo": "Fui a la Ciudad Más Fría del Mundo - Yakutia, Siberia",
+  "duracion": "26:12",
+  "publicado": "2025-12-16",
+  "tramo_analizado": "0:00–26:12 (entero)",
+  "copia": "1280x720, 29,97 fps"
+ },
+ "resumen": "Vlog de reto con estructura de videojuego: Rubén tiene que superar 5 pruebas de frío en Yakutsk y un «mapa de niveles» en pixel art (8 apariciones, 1,8–4,6 s) marca cada paso de prueba. Arranca con un tráiler de 27 s (18 planos, 1,5 s/plano) con música alta, un dato animado (nevera + «-50ºC / 4ºC») y dos planos de la serie siguiente; después una cabecera de dibujos animados de 3 s que entra y sale con un barrido de niebla azul. El cuerpo alterna hablar a cámara en directo con 14 tramos cortos de voz en off guionizada (≈13 % del vídeo) que hacen de puente entre pruebas, siempre sobre b-roll del propio viaje. El ritmo global es de 4,1 s/plano de media (mediana 2,6 s) y 14,5 cortes/min; baja a 2,2 s/plano en los experimentos y se estira hasta un plano de acción casi continuo de 124 s en el baño helado (clímax). El dinamismo sale de punch-ins por corte (×1,5 al hablar, ×2–×2,5 en el remate de un chiste) y no de zooms animados; los zooms lentos (0,6–1,1 %/s) solo se usan en timelapse y en tarjetas de dato. Los rótulos son pocos tipos muy coherentes: subtítulos de color por persona (blanco Rubén, magenta Roxana, amarillo los demás), píldoras azul claro con fuente manuscrita para cada experimento, temporizador de 7 segmentos, contador «CAPAS: n» y memes de una palabra en blanco con sombra. Lo que se dice en inglés (incluida la traducción de Roxana del ruso) se subtitula en español; lo que Rubén dice en español no. La música cubre el 75 % del metraje, unos 17 dB por debajo de la voz, y sube a 8–10 dB en intro, baño helado y cierre.",
+ "estructura": [
+  {"desde": "0:00", "hasta": "0:27", "parte": "Gancho + tráiler", "que_pasa": "Voz en off («Imagina que tu nevera está más caliente que la calle…») sobre 18 planos de lo que viene: nevera animada, agua hirviendo, plátano-martillo, carrera en calzoncillos, nariz congelada, baño helado; plantea la misión y se presenta («ha llegado un nuevo aldeano») con etiqueta «Ruben»."},
+  {"desde": "0:27", "hasta": "0:32", "parte": "Cabecera", "que_pasa": "Animación dibujada a mano «Las aventurillas de Rubén – Edición Siberia» (3 s de dibujo + 2 barridos de niebla azul de ≈1 s)."},
+  {"desde": "0:32", "hasta": "1:28", "parte": "Viaje y planteamiento", "que_pasa": "Moscú a 1º (móvil con el tiempo), 3 insertos de mapa de vuelo, llegada a −37º, gag de la mano roja, presentación de Roxana (etiqueta) y del mapa de niveles (1:24)."},
+  {"desde": "1:28", "hasta": "2:13", "parte": "Ropa por capas", "que_pasa": "Voz en off + timelapse con contador «CAPAS: 1…13»; a cámara explica la «misión secreta» (serie con esquimales)."},
+  {"desde": "2:13", "hasta": "5:34", "parte": "Prueba 1: mercado más frío", "que_pasa": "Voz en off de puente, charla con vendedoras (subtítulos), cata de «chorizo» congelado, pago con manos heladas, bolsa rota. Mapa de niveles 5:32 (nodo pez en verde)."},
+  {"desde": "5:34", "hasta": "9:08", "parte": "Explicativo ciudad + casa", "que_pasa": "Permafrost (tarjeta dibujada 6:00), tuberías, coches con funda (captura de chat 7:01), alfombras, doble puerta; piso del amigo y cata (subtitulada). Mapa 9:06."},
+  {"desde": "9:08", "hasta": "12:46", "parte": "Prueba 2: una hora a la intemperie", "que_pasa": "Temporizador 59:59→05:08 y 5 experimentos con etiqueta propia (noodles, globo, café, huevo, pompas) + fruta como martillo. Ritmo más alto del vídeo (10:00–11:00: 26 planos)."},
+  {"desde": "12:46", "hasta": "15:10", "parte": "Interludio: carrera más fría", "que_pasa": "Corredores de 50–78 años, voz en off sobre frostbite con tarjeta «frosbite» y 2 clips de archivo. Mapa 15:07."},
+  {"desde": "15:10", "hasta": "17:07", "parte": "Prueba 3: cueva de permafrost", "que_pasa": "Presentación a cámara, recorrido con luces de colores, montaje sin voz de 20 s con tobogán de hielo (16:22–16:41, solo música). Voz en off anuncia las dos pruebas duras. Mapa 17:04."},
+  {"desde": "17:07", "hasta": "21:10", "parte": "Prueba 4 (clímax): baño helado", "que_pasa": "Preparación, carrera en calzoncillos (música a −16 dB), inmersión con cronómetro 00:00–00:37 (18:13–18:50), salida narrada en off, vuelta a la cabaña, reacción en caliente, gag de la chancla y de los calzoncillos congelados. Mapa 19:32."},
+  {"desde": "21:10", "hasta": "24:46", "parte": "Prueba 5: el trabajo más frío", "que_pasa": "Cortar hielo bajo barcos con la única mujer del oficio (entrevista con Roxana traduciendo, subtítulos magenta), ASMR del pico, reflexión a cámara. Mapa final 24:44."},
+  {"desde": "24:46", "hasta": "26:12", "parte": "Cierre", "que_pasa": "Roxana le ve la nariz congelada, corre a un sitio caliente (música sola 25:19–25:32), despedida corriendo cámara en mano y pantalla final blanca de 10 s."}
+ ],
+ "ritmo": {
+  "s_por_plano": {
+   "global": "media 4,14 / mediana 2,64 (380 planos, 14,5 cortes/min; 8 % <1 s, 21 % >5 s)",
+   "intro_0_60s": "media 2,06 / mediana 1,33 (33 planos)",
+   "trailer_0_27s": "≈1,5 (18 planos; 2 cortes blanco sobre blanco en 0:08.9 y 0:15.3 que el detector no ve)",
+   "desarrollo_hablado": "3,0–4,1 de media por minuto (mediana 2,1–3,0)",
+   "experimentos_10:00_11:00": "media 2,17 / mediana 1,7 (26 planos, 31 % <1 s)",
+   "corredores_14:00_15:00": "media 2,59, ningún plano >5 s",
+   "climax_bano_17:27_19:31": "bloque de 124 s que el detector da como un solo plano: cámara de acción en mano casi continua, con al menos 3 cortes ocultos por blanco/barrido (17:32.9, 19:08.9 y 19:10.3)",
+   "cierre_24:00_26:12": "7,2 y luego 17,7 (planos de 21–29 s)"
+  },
+  "jump_cuts": "Constantes al hablar a cámara, pero casi nunca «pelados»: se disimulan cambiando de escala (punch-in ×1,5 durante 1,2–1,4 s y vuelta) o con un inserto de 1–1,5 s. Ejemplos medidos: 0:51.78 (×1,53) → 0:53.12 (vuelta ×0,67); 1:12.31 (×1,50); 5:55.72 (×1,50) → 5:57.02 (×0,667). Jump cut pelado con encuadre casi igual: 1:13.6 (escala 0,99), varios en 6:04–6:14 y 20:02–20:20.",
+  "j_l_cuts": "Micro J-cuts de 0,1–0,3 s casi sistemáticos: la primera palabra de la frase siguiente empieza antes del corte (0:48.78 «Ya» 0,1 s antes; 5:32.17 «Y con la primera prueba…» arranca 0,15 s antes de entrar el mapa y sigue encima; 9:01.74 «Un ratito»; 14:05.78 «Me sorprendió»; 16:44.44 «Estamos»). L-cut largo: en 18:46–19:31 el sonido directo de la salida del agua sigue por debajo de la voz en off. No hay J/L largos de entrevista.",
+  "match_cuts": "Pocos. 0:22.39→0:22.9: del plano medio al general con barrido/zoom borroso de 0,1–0,2 s (×1,75) que aterriza en la etiqueta «Ruben». 19:08.6–19:10.4: barrido de cámara a otro bañista y vuelta (2 whip pans encadenados). Raccord de acción en la carrera 17:27→17:33."
+ },
+ "intro": {
+  "cold_open": "Sí: empieza en 0:00.0 con primerísimo plano de las pestañas heladas (1,77 s) y la voz en off entra en 0:01.5. Sin logo ni saludo; el saludo («Empieza la aventurilla») llega en 0:25.6.",
+  "recap": {
+   "existe": true,
+   "desde": "0:00",
+   "hasta": "0:27",
+   "n_planos": 18,
+   "s_por_plano": 1.5,
+   "de_donde_salen": [
+    {"t": "0:00.0–0:01.8", "plano": "primerísimo plano de pestañas heladas", "origen": "mismo set que 1:23.7 (calle de Yakutsk)"},
+    {"t": "0:01.8–0:03.8", "plano": "general con mamut + nevera animada y «-50ºC / 4ºC»", "origen": "set del minuto 9:08–9:22"},
+    {"t": "0:03.8–0:05.1", "plano": "lanza agua hirviendo al aire", "origen": "12:16"},
+    {"t": "0:05.1–0:06.9", "plano": "clava un clavo con un plátano (2 planos)", "origen": "11:04–11:08"},
+    {"t": "0:06.9–0:08.9", "plano": "corre en calzoncillos por el lago", "origen": "17:28 / 19:12"},
+    {"t": "0:08.9–0:09.8", "plano": "puerto con chimeneas", "origen": "21:16"},
+    {"t": "0:09.8–0:11.0", "plano": "cara con foco (viñeta oscura) sobre la nariz roja", "origen": "25:06–25:08"},
+    {"t": "0:11.0–0:13.1", "plano": "primer plano + subtítulo magenta «tu nariz tiene frosbite»", "origen": "25:02–25:04; la música se corta 1 s aquí"},
+    {"t": "0:13.1–0:15.3", "plano": "POV en trineo", "origen": "no es de este vídeo: serie siguiente con esquimales"},
+    {"t": "0:15.3–0:17.4", "plano": "tienda (chum) y trineos", "origen": "no es de este vídeo: serie siguiente"},
+    {"t": "0:17.4–0:18.8", "plano": "entra al agujero de hielo", "origen": "18:10"},
+    {"t": "0:18.8–0:19.9", "plano": "corredor con dorsal 3647 y cara helada", "origen": "14:14 / 14:28"},
+    {"t": "0:19.9–0:21.1", "plano": "sentado en un banco (zoom rápido 9,6 %/s)", "origen": "16:50"},
+    {"t": "0:21.1–0:26.9", "plano": "4 planos de presentación a cámara (medio, general con etiqueta «Ruben», primer plano, medio)", "origen": "rodados para la intro"}
+   ],
+   "frase": "«Imagina que tu nevera está más caliente que la calle o que del frío que hace puedes utilizar un plátano como martillo. Quizás no ha sido muy buena idea venir a la ciudad más fría del mundo en la época más fría del año. Pero tengo una misión en unos días para la que necesito aprender a soportar el frío extremo. Aquí las temperaturas llegan a menos 70 grados, el sol nunca se ve y, por si no fuera suficiente, ha llegado un nuevo aldeano muy poco preparado a la ciudad. Empieza la aventurilla.»"
+  },
+  "titulo_cabecera": "0:26.9–0:32.0. Barrido de manchas de niebla azul (≈#5E9BC0) que entra desde arriba-izquierda y tapa el plano en 0,4 s (0:26.9–0:27.3), aguanta azul 0,6 s y se disuelve sobre una animación dibujada a mano (0:28.0–0:31.0): Rubén en dibujo se congela, le salen carámbanos, cae de bruces en la nieve y levanta una bellota con el texto «EDICIÓN SIBERIA». Sin título tipográfico: el nombre del programa solo se oye («Las aventurillas de Rubén… Edición Siberia», 0:27.6 y 0:30.4). Sale con el mismo barrido azul (0:31.0–0:32.0) hacia el primer plano de Moscú. El título del vídeo no aparece escrito.",
+  "motion_graphics": "Nevera roja recortada que aparece pixelada sobre Rubén y se asienta con chispas (0:02.4–0:02.7), datos «-50ºC» y «4ºC» con pop en 0:03.2, foco/viñeta sobre la nariz (0:09.8), subtítulo magenta (0:11.0), etiqueta «Ruben» (0:23.0), cabecera dibujada (0:27–0:32), 3 insertos de mapa de vuelo (0:43–0:49).",
+  "musica_entra_s": 0,
+  "linea_de_tiempo": [
+   {"t": "0:00.0", "que": "Música ya sonando (−22 dB, solo 3–5 dB bajo la voz). Primerísimo plano con zoom lento de entrada (+4 % en 1,6 s; cámara en mano, cifra orientativa)."},
+   {"t": "0:01.5", "que": "Entra la voz en off."},
+   {"t": "0:02.4", "que": "La nevera roja sustituye a Rubén (mosaico de 0,1 s → nevera con partículas); micro punch-in del plano entero +5 % en 0:02.5."},
+   {"t": "0:03.2", "que": "Pop simultáneo de «-50ºC» (cian, sobre el mamut) y «4ºC» (blanco, sobre la nevera); 0,6 s en pantalla."},
+   {"t": "0:03.8–0:09.8", "que": "5 planos de acción a 0,5–2,0 s; acentos de sonido en los cortes 3.84, 5.11 y 6.44."},
+   {"t": "0:09.8", "que": "Foco sobre la nariz; 0:11.0 subtítulo magenta; en 0:12 la música cae a −47 dB durante 1 s."},
+   {"t": "0:13.1–0:17.4", "que": "2 planos de la serie siguiente (2,2 s cada uno); la música vuelve más baja (−27 dB)."},
+   {"t": "0:17.4–0:22.4", "que": "4 planos a 1,2–1,3 s (baño, corredor, banco, medio)."},
+   {"t": "0:22.9", "que": "Barrido borroso + punch ×1,75 y etiqueta «Ruben» (0:23.0–0:24.4)."},
+   {"t": "0:25.6", "que": "«Empieza la aventurilla» a cámara; 0:26.9 barrido azul."},
+   {"t": "0:28.0–0:31.0", "que": "Cabecera dibujada con sintonía; música a −30/−35 dB."},
+   {"t": "0:32.0", "que": "Moscú, hablando a cámara; 0:34.7 inserto del móvil con «1º» (1,2 s)."},
+   {"t": "0:42–0:49", "que": "Avión y mapa alternos: 3 insertos de mapa de 1,1–1,3 s (0:43.0, 0:45.5, 0:47.6) sin voz, música sola a −27 dB."},
+   {"t": "0:48.8", "que": "Llegada a Yakutsk: general → 0:51.8 punch ×1,53 → 0:53.1 vuelta; en 0:50 la música desaparece y queda sonido directo."},
+   {"t": "0:56–1:05", "que": "Enseña el móvil (−37º) y gag de quitarse el guante: 12,6 s sin corte y sin música."}
+  ]
+ },
+ "broll": {
+  "proporcion_sobre_voz": "≈20–25 % del tiempo con voz (estimado a ojo en las hojas): casi el 100 % de la voz en off va sobre b-roll (≈3,3 min) y los tramos a cámara reciben insertos sueltos de 1–3 s.",
+  "origenes": {
+   "mismo_video": "≈90 %: planos del propio rodaje (detalles del mercado, bajos de los edificios 5:50 y 6:16, coches 5:42, tortilla 8:16) y adelantos de pruebas futuras en la voz en off de 16:48–17:00 (barco, baño).",
+   "recursos": "≈8 %: gráficos hechos para el vídeo (mapa de niveles, permafrost, mapa de vuelo, nevera) y 2 planos de la serie siguiente en la intro.",
+   "stock_archivo": "≈2 %: infografía de manos con grados de congelación (14:22), 2 clips de archivo de personas con congelaciones (14:25.8–14:27.3, 0,8 y 0,7 s) y foto recortada de Jon Nieve (1:28.3, 0,5 s)."
+  },
+  "duracion_tipica_s": "1,0–3,0 (insertos); 2–4 en voz en off",
+  "vuelta_a_camara": "Siempre por corte seco, normalmente a un encuadre distinto del que se dejó (más cerrado ×1,5 o desde otro ángulo). Tras una voz en off se vuelve al directo con una frase corta en sonido ambiente («Me estoy congelando», «¡Qué locura!»).",
+  "ejemplos": [
+   {"t": "0:34.7", "que": "móvil con el tiempo (1,2 s) al decir «estamos a un grado»"},
+   {"t": "2:16–2:24", "que": "4 planos del mercado (≈2 s cada uno) sobre voz en off"},
+   {"t": "5:50 y 6:16", "que": "bajos del edificio sobre pilares (2 s) al explicar el permafrost"},
+   {"t": "6:40", "que": "interior de los bajos al hablar de personas sin hogar"},
+   {"t": "14:08–14:30", "que": "caras heladas de corredores + tarjeta y archivo sobre la voz en off de frostbite"},
+   {"t": "16:48–17:00", "que": "adelanto de barco y baño al anunciar las dos últimas pruebas"}
+  ]
+ },
+ "voz_en_off": {
+  "uso": "14 tramos, ≈3,3 min (≈13 % del vídeo): gancho 0:01–0:25; 1:28–1:47; 2:13–2:24; 2:37–2:46; 5:31–5:44; 8:02–8:20; 12:44–12:52; 14:05–14:30; 14:58–15:08; 16:48–17:00; 17:32–17:41; 18:46–19:31; 21:10–21:22; 22:51–23:01. Función: puente entre pruebas (resume la anterior y anuncia la siguiente), contexto/datos y relato en pasado del momento más intenso (salida del agua).",
+  "guion": "En pasado y en primera persona, frases cortas con remate («Roxana sabe cómo sobrevivir al frío. Yo no.»), fórmula fija de transición («Y con la primera prueba superada… nos fuimos a…») y cuenta de lo que queda («aún quedaban las dos más duras»). En el clímax pasa a instrucciones encadenadas («Tienes que cubrirte la cabeza… No puedes tocar el suelo… has de entrar a un sitio caliente») sobre la acción.",
+  "mezcla": "Voz en off más limpia y cercana que el directo, a −15/−20 dB; música 15–20 dB por debajo en los puentes y solo 8 dB en el baño helado. En 18:46–19:31 el sonido directo (gritos, pasos) sigue audible bajo la narración."
+ },
+ "transiciones": [
+  {"tipo": "corte seco", "veces": "≈370 de 380", "donde": "todo el vídeo, incluida la entrada y salida de todos los gráficos", "ejemplos_t": ["0:03.84", "1:24.18", "5:59.86"]},
+  {"tipo": "barrido de niebla azul (wipe orgánico)", "veces": 2, "donde": "entrada y salida de la cabecera", "ejemplos_t": ["0:26.9–0:28.1", "0:31.0–0:32.0"]},
+  {"tipo": "barrido borroso / whip con zoom", "veces": "4", "donde": "intro (a la etiqueta «Ruben»), salto dentro del mapa de niveles a Jon Nieve y baño helado", "ejemplos_t": ["0:22.9", "1:28.1", "19:08.8", "19:10.3"]},
+  {"tipo": "punch-in por corte (misma toma, otra escala)", "veces": "≈25–30 (estimado)", "donde": "hablando a cámara y remates de chiste", "ejemplos_t": ["0:51.78", "1:12.31", "1:23.7", "1:31.0", "5:55.72", "7:04.9"]},
+  {"tipo": "destello rojo de 2 fotogramas", "veces": 3, "donde": "experimento de la fruta", "ejemplos_t": ["11:25.27", "11:26.97", "11:27.90"]},
+  {"tipo": "fundidos", "veces": 0, "donde": "no hay fundidos a negro ni encadenados; la pantalla final entra por corte", "ejemplos_t": []}
+ ],
+ "zooms": {
+  "mediciones": [
+   {"t": "0:00.05–0:01.7", "escala": 1.041, "duracion_s": 1.6, "tipo": "zoom lento de entrada 2,6 %/s (primer plano en mano: orientativo)"},
+   {"t": "0:02.5", "escala": 1.05, "duracion_s": 0.1, "tipo": "micro punch-in al caer la nevera (plano fijo, fiable)"},
+   {"t": "0:20.0–0:21.05", "escala": 1.096, "duracion_s": 1.0, "tipo": "zoom rápido de edición 9,6 %/s sobre plano fijo en el banco (fiable)"},
+   {"t": "0:22.7→0:23.1", "escala": 1.75, "duracion_s": 0.2, "tipo": "punch-in con desenfoque de movimiento hacia la etiqueta «Ruben»"},
+   {"t": "0:51.6→0:51.95", "escala": 1.527, "duracion_s": 0, "tipo": "punch-in por corte al hablar; vuelve en 0:53.12 (×0,668)"},
+   {"t": "1:12.2→1:12.45", "escala": 1.497, "duracion_s": 0, "tipo": "punch-in por corte al hablar"},
+   {"t": "1:23.55→1:23.8", "escala": 1.991, "duracion_s": 0, "tipo": "punch-in ×2 de remate con el texto «yo no»"},
+   {"t": "1:30.9→1:31.1", "escala": 1.998, "duracion_s": 0, "tipo": "punch-in ×2 a la risa (41 puntos coincidentes: fiable a ±5 %)"},
+   {"t": "1:32.3–1:47.3", "escala": 1.095, "duracion_s": 14.9, "tipo": "zoom lento continuo 0,64 %/s sobre timelapse en trípode (fiable)"},
+   {"t": "2:00.0–2:09.4", "escala": 1.004, "duracion_s": 9.3, "tipo": "fijo: hablando a cámara en trípode sin zoom añadido"},
+   {"t": "5:55.6→5:55.85", "escala": 1.5, "duracion_s": 0, "tipo": "punch-in por corte (629 puntos: muy fiable); vuelta ×0,667 en 5:57.02"},
+   {"t": "5:59.95–6:04.1", "escala": 1.036, "duracion_s": 4.1, "tipo": "zoom lento 0,87 %/s en la tarjeta «permafrost»"},
+   {"t": "6:04.3–6:15.4", "escala": 1.005, "duracion_s": 11.0, "tipo": "fijo (a cámara, trípode)"},
+   {"t": "7:04.9→7:05.2", "escala": 2.5, "duracion_s": 0, "tipo": "punch-in ×2,5 al inciso «me he liado, sí xd» (0,7 s) y vuelta"},
+   {"t": "14:22.5–14:25.6", "escala": 1.033, "duracion_s": 3.0, "tipo": "zoom lento 1,09 %/s en la tarjeta «frosbite»"},
+   {"t": "20:02–20:21.6", "escala": 0.975, "duracion_s": 19.5, "tipo": "cámara en mano apoyada: la cifra es movimiento real, no zoom de edición"},
+   {"t": "24:02.4–24:18.6", "escala": 1.008, "duracion_s": 16.1, "tipo": "fijo (reflexión a cámara en trípode, 16 s sin corte ni zoom)"},
+   {"t": "21:47.9→21:48.2 y 22:38.1→22:38.4", "escala": "≈3–4", "duracion_s": 0, "tipo": "punch-in muy fuerte a la cara para «jeje» y «?»: medida poco fiable (11 y 24 puntos coincidentes)"}
+  ],
+  "patron": "No hay zooms animados con keyframes al hablar: el dinamismo es punch-in por corte. Tres escalas fijas: ×1,5 (énfasis normal, dura 1,2–1,4 s y vuelve), ×2 (remate de chiste, 0,5–1,1 s, casi siempre con texto encima) y ×2,5–×4 (reacción absurda). Zoom lento solo en material estático: timelapse (0,64 %/s) y tarjetas de dato (0,9–1,1 %/s). Los planos largos a cámara en trípode se dejan completamente fijos. Sin cámara virtual ni estabilización apreciable; hay mucha cámara en mano gran angular y ahí medir_zoom no distingue edición de movimiento real."
+ },
+ "tipografia": [
+  {"tipo": "Dato grande (temperaturas)", "fuente_parecida_google": "Inter / Arimo (grotesca tipo Helvetica)", "peso": "Bold", "tamano_rel": "≈0,105 (altura de cifra / alto de pantalla)", "posicion": "sobre cada objeto: «-50ºC» arriba-izquierda sobre el mamut, «4ºC» arriba-centro-derecha sobre la nevera", "color": "cian ≈#4FC3E8 y blanco", "borde_sombra": "sombra negra dura desplazada abajo-derecha, sin contorno", "entrada": "pop en 1–2 fotogramas, los dos a la vez (0:03.2)", "salida": "con el corte", "duracion_s": 0.6, "ejemplos_t": ["0:03.2"], "recorte": "refs/dinamicos/_analisis/2025-12-16_ciudad-mas-fria-yakutia/rotulos/dato_temperaturas_0m03.jpg"},
+  {"tipo": "Etiqueta de nombre (estilo videojuego)", "fuente_parecida_google": "Pixelify Sans / VT323", "peso": "Regular", "tamano_rel": "≈0,022", "posicion": "flotando encima de la cabeza de la persona", "color": "blanco sobre caja gris semitransparente", "borde_sombra": "caja gris ≈50 % de opacidad, sin sombra", "entrada": "aparece al terminar el barrido o con el corte", "salida": "con el corte", "duracion_s": "1,4–2", "ejemplos_t": ["0:23.0 «Ruben»", "1:17.4 «Roxana»", "3:36 «Amigo de Roxana»"], "recorte": "refs/dinamicos/_analisis/2025-12-16_ciudad-mas-fria-yakutia/rotulos/nametag_ruben_0m23.jpg"},
+  {"tipo": "Subtítulo de traducción", "fuente_parecida_google": "Arimo (Arial) Bold", "peso": "Bold", "tamano_rel": "≈0,036 (altura de ascendente); una sola línea", "posicion": "centrado abajo, línea base ≈0,91 del alto", "color": "blanco (Rubén en inglés), magenta ≈#E020E0 (Roxana), amarillo ≈#F5F000 (amigo, vendedoras, bañistas), cian-verde (corredor 14:52)", "borde_sombra": "contorno negro fino + sombra negra difusa", "entrada": "corte (sin animación), frase entera", "salida": "corte", "duracion_s": "1–4", "ejemplos_t": ["1:17.5", "1:19.8", "2:46", "3:36–3:46", "4:00–4:36", "7:52–7:58", "20:22", "22:02–22:50", "24:34–25:15"], "recorte": "refs/dinamicos/_analisis/2025-12-16_ciudad-mas-fria-yakutia/rotulos/sub_magenta_roxana_1m20.jpg"},
+  {"tipo": "Meme / comentario de una palabra", "fuente_parecida_google": "Arimo Bold", "peso": "Bold", "tamano_rel": "0,06 («yo no»), 0,11 («jeje»), 0,04 («le gustó :)»)", "posicion": "pegado a la cara o al gorro del sujeto tras el punch-in", "color": "blanco", "borde_sombra": "sombra negra difusa fuerte, sin contorno", "entrada": "aparece en el mismo fotograma que el punch-in", "salida": "con el corte", "duracion_s": "0,5–1,5", "ejemplos_t": ["1:23.7 «yo no»", "9:00 «le gustó :)»", "21:48.1 «jeje»", "22:38.3 «?»"], "recorte": "refs/dinamicos/_analisis/2025-12-16_ciudad-mas-fria-yakutia/rotulos/meme_yo_no_1m23.jpg"},
+  {"tipo": "Contador «CAPAS: n»", "fuente_parecida_google": "Gaegu / Patrick Hand (manuscrita fina en mayúsculas)", "peso": "Regular", "tamano_rel": "≈0,053", "posicion": "arriba-izquierda (x 0,02, y 0,05)", "color": "blanco", "borde_sombra": "sombra negra desplazada", "entrada": "con el corte (1:32.1)", "salida": "con el corte (1:47.4)", "duracion_s": 15, "ejemplos_t": ["1:32–1:47 (1→13, sube 1 cada ≈1,2 s)"], "recorte": "refs/dinamicos/_analisis/2025-12-16_ciudad-mas-fria-yakutia/rotulos/contador_capas_1m32.jpg"},
+  {"tipo": "Etiqueta de experimento (píldora)", "fuente_parecida_google": "Patrick Hand / Gaegu en mayúsculas", "peso": "Regular", "tamano_rel": "texto ≈0,033; píldora ≈0,26 de ancho × 0,13 de alto", "posicion": "arriba-izquierda (x 0,03, y 0,05)", "color": "texto negro sobre píldora azul claro ≈#BFE6F2 de esquinas muy redondeadas + emoji a la derecha", "borde_sombra": "sin borde ni sombra", "entrada": "la píldora aparece con el corte y el texto se escribe letra a letra en ≈0,4 s; el emoji llega al final", "salida": "con el corte", "duracion_s": "2,5–3", "ejemplos_t": ["9:27.7 «NOODLES HELADOS» + cuenco", "10:03.5 «EL GLOBO» + globo", "10:18.5 «EL CAFE» + taza", "10:35 «EL HUEVO VOLADOR» + sartén", "12:21.5 «POMPAS MAGICAS» + burbujas"], "recorte": "refs/dinamicos/_analisis/2025-12-16_ciudad-mas-fria-yakutia/rotulos/etiqueta_experimento_9m29.jpg"},
+  {"tipo": "Temporizador de la hora", "fuente_parecida_google": "Orbitron / Share Tech Mono (es de 7 segmentos tipo DSEG7, que no está en Google Fonts)", "peso": "Bold", "tamano_rel": "dígitos ≈0,055; píldora ≈0,19 × 0,11", "posicion": "abajo-izquierda (x 0,03, y 0,82)", "color": "dígitos gris muy oscuro sobre la misma píldora azul claro", "borde_sombra": "ninguno", "entrada": "fundido de ≈0,2 s (9:24.4)", "salida": "fundido de ≈0,3 s", "duracion_s": "2–3 por aparición, cruza cortes", "ejemplos_t": ["9:24.4 (59:59)", "9:38 (54:32)", "10:44 (45:14)", "11:08 (30:00)", "12:10 (14:34)", "12:40 (05:10)"], "recorte": "refs/dinamicos/_analisis/2025-12-16_ciudad-mas-fria-yakutia/rotulos/temporizador_9m24.jpg"},
+  {"tipo": "Cronómetro del baño", "fuente_parecida_google": "Orbitron / Share Tech Mono (7 segmentos)", "peso": "Bold", "tamano_rel": "≈0,05", "posicion": "centrado abajo (y 0,88)", "color": "blanco", "borde_sombra": "sombra negra suave, sin caja", "entrada": "sube desde el borde inferior en ≈0,2 s (18:12.8)", "salida": "desaparece al salir del agua (18:50)", "duracion_s": 37, "ejemplos_t": ["18:13–18:50 (00:00→00:37)"], "recorte": "refs/dinamicos/_analisis/2025-12-16_ciudad-mas-fria-yakutia/rotulos/cronometro_bano_18m14.jpg"},
+  {"tipo": "Tarjeta de dato en blanco", "fuente_parecida_google": "Inter / Arimo Bold", "peso": "Bold", "tamano_rel": "«permafrost» ≈0,05; «frosbite» ≈0,09", "posicion": "pantalla completa blanca; texto arriba-izquierda (permafrost) o centrado abajo (frosbite)", "color": "negro sobre blanco", "borde_sombra": "ninguno", "entrada": "corte seco", "salida": "corte seco", "duracion_s": "3,4–4,3", "ejemplos_t": ["5:59.9–6:04.2", "14:22.4–14:25.8"], "recorte": "refs/dinamicos/_analisis/2025-12-16_ciudad-mas-fria-yakutia/rotulos/permafrost_6m00.jpg"},
+  {"tipo": "Rotulado manuscrito «ASMR» con destellos", "fuente_parecida_google": "Gaegu / Patrick Hand", "peso": "Regular", "tamano_rel": "≈0,12", "posicion": "centro", "color": "blanco con emoji de destellos", "borde_sombra": "sombra suave", "entrada": "con el corte", "salida": "con el corte", "duracion_s": "≈2", "ejemplos_t": ["23:16"], "recorte": "refs/dinamicos/_analisis/2025-12-16_ciudad-mas-fria-yakutia/rotulos/asmr_23m16.jpg"},
+  {"tipo": "Pantalla final", "fuente_parecida_google": "Arimo / Inter Bold", "peso": "Bold", "tamano_rel": "titular ≈0,045; secundarios ≈0,02", "posicion": "arriba-derecha, sobre el hueco del vídeo sugerido", "color": "negro sobre blanco", "borde_sombra": "ninguno; flecha fina dibujada a mano", "entrada": "corte; la línea «mañana a las 20:00h» con bandera aparece 0,4 s después", "salida": "fin del vídeo", "duracion_s": 9.6, "ejemplos_t": ["26:02.5"], "recorte": "refs/dinamicos/_analisis/2025-12-16_ciudad-mas-fria-yakutia/rotulos/pantalla_final_26m04.jpg"}
+ ],
+ "motion_graphics": [
+  {"tipo": "Mapa de niveles (pixel art)", "t": "1:24.2 (4,6 s), 5:32.2 (1,9 s), 9:06.6 (2,4 s), 15:07.6 (2,8 s), 17:04.2 (3,4 s), 19:31.8 (2,3 s), 21:09.6 (2,8 s), 24:44.6 (1,8 s)", "duracion_s": "1,8–4,6 (8 veces, 22 s en total)", "como_entra": "Corte seco a pantalla completa. El nodo recién superado parpadea en verde 0,3 s y el avatar queda en su posición nueva. La primera vez acaba con zoom rápido (0,2 s) a una foto recortada de Jon Nieve (1:28.3–1:28.8). Sale por corte.", "estilo": "Fondo azul ≈#1F86B8 con copos cayendo; 5 nodos circulares dentados azul claro unidos por un camino (pez = mercado, reloj de arena = 1 h a la intemperie, bloque de hielo = cueva, cuarto icono = baño, picos cruzados más grandes = prueba final) y avatar: cabeza de Rubén con gorro, pixelada. Siempre lleva voz encima (off o directo). Recorte: rotulos/mapa_niveles_1m25.jpg"},
+  {"tipo": "Mapa de vuelo", "t": "0:43.0–0:44.3, 0:45.5–0:46.6, 0:47.6–0:48.8", "duracion_s": "1,1–1,3 cada uno (3 insertos alternados con planos en el avión de 1,1–1,3 s)", "como_entra": "corte seco; el avión avanza de forma continua de un inserto al siguiente (de la zona de Krasnoyarsk hacia Yakutsk)", "estilo": "Mapa plano tipo Apple Maps (verde claro, agua azul), icono fotográfico de avión de perfil con una etiqueta negra diminuta; sin línea de ruta ni nombres añadidos. Sin voz, solo música. Recorte: rotulos/mapa_vuelo_0m43.jpg"},
+  {"tipo": "Objeto recortado + dato", "t": "0:02.4–0:03.8", "duracion_s": 1.4, "como_entra": "mosaico de píxeles de 0,1 s sobre Rubén → nevera roja con partículas; los dos datos hacen pop 0,7 s después", "estilo": "PNG fotográfico de nevera retro roja, del tamaño de la persona a la que sustituye"},
+  {"tipo": "Foco / viñeta de atención", "t": "0:09.8–0:11.0 (nariz), 2:44.6–2:45.8 (zapatos)", "duracion_s": 1.2, "como_entra": "con el corte; todo el cuadro se oscurece ≈80 % salvo un óvalo de borde difuso", "estilo": "máscara ovalada suave, sin flecha. Recorte: rotulos/foco_zapatos_2m45.jpg"},
+  {"tipo": "Tarjeta ilustrada de dato", "t": "5:59.9–6:04.2 (permafrost), 14:22.4–14:25.8 (frosbite)", "duracion_s": "3,4–4,3", "como_entra": "corte seco a fondo blanco con zoom lento de 0,9–1,1 %/s", "estilo": "ilustración de corte del terreno (casas, tierra, hielo con una ardilla) + flecha roja gruesa + palabra en negrita; la de frostbite usa una infografía de 4 manos. Recortes: rotulos/permafrost_6m00.jpg y rotulos/frosbite_14m22.jpg"},
+  {"tipo": "Captura de pantalla como fuente", "t": "7:01.5–7:04.9 (respuesta de chat «Fundas especializadas para −40 ºC / −50 ºC… 150–300 €»), 19:53.7–19:55.2 (tarjeta de canal «roberto holgado · 766 K suscriptores»)", "duracion_s": "1,5–3,4", "como_entra": "aparece por corte sobre el vídeo, sin animación", "estilo": "barra negra abajo (≈0,8 del ancho, 0,08 del alto) o píldora negra centrada; corrige un dato dicho mal o hace un chiste interno. Recortes: rotulos/captura_chat_7m02.jpg y rotulos/tarjeta_canal_19m54.jpg"},
+  {"tipo": "Contadores", "t": "CAPAS 1:32–1:47; temporizador 9:24–12:42 (6 apariciones); cronómetro 18:13–18:50", "duracion_s": "15 / 2–3 por aparición / 37", "como_entra": "ver tipografía", "estilo": "el temporizador no está fijo: asoma unos segundos cada 1–3 min para recordar el reto"},
+  {"tipo": "Emojis", "t": "9:27, 10:04, 10:20, 10:36, 12:22 (dentro de las píldoras), 23:16 (destellos), 26:03 (bandera)", "duracion_s": "2–3", "como_entra": "junto al texto", "estilo": "emojis de Apple a color; no hay flechas animadas sueltas salvo la roja del permafrost y la dibujada de la pantalla final"},
+  {"tipo": "Destello de color", "t": "11:25.27, 11:26.97, 11:27.90", "duracion_s": 0.07, "como_entra": "2 fotogramas teñidos de rojo", "estilo": "tinte rojo a pantalla completa"}
+ ],
+ "musica": {
+  "tramos_resumen": "28 tramos detectados, 75 % del vídeo con música; suena desde 0:00. Tramos largos: 0:00–1:00, 1:33–3:00, 7:39–9:02, 9:42–16:20 casi continuo, 17:11–19:52 (baño), 22:21–24:02, 25:10–26:12. Huecos sin música: 1:00–1:07 (gag de la mano), 3:00–3:21, 4:16–4:38, 5:33–6:33 (explicación del permafrost), 6:38–7:25, 16:44–17:11, 20:28–21:08, 24:02–24:57.",
+  "voz_menos_musica_db": "mediana 16,9; 10,9 en la intro (3–5 en los primeros 12 s); 8,4 en el baño helado; 9,7 en el cierre; 20–26 en tramos hablados tranquilos",
+  "cambia_por_secciones": "Sí: pista distinta por bloque y cambios detectados en 5:12/5:26 (bolsa rota → puente) y 23:16/23:30 (ASMR). Sube sin voz en los montajes: cueva 16:22–16:41 (−30 dB), carrera al agujero 17:27–17:32 (−16 dB, el pico del vídeo), huida final 25:25–25:32 (−24 dB) y pantalla final (−17/−20 dB).",
+  "a_ritmo_de_cortes": "Parcial: el 33 % de los cortes con música cae en pulso; en el tráiler los cortes de 0:03.8, 0:05.1 y 0:06.4 coinciden con acento. En el resto se corta por la frase, no por la música.",
+  "silencios_intencionados": [
+   "0:12 (1 s, la música cae a −47 dB justo tras «tu nariz tiene frosbite»)",
+   "0:50–0:51 y 1:00–1:05 (se quita la música al llegar al frío real y en el gag de la mano)",
+   "16:20–16:21 (silencio total antes del montaje de la cueva)",
+   "25:03–25:04 (pausa antes de «¿Frost bite?»)"
+  ]
+ },
+ "sfx": {
+  "por_minuto_estimado": "≈5–8 (estimación; el detector da 33,8 acentos/min, pero la mayoría son golpes de la música y del sonido directo)",
+  "tipos": "No se han podido oír; deducidos de lo que se ve y de los acentos: whoosh en barridos (0:22.9, 0:27, 0:31, 1:28.1), pop al aparecer datos y píldoras, sonido de «nivel superado» en el mapa (acentos en 1:24.2, 9:08.9 y 21:14), tic del contador CAPAS, golpe con los destellos rojos.",
+  "donde": "Acentos concentrados en intro (53–60/min en 0:00–2:00), experimentos (8:00–10:00: 60–74/min) y cueva; casi ninguno en mercado y casa (3:00–7:00: 3–5/min). El 25 % de los cortes (93 de 379) lleva un acento encima.",
+  "ejemplos_t": ["0:03.84", "0:05.11", "0:06.44", "0:22.39", "1:23.72", "1:24.18", "9:21.96", "10:08.44", "21:14.14"]
+ },
+ "subtitulos": {
+  "hay": true,
+  "cuando": "Solo cuando no se habla español: Rubén en inglés (blanco), Roxana en inglés (magenta), amigo/vendedoras/bañistas (amarillo) y un corredor (cian-verde, 14:52). El ruso no se subtitula directamente: se subtitula la traducción al inglés que hace Roxana. También frases sueltas en español difíciles de oír por viento, distancia o boca tapada: «ala, es una persona súper mayor» 13:06, «sabe a pescado, no sé por qué» 8:34, «corre, corre!» 19:07 (magenta). El español de Rubén a cámara y la voz en off no llevan subtítulos, ni siquiera en el baño helado (18:01–18:45, gritos sin subtitular).",
+  "estilo": "Una línea centrada abajo, Arial/Helvetica Bold en minúsculas sin punto final, altura ≈0,036, contorno negro fino + sombra difusa, color por hablante, entra y sale por corte con la frase completa (no palabra a palabra). Tono coloquial con «xd», «???», «:)»."
+ },
+ "cierre": {
+  "como_acaba": "Sin resolución formal: tras el mapa final (24:44) Roxana le dice que tiene la nariz congelada, primer plano de la nariz (25:02–25:08), se dan la mano y echa a correr; despedida improvisada a cámara en mano corriendo (25:33–26:02, un plano de 29 s): «Supongo que así vamos a acabar el vídeo».",
+  "cta": "Solo verbal y de continuidad: «Los siguientes vídeos serán con esquimales… una serie de siete días… nos vemos en el siguiente». No pide suscripción ni like. En la pantalla final: «(todo el contenido antes en instagram @rubenholg)».",
+  "pantalla_final": "26:02.5–26:12 (9,6 s): fondo blanco, texto negro arriba-derecha «primer vídeo con esquimales» + línea pequeña de Instagram + flecha dibujada hacia el hueco del vídeo recomendado + «mañana a las 20:00h» con bandera (entra 0,4 s después). Música sola a −17/−20 dB."
+ },
+ "para_copiar": [
+  "Tráiler de 25–27 s antes de la cabecera: 18 planos a ≈1,5 s, cada frase del gancho ilustrada con el plano literal de ese momento del vídeo y un único dato animado en los 4 primeros segundos.",
+  "Convertir el vídeo en «niveles»: un mapa de progreso a pantalla completa de 2–3 s (corte seco, nodo superado en verde 0,3 s) cada vez que se cierra una prueba, con la frase puente de la voz en off encima.",
+  "Punch-in por corte con tres escalas fijas: ×1,5 para énfasis (1,2–1,4 s y volver), ×2 para el remate con una palabra en blanco encima (0,5–1 s), ×2,5 o más para el inciso absurdo. Nada de zooms animados al hablar.",
+  "Zoom lento solo en lo estático: 0,6 %/s en timelapse, ≈1 %/s en tarjetas de dato de 3,5–4,5 s.",
+  "Subtítulos de traducción con un color por persona (blanco propio, magenta guía, amarillo terceros), una línea, minúsculas, sin animación.",
+  "Sistema único de píldora azul claro arriba-izquierda para titular cada mini-bloque (texto que se escribe en 0,4 s + emoji) y la misma píldora abajo-izquierda para el temporizador, que solo asoma 2–3 s cada 1–3 min.",
+  "Etiqueta de nombre pequeña estilo videojuego flotando sobre la cabeza al presentar a cada persona (1,5–2 s).",
+  "Voz en off de 8–20 s como puente fijo entre bloques («Y con la X prueba superada… nos fuimos a…») y narración en pasado encima del momento más caótico, dejando el directo por debajo.",
+  "Quitar la música en los gags y explicaciones (1:00–1:07, 5:33–6:33) y subirla sin voz en montajes de 5–20 s (cueva, carrera al agua).",
+  "Corregir o apostillar un dato con una captura de pantalla real en barra negra inferior (7:01) en vez de regrabar.",
+  "Clímax en plano de acción casi continuo (2 min) con cronómetro en pantalla en lugar de cortes.",
+  "Pantalla final blanca de 10 s con una sola frase sobre el siguiente vídeo, hora de publicación y flecha al vídeo sugerido."
+ ],
+ "dudas": [
+  "Los efectos de sonido no se han podido oír: tipos y número por minuto son deducciones a partir de acentos y de lo que se ve.",
+  "La proporción de b-roll sobre voz (20–25 %) y el número de punch-ins por corte (25–30) son estimaciones sobre hojas cada 2 s, no un recuento plano a plano.",
+  "Las fuentes son parecidos visuales a 720p; la manuscrita de píldoras/CAPAS y la de 7 segmentos no se han identificado con certeza. Los colores hexadecimales son aproximados.",
+  "Escalas de los punch-ins fuertes de 21:48 y 22:38 poco fiables (pocos puntos coincidentes); en planos en mano medir_zoom mezcla movimiento real y zoom.",
+  "En el baño helado (17:27–19:31) el detector no ve cortes; se han localizado 3 a ojo y puede haber alguno más en zonas quemadas en blanco.",
+  "No se ha comprobado que los dos planos de trineo y tienda de la intro (0:13–0:17) salgan en otro vídeo: se deduce de que no están en este y de la frase «tengo una misión en unos días».",
+  "El color del subtítulo del corredor de 14:52 (cian-verde) y qué representa el cuarto icono del mapa de niveles solo se han visto en miniatura.",
+  "No se sabe si la sintonía de la cabecera es cantada o locutada; la transcripción solo recoge el texto.",
+  "Los tiempos de los huecos de música salen de la detección de batería+bajo; puede haber música sin percusión en esos huecos."
+ ]
+}

@@ -1,0 +1,559 @@
+{
+ "video": {
+  "archivo": "refs/dinamicos/paul-cuffaro/2026-10-16_got-home-to-this-farm.mp4",
+  "creador": "Paul Cuffaro",
+  "url": "https://www.youtube.com/watch?v=9yIo_gw2kV8",
+  "titulo": "I got Home to THIS at the farm…",
+  "duracion": "32:03",
+  "publicado": "2026-10-16",
+  "tramo_analizado": "0:00–32:03 (entero)"
+ },
+ "resumen": "Vlog de día en casa de 32 min montado casi solo a corte seco: 221 cortes (6,9 por minuto), plano medio de 8,7 s y mediana de 5,5 s, con tomas de hasta 74 s. Abre con un tráiler en frío de 22,4 s (10 planos sacados del propio vídeo, 2,2 s por plano, música a solo 5 dB bajo la voz) que acaba en un cartón negro con la fecha «OCTOBER 16TH, 2026» y da paso al saludo a cámara en 0:25. El cuerpo es cámara en mano gran angular siguiendo a Paul; el dinamismo viene de barridos y acercamientos hechos con la cámara, no de zooms de edición (no se ha encontrado ningún punch-in de posproducción). La música es una cama casi continua (78 % del vídeo) muy baja, unos 18–20 dB por debajo de la voz, que solo sube en los montajes sin voz (césped, valla) y se quita adrede durante el relato de la muerte del avestruz (7:40–9:01). Los rótulos son mínimos: una sola tipografía ultranegra unicase, en blanco para el título y una aclaración y en amarillo con borde negro para dos chistes y para subtitular 11 s de voz lejana. Como recursos puntuales hay una lluvia de capturas de comentarios de YouTube (7:03), dos flashbacks de vídeos anteriores con su propio sonido (11:12 y 22:50) y una posdata grabada días después (30:58). Cierra con despedida a cámara, tres cartones verdes (gracias / like / suscríbete) y una pantalla final de dibujos con hueco para «Watch Next».",
+ "estructura": [
+  {
+   "desde": "0:00",
+   "hasta": "0:22",
+   "parte": "Tráiler en frío",
+   "que_pasa": "10 planos de los mejores momentos del día (nutria, cabras entrando al terreno nuevo, gamba mantis, camioneta hundida por el césped, arrancar el poste, taladro, vaca entre palmitos, motosierra) con el sonido original de cada uno; remata con «I love chainsaws» (0:20,7)."
+  },
+  {
+   "desde": "0:22",
+   "hasta": "0:25",
+   "parte": "Cartón de fecha",
+   "que_pasa": "Negro con «OCTOBER 16TH, 2026» que palpita 1,5 s y 1,5 s más de negro y silencio de voz."
+  },
+  {
+   "desde": "0:25",
+   "hasta": "4:09",
+   "parte": "Saludo y nave de peces",
+   "que_pasa": "Saludo a cámara, contexto (dos semanas fuera, se ha prometido), repaso de peces: pez de cerca 0:54–1:04, ajolote 1:21, pez globo fahaka 1:30 con juego de palabras rotulado, gamba mantis comiendo 3:06–3:41. En 3:49–4:08 dice el plan del día («Today we're gonna be building some fences…»)."
+  },
+  {
+   "desde": "4:09",
+   "hasta": "6:40",
+   "parte": "Recorrido exterior: obras",
+   "que_pasa": "Tío Nick bañando a la vaca, patio delantero con sacos, montones de tierra, ampliación del cercado y entrada nueva; todo andando y señalando."
+  },
+  {
+   "desde": "6:40",
+   "hasta": "9:01",
+   "parte": "Bajón: muerte del avestruz",
+   "que_pasa": "Agradece los comentarios por el compromiso (lluvia de capturas en 7:03), enseña el cercado vacío, Nick lo cuenta de lejos con subtítulos (7:25–7:36); la música se retira de 7:40 a 9:01."
+  },
+  {
+   "desde": "9:01",
+   "hasta": "12:47",
+   "parte": "Recorrido: espacio libre y planes",
+   "que_pasa": "Rebate que se queda sin sitio enseñando zonas vacías; varano y cíclidos (flashback del pedido online 11:12–11:20); plan del aviario."
+  },
+  {
+   "desde": "12:47",
+   "hasta": "18:37",
+   "parte": "Reencuentro con los animales",
+   "que_pasa": "Nutrias (12:47–15:00, tomas largas), coatí, zorros, mofeta, cerdos, gallinero: comida, agua y huevos."
+  },
+  {
+   "desde": "18:37",
+   "hasta": "23:36",
+   "parte": "Proyecto 1: césped en el gallinero",
+   "que_pasa": "Vivero y carga del palé (música alta 18:37–20:02), descarga y colocación, «no os quiero aburrir» y time-lapse de 10 s (22:05–22:15), riego, flashback de la construcción del gallinero (22:50–23:09), resultado con gallinas (23:27–23:36)."
+  },
+  {
+   "desde": "23:36",
+   "hasta": "25:59",
+   "parte": "Proyecto 2: valla",
+   "que_pasa": "Explica qué falta y montajes cortos de trabajo con música (24:06–24:13, 24:22–24:29, 24:46–25:01)."
+  },
+  {
+   "desde": "25:59",
+   "hasta": "27:18",
+   "parte": "Reto: arrancar los postes",
+   "que_pasa": "Intentos de sacar postes a mano entre varios, humor, «never say never»."
+  },
+  {
+   "desde": "27:18",
+   "hasta": "29:34",
+   "parte": "Clímax: suelta al terreno nuevo",
+   "que_pasa": "Cabras y vaca entran en la ampliación; reacciones y primeros planos de animales."
+  },
+  {
+   "desde": "29:34",
+   "hasta": "30:58",
+   "parte": "Remate: motosierra y balance",
+   "que_pasa": "Recortan tablones con motosierra (música alta sin voz 29:36–29:40), «Travis, we did it», visión de futuro."
+  },
+  {
+   "desde": "30:58",
+   "hasta": "31:25",
+   "parte": "Posdata días después",
+   "que_pasa": "Selfie con otra camiseta: «it's a couple days after I filmed the whole video», enseña la tierra ya allanada."
+  },
+  {
+   "desde": "31:25",
+   "hasta": "31:45",
+   "parte": "Despedida",
+   "que_pasa": "A cámara con las cabras: gracias, anuncia el siguiente vídeo, «peace out»."
+  },
+  {
+   "desde": "31:45",
+   "hasta": "32:03",
+   "parte": "Cartones y pantalla final",
+   "que_pasa": "Tres cartones verdes, pantalla final de dibujos (8 s) y 2 s de meme de oveja gritando."
+  }
+ ],
+ "ritmo": {
+  "s_por_plano": {
+   "global": {
+    "media": 8.66,
+    "mediana": 5.51,
+    "p10": 1.57,
+    "p90": 19.05,
+    "max": 74.21,
+    "cortes_por_minuto": 6.9
+   },
+   "trailer_0:00-0:22": 2.24,
+   "nave_peces_0:25-4:09": 11.8,
+   "recorrido_4:09-12:46": 10.8,
+   "animales_12:46-18:42": 8.7,
+   "cesped_18:42-23:36": 8.2,
+   "valla_23:36-25:59": 6.8,
+   "postes_25:59-27:19": 8.0,
+   "suelta_27:19-29:35": 8.0,
+   "motosierra_y_cierre_29:35-31:45": 9.3,
+   "cartones_finales": 3.5,
+   "nota": "Solo el 6 % de los planos dura menos de 1 s y el 54 % más de 5 s. Los minutos más cortados son 23–28 (10–11 planos/min, mediana 3,3–4,2 s); los más lentos, 2:00–3:00 (2 planos) y 8:00–9:00 (1 plano detectado)."
+  },
+  "jump_cuts": "Muy pocos. No se recortan las pausas al hablar: las tomas a cámara van enteras (40,7 s en 1:29–2:10; 74 s en 7:40–8:53). El único jump cut claro y repetido es el time-lapse a cámara fija alta de 22:05–22:15 (saltos en 22:09,8, 22:13,5 y 22:13,9). De 97 picos de cambio de imagen bajo el umbral revisados con medición de escala entre fotogramas, casi todos son movimiento de cámara (escala 1,00); candidatos a jump cut de mismo encuadre sin confirmar: 1:15,0, 3:24,6, 8:33,4, 8:35,6 y 27:53,0.",
+  "j_l_cuts": "67 de 221 cortes (30 %) caen en mitad de una palabra: la voz sigue por encima del cambio de plano (L-cut de voz sobre inserto). Ejemplos: 0:54,2 corta al pez mientras dice «can you just appreciate how beautiful that fish is» y vuelve a cámara en 1:03,8; 23:27,7 corta a las gallinas sobre «but there's a lot of land…» y vuelve en 23:36,3; 9:08,7–9:11,2 inserto del montón de tierra sobre la frase. J-cuts propiamente dichos (sonido del plano siguiente adelantado) no se han podido confirmar sin escuchar.",
+  "match_cuts": "Ninguno deliberado. Lo más parecido son posibles cortes ocultos en barridos de cámara (p. ej. 8:21, 9:28, 9:50), no comprobables como corte."
+ },
+ "intro": {
+  "cold_open": "Sí: arranca sin saludo ni logo, directamente con el plano más tierno (abrazo a la nutria) y la frase «I only know which one you are because of how loud» (0:00,2–2,6).",
+  "recap": {
+   "existe": true,
+   "desde": "0:00",
+   "hasta": "0:22,4",
+   "n_planos": 10,
+   "s_por_plano": 2.24,
+   "de_donde_salen": [
+    {
+     "t": "0:00–0:02,8",
+     "plano": "abrazo a la nutria",
+     "origen": "12:57"
+    },
+    {
+     "t": "0:02,8–0:05,2",
+     "plano": "señala y cabra corriendo por el terreno nuevo («look at Billy» ×3)",
+     "origen": "~27:57"
+    },
+    {
+     "t": "0:05,2–0:06,7",
+     "plano": "gamba mantis golpeando",
+     "origen": "~3:15"
+    },
+    {
+     "t": "0:06,7–0:09,0",
+     "plano": "palé de césped hundiendo la camioneta («oh my squatted truck»)",
+     "origen": "19:16–19:24"
+    },
+    {
+     "t": "0:09,0–0:10,1",
+     "plano": "Paul de espaldas en el vivero",
+     "origen": "~19:34"
+    },
+    {
+     "t": "0:10,1–0:13,4",
+     "plano": "tirando del poste («pull, pull, yes, yes»)",
+     "origen": "~26:02"
+    },
+    {
+     "t": "0:13,4–0:14,0 y 0:14,0–0:14,5",
+     "plano": "dos primeros planos de taladro en la valla (0,6 y 0,5 s)",
+     "origen": "25:54–25:58"
+    },
+    {
+     "t": "0:14,5–0:16,1",
+     "plano": "vaca entre palmitos («Fergus, how you doing bud?»)",
+     "origen": "28:02"
+    },
+    {
+     "t": "0:16,1–0:22,4",
+     "plano": "Paul con la motosierra (6,3 s, el más largo)",
+     "origen": "30:02–30:08"
+    }
+   ],
+   "frase": "No hay voz en off ni frase de promesa: son los sonidos y exclamaciones originales de cada plano. La última, «I love chainsaws» (0:20,7–0:22,2), hace de remate justo antes del cartón."
+  },
+  "titulo_cabecera": "0:22,4–0:25,4: corte seco a negro; «OCTOBER 16TH, 2026» en blanco, centrado, sin logo ni título del vídeo. El texto palpita alternando dos tamaños (~100 % y ~47 % del ancho de pantalla) con desenfoque, a golpes de ~0,43 s que coinciden con acentos del audio (22,24 / 22,66 / 23,10 / 23,52 / 23,96), y desaparece desenfocado hacia 0:23,9; queda negro puro hasta 0:25,4.",
+  "motion_graphics": "Solo el cartón de fecha. Ni logo animado, ni mapa, ni lower third en el primer minuto.",
+  "musica_entra_s": 2,
+  "linea_de_tiempo": [
+   {
+    "t": "0:00,0",
+    "que": "Plano nutria, solo sonido directo y voz, sin música."
+   },
+   {
+    "t": "0:02,0–0:02,8",
+    "que": "Entra la música ya fuerte (−22,8 dB; voz −17,6 dB) pegada al primer corte (0:02,8)."
+   },
+   {
+    "t": "0:02,8–0:16,1",
+    "que": "8 planos en 13,3 s (1,7 s de media); 7 de los 9 cortes del tráiler coinciden con un acento de audio."
+   },
+   {
+    "t": "0:09 / 0:15 / 0:19–0:21",
+    "que": "La música se hunde un segundo (−44, −46 y −58 dB en la pista de ritmo) dejando limpias las frases «squatted truck», «Fergus…» y «I love chainsaws»."
+   },
+   {
+    "t": "0:16,1–0:22,4",
+    "que": "Plano de motosierra sostenido 6,3 s; frase de remate en 0:20,7."
+   },
+   {
+    "t": "0:22,4",
+    "que": "Corte seco a negro + fecha palpitando con golpe de música (−21,7 dB)."
+   },
+   {
+    "t": "0:24",
+    "que": "Un segundo de silencio casi total (−52 dB) en negro."
+   },
+   {
+    "t": "0:25,4",
+    "que": "Corte seco al saludo: «What is going on bros, welcome back to another video» en plano medio gran angular; música baja a cama (−28 → −40 dB)."
+   },
+   {
+    "t": "0:25,4–0:54,2",
+    "que": "Toma única de 28,8 s hablando a cámara, con un barrido en cámara hacia el acompañante (0:36)."
+   },
+   {
+    "t": "0:54,2–1:03,8",
+    "que": "Primer inserto: pez de cerca 9,6 s con la voz por encima."
+   }
+  ]
+ },
+ "broll": {
+  "proporcion_sobre_voz": "Muy baja, en torno al 4 % del tiempo hablado (unos 70–90 s de 32 min; estimación). Casi todo lo que se ve es la acción en directo: cuando enseña algo, el operador gira la cámara hacia ello dentro del mismo plano en vez de cortar a un recurso.",
+  "origenes": {
+   "mismo_video": "Casi todo: insertos del mismo momento y lugar (pez 0:54–1:04, montón de tierra 9:08–9:11, gallinas sobre el césped 23:27–23:36, primeros planos de herramientas 24:06–24:13, 24:22–24:29, 25:46, 25:54–25:58).",
+   "recursos": "Time-lapse a cámara fija alta del gallinero (22:05–22:15) y planos de trabajadores.",
+   "stock_archivo": "Dos flashbacks de vídeos anteriores del canal con su sonido original: pedido de cíclidos en el portátil (11:12,3–11:20,6, 4 planos de ~2 s) y construcción del gallinero en selfie sin camiseta (22:49,9–23:09, 8 planos). Una lluvia de capturas de comentarios de YouTube (7:03,7–7:05,7). Meme de oveja gritando al final (32:01–32:03)."
+  },
+  "duracion_tipica_s": "2–3 s en insertos de trabajo y flashback; 8–10 s cuando el inserto es el tema (pez 9,6 s, gallinas 8,6 s).",
+  "vuelta_a_camara": "Siempre a corte seco y al empezar frase nueva: 1:03,8 «If you're like, what, Paul…»; 11:20,6 «And they're doing so good»; 23:36,3 «All right, now we do have to finish this fence».",
+  "ejemplos": [
+   {
+    "t": "0:54,2–1:03,8",
+    "que": "pez de cerca sobre «appreciate how beautiful that fish is»"
+   },
+   {
+    "t": "11:12,3–11:20,6",
+    "que": "flashback del portátil con su propio audio («100 % red blotch medium»)"
+   },
+   {
+    "t": "22:49,9–23:09",
+    "que": "flashback de la obra del gallinero; entra a mitad de frase con un barrido desenfocado de 0,1 s"
+   },
+   {
+    "t": "23:27,7–23:36,3",
+    "que": "gallinas a ras de suelo sobre la voz"
+   }
+  ]
+ },
+ "voz_en_off": {
+  "uso": "No hay voz en off grabada aparte. Todo es sonido directo; lo único que hace de off es la voz en directo que continúa sobre los insertos (L-cuts).",
+  "guion": "Improvisado y coloquial, en segunda persona («let me show you», «check this out», «boom»); muletillas de transición habladas que sustituyen a los rótulos de capítulo.",
+  "mezcla": "Voz a −19 dB de media con la música 18–20 dB por debajo; habla el 96 % del metraje."
+ },
+ "transiciones": [
+  {
+   "tipo": "corte seco",
+   "veces": 220,
+   "donde": "todo el vídeo (≈69 por cada 10 min)",
+   "ejemplos_t": [
+    "0:02,8",
+    "0:25,4",
+    "4:09,0",
+    "18:41,7"
+   ]
+  },
+  {
+   "tipo": "corte a negro con rótulo",
+   "veces": 1,
+   "donde": "entre tráiler y saludo",
+   "ejemplos_t": [
+    "0:22,4"
+   ]
+  },
+  {
+   "tipo": "barrido desenfocado muy corto (0,1 s) hacia flashback",
+   "veces": 1,
+   "donde": "entrada al flashback del gallinero",
+   "ejemplos_t": [
+    "22:49,9"
+   ]
+  },
+  {
+   "tipo": "glitch / separación RGB entre cartones",
+   "veces": 3,
+   "donde": "solo en los cartones finales",
+   "ejemplos_t": [
+    "31:49,7",
+    "31:52,0",
+    "31:52,5"
+   ]
+  },
+  {
+   "tipo": "barrido hecho con la cámara (no es de edición)",
+   "veces": "decenas; varios por minuto en los recorridos",
+   "donde": "para pasar de la cara a lo que enseña o al acompañante",
+   "ejemplos_t": [
+    "0:36",
+    "8:21",
+    "9:28",
+    "9:50"
+   ]
+  }
+ ],
+ "zooms": {
+  "mediciones": [
+   {
+    "t": "0:26–0:36",
+    "escala": 1.16,
+    "duracion_s": 9.9,
+    "tipo": "movimiento de cámara en mano (se acerca andando), no zoom de edición"
+   },
+   {
+    "t": "1:04–1:15",
+    "escala": 1.08,
+    "duracion_s": 10.9,
+    "tipo": "cámara en mano"
+   },
+   {
+    "t": "1:30–1:55",
+    "escala": 1.02,
+    "duracion_s": 24.9,
+    "tipo": "cámara en mano con barridos; sin zoom neto"
+   },
+   {
+    "t": "3:50–4:08",
+    "escala": 0.8,
+    "duracion_s": 17.9,
+    "tipo": "la cámara se aleja andando (−1,1 %/s)"
+   },
+   {
+    "t": "5:06–5:15",
+    "escala": 1.09,
+    "duracion_s": 8.9,
+    "tipo": "cámara en mano con paneo"
+   },
+   {
+    "t": "6:41–7:02",
+    "escala": 1.86,
+    "duracion_s": 20.9,
+    "tipo": "acercamiento físico del operador hasta primer plano (+4,1 %/s)"
+   },
+   {
+    "t": "7:02,2–7:04,2",
+    "escala": 1.0,
+    "duracion_s": 1.9,
+    "tipo": "fijo: bajo la lluvia de comentarios no hay punch-in"
+   },
+   {
+    "t": "19:00–19:10",
+    "escala": 1.42,
+    "duracion_s": 9.9,
+    "tipo": "acercamiento físico (+4,3 %/s)"
+   },
+   {
+    "t": "29:17–29:33",
+    "escala": 1.44,
+    "duracion_s": 15.9,
+    "tipo": "cámara en mano con paneo amplio"
+   },
+   {
+    "t": "31:30–31:45",
+    "escala": 1.3,
+    "duracion_s": 14.9,
+    "tipo": "acercamiento físico en la despedida (+2 %/s)"
+   },
+   {
+    "t": "0:22,4–0:23,9",
+    "escala": "texto alterna ~1,0 ↔ ~0,47",
+    "duracion_s": 1.5,
+    "tipo": "pulso de escala del rótulo de fecha (único zoom de posproducción; medido a ojo en fotogramas)"
+   }
+  ],
+  "patron": "No hay punch-ins ni zooms lentos de edición: en los 97 saltos de imagen revisados entre fotogramas contiguos la escala es 1,00 ± 0,02 salvo donde hay barrido. Todo el dinamismo es de rodaje: gran angular en mano muy cerca del sujeto, el operador se acerca y se aleja andando (cambios de escala de 1–4 %/s) y barre hacia lo que se señala. Las cifras de medir_zoom.py son por tanto movimiento de cámara y valen solo como orden de magnitud (otros 3 planos medidos, 0:37–0:50, 2:11–2:38 y 7:40–8:25, dieron valores inválidos por los barridos). No se aprecia estabilización añadida ni cámara virtual."
+ },
+ "tipografia": [
+  {
+   "tipo": "cartón de fecha (cabecera)",
+   "fuente_parecida_google": "Unbounded Black (alternativa: Syne ExtraBold); grotesca ancha ultranegra unicase, con la «e» en forma de minúscula a altura de mayúscula",
+   "peso": "900",
+   "tamano_rel": "alto de letra ≈ 7 % del alto de pantalla en el pulso grande y ≈ 4 % en el pequeño",
+   "posicion": "centrado sobre negro",
+   "color": "blanco",
+   "borde_sombra": "ninguno",
+   "entrada": "corte seco, ya en pantalla",
+   "salida": "pulsos de tamaño con desenfoque y se desvanece borroso",
+   "duracion_s": 1.5,
+   "ejemplos_t": [
+    "0:22,4"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2026-10-16_got-home-to-this-farm/rotulos/titulo_fecha.jpg"
+  },
+  {
+   "tipo": "rótulo de chiste",
+   "fuente_parecida_google": "la misma (Unbounded Black)",
+   "peso": "900",
+   "tamano_rel": "≈ 4–5 % del alto",
+   "posicion": "centro abajo, a ~85 % del alto",
+   "color": "amarillo",
+   "borde_sombra": "borde negro grueso y sombra suave",
+   "entrada": "corte, sincronizado con la frase",
+   "salida": "corte",
+   "duracion_s": "1–2 (aprox.)",
+   "ejemplos_t": [
+    "1:36 («FAHAK'N BIG»)",
+    "1:54–1:56"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2026-10-16_got-home-to-this-farm/rotulos/rotulo_fahakn_big.jpg"
+  },
+  {
+   "tipo": "aclaración",
+   "fuente_parecida_google": "la misma",
+   "peso": "900",
+   "tamano_rel": "≈ 3 % del alto",
+   "posicion": "centro abajo, ~90 % del alto",
+   "color": "blanco",
+   "borde_sombra": "borde negro fino",
+   "entrada": "corte",
+   "salida": "corte",
+   "duracion_s": "2–4 (aprox.)",
+   "ejemplos_t": [
+    "~1:35 («*FAHAKA PUFFERFISH*»)"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2026-10-16_got-home-to-this-farm/rotulos/rotulo_aclaracion_blanco.jpg"
+  },
+  {
+   "tipo": "subtítulo de voz lejana",
+   "fuente_parecida_google": "la misma",
+   "peso": "900",
+   "tamano_rel": "≈ 5,5 % del alto",
+   "posicion": "centro abajo, ~90 % del alto, una línea",
+   "color": "amarillo",
+   "borde_sombra": "borde negro grueso + sombra",
+   "entrada": "corte, frase a frase (2–5 palabras)",
+   "salida": "corte al siguiente bloque",
+   "duracion_s": "1–2 por bloque; 10,5 en total",
+   "ejemplos_t": [
+    "7:25,0–7:35,5"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2026-10-16_got-home-to-this-farm/rotulos/subtitulo_amarillo.jpg"
+  },
+  {
+   "tipo": "cartones finales",
+   "fuente_parecida_google": "Bebas Neue (condensada de palo, mayúsculas; «THANKS FOR WATCHING» ligeramente inclinada)",
+   "peso": "400 (la fuente ya es negra)",
+   "tamano_rel": "palabra principal ≈ 20–25 % del alto; línea secundaria ≈ 5 %",
+   "posicion": "centrado (o a la izquierda con icono de pulgar)",
+   "color": "blanco sobre verde plano",
+   "borde_sombra": "ninguno",
+   "entrada": "animación de plantilla con glitch",
+   "salida": "glitch RGB",
+   "duracion_s": "2,3 cada uno",
+   "ejemplos_t": [
+    "31:45,4",
+    "31:47,9",
+    "31:50,3"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2026-10-16_got-home-to-this-farm/rotulos/fin_thanks.jpg"
+  }
+ ],
+ "motion_graphics": [
+  {
+   "tipo": "cartón de fecha palpitante",
+   "t": "0:22,4",
+   "duracion_s": 3.0,
+   "como_entra": "corte seco a negro",
+   "estilo": "texto blanco sobre negro, pulso de escala con desenfoque a ritmo de la música"
+  },
+  {
+   "tipo": "lluvia de capturas de comentarios de YouTube",
+   "t": "7:03,7",
+   "duracion_s": 2.0,
+   "como_entra": "unas 12 tarjetas oscuras aparecen escalonadas en ~0,75 s rodeando la cara, sin tapar el centro; salen todas a la vez con el corte de 7:05,7",
+   "estilo": "capturas reales en tema oscuro, sin marco añadido, superpuestas al plano mientras dice «shout out to everyone for all the love in the comments»"
+  },
+  {
+   "tipo": "cartones finales (gracias / like con pulgar / suscríbete)",
+   "t": "31:45,4",
+   "duracion_s": 7.4,
+   "como_entra": "plantilla animada con transiciones glitch",
+   "estilo": "verde plano, tipografía condensada blanca, icono de pulgar"
+  },
+  {
+   "tipo": "pantalla final de dibujos",
+   "t": "31:52,8",
+   "duracion_s": 8.1,
+   "como_entra": "los personajes (Paul con palo selfie, pavo, gallo, cerdo, cabra, vaca) entran uno a uno en ~2,5 s; cartel «Watch Next» con hueco blanco arriba a la derecha",
+   "estilo": "ilustración de granja a color, plantilla fija del canal"
+  }
+ ],
+ "musica": {
+  "tramos_resumen": "Presente en el 78 % del vídeo en 43 tramos. Tráiler 0:02–0:22 fuerte (−22,8 dB). Cuerpo como cama de −36 a −42 dB con microcortes de pocos segundos. Sube a primer plano en: vivero y carga del césped 18:37–20:02 (−23,7 dB, solo 3 dB bajo la voz), time-lapse 22:05–22:18 (−20,6), montajes de valla 24:06–24:13 (−15,8, lo más alto del vídeo), 24:23–24:29 y 24:46–24:55 (−21), motosierra 29:36–29:40 (−18) y cartones finales (−20,7).",
+  "voz_menos_musica_db": {
+   "mediana": 18.4,
+   "trailer": 5,
+   "cama_habitual": "17–23",
+   "montajes": "3–12"
+  },
+  "cambia_por_secciones": "Sí: cambios de pista detectados en 4:10 (salida de la nave de peces), 13:22, 15:30, 22:18, 22:50 (flashback, el cambio más marcado) y 24:12; además cada montaje de trabajo trae su subida.",
+  "a_ritmo_de_cortes": "Solo en el tráiler (7 de 9 cortes con acento) y en los montajes de trabajo. En el conjunto, 34 % de los cortes caen en golpe de compás y 30 % coinciden con un acento: no se monta a ritmo.",
+  "silencios_intencionados": "7:40–9:01: sin música durante casi todo el relato de la muerte del avestruz (solo asoma 6 s en 8:37 y 4 s en 8:53) y vuelve en 9:01 al cambiar de tema. También 2:07–2:16 y 6:19–6:37 sin base, y 1 s de silencio en negro en 0:24 antes del saludo."
+ },
+ "sfx": {
+  "por_minuto_estimado": "Menos de 1 por minuto fuera del tráiler y los cartones finales (estimación sin escuchar). Los 24,7 acentos/min que da el análisis son sobre todo golpes de música y ruido directo (martillo, taladro, motosierra: minutos 21–25 con 42–64 acentos).",
+  "tipos": "Probables: golpes/whoosh con los pulsos del cartón de fecha; un acento en la salida de la lluvia de comentarios; sonidos de plantilla en los cartones finales; balido del meme final. No hay indicios de whooshes en los cortes del cuerpo.",
+  "donde": "Cabecera, lluvia de comentarios y cierre.",
+  "ejemplos_t": [
+   "0:22,2–0:24,0 (5 acentos cada ~0,43 s)",
+   "7:05,7",
+   "31:45–32:01"
+  ]
+ },
+ "subtitulos": {
+  "hay": true,
+  "cuando": "Solo 7:25,0–7:35,5, cuando habla Tío Nick lejos de la cámara dentro del cercado (voz lejana). El resto del vídeo, incluidas otras voces fuera de plano, va sin subtitular.",
+  "estilo": "Amarillo con borde negro grueso y sombra, tipografía ultranegra unicase, una línea centrada abajo (~90 % del alto), bloques de 2–5 palabras que cambian a corte cada 1–2 s: «THE DAY BEFORE SHE REALLY» / «WASN'T FEELING GOOD» / «6PM» / «SHE STARTED PERKING UP» / «SHE ATE A LITTLE BIT» / «MAYBE JUST FEELING A LITTLE» / «UNDER THE WEATHER» / «6AM THE NEXT DAY»."
+ },
+ "cierre": {
+  "como_acaba": "Balance con el ayudante («Travis, we did it», 30:39), posdata grabada días después enseñando el resultado (30:58–31:25) y despedida a cámara de 20 s rodeado de cabras.",
+  "cta": "Hablado: agradece la visita y anuncia «another video back here doing something crazy at the farm in the very next one» (31:39). Like y suscripción se piden solo con los cartones (31:47,9 y 31:50,3), no de palabra.",
+  "pantalla_final": "31:45,4–31:52,8 tres cartones verdes de 2,3 s; 31:52,8–32:01 pantalla de dibujos con hueco «Watch Next» para el vídeo sugerido (8,1 s, con música a −20,7 dB); 32:01–32:03 meme de oveja gritando como coletilla."
+ },
+ "para_copiar": [
+  "Tráiler en frío de ~20 s con 8–10 momentos del propio vídeo y su sonido original, sin locución: plano tierno para abrir, planos de 0,5–3 s en medio y el último sostenido 6 s con una frase de remate.",
+  "Hundir la música un segundo bajo cada frase graciosa del tráiler en vez de bajarla entera.",
+  "Separar tráiler y saludo con un cartón negro de 3 s con solo la fecha, palpitando al ritmo de la música, y un segundo de silencio antes del saludo.",
+  "Decir el plan del día a cámara después del primer bloque ligero (aquí en 3:49), no en el segundo 0.",
+  "Una sola tipografía ultranegra para todo, cambiando solo el color: blanco para aclarar, amarillo con borde negro para chistes y subtítulos.",
+  "Subtitular únicamente los tramos de voz lejana, en bloques de 2–5 palabras.",
+  "Lluvia de capturas de comentarios de 2 s rodeando la cara al agradecer a la audiencia.",
+  "Flashbacks de vídeos anteriores con su propio audio (8–20 s) cuando se dice «¿os acordáis de…?», en lugar de explicarlo.",
+  "Quitar la música en el momento serio y recuperarla justo al cambiar de tema.",
+  "Decir «no os quiero aburrir» y resolver el trabajo repetitivo con 10 s de time-lapse a cámara fija alta con la música arriba.",
+  "Montajes de trabajo de 6–10 s sin voz, planos de 2–3 s de herramientas y música 15–20 dB más alta que la cama.",
+  "Cama musical a unos 18–20 dB por debajo de la voz durante todo el cuerpo.",
+  "Posdata de 25 s grabada días después para enseñar el resultado antes de despedirse."
+ ],
+ "dudas": [
+  "No se ha escuchado el audio: SFX, J-cuts y el tipo de música son deducciones de las curvas y de la imagen.",
+  "La tipografía de los rótulos es una identificación visual a 720p; puede ser una fuente comercial (tipo Monument Extended) y no la de Google propuesta.",
+  "No se puede saber si los barridos son de un operador o reencuadre de una cámara 360; se han tratado como movimiento de rodaje.",
+  "Los minutos de origen de los planos del tráiler son aproximados (±5 s) salvo nutria, camioneta y motosierra.",
+  "Duración exacta en pantalla de los rótulos «FAHAK'N BIG» y «*FAHAKA PUFFERFISH*» no medida fotograma a fotograma.",
+  "Cinco posibles jump cuts de mismo encuadre (1:15,0, 3:24,6, 8:33,4, 8:35,6, 27:53,0) sin confirmar.",
+  "Las mediciones de medir_zoom.py están contaminadas por el movimiento de la cámara en mano; no hay ningún plano fijo de trípode con el que calibrar.",
+  "La proporción de b-roll sobre voz (~4 %) es una estimación sumando los insertos localizados, no una medida exhaustiva."
+ ]
+}

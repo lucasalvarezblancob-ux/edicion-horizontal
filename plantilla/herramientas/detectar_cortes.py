@@ -1,0 +1,76 @@
+#!/usr/bin/env python3
+"""Detecta cortes de un vídeo (referencia o bruto) y mide el ritmo.
+
+Uso: detectar_cortes.py VIDEO SALIDA.json [--umbral 10] [--tramo 60]
+  1) ffmpeg scdet a 480 px puntúa cada fotograma (0-100) -> <salida>.scd.txt (se reutiliza si existe)
+  2) corte = pico local con puntuación >= umbral y al menos 3x la mediana de su vecindario (±12 f)
+     -> descarta movimiento de cámara y flashes sostenidos
+  3) escribe cortes, duración de cada plano y estadísticas por tramo de --tramo segundos
+Los fundidos y whips salen como varios picos seguidos: se agrupan (<0,2 s) y se marcan "transicion".
+"""
+import argparse, json, re, statistics as st, subprocess, sys
+from pathlib import Path
+
+ap = argparse.ArgumentParser()
+ap.add_argument("video"); ap.add_argument("salida")
+ap.add_argument("--umbral", type=float, default=10.0)
+ap.add_argument("--tramo", type=float, default=60.0)
+a = ap.parse_args()
+
+sal = Path(a.salida); scd = sal.with_suffix(".scd.txt")
+if not scd.exists():
+    scd.parent.mkdir(parents=True, exist_ok=True)
+    # ffmpeg se lanza dentro de la carpeta de salida: así el nombre no lleva "C:" (rompe el filtro en Windows)
+    subprocess.run(["ffmpeg", "-v", "error", "-i", str(Path(a.video).resolve()), "-vf",
+                    f"scale=480:-2,scdet=threshold=6:sc_pass=0,metadata=mode=print:key=lavfi.scd.score:file={scd.name}",
+                    "-an", "-f", "null", "-"], check=True, cwd=scd.parent)
+t, s = [], []
+for ln in scd.read_text().splitlines():
+    m = re.search(r"pts_time:([\d.]+)", ln)
+    if m: t.append(float(m.group(1))); continue
+    m = re.search(r"score=([\d.]+)", ln)
+    if m: s.append(float(m.group(1)))
+n = min(len(t), len(s)); t, s = t[:n], s[:n]
+dur = t[-1]
+
+picos = []
+for i in range(1, n - 1):
+    if s[i] < a.umbral or s[i] < s[i - 1] or s[i] < s[i + 1]: continue
+    vec = s[max(0, i - 12):i - 1] + s[i + 2:i + 13]
+    base = st.median(vec) if vec else 0
+    if s[i] >= 3 * max(base, 0.5):
+        picos.append((t[i], s[i]))
+# agrupar picos pegados (transición con duración: fundido, whip, flash)
+cortes = []
+for tt, sc in picos:
+    if cortes and tt - cortes[-1]["fin"] < 0.2:
+        c = cortes[-1]; c["fin"] = tt; c["tipo"] = "transicion"; c["score"] = max(c["score"], sc)
+    else:
+        cortes.append({"t": round(tt, 3), "fin": tt, "score": round(sc, 1), "tipo": "seco"})
+for c in cortes: c["dur_transicion"] = round(c.pop("fin") - c["t"], 3)
+
+bordes = [0.0] + [c["t"] for c in cortes] + [dur]
+planos = [round(b - a_, 3) for a_, b in zip(bordes, bordes[1:])]
+
+def resumen(v):
+    if not v: return {}
+    v = sorted(v)
+    q = lambda p: round(v[min(len(v) - 1, int(p * len(v)))], 2)
+    return {"planos": len(v), "media": round(st.mean(v), 2), "mediana": q(.5), "p10": q(.1), "p90": q(.9),
+            "max": round(v[-1], 2), "menos_de_1s": round(sum(x < 1 for x in v) / len(v), 2),
+            "mas_de_5s": round(sum(x > 5 for x in v) / len(v), 2)}
+
+tramos = []
+k = 0.0
+while k < dur:
+    v = [p for b, p in zip(bordes, planos) if k <= b < k + a.tramo]
+    tramos.append({"desde": k, "hasta": min(k + a.tramo, dur), **resumen(v)})
+    k += a.tramo
+
+out = {"video": a.video, "duracion": round(dur, 2), "umbral": a.umbral, "n_cortes": len(cortes),
+       "cortes_por_minuto": round(len(cortes) / dur * 60, 1),
+       "transiciones_con_duracion": sum(c["tipo"] == "transicion" for c in cortes),
+       "global": resumen(planos), "tramos": tramos, "cortes": cortes}
+sal.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+print(json.dumps({k: out[k] for k in ("duracion", "n_cortes", "cortes_por_minuto", "transiciones_con_duracion", "global")}, ensure_ascii=False))
+for tr in tramos: print(f'{int(tr["desde"]//60):02d}:00  planos={tr.get("planos",0):3d}  mediana={tr.get("mediana","-")}  media={tr.get("media","-")}')

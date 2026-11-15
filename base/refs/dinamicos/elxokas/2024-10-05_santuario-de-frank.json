@@ -1,0 +1,311 @@
+{
+ "video": {
+  "archivo": "refs/dinamicos/elxokas/2024-10-05_santuario-de-frank.mp4",
+  "creador": "elxokas",
+  "url": "https://www.youtube.com/watch?v=fAM9vbNKJ-o",
+  "titulo": "¡XOKAS (con pelo) en EL SANTUARIO de FRANK ft. PLEX!",
+  "duracion": "19:59 (1199,23 s = 71 882 fotogramas)",
+  "publicado": "2024-10-05",
+  "fps_real": "59,94 (60000/1001), 1280x720, AV1. Sin fotogramas duplicados: 600 de 600 fotogramas distintos en tres muestras de 10 s (01:40, 06:40, 18:50). 1 fotograma = 16,7 ms. Todas las duraciones en fotogramas de esta ficha son a 60 fps: divide entre 2 para una línea de tiempo a 30 fps."
+ },
+ "resumen": "Vlog de cámara en mano con UN solo operador que sigue a Xokas, Plex, Frank y Paloma por el santuario. Casi no hay edición gráfica: 1 rótulo de lugar, 17 líneas de subtítulo en 20 min, 1 overlay de chat de Twitch, 2 momentos en blanco y negro, 1 transición con barrido y la cortinilla final. No hay rótulos de animales, ni flechas, círculos, stickers, memes, mapas ni título de apertura. El dinamismo NO viene de los cortes (131 cortes, 9,1 s/plano de media, 7,0 s de mediana, solo 3 % de planos < 1 s, cero ráfagas): viene de zooms rápidos dentro del plano (214 detectados, 10,7 por minuto; 140 de ellos de x1,3 o más), de 30 cortes con salto de escala (punch-in/punch-out en el corte) y de cortar en mitad de frase (104 de 131 cortes caen con la voz en marcha).",
+ "estructura": [
+  "00:00,0-00:00,7 arranque en frío: 12 fotogramas en negro + 1 plano de 0,5 s de Xokas saludando ya hablando («¡Hola!»). No hay cabecera, ni título, ni tráiler de lo que viene.",
+  "00:00,7-00:47 presentación a cámara de los cuatro en el camino. Rótulo de lugar a los 0,75 s. A los 3,8 s primer chiste de edición (aparte en blanco y negro 2,2 s). A los 26 s primer subtítulo (voz fuera de micro). A los 44 s overlay de chat de Twitch como chiste.",
+  "00:47-01:47 charla/broma a cámara (el «zulo»), planos largos de 15-24 s animados solo con zooms rápidos.",
+  "01:47-03:28 reto de comer gusanos (reacciones, zooms a las caras).",
+  "03:28-05:47 suricatas y mofetas (acción con animales, cámara a ras de suelo).",
+  "05:47-12:25 recinto de serpientes: pitones de bola, pitón de sangre, serpiente verde en la cámara de vigilancia. Es el bloque más largo y el de más zooms (hasta 20 por minuto en el min 10).",
+  "12:25-14:50 guacamayo (papilla con jeringa) y puercoespín. Única transición con barrido en 13:57,6.",
+  "14:50-16:17 interior: loris perezoso y vainas; 16:17-17:40 nutrias, cebú, guacamayos.",
+  "17:40-19:49 canguro (boxeo de Plex y de Frank): planos más largos del vídeo (hasta 34 s) casi sin cortes.",
+  "19:49-19:59 no hay despedida ni llamada a la acción hablada: última frase subtitulada («Tiene que crecer el doble») y disolución de humo/partículas de ~1,0 s a la cortinilla con el logo ELXOKAS y 4 iconos de redes (10 s)."
+ ],
+ "cortes": {
+  "total": 131,
+  "por_minuto": 6.6,
+  "s_por_plano": {
+   "media": 9.08,
+   "mediana": 7.01,
+   "p10": 1.97,
+   "p90": 20.92,
+   "max": 40.06
+  },
+  "s_por_plano_por_parte": {
+   "00:00-01:00": 7.5,
+   "01:00-05:00": 8.3,
+   "05:00-10:00": 9.4,
+   "10:00-15:00": 8.3,
+   "15:00-19:49": 11.1
+  },
+  "pct_planos_menos_de_1s": "3 % (4 de 132)",
+  "pct_planos_mas_de_5s": "61 %",
+  "rafagas": "0 (ni una sola vez hay 3 cortes en 2 s). Lo más parecido: 00:28,3-00:35,0, cinco cortes en 6,7 s alternando general y cerrado.",
+  "insertos_cortos": "4 en todo el vídeo, todos son el mismo momento visto MÁS CERCA y vuelta: 00:34,17-00:35,03 (0,87 s = 52 f, primer plano de Xokas, x2,33); 04:58,08-04:58,78 (0,70 s = 42 f, x1,70); 06:40,73-06:41,88 (1,15 s, x1,46); 16:39,43-16:40,37 (0,93 s, x1,54). No hay memes ni planos de archivo.",
+  "jump_cuts_al_hablar": "Hablan a 179 palabras/min. Mediana de 18,5 palabras por plano (media 27). 94 de 131 cortes caen DENTRO de una palabra según la transcripción y 104 de 131 (79 %) con menos de 0,35 s de silencio alrededor: se corta con la voz en marcha, sin dejar aire. El detector no ve jump cuts con encuadre casi idéntico; a ojo en las hojas de 0,1 s no aparecieron más.",
+  "corte_sobre_movimiento": "44 de 131 cortes (34 %) caen mientras la cámara se está moviendo rápido (barrido de mano): el corte se esconde en el movimiento.",
+  "camara_rapida_lenta_congelados_repeticiones": "Ninguno encontrado."
+ },
+ "zooms": [
+  {
+   "tipo": "Zoom rápido de entrada dentro del plano (snap zoom-in)",
+   "escala": "mediana x1,00->x1,43; rango habitual x1,16-x2,14 (p10-p90). 70 de 113 son de x1,3 o más",
+   "duracion": "mediana 0,33 s (20 f a 60 fps); rango 0,20-0,53 s (12-32 f)",
+   "curva": "en campana: acelera y frena, pico de velocidad a mitad del recorrido (equivale a ease-in-out); sin rebote",
+   "centro": "la cara de quien habla o reacciona, o el animal/las manos; solo el 30 % tiene el centro del zoom en el centro de la pantalla: casi siempre reencuadra a la vez",
+   "disparador": "reacción o remate («No», «mírale la mano», «si te fuera a morder»), el nombre del animal («que se llama pitón de sangre», 10:03,9) o cuando alguien empieza a hablar",
+   "extras": "sin temblor añadido ni blur ni flash; el pulso natural de la cámara en mano sigue durante el zoom",
+   "por_minuto": "5,6 (113 en 20 min); 3,5 por minuto contando solo los de x1,3 o más",
+   "ejemplos_t": [
+    "01:44,27 x1,44 en 0,27 s (a Paloma con los gusanos; fotogramas en detalle/f_snap_104.jpg)",
+    "07:49,73 x2,03 en 0,40 s",
+    "10:36,53 x2,05 en 0,27 s",
+    "17:50,33 x2,07 en 0,33 s"
+   ]
+  },
+  {
+   "tipo": "Zoom rápido de salida dentro del plano (snap zoom-out)",
+   "escala": "mediana x1,43->x1,00 (÷1,43); rango ÷1,19-÷1,79",
+   "duracion": "mediana 0,27-0,33 s (16-20 f)",
+   "curva": "en campana, igual que el de entrada",
+   "centro": "abre para volver a meter al grupo o al animal entero",
+   "disparador": "otra persona contesta, el animal se mueve, termina la frase del primer plano",
+   "extras": "35 de los 70 zoom-in grandes van seguidos de un zoom-out a los 2,9 s de mediana (ida y vuelta); el resto se resuelve con un corte",
+   "por_minuto": "5,1 (101 en 20 min); 3,5 por minuto de ÷1,3 o más",
+   "ejemplos_t": [
+    "01:46,67 ÷1,56 en 0,27 s",
+    "07:36,87 ÷1,41 en 0,27 s",
+    "10:14,07 ÷1,96 en 0,33 s",
+    "17:28,60 ÷1,79 en 0,33 s"
+   ]
+  },
+  {
+   "tipo": "Zoom largo hasta el detalle (crash zoom)",
+   "escala": "x2,6 a x4,6 (valores grandes medidos por seguimiento, margen de error ±20 %)",
+   "duracion": "0,47-1,6 s (28-96 f)",
+   "curva": "continua, velocidad casi constante con arranque suave",
+   "centro": "cabeza o lengua del animal, mano con la serpiente",
+   "disparador": "«mira», presentación del animal, peligro («está bufando»)",
+   "extras": "suele quedarse 2-5 s en el detalle y salir por corte",
+   "por_minuto": "0,4 (8 en 20 min)",
+   "ejemplos_t": [
+    "09:57,53 x4,6 en 1,60 s",
+    "13:50,80 x3,8 en 0,73 s (plumas del guacamayo)",
+    "09:27,00 x3,0 en 0,47 s («la lengua»)",
+    "02:12,53 x2,75 en 0,73 s",
+    "de salida: 16:12,93 ÷6,7 en 1,07 s y 12:45,40 ÷4,5 en 0,67 s"
+   ]
+  },
+  {
+   "tipo": "Punch-in / punch-out de golpe EN el corte",
+   "escala": "entrada x1,5-x2,4 (mediana x1,8); vuelta al general con el factor inverso; hay otros 14 saltos pequeños de x1,12-x1,25",
+   "duracion": "0 fotogramas (corte seco). El plano cerrado dura 0,7-4,1 s",
+   "curva": "golpe seco",
+   "centro": "cara del que habla",
+   "disparador": "cambio de quien habla o frase-remate dicha a cámara",
+   "extras": "30 de los 131 cortes (23 %) son en realidad el mismo momento con salto de escala. En 00:34,2 el fondo sale desenfocado en el cerrado: ahí es otra focal real, no un recorte",
+   "por_minuto": "1,5",
+   "ejemplos_t": [
+    "00:28,27 x1,91 -> vuelta en 00:30,67 (2,4 s cerrado)",
+    "00:34,17 x2,33 -> vuelta en 00:35,03 (0,87 s)",
+    "11:01,60 x1,80 -> vuelta en 11:05,73 (4,1 s)",
+    "11:21,60 x2,43 -> vuelta en 11:24,00 (2,4 s)",
+    "08:31,33 x1,79"
+   ]
+  },
+  {
+   "tipo": "Zoom animado + corte a más cerca (dos escalones)",
+   "escala": "x1,00->x1,62 animado y corte a x2,33",
+   "duracion": "0,33 s de zoom, 0,3 s quieto, corte, 0,87 s de primer plano",
+   "curva": "campana + golpe seco",
+   "centro": "cara de Xokas",
+   "disparador": "«¿Tienes algo que decir?» / pausa cómica antes de «Nada, buenos días»",
+   "extras": "único caso claro",
+   "por_minuto": "0,05",
+   "ejemplos_t": [
+    "00:33,53-00:35,03"
+   ]
+  },
+  {
+   "tipo": "NO encontrados",
+   "escala": "-",
+   "duracion": "-",
+   "curva": "-",
+   "centro": "-",
+   "disparador": "-",
+   "extras": "zoom lento sostenido (el 72 % de los pasos entre fotogramas medidos tiene escala 1,00 ±1 %), zoom con temblor añadido, zoom a cámara lenta, pantalla partida, cámara virtual que siga a alguien",
+   "por_minuto": "0",
+   "ejemplos_t": []
+  }
+ ],
+ "zooms_por_minuto": {
+  "nota": "zooms animados detectados por minuto de vídeo (min 0 a 19)",
+  "valores": [
+   7,
+   14,
+   19,
+   8,
+   13,
+   9,
+   12,
+   15,
+   15,
+   7,
+   20,
+   10,
+   5,
+   10,
+   10,
+   10,
+   12,
+   7,
+   2,
+   9
+  ]
+ },
+ "textos": [
+  {
+   "tipo": "Lugar (único rótulo «de diseño» del vídeo): chincheta roja + caja blanca «Santuario de Frank»",
+   "fuente_parecida_google": "Lexend (alternativas: Outfit, Readex Pro)",
+   "peso": "ExtraBold 800",
+   "caja": "Mayúscula inicial y minúsculas",
+   "color": "texto negro #111111 sobre caja blanca #FFFFFF con esquinas redondeadas (~6 px a 720p); chincheta roja lisa #E40208 con agujero circular",
+   "borde_sombra": "sin borde ni sombra",
+   "tamano_rel": "alto de mayúscula 0,050 del alto de pantalla (36 px a 720p; altura de x 25 px); caja 0,099 de alto (71 px) x 0,387 de ancho (495 px); chincheta 0,14 de alto (101 px) x 0,054 del ancho (69 px)",
+   "posicion": "abajo a la izquierda: chincheta desde x=5,6 % del ancho; caja de x=11,4 % a 50 %, y=79,4 % a 89,3 %; la chincheta sobresale 28 px por encima de la caja",
+   "entrada": "43 f en total (0,72 s): 1) la chincheta crece de 0 a 100 % en 9 f (00:00,75-00:00,90); 2) la caja blanca con el texto sale de detrás de la chincheta hacia la derecha en 34 f (00:00,90-00:01,47), rápida al principio y frenando (ease-out); el texto va pegado al borde derecho de la caja, así que se lee primero «…ank» y al final «Santuario…»",
+   "salida": "ninguna animación: desaparece con el corte seco de 00:03,77",
+   "duracion_s": "3,0 (181 f)",
+   "por_minuto": "0,05 (1 en todo el vídeo)",
+   "disparador": "aparece 0,75 s después del «¡Hola! Estamos en…», antes de que diga «Tailandia»",
+   "ejemplos_t": [
+    "00:00,75-00:03,77"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2024-10-05_santuario-de-frank/rotulos/lugar_pin_santuario-de-frank.jpg (fotograma entero: lugar_pin_fotograma.jpg; entrada fotograma a fotograma: ../detalle/f_pin_entrada.jpg)"
+  },
+  {
+   "tipo": "Subtítulo de frase suelta (voz lejana, fuera de micro o pisada)",
+   "fuente_parecida_google": "Lexend (la misma familia que el rótulo de lugar)",
+   "peso": "Bold 700",
+   "caja": "Frase normal: mayúscula inicial (a veces ni eso en la 2.ª línea), sin punto final; números en cifra («A las 11 de la noche», «Sois 2 marujas»)",
+   "color": "blanco #FDFDFD",
+   "borde_sombra": "contorno negro de ~3 px a 720p (0,4 % del alto) con esquinas redondeadas + sombra negra difusa muy corta; sin caja de fondo",
+   "tamano_rel": "alto de mayúscula 0,046 del alto de pantalla (33 px a 720p); altura de x 0,033 (24 px)",
+   "posicion": "centrado en horizontal, UNA sola línea, línea base en y=85,5 % (centro del texto en 83,5 %); la línea más larga ocupa el 69 % del ancho",
+   "entrada": "0 f: aparece de golpe, sin fundido, escala ni palabra a palabra",
+   "salida": "0 f: desaparece de golpe o se sustituye por la línea siguiente en el mismo fotograma; si llega un corte, muere en el corte",
+   "duracion_s": "1,0 de mediana por línea (rango 0,62-1,8 s = 37-108 f); 3-6 palabras por línea (máx. 7)",
+   "por_minuto": "0,85 líneas/min (17 líneas en 9 momentos); 7 de las 17 en el primer minuto y pico",
+   "disparador": "alguien habla lejos de la cámara o mientras otros ríen; la línea entra con la primera palabra de la frase",
+   "ejemplos_t": [
+    "00:26,28-00:27,23 «¿No era una presentación» + 00:27,23-00:28,30 «de \"hola vamos a tal\"?»",
+    "00:55,85-00:57,75 «A las 11 de la noche» / «me han aporreado la puerta»; 00:59,40-01:02,92 «se han venido en un taxi» / «y me han aporreado» / «y digo ¿qué queréis?»",
+    "05:17,52-05:19,79 «Estas en cuanto pase la época de lluvias» / «ya quedan fuera»",
+    "05:47,62-05:49,85 «Aquí es donde Grefg» / «enganchó no se cuantas»",
+    "13:56,17-13:57,65 «Ay espera el puercoespin»",
+    "19:47,90-19:48,98 «Tiene que crecer el doble»"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2024-10-05_santuario-de-frank/rotulos/subtitulo_epoca-de-lluvias.jpg, subtitulo_no-era-una-presentacion.jpg, subtitulo_hola-vamos-a-tal.jpg, subtitulo_me-han-aporreado.jpg, subtitulo_tiene-que-crecer.jpg (fotograma entero: subtitulo_fotograma.jpg)"
+  },
+  {
+   "tipo": "Texto-chiste / remate (mismo estilo que el subtítulo, no hay estilo aparte)",
+   "fuente_parecida_google": "Lexend",
+   "peso": "Bold 700",
+   "caja": "Frase normal",
+   "color": "blanco #FDFDFD",
+   "borde_sombra": "contorno negro ~3 px + sombra corta",
+   "tamano_rel": "0,046 (igual que el subtítulo)",
+   "posicion": "igual que el subtítulo",
+   "entrada": "de golpe (0 f)",
+   "salida": "de golpe; «como la mia» muere en el corte a blanco y negro",
+   "duracion_s": "0,6-0,9 (37-53 f)",
+   "por_minuto": "0,15 (3 líneas en el vídeo)",
+   "disparador": "el remate dicho en voz baja: se subtitula justo la frase graciosa para que no se pierda",
+   "ejemplos_t": [
+    "07:40,42-07:41,30 «Sois 2 marujas»",
+    "10:10,58-10:11,27 «De sangre...» + pausa de 0,47 s sin texto + 10:11,74-10:12,35 «como la mia»"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2024-10-05_santuario-de-frank/rotulos/textochiste_sois-2-marujas.jpg, subtitulo_de-sangre.jpg (fotograma entero: textochiste_fotograma.jpg)"
+  },
+  {
+   "tipo": "Dato (peso del animal), también con el estilo del subtítulo",
+   "fuente_parecida_google": "Lexend",
+   "peso": "Bold 700",
+   "caja": "Frase normal, cifra + unidad pegadas («300kg»)",
+   "color": "blanco #FDFDFD",
+   "borde_sombra": "contorno negro ~3 px + sombra corta",
+   "tamano_rel": "0,046",
+   "posicion": "igual que el subtítulo",
+   "entrada": "de golpe",
+   "salida": "de golpe en el corte",
+   "duracion_s": "1,8 (108 f)",
+   "por_minuto": "0,05 (1)",
+   "disparador": "Frank dice la cifra de espaldas a la cámara",
+   "ejemplos_t": [
+    "16:16,13-16:17,94 «300kg tirando para delante eh»"
+   ],
+   "recorte": "refs/dinamicos/_analisis/2024-10-05_santuario-de-frank/rotulos/dato_300kg.jpg"
+  },
+  {
+   "tipo": "NO existen en este vídeo",
+   "fuente_parecida_google": "-",
+   "peso": "-",
+   "caja": "-",
+   "color": "-",
+   "borde_sombra": "-",
+   "tamano_rel": "-",
+   "posicion": "-",
+   "entrada": "-",
+   "salida": "-",
+   "duracion_s": "-",
+   "por_minuto": "0",
+   "disparador": "-",
+   "ejemplos_t": [],
+   "recorte": "título de apertura o cabecera, nombres de animales, nombres de personas, comentarios del editor en otro color, palabras sueltas resaltadas, cuentas atrás, listas, capítulos. Revisado con un barrido de todo el vídeo a 4 fotogramas/s buscando texto blanco con borde y con todas las hojas."
+  }
+ ],
+ "subtitulos": "No subtitulan todo: solo 17 líneas en 9 momentos (≈17 s de 1199 s, 1,4 % del vídeo). Se subtitula a quien NO lleva micro o habla lejos/de espaldas (el cámara en 00:26, Frank en 00:55, 05:17, 05:47, 13:56, 16:16, 19:47) y dos remates en voz baja (07:40, 10:10). Nunca a Xokas hablando a cámara. Una línea cada vez, 3-6 palabras, sin colores por persona, sin resaltar palabras, sin animación; cambio de línea en el mismo fotograma. Ortografía descuidada (faltan tildes y comas): es un subtítulo rápido, no un rótulo.",
+ "otros_recursos": {
+  "blanco_y_negro": "2 veces. Imagen totalmente desaturada, entra y sale de golpe en un corte, sin texto: 00:03,77-00:05,97 (2,2 s; aparte «Ven tú también, o tú no vas a aparecer», además es punch-in x1,31) y 10:12,35-10:14,85 (2,5 s; justo después del chiste «como la mía», marca la pausa incómoda). Recorte: refs/dinamicos/_analisis/2024-10-05_santuario-de-frank/rotulos/efecto_blanco_y_negro.jpg",
+  "overlay_chat_twitch": "1 vez, 00:44,3-00:47,0 (2,7 s): captura real de un chat de Twitch superpuesta sobre Xokas cuando Plex dice «ya está viendo el chat». Ocupa aprox. x=37-58 % del ancho e y=55-100 %, semitransparente, entra con fundido de ~0,6 s (36 f) y muere en el corte. Recorte: refs/dinamicos/_analisis/2024-10-05_santuario-de-frank/rotulos/overlay_chat_twitch.jpg",
+  "stickers_emojis_memes": "ninguno",
+  "flechas_circulos_recortes": "ninguno",
+  "mapas": "ninguno",
+  "imagenes_superpuestas": "solo el chat de Twitch",
+  "barras_de_cine_marcos": "ninguno",
+  "cortinilla_final": "19:49,2-19:59: fondo degradado verde petróleo a morado con partículas, logo ELXOKAS centrado arriba (y≈35 %), «SÍGUEME EN» y 4 iconos redondos de redes abajo (y≈77 %) que aparecen uno a uno hacia 19:51-19:53. Recorte: refs/dinamicos/_analisis/2024-10-05_santuario-de-frank/rotulos/cierre_logo.jpg",
+  "musica_y_efectos": "no se puede saber (no hay audio.json)"
+ },
+ "transiciones": {
+  "total": "2 en 20 min; el resto son 131 cortes secos",
+  "lista": [
+   "13:57,62-13:57,80 (≈10 f, 0,17 s): barrido con desenfoque de movimiento horizontal añadido en edición (el subtítulo también se emborrona), disparado por «Ay, espera, el puercoespín»: sirve de salto de lugar a otro animal. Fotogramas en detalle/f_whip_837.jpg",
+   "19:49,2-19:50,3 (≈1,0 s): disolución con humo/partículas a la cortinilla final"
+  ],
+  "cambios_de_recinto": "se hacen por corte seco, a menudo sobre un movimiento de cámara; no hay cartela de capítulo ni de animal"
+ },
+ "receta": [
+  "1. Planos largos y vivos: 7-9 s por plano de media; no hace falta picar. Lo que no puede faltar es un cambio de escala cada 5-6 s.",
+  "2. Zoom rápido de entrada: x1,00->x1,4 (entre x1,2 y x2,0 según la fuerza del momento) en 20 fotogramas a 60 fps (0,33 s; 10 f a 30 fps), curva ease-in-out, centrado en la cara o el animal, no en el centro de pantalla.",
+  "3. Frecuencia: 10 zooms animados por minuto de media (5 de entrada + 5 de salida); 15-20 por minuto en los momentos fuertes (animal peligroso, reto) y 2-7 en los tranquilos.",
+  "4. Vuelta: en la mitad de los casos zoom-out simétrico (misma escala, 16-20 f) a los 2-3 s; en la otra mitad se sale con el siguiente corte.",
+  "5. Punch-in de golpe en el corte: 1 de cada 4 cortes es el mismo momento a x1,8 (x1,5-x2,4); se mantiene 0,7-4 s y se vuelve a x1,0 con otro corte seco.",
+  "6. Inserto de reacción: primer plano x1,7-x2,3 de 0,7-0,9 s (42-52 f) y vuelta al general; 1 cada 5 min.",
+  "7. Para enseñar un detalle del animal (lengua, plumas, colmillos): zoom largo x2,6-x4 en 0,5-0,75 s (hasta 1,6 s si es x4,6), aguantar 2-5 s y salir por corte.",
+  "8. Disparadores del zoom: la palabra-remate, el nombre del animal al presentarlo, «mira/mírale», una negación o un susto, y el arranque de quien contesta.",
+  "9. Cortar con la voz en marcha: 8 de cada 10 cortes con menos de 0,35 s de silencio; 1 de cada 3 sobre un movimiento de cámara.",
+  "10. Rótulo de lugar una sola vez, a los 0,75 s del vídeo: chincheta roja #E40208 (14 % del alto) que crece en 9 f + caja blanca redondeada (10 % de alto) con texto negro Lexend ExtraBold (mayúscula = 5 % del alto) que sale hacia la derecha en 34 f con ease-out; abajo-izquierda (x 5,6 %, base en y 89 %); 3,0 s en pantalla; se va con el corte.",
+  "11. Subtítulos solo para frases que no se oyen bien o remates en voz baja: Lexend Bold blanco, contorno negro de 0,4 % del alto + sombra corta, mayúscula = 4,6 % del alto, una línea centrada con la base en y 85,5 %, máx. 7 palabras y 69 % de ancho, entra y sale de golpe, 0,6-1,8 s por línea (≈1 s).",
+  "12. Chiste de edición nº 1: aparte en blanco y negro 2,2-2,5 s, de golpe entre dos cortes (opcional punch-in x1,3); 1 cada 10 min, nunca más.",
+  "13. Chiste de edición nº 2: una imagen real superpuesta (aquí el chat de Twitch) con fundido de 0,6 s y 2,7 s en pantalla; 1 en todo el vídeo.",
+  "14. Una única transición con barrido y blur de 10 f para saltar de un animal a otro; todo lo demás, corte seco.",
+  "15. Arranque: 0,2 s de negro y a hablar; sin cabecera ni título. Cierre: última frase y cortinilla de logo de 10 s."
+ ],
+ "dudas": [
+  "No se puede distinguir con certeza si los zooms rápidos dentro del plano son del objetivo (el operador gira el zoom mientras graba) o de edición. Indicios de que la mayoría son de cámara: escalas irregulares, casi siempre con reencuadre a la vez, duraciones variables y en 00:34 el fondo cambia de desenfoque. Para nuestro vídeo da igual: hay que reproducirlos en edición con los números de la receta.",
+  "El recuento de 214 zooms sale de un seguimiento automático a 15 muestras/s (umbral: cambio de escala acumulado ≥ 12 % en ≥ 3 muestras seguidas); puede incluir algún acercamiento físico rápido de la cámara y perder zooms sobre fondos sin textura. Los valores por encima de x2,5 tienen un margen de ±20 %. medir_zoom.py no se usó plano a plano: se hizo una versión equivalente de todo el vídeo de una pasada.",
+  "La fuente es una geométrica tipo Lexend; no se ha comprobado letra a letra contra Outfit/Readex Pro. El color y el grosor del contorno están medidos sobre una copia a 720p.",
+  "Música y efectos de sonido: no se pueden deducir; no se ve ningún efecto visual (flash, temblor) que delate un golpe de sonido.",
+  "Esta referencia NO sirve de modelo para rótulos de animales, datos en pantalla ni motion graphics: no tiene ninguno. Lo que sí enseña es el ritmo de zooms y el estilo de subtítulo/rótulo de lugar."
+ ]
+}
