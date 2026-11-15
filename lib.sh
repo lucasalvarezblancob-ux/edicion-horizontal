@@ -253,7 +253,7 @@ auto_actualizar() {
   local dest="$1" marca="$1/.claude/$NOMBRE-ultima-comprobacion" ahora antes viejo nuevo n
   git -C "$REPO_DIR" rev-parse --is-inside-work-tree >/dev/null 2>&1 || return 0
   [ -e "$dest/.claude/$NOMBRE-sin-auto" ] && return 0
-  ahora="$(date +%s)"; antes="$(limpia < "$marca" 2>/dev/null || true)"
+  ahora="$(date +%s)"; antes="$(cat "$marca" 2>/dev/null | limpia || true)"
   [ -n "${EDICION_HORIZONTAL_FORZAR:-}" ] || [ $((ahora - ${antes:-0})) -ge 21600 ] || return 0
   mkdir -p "$dest/.claude"; echo "$ahora" > "$marca"
   git_rapido fetch -q --tags origin main 2>/dev/null || return 0
@@ -268,6 +268,6 @@ auto_actualizar() {
   fi
   git -C "$REPO_DIR" merge -q --ff-only origin/main || return 0
   n="$(git -C "$REPO_DIR" rev-list --count "$viejo..HEAD")"
-  echo "$NOMBRE: actualizada sola a $(version_actual) ($n cambios). Novedades: git -C \"$REPO_DIR\" log --oneline $viejo..HEAD"
+  echo "$NOMBRE: actualizada sola a $(version_actual) ($n cambios). Novedades: git -C \"$REPO_DIR\" log --oneline ${viejo:0:7}..HEAD"
   EDICION_HORIZONTAL_SIN_PULL=1 EDICION_HORIZONTAL_RAPIDO=1 bash "$SKILL/actualizar.sh" "$dest" 2>&1 | grep -E '^  (\+|↻|·)|dependencias|versión nueva de estos' || true
 }
