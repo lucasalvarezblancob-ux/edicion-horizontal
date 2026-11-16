@@ -136,7 +136,8 @@ temas**), cómo elegir los fotogramas buenos y cómo elegir recursos para un ví
 Cuando el creador suba material a `recursos/` (o lo deje en `bruto/` diciendo que son recursos) o se use uno en un
 edit: analízalo y apúntalo en el índice. Al meterlos en un vídeo, cada clip casa con **lo que se dice en ese
 momento** y con **el outfit, los colores y el vibe del resto** (preferencias → Recursos). Antes de pedir material
-nuevo, busca en el índice.
+nuevo, busca en el índice. Si no hay nada que sirva (o `recursos/` está vacío), clips libres de Pexels con
+`herramientas/pexels.py` (preferencias → Recursos, 2026-11-16); lo del creador va primero cuando casa.
 
 ## 6. Otras skills y servicios
 
@@ -148,6 +149,7 @@ Las instala `instalar.sh` y `actualizar.sh` repone cualquier cosa que falte (pro
 - `media-use`: SFX/BGM/imágenes (la música del catálogo necesita `heygen` CLI con sesión iniciada; si no, `herramientas/synth_music.py` o `herramientas/slowed-reverb.sh` con una canción suya).
 - Para mirar vídeos (brutos, referencias, recursos) no hace falta ninguna skill: `herramientas/hoja_contactos.sh`, `ffprobe`/`ffmpeg`, `transcribir.sh` (Whisper local) y `puntos_movimiento.py`.
 - **ElevenLabs: opcional.** `instalar.sh` pregunta la clave una vez y se puede saltar. Es imprescindible solo para **voz en off generada con IA** (lo normal es que la voz sea un audio suyo): si la pide y no hay clave, pídesela y guárdala en `estudio/.env.local` (desde `.env.local.example`; no la abras ni la imprimas; `npx -y @elevenlabs/cli@latest onboard check --env-path .env.local` la verifica). Con la clave también van Scribe (tiempos por palabra precisos), aislar voz, SFX y música generados. Sin clave: Whisper local para tiempos, los SFX de `estudio/public/sonidos/`, música con `synth_music.py` o una canción suya, y para el ruido `highpass`/`afftdn` de ffmpeg.
+- **Pexels: opcional.** `PEXELS_API_KEY` en `estudio/.env.local` (gratis en pexels.com/api) hace que `herramientas/pexels.py` busque y baje clips verticales sin navegador. Sin clave, el método del navegador (preferencias → Recursos).
 
 ## 7. Instalar, actualizar, publicar
 

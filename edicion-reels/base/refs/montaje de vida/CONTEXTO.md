@@ -23,7 +23,7 @@ cortes secos y el clip tal cual. Encaja con la línea de Lucas (lifestyle + moti
 2. Cortes: `ffmpeg -vf "scale=180:320,select='gt(scene,0.12)',metadata=print"` y revisar los dudosos (score < 0,3) a 30 fps.
 3. Textos: OCR con `tesseract --psm 7` sobre la franja del texto a 10 fps (ruidoso, pero da los instantes de cambio) + hojas de contactos a 2 fps de esa franja para leerlos.
 4. Audio: `ffmpeg -vn -c:a copy` de la ref.
-5. Elegir un clip de `recursos/` por plano que case con la frase y con el **tipo de plano** de la ref (ver la tabla en el comentario de `estudio/src/videos/regalo-la-vida/RegaloLaVida.tsx`).
+5. Elegir un clip de `recursos/` por plano que case con la frase y con el **tipo de plano** de la ref (ver la tabla en el comentario de `estudio/src/videos/regalo-la-vida/RegaloLaVida.tsx`). Si no hay clip propio que case (o `recursos/` está vacío), uno de Pexels del mismo tipo de plano (`herramientas/pexels.py`, preferencias → Recursos); dilo al entregar.
 
 ## Correcciones de Lucas
 _Ninguna todavía._

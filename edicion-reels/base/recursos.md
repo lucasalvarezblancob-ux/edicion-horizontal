@@ -101,7 +101,8 @@ sujeto.
 4. **Variedad**: no repitas el mismo tramo en un vídeo y mira "Usado en" para no repetir el mismo clip en vídeos
    seguidos.
 5. **Si nada encaja**: el más cercano o quédate en el plano principal (zoom, texto), lo que quede mejor, y dilo al
-   entregar. Si la frase habla de algo que no tienes grabado, un clip libre de Pexels (preferencias → Recursos).
+   entregar. Si la frase habla de algo que no tienes grabado, o `recursos/` está vacío, un clip libre de Pexels
+   (`herramientas/pexels.py`; preferencias → Recursos). Lo tuyo va primero cuando casa.
 6. **Duración en el montaje**: un plano de recurso suele durar 0,6–2 s (según el ritmo del tipo de vídeo). Coge el
    subtramo que cubre la frase y corta en un punto de movimiento.
 

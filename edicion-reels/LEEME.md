@@ -36,6 +36,8 @@ carpeta y te ayuda a rellenar `personal/perfil.md` y `marca.ts` (el color por de
 
 Al final pregunta tu clave de ElevenLabs, **opcional** (Intro para saltar): con ella los subtítulos de los vídeos
 hablando a cámara salen más precisos y puedes usar voz en off con IA; sin ella todo funciona en local.
+Si no tienes recursos propios, la skill tapa los huecos con clips libres de Pexels. Opcional: una clave gratuita de
+Pexels (`PEXELS_API_KEY=` en `estudio/.env.local`, desde pexels.com/api) para que los baje sin abrir el navegador.
 `actualizar.sh` repone lo que falte (programas, skills, modelo, `.venv`, `node_modules`). Opcional: app **Edits** de Meta (la entrega estándar exporta desde Edits).
 
 ¿Ya tienes una carpeta de edición? `instalar.sh --adoptar "<ruta>"` añade lo que falte sin pisar nada.
