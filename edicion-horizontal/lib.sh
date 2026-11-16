@@ -1,10 +1,10 @@
 # Funciones comunes de edicion-horizontal (se carga con `source`). Vale para macOS y para Windows (Git Bash).
 SKILL="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)"
-# El repositorio ES la skill (github.com/lucasalvarezblancob-ux/edicion-horizontal): público para descargar; solo suben
-# cambios la cuenta dueña y sus colaboradores.
+# La skill es una carpeta del repo «Publiqo Edición» (github.com/lucasalvarezblancob-ux/publiqo-edicion):
+# público para descargar; solo suben cambios la cuenta dueña y sus colaboradores.
 REPO_DIR="$(git -C "$SKILL" rev-parse --show-toplevel 2>/dev/null || echo "$SKILL")"
 NOMBRE="edicion-horizontal"
-GH_REPO="lucasalvarezblancob-ux/edicion-horizontal"
+GH_REPO="lucasalvarezblancob-ux/publiqo-edicion"
 GH_URL="https://github.com/$GH_REPO.git"
 RELEASE="edicion-horizontal-refs"
 LISTA="$SKILL/base/refs/VIDEOS.txt"   # "<sha256>  <ruta relativa a base/refs>"; vacía mientras los vídeos de referencia no estén publicados
@@ -28,7 +28,7 @@ modo() {
   local login push
   login="$(gh api user -q .login 2>/dev/null | limpia || true)"
   [ -n "$login" ] || { echo local; return; }
-  if limpia < "$SKILL/AUTORES" | grep -qx "$login"; then echo autor; return; fi
+  if cat "$REPO_DIR/AUTORES" "$SKILL/AUTORES" 2>/dev/null | limpia | grep -qx "$login"; then echo autor; return; fi
   push="$(gh api "repos/$GH_REPO" -q .permissions.push 2>/dev/null | limpia || true)"
   if [ "$push" = true ]; then echo autor; else echo local; fi
 }
@@ -214,6 +214,7 @@ instalar_creador() {
     [ -e "$d" ] && continue; mkdir -p "$(dirname "$d")"; cp -p "$src/$f" "$d"
   done
   echo "  ✓ personal/$n/ (perfil, preferencias, recursos.md, marca, ajustes, fichas de refs) y sus gráficos de estudio/"
+  sincronizar_creadores "$dest" >/dev/null
   conectar_disco "$dest" "$n"
 }
 conectar_disco() {   # enlaza personal/<n>/recursos al disco y copia lo pesado de refs/ que falte
@@ -250,24 +251,44 @@ conectar_disco() {   # enlaza personal/<n>/recursos al disco y copia lo pesado d
 version_actual() { git -C "$REPO_DIR" describe --tags --abbrev=0 2>/dev/null | limpia || echo "sin versión"; }
 git_rapido() { git -C "$REPO_DIR" -c http.lowSpeedLimit=1000 -c http.lowSpeedTime=15 "$@"; }
 auto_actualizar() {
-  local dest="$1" marca="$1/.claude/$NOMBRE-ultima-comprobacion" ahora antes viejo nuevo n
+  local dest="$1" marca="$1/.claude/$NOMBRE-commit" hecho ahora
   git -C "$REPO_DIR" rev-parse --is-inside-work-tree >/dev/null 2>&1 || return 0
   [ -e "$dest/.claude/$NOMBRE-sin-auto" ] && return 0
-  ahora="$(date +%s)"; antes="$(cat "$marca" 2>/dev/null | limpia || true)"
-  [ -n "${EDICION_HORIZONTAL_FORZAR:-}" ] || [ $((ahora - ${antes:-0})) -ge 21600 ] || return 0
-  mkdir -p "$dest/.claude"; echo "$ahora" > "$marca"
-  git_rapido fetch -q --tags origin main 2>/dev/null || return 0
-  viejo="$(git -C "$REPO_DIR" rev-parse HEAD)"; nuevo="$(git -C "$REPO_DIR" rev-parse origin/main)"
-  [ "$viejo" = "$nuevo" ] && return 0
-  if ! git -C "$REPO_DIR" merge-base --is-ancestor HEAD origin/main; then
-    git -C "$REPO_DIR" merge-base --is-ancestor origin/main HEAD && return 0     # vas por delante (autor sin publicar)
-    echo "$NOMBRE: hay versión nueva en GitHub, pero esta copia tiene commits propios sin publicar → publicar.sh o actualizar.sh."; return 0
+  # 1. el repo entero (todas las skills): versión nueva de GitHub + skills nuevas enlazadas (como mucho cada 6 h)
+  [ -f "$REPO_DIR/sincronizar.sh" ] && bash "$REPO_DIR/sincronizar.sh" ${EDICION_HORIZONTAL_FORZAR:+--ya}
+  # 2. si la skill cambió desde la última vez en ESTA carpeta: plantilla (sin pisar lo tocado) y perfiles de creadores
+  ahora="$(git -C "$REPO_DIR" rev-parse HEAD)"; hecho="$(cat "$marca" 2>/dev/null | limpia || true)"
+  [ "$ahora" = "$hecho" ] && return 0
+  mkdir -p "$dest/.claude"
+  if [ -n "$hecho" ]; then
+    EDICION_HORIZONTAL_SIN_PULL=1 EDICION_HORIZONTAL_RAPIDO=1 bash "$SKILL/actualizar.sh" "$dest" 2>&1 | grep -E '^  (\+|↻|·)|dependencias|versión nueva de estos' || true
   fi
-  if [ -n "$(git -C "$REPO_DIR" status --porcelain)" ]; then
-    echo "$NOMBRE: hay versión nueva en GitHub, pero hay cambios sin publicar en la skill: no la actualizo sola (publicar.sh primero)."; return 0
-  fi
-  git -C "$REPO_DIR" merge -q --ff-only origin/main || return 0
-  n="$(git -C "$REPO_DIR" rev-list --count "$viejo..HEAD")"
-  echo "$NOMBRE: actualizada sola a $(version_actual) ($n cambios). Novedades: git -C \"$REPO_DIR\" log --oneline ${viejo:0:7}..HEAD"
-  EDICION_HORIZONTAL_SIN_PULL=1 EDICION_HORIZONTAL_RAPIDO=1 bash "$SKILL/actualizar.sh" "$dest" 2>&1 | grep -E '^  (\+|↻|·)|dependencias|versión nueva de estos' || true
+  sincronizar_creadores "$dest"
+  echo "$ahora" > "$marca"
+}
+
+# Perfiles de los creadores incluidos: lo que el AUTOR cambie en creadores/<n>/ se copia encima del perfil local
+# (personal/<n>/ y sus gráficos de estudio/), aunque se haya tocado en local: el autor manda. Lo que el autor no ha
+# cambiado no se toca (lo aprendido en local sigue ahí hasta que el autor cambie ese archivo). En el ordenador del autor
+# no se hace: allí su carpeta de edición es el original (publicar.sh lo copia a creadores/<n>/).
+sincronizar_creadores() {
+  local dest="$1" man="$1/.claude/$NOMBRE-creadores.sha256" nuevo_man n f d nuevo viejo cambios=0
+  [ -d "$SKILL/creadores" ] || return 0
+  [ "$(modo)" = autor ] && return 0
+  touch "$man" 2>/dev/null || return 0; nuevo_man="$(mktemp)"
+  for n in $(creadores_incluidos); do
+    [ -d "$dest/personal/$n" ] || continue
+    while IFS= read -r f; do
+      case "$f" in personal/*) d="$dest/personal/$n/${f#personal/}";; *) d="$dest/$f";; esac
+      nuevo="$(sha "$SKILL/creadores/$n/$f")"
+      viejo="$(limpia < "$man" | awk -v f="$n/$f" 'substr($0,67)==f {print substr($0,1,64)}')"
+      if [ ! -e "$d" ] || { [ -n "$viejo" ] && [ "$nuevo" != "$viejo" ] && [ "$(sha "$d")" != "$nuevo" ]; }; then
+        mkdir -p "$(dirname "$d")"; cp -p "$SKILL/creadores/$n/$f" "$d"; echo "  ↻ perfil de $n: ${d#$dest/}"; cambios=$((cambios+1))
+      fi
+      echo "$nuevo  $n/$f" >> "$nuevo_man"
+    done < <(cd "$SKILL/creadores/$n" && find personal estudio -type f 2>/dev/null | LC_ALL=C sort)
+  done
+  mv "$nuevo_man" "$man"
+  [ $cambios -gt 0 ] && echo "$NOMBRE: perfil de creador actualizado por el autor ($cambios archivos)."
+  return 0
 }

@@ -19,44 +19,23 @@ creador** (`personal/<creador>/`; lo normal es uno): se crea con `herramientas/m
 editar archivos: díselo a Claude («los zooms más suaves», «mi color es el naranja», «pon siempre mi cabecera») y lo
 apunta donde toca. Qué es cada archivo: `personal/LEEME.md`.
 
-**Solo Lucas cambia las bases.** El repositorio es público (cualquiera lo descarga) pero solo pueden subir cambios
-la cuenta dueña (`lucasalvarezblancob-ux`) y las cuentas que invite como colaboradoras. En cualquier otra instalación la
+**Solo Lucas cambia las bases.** El repositorio (Publiqo Edición) es público, cualquiera lo descarga, pero solo
+pueden subir cambios la cuenta dueña (`lucasalvarezblancob-ux`) y las cuentas que invite como colaboradoras. En cualquier otra instalación la
 skill es de solo lectura (un hook impide que Claude la edite). `modo.sh` dice si eres `autor` o `local`.
 
 ## Instalar
 
-### Windows (un solo comando)
+La skill viene dentro del repo **Publiqo Edición**: se instala con su instalador de un solo comando (Mac y
+Windows), que trae además todos los programas y las demás skills. Ver el
+[README del repo](https://github.com/lucasalvarezblancob-ux/publiqo-edicion#readme).
 
-En **PowerShell** (no hace falta ser administrador):
-
-```powershell
-irm https://raw.githubusercontent.com/lucasalvarezblancob-ux/edicion-horizontal/main/instalar.ps1 | iex
-```
-
-Instala **todo lo que falte** para editar y renderizar: Git, ffmpeg completo (con libplacebo, para HDR del iPhone),
-Node LTS, Python 3.12, yt-dlp, GitHub CLI, mpv y Claude Code; descarga la skill en `~\Projects\edicion-horizontal`
-y crea la carpeta de edición en `~\Desktop\Horizontal` con las skills de apoyo (Remotion, HyperFrames, media-use),
-la `.venv` de Python (con PyTorch para tu gráfica si hay NVIDIA), `node_modules` y el navegador de render de Remotion.
-Lo que ya tengas instalado no se toca. Varios GB y un buen rato la primera vez.
-
-Con opciones (otra carpeta, o un creador que viene con la skill):
-
-```powershell
-& ([scriptblock]::Create((irm https://raw.githubusercontent.com/lucasalvarezblancob-ux/edicion-horizontal/main/instalar.ps1))) -Carpeta "$HOME\Desktop\Horizontal" -Creador reinoselva
-```
-
-### macOS (un solo comando)
-
-En **Terminal**:
+Lo que hace para esta skill: crea la carpeta de edición en `~/Desktop/Horizontal` (Mac: Homebrew; Windows: winget)
+con las skills de apoyo (Remotion, HyperFrames, media-use), la `.venv` de Python (con PyTorch para tu gráfica si hay
+NVIDIA), `node_modules` y el navegador de render de Remotion. A mano, con el repo ya descargado:
 
 ```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/lucasalvarezblancob-ux/edicion-horizontal/main/instalar-mac.sh)"
+bash ~/Projects/publiqo-edicion/edicion-horizontal/instalar.sh "$HOME/Desktop/Horizontal"   # [--creador <n>]
 ```
-
-Instala Homebrew si falta (te pide la contraseña del Mac) y con él git, ffmpeg, node, python, yt-dlp y gh; Claude Code
-si falta; descarga la skill en `~/Projects/edicion-horizontal` y crea la carpeta de edición en `~/Desktop/Horizontal`
-con todo lo demás, igual que en Windows. Con creador u otra carpeta, añade al final `_ --creador reinoselva` (y/o
-`--carpeta "<ruta>"`).
 
 ### Opciones de `instalar.sh`
 - `--creador <n>`: deja ya hecha la personalización de un creador que viene con la skill (`creadores/<n>/`) y enlaza sus
@@ -82,14 +61,15 @@ Para **Reino Selva**: conecta su disco duro y lanza el instalador con su creador
 
 ```sh
 # Mac (Terminal)
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/lucasalvarezblancob-ux/edicion-horizontal/main/instalar-mac.sh)" _ --creador reinoselva
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/lucasalvarezblancob-ux/publiqo-edicion/main/instalar-mac.sh)" _ --creador reinoselva
 ```
 ```powershell
 # Windows (PowerShell)
-& ([scriptblock]::Create((irm https://raw.githubusercontent.com/lucasalvarezblancob-ux/edicion-horizontal/main/instalar.ps1))) -Creador reinoselva
+& ([scriptblock]::Create((irm https://raw.githubusercontent.com/lucasalvarezblancob-ux/publiqo-edicion/main/instalar.ps1))) -Creador reinoselva
 ```
 
-Queda `personal/reinoselva/` con todo, y `personal/reinoselva/recursos` enlazado al disco (en Mac lo busca en
+Queda `personal/reinoselva/` con todo (y **cuando Lucas actualiza su perfil, le llega solo**: los archivos que Lucas
+cambie se sobrescriben en su ordenador; lo demás que haya aprendido en local se queda), y `personal/reinoselva/recursos` enlazado al disco (en Mac lo busca en
 `/Volumes/<disco>/Horizontal/…`; en Windows, en cualquier letra). Si el disco no estaba conectado al instalar o cambia de
 letra: `bash .claude/skills/edicion-horizontal/conectar_disco.sh reinoselva` desde la carpeta de edición. Al abrir
 Claude Code se avisa si el disco no está conectado.
@@ -109,8 +89,9 @@ La música la pones tú (tu banco, tu licencia) en `personal/<creador>/recursos/
 
 ## Actualizar y versiones
 
-**Se actualiza sola.** Al abrir Claude Code en la carpeta de edición (como mucho cada 6 h) mira si hay versión nueva en
-GitHub y, si la hay, se pone al día: la skill y las herramientas y gráficos de serie que no hayas tocado. Si la versión
+**Se actualiza sola.** Al abrir Claude Code (como mucho cada 6 h) mira si hay versión nueva en GitHub y, si la hay, se
+pone al día: todas las skills del repo y, en la carpeta de edición, las herramientas y gráficos de serie que no hayas
+tocado y el perfil de los creadores incluidos que haya cambiado Lucas. Si la versión
 nueva cambia dependencias (npm/pip), avisa para lanzar el actualizador completo:
 
 ```sh
@@ -119,13 +100,13 @@ bash .claude/skills/edicion-horizontal/actualizar.sh      # completo: también p
 Para que no se actualice sola en una carpeta: crea el archivo `.claude/edicion-horizontal-sin-auto`.
 
 Cada publicación es una **versión** (`v1.0`, `v1.1`…) con su Release en
-[GitHub](https://github.com/lucasalvarezblancob-ux/edicion-horizontal/releases). El autor publica y, si algo sale mal,
+[GitHub](https://github.com/lucasalvarezblancob-ux/publiqo-edicion/releases). El autor publica y, si algo sale mal,
 vuelve atrás para todos:
 
 ```sh
-bash .claude/skills/edicion-horizontal/publicar.sh "qué cambió y por qué"     # versión nueva (--mayor: v2.0)
-bash .claude/skills/edicion-horizontal/publicar.sh --versiones               # lista de versiones
-bash .claude/skills/edicion-horizontal/publicar.sh --volver v1.2             # rollback (se publica como versión nueva)
+bash ~/Projects/publiqo-edicion/publicar.sh "qué cambió y por qué"     # versión nueva de TODAS las skills
+bash ~/Projects/publiqo-edicion/publicar.sh --versiones               # lista de versiones
+bash ~/Projects/publiqo-edicion/publicar.sh --volver v2.0             # rollback (se publica como versión nueva)
 ```
 Pone al día las herramientas y los gráficos de serie que no hayas tocado. **Nunca pisa** `personal/` (con tus recursos), `refs/`,
 `out/`, `marca.ts`, tus gráficos propios ni nada que hayas cambiado (te lo lista).
@@ -140,8 +121,8 @@ Pone al día las herramientas y los gráficos de serie que no hayas tocado. **Nu
 | `proteger.sh` | hook que impide editar la skill si no eres el autor |
 | `modo.sh` | imprime `autor` o `local` |
 | `conectar_disco.sh` | enlazar los recursos de un creador a su disco duro |
-| `instalar.ps1` / `instalar-mac.sh` | instalador de un solo comando para Windows / macOS (programas + skill + carpeta) |
-| `publicar.sh` | solo el autor: publicar versión nueva, listar versiones, volver a una anterior |
+| `publicar.sh` | solo el autor: publica todo el repo (llama a `publicar.sh` de la raíz; `--con-videos` sube además los vídeos de referencia) |
+| `antes_de_publicar.sh` | lo lanza la publicación: copia a `creadores/<n>/` el perfil del creador desde la carpeta de edición del autor |
 
 ## Estado de las pruebas (2026-11-12)
 

@@ -1,0 +1,22 @@
+# Los vídeos de referencia no van en git (de momento solo en local; cuando se publiquen irán al Release
+# `edicion-horizontal-refs`, con lista y hashes en base/refs/VIDEOS.txt).
+base/refs/**/*.mp4
+base/refs/**/*.MP4
+base/refs/**/*.mov
+base/refs/**/*.MOV
+base/refs/**/*.m4v
+base/refs/**/*.mp3
+base/refs/**/*.wav
+.DS_Store
+__pycache__/
+# Creadores incluidos (creadores/<n>/): su personalización sí va en git; sus recursos/ y lo pesado de refs/ (vídeos,
+# fotogramas, miniaturas generadas) están en su disco duro, en <disco>/Horizontal/personal/<n>/ (conectar_disco.sh).
+creadores/*/personal/recursos/
+creadores/*/personal/refs/**/*.mp4
+creadores/*/personal/refs/**/*.mov
+creadores/*/personal/refs/**/*.png
+creadores/*/personal/refs/**/*.jpg
+creadores/*/personal/refs/**/*.jpeg
+creadores/*/personal/refs/**/*.pdf
+creadores/*/personal/refs/**/*.webp
+*.pyc

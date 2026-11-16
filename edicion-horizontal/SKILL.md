@@ -16,8 +16,8 @@ bases de la skill  →  personalización del creador (personal/)  →  lo que pi
 
 ## 0. Dónde está cada cosa y quién puede cambiar qué
 
-- `<skill>` = la carpeta de esta skill (`.claude/skills/edicion-horizontal/`, enlace a `~/Projects/edicion-horizontal`, clon del repo público
-  `github.com/lucasalvarezblancob-ux/edicion-horizontal`).
+- `<skill>` = la carpeta de esta skill (`.claude/skills/edicion-horizontal/`, enlace a `~/Projects/publiqo-edicion/edicion-horizontal`, dentro del
+  repo público «Publiqo Edición», `github.com/lucasalvarezblancob-ux/publiqo-edicion`).
   **Solo lectura.** Lleva las bases: `base/preferencias.md`, `base/intros.md`, `base/recursos.md`,
   `base/titulos-miniaturas.md`, `base/descripciones.md`, `base/refs/<tipo>/` (fichas + `CONTEXTO.md`),
   `base/refs/_youtube/` (el estudio de títulos, miniaturas y descripciones de diez canales), `base/ejemplos/<slug>/` (código de edits hechos)
@@ -130,7 +130,8 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
    capítulos `S(n, …)` → cierre. Cada frase, copiada literal de la transcripción con `T(…)` y **entera** (de donde
    empieza a donde acaba: nada de medias frases). Fuera retomas, arranques, ideas repetidas y tiempos muertos;
    **dentro todo lo que le da toque al vídeo** (humor, apartes al perro o a quien graba, reacciones, anécdotas,
-   explicaciones, lo que siente): ante la duda se deja, y la duración no es motivo para quitarlo (preferencias → Que el
+   explicaciones, lo que siente) **y lo que pasa sin palabras**: el fallo o el susto en sí (se le cae algo al agua), con su sonido,
+   delante de la frase que lo cuenta (los `momentos` del registro visual): ante la duda se deja, y la duración no es motivo para quitarlo (preferencias → Que el
    vídeo lo cuente todo).
    Enseña al creador la escaleta (capítulos y duración estimada) si es su primer vídeo o si lo pide.
 3. **Línea y voz**: `paso1_alinear.py` (alineación forzada: bordes de cada frase y frame de cada palabra) →
@@ -140,7 +141,7 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
 4. **Plan → `plan.py`**: recursos sobre la voz (`BROLL`, elegidos del registro visual y **mirados** con `tira.py`),
    frases fuertes y zooms (`FUERTES`, `ENTRADAS`), cifras (`DATOS`), palabras-golpe (`GOLPES`), rótulos con seguimiento
    (`TRK`), mapas (`MAPAS`), subtítulos solo donde se oye mal (`SUBS`), título (`TITULO`), petición de suscripción
-   (`BOTONES`: siempre el botón animado de la skill, abajo en el centro, en el idioma del vídeo y **solo**: ningún texto a la vez), matrículas (`TAPAR`), voz de quien no quiere que se le reconozca (`VOZ_DISFRAZ`: voz de pitufo; preferencias → Audio), resalte de algo importante que se pierde en el plano (`FOCOS`: blanco y negro todo menos el
+   (`BOTONES`: siempre el botón animado de la skill, abajo en el centro, en el idioma del vídeo y **solo**: ningún texto a la vez), matrículas (`TAPAR`), voz de quien no quiere que se le reconozca (`VOZ_DISFRAZ`: tono arriba, solo si el creador lo pide; preferencias → Audio), resalte de algo importante que se pierde en el plano (`FOCOS`: blanco y negro todo menos el
    sujeto; con criterio, 1–2 por vídeo), gráficos propios del creador (`PROPIOS`) y música por ventanas
    (`PISTAS`, `VENTANAS`). Los cortes de escala alternos los pone solo el motor (`dinamica.py`, con los números de
    `personal/<creador>/ajustes.py` si el creador los ha cambiado). **Aplica aquí lo del creador**: su
@@ -157,6 +158,11 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
      corte las ajusta solo `paso3_plan.py`, y también alarga solo cada texto hasta que se ha dicho entero y se
      puede leer (lo imprime; `CORTO` en `timing_textos.py` = el texto siguiente no le deja sitio).
    - `hoja_recursos.py` → mira TODAS las hojas: cada recurso enseña su sujeto desde el primer fotograma.
+   - `planos_vacios.py` → planos principales sin cara sobre pared, techo, barrido o la cámara pegada al cuerpo, con
+     lo que se dice encima (`trabajo/vacios.jpg`): cada uno fuera del EDL, tapado con un recurso de lo que se habla o
+     apuntado en `VACIOS_OK` (preferencias → Paredes).
+   - Si hay `VOZ_DISFRAZ` (o habla alguien más): `voces.py` → frases con pinta de ser de la otra persona y cuáles faltan
+     por disfrazar; `paso5_audio.py` lo repite como `AVISO VOZ:` (preferencias → Audio).
    - `ver.py F …` en cada texto (frame anterior a la palabra: no está; frame de la palabra: está), cada cifra, cada zoom
      animado o a un sujeto (¿apunta bien?) y cada cambio de sección (¿el plano de antes y el de después tienen sentido?).
    - Cada gráfico propio o botón: `ver.py` en **cada plano que pisa** (los cortes de escala cambian el encuadre por debajo):
@@ -312,14 +318,16 @@ flujo funciona con Whisper local, los sonidos de serie y la música del creador.
 - `bash <skill>/instalar.sh "<ruta>"` — crea la carpeta de edición desde `plantilla/` (con `personal/_plantilla/`),
   enlaza la skill, instala lo que falte (`--adoptar` para una carpeta que ya existe; `--ligero` sin skills de apoyo,
   `.venv` ni `node_modules`). Detalle en `<skill>/LEEME.md`.
-- La skill **se actualiza sola** al abrir sesión (hook `comprobar.sh`, como mucho cada 6 h): si hay versión nueva en
-  GitHub y la copia está limpia, fast-forward y plantilla al día. Si el hook dice que se actualizó, tenlo en cuenta (lee
+- La skill **se actualiza sola** al abrir sesión (hook `comprobar.sh` → `sincronizar.sh` del repo, como mucho cada 6 h):
+  si hay versión nueva en GitHub y la copia está limpia, fast-forward, plantilla al día y el perfil de los creadores
+  incluidos que haya cambiado el autor (en modo local se sobrescribe lo que el autor cambió). Si el hook dice que se actualizó, tenlo en cuenta (lee
   las novedades si afectan a lo que vas a hacer).
 - `bash <skill>/actualizar.sh` — completo: además programas, skills de apoyo y dependencias. Pone al día herramientas y componentes de serie que no se hayan tocado en local.
   **Nunca pisa** `personal/` (con los recursos de cada creador), `refs/`, `out/`, `marca.ts`, `estudio/src/personal/` ni nada cambiado en
   local (lo lista).
 - `bash <skill>/conectar_disco.sh <creador>` — enlaza `personal/<creador>/recursos` a su disco duro (lo busca en todas
   las unidades) y copia lo pesado de sus `refs/`. Para cuando cambia la letra del disco o se conecta por primera vez.
-- `bash <skill>/publicar.sh "<mensaje>"` — **solo modo autor y solo cuando Lucas lo pida expresamente**: commit de
-  todo el repo, push a `main` y versión nueva (`vX.Y`, con Release). `--versiones` las lista; `--volver vX.Y` hace
+- `bash <skill>/publicar.sh "<mensaje>"` — **solo modo autor y solo cuando Lucas lo pida expresamente**: publica TODO
+  el repo (todas las skills; antes copia a `creadores/<n>/` el perfil desde la carpeta de edición) como versión nueva
+  (`vX.Y`, con Release). `--versiones` las lista; `--volver vX.Y` hace
   rollback para todos (publicado como versión nueva; no borra historial).

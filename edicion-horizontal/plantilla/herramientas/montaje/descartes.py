@@ -8,6 +8,8 @@ Compara los brutos con el EDL y el plan y escribe trabajo/descartes.md con dos l
 
   IMAGEN que no está en el vídeo: los «mejores recursos» y los tramos con nota alta del registro visual que no salen
   ni como plano de recurso ni dentro de una pieza (un animal haciendo algo, una reacción, un momento sin palabras).
+  Primero, los MOMENTOS sin usar (fallos, caídas, sustos, lo que hace el animal: «momentos» del registro): van en el
+  vídeo aunque el plano sea feo, y si el creador lo cuenta después, el momento va antes que la frase que lo cuenta.
 
 Uso (desde out/<slug>/, después de paso3_plan.py):  descartes.py
 Obligatorio antes de entregar (SKILL.md § 2, paso 5): leer el archivo ENTERO y decidir cada NUEVO y cada imagen sin usar
@@ -69,6 +71,8 @@ for c in clips:
 out.append("\n\n# Imagen del registro visual que no sale en el vídeo\n")
 for f in sorted(glob.glob(f"{ANALISIS}/visual/*.json")):
     d = json.load(open(f, encoding="utf-8")); c = d.get("clip") or os.path.basename(f).split("_")[0].split(".")[0]; lin = []
+    for r in d.get("momentos", []):
+        if solape(c, r["t0"], r["t1"]) < 0.5: lin.append(f"- **MOMENTO sin usar** [{r.get('tipo', '')}] {mmss(r['t0'])}–{mmss(r['t1'])} · {r.get('que', '')}" + (f" · luego dice: {r['luego_dice']}" if r.get("luego_dice") else "") + " → MÉTELO (preferencias → Que el vídeo lo cuente todo)")
     for r in d.get("mejores_recursos", []):
         if solape(c, r["t0"], r["t1"]) < 0.3: lin.append(f"- **MEJOR RECURSO sin usar** {mmss(r['t0'])}–{mmss(r['t1'])} · {r.get('que', '')} · para: {r.get('para', '')}")
     for r in d.get("tramos", []):
@@ -78,4 +82,4 @@ for f in sorted(glob.glob(f"{ANALISIS}/visual/*.json")):
 
 open(f"{TRABAJO}/descartes.md", "w", encoding="utf-8", newline="\n").write("\n".join(out) + "\n")
 for c, tot, us in res: print(f"{c}: {us}/{tot} palabras en el vídeo ({100 * us // max(tot, 1)} %)")
-print(f"{TRABAJO}/descartes.md ({sum(1 for l in out if '**NUEVO**' in l)} tramos de habla NUEVOS, {sum(1 for l in out if 'sin usar' in l)} imágenes sin usar): LÉELO ENTERO")
+print(f"{TRABAJO}/descartes.md ({sum(1 for l in out if '**NUEVO**' in l)} tramos de habla NUEVOS, {sum(1 for l in out if 'sin usar' in l)} imágenes sin usar, {sum(1 for l in out if 'MOMENTO sin usar' in l)} MOMENTOS sin usar): LÉELO ENTERO")

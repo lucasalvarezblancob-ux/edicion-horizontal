@@ -1,16 +1,18 @@
 #!/usr/bin/env bash
-# Instalador de edicion-horizontal para macOS: todo lo necesario para editar y renderizar, de una vez. En Terminal:
-#   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/lucasalvarezblancob-ux/edicion-horizontal/main/instalar-mac.sh)"
-# con creador que viene con la skill y/u otra carpeta (por defecto ~/Desktop/Horizontal):
-#   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/lucasalvarezblancob-ux/edicion-horizontal/main/instalar-mac.sh)" _ --creador reinoselva
+# Instalador de las Publiqo Edición para macOS: todas las skills y todo lo necesario para editar y renderizar.
+# En Terminal:
+#   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/lucasalvarezblancob-ux/publiqo-edicion/main/instalar-mac.sh)"
+# con creador que viene incluido y/u otra carpeta de edición (por defecto ~/Desktop/Horizontal):
+#   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/lucasalvarezblancob-ux/publiqo-edicion/main/instalar-mac.sh)" _ --creador reinoselva
 #
 # Hace: Homebrew (te pide la contraseña del Mac) y con él git, ffmpeg, node, python, yt-dlp y gh si faltan; Claude
-# Code si falta; descarga la skill en ~/Projects/edicion-horizontal (o la actualiza) y lanza instalar.sh, que crea la
-# carpeta de edición, las skills de apoyo (Remotion, HyperFrames), la .venv de Python, node_modules y el navegador de
-# render. Con --creador, deja además su personalización y enlaza sus recursos a su disco duro.
+# Code si falta; descarga el repo en ~/Projects/publiqo-edicion (o lo actualiza); enlaza todas sus skills en
+# ~/.claude/skills y deja el hook que las actualiza solas (y añade las nuevas); y lanza edicion-horizontal/instalar.sh:
+# la carpeta de edición, las skills de apoyo (Remotion, HyperFrames), la .venv de Python, node_modules y el navegador
+# de render. Con --creador, deja además su personalización y enlaza sus recursos a su disco duro.
 set -euo pipefail
-REPO="https://github.com/lucasalvarezblancob-ux/edicion-horizontal.git"
-SKILL_DIR="$HOME/Projects/edicion-horizontal"
+REPO="https://github.com/lucasalvarezblancob-ux/publiqo-edicion.git"
+SKILLS_DIR="$HOME/Projects/publiqo-edicion"
 CARPETA="$HOME/Desktop/Horizontal"; EXTRA=()
 while [ $# -gt 0 ]; do
   case "$1" in
@@ -19,7 +21,7 @@ while [ $# -gt 0 ]; do
     *) CARPETA="$1"; shift;;
   esac
 done
-[ "$(uname)" = Darwin ] || { echo "Esto es para macOS. En Windows: instalar.ps1 (ver LEEME.md)."; exit 1; }
+[ "$(uname)" = Darwin ] || { echo "Esto es para macOS. En Windows: instalar.ps1 (ver README.md)."; exit 1; }
 
 if ! command -v brew >/dev/null 2>&1; then
   echo "→ Homebrew (te pedirá la contraseña del Mac)"
@@ -45,12 +47,17 @@ if ! command -v claude >/dev/null 2>&1; then
   curl -fsSL https://claude.ai/install.sh | bash || echo "⚠️  No se pudo instalar Claude Code: https://claude.com/claude-code"
 fi
 
-echo "→ Skill en $SKILL_DIR"
-if [ -d "$SKILL_DIR/.git" ]; then git -C "$SKILL_DIR" pull -q --ff-only origin main
-else mkdir -p "$(dirname "$SKILL_DIR")"; git clone -q "$REPO" "$SKILL_DIR"; fi
+echo "→ Publiqo Edición en $SKILLS_DIR"
+if [ -d "$SKILLS_DIR/.git" ]; then git -C "$SKILLS_DIR" pull -q --ff-only origin main
+else mkdir -p "$(dirname "$SKILLS_DIR")"; git clone -q "$REPO" "$SKILLS_DIR"; fi
 
+echo "→ Todas las skills (enlazadas en ~/.claude/skills) y actualización automática"
+bash "$SKILLS_DIR/sincronizar.sh" --ya
+python3 "$SKILLS_DIR/hook_global.py" "$SKILLS_DIR"
+
+echo "→ edicion-horizontal: carpeta de edición"
 ADOPTAR=()
 [ -f "$CARPETA/personal/LEEME.md" ] && ADOPTAR=(--adoptar)
-bash "$SKILL_DIR/instalar.sh" ${ADOPTAR[@]+"${ADOPTAR[@]}"} ${EXTRA[@]+"${EXTRA[@]}"} "$CARPETA"
+bash "$SKILLS_DIR/edicion-horizontal/instalar.sh" ${ADOPTAR[@]+"${ADOPTAR[@]}"} ${EXTRA[@]+"${EXTRA[@]}"} "$CARPETA"
 echo
 echo "Listo. Abre la carpeta con Claude Code:  cd \"$CARPETA\" && claude"

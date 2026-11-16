@@ -11,5 +11,7 @@ Se instala con `instalar.sh --creador <n> "<carpeta>"` (o `instalar.ps1 -Creador
 conectado o cambió de letra: `bash .claude/skills/edicion-horizontal/conectar_disco.sh <n>`.
 Nada se pisa: si `personal/<n>/` ya existe, solo se añade lo que falte.
 
-Lo que el creador corrija después se apunta en SU carpeta (`personal/<n>/`), no aquí. Para actualizar esta copia con
-lo aprendido en una carpeta de edición, el autor la vuelve a copiar aquí y publica.
+**El autor manda sobre el perfil.** El original es la carpeta de edición del autor: `publicar.sh` copia aquí su
+`personal/<n>/` (y sus gráficos) antes de cada publicación. En el ordenador del creador, al actualizarse, se
+**sobrescriben** los archivos que el autor haya cambiado; lo que el creador haya aprendido en local en otros archivos
+se queda (hasta que el autor cambie ese archivo).

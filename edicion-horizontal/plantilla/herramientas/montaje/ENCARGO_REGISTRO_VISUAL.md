@@ -37,6 +37,9 @@ barrido de cámara. Todo en español de España.
   ],
   "evitar": [
     {"t0": 127, "t1": 135, "por_que": "barrido de cámara: pared, coche y jaulas vacías antes de llegar al acuario"}
+  ],
+  "momentos": [
+    {"t0": 604.8, "t1": 609.5, "que": "se agacha y el micro se le cae al agua del estanque; lo saca chorreando", "tipo": "fail", "luego_dice": "se me ha caído el micro (621 s)"}
   ]
 }
 ```
@@ -58,6 +61,13 @@ barrido de cámara. Todo en español de España.
 - `mejores_recursos`: los mejores tramos para usar como plano de recurso, con inicio y final EXACTOS en los que el sujeto
   ya está en imagen y la cámara estable (comprueba inicio y final con fotogramas sueltos), y para qué frase o tema sirven.
 - `evitar`: tramos que por la transcripción parecen aprovechables pero no enseñan nada (paredes, barridos, desenfoques).
+- `momentos`: **todo lo que PASA y hace gracia o importa, aunque se vea movido o feo** (nota de recurso 0 da igual):
+  un fallo o accidente (se le cae algo, al agua, se rompe, resbala, se moja, se clava algo), un susto, el animal que
+  hace algo (roba, salta, se escapa), algo que sale de golpe muy bien o muy mal. `tipo`: `fail`, `susto`, `animal`,
+  `exito`, `otro`. Inicio un poco antes de que pase y final cuando ya se ha visto entero (fotogramas sueltos). Si el
+  creador lo cuenta después («se me ha caído el micro»), pon en `luego_dice` qué y en qué segundo: **el momento en sí
+  vale más que contarlo** y va en el vídeo junto a la frase. Búscalos sobre todo en los segundos de antes de un «se me
+  ha caído», «me he mojado», «casi», «¡ay!», «mira lo que ha hecho»: casi siempre la acción no tiene palabras.
 - Apunta en `nota` cualquier cosa que el creador deba decidir: matrículas, caras de terceros, pantallas con datos
   personales, menores, marcas.
 
@@ -65,5 +75,5 @@ barrido de cámara. Todo en español de España.
 - Describe solo lo que ves; si dudas de qué es algo, dilo en `nota`. No inventes especies, marcas ni nombres.
 - No modifiques nada fuera de tu JSON y tu carpeta `tmp_<clip>`. No descargues ni subas nada, no toques git.
 - En bucles con ffmpeg usa `-nostdin`. Para scripts largos escribe un archivo, no un heredoc.
-- Devuélveme al final: la ruta del JSON, el número de tramos, los 5 mejores recursos del clip en una línea cada uno y los
-  avisos (lo que NO hay en imagen aunque se hable de ello; lo que haya que tapar).
+- Devuélveme al final: la ruta del JSON, el número de tramos, los 5 mejores recursos del clip en una línea cada uno, los
+  momentos (fallos, sustos, animales) y los avisos (lo que NO hay en imagen aunque se hable de ello; lo que haya que tapar).

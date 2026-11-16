@@ -35,11 +35,22 @@ if __name__ == "__main__":
     # reconozca, puede ser como una voz de pitufo».
     disfraz = getattr(plan, "VOZ_DISFRAZ", [])
     if disfraz:
+        # La frase se busca en lo que SUENA (voz.json, voces.buscar_oido): así vale también lo que dice quien graba entre
+        # las palabras de una pieza aunque no esté en el texto del EDL, y los bordes son los del audio (en prueba-3 la
+        # línea alineada ponía «¿Qué ha pasado?» 2,6 s antes de donde sonaba). Si ahí no está, se usa la línea del EDL.
         from comun import Linea, buscar
-        Lv, tono = Linea(), float(ajuste("VOZ_DISFRAZ_TONO", 1.45)); xf = int(0.02 * SR)
+        from voces import buscar_oido, candidatas
+        Lv, tono = Linea(), float(ajuste("VOZ_DISFRAZ_TONO", 1.45)); xf = int(0.02 * SR); hechas = []
         for a in disfraz:
-            i, j = buscar(Lv.palabras, *a)
-            a0 = max(0, int(Lv.palabras[i]["o0"] * SR / FPS) - int(0.08 * SR)); a1 = min(len(y), int(Lv.palabras[j]["o1"] * SR / FPS) + int(0.12 * SR))
+            try: i, j = buscar(Lv.palabras, *a); lin = (Lv.palabras[i]["o0"] / FPS, Lv.palabras[j]["o1"] / FPS)
+            except (Exception, SystemExit): lin = None          # no está en el texto del EDL (lo dice quien graba entre palabras)
+            r = buscar_oido(a[1], a[2], lin[0] if lin else None)
+            if not r and not lin: raise SystemExit(f"VOZ_DISFRAZ: «{a[1]}» no se oye en voz.json ni está en el EDL")
+            s0, s1 = r or lin
+            if r and lin and min(r[1], lin[1] + 0.3) > max(r[0], lin[0] - 0.3):    # las dos: lo que suena, sin pasarse de la línea
+                s0, s1 = max(r[0], lin[0] - 0.3), min(r[1], lin[1] + 0.3)
+            hechas.append((s0, s1))
+            a0 = max(0, int(s0 * SR) - int(0.08 * SR)); a1 = min(len(y), int(s1 * SR) + int(0.12 * SR))
             seg = np.ascontiguousarray(y[a0:a1], dtype=np.float32).reshape(a1 - a0, -1)
             raw = subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-f", "f32le", "-ar", str(SR), "-ac", str(seg.shape[1]), "-i", "-", "-af",
                                   f"asetrate={int(SR * tono)},aresample={SR},atempo={1 / tono:.5f}", "-f", "f32le", "-"], input=seg.tobytes(), capture_output=True, check=True).stdout
@@ -48,6 +59,11 @@ if __name__ == "__main__":
             w = np.ones(len(seg), np.float32); w[:xf] = np.linspace(0, 1, xf); w[-xf:] = np.linspace(1, 0, xf)
             y[a0:a1] = (seg * (1 - w[:, None]) + pr * w[:, None]).reshape(y[a0:a1].shape)
             print(f"voz disfrazada {a0 / SR:.2f}-{a1 / SR:.2f} s: «{a[1]}»")
+        # ¿queda alguna frase con pinta de ser de la otra persona sin disfrazar? (voces.py; Lucas, prueba-3 v2: «se te han
+        # escapado bastantes partes en las que habla el cámara»)
+        for t0, t1, txt, p, db in candidatas()[0]:
+            if not any(min(t1, b) - max(t0, a) > 0.3 * (t1 - t0) for a, b in hechas):
+                print(f"AVISO VOZ: {int(t0 // 60)}:{t0 % 60:05.2f} «{txt}» suena a la otra persona ({p:.0f} Hz, {db:.0f} dB) y no está en VOZ_DISFRAZ")
     cache = {}
     def snd(n, vel=1.0):      # vel: el clip al que acompaña va a esa velocidad (un botón acelerado para que quepa); el tono no cambia
         if (n, vel) not in cache:

@@ -62,6 +62,11 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
   en la mediana si la persona se mueve); si no cabe, se cierra menos. Con detección de cara floja (< 85 % de muestras),
   máximo ×1,2 y centrado. Un zoom a un objeto o animal lleva su centro a mano (`(zoom, cx, cy)`) y se comprueba con
   `ver.py`. Por qué: había zooms que acababan en una pared. (ramon v2)
+- 2026-11-15 — **Sin cara en el plano, sin cortes de escala.** El juego de escala es para cuando se le ve hablando. En
+  un plano principal sin cara (él de espaldas, la cámara andando, buscando el interruptor) un ×1,15 no se lee como
+  ritmo: se lee como un zoom a su hombro o a una pared. `dinamica.py` lo deja a ×1,0 (`Z_SIN_CARA`); el ritmo de esos
+  tramos se da con recursos de lo que se habla, no con zoom. Por qué: Lucas, prueba-3 v2, «está zoomeado a su hombro,
+  mejor sin zoom» y «hay un zoom a una pared». (vídeo: prueba-3)
 - **Se corta por el texto, no por tiempos.** El EDL elige cada frase por su texto literal en la transcripción y
   `paso1_alinear.py` afina los bordes con alineación forzada (los tiempos de Whisper van ~0,17 s adelantados, hasta
   0,8 s). Después `comprobar_voz.py`: ratio ≥ 0,97 y ninguna palabra comida o repetida en un borde.
@@ -161,6 +166,19 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
   repasa el EDL buscando colocación, logística y repeticiones antes de enseñarlo.
   Por qué: Lucas, al ver la versión intermedia de la v2 de `1311`: «¿cómo ha pasado la v2 de 13 min a 28? ¿No es
   demasiado?». Se dejó en 22:20 quitando eso, sin tocar humor, reacciones ni explicaciones. (vídeo: 1311)
+- 2026-11-15 — **Lo que PASA va en el vídeo, no solo lo que se dice de ello.** Un fallo, una caída, un susto o lo que
+  hace el animal (se le cae el micro al agua, resbala, el perro le roba algo) se monta **en el momento en que ocurre,
+  con su sonido** (`V(…)`), y la frase que lo cuenta va detrás («se me ha caído el micro»). Aunque el plano sea movido o
+  feo: aquí manda lo que pasa, no la calidad del plano. Al escribir el EDL, cada frase que cuenta algo que acaba de
+  pasar («se me ha caído», «me he mojado», «casi me mato», «mira lo que ha hecho») obliga a mirar con `tira.py` los
+  10–20 s de antes y meter el momento. El registro visual los apunta aparte (`momentos`) y `descartes.py` los saca los
+  primeros como **MOMENTO sin usar**. **Los detalles pequeños cuentan**: un fail de 3 s es de lo que más gracia hace
+  del vídeo y es lo primero que echa en falta quien lo ve.
+  Por qué: Lucas, en la v3 de `1311`: «en el 5:52 dice que le ha caído el micro, pero deberías incluir el momento en el
+  que se le cae al agua también, ya que es gracioso el fail… para que la skill aprenda que hay cosas que no hay que
+  dejarse y entienda que hay que darle importancia a cosas pequeñas también». Causa: el EDL se elige por frases de la
+  transcripción y la caída no tiene palabras; el registro visual solo puntuaba planos como recurso (uno movido saca 0)
+  y por eso `descartes.py` nunca la enseñó. Se metió la frase que lo cuenta y no lo que pasó. (vídeo: 1311)
 - **Cada decisión se apunta** (aquí si vale para todos; en `personal/<creador>/preferencias.md` si es de su gusto), con
   el tipo de momento y el porqué, para detectar mejor la próxima vez.
   Por qué: Lucas, «revisa siempre que el vídeo cuente todo lo importante, que no quede nada eliminado de tomas… y si
@@ -219,6 +237,24 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
 - 2026-11-11 — **Un recurso tiene que enseñar aquello de lo que se habla desde su primer fotograma.** Nada de paredes,
   barridos de cámara, arranques de plano ni el sujeto diminuto. Por qué: «elige los planos de recurso con criterio» (en
   la v2 había recursos donde solo se veía pared). (ramon v2 → v3)
+- 2026-11-15 — **Paredes: tampoco en el plano PRINCIPAL.** Cuando quien graba cambia de sitio, de ángulo o de foco
+  (se acerca al acuario, le pasa la cámara, se moja el micro, va a por algo) el plano principal se queda en pared,
+  techo, suelo, un barrido o pegado al cuerpo mientras sigue sonando la voz. Eso no se deja nunca. Después de
+  `paso3_plan.py`, **`planos_vacios.py`**: lista los planos principales sin cara que el registro visual describe así,
+  con lo que se dice encima, y hace `trabajo/vacios.jpg`. Cada uno se decide mirando la hoja:
+  - no se dice nada que importe (reencuadres, «ahora sí», el micro mojado, «no sé si va») → **fuera del EDL**;
+  - se dice algo → **`BROLL` de aquello de lo que habla** («esto se está muriendo» → la planta que se muere; «se fue»,
+    «mira el medaka» → el pez; «estaba aquí» → donde estaba), de los mismos brutos (`mejores_recursos`, otra cámara)
+    o del archivo del creador; si no hay nada de eso, un plano bonito del sitio;
+  - **«mira X» y X está grabado en algún bruto** (otra cámara, la subacuática, otro momento) → ese plano, aunque el
+    principal valga;
+  - es un desplazamiento con sentido (va al cuadro eléctrico) → se queda, corto y sin zoom;
+  - **el reencuadre al coger la cámara** (entre dos frases: él coge la cámara, se ve la pared, vuelve a encuadrar) se
+    corta, aunque eso parta la pieza en dos.
+  Lo que se deje a propósito (él trabajando de espaldas: hay acción) se apunta en `VACIOS_OK` de `plan.py`.
+  Por qué: Lucas, prueba-3 v2: siete de sus diez correcciones eran esto («se ve la pared», «pon un plano de lo que se
+  muere», «pon el medaka o algo relacionado, de los brutos o de los recursos», «poner recursos de la várzea o algún
+  plano»). (vídeo: prueba-3)
 - **Antes de montar, registro visual de TODOS los brutos** (qué se ve en cada segundo): hojas densas del paso 0 + un
   agente por bruto con `herramientas/montaje/ENCARGO_REGISTRO_VISUAL.md`, **de dos en dos** con 16 GB de RAM. Sin
   registro no se eligen recursos. Por qué: «estudia a fondo los brutos».
@@ -255,6 +291,16 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
     zoomean». Causa: el pop antiguo (×0,8 → ×1,06 → ×1) se multiplicaba por el crecimiento, que en esos 6 fotogramas sube
     un 1 %: el texto se encogía un 5 % justo después de aparecer. Al arreglar lo de los escalones se miró el crecimiento y
     no la entrada. Cualquier animación de escala nueva (también en los gráficos de un creador): monótona. (vídeo: 1311)
+- 2026-11-15 — **Ningún texto de relleno: cada rótulo tiene que añadir algo.** Se rotula una idea clave, un dato, una
+  especie, un nombre, una frase con gracia o con fuerza. **No** se rotula una acción trivial que ya se ve y se oye
+  («FUERA CALCETINES» mientras se los quita, «VAMOS ALLÁ», «A PLANTAR»): no aporta y le quita peso a los rótulos que sí
+  importan. El % de tiempo con texto y los «huecos sin texto» del CONTEXTO son una alarma para buscar qué rotular,
+  **nunca** una cuota: si en un hueco no hay nada que merezca texto, se llena con recursos, zooms o archivo, no con
+  un rótulo. Al repasar el plan, cada `R(…)` pasa la pregunta «¿qué sabe o siente quien lo ve que no sabría sin él?»;
+  si la respuesta es nada, fuera.
+  Por qué: Lucas, en la v3 de `1311`: «en el minuto 6:45 el texto "fuera calcetines" sobra». Causa: salió de la pasada
+  de dinamismo de la v2, que buscaba frases para tapar huecos de 25–94 s sin texto: se rotuló por llenar el hueco, no
+  porque la frase lo pidiera. (vídeo: 1311)
 - **Nunca un texto antes de que se diga.** Todo cuelga de anclas (frase o marca), no de frames a mano; compruébalo con
   `timing_textos.py` (abajo, «Timing de los textos») y con `ver.py` en el frame anterior y en el de la palabra.
 - **Subtítulos solo donde se oye mal** (ruido, viento, voz lejana, otro idioma): abajo, una línea, 3–6 palabras, de
@@ -327,6 +373,11 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
   menos la tortuga comiendo… como la intro de Rubén Holgado de los monos (esto último se puede usar en la skill en
   general a lo mejor, con criterio y sin abusar)» y «eso del resalte es para resaltar cosas importantes en general a
   veces, no aplicado solo a una tortuga comiendo». (vídeo: ramon, v6)
+- 2026-11-15 — **Lo pequeño que el creador enseña o nombra («mira las raíces»), con flecha (`TRK`).** Si lo que señala
+  ocupa poco del cuadro o se confunde con el fondo, un rótulo de 1–2 palabras con flecha que lo sigue mientras habla
+  de ello; el `FOCO` en B/N, si además se pierde entre más cosas. Se comprueba con `ver.py` que la flecha toca el
+  sujeto en todo el plano. Por qué: Lucas, prueba-3 v2, «las raíces de la yuca: una flecha o un círculo para
+  señalarlas». (vídeo: prueba-3)
 
 ### Clips y gráficos superpuestos (botones, mascotas, logos)
 - 2026-11-12 — **Nunca se superpone un clip con su fondo, con halo del fondo o con objetos raros.** Los botones y las
@@ -381,7 +432,17 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
   imagen: cara pixelada o el plano fuera; si solo asoma (una mano, un brazo), se tapa con un recurso. Para encontrarlo:
   el registro visual anota cada vez que asoma alguien que no es el creador, y la voz de quien graba se distingue por el
   texto (le pregunta, le pide cosas, el creador le contesta) y porque llega más baja y lejana al micro del creador.
-  Claude no oye: al entregar se dice qué frases se han disfrazado y cuáles quedan en duda. Por qué: Lucas, «cuando
+  Claude no oye: al entregar se dice qué frases se han disfrazado y cuáles quedan en duda.
+  **La herramienta es general; usarla o no es del creador**: solo se disfraza la voz de quien su `preferencias.md` lo
+  pida (en Reino Selva, el cámara siempre). Sin `VOZ_DISFRAZ` en el plan no se toca ninguna voz.
+  2026-11-15 — **Se escapan si se buscan solo por el texto.** Lo que dice quien graba se cuela también ENTRE las palabras
+  de una pieza aunque no esté en el texto del EDL («pero no me metas», «¿qué ha pasado?»). Por eso: `voces.py` (desde
+  `out/<slug>/`, tras `paso2_voz.py`) transcribe lo que suena en `voz.wav` y marca como candidata cada frase con otro
+  tono (≥ 1,38 × el del creador; `TONO_OTRA`) y más baja (≤ −2,5 dB; `DB_OTRA`), diciendo cuáles faltan en
+  `VOZ_DISFRAZ`; las candidatas se confirman por el sentido (¿le contesta, le habla de tú?). `paso5_audio.py` busca cada
+  frase en lo que suena (bordes reales del audio, no los de la línea) y avisa con `AVISO VOZ:` de las candidatas que
+  queden sin disfrazar. Por qué: Lucas, prueba-3 v2, «se te han escapado bastantes partes en las que habla el cámara y no
+  le pones voz de pitufo». Por qué (lo primero): Lucas, «cuando
   habla el cámara (señor misterio) […] distorsiona un poco la voz para que no se le reconozca, puede ser como una voz de
   pitufo; […] no debe de salir en los vídeos, o se le pixela la cara o se elimina cuando salga». Quién es ese tercero,
   en `personal/<creador>/preferencias.md`. (vídeo: prueba-3)

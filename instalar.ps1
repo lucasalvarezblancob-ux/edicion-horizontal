@@ -1,20 +1,21 @@
-# Instalador de edicion-horizontal para Windows: todo lo necesario para editar y renderizar, de una vez.
+# Instalador de las Publiqo Edición para Windows: todas las skills y todo lo necesario para editar y renderizar.
 # Desde PowerShell (no hace falta ser administrador):
-#   irm https://raw.githubusercontent.com/lucasalvarezblancob-ux/edicion-horizontal/main/instalar.ps1 | iex
-# o, con opciones (carpeta de edición y creador que viene con la skill):
-#   & ([scriptblock]::Create((irm https://raw.githubusercontent.com/lucasalvarezblancob-ux/edicion-horizontal/main/instalar.ps1))) -Carpeta "$HOME\Desktop\Horizontal" -Creador reinoselva
+#   irm https://raw.githubusercontent.com/lucasalvarezblancob-ux/publiqo-edicion/main/instalar.ps1 | iex
+# o, con opciones (carpeta de edición y creador que viene incluido):
+#   & ([scriptblock]::Create((irm https://raw.githubusercontent.com/lucasalvarezblancob-ux/publiqo-edicion/main/instalar.ps1))) -Carpeta "$HOME\Desktop\Horizontal" -Creador reinoselva
 #
 # Hace: instala con winget lo que falte (Git, ffmpeg completo, Node LTS, Python 3.12, yt-dlp, GitHub CLI, mpv y
-# Claude Code), descarga la skill en ~\Projects\edicion-horizontal (o la actualiza) y lanza instalar.sh, que crea la
-# carpeta de edición, las skills de apoyo (Remotion, HyperFrames), la .venv de Python (con CUDA si hay NVIDIA),
+# Claude Code); descarga el repo en ~\Projects\publiqo-edicion (o lo actualiza); enlaza todas sus skills en
+# ~\.claude\skills y deja el hook que las actualiza solas (y añade las nuevas); y lanza edicion-horizontal/instalar.sh:
+# la carpeta de edición, las skills de apoyo (Remotion, HyperFrames), la .venv de Python (con CUDA si hay NVIDIA),
 # node_modules y el navegador de render. Con -Creador, además deja su personalización y enlaza sus recursos al disco.
 param(
   [string]$Carpeta = "$HOME\Desktop\Horizontal",
   [string]$Creador = "",
-  [string]$Skill = "$HOME\Projects\edicion-horizontal"
+  [string]$Skill = "$HOME\Projects\publiqo-edicion"
 )
 $ErrorActionPreference = "Stop"
-$Repo = "https://github.com/lucasalvarezblancob-ux/edicion-horizontal.git"
+$Repo = "https://github.com/lucasalvarezblancob-ux/publiqo-edicion.git"
 
 function Refrescar-Path {
   $env:Path = [Environment]::GetEnvironmentVariable("Path", "Machine") + ";" + [Environment]::GetEnvironmentVariable("Path", "User") + ";$env:LOCALAPPDATA\Microsoft\WinGet\Links;$HOME\.local\bin"
@@ -57,7 +58,7 @@ if (-not (Hay "claude")) {
 foreach ($c in "git", "ffmpeg", "node") { if (-not (Hay $c)) { throw "Falta $c tras instalarlo. Cierra PowerShell, ábrelo de nuevo y vuelve a lanzar." } }
 if (-not (Python-Ok)) { throw "Falta Python 3.10+ tras instalarlo. Cierra PowerShell, ábrelo de nuevo y vuelve a lanzar." }
 
-Write-Host "-> Skill en $Skill"
+Write-Host "-> Publiqo Edición en $Skill"
 if (Test-Path "$Skill\.git") { git -C $Skill pull -q --ff-only origin main }
 else { New-Item -ItemType Directory -Force (Split-Path $Skill) | Out-Null; git clone -q $Repo $Skill }
 
@@ -65,7 +66,13 @@ $bash = Join-Path (Split-Path (Split-Path (Get-Command git).Source)) "bin\bash.e
 if (-not (Test-Path $bash)) { $bash = "C:\Program Files\Git\bin\bash.exe" }
 if (-not (Test-Path $bash)) { throw "No encuentro Git Bash (bash.exe)." }
 
-$args_sh = @(("$Skill/instalar.sh").Replace('\', '/'))
+Write-Host "-> Todas las skills (enlazadas en ~\.claude\skills) y actualización automática"
+& $bash ("$Skill/sincronizar.sh".Replace('\', '/')) --ya
+$py = if (Hay "python") { "python" } else { "py" }
+& $py "$Skill\hook_global.py" $Skill
+
+Write-Host "-> edicion-horizontal: carpeta de edición"
+$args_sh = @(("$Skill/edicion-horizontal/instalar.sh").Replace('\', '/'))
 if (Test-Path "$Carpeta\personal\LEEME.md") { $args_sh += "--adoptar" }
 if ($Creador) { $args_sh += @("--creador", $Creador) }
 $args_sh += $Carpeta.Replace('\', '/')

@@ -154,6 +154,11 @@ y qué pareja ganó en cada test de YouTube. -->
   Por qué: Lucas, «cuando habla el camara (señor misterio) en los videos de reinoselva, distorsiona un poco la voz para
   que no se le reconozca puede ser como una voz de pitufo, también, el señor misterio no debe de salir en los videos, o
   se le pixela la cara o se elimina cuando salga». (vídeo: prueba-3)
+  2026-11-15 — **Se escapaban frases suyas**: también habla ENTRE las frases de Ramón, fuera del texto del EDL («pero no
+  me metas», «yo no puse la lluvia», «se han jodido todo»). Siempre `voces.py` tras `paso2_voz.py` (su voz: ~150 Hz o
+  más y unos 3 dB por debajo de la de Ramón, que va a ~110 Hz con el micro puesto) y ninguna `AVISO VOZ:` en
+  `paso5_audio.py`. La voz de pitufo es SOLO de este canal. Por qué: Lucas, prueba-3 v2, «se te han escapado
+  bastantes partes en las que habla el cámara» y «lo de la voz de pitufo se aplica a Reino Selva». (vídeo: prueba-3)
 - 2026-11-12 — Matrículas siempre difuminadas (regla de la skill). En su finca hay coches aparcados al fondo: mirar los
   planos a cámara del exterior. (vídeo: ramon, clip C0246)
 

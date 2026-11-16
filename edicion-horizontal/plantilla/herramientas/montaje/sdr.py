@@ -43,8 +43,10 @@ def pendientes():
         if es_hdr(v["clip"]): nec.setdefault(v["clip"], []).append((v["in"], v["in"] + math.ceil(v["n"] * v["speed"]) + 2, v["speed"]))
     out = []
     for clip, rs in nec.items():
-        S = segmentos(clip, releer=True); tope = frames_bruto(clip); p = None
+        S = segmentos(clip, releer=True); p = None
         for a, b, sp in sorted(set(rs)):
+            if any(x <= a and b <= y for x, y, _ in S): continue     # ya tiene copia: no hace falta ni el bruto
+            tope = frames_bruto(clip)                                 # (si el bruto ya no está, el vídeo se rehace igual desde sus copias)
             if any(x <= a and min(b, tope) <= y for x, y, _ in S): continue
             a0, b0 = max(0, a - MARGEN), min(tope, b + MARGEN)
             if p and a0 <= p[2] + 2 * FPS and max(b0, p[2]) - p[1] <= TROZO: p[2] = max(p[2], b0); p[3] = p[3] or sp < 0.99

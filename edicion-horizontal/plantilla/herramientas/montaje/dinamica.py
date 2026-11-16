@@ -17,6 +17,10 @@ SEG_MIN, SEG_MAX = (F(s) for s in ajuste("CAMBIO_CADA", (2.48, 4.48)))   # segun
 CARA_Y = ajuste("CARA_Y", 0.38)                         # la cara queda al 38 % del alto
 PAUSA = round(0.14 * FPS, 3)         # pausa entre palabras (en frames) que vale como límite de frase
 CARA_MAX = 1150 / 3840                # la cara no pasa del ~30 % del ancho del cuadro
+# Plano SIN cara (de espaldas, manos, el recinto): sin corte de escala. Centrado a ciegas, el zoom acaba en un hombro o en
+# una pared (Lucas, prueba-3 v2, 10:25 y 10:35: «está zoomeado a su hombro, mejor ahí no tener zoom»). Si hay un sujeto
+# que merece acercarse, se hace con su centro (BROLL con (zoom, cx, cy), DETALLE, ENTRADAS sobre la cara).
+Z_SIN_CARA = ajuste("Z_SIN_CARA", 1.0)
 
 
 class Caras:
@@ -96,7 +100,7 @@ def planos_de_voz(P, W, caras, esp, secciones, sin_escala=()):
             if e: v["esp"] = e[0]
             dado = bool(e and "cx" in e[1])
             if dado: cara = {"cx": e[1]["cx"], "cy": e[1]["cy"], "w": AW * 0.15625}; v["ay"] = 0.5      # centro dado (animal seguido)
-            tope = max(1.0, min(1.8, CARA_MAX * AW / max(cara["w"], 1))) if cara else 1.15           # sin cara: poco y centrado
+            tope = max(1.0, min(1.8, CARA_MAX * AW / max(cara["w"], 1))) if cara else Z_SIN_CARA     # sin cara: sin zoom (ver Z_SIN_CARA)
             if cara: v["cx"], v["cy"] = cara["cx"], cara["cy"]
             if e and e[1]["tipo"] == "fijo": pass
             elif e and e[1]["tipo"] in ("entra", "detalle"): v.update(z0=1.0, z1=min(e[1]["z"], tope), t=e[1].get("t", F(0.32)))
