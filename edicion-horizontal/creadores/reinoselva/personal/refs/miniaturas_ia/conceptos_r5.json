@@ -1,0 +1,257 @@
+{
+ "fecha": "2026-11-16",
+ "por_que": "Tanda 5 (veredicto final, de prueba, sin tocar la skill): 20 de animales inventadas desde cero y 10 reworks de los paquetes que aún no habían ganado en la tanda 4 (votos de Lucas: 1311 C, D y T ninguna; p3 A, D y ramon D mejor la de antes —ramon D, brazo volando—; p3 B y ramon E las dos; más las variantes B2 y C2 de Ragnar). Molde de la tanda 4 (viajes) + línea de anatomía. Los reworks de 1311 se ponen en el jardín japonés de la A, que ganó.",
+ "ref_cara": "ramon_B2",
+ "prefijo": "Create a YouTube thumbnail, 16:9 landscape, everything important in the central area. Attached image 1 is the man: keep his exact face, wavy brown hair, full beard and build (same person, do not beautify, do not change his age). Ignore the background and clothes of the attached photo; dress him as described.",
+ "sufijo": "FRAMING: close shot, his face about 30 % of the frame height, well lit, looking straight into the lens, calm wide-eyed deadpan, mouth closed. His body is cut by the frame edge or by something meaningful in front, never by the ground. ANATOMY: both his arms clearly attached to his shoulders, normal hands with five fingers, no extra or floating limbs; animals with correct anatomy. No other people and no animals beyond those described. STYLE: like a top YouTube thumbnail: one huge hero prop or animal that tells the story, right next to his face; a spectacular, cinematic setting with dramatic light, like a travel postcard; bright saturated colors, clean uncluttered background, everything razor sharp. Photorealistic, like a real photo, not an illustration, no plastic AI skin. No text, no numbers, no logos, no watermarks, nothing in the bottom-right corner.",
+ "conceptos": [
+  {
+   "id": "an01",
+   "tipo": "animales",
+   "titulo": "Rescaté una Tortuga Gigante Perdida en el Desierto",
+   "idea": "Dunas del Sáhara al atardecer; una tortuga sulcata enorme a su lado, él con turbante dándole agua de su cantimplora",
+   "refs": [],
+   "escena": "SCENE: golden Sahara dunes at sunset, long shadows. A huge sulcata tortoise rests right beside him in the sand, its head next to his face, drinking water he pours from a canteen into its mouth. He kneels in the sand, knees visible, wearing a sand-colored desert scarf wrapped as a turban."
+  },
+  {
+   "id": "an02",
+   "tipo": "animales",
+   "titulo": "Di de Comer a 1.000 Flamencos en un Lago Rosa",
+   "idea": "Lago rosa al amanecer, una nube de flamencos alrededor; uno mete el cuello junto a su cara para comer de su mano",
+   "refs": [],
+   "escena": "SCENE: a bright pink salt lake at sunrise, hundreds of flamingos standing in the shallow water behind him. He stands knee-deep in a white linen shirt holding out a handful of food; one flamingo bends its long neck right next to his face to eat from his hand."
+  },
+  {
+   "id": "an03",
+   "tipo": "animales",
+   "titulo": "Un Búho Real Durmió en Mi Habitación",
+   "idea": "Habitación de noche con luz de luna azul; un búho real enorme posado en el cabecero, mirando a cámara junto a él en la cama",
+   "refs": [],
+   "escena": "SCENE: a bedroom at night lit by blue moonlight through the window, a warm bedside lamp. He sits up in bed in pajamas, the duvet over his legs, and a huge Eurasian eagle-owl is perched on the headboard right beside his face, orange eyes wide open, staring into the lens."
+  },
+  {
+   "id": "an04",
+   "tipo": "animales",
+   "titulo": "Mi Camaleón Se Puso del Color de Mi Camisa",
+   "idea": "Selva con rayos de luz; un camaleón en su mano con exactamente el estampado de su camisa hawaiana",
+   "refs": [],
+   "escena": "SCENE: a lush jungle with golden god rays. He holds up a big chameleon on his hand right next to his face; the chameleon's skin has turned into exactly the same bright tropical flower pattern as his Hawaiian shirt."
+  },
+  {
+   "id": "an05",
+   "tipo": "animales",
+   "titulo": "Me Metí en un Río con 50 Pirañas",
+   "idea": "Río amazónico de agua clara al atardecer; él metido hasta la cintura y decenas de pirañas rojas rodeándole bajo el agua",
+   "refs": [],
+   "escena": "SCENE: a crystal-clear Amazon river at sunset, jungle on the banks. He stands waist-deep in the water in a khaki shirt, holding his arms up out of the water; dozens of red-bellied piranhas swirl around his waist, clearly visible through the transparent water, one jumping out right next to his face with its teeth showing."
+  },
+  {
+   "id": "an06",
+   "tipo": "animales",
+   "titulo": "Construí un Castillo para Mis Cangrejos Ermitaños",
+   "idea": "Playa tropical al atardecer; un castillo de arena enorme lleno de cangrejos ermitaños con conchas de colores; él tumbado detrás",
+   "refs": [],
+   "escena": "SCENE: a tropical beach at sunset, turquoise water. In the foreground a big detailed sandcastle with towers, and colorful hermit crabs climbing in and out of its windows and gates. He lies on his stomach on the sand right behind it, chin on his hands, wearing a bucket hat."
+  },
+  {
+   "id": "an07",
+   "tipo": "animales",
+   "titulo": "Un Pulpo Me Robó la Cámara",
+   "idea": "Bajo el agua en un arrecife; un pulpo agarra su cámara con los tentáculos junto a su cara; él con gafas y tubo",
+   "refs": [],
+   "escena": "SCENE: underwater on a bright coral reef, sun rays from the surface. He snorkels with a diving mask pushed up on his forehead so his face is visible, and right next to his face a big orange octopus grabs his action camera with its tentacles and pulls it away."
+  },
+  {
+   "id": "an08",
+   "tipo": "animales",
+   "titulo": "Dormí en el Nido de un Águila a 30 Metros",
+   "idea": "Acantilado a 30 m al amanecer; él sentado en un nido gigante y un águila real posada a su lado",
+   "refs": [],
+   "escena": "SCENE: a giant eagle nest of sticks on a cliff ledge high above a misty valley at sunrise. He sits inside the nest wrapped in a sleeping bag, and a golden eagle perches on the rim right beside his face, wings half open."
+  },
+  {
+   "id": "an09",
+   "tipo": "animales",
+   "titulo": "Encontré una Pitón de 6 Metros en Mi Jardín",
+   "idea": "Jardín al atardecer; una pitón reticulada enorme estirada por el césped y él agachado midiéndola con una cinta métrica",
+   "refs": [],
+   "escena": "SCENE: a garden lawn at golden hour. A huge reticulated python stretches across the grass in a long S-curve, its head raised right beside his face. He crouches next to it, knees visible, in gardening clothes, holding a yellow tape measure pulled out along its body."
+  },
+  {
+   "id": "an10",
+   "tipo": "animales",
+   "titulo": "Le Hice una Mansión de Lujo a Mi Hámster",
+   "idea": "Una mansión en miniatura con lámpara de araña y escalera; el hámster en la puerta; él la sostiene con orgullo",
+   "refs": [],
+   "escena": "SCENE: a warm elegant living room. He holds up a detailed miniature luxury mansion with a tiny crystal chandelier, a grand staircase and a little pool; a fluffy golden hamster stands in its front doorway, right next to his face. He wears a smart blazer."
+  },
+  {
+   "id": "an11",
+   "tipo": "animales",
+   "titulo": "Bañé a un Elefante Bebé en un Río de Tailandia",
+   "idea": "Río en la selva de Tailandia al atardecer; un elefante bebé le lanza agua con la trompa",
+   "refs": [],
+   "escena": "SCENE: a jungle river in Thailand at golden hour. He stands knee-deep in the water in a wet t-shirt holding a scrub brush, and a baby elephant right beside him sprays a sparkling arc of water from its trunk over his head, droplets lit by the sun."
+  },
+  {
+   "id": "an12",
+   "tipo": "animales",
+   "titulo": "Adopté 100 Pollitos de Golpe",
+   "idea": "Granero con luz dorada; él sentado en la paja rodeado de un mar de pollitos amarillos, uno en su cabeza",
+   "refs": [],
+   "escena": "SCENE: a rustic barn with golden light beams through the boards. He sits in the straw in denim overalls, surrounded by a sea of fluffy yellow chicks covering the floor and his lap, and one chick sits right on top of his head."
+  },
+  {
+   "id": "an13",
+   "tipo": "animales",
+   "titulo": "Solté 1.000 Mariquitas en Mi Huerto",
+   "idea": "Huerto a la hora dorada; una nube de mariquitas rojas alrededor y una posada en su nariz",
+   "refs": [],
+   "escena": "SCENE: a lush vegetable garden at golden hour. A cloud of bright red ladybugs swirls around him, some on his shoulders, and one ladybug sits right on the tip of his nose. He holds an open mesh bag the ladybugs are flying out of."
+  },
+  {
+   "id": "an14",
+   "tipo": "animales",
+   "titulo": "Un Mapache Se Coló en Mi Cocina",
+   "idea": "Cocina de noche; la nevera abierta ilumina a un mapache dentro comiendo; él en pijama sujetando la puerta",
+   "refs": [],
+   "escena": "SCENE: a dark kitchen at night lit only by the open fridge. A raccoon sits inside the fridge on a shelf, holding a slice of pizza in its little hands, right beside his face. He stands holding the fridge door in pajamas and slippers, hair messy."
+  },
+  {
+   "id": "an15",
+   "tipo": "animales",
+   "titulo": "Nadé con Manatíes en un Río de Cristal",
+   "idea": "Manantial de agua cristalina con rayos de sol; un manatí acerca su cara a la de él bajo el agua",
+   "refs": [],
+   "escena": "SCENE: underwater in a crystal-clear spring, sun rays piercing the turquoise water, green eelgrass. A gentle manatee floats right next to his face, its whiskered snout almost touching him. He has a diving mask pushed up on his forehead so his face is visible."
+  },
+  {
+   "id": "an16",
+   "tipo": "animales",
+   "titulo": "Mi Tortuga Me Ganó una Carrera",
+   "idea": "Pista de atletismo al atardecer; una tortuga con dorsal cruza la meta delante de él, que llega jadeando",
+   "refs": [],
+   "escena": "SCENE: a running track in a stadium at sunset. A tortoise wearing a tiny race bib breaks the finish-line ribbon in the foreground, very close to the lens. He runs right behind it in running gear with a race bib, out of breath, looking into the lens."
+  },
+  {
+   "id": "an17",
+   "tipo": "animales",
+   "titulo": "Pasé 24h con Pingüinos en la Antártida",
+   "idea": "Hielo azul y montañas nevadas; pingüinos emperador a su alrededor y uno tirando de su bufanda",
+   "refs": [],
+   "escena": "SCENE: blue Antarctic ice with snowy mountains under a bright sky. Emperor penguins stand all around him, and one penguin right next to his face tugs at the end of his red scarf with its beak. He wears a big red expedition parka."
+  },
+  {
+   "id": "an18",
+   "tipo": "animales",
+   "titulo": "Rescaté un Erizo Congelado en la Nieve",
+   "idea": "Bosque nevado al anochecer con la luz cálida de una cabaña detrás; un erizo con una bufanda diminuta en sus manos enguantadas",
+   "refs": [],
+   "escena": "SCENE: a snowy forest at dusk, a warm-lit wooden cabin behind him, snowflakes falling. He holds up in his gloved hands, right next to his face, a little hedgehog wrapped in a tiny knitted scarf. He wears a wool hat and a winter coat."
+  },
+  {
+   "id": "an19",
+   "tipo": "animales",
+   "titulo": "Las Ranas Más Venenosas del Mundo Viven en Mi Casa",
+   "idea": "Vivario con niebla y luz verde; ranas dardo azules y amarillas sobre su dedo enguantado",
+   "refs": [],
+   "escena": "SCENE: a misty lush vivarium with moss and bromeliads, glowing green light. He holds up a gloved finger right next to his face with a bright blue poison dart frog and a bright yellow one sitting on it."
+  },
+  {
+   "id": "an20",
+   "tipo": "animales",
+   "titulo": "Un Canguro Me Retó a Boxear",
+   "idea": "Outback australiano al atardecer; un canguro en pose de boxeo junto a él, que lleva guantes de boxeo",
+   "refs": [],
+   "escena": "SCENE: the Australian outback at sunset, red earth and a huge orange sun. A tall kangaroo stands right beside him in a boxing stance, front paws raised. He wears red boxing gloves and holds them up, looking into the lens."
+  },
+  {
+   "id": "rw_1311_B2",
+   "tipo": "rework 1311",
+   "titulo": "Intenté Salvar Plantas de una Tierra de Cemento",
+   "idea": "Desierto agrietado al atardecer; Ragnar sentado orgulloso junto a un hoyo perfecto que ha cavado él; él con un pico partido en dos",
+   "refs": [
+    "1311_C"
+   ],
+   "escena": "Image 2 is his dog: keep the exact same big white fluffy dog; ignore the man in image 2. SCENE: sunset over a vast cracked ground baked as hard as concrete, glowing orange sky. The dog sits proudly right beside him next to a perfectly round deep hole it has just dug, earth on its paws and nose. He kneels behind in a dusty work shirt holding a pickaxe broken in two, one half in each hand."
+  },
+  {
+   "id": "rw_1311_C",
+   "tipo": "rework 1311",
+   "titulo": "Mi Perro Gigante No Me Deja Plantar el Estanque",
+   "idea": "Jardín japonés a la hora dorada (el mismo mundo que la A ganadora); Ragnar tumbado como una alfombra encima de todas las plantas recién puestas; él de rodillas con una planta en la mano",
+   "refs": [
+    "1311_C"
+   ],
+   "escena": "Image 2 is his dog: keep the exact same big white fluffy dog; ignore the man in image 2. SCENE: a dreamy Japanese garden pond at golden hour: a red arched bridge, a stone lantern, a red maple, soft mist. The dog lies sprawled happily across all the freshly planted water plants at the pond edge like a giant fluffy rug, squashing them, its head right next to his face. He kneels beside it in olive waders and a white t-shirt, holding one lonely plant in his hand."
+  },
+  {
+   "id": "rw_1311_C2",
+   "tipo": "rework 1311",
+   "titulo": "Mi Perro Gigante No Me Deja Plantar el Estanque",
+   "idea": "Jardín japonés a la hora dorada; Ragnar corre hacia cámara con un loto entero en la boca y él detrás, salpicando, intentando cogerlo",
+   "refs": [
+    "1311_C"
+   ],
+   "escena": "Image 2 is his dog: keep the exact same big white fluffy dog; ignore the man in image 2. SCENE: a dreamy Japanese garden pond at golden hour, red bridge and maple behind. The dog runs straight toward the lens through the shallow water carrying a whole lotus plant with its roots in its mouth, water splashing in the backlight. He runs right behind it in olive waders, reaching out with one hand, looking into the lens."
+  },
+  {
+   "id": "rw_1311_D",
+   "tipo": "rework 1311",
+   "titulo": "Un Pájaro Salvaje Estrenó Mi Estanque Nuevo",
+   "idea": "Jardín japonés a la hora dorada; el pajarito se tira desde un trampolín diminuto al estanque; él de socorrista con silbato",
+   "refs": [
+    "1311_D"
+   ],
+   "escena": "Image 2 is the bird: keep the exact same tiny species and plumage (yellow crown stripe with black edges, white wing bars). SCENE: a dreamy Japanese garden pond at golden hour, red bridge and maple behind. In the foreground, a tiny wooden diving board over the water and the bird diving off it, wings spread, very close to the lens so it looks as big as his head. He crouches at the pond edge right behind it dressed as a lifeguard, red t-shirt, whistle in his hand."
+  },
+  {
+   "id": "rw_1311_T",
+   "tipo": "rework 1311",
+   "titulo": "Trasplanté un Estanque a Otro",
+   "idea": "Jardín japonés a la hora dorada; empuja una carretilla convertida en estanque (agua, nenúfares y un koi saltando) por el puente rojo",
+   "refs": [],
+   "escena": "SCENE: a dreamy Japanese garden at golden hour. He pushes a wheelbarrow filled to the brim with pond water like a mobile pond: water lilies, lotus, reeds, and an orange koi leaping out right next to his face, water sloshing over the edge. Behind him a red arched bridge and an empty dug pond. He wears olive waders and a white t-shirt."
+  },
+  {
+   "id": "rw_p3_A",
+   "tipo": "rework prueba-3",
+   "titulo": "Las Luces «Estancas» de Mi Selva se Han Llenado de Agua",
+   "idea": "Selva de interior con lluvia; sostiene el fluorescente lleno de agua con medakas NARANJAS grandes y bien visibles, agua a chorro por los extremos",
+   "refs": [],
+   "escena": "SCENE: inside a misty indoor rainforest enclosure with rain falling and giant leaves. He holds the long waterproof fluorescent tube light horizontally across his chest with both hands: it is completely flooded like an aquarium, with five big bright orange medaka fish swimming inside, clearly visible, water pouring out of both ends, the tube still glowing and lighting his face. He wears a grey sleeveless hoodie."
+  },
+  {
+   "id": "rw_p3_B",
+   "tipo": "rework prueba-3",
+   "titulo": "Las Luces de Mi Selva No Aguantan la Lluvia",
+   "idea": "Aguacero en la selva de noche; el fluorescente lleva su propio chubasquero amarillo diminuto y aun así suelta chispas; él empapado lo sujeta",
+   "refs": [],
+   "escena": "SCENE: a dark indoor jungle under a torrential downpour, cold blue light and mist. He holds up right next to his face a fluorescent tube light dressed in a tiny yellow raincoat with a hood, still glowing, sparks fizzing out where rain gets in. He is soaked to the bone, hair dripping, in a wet t-shirt."
+  },
+  {
+   "id": "rw_p3_D",
+   "tipo": "rework prueba-3",
+   "titulo": "Unos Peces Samuráis Me Están Ganando la Guerra",
+   "idea": "Poza con un torii rojo al atardecer; tres medakas con cinta roja saltan hacia él; él con cinta de samurái empuña el salabre como una katana",
+   "refs": [],
+   "escena": "SCENE: a jungle pool at sunset with a small red Japanese torii gate in the background, warm backlight. Three medaka fish wearing tiny red samurai headbands leap out of the water toward him, big and close to the lens. He crouches at the pool edge with a white samurai headband on his forehead, holding a fishing net with both hands like a katana."
+  },
+  {
+   "id": "rw_ramon_D",
+   "tipo": "rework ramon",
+   "titulo": "Baby Snake-Necked Turtles Eat Like Piranhas",
+   "idea": "Barreño de agua negra con luz dorada; una docena de crías salen como pirañas hacia el grillo de sus pinzas; él con los dos brazos bien a la vista",
+   "refs": [],
+   "escena": "SCENE: a black tub of water outdoors in golden late-afternoon light. He kneels behind the tub, both forearms resting on its rim, holding a cricket with long tweezers in his right hand just above the surface. A dozen baby snake-necked turtles (tiny flat brown shells, extremely long thin necks) erupt from the water like a piranha frenzy toward the cricket, necks stretched, mouths open, water exploding in sparkling droplets."
+  },
+  {
+   "id": "rw_ramon_E",
+   "tipo": "rework ramon",
+   "titulo": "Giant Tortoises' House Flooded…",
+   "idea": "Tormenta con rayo; la sulcata a salvo en el tejado de su caseta inundada y él llegando remando en una barquita",
+   "refs": [],
+   "escena": "SCENE: a dramatic storm with dark clouds and a lightning bolt over a garden flooded with brown water. A big sulcata tortoise (huge tan shell with growth rings) sits safe on the roof of its half-submerged wooden house, right beside him. He arrives in a small wooden rowing boat, sitting with an oar, in a yellow raincoat, rain pouring."
+  }
+ ]
+}

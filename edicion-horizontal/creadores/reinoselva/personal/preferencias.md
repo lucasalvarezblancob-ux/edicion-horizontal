@@ -144,6 +144,25 @@ y qué pareja ganó en cada test de YouTube. -->
   las nueve para decir «un día entero» no le convenció («¿por qué el reloj?»). La pidió sin el reloj y queda solo la
   pila de fluorescentes podridos. Mi lectura: un segundo objeto que hay que descifrar (la hora) sobra si el principal
   ya cuenta la historia. Un objeto protagonista, no dos.
+- 2026-11-16 — **Molde de viajes en sus paquetes (4.ª tanda)**: la IA pone escenario de postal, luz de cine y ropa de
+  la escena; de referencia solo su cara (`refs/miniaturas_ia/refs/ramon_B2.jpg`) y el animal real si sale
+  (`conceptos_r4.json`, `generadas_r4/`). Gana la nueva en 1311 A (estanque japonés con despertador) y B (martillo
+  en el desierto), p3 C y E y ramon A, B y C. Mejor la de antes en p3 A, p3 D y ramon D (en esta, el brazo «volando»).
+  Las dos valen en p3 B y ramon E. Ninguna en 1311 C (Ragnar en el estanque), D (el pájaro) y T (estanque como tarta).
+- 2026-11-16 — **Veredicto final (5.ª tanda)**: `conceptos_r5.json`, `generadas_r5/`, página
+  https://claude.ai/artifact/1vCvArj86eVsYQRivDzUzr (colección `veredicto`). **20 de 20 de animales desde cero le
+  gustan**: el molde de viajes vale entero para vídeos nuevos de animales (animal o atrezo enorme pegado a la cara,
+  escenario espectacular, ropa de la escena, mirada seria a la lente, sin texto). En el sufijo va ANATOMY (brazos
+  unidos a los hombros, cinco dedos, nada flotando) y «ningún animal ni persona que no se describa»: con eso no salió
+  ningún brazo suelto. Reworks: la nueva gana en 1311 B2 (Ragnar junto al hoyo perfecto en tierra agrietada, él con
+  el pico partido), 1311 T (carretilla convertida en estanque con un koi saltando) y p3 B (el fluorescente con
+  chubasquero amarillo); las dos valen en p3 D (samurái con el salabre como katana), ramon D (los dos antebrazos en
+  el barreño) y ramon E (la sulcata en el tejado y él en barca). Gana la de antes en 1311 C (Ragnar tumbado sobre
+  las plantas) y p3 A (tubo-acuario). Ninguna en 1311 C2 (Ragnar corriendo con el loto) y 1311 D (pájaro en un
+  trampolín). Mi lectura: el pájaro cae en todas las tandas (y su título ya estaba descartado); Ragnar metido en el
+  jardín japonés inventado no convence en ninguna de las tres versiones, aunque en el desierto sí. Gana lo inventado
+  cuando es un objeto que cuenta el título (chubasquero, carretilla); con su animal real, mejor una escena que pudo
+  pasar.
 
 ## Entrega y publicación
 - 2026-11-14 — **El cámara («el señor misterio») no se reconoce: su voz, disfrazada siempre (voz de pitufo, `VOZ_DISFRAZ`
