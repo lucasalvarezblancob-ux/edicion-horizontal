@@ -2,5 +2,7 @@ numpy
 scipy
 librosa
 soundfile
-opencv-python-headless<5
+# contrib (no headless): mediapipe lo pide por este nombre y, sin fijarlo <5, metía OpenCV 5 (sin haarcascades)
+opencv-contrib-python<5
+mediapipe
 rembg[cpu]

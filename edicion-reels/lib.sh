@@ -193,6 +193,10 @@ instalar_pesados() {      # modelo Whisper, .venv de Python y node_modules (solo
         "$py" -m venv "$dest/herramientas/.venv" || rm -rf "$dest/herramientas/.venv"
       else echo "  ⚠️  No hay Python 3.10–3.13 (brew install python@3.12)."; fi
     fi
+    # dos paquetes de OpenCV en la misma .venv se pisan el módulo cv2: fuera el headless si requirements ya no lo pide
+    if [ -x "$pv" ] && ! grep -q '^opencv-python-headless' "$req" && "$pv" -m pip show -q opencv-python-headless >/dev/null 2>&1; then
+      "$pv" -m pip uninstall -y -q opencv-python-headless
+    fi
     if [ -x "$pv" ] && echo "  → Paquetes de Python" && "$pv" -m pip install -q --disable-pip-version-check -r "$req"; then sha "$req" > "$marca"
     else falta="$falta Python(.venv)"; fi
   fi

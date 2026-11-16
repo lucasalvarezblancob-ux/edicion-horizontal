@@ -45,7 +45,7 @@ if [ -n "$RAPIDO" ] && [ $((cambio_pkg + cambio_req)) -gt 0 ]; then
   echo "  La versión nueva cambia dependencias (npm/pip): lanza bash .claude/skills/edicion-reels/actualizar.sh antes de renderizar."
 else
 [ $cambio_pkg = 1 ] && (cd "$DEST/estudio" && npm install --no-audit --no-fund -q)
-[ $cambio_req = 1 ] && "$DEST/herramientas/.venv/bin/pip" install -q -r "$DEST/herramientas/requirements.txt"
+[ $cambio_req = 1 ] && { instalar_pesados "$DEST" || true; }
 fi
 if [ ${#tocados[@]} -gt 0 ]; then
   echo "Hay versión nueva de estos archivos, pero los has cambiado en local y no los toco:"
