@@ -1,0 +1,230 @@
+[
+ {
+  "w": "Perdona,",
+  "start": 1.6,
+  "end": 1.88,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "¿la",
+  "start": 2.2,
+  "end": 2.26,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "estás",
+  "start": 2.3,
+  "end": 2.46,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "usando?",
+  "start": 2.52,
+  "end": 2.9,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Sí,",
+  "start": 3,
+  "end": 3.08,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "¿por?",
+  "start": 3.12,
+  "end": 3.24,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Pero",
+  "start": 3.9,
+  "end": 4.019,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "¿qué",
+  "start": 4.059,
+  "end": 4.1,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "estás",
+  "start": 4.12,
+  "end": 4.3,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "haciendo",
+  "start": 4.32,
+  "end": 4.66,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "con",
+  "start": 4.68,
+  "end": 4.82,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "ella?",
+  "start": 4.86,
+  "end": 5.08,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Biceps.",
+  "start": 5.36,
+  "end": 5.76,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "¿Cómo",
+  "start": 5.76,
+  "end": 6.8,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "que",
+  "start": 6.86,
+  "end": 6.98,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "bíceps?",
+  "start": 7,
+  "end": 7.44,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Sí.",
+  "start": 7.62,
+  "end": 7.78,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "¿Qué",
+  "start": 7.78,
+  "end": 8.2,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "pasa?",
+  "start": 8.22,
+  "end": 8.22,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Pero",
+  "start": 8.22,
+  "end": 8.3,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "si",
+  "start": 8.34,
+  "end": 8.42,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "eso",
+  "start": 8.46,
+  "end": 8.62,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "no",
+  "start": 8.66,
+  "end": 8.72,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "lo",
+  "start": 8.76,
+  "end": 8.82,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "levanto",
+  "start": 8.86,
+  "end": 9.22,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "yo.",
+  "start": 9.28,
+  "end": 9.66,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "¿No",
+  "start": 9.72,
+  "end": 10.12,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "te",
+  "start": 10.22,
+  "end": 10.22,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "lo",
+  "start": 10.22,
+  "end": 10.22,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "crees?",
+  "start": 10.22,
+  "end": 10.22,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "No.",
+  "start": 10.22,
+  "end": 10.22,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Ya",
+  "start": 10.32,
+  "end": 10.38,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "verás.",
+  "start": 10.42,
+  "end": 10.68,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "¡Uah!",
+  "start": 10.68,
+  "end": 12.96,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Vamos.",
+  "start": 13.32,
+  "end": 13.68,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "¡Bah!",
+  "start": 13.68,
+  "end": 16.78,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "¡Yeah!",
+  "start": 16.78,
+  "end": 18.26,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "¡Ueh!",
+  "start": 18.26,
+  "end": 19.56,
+  "hablante": "speaker_1"
+ }
+]

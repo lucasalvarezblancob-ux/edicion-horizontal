@@ -1,0 +1,1790 @@
+[
+ {
+  "w": "Si",
+  "start": 3.7,
+  "end": 3.78,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "fuera",
+  "start": 3.84,
+  "end": 4.019,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "tu",
+  "start": 4.059,
+  "end": 4.16,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "gymbro,",
+  "start": 4.2,
+  "end": 4.52,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "estas",
+  "start": 4.88,
+  "end": 5.06,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "serían",
+  "start": 5.1,
+  "end": 5.3,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "las",
+  "start": 5.32,
+  "end": 5.42,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "prendas",
+  "start": 5.52,
+  "end": 5.78,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "que",
+  "start": 5.84,
+  "end": 5.9,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "te",
+  "start": 5.94,
+  "end": 6.02,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "recomendaría",
+  "start": 6.06,
+  "end": 6.64,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "comprarte",
+  "start": 6.7,
+  "end": 7.08,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "en",
+  "start": 7.1,
+  "end": 7.22,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Black",
+  "start": 7.32,
+  "end": 7.48,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Friday",
+  "start": 7.52,
+  "end": 7.82,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "de",
+  "start": 10.84,
+  "end": 10.86,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Gymshark.",
+  "start": 10.9,
+  "end": 11.02,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Si",
+  "start": 11.06,
+  "end": 11.12,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "fuera",
+  "start": 11.16,
+  "end": 11.32,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "tu",
+  "start": 11.36,
+  "end": 11.46,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "gymbro,",
+  "start": 11.52,
+  "end": 11.8,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "estas",
+  "start": 12.06,
+  "end": 12.3,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "son",
+  "start": 12.36,
+  "end": 12.48,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "las",
+  "start": 12.54,
+  "end": 12.66,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "prendas",
+  "start": 12.74,
+  "end": 13,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "que",
+  "start": 13.02,
+  "end": 13.1,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "te",
+  "start": 13.14,
+  "end": 13.2,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "recomendaría",
+  "start": 13.24,
+  "end": 13.92,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "comprarte",
+  "start": 13.98,
+  "end": 14.56,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "en",
+  "start": 14.62,
+  "end": 14.68,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "el",
+  "start": 14.7,
+  "end": 14.78,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Black",
+  "start": 14.82,
+  "end": 14.98,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Friday",
+  "start": 15.04,
+  "end": 15.2,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "de",
+  "start": 15.4,
+  "end": 15.46,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Gymshark.",
+  "start": 15.54,
+  "end": 16.02,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Primero,",
+  "start": 19.32,
+  "end": 19.72,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "la",
+  "start": 19.72,
+  "end": 19.72,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "camiseta",
+  "start": 19.72,
+  "end": 19.72,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Geo",
+  "start": 19.72,
+  "end": 19.72,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Seamless.",
+  "start": 19.72,
+  "end": 19.72,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Primero,",
+  "start": 19.72,
+  "end": 19.72,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "la",
+  "start": 19.96,
+  "end": 20.04,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "camiseta",
+  "start": 20.1,
+  "end": 20.76,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Geo",
+  "start": 20.84,
+  "end": 21.02,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Seamless.",
+  "start": 21.12,
+  "end": 21.62,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Es",
+  "start": 23.32,
+  "end": 23.4,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "sin",
+  "start": 23.46,
+  "end": 23.56,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "costuras",
+  "start": 23.6,
+  "end": 24.06,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "y",
+  "start": 24.12,
+  "end": 24.18,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "va",
+  "start": 24.2,
+  "end": 24.24,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "ajustada,",
+  "start": 24.28,
+  "end": 24.76,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "así",
+  "start": 24.98,
+  "end": 25.14,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "que",
+  "start": 25.16,
+  "end": 25.22,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "te",
+  "start": 25.28,
+  "end": 25.34,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "va...",
+  "start": 25.36,
+  "end": 25.62,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "así",
+  "start": 26.14,
+  "end": 26.3,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "que",
+  "start": 26.32,
+  "end": 26.38,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "te",
+  "start": 26.42,
+  "end": 26.52,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "marca",
+  "start": 26.58,
+  "end": 26.84,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "un",
+  "start": 26.9,
+  "end": 26.98,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "hombro",
+  "start": 27,
+  "end": 27.24,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "y,",
+  "start": 27.52,
+  "end": 27.62,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "mira,",
+  "start": 27.8,
+  "end": 28.28,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "te",
+  "start": 28.58,
+  "end": 28.64,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "marca",
+  "start": 28.7,
+  "end": 28.88,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "un",
+  "start": 28.92,
+  "end": 29,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "hombro",
+  "start": 29.04,
+  "end": 29.26,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "y",
+  "start": 29.66,
+  "end": 29.7,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "brazo",
+  "start": 29.72,
+  "end": 29.94,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "sin",
+  "start": 29.98,
+  "end": 30.06,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "apretarte.",
+  "start": 30.1,
+  "end": 30.52,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Repite",
+  "start": 31.26,
+  "end": 31.64,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "que",
+  "start": 31.68,
+  "end": 31.78,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "te...",
+  "start": 31.82,
+  "end": 31.94,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Es",
+  "start": 32.2,
+  "end": 32.34,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "sin",
+  "start": 32.4,
+  "end": 32.52,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "costuras",
+  "start": 32.56,
+  "end": 33.06,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "y",
+  "start": 33.2,
+  "end": 33.26,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "va",
+  "start": 33.3,
+  "end": 33.34,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "ajustada,",
+  "start": 33.38,
+  "end": 33.86,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "así",
+  "start": 34.18,
+  "end": 34.38,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "que",
+  "start": 34.4,
+  "end": 34.48,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "te",
+  "start": 34.54,
+  "end": 34.64,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "marca",
+  "start": 34.7,
+  "end": 34.98,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "hombro",
+  "start": 35.02,
+  "end": 35.3,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "y",
+  "start": 35.72,
+  "end": 35.72,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "brazo",
+  "start": 35.76,
+  "end": 36.08,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "sin",
+  "start": 36.12,
+  "end": 36.22,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "apretarte.",
+  "start": 36.28,
+  "end": 36.68,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Es",
+  "start": 37.74,
+  "end": 37.82,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "sin",
+  "start": 37.84,
+  "end": 37.96,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "costuras",
+  "start": 38,
+  "end": 38.56,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "y",
+  "start": 38.62,
+  "end": 38.66,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "va",
+  "start": 38.7,
+  "end": 38.74,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "ajustada,",
+  "start": 38.76,
+  "end": 39.3,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "así",
+  "start": 39.38,
+  "end": 39.56,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "que",
+  "start": 39.58,
+  "end": 39.68,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "te",
+  "start": 39.72,
+  "end": 39.8,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "marca",
+  "start": 39.84,
+  "end": 40.06,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "el",
+  "start": 40.1,
+  "end": 40.16,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "hombro",
+  "start": 40.2,
+  "end": 40.62,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "sin",
+  "start": 40.72,
+  "end": 41.06,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "apretarte.",
+  "start": 41.16,
+  "end": 41.8,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Y",
+  "start": 42.66,
+  "end": 42.68,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "lleva",
+  "start": 42.72,
+  "end": 42.92,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "un",
+  "start": 42.96,
+  "end": 43.02,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "camuflaje",
+  "start": 43.06,
+  "end": 43.64,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "que",
+  "start": 43.7,
+  "end": 43.82,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "solo",
+  "start": 43.9,
+  "end": 44.1,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "se",
+  "start": 44.16,
+  "end": 44.22,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "ve",
+  "start": 44.26,
+  "end": 44.34,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "de",
+  "start": 44.36,
+  "end": 44.44,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "cerca.",
+  "start": 44.5,
+  "end": 44.74,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Y",
+  "start": 45.68,
+  "end": 45.7,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "lleva",
+  "start": 45.72,
+  "end": 45.86,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "un",
+  "start": 45.9,
+  "end": 45.94,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "camuflaje",
+  "start": 45.98,
+  "end": 46.6,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "que",
+  "start": 46.66,
+  "end": 46.78,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "solo",
+  "start": 46.84,
+  "end": 47.08,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "se",
+  "start": 47.14,
+  "end": 47.24,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "ve",
+  "start": 47.26,
+  "end": 47.34,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "de",
+  "start": 47.38,
+  "end": 47.46,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "cerca.",
+  "start": 47.52,
+  "end": 47.92,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Segundo,",
+  "start": 49.44,
+  "end": 49.86,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "los",
+  "start": 50.02,
+  "end": 50.14,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Pamper",
+  "start": 50.18,
+  "end": 51.26,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Pants.",
+  "start": 51.28,
+  "end": 51.28,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Segundo,",
+  "start": 51.58,
+  "end": 52.06,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "los",
+  "start": 52.14,
+  "end": 52.3,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Pamper",
+  "start": 52.36,
+  "end": 52.6,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Pants.",
+  "start": 52.72,
+  "end": 53.14,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Anchos",
+  "start": 55.88,
+  "end": 56.02,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "arriba.",
+  "start": 56.04,
+  "end": 56.18,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Tranqui,",
+  "start": 56.22,
+  "end": 56.56,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "estoy",
+  "start": 56.62,
+  "end": 56.86,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "con",
+  "start": 56.92,
+  "end": 57.32,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "micro,",
+  "start": 57.38,
+  "end": 57.66,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "o",
+  "start": 57.74,
+  "end": 57.74,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "sea...",
+  "start": 57.78,
+  "end": 58.16,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Anchos",
+  "start": 60.06,
+  "end": 60.34,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "arriba,",
+  "start": 60.42,
+  "end": 60.76,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "con",
+  "start": 61.12,
+  "end": 61.26,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "puño",
+  "start": 61.34,
+  "end": 61.58,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "abajo",
+  "start": 61.6,
+  "end": 62.04,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "y",
+  "start": 62.1,
+  "end": 62.14,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "el",
+  "start": 62.18,
+  "end": 62.28,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "parche",
+  "start": 62.34,
+  "end": 62.6,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "del",
+  "start": 62.64,
+  "end": 62.78,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "culturista.",
+  "start": 62.82,
+  "end": 63.38,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Anchos",
+  "start": 64.959,
+  "end": 65.18,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "arriba,",
+  "start": 65.26,
+  "end": 65.72,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "con",
+  "start": 65.78,
+  "end": 65.94,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "puño",
+  "start": 65.98,
+  "end": 66.16,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "abajo",
+  "start": 66.22,
+  "end": 66.7,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "y,",
+  "start": 66.82,
+  "end": 66.92,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "y",
+  "start": 69.28,
+  "end": 69.38,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "el",
+  "start": 69.86,
+  "end": 69.98,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "parche",
+  "start": 70.02,
+  "end": 70.3,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "del",
+  "start": 70.32,
+  "end": 70.44,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "culturista.",
+  "start": 70.5,
+  "end": 71.2,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Pantalón",
+  "start": 72.7,
+  "end": 73.12,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "de",
+  "start": 73.16,
+  "end": 73.26,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "culturismo",
+  "start": 73.3,
+  "end": 73.8,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "de",
+  "start": 73.84,
+  "end": 73.94,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "toda",
+  "start": 73.98,
+  "end": 74.06,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "la",
+  "start": 74.12,
+  "end": 74.2,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "vida.",
+  "start": 74.82,
+  "end": 74.88,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Pantalón",
+  "start": 74.94,
+  "end": 75.4,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "de",
+  "start": 75.44,
+  "end": 75.52,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "culturismo",
+  "start": 75.56,
+  "end": 76.1,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "de",
+  "start": 76.14,
+  "end": 76.22,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "toda",
+  "start": 76.26,
+  "end": 76.38,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "la",
+  "start": 76.44,
+  "end": 76.52,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "vida.",
+  "start": 76.56,
+  "end": 76.86,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Y",
+  "start": 78.18,
+  "end": 78.24,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "tercero,",
+  "start": 78.3,
+  "end": 78.72,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "la",
+  "start": 78.84,
+  "end": 78.94,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "sudadera,",
+  "start": 79.02,
+  "end": 79.36,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "la",
+  "start": 79.64,
+  "end": 79.74,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "sudadera",
+  "start": 79.8,
+  "end": 80.14,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Crest",
+  "start": 80.44,
+  "end": 80.68,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Oversized.",
+  "start": 80.74,
+  "end": 81.26,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Stressed.",
+  "start": 82.36,
+  "end": 82.86,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Crest.",
+  "start": 82.86,
+  "end": 82.86,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Crest,",
+  "start": 84.22,
+  "end": 84.52,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "ah.",
+  "start": 84.64,
+  "end": 84.84,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Y",
+  "start": 85.48,
+  "end": 85.54,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "por",
+  "start": 85.58,
+  "end": 85.68,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "último,",
+  "start": 85.74,
+  "end": 86.14,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "la",
+  "start": 86.32,
+  "end": 86.42,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "sudadera",
+  "start": 86.48,
+  "end": 86.94,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Crest",
+  "start": 87.02,
+  "end": 87.4,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Oversized.",
+  "start": 87.5,
+  "end": 88.16,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Tiene",
+  "start": 88.82,
+  "end": 89,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "el",
+  "start": 89,
+  "end": 89.04,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "hombro",
+  "start": 89.04,
+  "end": 89.28,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "caído,",
+  "start": 89.34,
+  "end": 89.8,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "así",
+  "start": 89.9,
+  "end": 90.06,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "que",
+  "start": 90.08,
+  "end": 90.16,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "te",
+  "start": 90.2,
+  "end": 90.26,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "hace",
+  "start": 90.3,
+  "end": 90.52,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "la",
+  "start": 90.54,
+  "end": 90.58,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "espalda",
+  "start": 90.62,
+  "end": 90.98,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "el",
+  "start": 91.22,
+  "end": 91.3,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "doble",
+  "start": 91.34,
+  "end": 91.56,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "de",
+  "start": 91.6,
+  "end": 91.68,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "ancha.",
+  "start": 91.72,
+  "end": 92.08,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Tiene",
+  "start": 92.62,
+  "end": 92.76,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "el",
+  "start": 92.78,
+  "end": 92.84,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "hombro",
+  "start": 92.86,
+  "end": 93.1,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "caído,",
+  "start": 93.14,
+  "end": 93.44,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "así",
+  "start": 93.52,
+  "end": 93.68,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "que",
+  "start": 93.7,
+  "end": 93.78,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "te",
+  "start": 93.82,
+  "end": 93.86,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "hace",
+  "start": 93.9,
+  "end": 94.04,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "la",
+  "start": 94.08,
+  "end": 94.12,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "espalda",
+  "start": 94.14,
+  "end": 94.64,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "el",
+  "start": 94.72,
+  "end": 94.8,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "doble",
+  "start": 94.86,
+  "end": 95.06,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "de",
+  "start": 95.1,
+  "end": 95.18,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "ancha.",
+  "start": 95.26,
+  "end": 95.62,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Están",
+  "start": 97.2,
+  "end": 97.4,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "de",
+  "start": 97.44,
+  "end": 97.48,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "oferta",
+  "start": 97.5,
+  "end": 97.88,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "por",
+  "start": 97.92,
+  "end": 98.04,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Black",
+  "start": 98.08,
+  "end": 98.28,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Friday,",
+  "start": 98.3,
+  "end": 98.56,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "así",
+  "start": 98.66,
+  "end": 98.88,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "que",
+  "start": 98.92,
+  "end": 99.04,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "usa",
+  "start": 99.12,
+  "end": 99.28,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "mi",
+  "start": 99.32,
+  "end": 99.4,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "código",
+  "start": 99.44,
+  "end": 99.76,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "ALVAREZ10.",
+  "start": 99.84,
+  "end": 100.44,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Están",
+  "start": 101.28,
+  "end": 101.5,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "de",
+  "start": 101.52,
+  "end": 101.54,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "oferta,",
+  "start": 101.58,
+  "end": 102.04,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "uy,",
+  "start": 102.24,
+  "end": 102.32,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "están",
+  "start": 102.6,
+  "end": 102.78,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "de",
+  "start": 102.82,
+  "end": 102.84,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "oferta",
+  "start": 102.86,
+  "end": 103.08,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "este",
+  "start": 103.1,
+  "end": 103.24,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Black",
+  "start": 103.26,
+  "end": 103.42,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Friday,",
+  "start": 103.46,
+  "end": 103.74,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "así",
+  "start": 103.8,
+  "end": 103.96,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "que",
+  "start": 103.98,
+  "end": 104.04,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "usa",
+  "start": 104.08,
+  "end": 104.26,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "mi",
+  "start": 104.3,
+  "end": 104.4,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "código",
+  "start": 104.44,
+  "end": 104.88,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "ALVAREZ...",
+  "start": 104.98,
+  "end": 105.36,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Eh,",
+  "start": 112.58,
+  "end": 112.76,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "que",
+  "start": 112.84,
+  "end": 113,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "están",
+  "start": 113.22,
+  "end": 113.52,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "de",
+  "start": 113.56,
+  "end": 113.6,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "oferta...",
+  "start": 113.64,
+  "end": 114.1,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Están",
+  "start": 114.18,
+  "end": 114.4,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "de",
+  "start": 114.4,
+  "end": 114.4,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "oferta",
+  "start": 114.4,
+  "end": 114.44,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "por",
+  "start": 114.48,
+  "end": 114.58,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Black",
+  "start": 114.88,
+  "end": 114.96,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Friday,",
+  "start": 115.1,
+  "end": 118.26,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "así",
+  "start": 118.26,
+  "end": 118.26,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "que",
+  "start": 118.26,
+  "end": 118.26,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "usa",
+  "start": 118.32,
+  "end": 118.36,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "mi",
+  "start": 118.4,
+  "end": 118.4,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "código",
+  "start": 118.4,
+  "end": 118.4,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "ALVAREZ10.",
+  "start": 118.54,
+  "end": 118.74,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Están",
+  "start": 118.78,
+  "end": 118.96,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "de",
+  "start": 118.98,
+  "end": 119,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "oferta",
+  "start": 119.04,
+  "end": 119.4,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "este",
+  "start": 119.44,
+  "end": 119.58,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Black",
+  "start": 119.62,
+  "end": 119.78,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Friday,",
+  "start": 119.8,
+  "end": 120.18,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "así",
+  "start": 120.26,
+  "end": 120.42,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "que",
+  "start": 120.44,
+  "end": 120.5,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "usi...",
+  "start": 120.54,
+  "end": 120.82,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Están",
+  "start": 121.4,
+  "end": 121.6,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "de",
+  "start": 121.62,
+  "end": 121.66,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "oferta",
+  "start": 121.68,
+  "end": 121.9,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "este",
+  "start": 121.94,
+  "end": 122.08,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Black",
+  "start": 122.12,
+  "end": 122.26,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Friday,",
+  "start": 122.32,
+  "end": 122.62,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "así",
+  "start": 122.72,
+  "end": 122.86,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "que",
+  "start": 122.88,
+  "end": 122.92,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "utiliza",
+  "start": 122.96,
+  "end": 123.32,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "mi",
+  "start": 123.38,
+  "end": 123.46,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "código",
+  "start": 123.5,
+  "end": 123.94,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "ALVAREZ10.",
+  "start": 124,
+  "end": 124.62,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Y",
+  "start": 125.96,
+  "end": 126.04,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "sígueme",
+  "start": 126.1,
+  "end": 126.62,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "para",
+  "start": 126.68,
+  "end": 126.86,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "más.",
+  "start": 126.92,
+  "end": 127.3,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Y",
+  "start": 127.3,
+  "end": 127.3,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "sígueme",
+  "start": 127.3,
+  "end": 127.3,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "para",
+  "start": 127.3,
+  "end": 127.3,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "más.",
+  "start": 127.3,
+  "end": 127.3,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "Vale,",
+  "start": 128.84,
+  "end": 129.02,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "muchas",
+  "start": 129.199,
+  "end": 129.44,
+  "hablante": "speaker_1"
+ },
+ {
+  "w": "gracias.",
+  "start": 129.5,
+  "end": 129.56,
+  "hablante": "speaker_1"
+ }
+]

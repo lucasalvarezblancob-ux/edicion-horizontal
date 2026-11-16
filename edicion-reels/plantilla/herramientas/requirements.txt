@@ -1,0 +1,6 @@
+numpy
+scipy
+librosa
+soundfile
+opencv-python-headless<5
+rembg[cpu]

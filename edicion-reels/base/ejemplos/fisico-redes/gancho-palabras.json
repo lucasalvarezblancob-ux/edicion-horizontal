@@ -1,0 +1,134 @@
+[
+ {
+  "w": "Soy",
+  "start": 4.68,
+  "end": 4.9,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Lucas.",
+  "start": 4.92,
+  "end": 5.48,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Y",
+  "start": 11.3,
+  "end": 11.36,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "déjame",
+  "start": 11.38,
+  "end": 11.7,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "decirte",
+  "start": 11.74,
+  "end": 12.14,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "que",
+  "start": 12.18,
+  "end": 12.28,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "si",
+  "start": 12.32,
+  "end": 12.4,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "esto",
+  "start": 12.44,
+  "end": 12.62,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "no",
+  "start": 12.64,
+  "end": 12.72,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "te",
+  "start": 12.76,
+  "end": 12.84,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "parece",
+  "start": 12.88,
+  "end": 13.1,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "un",
+  "start": 13.12,
+  "end": 13.18,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "buen",
+  "start": 13.2,
+  "end": 13.34,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "físico,",
+  "start": 13.4,
+  "end": 13.76,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "las",
+  "start": 13.94,
+  "end": 14.08,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "redes",
+  "start": 14.14,
+  "end": 14.32,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "sociales",
+  "start": 14.34,
+  "end": 14.8,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "te",
+  "start": 14.88,
+  "end": 14.92,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "han",
+  "start": 14.96,
+  "end": 15.1,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "frito",
+  "start": 15.14,
+  "end": 15.36,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "el",
+  "start": 15.38,
+  "end": 15.46,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "cerebro",
+  "start": 15.5,
+  "end": 15.86,
+  "hablante": "speaker_0"
+ }
+]

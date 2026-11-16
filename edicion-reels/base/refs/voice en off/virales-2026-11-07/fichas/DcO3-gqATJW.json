@@ -1,0 +1,182 @@
+{
+  "id": "DcO3-gqATJW",
+  "creador": "gerardfelipx",
+  "seguidores": 179000,
+  "visitas": 367000,
+  "likes": 12331,
+  "comentarios": 380,
+  "duracion_s": 26.5,
+  "url": "https://www.instagram.com/reel/DcO3-gqATJW/",
+  "formato": "Confesión generacional ('soy raro para mi edad') + día a día de entreno en solitario",
+  "resumen": "Gerard (21 años) se confiesa 'raro' porque prefiere entrenar a salir de fiesta y enseña su día: trabaja, estudia, crea contenido y se va 2 h a la bici estática. Lo distinto: convierte la etiqueta negativa en orgullo y cierra con una frase-mantra ('prefiero eso a perderme una vida que no me llene').",
+  "gancho_voz": "Soy raro para mi edad.",
+  "gancho_texto_pantalla": null,
+  "gancho_visual": "Terraza con jardín y una palmera en primer plano. Gerard sin camiseta, de espaldas y apoyado en la barandilla, se gira hacia la cámara (0–1,2 s) y camina de frente enseñando el torso (1,2–2,2 s). El subtítulo se apila en vertical palabra a palabra en el centro: 'soy / raro / para / mi / edad'.",
+  "guion_original": [
+    {
+      "t": "0.0–1.1",
+      "texto": "Soy raro para mi edad.",
+      "plano": "Terraza con jardín, sin camiseta, de espaldas apoyado en la barandilla, se gira a cámara; subtítulo apilado"
+    },
+    {
+      "t": "1.2–4.8",
+      "texto": "Tengo 21 años y prefiero entrenar antes que salir de fiesta cada fin de semana.",
+      "plano": "1,2–2,2 de frente caminando sin camiseta ('21 años') → 2,2–4,9 cocina de espaldas preparando el batido y bebiendo del shaker"
+    },
+    {
+      "t": "4.9–10.3",
+      "texto": "Trabajo 8 horas al día y cuando salgo aún tengo que estudiar, crear contenido y hacer uno o dos entrenos al día.",
+      "plano": "4,9–5,95 abre el armario alto de los bidones (picado) → 5,95–6,6 sube las escaleras con un bidón → 6,6–8,85 en su cuarto se cambia y se pone el culotte de ciclismo → 8,85–9,2 primer plano con la mochila → 9,2–10,1 sale por la puerta con la mochila"
+    },
+    {
+      "t": "10.5–14.7",
+      "texto": "Hoy me tocan 2 horas de estática y lo que para muchos sería un plan aburrido, para mí es lo contrario.",
+      "plano": "10,1–11,3 camina por la calle de espaldas con la mochila Nike → 11,3–12,35 sentado en el suelo del gym poniéndose las zapatillas → 12,35–15,35 se sube a la bici estática, sala con vinilo azul turquesa"
+    },
+    {
+      "t": "15.0–19.0",
+      "texto": "Y es que sí, me gusta pasar tiempo solo, hablar en voz alta y sentir que avanzo hacia donde quiero.",
+      "plano": "15,35–16,4 cenital POV del manillar y las piernas → 16,4–17,5 plano abierto sin camiseta pedaleando → 17,5–19,9 más cerca, sin camiseta y echado sobre el manillar, de lado"
+    },
+    {
+      "t": "19.4–22.9",
+      "texto": "Quizá no encajo en muchos sitios, quizá pienses que me estoy perdiendo algunas cosas,",
+      "plano": "19,9–21,1 plano abierto de la sala → 21,1–26,5 plano oscuro y teal a contraluz de la ventana, cansado y apoyado en el manillar"
+    },
+    {
+      "t": "23.1–26.1",
+      "texto": "pero, sinceramente, prefiero eso a perderme una vida que no me llene.",
+      "plano": "Mismo plano oscuro (el único largo, 5 s); al final se incorpora y sale de plano"
+    }
+  ],
+  "estructura": [
+    {
+      "bloque": "Gancho-etiqueta",
+      "t": "0–1,1",
+      "funcion": "Se pone una etiqueta negativa ('raro') que en realidad presume → curiosidad + '¿yo también soy raro?'"
+    },
+    {
+      "bloque": "Confesión generacional",
+      "t": "1,2–4,8",
+      "funcion": "Edad concreta + elección contra la norma (gym > fiesta) → los que no salen se sienten validados y los que sí salen se pican"
+    },
+    {
+      "bloque": "Carga del día (lista rápida)",
+      "t": "4,9–10,3",
+      "funcion": "Enumera obligaciones con un plano por acción → prueba de esfuerzo, credibilidad y ritmo"
+    },
+    {
+      "bloque": "Inversión",
+      "t": "10,5–14,7",
+      "funcion": "'Lo que para muchos sería aburrido, para mí es lo contrario' → cambia el valor de lo esperado"
+    },
+    {
+      "bloque": "Por qué (vulnerabilidad)",
+      "t": "15,0–19,0",
+      "funcion": "Confiesa que le gusta estar solo y hablar en voz alta → cercanía e identificación"
+    },
+    {
+      "bloque": "Objeción + mantra",
+      "t": "19,4–26,1",
+      "funcion": "Pone en boca del espectador la crítica ('quizá pienses…') y la cierra con una frase redonda para compartir"
+    }
+  ],
+  "edicion": {
+    "num_planos": 15,
+    "s_por_plano": 1.77,
+    "subtitulos": "Palabra a palabra, sans bold blanca (tipo Montserrat 700), pequeña, centrada a ≈45 % de alto, sin caja ni color. En el gancho las palabras se apilan en vertical, una debajo de otra ('soy / raro / para / mi / edad'), hasta formar la frase; después sale una sola palabra cada vez.",
+    "texto_pantalla": "No hay título aparte: el gancho es el propio subtítulo apilado.",
+    "musica": "Instrumental emotiva y ambiental de fondo, continua, ≈7–8 dB por debajo de la voz (pausa final −24 dB frente a −16,6 dB de media). No identificada.",
+    "efectos": "Solo cortes secos, sin transiciones ni zooms. Planos de iPhone a pulso o apoyados, con look de vlog real. Casa en tonos cálidos y gym frío y teal (vinilo azul turquesa); el último plano, oscuro y largo (21,1–26,5), baja la energía para que la frase final pese.",
+    "voz": "Voz real, tranquila e íntima, algo seria, como una confesión; ≈4,1 pal/s (108 palabras en 26 s), sin pausas largas."
+  },
+  "por_que_funciona": [
+    {
+      "momento": "0.0–1.1 · 'Soy raro para mi edad' + torso de espaldas que se gira",
+      "mecanismo": "Etiqueta paradójica + autorreferencia",
+      "explicacion": "'Raro' suena a defecto, pero se intuye que es presumir (va sin camiseta). La contradicción abre una pregunta ('¿raro por qué?') y el espectador se compara al momento ('¿yo soy raro?'). El subtítulo que se apila palabra a palabra obliga a leer hasta completar la frase."
+    },
+    {
+      "momento": "1.2–4.8 · 'Tengo 21 años y prefiero entrenar antes que salir de fiesta'",
+      "mecanismo": "Identidad de grupo + polarización suave",
+      "explicacion": "Valida a quien no sale ('no soy el único') y pica a quien sí sale. La edad concreta dispara comentarios ('¿21 qué?, pareces de 35', 'raro? eso lo hacemos todos'): 380 comentarios con 12 k likes, mucha conversación para un vídeo tan corto."
+    },
+    {
+      "momento": "4.9–10.3 · '8 horas… estudiar, crear contenido y uno o dos entrenos' con 5 planos en 5,4 s",
+      "mecanismo": "Especificidad + reflejo de orientación",
+      "explicacion": "Las cifras concretas (8 h, 1–2 entrenos) dan credibilidad y respeto porque el esfuerzo se ve. Los cortes a ≈1 s en este tramo meten novedad visual justo donde un vídeo suele perder gente (s 5–10)."
+    },
+    {
+      "momento": "10.5–14.7 · 'lo que para muchos sería un plan aburrido, para mí es lo contrario'",
+      "mecanismo": "Error de predicción / inversión de valor",
+      "explicacion": "Dos horas de bici estática solo suena a castigo, y presentarlo como premio rompe lo esperado y empuja a tomar partido ('yo tampoco lo aguanto' o 'a mí también me encanta')."
+    },
+    {
+      "momento": "15.0–19.0 · 'me gusta pasar tiempo solo, hablar en voz alta'",
+      "mecanismo": "Vulnerabilidad auténtica (confianza)",
+      "explicacion": "Admitir algo un poco ridículo, como hablar solo, humaniza a alguien con físico de modelo. Baja la distancia de estatus y crea complicidad ('yo también hablo solo')."
+    },
+    {
+      "momento": "19.4–22.9 · 'quizá pienses que me estoy perdiendo algunas cosas'",
+      "mecanismo": "Anticiparse a la objeción (segunda persona)",
+      "explicacion": "Pone en voz alta lo que el espectador está pensando, y la sensación de que te 'leen la mente' engancha y desarma la crítica antes de que llegue a los comentarios."
+    },
+    {
+      "momento": "23.1–26.5 · 'prefiero eso a perderme una vida que no me llene' sobre el único plano largo y oscuro",
+      "mecanismo": "Frase-mantra con resolución (recompensa final)",
+      "explicacion": "El juego 'perdiendo cosas / perderme una vida' cierra el bucle del gancho ('raro') con una conclusión que se puede citar. El plano quieto deja que la frase se asiente. Es el tipo de frase que se guarda o se manda a alguien, y la caption 'soy raro?' remata pidiendo opinión."
+    }
+  ],
+  "caption": "soy raro?\n\n#superacion #deporte #mentalidad #fitness #entrenamiento",
+  "cta": "Sin CTA hablado. La caption es una pregunta ('soy raro?') que invita a comentar.",
+  "titulo_lucas": "Soy raro para mi edad",
+  "texto_pantalla_lucas": "Sin título aparte: subtítulo apilado en vertical 'soy / raro / para / mi / edad' (como el original). Caption: '¿soy raro?'",
+  "guion_lucas": [
+    {
+      "texto": "Soy raro para mi edad.",
+      "plano": "recursos/gym/fisico/2026-07-31_quitarse-camiseta-reveal-fisico_gym-neon-azul_tirantes-gris.MP4 @ 2,5–4,5 (de espaldas acabando de quitarse la camiseta y girándose)",
+      "nota": "Seco y tranquilo, sin sonreír. Subtítulo apilado palabra a palabra."
+    },
+    {
+      "texto": "Tengo [tu edad] años y prefiero un rodaje a las siete de la mañana antes que salir de fiesta el sábado.",
+      "plano": "recursos/gym/fisico/2026-07-31_quitarse-camiseta-reveal-fisico_gym-neon-azul_tirantes-gris.MP4 @ 4,5–6 (de frente sin camiseta, '[edad] años') | recursos/running/2026-03-17_selfie-correr-amanecer-paseo-maritimo_manga-larga-negra.MOV @ 2–4 ('a las siete de la mañana')",
+      "nota": "Ajusta la hora a la de verdad."
+    },
+    {
+      "texto": "Trabajo [horas] al día y cuando salgo aún tengo que crear contenido, entrenar y meter kilómetros, porque estoy preparando un maratón y un medio Ironman.",
+      "plano": "recursos/lifestyle/2026-09-24_andando-con-portatil-paseo-soleado_tirantes-negra.MOV @ 8–9,5 ('trabajo') | GRABAR: pones el móvil en el trípode y le das a grabar (2 s, 'crear contenido') | recursos/gym/espalda/2026-11-01_jalon-agarre-estrecho_sudadera-y-sin-camiseta.MOV @ 22–23 ('entrenar') | recursos/running/2026-10-18_correr-calle-ladrillo_espaldas-y-lado_manga-larga-negra.MOV @ 2–3,5 ('kilómetros') | recursos/competicion/2025-11-09_carrera-dorsal-29233_pov-pies-y-dorsal_ropa-blanca.MOV @ 4–5 ('maratón') | GRABAR: 2–3 s nadando en la piscina o en la bici ('medio Ironman')",
+      "nota": "Lista rápida con un plano por cosa (≈1 s cada uno), como Gerard."
+    },
+    {
+      "texto": "Hoy me tocan [dos horas] de tirada larga, y lo que para muchos sería un plan aburrido, para mí es lo mejor de la semana.",
+      "plano": "recursos/gym/fisico/2026-11-01_hibrido_intro-sentado-cajon-nike-strength.mov @ 5,6–7,5 (se ata las zapatillas, como Gerard en el suelo) | recursos/running/2025-10-20_correr-carril-dunas-atardecer_01-espaldas_camiseta-gris-pantalon-oliva.MOV @ 2–5 (sale corriendo de espaldas)",
+      "nota": "Sonrisa ligera en 'lo mejor de la semana'."
+    },
+    {
+      "texto": "Y es que sí, me gusta pasar tiempo solo, hablar en voz alta y sentir que avanzo hacia donde quiero.",
+      "plano": "recursos/running/2025-07-09_pov-abdomen-caminando-camino-pinos_pantalon-oliva.MOV @ 0–1,5 (POV, calca el cenital del manillar) | recursos/running/2025-06-04_selfie-correr-pasarela-dunas-atardecer-sudando_sin-camiseta.MOV @ 8–10 (hablando mientras corre: 'hablar en voz alta') | recursos/running/2025-10-20_correr-carril-dunas-atardecer_03-lateral-cerca-mar_camiseta-gris-pantalon-oliva.MOV @ 0–2,5 ('avanzo')",
+      "nota": "Más íntimo. 'Y es que sí' con medio encogimiento de hombros."
+    },
+    {
+      "texto": "Quizá no encajo en muchos sitios, quizá pienses que me estoy perdiendo cosas,",
+      "plano": "recursos/running/2025-10-20_correr-carril-dunas-atardecer_02-espaldas-y-lateral_camiseta-gris-pantalon-oliva.MOV @ 3–7 (de espaldas con el atardecer)",
+      "nota": "Mirando al espectador: el 'pienses' es para él."
+    },
+    {
+      "texto": "pero, sinceramente, prefiero eso a perderme una vida que no me llene.",
+      "plano": "recursos/running/2026-03-17_correr-amanecer-pasarela_02-lateral-silueta-con-el-sol_manga-larga-negra.MOV @ 12–16 (silueta con el sol; plano largo final como el de Gerard)",
+      "nota": "Pausa después de 'sinceramente'. Baja el tono al final."
+    }
+  ],
+  "palabras_guion_lucas": 119,
+  "duracion_objetivo_s": 32,
+  "viabilidad_recursos": "alta",
+  "que_grabar": [
+    "Poner el móvil en el trípode y darle a grabar (2 s)",
+    "2–3 s nadando o en la bici para el 'medio Ironman' (no hay ni bici ni piscina en recursos)"
+  ],
+  "stock": [
+    "Solo si no puede grabarlo: 'triathlete swimming pool' / 'road cyclist sunrise' en Pexels para el 'medio Ironman'"
+  ],
+  "notas_edit": "Calcar el look de vlog real: cortes secos, sin transiciones ni zooms, iPhone a pulso. Gancho con el subtítulo apilado en vertical palabra a palabra en el centro ('soy / raro / para / mi / edad') y después palabra a palabra con el estilo de Lucas. El tramo de la lista (frase 3) va a ≈1 s por plano; luego se frena a 1,5–2 s y el último plano dura ≈4–5 s quieto. Mantén un solo outfit en el bloque de 'hoy' (las 3 tomas de dunas al atardecer del 2025-10-20 casan entre sí). Música instrumental emotiva y ambiental a −7/−8 dB de la voz. Sin CTA hablado: tras la última frase, 2 s más del plano final con el rótulo SÍGUEME PARA MÁS + @, y caption en pregunta ('¿soy raro?') para provocar comentarios. 25–28 s."
+}

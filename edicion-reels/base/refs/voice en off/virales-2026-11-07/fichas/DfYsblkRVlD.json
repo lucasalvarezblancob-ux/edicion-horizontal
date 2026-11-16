@@ -1,0 +1,202 @@
+{
+  "id": "DfYsblkRVlD",
+  "creador": "danielgmzs",
+  "seguidores": 121000,
+  "visitas": 306000,
+  "likes": 37393,
+  "comentarios": 205,
+  "duracion_s": 20.65,
+  "url": "https://www.instagram.com/reel/DfYsblkRVlD/",
+  "formato": "Test '¿Qué es más romántico? A/B/C' → amor propio en plano nocturno 'espiado' → chiste de la letra D",
+  "resumen": "Lo romántico deja de ser flores o serenata y pasa a ser quererte, sanar y soltar el pasado antes de buscar a alguien. 13 s de un plano nocturno grabado a través de un tronco (como si le espiaras) y remate 'O letra D: dar un beso romántico' con el beso bajo la lluvia de El diario de Noa y él lanzando un beso ('mua'). Es el más corto de la serie (20,6 s).",
+  "gancho_voz": "¿Qué crees que sea más romántico?",
+  "gancho_texto_pantalla": "QUE CREES QUE SEA MÁS ROMÁNTICO?",
+  "gancho_visual": "Selfie a cámara en su cuarto con luz cálida de lámpara (pared crema, mueble verde, pie de micro), gorra verde oliva y camiseta verde Spalding; sonrisa amplia y gesto de mano. Rótulo blanco condensado arriba en 3 líneas y subtítulo de palabra sobre el pecho.",
+  "guion_original": [
+    {
+      "t": "0.0–1.3",
+      "texto": "¿Qué crees que sea más romántico?",
+      "plano": "A cámara en el cuarto; rótulo arriba 'QUE CREES QUE SEA MÁS ROMÁNTICO?'."
+    },
+    {
+      "t": "1.3–2.9",
+      "texto": "Letra A, regalar flores.",
+      "plano": "'LETRA A:' (1,3–2,0) → foto de stock de un chico escondiendo un ramo de rosas a la espalda ante una chica (2,0–2,9), encima de la cabeza."
+    },
+    {
+      "t": "2.9–4.5",
+      "texto": "Letra B, dedicar serenata.",
+      "plano": "'LETRA B:' (2,9–3,6) → foto de mariachis (3,6–4,5)."
+    },
+    {
+      "t": "4.5–5.1",
+      "texto": "Letra C:",
+      "plano": "'LETRA C:' sin foto. Corte seco a 5,13."
+    },
+    {
+      "t": "5.1–8.0",
+      "texto": "Aprender a amarte a ti mismo antes de esperar a que alguien más lo haga por ti.",
+      "plano": "Plano nocturno fijo grabado detrás de un tronco (tapa el tercio izquierdo, desenfocado): parque con camino curvo, farola blanca y árboles verdes iluminados; él a lo lejos, apoyado en la farola, con el móvil, en pantalón corto."
+    },
+    {
+      "t": "8.0–11.4",
+      "texto": "Sanar tus propias heridas antes de intentar construir algo bonito con alguien más.",
+      "plano": "Mismo plano nocturno."
+    },
+    {
+      "t": "11.4–13.2",
+      "texto": "Y aprender a soltar aquello que te lastimó,",
+      "plano": "Mismo plano nocturno."
+    },
+    {
+      "t": "13.2–16.4",
+      "texto": "no porque tengas que olvidarlo, sino porque mereces vivir tu presente",
+      "plano": "Mismo plano nocturno."
+    },
+    {
+      "t": "16.4–18.4",
+      "texto": "sin seguir cargando con el dolor de tu pasado.",
+      "plano": "Mismo plano nocturno. Corte seco a 18,45."
+    },
+    {
+      "t": "18.4–20.6",
+      "texto": "O letra D: dar un beso romántico. ¡Mua!",
+      "plano": "Vuelta al cuarto; 'LETRA D:' (18,8–19,1) → foto del beso bajo la lluvia de El diario de Noa (19,4–20,2) → lanza un beso a cámara con la mano ('MUA'). Fin."
+    }
+  ],
+  "estructura": [
+    {
+      "bloque": "Pregunta-test",
+      "t": "0–1.3",
+      "funcion": "Tema de amor = máxima amplitud de público; invita a responder."
+    },
+    {
+      "bloque": "Opciones tópicas A/B",
+      "t": "1.3–4.5",
+      "funcion": "Clichés románticos (flores, mariachis) con fotos de stock: tono ligero y predecible."
+    },
+    {
+      "bloque": "Giro C + corte",
+      "t": "4.5–5.1",
+      "funcion": "Corte a la noche: lo romántico pasa de hacia fuera a hacia dentro."
+    },
+    {
+      "bloque": "Dos 'antes de'",
+      "t": "5.1–11.4",
+      "funcion": "Paralelismo que ordena prioridades: tú primero, la pareja después."
+    },
+    {
+      "bloque": "Permiso para soltar",
+      "t": "11.4–18.4",
+      "funcion": "Valida sin culpa ('no porque tengas que olvidarlo') → alivio y ganas de enviarlo a alguien."
+    },
+    {
+      "bloque": "Remate cómico D + beso",
+      "t": "18.4–20.6",
+      "funcion": "Chiste tierno y gesto final ('mua') que cierra con sonrisa y empuja al rewatch."
+    }
+  ],
+  "edicion": {
+    "num_planos": 3,
+    "s_por_plano": 6.9,
+    "subtitulos": "Palabra a palabra (1 palabra), MAYÚSCULAS, sans redondeada seminegrita tipo Poppins/Quicksand SemiBold, blanco roto/gris claro sin caja, a ~77 % de alto; iguales en la intro y en la noche (en la noche, sobre el camino). Fallo de autosubtítulo: tildes en minúscula ('ROMáNTICO', 'LASTIMó').",
+    "texto_pantalla": "Rótulo arriba (y≈5–15 %) en condensada gruesa blanca tipo Anton: pregunta en 3 líneas (0–1,3) → 'LETRA A:' → foto que SUSTITUYE al rótulo → 'LETRA B:' → foto → 'LETRA C:' sin foto → nada en la noche → 'LETRA D:' → foto del beso. Fotos pequeñas (~60 % del ancho, ~20 % de alto) encima de la cabeza.",
+    "musica": "Cama musical continua y muy baja durante todo el vídeo: en ningún momento baja de −45 dB, y en las pausas de la voz queda a ≈ −28/−38 dB con contenido tonal (nota sostenida en torno a 262 Hz, Do4, con armónicos y un bajo de 75–95 Hz) → pad/piano emotivo y lento. La misma huella espectral sale en los tres vídeos de la serie (parece la misma cama). No se ha podido identificar el tema. Debajo de la intro jocosa no sube: el cambio de ambiente lo hacen la imagen y la voz, no la música.",
+    "efectos": "Ninguno: cortes secos (5,13 y 18,45), sin zoom ni SFX. Lo especial es el encuadre del plano nocturno: tronco desenfocado en primer plano (marco dentro del marco, punto de vista de alguien que mira a escondidas). Cierra con el gesto físico del beso con la mano.",
+    "voz": "Intro: sonriente, juguetona (~3,2 pal/s, pausas tras cada letra). Voz en off: suave, cálida, tipo confidencia (~4,3 pal/s), frases muy parejas. D: dulce y pícara, termina con un 'mua' real."
+  },
+  "por_que_funciona": [
+    {
+      "momento": "0.0–1.3 · '¿Qué crees que sea más romántico?'",
+      "mecanismo": "Participación + tema de alto interés",
+      "explicacion": "El amor es el tema con más público potencial y la pregunta invita a votar mentalmente (y en comentarios). Al ser el adjetivo menos amenazante de la serie, el gancho es más suave: por eso es el más corto, para no perder a nadie antes del giro."
+    },
+    {
+      "momento": "1.3–4.5 · 'regalar flores', 'dedicar serenata' + fotos de stock / mariachis",
+      "mecanismo": "Expectativa de cliché",
+      "explicacion": "Dos tópicos románticos reconocibles al instante (y la serenata con mariachis guiña a su público latino). El cerebro espera una tercera opción del mismo tipo; esa predicción es la que rompe la C."
+    },
+    {
+      "momento": "5.1 · corte al parque nocturno visto a través de un tronco",
+      "mecanismo": "Error de predicción + mirada voyeur",
+      "explicacion": "El tronco en primer plano coloca al espectador como alguien que observa a escondidas a una persona sola: curiosidad e intimidad inmediatas. Junto con el cambio de luz y de voz, dispara el reflejo de orientación en el s 5."
+    },
+    {
+      "momento": "5.1–11.4 · 'Aprender a amarte… antes de esperar a que alguien más lo haga por ti' / 'Sanar tus propias heridas antes de…'",
+      "mecanismo": "Reencuadre + paralelismo",
+      "explicacion": "Redefine 'romántico' hacia dentro (sorpresa conceptual = insight) y lo repite con la misma estructura 'X antes de Y'. El paralelismo hace la idea fácil de procesar y de recordar, y por eso se cita y se comparte."
+    },
+    {
+      "momento": "11.4–18.4 · 'no porque tengas que olvidarlo, sino porque mereces vivir tu presente'",
+      "mecanismo": "Validación / permiso (baja la culpa)",
+      "explicacion": "Niega la exigencia típica ('olvídalo ya') y da permiso: genera alivio en quien está pasando una ruptura. Esa sensación de 'me entiende' es la que hace enviarlo por privado a un amigo (compartidos)."
+    },
+    {
+      "momento": "18.4–20.6 · 'O letra D: dar un beso romántico' + El diario de Noa + 'mua'",
+      "mecanismo": "Alivio cómico + bucle corto",
+      "explicacion": "Vuelve lo literal con el beso más icónico del cine y un gesto tierno: deja buen sabor y no rompe el mensaje. Con 20 s y un final que conecta con la pregunta inicial, mucha gente lo ve 2 veces seguidas (sube la retención por encima del 100 %). El caption 'Sé un romántico contigo' deja el mensaje en una frase que se puede citar."
+    }
+  ],
+  "caption": "Sé un romántico contigo.\n\nCódigo “Daniel” \n@breathedivinity \n\n#romantico #amorpropio #relaciones #relatable #viral",
+  "cta": "Sin CTA hablado. La D y el 'mua' cierran con sonrisa; el caption resume el mensaje en una frase citable. Código de patrocinio en el caption.",
+  "titulo_lucas": "Test: ¿qué es más romántico? (saber estar solo)",
+  "texto_pantalla_lucas": "¿QUÉ CREES QUE ES MÁS ROMÁNTICO?",
+  "guion_lucas": [
+    {
+      "texto": "¿Qué crees que es más romántico?",
+      "plano": "GRABAR: selfie a cámara en casa con luz cálida de lámpara, gorra, camiseta verde o de color liso; sonrisa amplia. Rótulo arriba con la pregunta.",
+      "nota": "Juguetón, con ceja levantada."
+    },
+    {
+      "texto": "Letra A: un abrazo en la meta.",
+      "plano": "Mismo plano + 'LETRA A:' → recuadro encima de la cabeza con recursos/competicion/2025-07-05_deka-zaragoza_abrazo-meta_pantalon-oliva.MOV @ 0,5–4 s (abrazo al terminar la DEKA)",
+      "nota": "La gracia es que el abrazo es con un colega: no hace falta decirlo."
+    },
+    {
+      "texto": "Letra B: hacerle tortitas antes de correr.",
+      "plano": "Mismo plano + 'LETRA B:' → foto recursos/fotos/tortitas-miel_recorte.png (tortitas con miel) encima de la cabeza"
+    },
+    {
+      "texto": "Letra C:",
+      "plano": "Mismo plano, 'LETRA C:' sin foto. CORTE SECO a ~5,1 s."
+    },
+    {
+      "texto": "Aprender a disfrutar de tu propia compañía antes de esperar a que alguien venga a completarte.",
+      "plano": "GRABAR: de noche en un parque, móvil escondido detrás de un tronco o un seto que tape el tercio izquierdo del encuadre; tú a ~15 m apoyado en una farola, con ropa de correr (manga larga negra + corto), mirando el móvil como al acabar un rodaje. 20 s quieto.",
+      "nota": "Voz suave, de confidencia; sin prisa."
+    },
+    {
+      "texto": "Sanar tus propias heridas antes de intentar construir algo bonito con alguien.",
+      "plano": "Mismo plano nocturno (sin cortes)",
+      "nota": "Misma melodía que la frase anterior (paralelismo 'antes de')."
+    },
+    {
+      "texto": "Y aprender a soltar lo que te hizo daño,",
+      "plano": "Mismo plano nocturno (sin cortes)"
+    },
+    {
+      "texto": "no porque tengas que olvidarlo, sino porque mereces vivir tu presente",
+      "plano": "Mismo plano nocturno (sin cortes)",
+      "nota": "Pausa breve antes de 'sino'."
+    },
+    {
+      "texto": "sin seguir corriendo con la mochila de tu pasado.",
+      "plano": "Mismo plano nocturno; corte seco al acabar",
+      "nota": "Remata bajando el tono en 'pasado'."
+    },
+    {
+      "texto": "O letra D: darle un beso a tu medalla. ¡Mua!",
+      "plano": "Vuelta al plano a cámara (misma toma): coges una medalla tuya y le das un beso, y en '¡Mua!' lanzas un beso a cámara + 'LETRA D:' → recuadro con recursos/competicion/2025-11-09_carrera-dorsal-29233_mordiendo-medalla_ropa-blanca.MOV @ 0–3,4 s",
+      "nota": "Dulce y pícaro; el 'mua' de verdad."
+    }
+  ],
+  "palabras_guion_lucas": 89,
+  "duracion_objetivo_s": 21,
+  "viabilidad_recursos": "baja",
+  "que_grabar": [
+    "Intro a cámara en casa (~7 s) con la pregunta, A, B y C y, en la misma sesión, la D besando una medalla tuya + lanzar un beso.",
+    "Plano nocturno fijo de 20 s en un parque, desde detrás de un tronco: tú lejos, apoyado en una farola, con ropa de correr, mirando el móvil."
+  ],
+  "stock": [],
+  "notas_edit": "FORMATO COMÚN DE LA SERIE (los 3 de danielgmzs): (1) 0–5 s a cámara, casual y sonriente, en un sitio de andar por casa (coche de noche o su cuarto), pregunta '¿Qué crees que sea más ___?' con rótulo arriba; (2) A y B = respuestas literales y cotidianas, cada una con una foto de stock pequeña y algo ridícula que sale justo en el sustantivo; (3) 'C' sin foto y CORTE SECO a ~5,1–5,3 s a UN ÚNICO plano fijo nocturno de él solo, pequeño en el encuadre (13–21 s sin un solo corte) con voz en off íntima; (4) vuelta al mismo plano a cámara para 'O letra D: ___' = chiste literal con meme de cultura pop (1,4–2,2 s) y fin. Caption = continúa el chiste de la D + código de patrocinio + 5 hashtags. VARÍA: el adjetivo (peligroso / pesado / romántico) y por tanto el tema de la C (identidad / arrepentimiento / amor propio), el sitio de la intro y la camiseta, el plano nocturno (plaza con palmeras / calle con encapuchado / parque a través de un tronco), la tipografía de los subtítulos y si las letras van en rótulo arriba ('LETRA A:') o gigantes en el pecho ('A:'). El más visto (760 K) es el de identidad: el tema más universal y el adjetivo de amenaza más fuerte. | CÓMO CALCARLO: 3 planos y cortes secos (≈5,1 y ≈18,4 s), sin zooms ni SFX. Rótulo arriba en Anton blanca; la foto/clip de cada opción SUSTITUYE al rótulo 'LETRA X:' en el sustantivo (pop.mp3 suave); 'LETRA C:' sin nada. Recuadros pequeños (~60 % del ancho) encima de la cabeza; en los clips (abrazo DEKA, medalla), borde blanco fino y sin sonido. Subtítulos de la casa (Subtitulos.tsx) en los tres planos, sobre el camino en la noche. El tronco en primer plano es la firma visual: que tape un tercio y esté desenfocado (enfoca a la farola). Música: pad/piano emotivo muy bajo todo el vídeo. Es el más corto (≈21 s): no lo alargues; el final es el 'mua', en seco."
+}

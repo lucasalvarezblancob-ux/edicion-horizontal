@@ -67,7 +67,9 @@ if (-not (Test-Path $bash)) { $bash = "C:\Program Files\Git\bin\bash.exe" }
 if (-not (Test-Path $bash)) { throw "No encuentro Git Bash (bash.exe)." }
 
 Write-Host "-> Todas las skills (enlazadas en ~\.claude\skills) y actualización automática"
+$env:PUBLIQO_ED_SIN_AVISOS = "1"
 & $bash ("$Skill/sincronizar.sh".Replace('\', '/')) --ya
+Remove-Item Env:PUBLIQO_ED_SIN_AVISOS
 $py = if (Hay "python") { "python" } else { "py" }
 & $py "$Skill\hook_global.py" $Skill
 

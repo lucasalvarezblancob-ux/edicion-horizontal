@@ -1,0 +1,307 @@
+{
+  "id": "Depf_qVgTEc",
+  "creador": "gerardfelipx",
+  "seguidores": 179000,
+  "visitas": 265000,
+  "likes": 8662,
+  "comentarios": 104,
+  "duracion_s": 50.5,
+  "url": "https://www.instagram.com/reel/Depf_qVgTEc/",
+  "formato": "Confesión 'soy un procrastinador' + día a día en planos cortos (querer vs decidir)",
+  "resumen": "Un chico en forma confiesa que es un procrastinador con pereza y fuerza de voluntad normales, y explica que no se salta entrenos porque no espera a tener ganas: lo ha decidido. Va narrado sobre un día normal (sofá, correr, ducha, comida en familia, moto), con un plano cada 2 s y subtítulos pequeños palabra a palabra.",
+  "gancho_voz": "Tengo 21 años y soy un procrastinador. Sí, como todos.",
+  "gancho_texto_pantalla": null,
+  "gancho_visual": "0–2,9 s: tirado en el sofá sin camiseta, con una manta naranja, cierra el portátil con desgana y se recuesta. Plano fijo, colores apagados. Los subtítulos salen palabra a palabra encima de la cabeza y 'procrastinador' va en cursiva. 2,9 s: otro ángulo del sofá, con la mano en la barbilla y mirando a la nada.",
+  "guion_original": [
+    {
+      "t": "0.0–2.3",
+      "texto": "Tengo 21 años y soy un procrastinador.",
+      "plano": "Sofá, sin camiseta, manta naranja: cierra el portátil y se deja caer."
+    },
+    {
+      "t": "2.4–4.0",
+      "texto": "Sí, como todos.",
+      "plano": "2,87: otro ángulo del sofá, mano en la barbilla, mirada perdida."
+    },
+    {
+      "t": "4.1–6.7",
+      "texto": "Pero no recuerdo la última vez que me salté un entreno.",
+      "plano": "4,48: primer plano de los pies, sentado en la cama poniéndose las zapatillas de running (Nike negras con suela roja) y los manguitos."
+    },
+    {
+      "t": "6.9–10.1",
+      "texto": "Pereza tengo como todo el mundo, y fuerza de voluntad, normalita.",
+      "plano": "6,95: en la calle estira apoyado en una verja blanca: camiseta térmica negra de manga larga y pantalón corto gris."
+    },
+    {
+      "t": "10.3–13.9",
+      "texto": "Pero una cosa es querer hacer algo y otra muy distinta es decidir hacerlo.",
+      "plano": "10,08: sale corriendo calle abajo, de espaldas, y se va haciendo pequeño entre casas y coches."
+    },
+    {
+      "t": "13.9–15.1",
+      "texto": "Y lo sé por experiencia.",
+      "plano": "13,92: vuelve a casa: pies con las zapatillas sobre el felpudo."
+    },
+    {
+      "t": "15.4–18.0",
+      "texto": "Estuve un año pensando cada día en grabarme mi primer vídeo.",
+      "plano": "15,02: se quita la camiseta · 16,02: en la ducha, de espaldas bajo el agua."
+    },
+    {
+      "t": "18.2–20.8",
+      "texto": "Me decía que la red no era para mí, que era un mundo superficial.",
+      "plano": "≈18,2: se gira en la ducha y mira abajo a través del cristal."
+    },
+    {
+      "t": "21.1–24.9",
+      "texto": "Y en parte es cierto, pero era más fácil tener una excusa que tomar una decisión.",
+      "plano": "20,98: ropa doblada y bote de creatina en la encimera · 21,92: coge una camiseta de la percha en el armario · 23,53: de espaldas abre la nevera, con una camiseta negra de Gymshark con la G gótica."
+    },
+    {
+      "t": "25.1–29.2",
+      "texto": "Muchas veces, detrás de un 'no tengo tiempo' o 'no sé si es para mí', hay algo que incomoda.",
+      "plano": "25,27: coge cubiertos del cajón · 26,73: cajones cerrándose · 27,92: mesa vacía con mantel de cuadros."
+    },
+    {
+      "t": "29.4–32.5",
+      "texto": "Volver a fallar, que te juzguen. Y eso no desaparece.",
+      "plano": "29,05: pone los vasos en la mesa · 30,68: chuletas en la plancha."
+    },
+    {
+      "t": "32.6–33.8",
+      "texto": "Yo sigo siendo un procrastinador.",
+      "plano": "Da la vuelta a la carne con las pinzas."
+    },
+    {
+      "t": "34.0–39.1",
+      "texto": "La diferencia es que el día que decidí grabar, la incomodidad seguía ahí, pero simplemente no le hice caso.",
+      "plano": "33,98: se sienta a comer con un familiar (camisa de cuadros, de espaldas), sonríe y escucha. Plano largo de 5 s, el más largo del vídeo."
+    },
+    {
+      "t": "39.4–41.5",
+      "texto": "Con el entreno me pasa exactamente lo mismo.",
+      "plano": "39,37: plato de carne con patatas, manos comiendo, una mujer al fondo (comida en familia)."
+    },
+    {
+      "t": "41.7–42.7",
+      "texto": "No siempre quiero hacerlo.",
+      "plano": "41,5: carga el lavavajillas."
+    },
+    {
+      "t": "42.9–44.3",
+      "texto": "Pero es algo que ya he decidido.",
+      "plano": "42,72: de pie junto a una puerta, con la mano en la boca (se lava los dientes o come algo)."
+    },
+    {
+      "t": "44.7–46.9",
+      "texto": "Así que si llevas tiempo diciendo que quieres empezar,",
+      "plano": "44,52: se abre la puerta del garaje · 45,23: se pone el casco y la mochila junto a la moto."
+    },
+    {
+      "t": "47.0–48.1",
+      "texto": "quizá no te falta tiempo.",
+      "plano": "46,83: sale en moto por la calle, detrás de una verja con hiedra."
+    },
+    {
+      "t": "48.4–50.0",
+      "texto": "Quizá te falta decidirlo.",
+      "plano": "La moto se aleja y sale de plano; corte seco a los 50,4 s."
+    }
+  ],
+  "estructura": [
+    {
+      "bloque": "Gancho-confesión",
+      "t": "0–4",
+      "funcion": "Se pone una etiqueta que casi todo el mundo se pone ('procrastinador'), con edad concreta, y la normaliza ('como todos'). El espectador piensa 'yo también' y baja la guardia."
+    },
+    {
+      "bloque": "Contradicción",
+      "t": "4–10",
+      "funcion": "'Pero no recuerdo la última vez que me salté un entreno' choca con lo anterior y abre la pregunta '¿cómo lo hace?'. 'Fuerza de voluntad normalita' quita la excusa de 'es que él es especial'."
+    },
+    {
+      "bloque": "Tesis + promesa",
+      "t": "10–15",
+      "funcion": "Distinción memorable: querer ≠ decidir. 'Lo sé por experiencia' promete una historia y deja un bucle abierto."
+    },
+    {
+      "bloque": "Historia personal",
+      "t": "15–25",
+      "funcion": "Un año aplazando grabar su primer vídeo. Es una vulnerabilidad concreta y la excusa ('mundo superficial') es la que el espectador también usa."
+    },
+    {
+      "bloque": "Insight emocional",
+      "t": "25–32,5",
+      "funcion": "Pone nombre al miedo que hay detrás de 'no tengo tiempo': fallar y que te juzguen. Es el momento de 'me ha leído la mente' y el que se guarda."
+    },
+    {
+      "bloque": "Giro",
+      "t": "32,5–39",
+      "funcion": "No vende una transformación ('sigo siendo un procrastinador'): la incomodidad no se va, simplemente no le haces caso. Es creíble y alivia."
+    },
+    {
+      "bloque": "Vuelta al entreno",
+      "t": "39–44,5",
+      "funcion": "Cierra el bucle del principio: lo aplica al entreno ('no siempre quiero, pero ya lo he decidido')."
+    },
+    {
+      "bloque": "Cierre-reto",
+      "t": "44,5–50,4",
+      "funcion": "Habla directamente al espectador ('si llevas tiempo diciendo…') y termina con una frase redonda y paralela ('no te falta tiempo / te falta decidirlo') mientras él se va. Corte seco: invita a volver a verlo y a compartirlo."
+    }
+  ],
+  "edicion": {
+    "num_planos": 24,
+    "s_por_plano": 2.1,
+    "subtitulos": "Palabra a palabra, muy pequeños (≈3 % del alto), blanco, sans-serif redonda en minúsculas (tipo Montserrat/Poppins semibold), sin fondo ni sombra marcada. Las palabras de la frase se van acumulando en posiciones escalonadas (una nube suelta en la parte alta-media del plano, sobre la cabeza o el fondo liso) y se borran al acabar la frase. La palabra clave 'procrastinador' va en una serif cursiva más grande. Sin puntuación.",
+    "texto_pantalla": "Ninguno aparte de los subtítulos (ni título ni gancho escrito).",
+    "musica": "Instrumental ambiental y emotiva (piano y pads, sin percusión fuerte) que suena todo el vídeo a volumen alto bajo la voz (en las pausas está a ≈ −18 dB frente a ≈ −16 de la voz). No la he identificado. Termina en seco con el último plano.",
+    "efectos": "Corte seco en todos los planos (sin transiciones ni zooms). Etalonaje apagado y cálido de cine (desaturado, sombras levantadas, viñeta suave). Mucho primer plano de detalle (pies, cajón, plancha) mezclado con planos generales fijos. Al principio parece que hay sonido ambiente de las acciones (puerta, plancha) por debajo de la música.",
+    "voz": "Tranquila, íntima y en tono confesional, casi en voz baja y sin énfasis de coach. Unas 3,6 palabras/s, con micropausas entre frases (0,2–0,3 s)."
+  },
+  "por_que_funciona": [
+    {
+      "momento": "0.0–2.3 · 'Tengo 21 años y soy un procrastinador' + chico en forma tirado en el sofá",
+      "mecanismo": "Autorreferencia + disonancia",
+      "explicacion": "Casi todo el mundo se considera procrastinador, así que el cerebro lo procesa como 'esto va de mí' (efecto de autorreferencia: se atiende y se recuerda más). A la vez, un chico con ese físico diciendo que es vago rompe lo que esperas ver, y esa disonancia hace que no deslices."
+    },
+    {
+      "momento": "2.4–4.0 · 'Sí, como todos.'",
+      "mecanismo": "Identificación de grupo / normalización",
+      "explicacion": "Mete al espectador en el mismo grupo que el creador. Lo que dice ya no suena a sermón de alguien superior sino a confesión entre iguales, así que baja la resistencia (reactancia) y se escucha el mensaje."
+    },
+    {
+      "momento": "4.1–6.7 · 'Pero no recuerdo la última vez que me salté un entreno' (corte a las zapatillas)",
+      "mecanismo": "Brecha de curiosidad (bucle abierto)",
+      "explicacion": "Juntar 'procrastinador' con 'nunca me salto un entreno' crea una contradicción que el cerebro necesita resolver ('¿cómo?'). La respuesta no llega hasta el s 34, y esa tensión pendiente (efecto Zeigarnik) sostiene la retención hasta la mitad del vídeo."
+    },
+    {
+      "momento": "6.9–10.1 · 'fuerza de voluntad normalita'",
+      "mecanismo": "Autoeficacia / quitar la excusa del talento",
+      "explicacion": "Desmonta el 'es que él tiene disciplina y yo no'. Si alguien normal lo consigue, el espectador siente que él también puede (autoeficacia, Bandura). Por eso se guarda y se comparte como algo útil, no como presumir."
+    },
+    {
+      "momento": "25.1–32.5 · 'detrás de un no tengo tiempo… hay algo que incomoda. Volver a fallar, que te juzguen'",
+      "mecanismo": "Etiquetado emocional (insight)",
+      "explicacion": "Pone nombre a una emoción que el espectador siente pero no ha dicho nunca. Ponerle palabras da alivio y la sensación de 'me ha leído', que es lo que más se guarda y se manda por privado ('esto es para ti')."
+    },
+    {
+      "momento": "32.6–39.1 · 'Yo sigo siendo un procrastinador… la incomodidad seguía ahí, pero no le hice caso' (plano largo en la mesa familiar)",
+      "mecanismo": "Vulnerabilidad creíble (confianza)",
+      "explicacion": "No promete una cura mágica: admite que la sensación sigue ahí. Esa honestidad genera confianza y conexión (la vulnerabilidad se asocia a oxitocina). Además es la frase con el plano más largo y cálido (comida en familia), así que es el momento más humano del vídeo."
+    },
+    {
+      "momento": "0–50 · 24 planos de rutina (≈2 s cada uno) y corte seco tras 'Quizá te falta decidirlo'",
+      "mecanismo": "Novedad visual + cierre que invita al bucle",
+      "explicacion": "Cada corte de ≈2 s con una acción nueva (zapatillas, plancha, garaje) activa el reflejo de orientación sin cansar, porque son acciones cotidianas y estéticas (vida aspiracional pero alcanzable). La frase final, en paralelo y con forma de aforismo, se dice mientras él se va en moto y el vídeo se corta de golpe: el espectador se queda con la frase y muchas veces lo vuelve a ver o lo comparte."
+    }
+  ],
+  "caption": "si lees esto, hazlo.\n\n#reflexion #mentalidad #procrastinar #deporte #correr",
+  "cta": "Sin CTA explícita de seguir. El cierre ('quizá te falta decidirlo') funciona como llamada a la acción y el caption la remata: 'si lees esto, hazlo.'",
+  "titulo_lucas": "Soy un procrastinador (pero no me salto entrenos)",
+  "texto_pantalla_lucas": "Sin gancho escrito, igual que el original: solo subtítulos palabra a palabra con 'procrastinador' en cursiva. Si quieres portada: 'soy un procrastinador'.",
+  "guion_lucas": [
+    {
+      "texto": "Tengo [tu edad] años y soy un procrastinador.",
+      "plano": "GRABAR: tirado en el sofá (sin camiseta o con camiseta de estar por casa, manta encima), plano fijo; cierras el portátil con desgana y te dejas caer. 3 s.",
+      "nota": "Tono de confesión, casi con vergüenza. Pausa corta antes de 'procrastinador'."
+    },
+    {
+      "texto": "Sí, como todos.",
+      "plano": "GRABAR: mismo sofá desde otro ángulo, mano en la barbilla, mirando a la nada. 1,5 s.",
+      "nota": "Con media sonrisa, en plan cómplice."
+    },
+    {
+      "texto": "Pero no recuerdo la última vez que me salté un entreno.",
+      "plano": "recursos/gym/fisico/2026-11-01_hibrido_intro-sentado-cajon-nike-strength.mov @ 5,6–8 (se ata las zapatillas; encuadra cerrado a los pies)",
+      "nota": "Un poco más de energía en 'no recuerdo'."
+    },
+    {
+      "texto": "Pereza tengo como todo el mundo. Y fuerza de voluntad, normalita.",
+      "plano": "recursos/recuperacion/2025-06-04_movilidad-dinamica-paseo-contrapicado_sin-camiseta.MOV @ 8–11 (círculos de brazos, calentando)",
+      "nota": "'Normalita' con gracia, quitándote importancia."
+    },
+    {
+      "texto": "Pero una cosa es querer hacer algo y otra muy distinta es decidir hacerlo.",
+      "plano": "recursos/running/2026-10-18_correr-calle-ladrillo_espaldas-y-lado_manga-larga-negra.MOV @ 0–4 (de espaldas, se aleja por la calle; quita el audio)",
+      "nota": "Remarca 'querer' y 'decidir'."
+    },
+    {
+      "texto": "Y lo sé por experiencia.",
+      "plano": "recursos/competicion/2025-11-09_carrera-dorsal-29233_pov-pies-y-dorsal_ropa-blanca.MOV @ 0–1,5 (POV de los pies corriendo)"
+    },
+    {
+      "texto": "Estuve [cuánto tiempo, p. ej. 'un año'] pensando cada día en apuntarme a mi primer [maratón / medio Ironman].",
+      "plano": "recursos/recuperacion/2025-11-26_ducha-spa-luz-roja_de-espaldas_sin-camiseta.MOV @ 0–3,5 (de espaldas bajo el agua, pensativo)",
+      "nota": "Pon solo lo que sea verdad. Si lo que aplazaste fue empezar a grabar contenido, puedes dejar la historia original ('grabarme mi primer vídeo')."
+    },
+    {
+      "texto": "Me decía que eso no era para mí, que [tu excusa de entonces, p. ej. 'era para gente que lleva toda la vida corriendo'].",
+      "plano": "recursos/recuperacion/2025-11-26_ducha-spa-luz-roja_de-espaldas_sin-camiseta.MOV @ 12–15 (se gira y sale de la ducha)"
+    },
+    {
+      "texto": "Y en parte tenía su lógica, pero era más fácil tener una excusa que tomar una decisión.",
+      "plano": "recursos/running/2026-10-24_outfit-trail-se-prepara-en-parking_gafas-rojas-chaleco.MOV @ 0–3,5 (se pone las gafas; quita el audio)",
+      "nota": "Marca el contraste 'excusa' / 'decisión'."
+    },
+    {
+      "texto": "Muchas veces, detrás de un 'no tengo tiempo' o un 'no sé si es para mí',",
+      "plano": "recursos/lifestyle/2026-09-24_andando-con-portatil-paseo-soleado_tirantes-negra.MOV @ 8–12 (con el portátil, el 'no tengo tiempo')"
+    },
+    {
+      "texto": "hay algo que incomoda. Volver a fallar, que te juzguen.",
+      "plano": "recursos/gym/pecho/2026-08-28_press-pecho-maquina-technogym_amigo-ayuda-al-final_camiseta-blanca-compresiva.MOV @ 28–32 (al fallo, el amigo le ayuda)",
+      "nota": "Baja el tono, más lento. Es el momento más íntimo."
+    },
+    {
+      "texto": "Y eso no desaparece.",
+      "plano": "recursos/gym/pecho/2026-08-28_press-pecho-maquina-technogym_amigo-ayuda-al-final_camiseta-blanca-compresiva.MOV @ 34–36 (sentado, reventado)"
+    },
+    {
+      "texto": "Yo sigo siendo un procrastinador.",
+      "plano": "recursos/lifestyle/2025-06-27_cafe-chiringuito-playa_sin-camiseta.MOV @ 0–2,5 (sorbo de café sin prisa)",
+      "nota": "Con humor, encogiéndote de hombros con la voz."
+    },
+    {
+      "texto": "La diferencia es que el día que [me inscribí], el miedo seguía ahí, pero simplemente no le hice caso.",
+      "plano": "recursos/competicion/2025-11-09_carrera-dorsal-29233_corriendo-lateral-y-frente_ropa-blanca.MOV @ 0–3 + @ 9–12 (de frente hacia cámara)",
+      "nota": "Plano largo (≈5 s), como en el original. Pausa antes de 'pero simplemente'."
+    },
+    {
+      "texto": "Con el entreno me pasa exactamente lo mismo.",
+      "plano": "recursos/running/2026-03-17_correr-amanecer-pasarela_02-lateral-silueta-con-el-sol_manga-larga-negra.MOV @ 2–4,5"
+    },
+    {
+      "texto": "No siempre me apetece.",
+      "plano": "recursos/running/2024-12-11_selfie-pasarela-dunas-nublado_sudadera-asics-azul-marino.MOV @ 0–1,5 (día gris de invierno)"
+    },
+    {
+      "texto": "Pero es algo que ya he decidido.",
+      "plano": "recursos/running/2026-10-30_selfie-contrapicado-trail-buenos-dias_gafas-rojas-chaleco.MOV @ 0–1,5 (selfie de buena mañana; sin el audio del 'buenos días')",
+      "nota": "Firme y corto."
+    },
+    {
+      "texto": "Así que si llevas tiempo diciendo que quieres empezar,",
+      "plano": "recursos/running/2026-03-17_correr-amanecer-pasarela_01-pov-y-grupo-a-contraluz.MOV @ 2–4,5 (grupo a contraluz)",
+      "nota": "Ahora hablas a quien lo ve, más cerca."
+    },
+    {
+      "texto": "quizá no te falta tiempo.",
+      "plano": "recursos/running/2025-10-20_correr-carril-dunas-atardecer_02-espaldas-y-lateral_camiseta-gris-pantalon-oliva.MOV @ 3–5"
+    },
+    {
+      "texto": "Quizá te falta decidirlo.",
+      "plano": "recursos/running/2025-10-20_correr-carril-dunas-atardecer_01-espaldas_camiseta-gris-pantalon-oliva.MOV @ 2–6 (se aleja de espaldas al atardecer; corte seco al acabar la palabra)",
+      "nota": "Pausa de 0,4 s antes y dilo bajito."
+    }
+  ],
+  "duracion_objetivo_s": 50,
+  "viabilidad_recursos": "alta",
+  "que_grabar": [
+    "Sofá: tirado con manta y portátil, lo cierras con desgana (3 s), y otro ángulo con la mano en la barbilla (1,5 s). Plano fijo con el móvil apoyado: en total menos de 1 min."
+  ],
+  "stock": [],
+  "notas_edit": "Calca el ritmo: un plano cada ≈2 s (24 planos en 50 s) con corte seco y sin transiciones ni zooms. El único plano largo (≈5 s) va en 'la diferencia es que…'. Ordena los recursos como un día: casa (sofá) → preparar → correr → ducha → vida → competición/amaneceres → te alejas de espaldas al final (en el original se va en moto). Etalonaje común a todos para unificar outfits y luces distintas: bajar saturación ≈20 %, sombras levantadas, tono cálido y viñeta suave. Subtítulos palabra a palabra pequeños, blancos, en minúscula y sans redonda, acumulando la frase en posiciones escalonadas en la zona alta y sin tapar la cara; 'procrastinador' en serif cursiva. Música instrumental de piano o ambiente emotiva, alta y constante bajo la voz, que acaba en seco con el último plano (no uses phonk ni las gym-a/b/c de musica-ia: mejor algo tipo 'Restless' instrumental o un piano lo-fi tranquilo). Quita el audio de todos los clips. Voz grabada con calma (≈3,5 pal/s), sin tono de coach. Caption sugerido en el mismo estilo: 'si lees esto, decídelo.'",
+  "palabras_guion_lucas": 179
+}

@@ -1,0 +1,39 @@
+[
+ {
+  "desde": 20.56,
+  "hasta": 28.36,
+  "nota": "Si te estás preparando para una maratón o una media… como principiante"
+ },
+ {
+  "desde": 32.98,
+  "hasta": 34.54,
+  "nota": "Desayuna fuerte"
+ },
+ {
+  "desde": 39.04,
+  "hasta": 41.24,
+  "nota": "No vale con un par de tortitas de maíz"
+ },
+ {
+  "desde": 57.95,
+  "hasta": 60.24,
+  "fijo": true,
+  "nota": "Métete un plátano y un par de tortitas con miel"
+ },
+ {
+  "desde": 69.3,
+  "hasta": 71.46,
+  "nota": "para que no te dé un chungo a mitad del entreno"
+ },
+ {
+  "desde": 82.6,
+  "hasta": 88.98,
+  "nota": "Y te lo digo por experiencia… casi me desmayo por haber desayunado poco"
+ },
+ {
+  "desde": 93.53,
+  "hasta": 96.2,
+  "nota": "Si quieres más consejos así, sígueme (+ se queda sentado para el @)",
+  "fijo": true
+ }
+]

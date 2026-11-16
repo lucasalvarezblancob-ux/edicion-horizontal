@@ -1,0 +1,246 @@
+{
+  "id": "DaTOwamgamw",
+  "creador": "gerardfelipx",
+  "seguidores": 179000,
+  "visitas": 476000,
+  "likes": 17361,
+  "comentarios": 195,
+  "duracion_s": 57.6,
+  "url": "https://www.instagram.com/reel/DaTOwamgamw/",
+  "formato": "Day in my life con hora en pantalla (estudia + trabaja + entrena + redes)",
+  "resumen": "Un día entero de un chaval de 21 años que estudia, trabaja 8 horas en un hotel, entrena y sube contenido, contado de las 6:00 a las 22:30 con la hora siempre en pantalla. Lo distinto: lo cuenta sin postureo, con humor de 'día normal' (bufé del curro, hamburguesa que se cae, 'no soy un guarro', 'vaya rima').",
+  "gancho_voz": "Así es un día de un chaval que estudia, trabaja, entrena y sube contenido a redes sociales.",
+  "gancho_texto_pantalla": "day in my life / a los 21 años",
+  "gancho_visual": "Plano fijo desde el pasillo, con el marco de la puerta tapando un lado (efecto mirón): duerme boca abajo en calzoncillos en una cama individual con cuadro de fotos rojas detrás; a los 2,5 s se mueve y se incorpora. Texto 'day in my life / a los 21 años' centrado.",
+  "guion_original": [
+    {
+      "t": "0.0–4.2",
+      "texto": "Así es un día de un chaval que estudia, trabaja, entrena y sube contenido a redes sociales.",
+      "plano": "Durmiendo boca abajo, plano fijo desde la puerta; texto 'day in my life a los 21 años'; se despierta y se sienta en el borde de la cama ('06:00 am')."
+    },
+    {
+      "t": "4.2–8.0",
+      "texto": "Son las 6 de la mañana, así que me replanteo un poco la vida, me visto, me lavo los dientes.",
+      "plano": "Sentado en la cama con la cabeza gacha (06:00), se pone la camiseta negra (06:05) (hasta 7,5); en el baño se lava los dientes (06:07)."
+    },
+    {
+      "t": "8.0–11.3",
+      "texto": "Bueno, y hago las típicas cosas de por la mañana.",
+      "plano": "De espaldas en el baño (06:10); en el espejo se arregla el pelo y la barba (06:13)."
+    },
+    {
+      "t": "11.3–17.8",
+      "texto": "Importantísimo: beber agua al despertarse. Cojo el casco y me voy para el trabajo, porque sí, ya voy tarde, normal, imagínate si me tengo que grabar.",
+      "plano": "Bebe agua de una botella en la cocina (06:15); coge el casco de la mesa (06:18); sale de casa con mochila Nike Pro (06:18); sale al portal (06:20); en el garaje se sube a la moto y arranca (06:21–06:24)."
+    },
+    {
+      "t": "17.8–25.9",
+      "texto": "Aquí la verdad es que no hay ningún misterio: un trabajo normal, 8 horas en un hotel, que al menos tengo bufé libre y puedo comer lo que quiera. Hoy han tocado canelones, huevos y carne.",
+      "plano": "Llega en moto por el parking del hotel (06:50), aparca y entra por la puerta de servicio (hasta 21,3); bufé de personal (13:00) (21,3–23,2); bandeja con canelones, huevos duros y carne con tomate (23,2–25,4)."
+    },
+    {
+      "t": "25.9–28.4",
+      "texto": "(sin voz en off: audio del vestuario, risas)",
+      "plano": "Vestuario (15:00): él con la camisa estampada del uniforme se parte de risa contra una taquilla con un compañero en calzoncillos."
+    },
+    {
+      "t": "28.4–30.0",
+      "texto": "La camiseta es el uniforme.",
+      "plano": "Se quita la ropa del trabajo junto a la taquilla (15:03)."
+    },
+    {
+      "t": "30.0–34.1",
+      "texto": "Me visto rápido porque son las 3 y tengo un examen. No sin antes abrir la nevera.",
+      "plano": "Ya cambiado, de espaldas (15:03); sale en moto del parking (15:07) (31,2–32,4); en casa se quita la camiseta y abre la nevera (15:40)."
+    },
+    {
+      "t": "34.1–36.4",
+      "texto": "¿Soy el único con esta manía? Y ahora sí, empieza el examen.",
+      "plano": "Mira la nevera abierta sin coger nada; entra en el salón (15:50); sentado en el sofá con el portátil (16:45)."
+    },
+    {
+      "t": "36.4–42.9",
+      "texto": "Y diréis: ¿qué haces en el sofá? Bueno, es que estudio marketing online, 100 % online. Y es uno de los motivos por los cuales yo puedo hacer tantas cosas.",
+      "plano": "Mismo plano del sofá pasando las horas (17:15, 17:50, 18:25, 19:15); en el pasillo se cambia a ropa de correr y se ata las zapatillas (19:30)."
+    },
+    {
+      "t": "42.9–46.0",
+      "texto": "Aquí, como veis, he salido a correr, porque nunca puede faltar el deporte.",
+      "plano": "POV de sus pies corriendo por la acera (19:40); corriendo de espaldas por un camino de tierra entre cañas al atardecer (20:40)."
+    },
+    {
+      "t": "46.0–52.6",
+      "texto": "Y lo siento, porque no soy el mejor cocinero: como veis, se me ha caído media hamburguesa, pero me la he comido igual. No tiene muy buena pinta, pero es lo que hay.",
+      "plano": "Cocina sin camiseta: voltea la sartén y se le cae media hamburguesa (21:00–21:05); plato con la hamburguesa deshecha y raviolis en un mantel de cerezas (21:20)."
+    },
+    {
+      "t": "52.6–57.6",
+      "texto": "No soy un guarro: me he lavado los dientes, me he duchado, pero no lo he grabado porque estoy reventado. Vaya rima. Buenas noches.",
+      "plano": "Se mete en la cama y se tapa (22:30), hace un gesto con la mano y se deja caer en la almohada; negro con 'buenas noches'."
+    }
+  ],
+  "estructura": [
+    {
+      "bloque": "Gancho de identidad + promesa",
+      "t": "0–4,2",
+      "funcion": "Enumera 4 roles (estudia, trabaja, entrena, redes) → '¿cómo le da tiempo?' y promete ver el día entero."
+    },
+    {
+      "bloque": "Mañana",
+      "t": "4,2–17,8",
+      "funcion": "Rutina reconocible con humor ('me replanteo un poco la vida', 'ya voy tarde, normal'); la hora en pantalla da sensación de progreso."
+    },
+    {
+      "bloque": "Trabajo",
+      "t": "17,8–30,0",
+      "funcion": "Desmitifica ('no hay ningún misterio, un trabajo normal'); detalle concreto del bufé y momento cómico con un compañero."
+    },
+    {
+      "bloque": "Estudio + pregunta anticipada",
+      "t": "30,0–42,9",
+      "funcion": "Examen en el sofá, manía de la nevera; anticipa la objeción ('¿qué haces en el sofá?') y da la clave: estudios 100 % online."
+    },
+    {
+      "bloque": "Entreno",
+      "t": "42,9–46,0",
+      "funcion": "El deporte como no negociable."
+    },
+    {
+      "bloque": "Noche + cierre cómico",
+      "t": "46,0–57,6",
+      "funcion": "Fallos reales (hamburguesa caída), autoironía ('no soy un guarro', 'vaya rima') y despedida: final cálido que deja buen sabor."
+    }
+  ],
+  "edicion": {
+    "num_planos": 23,
+    "s_por_plano": 2.5,
+    "subtitulos": "Palabra a palabra, blanco, sans serif pequeña (tipo Montserrat), sin caja, en minúsculas, en el tercio inferior-centro; discretos para no competir con la hora.",
+    "texto_pantalla": "'day in my life / a los 21 años' centrado en el gancho (0,4–4 s). Hora en cada plano ('06:00 am', '06:05 am', '13:00', '15:40', '22:30'…) en blanco fino semitransparente, centrada arriba del subtítulo, cambiando con cada plano. Final en negro con 'buenas noches'.",
+    "musica": "Instrumental de fondo constante bajo la voz (no identificada), ambiente tranquilo; en 25,9–28,4 suena el audio ambiente del vestuario (risas).",
+    "efectos": "Cortes secos; casi todo planos fijos con la cámara apoyada, muchos desde el marco de una puerta (efecto 'te estoy espiando'); un POV de pies corriendo. Sin zooms ni transiciones. Color natural, algo desaturado y cálido.",
+    "voz": "Relajada, de colega, con humor e ironía ('normal', 'vaya rima'); ~4,4 palabras/s (≈243 palabras en 55 s de voz): rápida pero suelta."
+  },
+  "por_que_funciona": [
+    {
+      "momento": "0.0–4.2 · 'un chaval que estudia, trabaja, entrena y sube contenido' + chico dormido",
+      "mecanismo": "Brecha de curiosidad + autorreferencia",
+      "explicacion": "Cuatro obligaciones a la vez abren la pregunta '¿cómo le da tiempo?' (que se responde en el 38,4 s) y cualquier joven que estudia y trabaja piensa 'esto va de mí'. El texto 'day in my life a los 21 años' etiqueta el formato y su edad invita a compararse."
+    },
+    {
+      "momento": "Todo el vídeo · hora en pantalla de 06:00 a 22:30",
+      "mecanismo": "Progreso visible (efecto meta)",
+      "explicacion": "La hora funciona como barra de progreso: el cerebro quiere llegar al final del día y saber cómo acaba, lo que sostiene la retención en casi un minuto. Además da credibilidad (es un día real, con horas concretas)."
+    },
+    {
+      "momento": "4.2–17.8 · 'me replanteo un poco la vida', 'ya voy tarde, normal, imagínate si me tengo que grabar'",
+      "mecanismo": "Humor de identificación",
+      "explicacion": "Rompe la imagen de rutina perfecta de las 5 am: el espectador se ríe porque le pasa lo mismo. Esa normalidad baja la distancia con alguien en forma y genera simpatía."
+    },
+    {
+      "momento": "17.8–28.4 · 'no hay ningún misterio, un trabajo normal… bufé libre' + risas en el vestuario",
+      "mecanismo": "Autenticidad / vida real",
+      "explicacion": "Mostrar un curro normal en un hotel y comida de bufé de personal es lo contrario del lujo de influencer: genera confianza y la sensación de 'si él puede, yo también'. El corte sin voz con las risas es un respiro y un momento humano."
+    },
+    {
+      "momento": "34.1–36.4 · '¿Soy el único con esta manía?' (abrir la nevera sin coger nada)",
+      "mecanismo": "Pregunta directa + comentarios",
+      "explicacion": "Una manía universal formulada como pregunta hace que el espectador responda mentalmente ('yo también') y en comentarios; es interacción a cambio de nada."
+    },
+    {
+      "momento": "36.4–42.9 · 'Y diréis: ¿qué haces en el sofá? … estudio marketing 100 % online'",
+      "mecanismo": "Anticipar la objeción + cerrar el bucle",
+      "explicacion": "Pone en boca del espectador la duda que tenía y la resuelve justo ahí: cierra la brecha abierta en el gancho y da una información útil (estudiar online permite compaginar), lo que hace el vídeo guardable."
+    },
+    {
+      "momento": "46.0–57.6 · hamburguesa que se cae + 'no soy un guarro… estoy reventado. Vaya rima. Buenas noches'",
+      "mecanismo": "Error de predicción + final cálido",
+      "explicacion": "Esperas una cena fitness perfecta y ves una hamburguesa deshecha: sorpresa y risa. El 'vaya rima' es un remate inesperado que deja buen sabor y empuja a reverlo o compartirlo; cerrar en la cama completa el círculo con el plano del gancho."
+    }
+  ],
+  "caption": "Un día en mi vida.\n\nSomos capaces de mucho más de lo que imaginamos.\nSolo hay que quererlo y acostumbrarte a ello.\n\nYo no empecé teniendo este estilo de vida ni esta disciplina o constancia, como lo quieras llamar.\nPoco a poco, aspirando a ello, he ido mejorando.\n\nY cada vez me siento mejor con mi día a día, con mi estilo de vida y con las cosas que hago.\n\nTe animo a que pruebes e intentes cosas nuevas, y te mantengas ocupado.\nPero también a que pares cuando sea necesario.\nPara reflexionar, para pensar o simplemente para charlar con tus amigos una noche de verano.\n\nUn abrazo.🫂\n\n#dayinmylife #lifestyle #deporte #disciplina #rutina",
+  "cta": "Sin CTA en el vídeo; la pregunta '¿Soy el único con esta manía?' hace de llamada a comentar y el caption reflexivo anima a probar cosas nuevas.",
+  "titulo_lucas": "Day in my life preparando maratón + medio Ironman",
+  "texto_pantalla_lucas": "day in my life / preparando un maratón y un medio Ironman",
+  "guion_lucas": [
+    {
+      "texto": "Así es un día de un chaval que [lo que haces, p. ej. 'trabaja'], entrena para un maratón y un medio Ironman y sube contenido a redes.",
+      "plano": "GRABAR: durmiendo boca abajo, plano fijo desde el pasillo con el marco de la puerta en primer plano; te incorporas y te sientas en el borde de la cama (4 s)",
+      "nota": "Texto 'day in my life' + hora '[hora] am'. Tono de colega."
+    },
+    {
+      "texto": "Son las [hora a la que te levantas] de la mañana, así que me replanteo un poco la vida, me visto y me lavo los dientes.",
+      "plano": "GRABAR: mismo plano, sentado con la cabeza gacha y poniéndote la camiseta (3 s) → GRABAR: lavándote los dientes desde la puerta del baño (1 s)",
+      "nota": "'Me replanteo un poco la vida' con desgana cómica."
+    },
+    {
+      "texto": "Bueno, y hago las típicas cosas de por la mañana.",
+      "plano": "GRABAR: en el espejo arreglándote el pelo, desde la puerta (2,5 s)",
+      "nota": ""
+    },
+    {
+      "texto": "Importantísimo: beber agua al despertarse. [Lo primero que haces, p. ej. 'Me pongo las zapatillas y salgo a rodar'], porque sí, a estas horas, imagínate si encima me tengo que grabar.",
+      "plano": "recursos/gym/fisico/2026-07-25_aesthetic-devant_bebe-de-la-garrafa_manga-larga-gris.MP4 @ 15–17 → recursos/running/2026-10-24_outfit-trail-se-prepara-en-parking_gafas-rojas-chaleco.MOV @ 0–3 → recursos/running/2026-03-17_selfie-correr-amanecer-paseo-maritimo_manga-larga-negra.MOV @ 2–4 → recursos/running/2026-03-17_correr-amanecer-pasarela_02-lateral-silueta-con-el-sol_manga-larga-negra.MOV @ 3–6",
+      "nota": "Si tu mañana es otra (trabajo primero), GRABAR: coges las llaves y sales por la puerta. Pon la hora real en cada plano."
+    },
+    {
+      "texto": "Aquí la verdad es que no hay ningún misterio: [tu trabajo o estudios, p. ej. 'ocho horas de curro normal'], que al menos [lo bueno que tenga]. Hoy ha tocado [lo que comes].",
+      "plano": "GRABAR: llegando al trabajo/clase y entrando por la puerta (3 s) → GRABAR: cenital de tu plato o tupper de comida (2 s) → recursos/lifestyle/2026-09-24_andando-con-portatil-paseo-soleado_tirantes-negra.MOV @ 8–11 (si trabajas en remoto)",
+      "nota": "No inventes: lo que de verdad hagas ese día."
+    },
+    {
+      "texto": "(sin voz: 2–3 s de un momento gracioso real del día)",
+      "plano": "recursos/lifestyle/2025-05-10_coche-amigos-selfie-risas_manga-larga-negra.MOV @ 10–13 (risas con amigos) — o lo que pase de verdad ese día",
+      "nota": "Deja el audio ambiente."
+    },
+    {
+      "texto": "[Frase corta de cambio de ropa, p. ej. 'El chándal es mi uniforme.']",
+      "plano": "GRABAR: cambiándote de ropa de espaldas, plano fijo (1,5 s)",
+      "nota": ""
+    },
+    {
+      "texto": "Me cambio rápido porque son las [hora] y toca [entreno de la tarde, p. ej. 'piscina']. No sin antes abrir la nevera. ¿Soy el único con esta manía?",
+      "plano": "GRABAR: abres la nevera, miras y la cierras sin coger nada (2,5 s)",
+      "nota": "Pregunta directa a cámara, mirada cómplice."
+    },
+    {
+      "texto": "Y ahora sí, empieza el entreno.",
+      "plano": "recursos/gym/cardio/2026-11-01_hibrido_skierg-lateral.MOV @ 4,6–7 → recursos/gym/funcional/2026-11-01_hibrido_wall-balls-lateral.mov @ 13,3–16",
+      "nota": "Pon la hora en cada plano."
+    },
+    {
+      "texto": "Y diréis: ¿cómo te da tiempo a todo? Bueno, es que [lo que te lo permite de verdad, p. ej. 'organizo la semana el domingo']. Y es uno de los motivos por los que puedo hacer tantas cosas.",
+      "plano": "recursos/lifestyle/2026-09-24_andando-con-portatil-paseo-soleado_tirantes-negra.MOV @ 0–4 → GRABAR: sentado en el pasillo atándote las zapatillas (2 s)",
+      "nota": "Aquí se cierra la duda del gancho: dilo claro."
+    },
+    {
+      "texto": "Aquí, como veis, he salido a correr, porque nunca puede faltar el deporte.",
+      "plano": "recursos/competicion/2025-11-09_carrera-dorsal-29233_pov-pies-y-dorsal_ropa-blanca.MOV @ 0–3 (POV pies) → recursos/running/2025-10-20_correr-carril-dunas-atardecer_01-espaldas_camiseta-gris-pantalon-oliva.MOV @ 2–7 (de espaldas al atardecer, como el original)",
+      "nota": "Si ese día no corres, cambia por el entreno real."
+    },
+    {
+      "texto": "Y lo siento, porque no soy el mejor cocinero: como veis, [desastre real en la cocina, p. ej. 'se me ha quemado la tortilla'], pero me la he comido igual. No tiene muy buena pinta, pero es lo que hay.",
+      "plano": "GRABAR: cocinando de pie, plano fijo (3 s) → GRABAR: cenital del plato tal cual quede (2 s)",
+      "nota": "El fallo tiene que ser real; si sale perfecto, cuenta otro fallo del día."
+    },
+    {
+      "texto": "No soy un guarro: me he duchado, me he lavado los dientes, pero no lo he grabado porque estoy reventado. Vaya rima. Buenas noches.",
+      "plano": "GRABAR: te metes en la cama y te tapas, mismo plano desde la puerta que el gancho (4 s) → negro con 'buenas noches'",
+      "nota": "'Vaya rima' bajito, como para ti."
+    }
+  ],
+  "duracion_objetivo_s": 57,
+  "viabilidad_recursos": "baja",
+  "que_grabar": [
+    "Plano fijo desde la puerta del cuarto: durmiendo, incorporándote, poniéndote la camiseta y, por la noche, metiéndote en la cama (mismo encuadre para abrir y cerrar).",
+    "Baño desde la puerta: lavándote los dientes y en el espejo (2 planos cortos).",
+    "Llegada al trabajo/clase y cenital de la comida.",
+    "Cambiándote de ropa de espaldas.",
+    "Abriendo la nevera sin coger nada.",
+    "Sentado en el pasillo atándote las zapatillas.",
+    "Cocinando la cena y cenital del plato (con el fallo real).",
+    "Apuntar la hora real de cada plano para ponerla en pantalla y rellenar los huecos (trabajo/estudios, horarios, comida, entreno de ese día)."
+  ],
+  "stock": [],
+  "notas_edit": "Graba un día real de principio a fin. Ritmo: ~23 planos en ~57 s (≈2,5 s/plano), cortes secos, casi todo plano fijo con el móvil apoyado y muchos desde el marco de una puerta (efecto mirón). Texto 'day in my life / preparando un maratón y un medio Ironman' centrado en el gancho; en todos los planos la hora real en blanco fino semitransparente arriba del subtítulo ('06:30 am', '13:00', '22:30'…). Subtítulos palabra a palabra, pequeños, blancos, sin caja, en el tercio inferior. Música instrumental tranquila constante; en el momento gracioso sin voz deja el audio ambiente. Abre y cierra en la cama con el mismo encuadre; final en negro con 'buenas noches'. Caption reflexivo y largo sobre constancia y probar cosas nuevas, como el original.",
+  "palabras_guion_lucas": 240
+}

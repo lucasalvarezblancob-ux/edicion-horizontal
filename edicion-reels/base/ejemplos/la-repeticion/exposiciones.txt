@@ -1,0 +1,15 @@
+# plano exposición (multiplica la imagen; 0,9 por defecto). Más baja donde un texto claro no se leía (revisar_contraste.py), mínimo 0,70.
+3 0.79
+4 0.82
+5 0.83
+9 0.70
+16 0.70
+17 0.70
+19 0.70
+22 0.87
+26 0.73
+28 0.77
+30 0.87
+32 0.70
+34 0.78
+39 0.70

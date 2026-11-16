@@ -4,7 +4,10 @@
 #   sincronizar.sh            como mucho cada 6 h mira GitHub (sin red ni espera si no toca)
 #   sincronizar.sh --ya       mira ahora
 # Nunca pisa cambios locales: si la copia tiene cambios sin publicar (el autor trabajando), solo avisa.
-# Una skill con el archivo .solo-carpeta (edicion-horizontal) no se enlaza global: se instala en su carpeta de trabajo.
+# Una skill con el archivo .solo-carpeta (edicion-horizontal, edicion-reels) no se enlaza global: se instala en su
+# carpeta de trabajo. Si además tiene .aviso-nueva (edicion-reels, que llegó después), la primera vez que se ve se avisa
+# una sola vez para que Claude ofrezca crear su carpeta (no se instala sola: baja cientos de MB). Con .solo-mac, solo en
+# macOS. PUBLIQO_ED_SIN_AVISOS=1 la da por avisada (lo usa el instalador, que ya crea las carpetas).
 set -uo pipefail
 REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)"
 
@@ -43,7 +46,14 @@ mkdir -p "$HOME/.claude/skills"
 for d in "$REPO"/*/; do
   d="${d%/}"; n="$(basename "$d")"
   [ -f "$d/SKILL.md" ] || continue
-  [ -e "$d/.solo-carpeta" ] && continue
+  if [ -e "$d/.solo-carpeta" ]; then
+    aviso="$REPO/.git/avisada-$n"
+    if [ -e "$d/.aviso-nueva" ] && [ ! -e "$aviso" ] && [ -f "$d/instalar.sh" ] && { [ ! -e "$d/.solo-mac" ] || [ "$(uname)" = Darwin ]; }; then
+      [ -n "${PUBLIQO_ED_SIN_AVISOS:-}" ] || echo "Publiqo Edición: skill nueva «${n}» (se usa desde su carpeta de edición). Si no la tiene, ofrece crearla: bash \"$d/instalar.sh\" \"<carpeta>\" (mira $d/LEEME.md)."
+      : > "$aviso"
+    fi
+    continue
+  fi
   enlace="$HOME/.claude/skills/$n"
   [ -e "$enlace" ] && continue
   if es_windows; then cmd //c mklink //J "$(cygpath -w "$enlace")" "$(cygpath -w "$d")" >/dev/null || { echo "⚠️  No se pudo enlazar la skill $n"; continue; }

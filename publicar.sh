@@ -7,6 +7,8 @@
 #   publicar.sh --volver v2.2 ["<por qué>"]         ROLLBACK: todo vuelve a quedar como en v2.2, publicado como versión
 #                                                   nueva (nada se borra del historial; se puede volver a cualquier otra)
 #   publicar.sh --versiones                         lista las versiones publicadas
+#   publicar.sh --solo <skill> "<qué cambió>"       versión nueva con solo los cambios de esa carpeta (lo demás que
+#                                                   haya sin publicar se queda como está; lo usa espejo_reels.sh)
 # Antes del commit, cada skill puede preparar lo suyo con <skill>/antes_de_publicar.sh (edicion-horizontal copia ahí
 # los perfiles de creadores desde la carpeta de edición del autor).
 set -euo pipefail
@@ -23,17 +25,20 @@ modo() {
   [ "$push" = true ] && echo autor || echo local
 }
 
-MSG=""; MAYOR=0; VOLVER=""; sig=""
+MSG=""; MAYOR=0; VOLVER=""; SOLO=""; sig=""
 for a in "$@"; do
   if [ "$sig" = volver ]; then VOLVER="$a"; sig=""; continue; fi
+  if [ "$sig" = solo ]; then SOLO="${a%/}"; sig=""; continue; fi
   case "$a" in
-    --mayor) MAYOR=1;; --volver) sig=volver;;
+    --mayor) MAYOR=1;; --volver) sig=volver;; --solo) sig=solo;;
     --versiones) git -C "$REPO" fetch -q --tags origin 2>/dev/null || true
                  git -C "$REPO" tag -l 'v[0-9]*.[0-9]*' --sort=-v:refname --format='%(refname:short)  %(creatordate:short)  %(subject)'; exit 0;;
     *) MSG="$a";;
   esac
 done
 [ "$(modo)" = autor ] || { echo "Solo el autor (AUTORES o con permiso de escritura en $GH_REPO) puede publicar."; exit 1; }
+[ -z "$SOLO" ] || [ -d "$REPO/$SOLO" ] || { echo "No existe la carpeta $SOLO en el repo."; exit 1; }
+[ -z "$SOLO" ] || [ -z "$VOLVER" ] || { echo "--solo y --volver no van juntos."; exit 1; }
 git -C "$REPO" fetch -q --tags origin
 if [ -n "$VOLVER" ]; then
   git -C "$REPO" rev-parse -q --verify "refs/tags/$VOLVER" >/dev/null || { echo "No existe la versión $VOLVER (publicar.sh --versiones)."; exit 1; }
@@ -42,13 +47,14 @@ if [ -n "$VOLVER" ]; then
   git -C "$REPO" read-tree -u --reset "$VOLVER"
   MSG="Vuelta a $VOLVER${MSG:+: $MSG}"
 else
-  for h in "$REPO"/*/antes_de_publicar.sh; do [ -f "$h" ] && bash "$h"; done
+  for h in "$REPO"/${SOLO:-*}/antes_de_publicar.sh; do [ -f "$h" ] && bash "$h"; done
 fi
 [ -n "$MSG" ] || { echo "Uso: publicar.sh \"<qué cambió y por qué>\" [--mayor]  |  --volver vX.Y  |  --versiones"; exit 1; }
 
-git -C "$REPO" add -A
-if git -C "$REPO" diff --cached --quiet; then echo "Nada que publicar."; exit 0; fi
-git -C "$REPO" commit -q -m "$MSG"
+RUTA="${SOLO:-.}"
+git -C "$REPO" add -A -- "$RUTA"
+if git -C "$REPO" diff --cached --quiet -- "$RUTA"; then echo "Nada que publicar."; exit 0; fi
+git -C "$REPO" commit -q -m "$MSG" -- "$RUTA"
 git -C "$REPO" pull -q --rebase --autostash origin main
 ULT="$(ultima_version)"; ULT="${ULT:-v1.-1}"; MA="${ULT#v}"; MA="${MA%%.*}"; ME="${ULT##*.}"
 if [ $MAYOR = 1 ]; then V="v$((MA + 1)).0"; else V="v$MA.$((ME + 1))"; fi

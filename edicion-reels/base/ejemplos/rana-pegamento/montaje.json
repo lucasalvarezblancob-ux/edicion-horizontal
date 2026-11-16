@@ -1,0 +1,345 @@
+{
+ "fps": 30,
+ "tramos": [
+  {
+   "desde": 6.466666666666667,
+   "hasta": 10.2,
+   "inicio_edit": 0.0,
+   "nota": "El macho es mucho más pequeño que la hembra y no consigue abrazarla"
+  },
+  {
+   "desde": 15.266666666666667,
+   "hasta": 18.2,
+   "inicio_edit": 3.7333,
+   "nota": "Así que los dos sueltan una secreción pegajosa y se quedan pegados"
+  },
+  {
+   "desde": 18.7,
+   "hasta": 19.9,
+   "inicio_edit": 6.6667,
+   "nota": "…"
+  },
+  {
+   "desde": 40.1,
+   "hasta": 41.666666666666664,
+   "inicio_edit": 7.8667,
+   "nota": "En un estudio de 2022 se midió este pegamento en otra especie de rana del mismo género"
+  },
+  {
+   "desde": 41.833333333333336,
+   "hasta": 45.8,
+   "inicio_edit": 9.4333,
+   "nota": "…"
+  },
+  {
+   "desde": 100.83333333333333,
+   "hasta": 103.4,
+   "inicio_edit": 13.4,
+   "nota": "Es más fuerte entre la primera y la tercera hora"
+  },
+  {
+   "desde": 105.26666666666667,
+   "hasta": 107.7,
+   "inicio_edit": 15.9667,
+   "nota": "Y casi desaparece a los tres días"
+  }
+ ],
+ "palabras": [
+  {
+   "w": "El",
+   "start": 0.113,
+   "end": 0.213
+  },
+  {
+   "w": "macho",
+   "start": 0.253,
+   "end": 0.493
+  },
+  {
+   "w": "es",
+   "start": 0.573,
+   "end": 0.693
+  },
+  {
+   "w": "mucho",
+   "start": 0.753,
+   "end": 0.973
+  },
+  {
+   "w": "más",
+   "start": 1.013,
+   "end": 1.153
+  },
+  {
+   "w": "pequeño",
+   "start": 1.233,
+   "end": 1.593
+  },
+  {
+   "w": "que",
+   "start": 1.613,
+   "end": 1.713
+  },
+  {
+   "w": "la",
+   "start": 1.733,
+   "end": 1.813
+  },
+  {
+   "w": "hembra",
+   "start": 1.853,
+   "end": 2.253
+  },
+  {
+   "w": "y",
+   "start": 2.293,
+   "end": 2.333
+  },
+  {
+   "w": "no",
+   "start": 2.393,
+   "end": 2.533
+  },
+  {
+   "w": "consigue",
+   "start": 2.573,
+   "end": 2.913
+  },
+  {
+   "w": "abrazarla",
+   "start": 2.993,
+   "end": 3.593
+  },
+  {
+   "w": "Así",
+   "start": 3.787,
+   "end": 3.927
+  },
+  {
+   "w": "que",
+   "start": 3.947,
+   "end": 4.027
+  },
+  {
+   "w": "los",
+   "start": 4.067,
+   "end": 4.207
+  },
+  {
+   "w": "dos",
+   "start": 4.247,
+   "end": 4.407
+  },
+  {
+   "w": "sueltan",
+   "start": 4.607,
+   "end": 4.887
+  },
+  {
+   "w": "una",
+   "start": 4.927,
+   "end": 5.067
+  },
+  {
+   "w": "secreción",
+   "start": 5.147,
+   "end": 5.667
+  },
+  {
+   "w": "pegajosa",
+   "start": 5.827,
+   "end": 6.567
+  },
+  {
+   "w": "y",
+   "start": 6.747,
+   "end": 6.787
+  },
+  {
+   "w": "se",
+   "start": 6.867,
+   "end": 6.967
+  },
+  {
+   "w": "quedan",
+   "start": 7.007,
+   "end": 7.247
+  },
+  {
+   "w": "pegados",
+   "start": 7.287,
+   "end": 7.747
+  },
+  {
+   "w": "En",
+   "start": 7.927,
+   "end": 7.987
+  },
+  {
+   "w": "un",
+   "start": 8.027,
+   "end": 8.087
+  },
+  {
+   "w": "estudio",
+   "start": 8.147,
+   "end": 8.387
+  },
+  {
+   "w": "de",
+   "start": 8.407,
+   "end": 8.467
+  },
+  {
+   "w": "2022",
+   "start": 8.647,
+   "end": 9.367
+  },
+  {
+   "w": "se",
+   "start": 9.52,
+   "end": 9.64
+  },
+  {
+   "w": "midió",
+   "start": 9.74,
+   "end": 10.08
+  },
+  {
+   "w": "este",
+   "start": 10.22,
+   "end": 10.42
+  },
+  {
+   "w": "pegamento",
+   "start": 10.44,
+   "end": 11.04
+  },
+  {
+   "w": "en",
+   "start": 11.1,
+   "end": 11.18
+  },
+  {
+   "w": "otra",
+   "start": 11.24,
+   "end": 11.44
+  },
+  {
+   "w": "especie",
+   "start": 11.48,
+   "end": 11.94
+  },
+  {
+   "w": "de",
+   "start": 11.98,
+   "end": 12.06
+  },
+  {
+   "w": "rana",
+   "start": 12.14,
+   "end": 12.36
+  },
+  {
+   "w": "del",
+   "start": 12.4,
+   "end": 12.54
+  },
+  {
+   "w": "mismo",
+   "start": 12.58,
+   "end": 12.88
+  },
+  {
+   "w": "género",
+   "start": 12.92,
+   "end": 13.26
+  },
+  {
+   "w": "Es",
+   "start": 13.467,
+   "end": 13.547
+  },
+  {
+   "w": "más",
+   "start": 13.587,
+   "end": 13.727
+  },
+  {
+   "w": "fuerte",
+   "start": 13.767,
+   "end": 14.047
+  },
+  {
+   "w": "entre",
+   "start": 14.067,
+   "end": 14.307
+  },
+  {
+   "w": "la",
+   "start": 14.347,
+   "end": 14.407
+  },
+  {
+   "w": "primera",
+   "start": 14.487,
+   "end": 14.927
+  },
+  {
+   "w": "y",
+   "start": 14.967,
+   "end": 15.007
+  },
+  {
+   "w": "la",
+   "start": 15.047,
+   "end": 15.107
+  },
+  {
+   "w": "tercera",
+   "start": 15.167,
+   "end": 15.587
+  },
+  {
+   "w": "hora",
+   "start": 15.607,
+   "end": 15.827
+  },
+  {
+   "w": "Y",
+   "start": 16.04,
+   "end": 16.14
+  },
+  {
+   "w": "casi",
+   "start": 16.2,
+   "end": 16.56
+  },
+  {
+   "w": "desaparece",
+   "start": 16.62,
+   "end": 17.32
+  },
+  {
+   "w": "a",
+   "start": 17.38,
+   "end": 17.42
+  },
+  {
+   "w": "los",
+   "start": 17.48,
+   "end": 17.6
+  },
+  {
+   "w": "tres",
+   "start": 17.68,
+   "end": 17.88
+  },
+  {
+   "w": "días.",
+   "start": 17.94,
+   "end": 18.3
+  }
+ ],
+ "duracion": 18.4
+}

@@ -1,0 +1,160 @@
+[
+ {
+  "desde": 19.84,
+  "hasta": 23.62,
+  "nota": "Hemos venido a Honest Greens… a molestar a la gente"
+ },
+ {
+  "desde": 24.3,
+  "hasta": 29.92,
+  "nota": "Vamos a hacer un reto: quién controla mejor los macros y los pesos"
+ },
+ {
+  "desde": 30.68,
+  "hasta": 37.98,
+  "nota": "Llenar este vaso… ¿a cuánto? Cincuenta. Cincuenta exactos"
+ },
+ {
+  "desde": 40.06,
+  "hasta": 41.68,
+  "nota": "No sabemos ni cuánto cabe en el vaso"
+ },
+ {
+  "desde": 47.2,
+  "hasta": 48.76,
+  "nota": "Venga, vamos a probar. Tú primero"
+ },
+ {
+  "desde": 49.0,
+  "hasta": 54.1,
+  "vel": 2.5,
+  "nota": "ACCIÓN: llena el 1.º (camiseta blanca)"
+ },
+ {
+  "desde": 54.26,
+  "hasta": 58.5,
+  "nota": "Llenadlo antes de pesarlo, que da pista"
+ },
+ {
+  "desde": 60.54,
+  "hasta": 62.88,
+  "nota": "Me querían pillar, los cabrones"
+ },
+ {
+  "desde": 63.0,
+  "hasta": 68.6,
+  "vel": 3,
+  "nota": "ACCIÓN: llena el 2.º (camiseta azul)"
+ },
+ {
+  "desde": 68.76,
+  "hasta": 69.86,
+  "nota": "Uh, esta llena un poco más"
+ },
+ {
+  "desde": 70.0,
+  "hasta": 75.15,
+  "vel": 3,
+  "nota": "ACCIÓN: llena el 3.º (tirantes)"
+ },
+ {
+  "desde": 75.22,
+  "hasta": 75.88,
+  "nota": "Yo creo que me he pasado"
+ },
+ {
+  "desde": 78.26,
+  "hasta": 80.14,
+  "nota": "La de Fernando está bien"
+ },
+ {
+  "desde": 81.98,
+  "hasta": 82.96,
+  "nota": "A ver, vamos a probar"
+ },
+ {
+  "desde": 84.9,
+  "hasta": 86.92,
+  "fijo": true,
+  "nota": "PESAJE 1: báscula 63 · Sesenta y tres"
+ },
+ {
+  "desde": 87.0,
+  "hasta": 90.6,
+  "nota": "Os habéis pasado, brother · más que yo"
+ },
+ {
+  "desde": 93.25,
+  "hasta": 96.02,
+  "fijo": true,
+  "nota": "Báscula 60 → 99 (Dioooos, el doble bro)"
+ },
+ {
+  "desde": 97.22,
+  "hasta": 99.1,
+  "nota": "No puede ser. El doble"
+ },
+ {
+  "desde": 99.1,
+  "hasta": 104.6,
+  "vel": 2,
+  "nota": "ACCIÓN: bebe el de azul para bajar a 50"
+ },
+ {
+  "desde": 104.6,
+  "hasta": 107.15,
+  "fijo": true,
+  "nota": "Báscula 46 · ¡Uuuh! · Ojo"
+ },
+ {
+  "desde": 109.86,
+  "hasta": 110.4,
+  "nota": "Me he pasado"
+ },
+ {
+  "desde": 111.24,
+  "hasta": 114.12,
+  "nota": "Hazlo bien. Bebe a cincuenta"
+ },
+ {
+  "desde": 115.0,
+  "hasta": 120.4,
+  "vel": 2.5,
+  "nota": "ACCIÓN: bebe el de tirantes"
+ },
+ {
+  "desde": 120.4,
+  "hasta": 122.82,
+  "fijo": true,
+  "nota": "Báscula 33 · Perfecto."
+ },
+ {
+  "desde": 127.04,
+  "hasta": 129.04,
+  "nota": "Se me ha pasado los labios. Era un chupito"
+ },
+ {
+  "desde": 130.26,
+  "hasta": 134.96,
+  "pausa": 0.35,
+  "nota": "Yo diría que he flipao · un poco más · va brother"
+ },
+ {
+  "desde": 135.0,
+  "hasta": 137.0,
+  "fijo": true,
+  "nota": "Báscula 50 · ¡Ooooh!"
+ },
+ {
+  "desde": 137.0,
+  "hasta": 139.8,
+  "vel": 1.6,
+  "nota": "ACCIÓN: celebra"
+ },
+ {
+  "desde": 140.04,
+  "hasta": 144.3,
+  "pausa": 0.35,
+  "nota": "Soy una máquina · GG familia · te la has sacado"
+ }
+]

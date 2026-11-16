@@ -1,0 +1,605 @@
+{
+ "fps": 30,
+ "tramos": [
+  {
+   "desde": 11.033333333333333,
+   "hasta": 16.133333333333333,
+   "inicio_edit": 0.0,
+   "nota": "Si fuera tu gym bro, estas son las prendas que te recomendaría comprarte en el Black Friday de Gymshark"
+  },
+  {
+   "desde": 19.266666666666666,
+   "hasta": 21.7,
+   "inicio_edit": 5.1,
+   "nota": "Primero, la camiseta Geo Seamless"
+  },
+  {
+   "desde": 37.63333333333333,
+   "hasta": 41.833333333333336,
+   "inicio_edit": 7.5333,
+   "nota": "Es sin costuras y va ajustada, así que te marca el hombro sin apretarte"
+  },
+  {
+   "desde": 45.53333333333333,
+   "hasta": 47.96666666666667,
+   "inicio_edit": 11.7333,
+   "nota": "Y lleva un camuflaje que solo se ve de cerca"
+  },
+  {
+   "desde": 51.46666666666667,
+   "hasta": 53.3,
+   "inicio_edit": 14.1667,
+   "nota": "Segundo, los Pumper Pants"
+  },
+  {
+   "desde": 64.86666666666666,
+   "hasta": 67.06666666666666,
+   "inicio_edit": 16.0,
+   "nota": "Anchos arriba, con puño abajo y"
+  },
+  {
+   "desde": 69.73333333333333,
+   "hasta": 71.23333333333333,
+   "inicio_edit": 18.2,
+   "nota": "el parche del culturista"
+  },
+  {
+   "desde": 74.9,
+   "hasta": 77.0,
+   "inicio_edit": 19.7,
+   "nota": "Pantalón de culturismo de toda la vida"
+  },
+  {
+   "desde": 85.4,
+   "hasta": 88.23333333333333,
+   "inicio_edit": 21.8,
+   "nota": "Y por último, la sudadera Crest Oversized"
+  },
+  {
+   "desde": 92.5,
+   "hasta": 95.76666666666667,
+   "inicio_edit": 24.6333,
+   "nota": "Tiene el hombro caído, así que te hace la espalda el doble de ancha"
+  },
+  {
+   "desde": 121.26666666666667,
+   "hasta": 124.73333333333333,
+   "inicio_edit": 27.9,
+   "nota": "Están de oferta este Black Friday, así que utiliza mi código ALVAREZ10"
+  },
+  {
+   "desde": 125.86666666666666,
+   "hasta": 127.4,
+   "inicio_edit": 31.3667,
+   "nota": "Y sígueme para más"
+  }
+ ],
+ "palabras": [
+  {
+   "w": "Si",
+   "start": 0.027,
+   "end": 0.087
+  },
+  {
+   "w": "fuera",
+   "start": 0.127,
+   "end": 0.287
+  },
+  {
+   "w": "tu",
+   "start": 0.327,
+   "end": 0.427
+  },
+  {
+   "w": "gymbro,",
+   "start": 0.487,
+   "end": 0.767
+  },
+  {
+   "w": "estas",
+   "start": 1.027,
+   "end": 1.267
+  },
+  {
+   "w": "son",
+   "start": 1.327,
+   "end": 1.447
+  },
+  {
+   "w": "las",
+   "start": 1.507,
+   "end": 1.627
+  },
+  {
+   "w": "prendas",
+   "start": 1.707,
+   "end": 1.967
+  },
+  {
+   "w": "que",
+   "start": 1.987,
+   "end": 2.067
+  },
+  {
+   "w": "te",
+   "start": 2.107,
+   "end": 2.167
+  },
+  {
+   "w": "recomendaría",
+   "start": 2.207,
+   "end": 2.887
+  },
+  {
+   "w": "comprarte",
+   "start": 2.947,
+   "end": 3.527
+  },
+  {
+   "w": "en",
+   "start": 3.587,
+   "end": 3.647
+  },
+  {
+   "w": "el",
+   "start": 3.667,
+   "end": 3.747
+  },
+  {
+   "w": "Black",
+   "start": 3.787,
+   "end": 3.947
+  },
+  {
+   "w": "Friday",
+   "start": 4.007,
+   "end": 4.167
+  },
+  {
+   "w": "de",
+   "start": 4.367,
+   "end": 4.427
+  },
+  {
+   "w": "Gymshark.",
+   "start": 4.507,
+   "end": 4.987
+  },
+  {
+   "w": "Primero,",
+   "start": 5.133,
+   "end": 5.693
+  },
+  {
+   "w": "la",
+   "start": 5.793,
+   "end": 5.873
+  },
+  {
+   "w": "camiseta",
+   "start": 5.933,
+   "end": 6.593
+  },
+  {
+   "w": "Geo",
+   "start": 6.673,
+   "end": 6.853
+  },
+  {
+   "w": "Seamless.",
+   "start": 6.953,
+   "end": 7.453
+  },
+  {
+   "w": "Es",
+   "start": 7.64,
+   "end": 7.72
+  },
+  {
+   "w": "sin",
+   "start": 7.74,
+   "end": 7.86
+  },
+  {
+   "w": "costuras",
+   "start": 7.9,
+   "end": 8.46
+  },
+  {
+   "w": "y",
+   "start": 8.52,
+   "end": 8.56
+  },
+  {
+   "w": "va",
+   "start": 8.6,
+   "end": 8.64
+  },
+  {
+   "w": "ajustada,",
+   "start": 8.66,
+   "end": 9.2
+  },
+  {
+   "w": "así",
+   "start": 9.28,
+   "end": 9.46
+  },
+  {
+   "w": "que",
+   "start": 9.48,
+   "end": 9.58
+  },
+  {
+   "w": "te",
+   "start": 9.62,
+   "end": 9.7
+  },
+  {
+   "w": "marca",
+   "start": 9.74,
+   "end": 9.96
+  },
+  {
+   "w": "el",
+   "start": 10.0,
+   "end": 10.06
+  },
+  {
+   "w": "hombro",
+   "start": 10.1,
+   "end": 10.52
+  },
+  {
+   "w": "sin",
+   "start": 10.62,
+   "end": 10.96
+  },
+  {
+   "w": "apretarte.",
+   "start": 11.06,
+   "end": 11.7
+  },
+  {
+   "w": "Y",
+   "start": 11.88,
+   "end": 11.9
+  },
+  {
+   "w": "lleva",
+   "start": 11.92,
+   "end": 12.06
+  },
+  {
+   "w": "un",
+   "start": 12.1,
+   "end": 12.14
+  },
+  {
+   "w": "camuflaje",
+   "start": 12.18,
+   "end": 12.8
+  },
+  {
+   "w": "que",
+   "start": 12.86,
+   "end": 12.98
+  },
+  {
+   "w": "solo",
+   "start": 13.04,
+   "end": 13.28
+  },
+  {
+   "w": "se",
+   "start": 13.34,
+   "end": 13.44
+  },
+  {
+   "w": "ve",
+   "start": 13.46,
+   "end": 13.54
+  },
+  {
+   "w": "de",
+   "start": 13.58,
+   "end": 13.66
+  },
+  {
+   "w": "cerca.",
+   "start": 13.72,
+   "end": 14.12
+  },
+  {
+   "w": "Segundo,",
+   "start": 14.28,
+   "end": 14.76
+  },
+  {
+   "w": "los",
+   "start": 14.84,
+   "end": 15.0
+  },
+  {
+   "w": "Pamper",
+   "start": 15.06,
+   "end": 15.3
+  },
+  {
+   "w": "Pants.",
+   "start": 15.42,
+   "end": 15.84
+  },
+  {
+   "w": "Anchos",
+   "start": 16.092,
+   "end": 16.313
+  },
+  {
+   "w": "arriba,",
+   "start": 16.393,
+   "end": 16.853
+  },
+  {
+   "w": "con",
+   "start": 16.913,
+   "end": 17.073
+  },
+  {
+   "w": "puño",
+   "start": 17.113,
+   "end": 17.293
+  },
+  {
+   "w": "abajo",
+   "start": 17.353,
+   "end": 17.833
+  },
+  {
+   "w": "y,",
+   "start": 17.953,
+   "end": 18.053
+  },
+  {
+   "w": "el",
+   "start": 18.327,
+   "end": 18.447
+  },
+  {
+   "w": "parche",
+   "start": 18.487,
+   "end": 18.767
+  },
+  {
+   "w": "del",
+   "start": 18.787,
+   "end": 18.907
+  },
+  {
+   "w": "culturista.",
+   "start": 18.967,
+   "end": 19.667
+  },
+  {
+   "w": "Pantalón",
+   "start": 19.74,
+   "end": 20.2
+  },
+  {
+   "w": "de",
+   "start": 20.24,
+   "end": 20.32
+  },
+  {
+   "w": "culturismo",
+   "start": 20.36,
+   "end": 20.9
+  },
+  {
+   "w": "de",
+   "start": 20.94,
+   "end": 21.02
+  },
+  {
+   "w": "toda",
+   "start": 21.06,
+   "end": 21.18
+  },
+  {
+   "w": "la",
+   "start": 21.24,
+   "end": 21.32
+  },
+  {
+   "w": "vida.",
+   "start": 21.36,
+   "end": 21.66
+  },
+  {
+   "w": "Y",
+   "start": 21.88,
+   "end": 21.94
+  },
+  {
+   "w": "por",
+   "start": 21.98,
+   "end": 22.08
+  },
+  {
+   "w": "último,",
+   "start": 22.14,
+   "end": 22.54
+  },
+  {
+   "w": "la",
+   "start": 22.72,
+   "end": 22.82
+  },
+  {
+   "w": "sudadera",
+   "start": 22.88,
+   "end": 23.34
+  },
+  {
+   "w": "Crest",
+   "start": 23.42,
+   "end": 23.8
+  },
+  {
+   "w": "Oversized.",
+   "start": 23.9,
+   "end": 24.56
+  },
+  {
+   "w": "Tiene",
+   "start": 24.753,
+   "end": 24.893
+  },
+  {
+   "w": "el",
+   "start": 24.913,
+   "end": 24.973
+  },
+  {
+   "w": "hombro",
+   "start": 24.993,
+   "end": 25.233
+  },
+  {
+   "w": "caído,",
+   "start": 25.273,
+   "end": 25.573
+  },
+  {
+   "w": "así",
+   "start": 25.653,
+   "end": 25.813
+  },
+  {
+   "w": "que",
+   "start": 25.833,
+   "end": 25.913
+  },
+  {
+   "w": "te",
+   "start": 25.953,
+   "end": 25.993
+  },
+  {
+   "w": "hace",
+   "start": 26.033,
+   "end": 26.173
+  },
+  {
+   "w": "la",
+   "start": 26.213,
+   "end": 26.253
+  },
+  {
+   "w": "espalda",
+   "start": 26.273,
+   "end": 26.773
+  },
+  {
+   "w": "el",
+   "start": 26.853,
+   "end": 26.933
+  },
+  {
+   "w": "doble",
+   "start": 26.993,
+   "end": 27.193
+  },
+  {
+   "w": "de",
+   "start": 27.233,
+   "end": 27.313
+  },
+  {
+   "w": "ancha.",
+   "start": 27.393,
+   "end": 27.753
+  },
+  {
+   "w": "Están",
+   "start": 28.033,
+   "end": 28.233
+  },
+  {
+   "w": "de",
+   "start": 28.253,
+   "end": 28.293
+  },
+  {
+   "w": "oferta",
+   "start": 28.313,
+   "end": 28.533
+  },
+  {
+   "w": "este",
+   "start": 28.573,
+   "end": 28.713
+  },
+  {
+   "w": "Black",
+   "start": 28.753,
+   "end": 28.893
+  },
+  {
+   "w": "Friday,",
+   "start": 28.953,
+   "end": 29.253
+  },
+  {
+   "w": "así",
+   "start": 29.353,
+   "end": 29.493
+  },
+  {
+   "w": "que",
+   "start": 29.513,
+   "end": 29.553
+  },
+  {
+   "w": "utiliza",
+   "start": 29.593,
+   "end": 29.953
+  },
+  {
+   "w": "mi",
+   "start": 30.013,
+   "end": 30.093
+  },
+  {
+   "w": "código",
+   "start": 30.133,
+   "end": 30.573
+  },
+  {
+   "w": "ALVAREZ10.",
+   "start": 30.633,
+   "end": 31.253
+  },
+  {
+   "w": "Y",
+   "start": 31.46,
+   "end": 31.54
+  },
+  {
+   "w": "sígueme",
+   "start": 31.6,
+   "end": 32.12
+  },
+  {
+   "w": "para",
+   "start": 32.18,
+   "end": 32.36
+  },
+  {
+   "w": "más.",
+   "start": 32.42,
+   "end": 32.8
+  }
+ ],
+ "duracion": 32.9
+}

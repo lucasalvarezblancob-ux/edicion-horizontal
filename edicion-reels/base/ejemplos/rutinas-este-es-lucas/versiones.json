@@ -1,0 +1,2193 @@
+{
+ "v01-espalda-ancha": {
+  "titulo": [
+   "espalda ancha",
+   "4 ejercicios"
+  ],
+  "cabeza": {
+   "x": 436,
+   "y": 470
+  },
+  "claves": "espalda|puerta|entreno|dominadas|pecho|gravedad|ancho|codos|bolsillos|estrecho|dorsal|remo|escápulas|galletas|puede|también",
+  "bloques": [
+   {
+    "etiqueta": "dominadas",
+    "valor": "4 × 8",
+    "texto": "series × repeticiones"
+   },
+   {
+    "etiqueta": "jalón · agarre ancho",
+    "valor": "4 × 10",
+    "texto": "series × repeticiones"
+   },
+   {
+    "etiqueta": "jalón · agarre estrecho",
+    "valor": "3 × 12",
+    "texto": "series × repeticiones"
+   },
+   {
+    "etiqueta": "remo en polea · agarre cerrado",
+    "valor": "3 × 12",
+    "texto": "series × repeticiones"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y quiere una espalda que no quepa por la puerta.",
+    "dur": 2.0,
+    "tomas": [
+     {
+      "c": "d2030",
+      "a": 18.4,
+      "b": 20.0,
+      "fijo": true,
+      "punch": 0.12,
+      "z": 1.3,
+      "o": "50% 0%"
+     },
+     {
+      "c": "d2027",
+      "a": 29.5,
+      "b": 35,
+      "z": 1.1
+     }
+    ]
+   },
+   {
+    "txt": "Si tuviera que recomendarle un entreno, sería este.",
+    "dur": 0.45,
+    "titulo": true,
+    "tomas": [
+     {
+      "c": "d1990",
+      "a": 3,
+      "b": 17,
+      "z": 1.15
+     },
+     {
+      "c": "e8416",
+      "a": 2,
+      "b": 16,
+      "z": 1.1
+     },
+     {
+      "c": "c1085",
+      "a": 22,
+      "b": 31,
+      "z": 1.2
+     },
+     {
+      "c": "c1090",
+      "a": 4,
+      "b": 13,
+      "z": 1.25
+     }
+    ]
+   },
+   {
+    "txt": "Primero, dominadas, que suba con el pecho por delante y baje lento, que la gravedad también entrena.",
+    "b": 0,
+    "tomas": [
+     {
+      "c": "d1990",
+      "a": 0.5,
+      "b": 17
+     },
+     {
+      "c": "d1990",
+      "a": 0.5,
+      "b": 17,
+      "z": 1.4,
+      "o": "50% 30%"
+     }
+    ]
+   },
+   {
+    "txt": "Luego, jalón con agarre ancho. Que tire con los codos hacia los bolsillos, no con las manos.",
+    "b": 1,
+    "tomas": [
+     {
+      "c": "e8416",
+      "a": 0.3,
+      "b": 16.8
+     },
+     {
+      "c": "e8416",
+      "a": 0.3,
+      "b": 16.8,
+      "z": 1.35,
+      "o": "50% 35%"
+     }
+    ]
+   },
+   {
+    "txt": "Tercero, jalón con agarre estrecho, para estirar el dorsal hasta arriba del todo.",
+    "b": 2,
+    "tomas": [
+     {
+      "c": "c1085",
+      "a": 20.5,
+      "b": 32.5,
+      "z": 1.05
+     },
+     {
+      "c": "c1085",
+      "a": 34,
+      "b": 39.5,
+      "z": 1.15,
+      "o": "45% 40%"
+     }
+    ]
+   },
+   {
+    "txt": "Y para terminar, remo en polea con agarre cerrado, codos pegados y escápulas juntas, como si le hubieran pillado robando galletas.",
+    "b": 3,
+    "tomas": [
+     {
+      "c": "c1090",
+      "a": 3.2,
+      "b": 14,
+      "z": 1.1,
+      "o": "50% 40%"
+     },
+     {
+      "c": "c1090",
+      "a": 3.2,
+      "b": 14,
+      "z": 1.4,
+      "o": "50% 38%"
+     }
+    ]
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que si él puede, tú también.",
+    "dur": 1.6,
+    "tomas": [
+     {
+      "c": "d2027",
+      "a": 29.5,
+      "b": 35,
+      "z": 1.15,
+      "o": "50% 40%"
+     },
+     {
+      "c": "d1990",
+      "a": 8,
+      "b": 17,
+      "z": 1.2,
+      "o": "50% 35%"
+     }
+    ]
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "tomas": [
+     {
+      "c": "d1990",
+      "a": 16.6,
+      "b": 19.1,
+      "r": 0.7,
+      "punch": 0.18
+     }
+    ]
+   }
+  ]
+ },
+ "v02-espalda-grosor": {
+  "titulo": [
+   "espalda con grosor",
+   "3 remos"
+  ],
+  "cabeza": {
+   "x": 810,
+   "y": 640
+  },
+  "claves": "grosor|sudadera|entreno|remo|abierto|codos|pecho|perdón|mancuerna|cadera|cortacésped|cerrado|dorsal|segundo|puede|también",
+  "bloques": [
+   {
+    "etiqueta": "remo en polea · agarre abierto",
+    "valor": "4 × 10",
+    "texto": "series × repeticiones"
+   },
+   {
+    "etiqueta": "remo con mancuerna",
+    "valor": "3 × 10",
+    "texto": "series × reps por brazo"
+   },
+   {
+    "etiqueta": "remo en polea · agarre cerrado",
+    "valor": "3 × 12",
+    "texto": "series × repeticiones"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y quiere una espalda con grosor, de las que se notan hasta con sudadera.",
+    "dur": 2.0,
+    "tomas": [
+     {
+      "c": "c1085",
+      "a": 1.0,
+      "b": 2.6,
+      "fijo": true,
+      "punch": 0.15
+     },
+     {
+      "c": "c1087",
+      "a": 1,
+      "b": 13,
+      "z": 1.1
+     }
+    ]
+   },
+   {
+    "txt": "Si tuviera que recomendarle un entreno, sería este.",
+    "dur": 0.5,
+    "titulo": true,
+    "tomas": [
+     {
+      "c": "c1089",
+      "a": 2,
+      "b": 15,
+      "z": 1.15
+     },
+     {
+      "c": "c1093",
+      "a": 2,
+      "b": 12,
+      "z": 1.25,
+      "o": "45% 50%"
+     },
+     {
+      "c": "c1091",
+      "a": 5.5,
+      "b": 11,
+      "z": 1.2
+     }
+    ]
+   },
+   {
+    "txt": "Primero, remo en polea con agarre abierto, para la parte alta de la espalda. Que lleve los codos atrás y abra el pecho, que no está pidiendo perdón.",
+    "b": 0,
+    "tomas": [
+     {
+      "c": "c1089",
+      "a": 0.5,
+      "b": 16
+     },
+     {
+      "c": "c1088",
+      "a": 0.3,
+      "b": 6
+     },
+     {
+      "c": "c1089",
+      "a": 0.5,
+      "b": 16,
+      "z": 1.35,
+      "o": "50% 40%"
+     }
+    ]
+   },
+   {
+    "txt": "Luego, remo con mancuerna apoyado. Que tire hacia la cadera, como si arrancara una cortacésped.",
+    "b": 1,
+    "tomas": [
+     {
+      "c": "c1093",
+      "a": 0.3,
+      "b": 12.3,
+      "z": 1.25,
+      "o": "45% 50%"
+     },
+     {
+      "c": "c1093",
+      "a": 0.3,
+      "b": 12.3,
+      "z": 1.35,
+      "o": "50% 45%"
+     }
+    ]
+   },
+   {
+    "txt": "Y para terminar, remo en polea con agarre cerrado, para que el dorsal también se entere. Que aguante un segundo atrás, que aquí no se cobra por ir rápido.",
+    "b": 2,
+    "tomas": [
+     {
+      "c": "c1091",
+      "a": 5.2,
+      "b": 11
+     },
+     {
+      "c": "c1091",
+      "a": 5.2,
+      "b": 11,
+      "z": 1.3,
+      "o": "50% 45%"
+     }
+    ]
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que si él puede, tú también.",
+    "dur": 1.6,
+    "tomas": [
+     {
+      "c": "c1087",
+      "a": 1,
+      "b": 13,
+      "z": 1.15,
+      "o": "50% 35%"
+     },
+     {
+      "c": "c1089",
+      "a": 1,
+      "b": 16,
+      "z": 1.1
+     }
+    ]
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "tomas": [
+     {
+      "c": "c1093",
+      "a": 11.6,
+      "b": 13.6,
+      "r": 0.7,
+      "punch": 0.18,
+      "z": 1.35,
+      "o": "45% 45%"
+     }
+    ]
+   }
+  ]
+ },
+ "v03-espalda-con-prisa": {
+  "titulo": [
+   "espalda en 30 min",
+   "3 ejercicios"
+  ],
+  "cabeza": {
+   "x": 540,
+   "y": 610
+  },
+  "claves": "media|hora|espalda|entreno|tres|jalón|clavícula|barca|remo|mancuerna|mesa|dominadas|fallo|móvil|gimnasio|tener",
+  "bloques": [
+   {
+    "etiqueta": "jalón al pecho",
+    "valor": "4 × 10",
+    "texto": "series × repeticiones"
+   },
+   {
+    "etiqueta": "remo con mancuerna",
+    "valor": "4 × 10",
+    "texto": "series × reps por brazo"
+   },
+   {
+    "etiqueta": "dominadas",
+    "valor": "3 × fallo",
+    "texto": "series × repeticiones"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y solo tiene media hora para entrenar espalda.",
+    "dur": 2.0,
+    "tomas": [
+     {
+      "c": "j1031",
+      "a": 26.2,
+      "b": 27.9,
+      "fijo": true,
+      "punch": 0.15
+     },
+     {
+      "c": "j1031",
+      "a": 2.6,
+      "b": 4.6
+     }
+    ]
+   },
+   {
+    "txt": "Si tuviera que recomendarle un entreno, sería este, que con tres ejercicios le sobra.",
+    "dur": 0.55,
+    "titulo": true,
+    "tomas": [
+     {
+      "c": "j1031",
+      "a": 28.5,
+      "b": 41,
+      "z": 1.15
+     },
+     {
+      "c": "c1093",
+      "a": 2,
+      "b": 12,
+      "z": 1.25,
+      "o": "45% 50%"
+     },
+     {
+      "c": "d2027",
+      "a": 11,
+      "b": 21,
+      "z": 1.15
+     }
+    ]
+   },
+   {
+    "txt": "Primero, jalón al pecho, barra hasta la clavícula y sin balancearse, que esto no es una barca.",
+    "b": 0,
+    "tomas": [
+     {
+      "c": "j1031",
+      "a": 28.5,
+      "b": 42
+     },
+     {
+      "c": "j1031",
+      "a": 28.5,
+      "b": 42,
+      "z": 1.35,
+      "o": "50% 35%"
+     }
+    ]
+   },
+   {
+    "txt": "Luego, remo con mancuerna, una mano apoyada y la espalda recta como una mesa.",
+    "b": 1,
+    "tomas": [
+     {
+      "c": "c1093",
+      "a": 0.3,
+      "b": 12.3,
+      "z": 1.25,
+      "o": "45% 50%"
+     },
+     {
+      "c": "c1093",
+      "a": 0.3,
+      "b": 12.3,
+      "z": 1.35,
+      "o": "50% 45%"
+     }
+    ]
+   },
+   {
+    "txt": "Y para terminar, dominadas hasta el fallo, que es donde de verdad empieza la serie. Descansos cortos, nada de mirar el móvil entre series.",
+    "b": 2,
+    "tomas": [
+     {
+      "c": "d2027",
+      "a": 10,
+      "b": 22
+     },
+     {
+      "c": "d2027",
+      "a": 10,
+      "b": 22,
+      "z": 1.4,
+      "o": "50% 30%"
+     }
+    ]
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que no hace falta vivir en el gimnasio para tener espalda.",
+    "dur": 1.6,
+    "tomas": [
+     {
+      "c": "d2027",
+      "a": 29.5,
+      "b": 35,
+      "z": 1.15,
+      "o": "50% 40%"
+     },
+     {
+      "c": "j1031",
+      "a": 30,
+      "b": 42,
+      "z": 1.1
+     }
+    ]
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "tomas": [
+     {
+      "c": "d1990",
+      "a": 16.6,
+      "b": 19.1,
+      "r": 0.7,
+      "punch": 0.18
+     }
+    ]
+   }
+  ]
+ },
+ "v04-pecho-maquinas": {
+  "titulo": [
+   "pecho en máquinas",
+   "3 ejercicios"
+  ],
+  "cabeza": {
+   "x": 570,
+   "y": 560
+  },
+  "claves": "pecho|camiseta|entreno|máquinas|inclinado|arriba|estiramiento|codos|plano|respaldo|cerrado|estrecho|tríceps|quema|puede|también",
+  "bloques": [
+   {
+    "etiqueta": "press inclinado en máquina",
+    "valor": "4 × 10",
+    "texto": "series × repeticiones"
+   },
+   {
+    "etiqueta": "press plano sentado",
+    "valor": "3 × 12",
+    "texto": "series × repeticiones"
+   },
+   {
+    "etiqueta": "press cerrado",
+    "valor": "3 × 10",
+    "texto": "series × repeticiones"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y quiere un pecho que llene la camiseta.",
+    "dur": 2.0,
+    "tomas": [
+     {
+      "c": "c1037",
+      "a": 1.27,
+      "b": 2.9,
+      "fijo": true,
+      "punch": 0.15
+     },
+     {
+      "c": "c1034",
+      "a": 0.2,
+      "b": 10.7,
+      "z": 1.1
+     }
+    ]
+   },
+   {
+    "txt": "Si tuviera que recomendarle un entreno, sería este, y todo en máquinas, que son muy agradecidas.",
+    "dur": 0.55,
+    "titulo": true,
+    "tomas": [
+     {
+      "c": "c1034",
+      "a": 1.6,
+      "b": 10.7,
+      "z": 1.15
+     },
+     {
+      "c": "c1037",
+      "a": 3.9,
+      "b": 9.4,
+      "z": 1.15
+     },
+     {
+      "c": "c1035",
+      "a": 2.2,
+      "b": 9,
+      "z": 1.15
+     }
+    ]
+   },
+   {
+    "txt": "Primero, press inclinado, para la parte de arriba del pecho. Que baje hasta notar el estiramiento y empuje sin bloquear los codos.",
+    "b": 0,
+    "tomas": [
+     {
+      "c": "c1034",
+      "a": 0.2,
+      "b": 10.8
+     },
+     {
+      "c": "c1034",
+      "a": 0.2,
+      "b": 10.8,
+      "z": 1.4,
+      "o": "40% 35%"
+     }
+    ]
+   },
+   {
+    "txt": "Luego, press plano sentado. Espalda pegada al respaldo, que no se va a ir a ningún sitio.",
+    "b": 1,
+    "tomas": [
+     {
+      "c": "c1037",
+      "a": 1.27,
+      "b": 9.5
+     },
+     {
+      "c": "c1037",
+      "a": 1.27,
+      "b": 9.5,
+      "z": 1.35,
+      "o": "50% 40%"
+     }
+    ]
+   },
+   {
+    "txt": "Y para terminar, press cerrado, agarre estrecho y codos pegados, que así el tríceps también cobra. Uf, cómo quema.",
+    "b": 2,
+    "tomas": [
+     {
+      "c": "c1035",
+      "a": 0.4,
+      "b": 9.2
+     },
+     {
+      "c": "c1035",
+      "a": 0.4,
+      "b": 9.2,
+      "z": 1.35,
+      "o": "45% 40%"
+     }
+    ]
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que si él puede, tú también.",
+    "dur": 1.6,
+    "tomas": [
+     {
+      "c": "c1034",
+      "a": 4.5,
+      "b": 10.7,
+      "z": 1.15,
+      "o": "40% 40%"
+     },
+     {
+      "c": "c1037",
+      "a": 5.27,
+      "b": 9.5,
+      "z": 1.1
+     }
+    ]
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "tomas": [
+     {
+      "c": "c1037",
+      "a": 6.57,
+      "b": 9.6,
+      "r": 0.75,
+      "punch": 0.18
+     }
+    ]
+   }
+  ]
+ },
+ "v05-pecho-superior": {
+  "titulo": [
+   "pecho superior",
+   "3 ejercicios"
+  ],
+  "cabeza": {
+   "x": 540,
+   "y": 530
+  },
+  "claves": "arriba|pecho|tímida|entreno|inclinado|mancuernas|codos|brindis|máquina|peso|éxito|cruce|poleas|árbol|apretando|puede|también",
+  "bloques": [
+   {
+    "etiqueta": "press inclinado con mancuernas",
+    "valor": "4 × 8",
+    "texto": "series × repeticiones"
+   },
+   {
+    "etiqueta": "press inclinado en máquina",
+    "valor": "3 × 10",
+    "texto": "series × repeticiones"
+   },
+   {
+    "etiqueta": "cruce de poleas",
+    "valor": "3 × 15",
+    "texto": "series × repeticiones"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y tiene la parte de arriba del pecho un poco tímida.",
+    "dur": 2.0,
+    "tomas": [
+     {
+      "c": "d2024",
+      "a": 0.0,
+      "b": 1.5,
+      "fijo": true,
+      "punch": 0.12,
+      "z": 1.15,
+      "o": "50% 0%"
+     },
+     {
+      "c": "d2024",
+      "a": 2.5,
+      "b": 8,
+      "z": 1.1
+     }
+    ]
+   },
+   {
+    "txt": "Si tuviera que recomendarle un entreno, sería este.",
+    "dur": 0.5,
+    "titulo": true,
+    "tomas": [
+     {
+      "c": "d2024",
+      "a": 16,
+      "b": 20,
+      "z": 1.15
+     },
+     {
+      "c": "c1034",
+      "a": 1.6,
+      "b": 10.7,
+      "z": 1.15
+     },
+     {
+      "c": "d2009",
+      "a": 6,
+      "b": 31,
+      "z": 1.15
+     }
+    ]
+   },
+   {
+    "txt": "Primero, press inclinado con mancuernas. Que baje lento, con los codos un poco cerrados, y suba juntando las mancuernas sin chocarlas, que esto no es un brindis.",
+    "b": 0,
+    "tomas": [
+     {
+      "c": "d2024",
+      "a": 2.5,
+      "b": 12.5
+     },
+     {
+      "c": "d2024",
+      "a": 15.2,
+      "b": 20.5,
+      "z": 1.05
+     }
+    ]
+   },
+   {
+    "txt": "Luego, press inclinado en máquina, para meter peso sin miedo al éxito.",
+    "b": 1,
+    "tomas": [
+     {
+      "c": "c1034",
+      "a": 0.2,
+      "b": 10.8
+     },
+     {
+      "c": "c1034",
+      "a": 0.2,
+      "b": 10.8,
+      "z": 1.4,
+      "o": "40% 35%"
+     }
+    ]
+   },
+   {
+    "txt": "Y para terminar, cruce de poleas, como si abrazara un árbol muy grande y apretando al final.",
+    "b": 2,
+    "tomas": [
+     {
+      "c": "d2009",
+      "a": 5,
+      "b": 32
+     },
+     {
+      "c": "d2010",
+      "a": 6,
+      "b": 34
+     },
+     {
+      "c": "d2008",
+      "a": 14,
+      "b": 23
+     }
+    ]
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que si él puede, tú también.",
+    "dur": 1.6,
+    "tomas": [
+     {
+      "c": "d2010",
+      "a": 20,
+      "b": 34,
+      "z": 1.1
+     },
+     {
+      "c": "d2024",
+      "a": 16,
+      "b": 20.5,
+      "z": 1.1
+     }
+    ]
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "tomas": [
+     {
+      "c": "d2008",
+      "a": 18,
+      "b": 23.4,
+      "r": 0.8,
+      "punch": 0.18
+     }
+    ]
+   }
+  ]
+ },
+ "v06-pecho-de-viaje": {
+  "titulo": [
+   "pecho de viaje",
+   "solo mancuernas"
+  ],
+  "cabeza": {
+   "x": 450,
+   "y": 600
+  },
+  "claves": "viaje|pecho|entreno|mancuernas|pesado|técnica|dinero|ligero|tres|segundos|bajando|rebotar|elástica|vacaciones|también",
+  "bloques": [
+   {
+    "etiqueta": "press con mancuernas · pesado",
+    "valor": "4 × 6",
+    "texto": "series × repeticiones"
+   },
+   {
+    "etiqueta": "press con mancuernas · lento",
+    "valor": "3 × 12",
+    "texto": "series × reps (3 s bajando)"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y aunque esté de viaje, el pecho no se lo salta.",
+    "dur": 2.0,
+    "tomas": [
+     {
+      "c": "p7629",
+      "a": 0.2,
+      "b": 2.6,
+      "fijo": true,
+      "punch": 0.15
+     },
+     {
+      "c": "p3989",
+      "a": 5.5,
+      "b": 10,
+      "z": 1.05
+     }
+    ]
+   },
+   {
+    "txt": "Si tuviera que recomendarle un entreno, sería este, solo con mancuernas.",
+    "dur": 0.55,
+    "titulo": true,
+    "tomas": [
+     {
+      "c": "p7629",
+      "a": 8,
+      "b": 30,
+      "z": 1.15
+     },
+     {
+      "c": "p3989",
+      "a": 14,
+      "b": 40,
+      "z": 1.15
+     }
+    ]
+   },
+   {
+    "txt": "Primero, press con mancuernas pesado, pocas repeticiones y buena técnica. Que baje controlado hasta abajo y suba con fuerza, como si le debieran dinero.",
+    "b": 0,
+    "tomas": [
+     {
+      "c": "p7629",
+      "a": 4,
+      "b": 32
+     },
+     {
+      "c": "p7629",
+      "a": 4,
+      "b": 32,
+      "z": 1.35,
+      "o": "45% 45%"
+     }
+    ]
+   },
+   {
+    "txt": "Luego, el mismo press pero más ligero y bajando en tres segundos, que el pecho se entera más bajando que subiendo. Sin rebotar, que esto no es una cama elástica.",
+    "b": 1,
+    "tomas": [
+     {
+      "c": "p3989",
+      "a": 10.5,
+      "b": 42
+     },
+     {
+      "c": "p3989",
+      "a": 10.5,
+      "b": 42,
+      "z": 1.35,
+      "o": "50% 50%"
+     }
+    ]
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que si él puede entrenar de vacaciones, tú también.",
+    "dur": 1.6,
+    "tomas": [
+     {
+      "c": "p3989",
+      "a": 20,
+      "b": 42,
+      "z": 1.1
+     },
+     {
+      "c": "p7629",
+      "a": 15,
+      "b": 32,
+      "z": 1.1
+     }
+    ]
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "tomas": [
+     {
+      "c": "p7629",
+      "a": 0.2,
+      "b": 2.8,
+      "r": 0.7,
+      "punch": 0.18
+     }
+    ]
+   }
+  ]
+ },
+ "v07-superseries": {
+  "titulo": [
+   "pecho y espalda",
+   "en superseries"
+  ],
+  "cabeza": {
+   "x": 570,
+   "y": 560
+  },
+  "claves": "pecho|espalda|mitad|entreno|superseries|descanso|ancha|plano|estrecho|cerrado|remo|inclinado|tira|empuja|corazón|minuto|puede|también",
+  "bloques": [
+   {
+    "n": "1A",
+    "etiqueta": "jalón con barra ancha",
+    "valor": "4 × 10",
+    "texto": "series × repeticiones"
+   },
+   {
+    "n": "1B",
+    "etiqueta": "press plano en máquina",
+    "valor": "4 × 10",
+    "texto": "series × repeticiones"
+   },
+   {
+    "n": "2A",
+    "etiqueta": "jalón · agarre estrecho",
+    "valor": "3 × 12",
+    "texto": "series × repeticiones"
+   },
+   {
+    "n": "2B",
+    "etiqueta": "press cerrado",
+    "valor": "3 × 12",
+    "texto": "series × repeticiones"
+   },
+   {
+    "n": "3A",
+    "etiqueta": "remo en polea · agarre cerrado",
+    "valor": "3 × 12",
+    "texto": "series × repeticiones"
+   },
+   {
+    "n": "3B",
+    "etiqueta": "press inclinado en máquina",
+    "valor": "3 × 10",
+    "texto": "series × repeticiones"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y entrena pecho y espalda en la mitad de tiempo.",
+    "dur": 2.0,
+    "tomas": [
+     {
+      "c": "c1037",
+      "a": 1.27,
+      "b": 2.9,
+      "fijo": true,
+      "punch": 0.15
+     },
+     {
+      "c": "c1086",
+      "a": 10.5,
+      "b": 17,
+      "z": 1.1,
+      "o": "50% 35%"
+     }
+    ]
+   },
+   {
+    "txt": "Si tuviera que recomendarle un entreno, sería este, en superseries: un ejercicio de cada, sin descanso entre medias.",
+    "dur": 0.55,
+    "titulo": true,
+    "tomas": [
+     {
+      "c": "c1086",
+      "a": 0.5,
+      "b": 8,
+      "z": 1.15
+     },
+     {
+      "c": "c1037",
+      "a": 3.9,
+      "b": 9.4,
+      "z": 1.15
+     },
+     {
+      "c": "c1085",
+      "a": 21,
+      "b": 32,
+      "z": 1.15
+     },
+     {
+      "c": "c1035",
+      "a": 2.2,
+      "b": 9,
+      "z": 1.15
+     },
+     {
+      "c": "c1090",
+      "a": 4,
+      "b": 13,
+      "z": 1.2
+     },
+     {
+      "c": "c1034",
+      "a": 1.6,
+      "b": 10.7,
+      "z": 1.15
+     }
+    ]
+   },
+   {
+    "txt": "Primera superserie: jalón con barra ancha",
+    "b": 0,
+    "tomas": [
+     {
+      "c": "c1086",
+      "a": 0.3,
+      "b": 8.2,
+      "z": 1.1,
+      "o": "60% 40%"
+     },
+     {
+      "c": "c1086",
+      "a": 10.5,
+      "b": 17.5,
+      "z": 1.1,
+      "o": "50% 35%"
+     }
+    ]
+   },
+   {
+    "txt": "y, sin descansar, press plano en máquina.",
+    "b": 1,
+    "tomas": [
+     {
+      "c": "c1037",
+      "a": 1.27,
+      "b": 9.5
+     }
+    ]
+   },
+   {
+    "txt": "Segunda: jalón con agarre estrecho",
+    "b": 2,
+    "tomas": [
+     {
+      "c": "c1085",
+      "a": 20.5,
+      "b": 32.5
+     },
+     {
+      "c": "c1085",
+      "a": 34,
+      "b": 39.5,
+      "z": 1.15,
+      "o": "45% 40%"
+     }
+    ]
+   },
+   {
+    "txt": "y press cerrado.",
+    "b": 3,
+    "tomas": [
+     {
+      "c": "c1035",
+      "a": 0.4,
+      "b": 9.2
+     }
+    ]
+   },
+   {
+    "txt": "Y la tercera: remo en polea",
+    "b": 4,
+    "tomas": [
+     {
+      "c": "c1090",
+      "a": 3.2,
+      "b": 14,
+      "z": 1.15,
+      "o": "50% 40%"
+     }
+    ]
+   },
+   {
+    "txt": "y press inclinado. Uno tira, el otro empuja, y el corazón pide la hora. Descansa un minuto y medio entre vueltas y a repetir.",
+    "b": 5,
+    "tomas": [
+     {
+      "c": "c1034",
+      "a": 0.2,
+      "b": 10.8
+     },
+     {
+      "c": "c1090",
+      "a": 3.2,
+      "b": 14,
+      "z": 1.4,
+      "o": "50% 38%"
+     },
+     {
+      "c": "c1034",
+      "a": 0.2,
+      "b": 10.8,
+      "z": 1.4,
+      "o": "40% 35%"
+     }
+    ]
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que si él puede, tú también.",
+    "dur": 1.6,
+    "tomas": [
+     {
+      "c": "c1086",
+      "a": 11,
+      "b": 17.5,
+      "z": 1.2,
+      "o": "50% 35%"
+     },
+     {
+      "c": "c1037",
+      "a": 5.27,
+      "b": 9.5,
+      "z": 1.1
+     }
+    ]
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "tomas": [
+     {
+      "c": "c1092",
+      "a": 10.3,
+      "b": 11.26,
+      "r": 0.45,
+      "punch": 0.18
+     }
+    ]
+   }
+  ]
+ },
+ "v08-pecho-espalda-devant": {
+  "titulo": [
+   "pecho y espalda",
+   "3 ejercicios"
+  ],
+  "cabeza": {
+   "x": 436,
+   "y": 470
+  },
+  "claves": "pecho|espalda|revista|entreno|dominadas|concentra|barbilla|medias|inclinado|mancuernas|arriba|cruce|poleas|aplaudiera|puede|también",
+  "bloques": [
+   {
+    "etiqueta": "dominadas",
+    "valor": "4 × 6",
+    "texto": "series × repeticiones"
+   },
+   {
+    "etiqueta": "press inclinado con mancuernas",
+    "valor": "4 × 10",
+    "texto": "series × repeticiones"
+   },
+   {
+    "etiqueta": "cruce de poleas",
+    "valor": "3 × 15",
+    "texto": "series × repeticiones"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y hoy toca pecho y espalda en un gimnasio de revista.",
+    "dur": 2.0,
+    "tomas": [
+     {
+      "c": "d2030",
+      "a": 18.4,
+      "b": 20.0,
+      "fijo": true,
+      "punch": 0.12,
+      "z": 1.3,
+      "o": "50% 0%"
+     },
+     {
+      "c": "d2009",
+      "a": 6,
+      "b": 31,
+      "z": 1.05
+     },
+     {
+      "c": "d2027",
+      "a": 11,
+      "b": 21,
+      "z": 1.05
+     }
+    ]
+   },
+   {
+    "txt": "Si tuviera que recomendarle un entreno, sería este.",
+    "dur": 0.5,
+    "titulo": true,
+    "tomas": [
+     {
+      "c": "d1990",
+      "a": 3,
+      "b": 17,
+      "z": 1.15
+     },
+     {
+      "c": "d2024",
+      "a": 3,
+      "b": 12,
+      "z": 1.15
+     },
+     {
+      "c": "d2010",
+      "a": 8,
+      "b": 30,
+      "z": 1.15
+     }
+    ]
+   },
+   {
+    "txt": "Primero, dominadas, de espaldas a todo el mundo, que así se concentra mejor. Que suba hasta pasar la barbilla y baje del todo, sin medias repeticiones.",
+    "b": 0,
+    "tomas": [
+     {
+      "c": "d1990",
+      "a": 0.5,
+      "b": 17
+     },
+     {
+      "c": "d2027",
+      "a": 10,
+      "b": 22,
+      "z": 1.05
+     },
+     {
+      "c": "d1990",
+      "a": 0.5,
+      "b": 17,
+      "z": 1.4,
+      "o": "50% 30%"
+     }
+    ]
+   },
+   {
+    "txt": "Luego, press inclinado con mancuernas, que el pecho de arriba no se hace solo.",
+    "b": 1,
+    "tomas": [
+     {
+      "c": "d2024",
+      "a": 2.5,
+      "b": 12.5
+     },
+     {
+      "c": "d2024",
+      "a": 15.2,
+      "b": 20.5
+     }
+    ]
+   },
+   {
+    "txt": "Y para terminar, cruce de poleas, de arriba abajo, cerrando como si aplaudiera a cámara lenta.",
+    "b": 2,
+    "tomas": [
+     {
+      "c": "d2008",
+      "a": 4,
+      "b": 12.5
+     },
+     {
+      "c": "d2010",
+      "a": 6,
+      "b": 34
+     },
+     {
+      "c": "d2009",
+      "a": 5,
+      "b": 32
+     }
+    ]
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que si él puede, tú también.",
+    "dur": 1.6,
+    "tomas": [
+     {
+      "c": "d2027",
+      "a": 29.5,
+      "b": 35,
+      "z": 1.15,
+      "o": "50% 40%"
+     },
+     {
+      "c": "d2010",
+      "a": 22,
+      "b": 34,
+      "z": 1.1
+     }
+    ]
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "tomas": [
+     {
+      "c": "d2027",
+      "a": 1.9,
+      "b": 3.2,
+      "r": 0.7,
+      "punch": 0.18
+     }
+    ]
+   }
+  ]
+ },
+ "v09-fuerza-pecho-espalda": {
+  "titulo": [
+   "pecho y espalda",
+   "modo fuerza"
+  ],
+  "cabeza": {
+   "x": 810,
+   "y": 640
+  },
+  "claves": "fuerte|parecerlo|entreno|peso|largos|dominadas|cinco|cuelga|cerrado|controlado|jalón|seis|inclinado|cuestan|minutos|prisa|puede|también",
+  "bloques": [
+   {
+    "etiqueta": "dominadas",
+    "valor": "5 × 5",
+    "texto": "series × repeticiones"
+   },
+   {
+    "etiqueta": "press cerrado",
+    "valor": "5 × 5",
+    "texto": "series × repeticiones"
+   },
+   {
+    "etiqueta": "jalón con barra ancha",
+    "valor": "4 × 6",
+    "texto": "series × repeticiones"
+   },
+   {
+    "etiqueta": "press inclinado en máquina",
+    "valor": "4 × 6",
+    "texto": "series × repeticiones"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y quiere ser más fuerte, no solo parecerlo.",
+    "dur": 2.0,
+    "tomas": [
+     {
+      "c": "c1085",
+      "a": 1.0,
+      "b": 2.6,
+      "fijo": true,
+      "punch": 0.15
+     },
+     {
+      "c": "c1085",
+      "a": 14.3,
+      "b": 15.6,
+      "fijo": true,
+      "r": 1.4,
+      "z": 1.1,
+      "o": "60% 40%"
+     },
+     {
+      "c": "c1086",
+      "a": 10.5,
+      "b": 17,
+      "z": 1.15,
+      "o": "50% 35%"
+     }
+    ]
+   },
+   {
+    "txt": "Si tuviera que recomendarle un entreno, sería este: pocas repeticiones, mucho peso y descansos largos.",
+    "dur": 0.55,
+    "titulo": true,
+    "tomas": [
+     {
+      "c": "c1092",
+      "a": 1,
+      "b": 9.5,
+      "z": 1.15
+     },
+     {
+      "c": "c1035",
+      "a": 2.2,
+      "b": 9,
+      "z": 1.15
+     },
+     {
+      "c": "c1086",
+      "a": 0.5,
+      "b": 8,
+      "z": 1.15
+     },
+     {
+      "c": "c1034",
+      "a": 1.6,
+      "b": 10.7,
+      "z": 1.15
+     }
+    ]
+   },
+   {
+    "txt": "Primero, dominadas, cinco series de cinco, y si salen fáciles, se cuelga peso.",
+    "b": 0,
+    "tomas": [
+     {
+      "c": "c1092",
+      "a": 0.3,
+      "b": 9.6
+     },
+     {
+      "c": "c1092",
+      "a": 0.3,
+      "b": 9.6,
+      "z": 1.45,
+      "o": "50% 30%"
+     }
+    ]
+   },
+   {
+    "txt": "Luego, press cerrado, también cinco de cinco, con el peso bajando controlado.",
+    "b": 1,
+    "tomas": [
+     {
+      "c": "c1035",
+      "a": 0.4,
+      "b": 9.2
+     },
+     {
+      "c": "c1035",
+      "a": 0.4,
+      "b": 9.2,
+      "z": 1.35,
+      "o": "45% 40%"
+     }
+    ]
+   },
+   {
+    "txt": "Tercero, jalón con barra ancha, a seis repeticiones.",
+    "b": 2,
+    "tomas": [
+     {
+      "c": "c1086",
+      "a": 10.5,
+      "b": 17.5,
+      "z": 1.1,
+      "o": "50% 35%"
+     },
+     {
+      "c": "c1086",
+      "a": 0.3,
+      "b": 8.2,
+      "z": 1.1,
+      "o": "60% 40%"
+     }
+    ]
+   },
+   {
+    "txt": "Y para terminar, press inclinado en máquina, seis repeticiones de las que cuestan. Descansa dos o tres minutos entre series, que aquí no hay prisa.",
+    "b": 3,
+    "tomas": [
+     {
+      "c": "c1034",
+      "a": 0.2,
+      "b": 10.8
+     },
+     {
+      "c": "c1034",
+      "a": 0.2,
+      "b": 10.8,
+      "z": 1.4,
+      "o": "40% 35%"
+     }
+    ]
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que si él puede, tú también.",
+    "dur": 1.6,
+    "tomas": [
+     {
+      "c": "c1085",
+      "a": 22,
+      "b": 32.5,
+      "z": 1.15,
+      "o": "50% 40%"
+     },
+     {
+      "c": "c1092",
+      "a": 4,
+      "b": 9.5,
+      "z": 1.2,
+      "o": "50% 35%"
+     }
+    ]
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "tomas": [
+     {
+      "c": "c1092",
+      "a": 10.3,
+      "b": 11.26,
+      "r": 0.45,
+      "punch": 0.18
+     }
+    ]
+   }
+  ]
+ },
+ "v10-primer-dia-pecho-espalda": {
+  "titulo": [
+   "primer día",
+   "pecho y espalda"
+  ],
+  "cabeza": {
+   "x": 570,
+   "y": 560
+  },
+  "claves": "empezara|gimnasio|primer|día|máquinas|perdonan|plano|asiento|pecho|jalón|clavícula|cuello|inclinado|remo|cerrado|doce|recámara|puede|también",
+  "bloques": [
+   {
+    "etiqueta": "press plano sentado",
+    "valor": "3 × 12",
+    "texto": "series × repeticiones"
+   },
+   {
+    "etiqueta": "jalón al pecho",
+    "valor": "3 × 12",
+    "texto": "series × repeticiones"
+   },
+   {
+    "etiqueta": "press inclinado en máquina",
+    "valor": "3 × 12",
+    "texto": "series × repeticiones"
+   },
+   {
+    "etiqueta": "remo en polea · agarre cerrado",
+    "valor": "3 × 12",
+    "texto": "series × repeticiones"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y, si hoy empezara en el gimnasio, este sería su primer día de pecho y espalda.",
+    "dur": 2.0,
+    "tomas": [
+     {
+      "c": "c1037",
+      "a": 1.27,
+      "b": 2.9,
+      "fijo": true,
+      "punch": 0.15
+     },
+     {
+      "c": "c1087",
+      "a": 1,
+      "b": 13,
+      "z": 1.1
+     },
+     {
+      "c": "c1034",
+      "a": 1.6,
+      "b": 10.7,
+      "z": 1.1
+     }
+    ]
+   },
+   {
+    "txt": "Todo en máquinas, que guían el movimiento y perdonan más.",
+    "dur": 0.6,
+    "titulo": true,
+    "tomas": [
+     {
+      "c": "c1037",
+      "a": 3.9,
+      "b": 9.4,
+      "z": 1.15
+     },
+     {
+      "c": "c1087",
+      "a": 3,
+      "b": 13,
+      "z": 1.15
+     },
+     {
+      "c": "c1034",
+      "a": 3,
+      "b": 10.7,
+      "z": 1.15
+     },
+     {
+      "c": "c1091",
+      "a": 5.5,
+      "b": 11,
+      "z": 1.2
+     }
+    ]
+   },
+   {
+    "txt": "Primero, press plano sentado. Que ajuste el asiento para que las manos queden a la altura del pecho.",
+    "b": 0,
+    "tomas": [
+     {
+      "c": "c1037",
+      "a": 1.27,
+      "b": 9.5
+     },
+     {
+      "c": "c1037",
+      "a": 1.27,
+      "b": 9.5,
+      "z": 1.35,
+      "o": "50% 40%"
+     }
+    ]
+   },
+   {
+    "txt": "Luego, jalón al pecho, barra a la clavícula y nada de tirar con el cuello.",
+    "b": 1,
+    "tomas": [
+     {
+      "c": "c1087",
+      "a": 0.5,
+      "b": 13.2
+     },
+     {
+      "c": "c1087",
+      "a": 0.5,
+      "b": 13.2,
+      "z": 1.35,
+      "o": "50% 35%"
+     }
+    ]
+   },
+   {
+    "txt": "Tercero, press inclinado.",
+    "b": 2,
+    "tomas": [
+     {
+      "c": "c1034",
+      "a": 0.2,
+      "b": 10.8
+     }
+    ]
+   },
+   {
+    "txt": "Y para terminar, remo en polea con agarre cerrado, sacando pecho. Tres series de doce, con un peso que deje dos repeticiones en la recámara.",
+    "b": 3,
+    "tomas": [
+     {
+      "c": "c1091",
+      "a": 5.2,
+      "b": 11
+     },
+     {
+      "c": "c1091",
+      "a": 5.2,
+      "b": 11,
+      "z": 1.3,
+      "o": "50% 45%"
+     }
+    ]
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que todos empezamos por algún sitio, y que si él puede, tú también.",
+    "dur": 1.6,
+    "tomas": [
+     {
+      "c": "c1034",
+      "a": 4.5,
+      "b": 10.7,
+      "z": 1.15,
+      "o": "40% 40%"
+     },
+     {
+      "c": "c1087",
+      "a": 6,
+      "b": 13,
+      "z": 1.15,
+      "o": "50% 35%"
+     }
+    ]
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "tomas": [
+     {
+      "c": "c1037",
+      "a": 6.57,
+      "b": 9.6,
+      "r": 0.75,
+      "punch": 0.18
+     }
+    ]
+   }
+  ]
+ },
+ "v11-espalda-bajo-la-sudadera": {
+  "titulo": [
+   "espalda",
+   "bajo la sudadera"
+  ],
+  "cabeza": {
+   "x": 540,
+   "y": 700
+  },
+  "claves": "espalda|sudadera|engañe|entreno|ancha|pecho|lento|golpe|remo|abierto|codos|estrecho|sobra|estire|apriete|toalla|puede|también|sin",
+  "bloques": [
+   {
+    "etiqueta": "jalón con barra ancha",
+    "valor": "4 × 10",
+    "texto": "series × repeticiones"
+   },
+   {
+    "etiqueta": "remo en polea · agarre abierto",
+    "valor": "4 × 12",
+    "texto": "series × repeticiones"
+   },
+   {
+    "etiqueta": "jalón · agarre estrecho",
+    "valor": "3 × 12",
+    "texto": "series × repeticiones"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y entrena espalda con sudadera, pero que no te engañe.",
+    "dur": 2.0,
+    "tomas": [
+     {
+      "c": "c1087",
+      "a": 0.5,
+      "b": 2.2,
+      "fijo": true,
+      "punch": 0.15
+     },
+     {
+      "c": "c1085",
+      "a": 1,
+      "b": 11,
+      "z": 1.1
+     }
+    ]
+   },
+   {
+    "txt": "Si tuviera que recomendarle un entreno, sería este.",
+    "dur": 0.5,
+    "titulo": true,
+    "tomas": [
+     {
+      "c": "c1087",
+      "a": 4,
+      "b": 13,
+      "z": 1.15
+     },
+     {
+      "c": "c1089",
+      "a": 2,
+      "b": 15,
+      "z": 1.15
+     },
+     {
+      "c": "c1088",
+      "a": 1,
+      "b": 6,
+      "z": 1.15
+     }
+    ]
+   },
+   {
+    "txt": "Primero, jalón con barra ancha. Que baje la barra al pecho y suba lento, sin soltar de golpe.",
+    "b": 0,
+    "tomas": [
+     {
+      "c": "c1087",
+      "a": 0.5,
+      "b": 13.2
+     },
+     {
+      "c": "c1087",
+      "a": 0.5,
+      "b": 13.2,
+      "z": 1.35,
+      "o": "50% 35%"
+     }
+    ]
+   },
+   {
+    "txt": "Luego, remo en polea con agarre abierto, codos altos y hacia atrás.",
+    "b": 1,
+    "tomas": [
+     {
+      "c": "c1089",
+      "a": 0.5,
+      "b": 16
+     },
+     {
+      "c": "c1088",
+      "a": 0.3,
+      "b": 6
+     }
+    ]
+   },
+   {
+    "txt": "Tercero, jalón con agarre estrecho.",
+    "b": 2,
+    "tomas": [
+     {
+      "c": "c1085",
+      "a": 1,
+      "b": 11.5
+     }
+    ]
+   },
+   {
+    "txt": "Y aquí ya sobra la sudadera.",
+    "b": 2,
+    "tomas": [
+     {
+      "c": "c1085",
+      "a": 14.3,
+      "b": 15.8,
+      "fijo": true,
+      "r": 1.2,
+      "z": 1.1,
+      "o": "60% 40%"
+     },
+     {
+      "c": "c1085",
+      "a": 20.5,
+      "b": 32.5,
+      "z": 1.05
+     }
+    ]
+   },
+   {
+    "txt": "Que estire arriba del todo y apriete abajo, como si escurriera una toalla con la espalda.",
+    "b": 2,
+    "tomas": [
+     {
+      "c": "c1085",
+      "a": 22,
+      "b": 32.5,
+      "z": 1.3,
+      "o": "50% 40%"
+     },
+     {
+      "c": "c1085",
+      "a": 34,
+      "b": 39.5,
+      "z": 1.15,
+      "o": "45% 40%"
+     }
+    ]
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que si él puede, tú también. Con sudadera o sin ella.",
+    "dur": 1.6,
+    "tomas": [
+     {
+      "c": "c1086",
+      "a": 11,
+      "b": 17.5,
+      "z": 1.15,
+      "o": "50% 35%"
+     },
+     {
+      "c": "c1089",
+      "a": 30.5,
+      "b": 46.5,
+      "z": 1.1
+     },
+     {
+      "c": "c1087",
+      "a": 3,
+      "b": 13,
+      "z": 1.1
+     }
+    ]
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "tomas": [
+     {
+      "c": "c1092",
+      "a": 10.3,
+      "b": 11.26,
+      "r": 0.45,
+      "punch": 0.18
+     }
+    ]
+   }
+  ]
+ },
+ "v12-pecho-que-se-mueve": {
+  "titulo": [
+   "pecho",
+   "4 ejercicios"
+  ],
+  "cabeza": {
+   "x": 550,
+   "y": 590
+  },
+  "brillo": "pecho",
+  "claves": "pectorales|mover|entreno|inclinado|empieza|dentro|puerta|pecho|cerrado|estrecho|cruce|poleas|apretar|móvil|espejo|importante|puede|también",
+  "bloques": [
+   {
+    "etiqueta": "press inclinado en máquina",
+    "valor": "4 × 10",
+    "texto": "series × repeticiones"
+   },
+   {
+    "etiqueta": "press cerrado",
+    "valor": "3 × 10",
+    "texto": "series × repeticiones"
+   },
+   {
+    "etiqueta": "cruce de poleas",
+    "valor": "3 × 15",
+    "texto": "series × repeticiones"
+   },
+   {
+    "etiqueta": "práctica en el espejo",
+    "valor": "3 × 20",
+    "texto": "series × botes de pectoral"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y ha aprendido a mover los pectorales.",
+    "dur": 2.0,
+    "tomas": [
+     {
+      "c": "c1048",
+      "a": 2.9,
+      "b": 4.3,
+      "fijo": true,
+      "punch": 0.15
+     },
+     {
+      "c": "c1048",
+      "a": 13.3,
+      "b": 14.7,
+      "fijo": true,
+      "z": 1.35,
+      "o": "50% 62%",
+      "brillo": true
+     }
+    ]
+   },
+   {
+    "txt": "Si te preguntas cómo ha llegado hasta aquí, este es su entreno.",
+    "dur": 0.55,
+    "titulo": true,
+    "tomas": [
+     {
+      "c": "c1034",
+      "a": 1.6,
+      "b": 10.7,
+      "z": 1.15
+     },
+     {
+      "c": "c1035",
+      "a": 2.2,
+      "b": 9,
+      "z": 1.15
+     },
+     {
+      "c": "d2010",
+      "a": 8,
+      "b": 30,
+      "z": 1.15
+     },
+     {
+      "c": "c1048",
+      "a": 8,
+      "b": 9.2,
+      "z": 1.15
+     }
+    ]
+   },
+   {
+    "txt": "Primero, press inclinado en máquina, que es donde empieza todo. Que empuje hacia arriba y hacia dentro, como si quisiera cerrar una puerta con el pecho.",
+    "b": 0,
+    "tomas": [
+     {
+      "c": "c1034",
+      "a": 0.2,
+      "b": 10.8
+     },
+     {
+      "c": "c1034",
+      "a": 0.2,
+      "b": 10.8,
+      "z": 1.4,
+      "o": "40% 35%"
+     }
+    ]
+   },
+   {
+    "txt": "Luego, press cerrado, con el agarre estrecho.",
+    "b": 1,
+    "tomas": [
+     {
+      "c": "c1035",
+      "a": 0.4,
+      "b": 9.2
+     },
+     {
+      "c": "c1035",
+      "a": 0.4,
+      "b": 9.2,
+      "z": 1.35,
+      "o": "45% 40%"
+     }
+    ]
+   },
+   {
+    "txt": "Tercero, cruce de poleas, que aquí se viene a apretar, no a mirar el móvil.",
+    "b": 2,
+    "tomas": [
+     {
+      "c": "d2010",
+      "a": 6,
+      "b": 34
+     },
+     {
+      "c": "d2009",
+      "a": 5,
+      "b": 32
+     }
+    ]
+   },
+   {
+    "txt": "Y el último, el más importante: practicar delante del espejo, que si no, esto no sale.",
+    "b": 3,
+    "tomas": [
+     {
+      "c": "c1048",
+      "a": 12.0,
+      "b": 14.6,
+      "fijo": true,
+      "z": 1.2,
+      "o": "50% 55%"
+     },
+     {
+      "c": "c1048",
+      "a": 2.9,
+      "b": 4.4,
+      "fijo": true,
+      "z": 1.1
+     },
+     {
+      "c": "c1048",
+      "a": 13.2,
+      "b": 14.5,
+      "fijo": true,
+      "z": 1.35,
+      "o": "50% 62%"
+     }
+    ]
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que si él puede, tú también.",
+    "dur": 1.6,
+    "tomas": [
+     {
+      "c": "c1034",
+      "a": 4.5,
+      "b": 10.7,
+      "z": 1.15,
+      "o": "40% 40%"
+     },
+     {
+      "c": "c1048",
+      "a": 8,
+      "b": 9.2,
+      "fijo": true,
+      "z": 1.1
+     }
+    ]
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "tomas": [
+     {
+      "c": "c1048",
+      "a": 12.0,
+      "b": 14.8,
+      "r": 0.75,
+      "punch": 0.18
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,217 @@
+{
+  "id": "Dc9SvZzA6y6",
+  "creador": "gerardfelipx",
+  "seguidores": 179000,
+  "visitas": 340000,
+  "likes": 13058,
+  "comentarios": 245,
+  "duracion_s": 44.0,
+  "url": "https://www.instagram.com/reel/Dc9SvZzA6y6/",
+  "formato": "Reflexión vulnerable sobre la soledad (antes/después) con b-roll de su día",
+  "resumen": "Gerard cuenta que antes se sentía solo los domingos, que llenarse de planes no lo arreglaba y que aprendió a estar solo; hoy entrena horas solo y es feliz. Lo distinto: distinción 'estar acompañado ≠ sentirte acompañado' y un final con la bici vacía sobre 'llenar ese vacío'.",
+  "gancho_voz": "Cada vez me gusta más estar solo.",
+  "gancho_texto_pantalla": null,
+  "gancho_visual": "Habitación con luz cálida y cuadros en la pared. Gerard sin camiseta, tumbado boca abajo en la cama mirando el móvil, plano fijo lateral (0–1,75 s). El subtítulo se va construyendo en una línea: 'cada' → 'cada vez' → 'cada vez me gusta' → 'cada vez me gusta más' → 'estar solo'.",
+  "guion_original": [
+    {
+      "t": "0.1–1.6",
+      "texto": "Cada vez me gusta más estar solo.",
+      "plano": "Tumbado boca abajo en la cama con el móvil, sin camiseta, plano fijo lateral; subtítulo acumulativo"
+    },
+    {
+      "t": "1.9–5.7",
+      "texto": "Antes, cuando llegaba el domingo por la tarde y no tenía ningún plan, me sentía muy solo.",
+      "plano": "1,75–3,65 ducha: de espaldas y luego de frente lavándose el pelo → 3,65–5,95 de espaldas en calzoncillos abriendo el armario y eligiendo ropa"
+    },
+    {
+      "t": "6.0–10.9",
+      "texto": "Intenté llenarme los fines de semana para que no llegara ese momento, pero con una tirita no se sana una herida.",
+      "plano": "5,95–6,65 sube la escalera → 6,65–8,7 cocina de espaldas, abre la nevera y bebe de una botella ('llenarme') → 8,7–10,1 su mano coloca un mantel individual y un bol en la mesa de cristal ('tirita') → 10,1–11,3 sentado en el sofá comiendo, cabizbajo ('herida')"
+    },
+    {
+      "t": "11.2–14.4",
+      "texto": "Rodeado de amigos, planes los findes, y me sentía más solo que nunca.",
+      "plano": "11,3–12,1 su mano coge un plátano de la cesta → 12,1–13,1 estantería de suplementos (creatina, sales), coge un bote → 13,1–14,6 coge el termo negro Gymshark"
+    },
+    {
+      "t": "14.8–19.7",
+      "texto": "Y ahí está el problema: solemos pensar que estar acompañado significa sentirte acompañado, pero no es lo mismo.",
+      "plano": "14,6–15,7 sube la escalera con el termo → 15,7–19,0 calle soleada con árboles; plano fijo largo, se aleja solo de espaldas con la mochila → 19,0–20,7 en el suelo del gym poniéndose las zapatillas"
+    },
+    {
+      "t": "20.0–23.6",
+      "texto": "Así que me aparté. Me aparté porque con tanto ruido nunca me había parado a escuchar.",
+      "plano": "20,7–24,6 se sube a la bici estática de espaldas, sala oscura teal con ventanal (cambio de color: de casa cálida a gym frío)"
+    },
+    {
+      "t": "24.0–26.6",
+      "texto": "Aprendí que estar solo no es que sea positivo, es que es necesario.",
+      "plano": "24,6–27,3 pedaleando a contraluz, se quita la camiseta"
+    },
+    {
+      "t": "27.2–31.1",
+      "texto": "Hoy puedo estar horas y horas entrenando solo, hablando o haciendo el gilipollas.",
+      "plano": "27,3–29,5 POV cenital del manillar con la pantalla → 29,5–30,6 lateral sin camiseta → 30,6–31,85 de espaldas mirando por encima del hombro con media sonrisa (subtítulo censurado 'gilip*llas')"
+    },
+    {
+      "t": "31.8–37.9",
+      "texto": "Y no digo que no sea importante conectar con personas; de hecho, creo que el amor es lo que nos mueve y las relaciones humanas, lo que nos distingue.",
+      "plano": "31,85–33,25 lateral pedaleando → 33,25–38,3 plano cerrado lateral pedaleando con fuerza, sudado"
+    },
+    {
+      "t": "38.3–43.4",
+      "texto": "Pero, de alguna forma, si no sabes estar bien contigo, siempre vas a necesitar a alguien para llenar ese vacío.",
+      "plano": "38,3–39 primer plano de la cara → plano abierto teal: se levanta, de espaldas, y sale de cuadro → 42,5–44 la bici vacía en 'llenar ese vacío'"
+    }
+  ],
+  "estructura": [
+    {
+      "bloque": "Gancho contraintuitivo",
+      "t": "0–1,6",
+      "funcion": "La soledad, que suele doler, presentada como algo que gusta → sorpresa + '¿cómo se llega ahí?'"
+    },
+    {
+      "bloque": "Antes (herida)",
+      "t": "1,9–10,9",
+      "funcion": "Escena universal y concreta (domingo por la tarde) + metáfora de la tirita → reconocimiento ('a mí me pasa')"
+    },
+    {
+      "bloque": "Paradoja",
+      "t": "11,2–14,4",
+      "funcion": "Rodeado de amigos y más solo que nunca → disonancia e identificación profunda"
+    },
+    {
+      "bloque": "Insight",
+      "t": "14,8–19,7",
+      "funcion": "'Estar acompañado no es sentirte acompañado' → el 'ajá' que se guarda y se comparte"
+    },
+    {
+      "bloque": "Giro / decisión",
+      "t": "20,0–26,6",
+      "funcion": "'Me aparté' + 'estar solo es necesario'; cambio de color de casa a gym = cambio de etapa"
+    },
+    {
+      "bloque": "Después (hoy) + humor",
+      "t": "27,2–31,1",
+      "funcion": "Muestra el resultado con autoironía ('haciendo el gilip*llas') → alivio y cercanía"
+    },
+    {
+      "bloque": "Matiz + cierre",
+      "t": "31,8–44,0",
+      "funcion": "Se adelanta al 'eres un antisocial' y cierra con la moraleja y la bici vacía"
+    }
+  ],
+  "edicion": {
+    "num_planos": 21,
+    "s_por_plano": 2.1,
+    "subtitulos": "Palabra a palabra, sans bold blanca (tipo Montserrat 700), pequeña, centrada a ≈42–50 % de alto, sin caja. La primera frase se va acumulando en una línea ('cada' → 'cada vez' → 'cada vez me gusta más') y luego sale una palabra cada vez. Palabrota censurada con asterisco ('gilip*llas').",
+    "texto_pantalla": "No hay título aparte: el gancho es el subtítulo acumulativo.",
+    "musica": "Instrumental emotiva suave de fondo, continua, ≈6–7 dB por debajo de la voz (pausas −19/−23 dB frente a −16,8 dB de media). No identificada.",
+    "efectos": "Solo cortes secos, iPhone a pulso o apoyado, look de vlog. La primera mitad (casa) es cálida y la segunda (gym) fría y teal y oscura: el cambio de color coincide con 'Así que me aparté' (20,7 s). Un plano largo en la calle (3,3 s) en el insight y final literal con la bici vacía en 'ese vacío'.",
+    "voz": "Voz real, pausada, íntima y reflexiva, tono de confesión; ≈3,9 pal/s (168 palabras en 43 s)."
+  },
+  "por_que_funciona": [
+    {
+      "momento": "0.1–1.6 · 'Cada vez me gusta más estar solo' + tumbado solo en la cama",
+      "mecanismo": "Error de predicción + tema universal",
+      "explicacion": "La soledad se asocia a algo malo y decir que gusta rompe lo esperado. Además casi todo el mundo se ha sentido solo, así que el espectador se ve dentro desde la primera frase. El subtítulo que se va construyendo obliga a leer hasta el final."
+    },
+    {
+      "momento": "1.9–5.7 · 'cuando llegaba el domingo por la tarde y no tenía ningún plan'",
+      "mecanismo": "Reconocimiento episódico + vulnerabilidad",
+      "explicacion": "Es un momento muy concreto que casi todos han vivido (el bajón del domingo). El cerebro recupera ese recuerdo propio y lo pega al vídeo. Confesarlo da confianza y vuelve creíble lo que viene."
+    },
+    {
+      "momento": "8.7–10.9 · 'con una tirita no se sana una herida'",
+      "mecanismo": "Metáfora concreta (memorable)",
+      "explicacion": "Una imagen física (tirita/herida) resume una idea abstracta (taparlo con planes). Se entiende al momento, se recuerda y se puede repetir."
+    },
+    {
+      "momento": "11.2–14.4 · 'Rodeado de amigos, planes los findes, y me sentía más solo que nunca'",
+      "mecanismo": "Paradoja / disonancia + identificación",
+      "explicacion": "Contradice la solución obvia (salir más) y valida a quien se siente solo aunque tenga gente. De aquí salen los comentarios 'me pasa lo mismo'."
+    },
+    {
+      "momento": "14.8–19.7 · 'estar acompañado no significa sentirte acompañado' sobre el plano largo de la calle",
+      "mecanismo": "Insight ('ajá') = recompensa",
+      "explicacion": "Pone nombre a algo que el espectador sentía y no sabía decir, y ese momento de entender premia y da ganas de guardar o mandar. El plano quieto de 3,3 s deja tiempo para procesarlo."
+    },
+    {
+      "momento": "27.2–31.1 · 'hablando o haciendo el gilip*llas' (censurado)",
+      "mecanismo": "Humor / ruptura de tono",
+      "explicacion": "Tras 25 s serios, la autoironía da alivio y lo humaniza. La palabra censurada con asterisco llama la vista y suelta una sonrisa, así que el espectador no se va por saturación emocional."
+    },
+    {
+      "momento": "31.8–44.0 · 'no digo que no sea importante conectar…' → 'si no sabes estar bien contigo…' + bici vacía",
+      "mecanismo": "Anticiparse a la objeción + cierre visual literal",
+      "explicacion": "El matiz desactiva la crítica ('antisocial') y amplía el público. La moraleja final coincide con la bici vacía en 'ese vacío', y esa rima entre imagen y palabra fija la idea. La caption 'haz un plan solo <3' lo convierte en reto."
+    }
+  ],
+  "caption": "haz un plan solo <3\n\n#soledad #deporte #inspiracion #mentalidad",
+  "cta": "Sin CTA hablado. La caption es una invitación a la acción ('haz un plan solo <3').",
+  "titulo_lucas": "Cada vez me gusta más estar solo",
+  "texto_pantalla_lucas": "Sin título aparte: subtítulo acumulativo 'cada vez me gusta más estar solo'. Caption: 'haz un plan solo esta semana <3'",
+  "guion_lucas": [
+    {
+      "texto": "Cada vez me gusta más estar solo.",
+      "plano": "GRABAR: tumbado boca abajo en tu cama mirando el móvil, sin camiseta, plano fijo lateral desde la puerta (5 s)",
+      "nota": "Tranquilo, casi en voz baja. Subtítulo acumulativo."
+    },
+    {
+      "texto": "Antes, cuando llegaba [el domingo por la tarde] y no tenía ningún plan, me sentía muy solo.",
+      "plano": "recursos/recuperacion/2025-11-26_ducha-spa-luz-roja_de-espaldas_sin-camiseta.MOV @ 0–2,5 (ducha de espaldas, como el original) | GRABAR: de espaldas abriendo el armario y mirando la ropa (2,5 s)",
+      "nota": "Solo si es tu historia. Si no, cambia el momento por el tuyo de verdad."
+    },
+    {
+      "texto": "Intenté llenarme los fines de semana de planes para que no llegara ese momento, pero con una tirita no se sana una herida.",
+      "plano": "recursos/lifestyle/2025-05-10_coche-amigos-selfie-risas_manga-larga-negra.MOV @ 5–7 ('llenarme de planes') | recursos/lifestyle/2026-07-02_festival-hamburguesas_03-mordisco-a-doble-mano_camiseta-gris.mov @ 9–10,5 | GRABAR: primer plano poniéndote una tirita en el dedo (2 s, 'tirita')",
+      "nota": "Pausa breve antes de 'pero con una tirita'."
+    },
+    {
+      "texto": "Rodeado de amigos, planes todos los findes, y me sentía más solo que nunca.",
+      "plano": "recursos/running/2026-03-14_run-club-lluvia_10-brindis-amigos-sala-amarilla_sin-camiseta.MOV @ 0–1,5 | recursos/lifestyle/2026-07-02_festival-hamburguesas_02-probando-y-puntuando_camiseta-gris.mov @ 16–17,5 | recursos/running/2026-03-14_run-club-lluvia_12-toalla-lata-doble-biceps-barra-evento_sin-camiseta.MOV @ 2–3,5 (toalla en la cabeza, mirada perdida: 'más solo que nunca')",
+      "nota": "Contraste: planos de fiesta con la voz seria."
+    },
+    {
+      "texto": "Y ahí está el problema: solemos pensar que estar acompañado significa sentirte acompañado, pero no es lo mismo.",
+      "plano": "recursos/running/2026-03-17_correr-amanecer-pasarela_01-pov-y-grupo-a-contraluz.MOV @ 2–4 ('acompañado') | recursos/running/2026-10-18_correr-calle-ladrillo_espaldas-y-lado_manga-larga-negra.MOV @ 0–3,5 (se aleja solo de espaldas: plano largo como la calle del original)",
+      "nota": "Más despacio. Es la frase que la gente guarda."
+    },
+    {
+      "texto": "Así que me aparté. Me aparté porque con tanto ruido nunca me había parado a escucharme.",
+      "plano": "recursos/gym/fisico/2026-11-01_hibrido_intro-sentado-cajon-nike-strength.mov @ 5,6–8 (se ata las zapatillas, como Gerard en el suelo) | recursos/gym/fisico/2026-11-01_hibrido_intro-sentado-cajon-nike-strength.mov @ 8,5–10 (sentado en silencio, pared negra)",
+      "nota": "Repite 'me aparté' bajando el tono. Aquí empieza el cambio de color: de cálido a frío y oscuro."
+    },
+    {
+      "texto": "Aprendí que estar solo no es que sea positivo, es que es necesario.",
+      "plano": "recursos/running/2025-10-20_correr-carril-dunas-atardecer_01-espaldas_camiseta-gris-pantalon-oliva.MOV @ 2–5 (corre solo de espaldas al atardecer)",
+      "nota": "Énfasis en 'necesario'."
+    },
+    {
+      "texto": "Hoy puedo pasarme horas y horas entrenando solo para el medio Ironman, hablando solo o haciendo el gilipollas.",
+      "plano": "recursos/running/2025-07-09_pov-abdomen-caminando-camino-pinos_pantalon-oliva.MOV @ 0–2 (POV, como el cenital del manillar) | recursos/running/2025-06-04_selfie-correr-pasarela-dunas-atardecer-sudando_sin-camiseta.MOV @ 8–10 ('hablando solo') | recursos/lifestyle/sin-fecha_golf-swing-campo-practicas_ropa-negra.mp4 @ 9–11 (baila y se ríe: 'haciendo el gilipollas')",
+      "nota": "Sonrisa: es el respiro de humor. En el subtítulo, 'gilip*llas'."
+    },
+    {
+      "texto": "Y no digo que no sea importante conectar con personas; de hecho, creo que el amor es lo que nos mueve y las relaciones humanas, lo que nos distingue.",
+      "plano": "recursos/competicion/2025-07-05_deka-zaragoza_abrazo-meta_pantalon-oliva.MOV @ 0,5–3,5 (abrazo en meta: 'conectar') | recursos/running/2026-03-14_run-club-lluvia_09-celebracion-brazos-arriba_sin-camiseta.MOV @ 1–3,5 ('relaciones humanas')",
+      "nota": "Cálido, sin sermón."
+    },
+    {
+      "texto": "Pero, de alguna forma, si no sabes estar bien contigo, siempre vas a necesitar a alguien para llenar ese vacío.",
+      "plano": "recursos/running/2026-03-17_correr-amanecer-pasarela_02-lateral-silueta-con-el-sol_manga-larga-negra.MOV @ 10–14 (silueta con el sol) | GRABAR: plano fijo de un camino o pasarela vacía; entras corriendo, sales de cuadro y se queda vacío 2 s en 'ese vacío' (si no: recursos/running/2024-12-11_selfie-pasarela-dunas-nublado_sudadera-asics-azul-marino.MOV @ 2,5–4,9, paisaje de dunas sin nadie)",
+      "nota": "Baja el ritmo. 'Ese vacío' con el plano vacío a la vez."
+    }
+  ],
+  "palabras_guion_lucas": 171,
+  "duracion_objetivo_s": 47,
+  "viabilidad_recursos": "alta",
+  "que_grabar": [
+    "Tumbado boca abajo en la cama con el móvil, plano fijo lateral (5 s)",
+    "De espaldas abriendo el armario (3 s)",
+    "Primer plano poniéndote una tirita (2 s)",
+    "Plano fijo de un camino o pasarela: entras corriendo, sales de cuadro y se queda vacío (5 s)"
+  ],
+  "stock": [],
+  "notas_edit": "Calcar la estructura en dos colores: primera mitad (antes, frases 1–5) con planos cálidos de casa y planes con amigos; desde 'Así que me aparté' (≈20 s), planos fríos y oscuros (gym negro + amaneceres/atardeceres en silueta), y si hace falta se baja la saturación para marcar el cambio. Cortes secos, sin transiciones; plano nuevo cada ≈2 s, con un plano largo (3–4 s) en la frase del insight y otro al final. Subtítulo acumulativo en la primera frase y después palabra a palabra con el estilo de Lucas; censura 'gilip*llas'. Música instrumental emotiva suave a −7 dB de la voz durante todo el vídeo. Final: plano vacío en 'ese vacío' + 2 s con el rótulo SÍGUEME PARA MÁS + @. Caption en reto ('haz un plan solo esta semana <3'). 42–46 s."
+}

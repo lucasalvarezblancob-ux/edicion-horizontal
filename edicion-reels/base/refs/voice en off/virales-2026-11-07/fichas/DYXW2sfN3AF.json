@@ -1,0 +1,233 @@
+{
+  "id": "DYXW2sfN3AF",
+  "creador": "diegosicrex",
+  "seguidores": 262000,
+  "visitas": 368000,
+  "likes": 0,
+  "comentarios": 0,
+  "duracion_s": 38.6,
+  "url": "https://www.instagram.com/reel/DYXW2sfN3AF/",
+  "formato": "Rutina de mañana aspiracional ('lo que hago cada mañana') con mito + realidad",
+  "resumen": "Diego (22 años) enseña su mañana paso a paso para tener 'un físico y una concentración del 1 %': sin despertador, agua con sal y sol, no desayuna fuerte, café, trabaja antes de entrenar. Lo distinto: cada paso trae un porqué que contradice lo habitual y un plano cinematográfico que lo ilustra literalmente.",
+  "gancho_voz": "Soy Diego, tengo 22 años y un físico y una concentración que menos del 1 % consigue. Esto es lo que hago cada mañana para conseguirlo.",
+  "gancho_texto_pantalla": "Qué hago con 22 años para tener un físico y atención del 1%",
+  "gancho_visual": "0–2,4 s: Diego sin camiseta (abdominales marcados, calzoncillo Calvin Klein) apoyado en la encimera de su cocina con fresas y plátano en una tabla, mira a un lado y se come una fresa; luz cálida de mañana, plano medio fijo. Barrido (whip) a 2,4–4,75 s: en el sofá con camiseta gris, leyendo un libro con la mano en la barbilla. El título fijo en 2 líneas en el centro todo el rato; sin subtítulos durante el gancho.",
+  "guion_original": [
+    {
+      "t": "0.1–4.6",
+      "texto": "Soy Diego, tengo 22 años y un físico y una concentración que menos del 1 % consigue.",
+      "plano": "0–2,4 cocina sin camiseta comiendo una fresa (físico) → whip → 2,4–4,75 sofá con camiseta gris leyendo, mano en la barbilla (concentración)"
+    },
+    {
+      "t": "4.8–6.6",
+      "texto": "Esto es lo que hago cada mañana para conseguirlo.",
+      "plano": "Tumbado en la cama sin camiseta, plano picado lateral (abdominales), despertándose"
+    },
+    {
+      "t": "6.8–8.8",
+      "texto": "Me levanto sin despertador, siempre que puedo,",
+      "plano": "En la cama con antifaz verde, se estira con el brazo por encima de la cabeza"
+    },
+    {
+      "t": "8.9–13.2",
+      "texto": "porque poner una alarma te arranca de un proceso fundamental que tu cuerpo todavía no había terminado.",
+      "plano": "9,2–11,5 se incorpora y se quita el antifaz (lleva cinta en la boca para dormir) → 11,5–13,0 primer plano de un despertador digital que marca 4:41"
+    },
+    {
+      "t": "13.3–16.5",
+      "texto": "Al levantarme, medio litrito de agua con sal y luz solar directa.",
+      "plano": "13,0–13,9 whip a la terraza, bebe un vaso de agua sin camiseta → 13,9–15,5 pellizco de sal cayendo en un vaso (cámara lenta, cenital-lateral) → 15,5–16,5 de perfil en la terraza mirando al cielo nublado con el vaso"
+    },
+    {
+      "t": "16.7–21.3",
+      "texto": "Mucha gente cree que está cansada, pero en realidad empieza el día deshidratada y mirando una pantalla.",
+      "plano": "16,5–18,2 cenital en la cama, cara de cansado → 18,2–20,4 vaso llenándose en el dispensador de la nevera (reloj verde en la muñeca) → 20,4–21,3 en la mesa con el portátil, mano en la cara + whip"
+    },
+    {
+      "t": "21.4–23.5",
+      "texto": "No desayuno fuerte: por la mañana quiero foco.",
+      "plano": "Cenital de la encimera: plato con yogur/proteína, plátano y fresas; su mano lo mezcla con cuchara"
+    },
+    {
+      "t": "23.6–25.0",
+      "texto": "Luego café, bastante café,",
+      "plano": "Cafetera Philips de frente → primer plano del café cayendo en el vaso"
+    },
+    {
+      "t": "25.1–31.2",
+      "texto": "y antes de irme a entrenar, trabajo, porque yo no quiero ser culturista: mi prioridad son mis negocios, mi cabeza y mi rendimiento.",
+      "plano": "25,1–26,3 sin camiseta junto al ventanal bebiendo café → 26,3–28,3 sofá con el portátil → 28,3–29,7 camiseta gris tecleando fuera ('mis negocios') → 29,7–30,4 cocina sin camiseta ('mi cabeza') → 30,4–31,3 curl con barra Z en el gym, camiseta de tirantes ('rendimiento')"
+    },
+    {
+      "t": "31.4–36.4",
+      "texto": "La clave no es copiar mi rutina; la clave es entender tu biología y diseñar tu mañana alrededor de tus objetivos.",
+      "plano": "31,3–32,8 contrapicado en la terraza sin camiseta con el vaso → 32,8–34,4 bowl de açaí con granola, frutos rojos y plátano en la mano ('tu biología') → 34,4–35,3 camiseta blanca con el portátil ('diseñar') → 35,3–36,3 cocina con camiseta gris comiendo del plato ('objetivos')"
+    },
+    {
+      "t": "36.6–38.1",
+      "texto": "Si te ha molado el vídeo, no olvides seguirme.",
+      "plano": "Vuelve al plano del gancho: cocina sin camiseta frente a la fruta (cierre en espejo); subtítulo 'No olvides seguirme ;)'"
+    }
+  ],
+  "estructura": [
+    {
+      "bloque": "Gancho de estatus",
+      "t": "0–4,8",
+      "funcion": "Prueba visual (abdominales) + cifra de exclusividad (1 %) → comparación social: '¿qué hace él que yo no?'"
+    },
+    {
+      "bloque": "Promesa",
+      "t": "4,8–6,6",
+      "funcion": "Anuncia la lista ('esto es lo que hago cada mañana') → bucle abierto: el espectador se queda a por los pasos"
+    },
+    {
+      "bloque": "Paso 1 + porqué contraintuitivo",
+      "t": "6,8–13,2",
+      "funcion": "'Sin despertador' + explicación pseudo-científica → choca con lo que todos hacen (error de predicción)"
+    },
+    {
+      "bloque": "Paso 2 (agua con sal + sol)",
+      "t": "13,3–16,5",
+      "funcion": "Hábito raro y concreto, fácil de copiar → guardable"
+    },
+    {
+      "bloque": "Mito vs realidad",
+      "t": "16,7–21,3",
+      "funcion": "'Crees que estás cansado, pero en realidad…' → reencuadre que le habla al espectador (que está mirando una pantalla)"
+    },
+    {
+      "bloque": "Pasos 3–4 (ayuno ligero, café, trabajo)",
+      "t": "21,4–31,2",
+      "funcion": "Rompe el cliché fitness (no desayuno fuerte, no quiero ser culturista) → identidad aspiracional: joven emprendedor en forma"
+    },
+    {
+      "bloque": "Moraleja",
+      "t": "31,4–36,4",
+      "funcion": "'La clave no es copiar mi rutina' → desactiva críticas y da al espectador un principio aplicable"
+    },
+    {
+      "bloque": "CTA + cierre en espejo",
+      "t": "36,6–38,6",
+      "funcion": "Pide el follow sobre el mismo plano del inicio → sensación de círculo cerrado y bucle"
+    }
+  ],
+  "edicion": {
+    "num_planos": 24,
+    "s_por_plano": 1.6,
+    "subtitulos": "Durante el gancho (0–4,75 s) no hay subtítulos, solo el título. Después, subtítulos de 1–2 palabras, sans blanca de peso medio (tipo Inter/SF 500), pequeños (≈40 px a 1080 de ancho), sin caja, con sombra suave, centrados a media pantalla (≈49 % de alto). Cifras con número. El último dice 'No olvides seguirme ;)'.",
+    "texto_pantalla": "Título fijo en 2 líneas, centrado a media altura, misma letra que los subtítulos pero algo mayor, sin animación, 0–4,75 s: 'Qué hago con 22 años para / tener un físico y atención del 1%'.",
+    "musica": "Instrumental de fondo continua, suave y cinematográfica, ≈7 dB por debajo de la voz (en las pausas −23 dB frente a −16,6 dB de media). No identificada (se puede sacar con demucs + shazamio, como en refs/voice en off/CONTEXTO.md). En el CONTEXTO de refs ya está la de otro vídeo de Diego: 'Restless' (UntitledRockBand), que encaja con este estilo.",
+    "efectos": "Casi todo son cortes secos. Hay 3 barridos (whip pan con desenfoque de movimiento), en 2,4 · 13,0 · 21,0 s, cámara lenta en la sal (13,9–15,5) y etalonaje cinematográfico cálido y apagado (marrones y verdes, poco contraste, fondo desenfocado). Cada sustantivo tiene su plano literal: despertador, sal, café, pantalla, negocios, rendimiento. Cierra en espejo con el plano del gancho.",
+    "voz": "Voz real de Diego, grave, tranquila y segura, sin prisa, en tono de 'te cuento lo que hago'; ≈3,9 pal/s (145 palabras en 37,5 s), casi sin pausas entre frases."
+  },
+  "por_que_funciona": [
+    {
+      "momento": "0.0–4.6 · 'un físico y una concentración que menos del 1 % consigue' + abdominales en el frame 0",
+      "mecanismo": "Prueba de estatus + comparación social ascendente",
+      "explicacion": "El cuerpo se ve antes de que acabe la primera palabra, así que la promesa ya parece cumplida. El '1 %' te sitúa en el 99 %, y el cerebro quiere saber qué hace el 1 % para cerrar esa distancia. Además suena algo chulo, lo que provoca comentarios de 'flipado' que también suben el alcance."
+    },
+    {
+      "momento": "4.8–6.6 · 'Esto es lo que hago cada mañana para conseguirlo'",
+      "mecanismo": "Bucle abierto (Zeigarnik) + promesa de lista",
+      "explicacion": "Anuncia una lista de pasos sin decir cuántos. Hasta oír el último, la tarea se queda 'abierta' en la cabeza y retiene hasta el final. Además, una rutina de mañana se puede copiar, así que da ganas de guardarlo."
+    },
+    {
+      "momento": "6.8–13.2 · 'Me levanto sin despertador… poner una alarma te arranca de un proceso fundamental' + despertador 4:41 y cinta en la boca",
+      "mecanismo": "Error de predicción / contradicción",
+      "explicacion": "Casi todo el mundo usa alarma, y oír que es malo rompe lo esperado. Esa sorpresa da un pico de atención. La cinta en la boca y las 4:41 son detalles raros que el ojo detecta y que llevan a comentar ('¿qué lleva en la boca?', '¿a las 4:41 sin alarma?')."
+    },
+    {
+      "momento": "16.7–21.3 · 'Mucha gente cree que está cansada, pero en realidad empieza el día deshidratada y mirando una pantalla'",
+      "mecanismo": "Autorreferencia + reencuadre",
+      "explicacion": "Le habla a un cansancio que siente casi todo el que está mirando y le da una causa sencilla y que se puede arreglar, lo que alivia y se recuerda. La ironía de decir 'mirando una pantalla' a quien está mirando una pantalla hace que el espectador se vea retratado."
+    },
+    {
+      "momento": "21.4–31.2 · 'No desayuno fuerte… bastante café… yo no quiero ser culturista, mi prioridad son mis negocios'",
+      "mecanismo": "Romper el estereotipo + identidad aspiracional",
+      "explicacion": "Se espera el típico desayuno fitness de avena y huevos y dice lo contrario, lo que mantiene la sorpresa a mitad del vídeo, que es donde suele caer la retención. Al ponerse del lado de 'emprendedor en forma' y no de 'culturista', se gana a los jóvenes ambiciosos que no se ven como gym bros."
+    },
+    {
+      "momento": "Todo el vídeo · un plano nuevo cada ≈1,6 s que ilustra la palabra exacta (sal → pellizco de sal, café → cafetera, pantalla → portátil)",
+      "mecanismo": "Reflejo de orientación + doble codificación",
+      "explicacion": "Cada corte es un estímulo nuevo que reengancha la vista, y como la imagen repite lo que dice la voz, entender cuesta poco. Se procesa sin esfuerzo y no hay motivo para hacer scroll."
+    },
+    {
+      "momento": "31.4–38.6 · 'La clave no es copiar mi rutina…' + vuelta al plano de la cocina",
+      "mecanismo": "Autonomía + cierre en espejo (bucle)",
+      "explicacion": "Se adelanta al 'eso no vale para todos' y le da al espectador el control ('tu biología, tus objetivos'), lo que da ganas de guardar. Al volver al plano inicial, el final empalma con el principio y el vídeo se puede volver a ver en bucle sin que se note el salto."
+    }
+  ],
+  "caption": "",
+  "cta": "Hablado al final: 'Si te ha molado el vídeo, no olvides seguirme.' (subtítulo 'No olvides seguirme ;)') sobre el plano del gancho.",
+  "titulo_lucas": "Mi mañana preparando maratón + medio Ironman",
+  "texto_pantalla_lucas": "Qué hago cada mañana para preparar un maratón y un medio Ironman a la vez",
+  "guion_lucas": [
+    {
+      "texto": "Soy Lucas, tengo [tu edad] años y estoy preparando un maratón y un medio Ironman a la vez.",
+      "plano": "GRABAR: en tu cocina por la mañana, sin camiseta o con camiseta ajustada, apoyado en la encimera con fruta delante, miras a un lado y te comes una fresa (plano medio fijo, 6 s) | recursos/running/2026-03-17_correr-amanecer-pasarela_02-lateral-silueta-con-el-sol_manga-larga-negra.MOV @ 4–6 (en 'maratón y medio Ironman')",
+      "nota": "Seguro y tranquilo, sin prisa. El título va fijo encima y en el gancho no hay subtítulos."
+    },
+    {
+      "texto": "Esto es lo que hago cada mañana para no morir en el intento.",
+      "plano": "recursos/gym/funcional/2025-07-02_tumbado-agotado-tras-wod_sin-camiseta.MOV @ 7–9 (tumbado en cenital riéndose)",
+      "nota": "Primer guiño de humor: 'morir en el intento' con media sonrisa."
+    },
+    {
+      "texto": "Me levanto con despertador, sí,",
+      "plano": "GRABAR: en la cama, plano lateral o cenital; suena la alarma del móvil y la apagas a ciegas (5 s)",
+      "nota": "Pausa corta después de 'sí', como quien confiesa algo."
+    },
+    {
+      "texto": "porque si espero a que mi cuerpo termine sus procesos, el maratón lo corro en 2030.",
+      "plano": "GRABAR: te incorporas en la cama despeinado (3 s) → primer plano del móvil o reloj con la hora a la que te levantas [hora] (2 s, el despertador del original)",
+      "nota": "Es el chiste que responde a Diego: dilo serio y deja que '2030' caiga solo."
+    },
+    {
+      "texto": "Al levantarme, medio litro de agua y, si toca rodaje, a correr con el sol saliendo.",
+      "plano": "GRABAR: primer plano del vaso llenándose en la cocina y te lo bebes (3 s) | recursos/running/2026-03-17_selfie-correr-amanecer-paseo-maritimo_manga-larga-negra.MOV @ 2–4 | recursos/running/2026-03-17_correr-amanecer-pasarela_01-pov-y-grupo-a-contraluz.MOV @ 2–4",
+      "nota": "Confírmalo: pon solo lo que haces de verdad."
+    },
+    {
+      "texto": "Mucha gente cree que no vale para correr, pero en realidad sale a tope, sin desayunar y durmiendo cinco horas.",
+      "plano": "recursos/running/2025-06-04_selfie-correr-pasarela-dunas-atardecer-sudando_sin-camiseta.MOV @ 5–7 (sudado, se pasa la mano por la cabeza) | recursos/gym/cardio/2026-08-11_cinta-contrapicado-desde-consola_tirantes-celeste-sudada.MOV @ 3–5 ('a tope') | GRABAR: tumbado a oscuras con la cara iluminada por el móvil (2 s, 'cinco horas')",
+      "nota": "Énfasis en 'en realidad'. Es el reencuadre: le hablas a quien lo ve."
+    },
+    {
+      "texto": "Yo sí desayuno fuerte, o a mitad de rodaje me da un chungo.",
+      "plano": "GRABAR: cenital de la encimera montando tu desayuno (plátano, tortitas con miel o avena) con la mano, como el bowl de Diego (5 s)",
+      "nota": "'Yo sí' con retintín, porque contradice a los gurús del ayuno. Encaja con tu vídeo desayuna-fuerte."
+    },
+    {
+      "texto": "Luego café, bastante café,",
+      "plano": "recursos/lifestyle/2025-06-27_cafe-chiringuito-playa_sin-camiseta.MOV @ 0–1,5 | recursos/lifestyle/2025-11-30_cafe-evento-sonriendo_medio-cremallera-azul-marino.MOV @ 1–2,5",
+      "nota": "Rápido, con gracia en 'bastante'."
+    },
+    {
+      "texto": "y antes de entrenar, trabajo, porque no quiero ser el más grande del gimnasio: mi prioridad es llegar a meta, mi cabeza y [tu trabajo / tu proyecto].",
+      "plano": "recursos/lifestyle/2026-09-24_andando-con-portatil-paseo-soleado_tirantes-negra.MOV @ 8–10 ('trabajo') | recursos/gym/fisico/2026-07-25_aesthetic-devant_posado-sin-camiseta-con-otro-chico.MP4 @ 2–3,5 ('el más grande del gimnasio') | recursos/competicion/2025-11-09_carrera-dorsal-29233_mordiendo-medalla_ropa-blanca.MOV @ 0–1,5 ('llegar a meta') | recursos/recuperacion/2025-11-26_ducha-spa-luz-roja_de-espaldas_sin-camiseta.MOV @ 2–3,5 ('mi cabeza')",
+      "nota": "Un plano por elemento de la lista, como Diego. Humilde, sin presumir de físico."
+    },
+    {
+      "texto": "La clave no es copiar mi rutina; la clave es saber para qué entrenas y diseñar tu mañana alrededor de eso.",
+      "plano": "recursos/running/2026-03-17_correr-amanecer-pasarela_02-lateral-silueta-con-el-sol_manga-larga-negra.MOV @ 9–11 | recursos/gym/cardio/2026-11-01_hibrido_cinta-de-frente.mov @ 20–21,5 ('para qué entrenas') | recursos/gym/fisico/2026-11-01_hibrido_intro-sentado-cajon-nike-strength.mov @ 13,4–14,5 (bebe agua, 'diseñar tu mañana')",
+      "nota": "Más lento y cercano: es la moraleja."
+    },
+    {
+      "texto": "Si te ha molado, sígueme para más.",
+      "plano": "GRABAR: el mismo plano de la cocina del gancho (sácalo de la misma toma) + rótulo SÍGUEME PARA MÁS",
+      "nota": "Cierre en espejo con el primer plano, con una sonrisa."
+    }
+  ],
+  "palabras_guion_lucas": 156,
+  "duracion_objetivo_s": 42,
+  "viabilidad_recursos": "media",
+  "que_grabar": [
+    "Una sesión de 'mañana en casa' de unos 10 min con la misma ropa: cocina apoyado en la encimera con fruta (gancho y cierre, 10 s)",
+    "Alarma del móvil sonando y la apagas en la cama (5 s) + te incorporas despeinado (3 s) + primer plano de la hora (2 s)",
+    "Vaso de agua llenándose y bebiendo (3 s)",
+    "Tumbado a oscuras con la cara iluminada por el móvil (2 s)",
+    "Cenital del desayuno montándolo con la mano (5 s)"
+  ],
+  "stock": [],
+  "notas_edit": "Calcar a Diego: título fijo en 2 líneas en el centro 0–4,8 s sin subtítulos; después, subtítulos palabra a palabra con el estilo de Lucas (preferencias.md). Plano nuevo cada 1,3–2 s y cada corte ilustra la palabra (alarma, agua, sol, café, meta). Mete 2–3 barridos con desenfoque en los saltos de sitio (casa → calle, calle → casa) y la cámara lenta en el vaso de agua. Etalonaje cálido y apagado para los planos de casa; los de amanecer ya son cálidos y casan. Música instrumental cinematográfica continua a −7/−8 dB de la voz ('Restless' de recursos/sonidos sirve). Cierra con el mismo plano de la cocina del gancho y el rótulo SÍGUEME PARA MÁS + @lucasalvarez.x. Duración de 37–40 s."
+}

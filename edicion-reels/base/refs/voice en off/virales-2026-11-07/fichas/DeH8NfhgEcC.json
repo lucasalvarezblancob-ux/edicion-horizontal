@@ -1,0 +1,236 @@
+{
+  "id": "DeH8NfhgEcC",
+  "creador": "gerardfelipx",
+  "seguidores": 179000,
+  "visitas": 929000,
+  "likes": 31095,
+  "comentarios": 521,
+  "duracion_s": 41.6,
+  "url": "https://www.instagram.com/reel/DeH8NfhgEcC/",
+  "formato": "Confesión generacional a contracorriente ('no salgo de fiesta') + día a día en casa",
+  "resumen": "Un chaval de 21 años se define como 'viejoven': no le gusta salir de fiesta y lo explica con planos de rutina doméstica (dominadas, cocinar arroz, cenar, bici estática). Lo distinto: convierte los comentarios que le echan 35 años en el gancho y cierra con un juego de palabras (pista de baile / bici estática).",
+  "gancho_voz": "Tengo 21 años y soy un viejoven.",
+  "gancho_texto_pantalla": null,
+  "gancho_visual": "Sin camiseta, sale de un trastero/armario exterior con la puerta corredera abierta (plantas y ramas arriba), mira a un lado y da un paso hacia cámara. Los subtítulos se van acumulando dispersos: 'tengo 21 años' → 'soy un viejoven', con 'viejoven' en cursiva serif.",
+  "guion_original": [
+    {
+      "t": "0.0–2.1",
+      "texto": "Tengo 21 años y soy un viejoven.",
+      "plano": "Sale sin camiseta de un trastero exterior de puerta corredera y se queda de frente mirando a un lado."
+    },
+    {
+      "t": "2.1–6.7",
+      "texto": "Ya no solo porque tengo barba y porque en cada vídeo la gente me echa 35 palos.",
+      "plano": "Terraza con pared de ladrillo: de espaldas estira los brazos bajo una barra de dominadas (2,2–5,2); empieza dominadas y aparecen una a una capturas de comentarios reales ('21 años en cada pierna', '21 años?! Pensaba que 30 o 35', '27? Se ve de 35', '21 o 31', 'Como que 21') (5,0–7,3)."
+    },
+    {
+      "t": "6.7–8.3",
+      "texto": "35, no me jodas.",
+      "plano": "Dominadas de lado/espaldas en la misma barra, plano más cerrado."
+    },
+    {
+      "t": "8.3–11.1",
+      "texto": "Bueno, aparte de esto, no me gusta salir de fiesta.",
+      "plano": "Entra por la puerta corredera del salón, se gira a cámara y abre la mano como diciendo 'qué le voy a hacer'."
+    },
+    {
+      "t": "11.1–14.2",
+      "texto": "Y no lo digo porque esté de moda el rollo fit. En serio, no conecto.",
+      "plano": "Cocina, de espaldas: abre la nevera y saca un tupper."
+    },
+    {
+      "t": "14.2–18.3",
+      "texto": "No me gusta estar hasta las 6 de la mañana, beber y fingir que soy alguien que en realidad no soy.",
+      "plano": "Primer plano: saca un cazo de un cajón (14,2–15,7) y lo llena de agua en el fregadero; la mano tapa la cámara (15,7–18,3)."
+    },
+    {
+      "t": "18.3–21.8",
+      "texto": "He pasado mucho tiempo intentando encajar porque no quería perder mi juventud.",
+      "plano": "Cocina, de espaldas sin camiseta, cocinando en la vitro y cogiendo algo del estante."
+    },
+    {
+      "t": "21.8–25.1",
+      "texto": "Cuando en realidad perderla es vivir una vida que otros quieren que vivas.",
+      "plano": "Primer plano escurriendo arroz en un colador (21,8–23,1); sale a la terraza con el bol, de espaldas hacia el jardín (23,1–25,1)."
+    },
+    {
+      "t": "25.1–29.5",
+      "texto": "Al final, también creo que es una cuestión de etapas. Yo tengo mis cenas, mi gente y mis objetivos,",
+      "plano": "Come el arroz sentado en una mesa de terraza junto a una manguera enrollada (25,1–28,1); en el baño se lava los dientes frente al espejo (28,1–)."
+    },
+    {
+      "t": "29.5–31.7",
+      "texto": "que pesan mucho más que una noche de diversión.",
+      "plano": "Baño: se gira del espejo a cámara, de frente, serio."
+    },
+    {
+      "t": "31.7–36.7",
+      "texto": "Supongo que hay gente que prefiere darlo todo en la pista, y yo simplemente prefiero darlo todo en la estática.",
+      "plano": "Primeros planos del armario: coge unas gafas de ciclismo rojas y la ropa/reloj de una balda (31,8–35,2); sin camiseta con culotte Trek pedaleando en una bici estática con fondo azul de piscina (35,2–36,9) justo en 'estática'."
+    },
+    {
+      "t": "36.7–41.6",
+      "texto": "Llámalo aburrido si quieres, pero prefiero eso a perderme en una vida que no sea la mía.",
+      "plano": "Con camiseta de tirantes negra y las gafas rojas abre una puerta de cristal del patio, se gira y sale de plano."
+    }
+  ],
+  "estructura": [
+    {
+      "bloque": "Gancho identitario",
+      "t": "0–2,1",
+      "funcion": "Etiqueta contradictoria ('21 años' + 'viejoven') que el cerebro tiene que resolver; el que no sale de fiesta piensa 'como yo'."
+    },
+    {
+      "bloque": "Prueba con humor",
+      "t": "2,1–8,3",
+      "funcion": "Capturas reales de comentarios '35 años' + 'no me jodas': autoironía, prueba social y guiño a la comunidad."
+    },
+    {
+      "bloque": "Confesión a contracorriente",
+      "t": "8,3–18,3",
+      "funcion": "'No me gusta salir de fiesta' + desactiva la objeción ('no es por el rollo fit') + concreta lo que no le gusta (las 6, beber, fingir)."
+    },
+    {
+      "bloque": "Giro / reencuadre",
+      "t": "18,3–25,1",
+      "funcion": "Pasa de excusa a tesis: perder la juventud no es no salir, es vivir la vida que otros quieren. Frase para guardar."
+    },
+    {
+      "bloque": "Valores",
+      "t": "25,1–31,7",
+      "funcion": "Lo que gana a cambio (cenas, gente, objetivos): de renuncia a elección."
+    },
+    {
+      "bloque": "Remate cómico",
+      "t": "31,7–36,7",
+      "funcion": "Juego de palabras pista/estática sincronizado con el plano de la bici: recompensa y alivio tras el tono serio."
+    },
+    {
+      "bloque": "Cierre desafiante",
+      "t": "36,7–41,6",
+      "funcion": "'Llámalo aburrido si quieres' anticipa la crítica y deja al espectador posicionándose; sale de plano (final abierto, invita a reverlo)."
+    }
+  ],
+  "edicion": {
+    "num_planos": 15,
+    "s_por_plano": 2.8,
+    "subtitulos": "Palabra a palabra, blanco, sans serif en negrita pequeña (tipo Montserrat), sin caja ni sombra fuerte, en minúsculas. Posición variable sobre zonas limpias del plano; en el gancho y en frases clave las palabras se quedan acumuladas y dispersas formando la frase ('tengo 21 años', 'soy un viejoven', 'es vivir una vida que otros quieren que vivas'), con la palabra clave en cursiva serif ('viejoven').",
+    "texto_pantalla": "Sin título aparte: el gancho es el propio subtítulo acumulado. Capturas de comentarios reales de Instagram (nombres tapados) superpuestas una a una en 5,0–7,3 s.",
+    "musica": "Instrumental de fondo constante y bastante presente bajo la voz (no identificada); ambiente tranquilo/emotivo, sin drops sincronizados.",
+    "efectos": "Cortes secos sin transiciones, cámara fija o a pulso muy estable, look iPhone natural cálido. Única 'animación': aparición de las capturas de comentarios. La mano que tapa la cámara (15,7) hace de transición natural.",
+    "voz": "Tranquila, cercana, medio irónica, sin dramatizar; ~4 palabras/s (≈164 palabras en 41 s) con micro-pausas antes de los remates ('35, no me jodas')."
+  },
+  "por_que_funciona": [
+    {
+      "momento": "0.0–2.1 · 'Tengo 21 años y soy un viejoven'",
+      "mecanismo": "Contradicción + autorreferencia",
+      "explicacion": "Juntar una edad joven con 'viejo' crea disonancia que el cerebro quiere resolver (¿por qué?), y a cualquier chaval que prefiere quedarse en casa le salta el 'esto va de mí'. El neologismo en cursiva se recuerda y se repite en comentarios."
+    },
+    {
+      "momento": "5.0–8.3 · capturas 'Se ve de 35' + '35, no me jodas'",
+      "mecanismo": "Prueba social + guiño de comunidad",
+      "explicacion": "Enseña comentarios reales: el espectador ve que miles ya opinan de él (estatus) y entiende un chiste interno que le hace sentirse parte del grupo. Además invita a seguir el juego en comentarios ('pues yo te echo 40'), alimentando el algoritmo (521 comentarios)."
+    },
+    {
+      "momento": "8.3–14.2 · 'No me gusta salir de fiesta… no lo digo porque esté de moda el rollo fit'",
+      "mecanismo": "Identificación de grupo + polarización suave",
+      "explicacion": "Va contra la norma social de su edad; los que no salen se sienten validados (guardan/comparten 'esto soy yo') y los que salen comentan para defenderse. Desactivar la objeción antes de que aparezca (inoculación) le hace parecer sincero, no postureo fit."
+    },
+    {
+      "momento": "21.8–25.1 · 'perderla es vivir una vida que otros quieren que vivas'",
+      "mecanismo": "Reencuadre / insight",
+      "explicacion": "Da la vuelta al miedo (FOMO: 'me pierdo la juventud') y lo convierte en lo contrario. Ese 'clic' cognitivo da una pequeña recompensa y es la frase que la gente manda a un amigo o guarda."
+    },
+    {
+      "momento": "31.7–36.9 · 'darlo todo en la pista… darlo todo en la estática' + plano de la bici",
+      "mecanismo": "Error de predicción (humor)",
+      "explicacion": "El cerebro completa 'darlo todo en la pista' con discoteca y recibe 'bici estática' justo cuando aparece el plano: sorpresa + risa = dopamina, y alivio tras el tramo serio. La sincronía palabra-plano hace el chiste visual y compartible."
+    },
+    {
+      "momento": "Todo el vídeo · un plano nuevo cada ~2,8 s de rutina doméstica (dominadas, nevera, arroz, cenar, baño)",
+      "mecanismo": "Reflejo de orientación + aspiracional",
+      "explicacion": "Cada corte renueva la atención; ver la vida 'normal' de alguien en forma (sin camiseta, casa con luz bonita) engancha por curiosidad de mirón y aspiración, y hace creíble el mensaje: así es su noche de sábado."
+    },
+    {
+      "momento": "36.7–41.6 · 'Llámalo aburrido si quieres' + sale de plano",
+      "mecanismo": "Desafío + final abierto",
+      "explicacion": "Pone en boca del espectador la crítica y le obliga a posicionarse (¿aburrido o admirable?) → comentarios. Salir de plano sin CTA corta en seco y empuja al bucle; el caption 'no soy un hater de la fiesta, lo prometo' remata la polémica suave."
+    }
+  ],
+  "caption": "no soy un hater de la fiesta, lo prometo.\n\n#deporte #mentalidad #fiesta #correr #fitness",
+  "cta": "Sin CTA explícito. El engagement lo provocan el chiste de la edad ('me echa 35 palos') y el desafío final 'llámalo aburrido si quieres'; el caption añade polémica suave.",
+  "titulo_lucas": "Soy un viejoven (no salgo de fiesta)",
+  "texto_pantalla_lucas": "tengo [tu edad] años / soy un viejoven (sin título aparte: subtítulo acumulado, 'viejoven' en cursiva serif)",
+  "guion_lucas": [
+    {
+      "texto": "Tengo [tu edad] años y soy un viejoven.",
+      "plano": "recursos/gym/fisico/2026-11-01_hibrido_intro-sentado-cajon-nike-strength.mov @ 3,8–5,6 (se sienta en el cajón como un abuelo y mira a cámara)",
+      "nota": "Pausa mínima antes de 'viejoven' y dilo con media sonrisa."
+    },
+    {
+      "texto": "Ya no solo porque [algo de abuelo que hagas de verdad, p. ej. 'a las diez ya estoy en la cama'] y porque [p. ej. 'mi plan de sábado es correr a las 7'].",
+      "plano": "GRABAR: en la cama con la luz apagada mirando el móvil a las 22:30 (que se vea la hora), plano fijo desde la puerta (3 s) → recursos/running/2026-03-17_correr-amanecer-pasarela_02-lateral-silueta-con-el-sol_manga-larga-negra.MOV @ 2–5",
+      "nota": "Si tienes comentarios de gente echándote años o metiéndose con tu vida 'de abuelo', ponlos como capturas una a una como en el original."
+    },
+    {
+      "texto": "[Remate corto de 3–4 palabras, p. ej. 'Un sábado. A las 7.']",
+      "plano": "recursos/running/2026-10-30_selfie-contrapicado-trail-buenos-dias_gafas-rojas-chaleco.MOV @ 0–2,5 (dice '¡Buenos días!')",
+      "nota": "Seco, como el '35, no me jodas'."
+    },
+    {
+      "texto": "Bueno, aparte de esto, no me gusta salir de fiesta.",
+      "plano": "recursos/gym/fisico/2026-11-05_posado-estudio-posing_de-frente-habla-y-se-acerca_camiseta-azul-petroleo-gymshark.MOV @ 0–2,5 (de frente, pulgares en los bolsillos)",
+      "nota": "Confesión, tono bajo y natural."
+    },
+    {
+      "texto": "Y no lo digo porque esté de moda el rollo fit. En serio, no conecto.",
+      "plano": "recursos/lifestyle/2026-07-02_festival-hamburguesas_03-mordisco-a-doble-mano_camiseta-gris.mov @ 8–11 (mordiendo la hamburguesa)",
+      "nota": "El contraste hamburguesa / 'rollo fit' hace el chiste solo."
+    },
+    {
+      "texto": "No me gusta estar hasta las 6 de la mañana bebiendo y fingir que soy alguien que en realidad no soy.",
+      "plano": "recursos/running/2026-03-17_selfie-correr-amanecer-paseo-maritimo_manga-larga-negra.MOV @ 2–4 → recursos/running/2026-03-17_correr-amanecer-pasarela_01-pov-y-grupo-a-contraluz.MOV @ 2–5",
+      "nota": "Contraste visual: a las 6 él también está despierto, pero corriendo."
+    },
+    {
+      "texto": "He pasado mucho tiempo intentando encajar porque no quería perder mi juventud.",
+      "plano": "recursos/lifestyle/2025-05-10_coche-amigos-selfie-risas_manga-larga-negra.MOV @ 10–13",
+      "nota": "Más lento, aquí cambia el tono."
+    },
+    {
+      "texto": "Cuando en realidad perderla es vivir una vida que otros quieren que vivas.",
+      "plano": "recursos/running/2026-03-14_run-club-lluvia_04-correr-charcos-palmeras-espaldas_chubasquero-negro.MOV @ 0,2–2 → recursos/running/2025-10-20_correr-carril-dunas-atardecer_02-espaldas-y-lateral_camiseta-gris-pantalon-oliva.MOV @ 3–5",
+      "nota": "Subtítulo acumulado en pantalla como en el original (frase para guardar)."
+    },
+    {
+      "texto": "Al final, creo que es una cuestión de etapas. Yo tengo mis rodajes, mi gente y mis objetivos:",
+      "plano": "recursos/lifestyle/2025-06-27_cafe-chiringuito-playa_sin-camiseta.MOV @ 0–3 → recursos/competicion/2025-11-09_carrera-dorsal-29233_pov-pies-y-dorsal_ropa-blanca.MOV @ 2–5 (se ve el dorsal)",
+      "nota": "Enumera con calma, una palabra por golpe."
+    },
+    {
+      "texto": "un maratón y un medio Ironman, que pesan mucho más que una noche de fiesta.",
+      "plano": "recursos/competicion/2025-11-09_carrera-dorsal-29233_mordiendo-medalla_ropa-blanca.MOV @ 0–3,4",
+      "nota": "Énfasis en 'maratón' y 'medio Ironman'."
+    },
+    {
+      "texto": "Supongo que hay gente que prefiere darlo todo en la pista, y yo prefiero darlo todo en la pista… de atletismo.",
+      "plano": "recursos/running/2026-10-24_outfit-trail-se-prepara-en-parking_gafas-rojas-chaleco.MOV @ 0–4 (se pone las gafas rojas, igual que el original) → GRABAR: series en una pista de atletismo, plano lateral fijo, entra y sale de cuadro (3 s); si no, recursos/running/2026-07-05_correr-paseo-rio-barandilla_lateral_camiseta-blanca-oversize.MOV @ 2–5",
+      "nota": "Pausa de medio segundo antes de 'de atletismo'; el plano de la pista entra justo en esa palabra."
+    },
+    {
+      "texto": "Llámalo aburrido si quieres, pero prefiero eso a perderme en una vida que no sea la mía.",
+      "plano": "recursos/gym/fisico/2026-11-01_hibrido_intro-sentado-cajon-nike-strength.mov @ 17–20,5 (se levanta y viene hacia cámara hasta pasarla)",
+      "nota": "Cierre tranquilo, sin CTA; sale de plano igual que el original y cierra el círculo con el plano del gancho."
+    }
+  ],
+  "duracion_objetivo_s": 43,
+  "viabilidad_recursos": "alta",
+  "que_grabar": [
+    "En la cama a las 22:30 con la luz apagada mirando el móvil, plano fijo desde la puerta, que se vea la hora (3 s).",
+    "Series en una pista de atletismo, plano lateral fijo (3 s) — opcional, hay alternativa en recursos.",
+    "Rellenar los huecos: tu edad y 1–2 costumbres 'de abuelo' reales; si tienes capturas de comentarios echándote años, guárdalas."
+  ],
+  "stock": [],
+  "notas_edit": "Ritmo: 14–15 planos en ~43 s (≈2,8 s/plano), cortes secos sin transiciones, look natural cálido. Subtítulos palabra a palabra en blanco, sans bold pequeña sin caja y en minúsculas, colocados sobre zonas limpias; en el gancho y en 'perderla es vivir una vida que otros quieren que vivas' deja que las palabras se acumulen dispersas formando la frase, con 'viejoven' en cursiva serif. Si hay capturas de comentarios, que entren una a una con un pop.mp3 suave. Música instrumental tranquila/emotiva constante bajo la voz (p. ej. sonidos/musica-restless-untitledrockband_instrumental.mp3 o una lo-fi suave), sin drops. El chiste 'de atletismo' tiene que caer exactamente en el corte. Final sin CTA, sale de plano y corta en seco. Caption con polémica suave tipo 'no soy un hater de la fiesta, lo prometo'.",
+  "palabras_guion_lucas": 179
+}

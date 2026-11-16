@@ -1,0 +1,1236 @@
+{
+ "fps": 30,
+ "tramos": [
+  {
+   "desde": 19.7,
+   "hasta": 23.73333333333333,
+   "inicio_edit": 0.0,
+   "nota": "Hemos venido a Honest Greens… a molestar a la gente"
+  },
+  {
+   "desde": 24.166666666666668,
+   "hasta": 25.566666666666666,
+   "inicio_edit": 4.0333,
+   "nota": "Vamos a hacer un reto: quién controla mejor los macros y los pesos"
+  },
+  {
+   "desde": 26.033333333333335,
+   "hasta": 30.03333333333333,
+   "inicio_edit": 5.4333,
+   "nota": "…"
+  },
+  {
+   "desde": 30.533333333333335,
+   "hasta": 35.9,
+   "inicio_edit": 9.4333,
+   "nota": "Llenar este vaso… ¿a cuánto? Cincuenta. Cincuenta exactos"
+  },
+  {
+   "desde": 36.36666666666667,
+   "hasta": 37.166666666666664,
+   "inicio_edit": 14.8,
+   "nota": "…"
+  },
+  {
+   "desde": 37.333333333333336,
+   "hasta": 38.1,
+   "inicio_edit": 15.6,
+   "nota": "…"
+  },
+  {
+   "desde": 39.93333333333333,
+   "hasta": 41.800000000000004,
+   "inicio_edit": 16.3667,
+   "nota": "No sabemos ni cuánto cabe en el vaso"
+  },
+  {
+   "desde": 47.06666666666667,
+   "hasta": 48.9,
+   "inicio_edit": 18.2333,
+   "nota": "Venga, vamos a probar. Tú primero"
+  },
+  {
+   "desde": 49.0,
+   "hasta": 54.1,
+   "vel": 2.5,
+   "inicio_edit": 20.0667,
+   "nota": "ACCIÓN: llena el 1.º (camiseta blanca)"
+  },
+  {
+   "desde": 54.13333333333333,
+   "hasta": 58.56666666666667,
+   "inicio_edit": 22.1067,
+   "nota": "Llenadlo antes de pesarlo, que da pista"
+  },
+  {
+   "desde": 60.46666666666667,
+   "hasta": 63.0,
+   "inicio_edit": 26.54,
+   "nota": "Me querían pillar, los cabrones"
+  },
+  {
+   "desde": 63.0,
+   "hasta": 68.6,
+   "vel": 3,
+   "inicio_edit": 29.0733,
+   "nota": "ACCIÓN: llena el 2.º (camiseta azul)"
+  },
+  {
+   "desde": 68.63333333333334,
+   "hasta": 70.0,
+   "inicio_edit": 30.94,
+   "nota": "Uh, esta llena un poco más"
+  },
+  {
+   "desde": 70.0,
+   "hasta": 75.13333333333334,
+   "vel": 3,
+   "inicio_edit": 32.3067,
+   "nota": "ACCIÓN: llena el 3.º (tirantes)"
+  },
+  {
+   "desde": 75.13333333333334,
+   "hasta": 76.0,
+   "inicio_edit": 34.0178,
+   "nota": "Yo creo que me he pasado"
+  },
+  {
+   "desde": 78.13333333333334,
+   "hasta": 80.26666666666667,
+   "inicio_edit": 34.8844,
+   "nota": "La de Fernando está bien"
+  },
+  {
+   "desde": 81.93333333333334,
+   "hasta": 83.03333333333333,
+   "inicio_edit": 37.0178,
+   "nota": "A ver, vamos a probar"
+  },
+  {
+   "desde": 84.9,
+   "hasta": 86.93333333333334,
+   "inicio_edit": 38.1178,
+   "nota": "PESAJE 1: báscula 63 · Sesenta y tres"
+  },
+  {
+   "desde": 86.93333333333334,
+   "hasta": 90.73333333333333,
+   "inicio_edit": 40.1511,
+   "nota": "Os habéis pasado, brother · más que yo"
+  },
+  {
+   "desde": 93.26666666666667,
+   "hasta": 96.03333333333333,
+   "inicio_edit": 43.9511,
+   "nota": "Báscula 60 → 99 (Dioooos, el doble bro)"
+  },
+  {
+   "desde": 97.13333333333334,
+   "hasta": 98.0,
+   "inicio_edit": 46.7178,
+   "nota": "No puede ser. El doble"
+  },
+  {
+   "desde": 98.3,
+   "hasta": 99.13333333333334,
+   "inicio_edit": 47.5844,
+   "nota": "…"
+  },
+  {
+   "desde": 99.1,
+   "hasta": 104.6,
+   "vel": 2,
+   "inicio_edit": 48.4178,
+   "nota": "ACCIÓN: bebe el de azul para bajar a 50"
+  },
+  {
+   "desde": 104.6,
+   "hasta": 107.13333333333334,
+   "inicio_edit": 51.1678,
+   "nota": "Báscula 46 · ¡Uuuh! · Ojo"
+  },
+  {
+   "desde": 109.73333333333333,
+   "hasta": 110.53333333333333,
+   "inicio_edit": 53.7011,
+   "nota": "Me he pasado"
+  },
+  {
+   "desde": 111.1,
+   "hasta": 111.5,
+   "inicio_edit": 54.5011,
+   "nota": "Hazlo bien. Bebe a cincuenta"
+  },
+  {
+   "desde": 111.7,
+   "hasta": 114.23333333333333,
+   "inicio_edit": 54.9011,
+   "nota": "…"
+  },
+  {
+   "desde": 115.0,
+   "hasta": 120.4,
+   "vel": 2.5,
+   "inicio_edit": 57.4344,
+   "nota": "ACCIÓN: bebe el de tirantes"
+  },
+  {
+   "desde": 120.4,
+   "hasta": 122.83333333333333,
+   "inicio_edit": 59.5944,
+   "nota": "Báscula 33 · Perfecto."
+  },
+  {
+   "desde": 126.96666666666667,
+   "hasta": 129.16666666666666,
+   "inicio_edit": 62.0278,
+   "nota": "Se me ha pasado los labios. Era un chupito"
+  },
+  {
+   "desde": 130.13333333333333,
+   "hasta": 132.23333333333332,
+   "inicio_edit": 64.2278,
+   "nota": "Yo diría que he flipao · un poco más · va brother"
+  },
+  {
+   "desde": 132.83333333333334,
+   "hasta": 133.7,
+   "inicio_edit": 66.3278,
+   "nota": "…"
+  },
+  {
+   "desde": 134.23333333333332,
+   "hasta": 135.1,
+   "inicio_edit": 67.1944,
+   "nota": "…"
+  },
+  {
+   "desde": 135.1,
+   "hasta": 137.0,
+   "inicio_edit": 68.0611,
+   "nota": "Báscula 50 · ¡Ooooh!"
+  },
+  {
+   "desde": 137.0,
+   "hasta": 139.8,
+   "vel": 1.6,
+   "inicio_edit": 69.9611,
+   "nota": "ACCIÓN: celebra"
+  },
+  {
+   "desde": 139.9,
+   "hasta": 141.56666666666666,
+   "inicio_edit": 71.7111,
+   "nota": "Soy una máquina · GG familia · te la has sacado"
+  },
+  {
+   "desde": 141.93333333333334,
+   "hasta": 144.2,
+   "inicio_edit": 73.3778,
+   "nota": "…"
+  }
+ ],
+ "palabras": [
+  {
+   "w": "hemos",
+   "start": 0.14,
+   "end": 0.32
+  },
+  {
+   "w": "venido",
+   "start": 0.36,
+   "end": 0.62
+  },
+  {
+   "w": "a",
+   "start": 0.78,
+   "end": 0.82
+  },
+  {
+   "w": "Owles",
+   "start": 0.86,
+   "end": 1.08
+  },
+  {
+   "w": "Grinch",
+   "start": 1.12,
+   "end": 1.4
+  },
+  {
+   "w": "a",
+   "start": 1.58,
+   "end": 1.64
+  },
+  {
+   "w": "grabar",
+   "start": 1.68,
+   "end": 2.0
+  },
+  {
+   "w": "y",
+   "start": 2.04,
+   "end": 2.1
+  },
+  {
+   "w": "hacer",
+   "start": 2.12,
+   "end": 2.34
+  },
+  {
+   "w": "el--",
+   "start": 2.38,
+   "end": 2.48
+  },
+  {
+   "w": "y",
+   "start": 2.72,
+   "end": 2.82
+  },
+  {
+   "w": "a",
+   "start": 2.92,
+   "end": 2.96
+  },
+  {
+   "w": "molestar",
+   "start": 3.02,
+   "end": 3.36
+  },
+  {
+   "w": "a",
+   "start": 3.38,
+   "end": 3.4
+  },
+  {
+   "w": "la",
+   "start": 3.44,
+   "end": 3.52
+  },
+  {
+   "w": "gente.",
+   "start": 3.58,
+   "end": 3.8
+  },
+  {
+   "w": "A",
+   "start": 3.82,
+   "end": 3.82
+  },
+  {
+   "w": "molestar",
+   "start": 3.82,
+   "end": 3.82
+  },
+  {
+   "w": "a",
+   "start": 3.82,
+   "end": 3.82
+  },
+  {
+   "w": "la",
+   "start": 3.82,
+   "end": 3.82
+  },
+  {
+   "w": "gente.",
+   "start": 3.82,
+   "end": 3.92
+  },
+  {
+   "w": "Vamos",
+   "start": 4.167,
+   "end": 4.407
+  },
+  {
+   "w": "a",
+   "start": 4.447,
+   "end": 4.447
+  },
+  {
+   "w": "hacer",
+   "start": 4.467,
+   "end": 4.767
+  },
+  {
+   "w": "un",
+   "start": 4.827,
+   "end": 4.947
+  },
+  {
+   "w": "reto",
+   "start": 5.027,
+   "end": 5.327
+  },
+  {
+   "w": "para",
+   "start": 5.52,
+   "end": 6.06
+  },
+  {
+   "w": "ver",
+   "start": 6.12,
+   "end": 6.32
+  },
+  {
+   "w": "quién",
+   "start": 6.46,
+   "end": 6.84
+  },
+  {
+   "w": "controla",
+   "start": 6.9,
+   "end": 7.24
+  },
+  {
+   "w": "mejor",
+   "start": 7.28,
+   "end": 7.54
+  },
+  {
+   "w": "los",
+   "start": 7.58,
+   "end": 7.72
+  },
+  {
+   "w": "macros",
+   "start": 7.82,
+   "end": 8.26
+  },
+  {
+   "w": "y",
+   "start": 8.32,
+   "end": 8.36
+  },
+  {
+   "w": "los",
+   "start": 8.4,
+   "end": 8.54
+  },
+  {
+   "w": "pesos,",
+   "start": 8.66,
+   "end": 9.04
+  },
+  {
+   "w": "¿vale?",
+   "start": 9.1,
+   "end": 9.32
+  },
+  {
+   "w": "Vamos",
+   "start": 9.58,
+   "end": 9.84
+  },
+  {
+   "w": "a",
+   "start": 9.92,
+   "end": 9.98
+  },
+  {
+   "w": "primero",
+   "start": 10.02,
+   "end": 10.38
+  },
+  {
+   "w": "llenar",
+   "start": 10.6,
+   "end": 10.94
+  },
+  {
+   "w": "este",
+   "start": 11.019,
+   "end": 11.24
+  },
+  {
+   "w": "vaso.",
+   "start": 11.26,
+   "end": 11.78
+  },
+  {
+   "w": "¿A",
+   "start": 11.8,
+   "end": 12.1
+  },
+  {
+   "w": "cuánto",
+   "start": 12.18,
+   "end": 12.44
+  },
+  {
+   "w": "queréis",
+   "start": 12.46,
+   "end": 12.68
+  },
+  {
+   "w": "llenarlo",
+   "start": 12.72,
+   "end": 13.14
+  },
+  {
+   "w": "exactamente?",
+   "start": 13.38,
+   "end": 14.02
+  },
+  {
+   "w": "Cincuenta.",
+   "start": 14.18,
+   "end": 14.68
+  },
+  {
+   "w": "Cincuenta",
+   "start": 14.853,
+   "end": 15.473
+  },
+  {
+   "w": "exactos.",
+   "start": 15.687,
+   "end": 16.247
+  },
+  {
+   "w": "Vale,",
+   "start": 16.493,
+   "end": 16.673
+  },
+  {
+   "w": "no",
+   "start": 16.753,
+   "end": 16.833
+  },
+  {
+   "w": "sabemos",
+   "start": 16.873,
+   "end": 17.153
+  },
+  {
+   "w": "ni",
+   "start": 17.193,
+   "end": 17.253
+  },
+  {
+   "w": "cuánto",
+   "start": 17.293,
+   "end": 17.513
+  },
+  {
+   "w": "cabe",
+   "start": 17.553,
+   "end": 17.673
+  },
+  {
+   "w": "en",
+   "start": 17.693,
+   "end": 17.733
+  },
+  {
+   "w": "el",
+   "start": 17.773,
+   "end": 17.853
+  },
+  {
+   "w": "vaso,",
+   "start": 17.893,
+   "end": 18.113
+  },
+  {
+   "w": "Venga,",
+   "start": 18.367,
+   "end": 18.547
+  },
+  {
+   "w": "va,",
+   "start": 18.707,
+   "end": 18.747
+  },
+  {
+   "w": "vamos",
+   "start": 18.827,
+   "end": 18.947
+  },
+  {
+   "w": "a",
+   "start": 18.987,
+   "end": 19.027
+  },
+  {
+   "w": "probar.",
+   "start": 19.087,
+   "end": 19.387
+  },
+  {
+   "w": "Tú",
+   "start": 19.467,
+   "end": 19.527
+  },
+  {
+   "w": "primero.",
+   "start": 19.547,
+   "end": 19.927
+  },
+  {
+   "w": "A",
+   "start": 22.233,
+   "end": 22.273
+  },
+  {
+   "w": "ver,",
+   "start": 22.313,
+   "end": 22.413
+  },
+  {
+   "w": "pero",
+   "start": 22.473,
+   "end": 22.553
+  },
+  {
+   "w": "es",
+   "start": 22.573,
+   "end": 22.653
+  },
+  {
+   "w": "que",
+   "start": 22.673,
+   "end": 22.793
+  },
+  {
+   "w": "llenadlo",
+   "start": 23.073,
+   "end": 23.433
+  },
+  {
+   "w": "primero",
+   "start": 23.473,
+   "end": 23.733
+  },
+  {
+   "w": "antes",
+   "start": 23.773,
+   "end": 23.973
+  },
+  {
+   "w": "de",
+   "start": 24.013,
+   "end": 24.093
+  },
+  {
+   "w": "pesarlo,",
+   "start": 24.133,
+   "end": 24.593
+  },
+  {
+   "w": "porque",
+   "start": 24.673,
+   "end": 24.913
+  },
+  {
+   "w": "si",
+   "start": 24.973,
+   "end": 25.053
+  },
+  {
+   "w": "no",
+   "start": 25.093,
+   "end": 25.173
+  },
+  {
+   "w": "da,",
+   "start": 25.213,
+   "end": 25.333
+  },
+  {
+   "w": "da",
+   "start": 25.633,
+   "end": 25.713
+  },
+  {
+   "w": "pista,",
+   "start": 25.813,
+   "end": 26.213
+  },
+  {
+   "w": "¿no?",
+   "start": 26.293,
+   "end": 26.473
+  },
+  {
+   "w": "Da",
+   "start": 26.613,
+   "end": 26.693
+  },
+  {
+   "w": "pista.",
+   "start": 26.693,
+   "end": 26.933
+  },
+  {
+   "w": "Me",
+   "start": 27.113,
+   "end": 27.173
+  },
+  {
+   "w": "querían",
+   "start": 27.233,
+   "end": 27.553
+  },
+  {
+   "w": "pillar,",
+   "start": 27.633,
+   "end": 27.993
+  },
+  {
+   "w": "los",
+   "start": 28.193,
+   "end": 28.193
+  },
+  {
+   "w": "cabrones.",
+   "start": 28.233,
+   "end": 28.953
+  },
+  {
+   "w": "Uh,",
+   "start": 31.067,
+   "end": 31.147
+  },
+  {
+   "w": "esta",
+   "start": 31.207,
+   "end": 31.367
+  },
+  {
+   "w": "llena",
+   "start": 31.387,
+   "end": 31.527
+  },
+  {
+   "w": "un",
+   "start": 31.547,
+   "end": 31.607
+  },
+  {
+   "w": "poco",
+   "start": 31.647,
+   "end": 31.807
+  },
+  {
+   "w": "más,",
+   "start": 31.847,
+   "end": 32.067
+  },
+  {
+   "w": "¿eh?",
+   "start": 32.087,
+   "end": 32.167
+  },
+  {
+   "w": "Yo",
+   "start": 34.104,
+   "end": 34.144
+  },
+  {
+   "w": "creo",
+   "start": 34.164,
+   "end": 34.224
+  },
+  {
+   "w": "que",
+   "start": 34.324,
+   "end": 34.404
+  },
+  {
+   "w": "me",
+   "start": 34.424,
+   "end": 34.444
+  },
+  {
+   "w": "he",
+   "start": 34.464,
+   "end": 34.524
+  },
+  {
+   "w": "pasado,",
+   "start": 34.544,
+   "end": 34.764
+  },
+  {
+   "w": "Buf,",
+   "start": 35.011,
+   "end": 35.251
+  },
+  {
+   "w": "yo",
+   "start": 35.411,
+   "end": 35.471
+  },
+  {
+   "w": "creo",
+   "start": 35.491,
+   "end": 35.611
+  },
+  {
+   "w": "que",
+   "start": 35.631,
+   "end": 35.691
+  },
+  {
+   "w": "la",
+   "start": 35.711,
+   "end": 35.791
+  },
+  {
+   "w": "de",
+   "start": 35.811,
+   "end": 35.871
+  },
+  {
+   "w": "Fernando",
+   "start": 35.911,
+   "end": 36.251
+  },
+  {
+   "w": "está",
+   "start": 36.351,
+   "end": 36.491
+  },
+  {
+   "w": "bien,",
+   "start": 36.531,
+   "end": 36.771
+  },
+  {
+   "w": "¿eh?",
+   "start": 36.791,
+   "end": 36.891
+  },
+  {
+   "w": "A",
+   "start": 37.064,
+   "end": 37.124
+  },
+  {
+   "w": "ver,",
+   "start": 37.144,
+   "end": 37.244
+  },
+  {
+   "w": "vamos",
+   "start": 37.284,
+   "end": 37.464
+  },
+  {
+   "w": "a",
+   "start": 37.504,
+   "end": 37.564
+  },
+  {
+   "w": "probar.",
+   "start": 37.604,
+   "end": 38.044
+  },
+  {
+   "w": "Sesenta",
+   "start": 39.258,
+   "end": 39.858
+  },
+  {
+   "w": "y",
+   "start": 39.878,
+   "end": 39.918
+  },
+  {
+   "w": "tres.",
+   "start": 40.018,
+   "end": 40.138
+  },
+  {
+   "w": "Ala,",
+   "start": 40.218,
+   "end": 40.558
+  },
+  {
+   "w": "os",
+   "start": 40.698,
+   "end": 40.818
+  },
+  {
+   "w": "habéis",
+   "start": 40.838,
+   "end": 41.058
+  },
+  {
+   "w": "pasado,",
+   "start": 41.118,
+   "end": 41.578
+  },
+  {
+   "w": "brother.",
+   "start": 41.598,
+   "end": 41.918
+  },
+  {
+   "w": "Se",
+   "start": 41.978,
+   "end": 42.038
+  },
+  {
+   "w": "han",
+   "start": 42.078,
+   "end": 42.178
+  },
+  {
+   "w": "pasado",
+   "start": 42.258,
+   "end": 42.638
+  },
+  {
+   "w": "mucho",
+   "start": 42.738,
+   "end": 42.998
+  },
+  {
+   "w": "más",
+   "start": 43.038,
+   "end": 43.198
+  },
+  {
+   "w": "que",
+   "start": 43.258,
+   "end": 43.418
+  },
+  {
+   "w": "yo,",
+   "start": 43.478,
+   "end": 43.658
+  },
+  {
+   "w": "¿eh?",
+   "start": 43.718,
+   "end": 43.818
+  },
+  {
+   "w": "Dioooos,",
+   "start": 45.324,
+   "end": 45.924
+  },
+  {
+   "w": "el",
+   "start": 46.164,
+   "end": 46.264
+  },
+  {
+   "w": "doble",
+   "start": 46.304,
+   "end": 46.664
+  },
+  {
+   "w": "bro.",
+   "start": 46.684,
+   "end": 46.704
+  },
+  {
+   "w": "No",
+   "start": 46.804,
+   "end": 46.884
+  },
+  {
+   "w": "puede",
+   "start": 46.964,
+   "end": 47.204
+  },
+  {
+   "w": "ser.",
+   "start": 47.284,
+   "end": 47.464
+  },
+  {
+   "w": "El",
+   "start": 47.684,
+   "end": 47.824
+  },
+  {
+   "w": "doble.",
+   "start": 47.884,
+   "end": 48.304
+  },
+  {
+   "w": "Ojo,",
+   "start": 53.288,
+   "end": 53.488
+  },
+  {
+   "w": "¿eh?",
+   "start": 53.568,
+   "end": 53.668
+  },
+  {
+   "w": "Me",
+   "start": 53.828,
+   "end": 53.908
+  },
+  {
+   "w": "he",
+   "start": 53.968,
+   "end": 54.008
+  },
+  {
+   "w": "pasado.",
+   "start": 54.028,
+   "end": 54.368
+  },
+  {
+   "w": "Vale,",
+   "start": 54.641,
+   "end": 54.841
+  },
+  {
+   "w": "hazlo",
+   "start": 54.981,
+   "end": 55.201
+  },
+  {
+   "w": "bien.",
+   "start": 55.221,
+   "end": 55.421
+  },
+  {
+   "w": "Bebe",
+   "start": 55.461,
+   "end": 55.661
+  },
+  {
+   "w": "a",
+   "start": 55.701,
+   "end": 55.761
+  },
+  {
+   "w": "cincuenta,",
+   "start": 55.821,
+   "end": 56.341
+  },
+  {
+   "w": "bebe",
+   "start": 56.401,
+   "end": 56.541
+  },
+  {
+   "w": "a",
+   "start": 56.561,
+   "end": 56.581
+  },
+  {
+   "w": "cincuenta,",
+   "start": 56.641,
+   "end": 57.121
+  },
+  {
+   "w": "va.",
+   "start": 57.181,
+   "end": 57.321
+  },
+  {
+   "w": "Perfecto.",
+   "start": 61.194,
+   "end": 62.014
+  },
+  {
+   "w": "Se",
+   "start": 62.101,
+   "end": 62.161
+  },
+  {
+   "w": "me",
+   "start": 62.201,
+   "end": 62.261
+  },
+  {
+   "w": "ha",
+   "start": 62.281,
+   "end": 62.321
+  },
+  {
+   "w": "pasado",
+   "start": 62.341,
+   "end": 62.561
+  },
+  {
+   "w": "los",
+   "start": 62.601,
+   "end": 62.621
+  },
+  {
+   "w": "labios.",
+   "start": 62.621,
+   "end": 62.801
+  },
+  {
+   "w": "Es",
+   "start": 62.861,
+   "end": 62.941
+  },
+  {
+   "w": "que--",
+   "start": 62.961,
+   "end": 63.081
+  },
+  {
+   "w": "sí,",
+   "start": 63.241,
+   "end": 63.341
+  },
+  {
+   "w": "era",
+   "start": 63.561,
+   "end": 63.641
+  },
+  {
+   "w": "un",
+   "start": 63.661,
+   "end": 63.721
+  },
+  {
+   "w": "chupito.",
+   "start": 63.741,
+   "end": 64.1
+  },
+  {
+   "w": "Yo",
+   "start": 64.353,
+   "end": 64.414
+  },
+  {
+   "w": "diría",
+   "start": 64.434,
+   "end": 64.594
+  },
+  {
+   "w": "que",
+   "start": 64.694,
+   "end": 64.754
+  },
+  {
+   "w": "he",
+   "start": 64.793,
+   "end": 64.853
+  },
+  {
+   "w": "flipao,",
+   "start": 64.874,
+   "end": 65.034
+  },
+  {
+   "w": "¿eh?",
+   "start": 65.073,
+   "end": 65.174
+  },
+  {
+   "w": "No,",
+   "start": 65.314,
+   "end": 65.434
+  },
+  {
+   "w": "un",
+   "start": 65.634,
+   "end": 65.714
+  },
+  {
+   "w": "poco",
+   "start": 65.734,
+   "end": 65.894
+  },
+  {
+   "w": "más.",
+   "start": 65.954,
+   "end": 66.254
+  },
+  {
+   "w": "Un",
+   "start": 66.374,
+   "end": 66.454
+  },
+  {
+   "w": "poco",
+   "start": 66.494,
+   "end": 66.714
+  },
+  {
+   "w": "más.",
+   "start": 66.754,
+   "end": 67.074
+  },
+  {
+   "w": "Va,",
+   "start": 67.301,
+   "end": 67.481
+  },
+  {
+   "w": "brother.",
+   "start": 67.541,
+   "end": 67.921
+  },
+  {
+   "w": "¡Ooooh!",
+   "start": 69.261,
+   "end": 69.821
+  },
+  {
+   "w": "Soy",
+   "start": 71.851,
+   "end": 71.991
+  },
+  {
+   "w": "una",
+   "start": 72.011,
+   "end": 72.151
+  },
+  {
+   "w": "máquina.",
+   "start": 72.191,
+   "end": 72.651
+  },
+  {
+   "w": "GG.",
+   "start": 72.951,
+   "end": 73.271
+  },
+  {
+   "w": "GG,",
+   "start": 73.404,
+   "end": 73.644
+  },
+  {
+   "w": "familia.",
+   "start": 73.804,
+   "end": 74.244
+  },
+  {
+   "w": "GG.",
+   "start": 74.364,
+   "end": 74.464
+  },
+  {
+   "w": "Te",
+   "start": 74.504,
+   "end": 74.544
+  },
+  {
+   "w": "la",
+   "start": 74.584,
+   "end": 74.644
+  },
+  {
+   "w": "has",
+   "start": 74.684,
+   "end": 74.704
+  },
+  {
+   "w": "sacado,",
+   "start": 74.724,
+   "end": 75.084
+  },
+  {
+   "w": "brother.",
+   "start": 75.244,
+   "end": 75.524
+  }
+ ],
+ "duracion": 75.644
+}

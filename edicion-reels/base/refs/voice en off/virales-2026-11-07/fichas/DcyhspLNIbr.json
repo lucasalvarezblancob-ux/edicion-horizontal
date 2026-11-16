@@ -1,0 +1,152 @@
+{
+  "id": "DcyhspLNIbr",
+  "creador": "diegosicrex",
+  "seguidores": 262000,
+  "visitas": 164000,
+  "likes": 5962,
+  "comentarios": 34,
+  "duracion_s": 26.5,
+  "url": "https://www.instagram.com/reel/DcyhspLNIbr/",
+  "formato": "Reflexión sobre relaciones con b-roll cinematográfico (gym oscuro + moto)",
+  "resumen": "Opinión corta y tajante sobre las rupturas: quien te habla mal de su ex hablará mal de ti, déjalo ir, tu valor no depende de eso y mejor soltero que con alguien por miedo a estar solo. Lo distinto es el contraste 'tío de gym serio hablando de sentimientos' con una imagen muy cinematográfica.",
+  "gancho_voz": "¿Os habéis dado cuenta de que todo el mundo está traumatizado con su ex?",
+  "gancho_texto_pantalla": "Todo el mundo está traumatizado con su ex",
+  "gancho_visual": "0–2,4 s: contrapicado en un gym oscuro verdoso, con cascos y camiseta negra ajustada, sujetando una botella y mirando al frente, serio; el texto del gancho fijo en 2 líneas en el centro.",
+  "guion_original": [
+    {
+      "t": "0.0–2.4",
+      "texto": "¿Os habéis dado cuenta de que todo el mundo está traumatizado con su ex?",
+      "plano": "Gym oscuro, contrapicado, cascos y camiseta negra Under Armour, sujeta una botella; serio."
+    },
+    {
+      "t": "2.5–7.2",
+      "texto": "Si tú conoces a alguien y te empieza a tirar mierda del ex, en cuanto lo dejéis, hablará con otra persona de lo malo que eras tú.",
+      "plano": "2,4–4,6 curl en banco predicador (máquina verde), plano bajo con foco detrás · 4,6–7,4 primer plano del brazo haciendo curl con mancuerna, la cámara sube hasta su cara."
+    },
+    {
+      "t": "7.4–13.1",
+      "texto": "Si has decidido o han decidido que ya no formas parte de su vida, déjalo ir, no lo fuerces, no define tu valor.",
+      "plano": "7,4–10,8 exterior: sentado en la moto en la montaña, sudadera azul marino y vaqueros, mira a los lados; cielo con nubes · 10,8–13,3 gym oscuro, de pie junto a la polea; se gira y mira a cámara en «no define tu valor»."
+    },
+    {
+      "t": "13.5–19.3",
+      "texto": "También es cierto que estamos en una sociedad en la que todos tenemos la cabeza reventada, así que lo que te queda es limpiarte y elegir mejor a tu siguiente pareja.",
+      "plano": "13,3–16,3 POV desde un coche siguiendo su moto por una carretera de curvas · 16,3–19,7 de espaldas con camiseta roja ante un rack con discos; se inclina a coger la barra."
+    },
+    {
+      "t": "19.7–25.9",
+      "texto": "Y mientras tanto, si me permites un consejo, estate soltero, no fuerces estar con alguien porque te da miedo estar solo, es una receta increíble para el fracaso.",
+      "plano": "19,7–21,4 detrás de las barras de un rack, tirantes blanca, cara en penumbra · 21,4–26,5 plano continuo al atardecer con montañas: camina de espaldas hacia la moto con el casco en la mano, se sube y se coloca."
+    }
+  ],
+  "estructura": [
+    {
+      "bloque": "Gancho pregunta",
+      "t": "0–2,4",
+      "funcion": "Pregunta + generalización ('todo el mundo'): el espectador responde por dentro y piensa en su ex."
+    },
+    {
+      "bloque": "Giro",
+      "t": "2,5–7,2",
+      "funcion": "Señal de alarma práctica: el que critica a su ex te criticará a ti. Te pone en el lugar del siguiente."
+    },
+    {
+      "bloque": "Consuelo",
+      "t": "7,4–13,1",
+      "funcion": "Permiso para soltar ('déjalo ir, no lo fuerces') y validación ('no define tu valor')."
+    },
+    {
+      "bloque": "Normalizar + solución",
+      "t": "13,5–19,3",
+      "funcion": "'Todos tenemos la cabeza reventada': no eres tú. Qué hacer: limpiarte y elegir mejor."
+    },
+    {
+      "bloque": "Consejo-remate",
+      "t": "19,7–25,9",
+      "funcion": "Consejo que va contra la presión social ('estate soltero') y frase de cierre que se queda ('receta increíble para el fracaso')."
+    }
+  ],
+  "edicion": {
+    "num_planos": 9,
+    "s_por_plano": 2.9,
+    "subtitulos": "Bloques de 1–4 palabras ('a tirar mierda', 'en cuanto lo dejéis', 'no define tu valor'), sans fina blanca pequeña (tipo SF Pro / Inter Regular, ≈40 px sobre 1080), centrados a media pantalla, sin animación ni color de acento.",
+    "texto_pantalla": "El gancho 'Todo el mundo está traumatizado con su ex' fijo en 2 líneas en el centro durante todo el 1.er plano (0–2,4 s); hace de subtítulo de esa frase. Nada más.",
+    "musica": "Instrumental de fondo poco percusiva, ambiente emocional/cinemático, ≈7 dB por debajo de la voz (−22 dB en las pausas). No identificada (comparada por croma con 'Restless' de UntitledRockBand, que Diego usa en otra ref: resultado no concluyente).",
+    "efectos": "Solo cortes secos. Etalonaje de cine: sombras verdosas en el gym, tonos cálidos y cielos lavados fuera; 24 fps. Planos a pulso con movimiento suave.",
+    "voz": "Reflexiva pero firme, como un consejo de colega mayor; rápida, 4,75 pal/s (123 palabras en 25,9 s), casi sin pausas."
+  },
+  "por_que_funciona": [
+    {
+      "momento": "0.0–2.4 · «¿Os habéis dado cuenta de que todo el mundo está traumatizado con su ex?»",
+      "mecanismo": "Pregunta directa + autorreferencia (tema universal)",
+      "explicacion": "Una pregunta obliga al cerebro a contestar ('sí, mi ex…'); y casi todo el mundo tiene un ex, así que el vídeo sale del nicho fitness y le llega a cualquiera."
+    },
+    {
+      "momento": "0.0–2.4 · plano del tío de gym serio con cascos",
+      "mecanismo": "Contraste / error de predicción",
+      "explicacion": "La imagen promete 'vídeo de gym' y la voz habla de sentimientos: ese desajuste sorprende y retiene los primeros segundos."
+    },
+    {
+      "momento": "2.5–7.2 · «en cuanto lo dejéis, hablará con otra persona de lo malo que eras tú»",
+      "mecanismo": "Giro de perspectiva / disonancia",
+      "explicacion": "La crítica al ex del otro se vuelve contra ti: es una alarma práctica que se reenvía por DM a la amiga que está conociendo a alguien."
+    },
+    {
+      "momento": "10.8–13.1 · «no define tu valor» justo cuando se gira y mira a cámara",
+      "mecanismo": "Validación directa (vínculo, oxitocina)",
+      "explicacion": "La primera mirada a cámara cae en la frase que consuela: el que ha sido dejado siente que se lo dicen a él. Aquí se gana el like."
+    },
+    {
+      "momento": "13.5–16.3 · «todos tenemos la cabeza reventada»",
+      "mecanismo": "Normalización / identidad de grupo",
+      "explicacion": "Incluye al espectador en un 'todos' y le quita la culpa; baja la defensa y el consejo siguiente entra mejor."
+    },
+    {
+      "momento": "19.7–25.9 · «estate soltero… es una receta increíble para el fracaso»",
+      "mecanismo": "Consejo contraintuitivo + polarización suave",
+      "explicacion": "Va contra la presión de emparejarse: unos aplauden ('mejor sola que mal acompañada' es el comentario con más likes) y otros matizan (rupturas maduras), y eso son comentarios. La frase final es corta y redonda, de las que se guardan."
+    },
+    {
+      "momento": "21.4–26.5 · plano continuo: se aleja solo hacia la moto y se sube",
+      "mecanismo": "Encarnación visual del mensaje + duración corta",
+      "explicacion": "La imagen hace lo que dice la voz (irse solo y estar bien); 26 s de vídeo con cierre visual tranquilo hacen que se vea entero y se repita."
+    }
+  ],
+  "caption": "Todo el mundo está traumatizado con su ex.\n\nEste fue el primer vídeo que subí hablando y que llego a muchas personas.\nRecuerdo llorar de la alegría cuando vi que a la gente le estaba gustando,  con una especie de vértigo al sentir que se estaba gestando algo.\n\nHoy, más de 10 meses después puedo decir que me ha cambiado la vida.\nPero el mensaje sigue aplicando: estate soltero, no fuerces estar con alguien simplemente porque te da miedo estar solo, es una receta increíble para el fracaso.\n#relaciones #sentimientos #jovenes #ruptura",
+  "cta": "Ninguno hablado ni en pantalla; la caption (repost con historia personal) hace de cierre emocional.",
+  "titulo_lucas": "Todo el mundo está traumatizado con su ex",
+  "texto_pantalla_lucas": "Todo el mundo está traumatizado con su ex",
+  "guion_lucas": [
+    {
+      "texto": "¿Os habéis dado cuenta de que todo el mundo está traumatizado con su ex?",
+      "plano": "recursos/gym/fisico/2026-07-25_aesthetic-devant_bebe-de-la-garrafa_manga-larga-gris.MP4 @ 0,2–2,6 (primeros planos en el gym oscuro, mirando abajo, serio; como Diego con la botella) + texto del gancho fijo encima",
+      "nota": "Pregunta de verdad, con media sonrisa incrédula al final («…con su ex?»)."
+    },
+    {
+      "texto": "Si conoces a alguien y te empieza a poner a parir a su ex, tranquilo, que en cuanto lo dejéis hablará con otra persona de lo malo que eras tú.",
+      "plano": "recursos/gym/biceps/2026-11-01_curl-predicador-maquina.MOV @ 3–5,2 (el mismo ejercicio que en el original) → recursos/gym/biceps/2026-07-25_aesthetic-devant_04-curl-alterno-mancuernas-contrapicado_camiseta-gris.MP4 @ 2–4,8 (contrapicado cerrado: brazo, mancuerna y cara)",
+      "nota": "El «tranquilo, que…» con ironía: es el chiste de la frase."
+    },
+    {
+      "texto": "Si has decidido o han decidido que ya no formas parte de su vida, déjalo ir. No lo fuerces. No define tu valor.",
+      "plano": "recursos/running/2025-10-20_correr-carril-dunas-atardecer_03-lateral-cerca-mar_camiseta-gris-pantalon-oliva.MOV @ 0–3,4 (exterior, perfil con el mar: el respiro luminoso del original) → recursos/gym/fisico/2026-06-09_posado-luz-lateral-primer-plano-brazos-cruzados_conjunto-azul-gymshark.MOV @ 2–4,5 (primer plano, brazos cruzados, miras a cámara justo en «No define tu valor»)",
+      "nota": "Tres golpes cortos con micro-pausa: «Déjalo ir. No lo fuerces. No define tu valor.»"
+    },
+    {
+      "texto": "También es verdad que vivimos en una sociedad en la que todos tenemos la cabeza reventada, así que te toca entrenar la cabeza igual que entrenas el cuerpo y elegir mejor a tu siguiente pareja.",
+      "plano": "recursos/running/2025-10-20_correr-carril-dunas-atardecer_01-espaldas_camiseta-gris-pantalon-oliva.MOV @ 2–5 (te graban siguiéndote por el carril = el POV desde el coche siguiendo la moto) → recursos/gym/espalda/2026-07-23_aesthetic-devant_dominadas-de-espaldas-rack-eleiko_tirantes-gris.MP4 @ 0–3,4 (de espaldas en el rack, en «entrenar la cabeza…»)",
+      "nota": "«entrenar la cabeza igual que entrenas el cuerpo» es tu frase (el límite está en la cabeza): dila un pelín más lenta."
+    },
+    {
+      "texto": "Y mientras tanto, si me permites un consejo, estate soltero y aprende a estar contigo. No fuerces estar con alguien porque te da miedo estar solo: es una receta increíble para el fracaso.",
+      "plano": "recursos/gym/biceps/2026-07-25_aesthetic-devant_06-curl-polea-barra-neon-zigzag_camiseta-gris.MP4 @ 7–8,7 (contrapicado con el neón, cara en penumbra, como el plano tras las barras) → recursos/running/2026-03-17_correr-amanecer-pasarela_02-lateral-silueta-con-el-sol_manga-larga-negra.MOV @ 2–7 (plano largo de cierre: corres solo con el sol detrás, el «me voy solo y estoy bien» de la moto)",
+      "nota": "Remate seco en «fracaso», sin bajar el tono; corte a negro o fin justo después."
+    }
+  ],
+  "viabilidad_recursos": "alta",
+  "que_grabar": [],
+  "stock": [],
+  "notas_edit": "9 planos de ≈2,9 s, cortes secos y nada de efectos; alternar gym oscuro (Devant / Gold's) con exterior luminoso (dunas, amanecer) igual que Diego alterna gym y carretera. Gancho: texto 'Todo el mundo está traumatizado con su ex' fijo en 2 líneas en el centro durante el 1.er plano y sin subtítulos encima; después subtítulos pequeños blancos en el centro (palabra a palabra, como prefiere Lucas). Etalonaje común: bajar saturación, sombras frías/verdosas y medios cálidos para que los clips de distintas sesiones casen (todo con look de cine, 24 fps si se puede). Música instrumental emocional, poco percusiva, desde el s 0 y ≈7 dB bajo la voz (vale 'Restless' instrumental de recursos/sonidos/). La mirada a cámara solo en «No define tu valor». Cierre con el plano largo de 5 s alejándote solo. Caption con un toque personal tuyo + #relaciones #saludmental #ruptura.",
+  "palabras_guion_lucas": 135,
+  "duracion_objetivo_s": 29
+}

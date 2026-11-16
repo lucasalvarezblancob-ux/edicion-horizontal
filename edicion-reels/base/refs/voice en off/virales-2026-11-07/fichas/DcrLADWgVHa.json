@@ -1,0 +1,144 @@
+{
+  "id": "DcrLADWgVHa",
+  "creador": "alexnuba",
+  "seguidores": 34300,
+  "visitas": 257000,
+  "likes": 13491,
+  "comentarios": 763,
+  "duracion_s": 17.0,
+  "url": "https://www.instagram.com/reel/DcrLADWgVHa/",
+  "formato": "Físico real sin filtros: toma única a cámara con cifras (altura, peso, años) y giro 360°",
+  "resumen": "De pie en casa, sin camiseta y en una sola toma de 17 s, desmonta los 'físicos espectaculares' de redes dando sus cifras (2 m, 100 kg, 7 años natural) mientras se gira para enseñarse entero, y deja que el espectador juzgue. Lo distinto es que no tiene edición: tiene muchísimos comentarios (763 sobre 13,5k likes) porque invita a opinar de su físico.",
+  "gancho_voz": "Últimamente en redes sociales no hacen más que verse físicos espectaculares, pero eso está muy lejos de la realidad.",
+  "gancho_texto_pantalla": "FÍSICO REAL, SIN FILTROS",
+  "gancho_visual": "Desde el frame 0: cuerpo entero sin camiseta, pantalón corto azul marino y chanclas, de pie en la puerta de un baño con puertas de madera y luz de ventana normal. La etiqueta 'FÍSICO REAL, SIN FILTROS' (caja blanca con texto negro en mayúsculas, a la altura de la cadera) solo sale los primeros ≈0,9 s. Él está ya hablando y gesticulando con las manos.",
+  "guion_original": [
+    {
+      "t": "0.0–4.5",
+      "texto": "Últimamente en redes sociales no hacen más que verse físicos espectaculares, pero eso está muy lejos de la realidad.",
+      "plano": "Plano único fijo, cuerpo entero de frente, hablando a cámara y gesticulando. 0–0,9: etiqueta 'FÍSICO REAL, SIN FILTROS'."
+    },
+    {
+      "t": "4.7–7.3",
+      "texto": "Yo, por ejemplo, mido 2 metros, peso 100 kilos",
+      "plano": "Se sube el pantalón corto y enseña los cuádriceps (tatuaje en el muslo), de frente."
+    },
+    {
+      "t": "7.4–11.5",
+      "texto": "y este es mi físico después de 7 años entrenando de manera completamente natural,",
+      "plano": "≈8,5: se gira de perfil · ≈10: empieza a ponerse de espaldas."
+    },
+    {
+      "t": "11.7–14.8",
+      "texto": "sin bombeo, sin buenas luces y haciendo dieta todo este tiempo.",
+      "plano": "De espaldas (10,5–13) y vuelve de perfil por el otro lado (13–15)."
+    },
+    {
+      "t": "15.1–17.0",
+      "texto": "Así que sacad vuestras propias conclusiones.",
+      "plano": "De nuevo de frente, abre las manos (gesto de 'ahí lo tenéis'). Se corta justo al acabar."
+    }
+  ],
+  "estructura": [
+    {
+      "bloque": "Gancho: enemigo común",
+      "t": "0–4,5",
+      "funcion": "Señala a 'las redes' como las que engañan: el espectador, que se compara con esos físicos, siente alivio y se pone de su lado."
+    },
+    {
+      "bloque": "Prueba con cifras",
+      "t": "4,7–7,3",
+      "funcion": "Datos concretos (altura y peso) que el espectador compara al momento con los suyos."
+    },
+    {
+      "bloque": "Exposición 360°",
+      "t": "7,4–14,8",
+      "funcion": "Se gira entero mientras enumera lo que NO hay (químicos, bombeo, luces). Lo que dice se comprueba con lo que se ve."
+    },
+    {
+      "bloque": "Cierre abierto",
+      "t": "15–17",
+      "funcion": "Deja el juicio al espectador ('sacad vuestras conclusiones'), así que hay que opinar en comentarios."
+    }
+  ],
+  "edicion": {
+    "num_planos": 1,
+    "s_por_plano": 17.0,
+    "subtitulos": "Una palabra cada vez, centrada en el tercio inferior (a la altura de las rodillas), blanca, sans-serif negrita (tipo Montserrat/Inter bold) con sombra suave y con la puntuación ('espectaculares,' 'realidad.'). Estilo CapCut por defecto.",
+    "texto_pantalla": "'FÍSICO REAL, SIN FILTROS' en caja blanca redondeada con texto negro en mayúsculas, solo 0–0,9 s (sirve sobre todo de portada).",
+    "musica": "No se oye una canción clara: la voz va limpia y en las pausas solo queda un fondo muy bajo (≈ −30 dB), que puede ser ambiente de la sala o música casi inaudible. Parece llevar un micro inalámbrico pequeño (un punto negro junto al cuello): la voz suena cercana y limpia.",
+    "efectos": "Ninguno: sin cortes, sin zoom y sin etalonar. Es a propósito: la falta de edición es la prueba de que no hay filtros.",
+    "voz": "Directa y conversacional, segura, algo rápida (≈3,5 palabras/s), sin pausas dramáticas. Habla a cámara (no es voz en off)."
+  },
+  "por_que_funciona": [
+    {
+      "momento": "0.0–0.9 · cuerpo entero sin camiseta + 'FÍSICO REAL, SIN FILTROS'",
+      "mecanismo": "Atención automática + promesa de verdad",
+      "explicacion": "Un cuerpo entero sin camiseta capta la mirada antes de leer nada (sesgo atencional hacia cuerpos y caras). La etiqueta promete lo contrario de lo que el feed suele dar, así que se queda por ver si es verdad."
+    },
+    {
+      "momento": "0.0–4.5 · 'en redes… físicos espectaculares, pero eso está muy lejos de la realidad'",
+      "mecanismo": "Enemigo común / alivio de la comparación social",
+      "explicacion": "Todo el que entrena se compara con físicos de redes y sale perdiendo (comparación social hacia arriba). Decir que eso no es real alivia y crea un 'nosotros contra el feed', así que el espectador se identifica."
+    },
+    {
+      "momento": "4.7–7.3 · 'mido 2 metros, peso 100 kilos' (se sube el pantalón)",
+      "mecanismo": "Especificidad de cifras + comparación inmediata",
+      "explicacion": "Los números concretos dan credibilidad y hacen que el espectador se compare al momento ('yo mido/peso…'), lo que ya es participar. Enseñar las piernas mientras lo dice ancla la cifra en algo que se ve."
+    },
+    {
+      "momento": "7.4–14.8 · 'completamente natural, sin bombeo, sin buenas luces' mientras se gira 360°",
+      "mecanismo": "Coherencia entre lo que dice y lo que se ve → confianza",
+      "explicacion": "Cada cosa que niega se comprueba en pantalla (luz de casa, sin edición y se gira para que se vea todo). Esa transparencia da confianza y a la vez activa a los escépticos ('¿natural?'), que es lo que alimenta los comentarios."
+    },
+    {
+      "momento": "15.1–17.0 · 'Así que sacad vuestras propias conclusiones'",
+      "mecanismo": "Juicio delegado → comentarios (polarización suave)",
+      "explicacion": "No cierra la conclusión: obliga a cada uno a decidir si el físico es bueno, malo o natural. Eso divide opiniones sin ofender a nadie y explica la proporción de comentarios (≈5,7 % de los likes, muy alta)."
+    },
+    {
+      "momento": "0–17 · toma única y vídeo de 17 s",
+      "mecanismo": "Retención completa + bucle",
+      "explicacion": "Es tan corto y no tiene ni un corte, así que casi todo el mundo lo ve entero, y muchos lo vuelven a ver para 'juzgar' el físico con calma. Las vistas completas y las repeticiones son justo lo que más empuja el algoritmo, y por eso tiene ×7,5 visitas respecto a sus seguidores."
+    }
+  ],
+  "caption": "Cuidado con lo que os hacen creer las redes🫵🏻\n#bodybuilding #gym #fit #gymlife #fitness",
+  "cta": "Ninguna explícita. La CTA es implícita: 'sacad vuestras propias conclusiones' (invita a comentar). El caption advierte: 'Cuidado con lo que os hacen creer las redes'.",
+  "titulo_lucas": "Físico real sin filtros (el de alguien que prepara un maratón)",
+  "texto_pantalla_lucas": "FÍSICO REAL, SIN FILTROS",
+  "guion_lucas": [
+    {
+      "texto": "Últimamente en redes no paran de salir físicos espectaculares, pero eso está muy lejos de la realidad.",
+      "plano": "GRABAR (misma toma única de ≈17 s, móvil fijo a cuerpo entero en casa, en un pasillo o una puerta, con la luz normal de casa, sin camiseta, pantalón corto y chanclas, hablando a cámara): de frente, gesticulando. Etiqueta 'FÍSICO REAL, SIN FILTROS' de 0 a 1 s.",
+      "nota": "Arranca hablando desde el frame 0, sin 'hola' ni pausa."
+    },
+    {
+      "texto": "Yo, por ejemplo, mido [tu altura], peso [tu peso]",
+      "plano": "GRABAR (misma toma única de ≈17 s, móvil fijo a cuerpo entero en casa, en un pasillo o una puerta, con la luz normal de casa, sin camiseta, pantalón corto y chanclas, hablando a cámara): súbete un poco el pantalón y enseña las piernas (las de corredor).",
+      "nota": "Cifras claras y despacio: es lo que el espectador compara."
+    },
+    {
+      "texto": "y este es mi físico después de [X] años entrenando de forma natural, preparando un maratón y un medio Ironman,",
+      "plano": "GRABAR (misma toma única de ≈17 s, móvil fijo a cuerpo entero en casa, en un pasillo o una puerta, con la luz normal de casa, sin camiseta, pantalón corto y chanclas, hablando a cámara): gira despacio de perfil hacia la espalda.",
+      "nota": "Dilo neutro, sin adjetivos: 'este es mi físico', sin 'buen', 'definido' ni nada que lo infle."
+    },
+    {
+      "texto": "sin bombeo, sin buenas luces y [comiendo de todo / haciendo dieta: lo que sea verdad].",
+      "plano": "GRABAR (misma toma única de ≈17 s, móvil fijo a cuerpo entero en casa, en un pasillo o una puerta, con la luz normal de casa, sin camiseta, pantalón corto y chanclas, hablando a cámara): de espaldas, y vuelve de perfil por el otro lado.",
+      "nota": "Puedes meter humor con un 'y sin tableta, que conste' si te sale natural (no alarga mucho)."
+    },
+    {
+      "texto": "Así que sacad vuestras propias conclusiones.",
+      "plano": "GRABAR (misma toma única de ≈17 s, móvil fijo a cuerpo entero en casa, en un pasillo o una puerta, con la luz normal de casa, sin camiseta, pantalón corto y chanclas, hablando a cámara): de frente, abres las manos. Corta justo al acabar la frase.",
+      "nota": "Media sonrisa: esto invita a comentar."
+    }
+  ],
+  "duracion_objetivo_s": 17,
+  "viabilidad_recursos": "baja",
+  "que_grabar": [
+    "Una toma única de ≈17 s (en total menos de 1 min con repeticiones): móvil fijo en vertical a cuerpo entero, en casa (pasillo o puerta, que se vea que es casa), con luz normal de ventana o techo (NADA de luz de gym ni de estudio), sin camiseta, pantalón corto y chanclas o descalzo. Hablando a cámara mientras haces: frente → pantalón arriba (piernas) → perfil → espalda → otro perfil → frente. Sin bombear antes."
+  ],
+  "stock": [],
+  "notas_edit": "Cero edición, que es la gracia: un solo plano sin cortes, sin zoom, sin música (o casi inaudible) y sin etalonar, a ≈17 s. Subtítulos de una palabra cada vez, centrados abajo (a la altura de las rodillas), blancos en negrita con sombra suave y con la puntuación, estilo CapCut. Etiqueta 'FÍSICO REAL, SIN FILTROS' en caja blanca con texto negro solo el primer segundo (y de portada). Ojo con dos cosas: (1) los recursos de recursos/gym/fisico/ NO sirven para la versión fiel, porque son posados con luz de estudio, de gym oscuro o LED y contradicen el 'sin buenas luces'. Si aun así quieres hacerlo sin grabar, monta 2026-11-01_espejo-sin-camiseta-moviendo-pecho.MOV (de frente 2,9–4,4 · gira 9,5–11 · de frente 12–14,5) + 2026-06-09_posado-espejo-led-se-quita-camiseta-espalda_conjunto-azul.MOV (espalda 35–45) + 2026-11-05_posado-estudio-posing_rutina-poses…MOV (lado 8–10), cambiando 'sin buenas luces' por 'sin filtros', pero pierde la prueba de autenticidad y se convierte en un vídeo de físico más. (2) Ya publicaste 'fisico-redes' (2026-11-05) con el mismo tema (físico real vs redes, con IMG_1160 del estudio): no reutilices ese material y sepáralo unos días, o súbelo como trial reel. Prepárate para comentarios del tipo 'eso no es un físico espectacular': es justo el mecanismo, y conviene contestar con humor ('por eso, es real'). Caption en la línea del original: 'Cuidado con lo que os hacen creer las redes 🫵🏻'.",
+  "palabras_guion_lucas": 57
+}

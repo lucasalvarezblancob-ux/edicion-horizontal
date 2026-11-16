@@ -1,0 +1,215 @@
+{
+  "id": "DdrZgIkNXKp",
+  "creador": "diegosicrex",
+  "seguidores": 262000,
+  "visitas": 108000,
+  "likes": 5222,
+  "comentarios": 20,
+  "duracion_s": 22.45,
+  "url": "https://www.instagram.com/reel/DdrZgIkNXKp/",
+  "formato": "Reflexión épica con voz en off + b-roll propio intercalado con clips de series/películas",
+  "resumen": "Monólogo de 22 s que defiende que el desamor es requisito del éxito: plantea el dolor, lo convierte en encrucijada ('saltas o te das la vuelta') y cierra con una promesa. Lo distinto es mezclar planos cinematográficos suyos con escenas icónicas de series/películas que el espectador reconoce (HIMYM, Peaky Blinders, Blade Runner 2049) sobre 'Sailor Song'.",
+  "gancho_voz": "Creo que es imposible ser realmente exitoso si no te han roto el corazón,",
+  "gancho_texto_pantalla": "Es imposible ser realmente exitoso si no te han roto el corazón.",
+  "gancho_visual": "Diego en camiseta compresiva blanca en un gym oscuro, plano medio fijo; empieza mirando a un lado y a ~1,2 s gira la cabeza y clava la mirada en cámara. El gancho escrito ya está en pantalla desde el frame 0 (2 líneas, centro).",
+  "guion_original": [
+    {
+      "t": "0.0–3.1",
+      "texto": "Creo que es imposible ser realmente exitoso si no te han roto el corazón,",
+      "plano": "Diego (camiseta compresiva blanca Under Armour, pantalón negro) de pie en un gym oscuro, plano medio fijo; mira a un lado y gira la cabeza hasta mirar a cámara a los ~1,2 s. Texto del gancho en 2 líneas en el centro."
+    },
+    {
+      "t": "3.1–5.0",
+      "texto": "sin haber visto una parte de ti desgarrarse,",
+      "plano": "CLIP DE SERIE: Lily (Alyson Hannigan) llorando de noche con abrigo de borrego — Cómo conocí a vuestra madre (HIMYM)."
+    },
+    {
+      "t": "5.0–6.9",
+      "texto": "sin sentir que todo en lo que confiabas",
+      "plano": "Plano propio: de espaldas con sudadera negra (estampado de calavera con alas/plumas) caminando por un túnel abovedado con luces cálidas hacia la salida iluminada en azul."
+    },
+    {
+      "t": "6.9–8.7",
+      "texto": "se vuelve en tu contra y te empuja al abismo.",
+      "plano": "CLIP DE SERIE: Cillian Murphy (Tommy Shelby) con los ojos cerrados y el cañón de una pistola en la sien, exterior con niebla/verde — Peaky Blinders, final de la T5 (identificación muy probable)."
+    },
+    {
+      "t": "8.7–11.1",
+      "texto": "Porque es justo ahí donde se decide el destino de un hombre,",
+      "plano": "Diego (camiseta azul) en unas ruinas de teatro romano (gradas de piedra, sol), dos planos: 8,7–10,4 de perfil mirando abajo y alrededor; 10,4–11,3 de espaldas girándose."
+    },
+    {
+      "t": "11.2–12.6",
+      "texto": "en el instante en el que eliges",
+      "plano": "Diego en gym oscuro (tirantes negra) subiendo a un banco/cajón (step-up explosivo), plano lateral."
+    },
+    {
+      "t": "12.6–13.9",
+      "texto": "si saltas para dejar de sentir",
+      "plano": "CLIP DE PELÍCULA: cenital de un hombre con gabardina tumbado bocarriba en unas escaleras nevadas mientras nieva — Blade Runner 2049 (K, Ryan Gosling, escena final)."
+    },
+    {
+      "t": "13.9–16.6",
+      "texto": "o si te das la vuelta y demuestras de lo que estás hecho.",
+      "plano": "Diego (camiseta oliva, bandolera) en un puerto deportivo con edificios detrás, cielo gris; se da la vuelta literalmente y camina alejándose de cámara (acción = texto)."
+    },
+    {
+      "t": "16.8–18.0",
+      "texto": "Y aunque ahora mismo te duela,",
+      "plano": "Diego (camiseta azul, chándal gris claro, riñonera) caminando hacia cámara por una calle con árboles, sombra."
+    },
+    {
+      "t": "18.0–19.2",
+      "texto": "te prometo que un día",
+      "plano": "Mismo outfit, sigue andando junto a una fila de motos aparcadas con palmeras, al sol."
+    },
+    {
+      "t": "19.2–22.4",
+      "texto": "mirarás atrás y agradecerás el dolor que te hizo ser el hombre que eres.",
+      "plano": "Diego quieto frente a la fachada clara de un edificio con balcón, mirando a cámara serio (19,2–20,8), en 'el dolor' asiente/levanta la barbilla y en 'el hombre que eres' se gira y se aleja de espaldas (cierre)."
+    }
+  ],
+  "estructura": [
+    {
+      "bloque": "Gancho / tesis polémica",
+      "t": "0–3,1",
+      "funcion": "Afirmación absoluta y contraintuitiva (éxito ↔ corazón roto) que obliga a posicionarse: '¿a mí me lo han roto?'. Abre bucle: ¿por qué sería imposible?"
+    },
+    {
+      "bloque": "Herida (escalada de dolor)",
+      "t": "3,1–8,7",
+      "funcion": "Tres imágenes de dolor cada vez más graves (desgarrarse → todo se vuelve en tu contra → abismo) con clips reconocibles: el espectador revive su propia ruptura."
+    },
+    {
+      "bloque": "Giro / encrucijada",
+      "t": "8,7–16,6",
+      "funcion": "'Porque es justo ahí…' resignifica el dolor como el momento que decide quién eres. Dicotomía binaria: hundirte o darte la vuelta (identidad heroica)."
+    },
+    {
+      "bloque": "Promesa y cierre",
+      "t": "16,8–22,4",
+      "funcion": "Consuelo directo en segunda persona ('te prometo') y gratitud al dolor; cierre emocional que invita a guardar/enviar a alguien que lo está pasando mal. Termina justo en 'eres' → loop limpio al gancho."
+    }
+  ],
+  "edicion": {
+    "num_planos": 12,
+    "s_por_plano": 1.9,
+    "subtitulos": "Gancho: frase completa en 2 líneas fija 0–3,1 s. Luego subtítulos de 1–3 palabras al ritmo de la voz, sans-serif (tipo SF/Inter) blanca, pequeña (~4 % del alto), minúsculas, sin caja, sombra suave, centrados en el medio de la pantalla. Corrigen a Whisper: 'al abismo' (no 'al aviso'), 'mirarás atrás'.",
+    "texto_pantalla": "Solo el gancho escrito (= frase de voz sin el 'Creo que'). Nada más de texto aparte de los subtítulos.",
+    "musica": "'Sailor Song' — Gigi Perez (identificada con Shazam en 3 tramos; parece versión instrumental/ralentizada), con un colchón grave continuo desde el s 0 y unos 6 dB por debajo de la voz.",
+    "efectos": "Ninguno visible: cortes secos al ritmo de la frase, sin zooms ni transiciones. Etalonaje cinematográfico (contraste, tonos fríos en gym/túnel, cálidos en exteriores). Los clips de series/películas van recortados a 9:16 y con la misma gradación para que no desentonen.",
+    "voz": "Voz masculina grave, tono íntimo y solemne, sin gritar; sube un poco en 'demuestras de lo que estás hecho' y baja en la promesa final. 103 palabras en 22,4 s ≈ 4.6 pal/s (ritmo medio-rápido pero sin pausas)."
+  },
+  "por_que_funciona": [
+    {
+      "momento": "0.0–3.1 · 'Creo que es imposible ser realmente exitoso si no te han roto el corazón'",
+      "mecanismo": "Disonancia cognitiva + polarización suave",
+      "explicacion": "Une dos cosas que el cerebro no asocia (éxito profesional ↔ desamor) en una afirmación absoluta ('imposible'). Genera un pequeño error de predicción y obliga a tomar postura: el que ha sufrido una ruptura se siente validado, el que no, quiere discutirlo. Ambos se quedan y los segundos comentan."
+    },
+    {
+      "momento": "0.0–1.2 · Diego gira la cabeza y mira a cámara mientras el texto ya está escrito",
+      "mecanismo": "Contacto visual + doble canal (leer y oír)",
+      "explicacion": "La mirada que llega a cámara activa el reflejo de atención social (alguien me está hablando a mí) y el texto fijo permite captar la tesis entera aunque el vídeo empiece sin sonido: se entiende en <2 s."
+    },
+    {
+      "momento": "3.1–8.7 · clips de Lily llorando (HIMYM) y Tommy Shelby con la pistola (Peaky Blinders)",
+      "mecanismo": "Reconocimiento + memoria emocional prestada",
+      "explicacion": "Escenas que el público ya vivió con carga emocional: al reconocerlas, el cerebro trae de golpe la emoción asociada (y un pico de recompensa por 'la conozco'). Además rompen el patrón visual de 'planos del creador' → reflejo de orientación cada ~1,9 s."
+    },
+    {
+      "momento": "3.1–8.7 · 'sin haber visto… sin sentir… y te empuja al abismo'",
+      "mecanismo": "Autorreferencia + escalada",
+      "explicacion": "Segunda persona y descripciones abiertas (sin detalles de una ruptura concreta) para que cada espectador proyecte la suya: el efecto Barnum hace que 'esto va de mí'. La escalada de gravedad mantiene la tensión subiendo."
+    },
+    {
+      "momento": "8.7–16.6 · 'Porque es justo ahí donde se decide el destino de un hombre… o si te das la vuelta y demuestras de lo que estás hecho'",
+      "mecanismo": "Reencuadre + identidad heroica",
+      "explicacion": "Convierte el dolor en una prueba con dos salidas y deja claro cuál es la del 'hombre' fuerte. Activa la identificación de grupo (público masculino joven de gym) y la necesidad de autoeficacia: el espectador se coloca en el lado de los que se levantan. El plano de Diego dándose la vuelta literalmente en 'te das la vuelta' (14,2) refuerza el mensaje por congruencia imagen-palabra."
+    },
+    {
+      "momento": "16.8–22.4 · 'te prometo que un día mirarás atrás y agradecerás el dolor…'",
+      "mecanismo": "Consuelo + vulnerabilidad (oxitocina) → compartir",
+      "explicacion": "Pasa de tesis a promesa personal: baja la guardia y genera confianza. Es el tipo de frase que se guarda o se envía a un amigo que acaba de cortar (compartir como acto de cuidado), que es lo que más empuja el alcance."
+    },
+    {
+      "momento": "22.4 · termina en 'eres' y el vídeo vuelve al gancho",
+      "mecanismo": "Bucle de reproducción",
+      "explicacion": "Sin CTA ni cola: corta en seco en la última palabra y el loop arranca con la tesis, que ahora se entiende mejor; mucha gente lo ve 2 veces (sube el tiempo de visualización por encima del 100 %)."
+    }
+  ],
+  "caption": "Creo que es imposible ser realmente exitoso sin que te hayan roto el corazón.\n\nSin haber visto una parte de ti desgarrarse. Porque menudo esto representa la muerte de tu yo infantil.\n\nEl momento en el que te das cuenta de que estabas tapando tu falta de propósito con una relación.\n\nY por eso muchas veces duele tanto.\n\nNo solo por perder a esa persona.\n\nSino por perder el relato que te habías construido alrededor de estar con ella.\nQuién eras.\n\nLo que significaba que te eligiera.\n\nY todo lo que creías que demostraba sobre tu valor.\n\nLlegados a ese punto, la vida te obliga a decidir.\n\nPuedes seguir huyendo de la persona en la que sabes que tienes que convertirte.\n\nO puedes darte la vuelta y demostrar de qué estás hecho.\n\nBienvenido a mi cuenta.\n\n#gym #sentimientos #relaciones",
+  "cta": "No hay CTA hablado. En la caption: 'Bienvenido a mi cuenta.' (invitación implícita a seguir) + hashtags #gym #sentimientos #relaciones.",
+  "titulo_lucas": "Imposible llegar lejos si nunca te has roto",
+  "texto_pantalla_lucas": "Es imposible llegar lejos de verdad si nunca te has roto.",
+  "guion_lucas": [
+    {
+      "texto": "Creo que es imposible llegar lejos de verdad si nunca te has roto.",
+      "plano": "recursos/gym/fisico/2026-06-09_posado-luz-lateral-primer-plano-brazos-cruzados_conjunto-azul-gymshark.MOV @ 2–5 (primer plano, luz lateral dura, columnas negras; como Diego quieto mirando a cámara)",
+      "nota": "Tono bajo y lento, casi confesión. Pausa mínima tras 'de verdad'; cae en 'roto'. El texto en pantalla aparece desde el frame 0."
+    },
+    {
+      "texto": "Sin haber visto una parte de ti venirse abajo,",
+      "plano": "recursos/gym/biceps/2026-06-09_curl-mancuerna-banco-inclinado_serie-larga-al-fallo_conjunto-azul.MOV @ 30–32 (caras de fallo; sustituye el clip de Lily llorando) | alternativa GRABAR: primer plano tuyo sentado en un banco del vestuario con la cabeza baja y las manos en la nuca, luz tenue (10 s)",
+      "nota": "Bajando la voz en 'venirse abajo'."
+    },
+    {
+      "texto": "sin sentir que todo lo que habías construido",
+      "plano": "recursos/gym/espalda/2026-10-31_jalon-al-pecho_espalda-y-lateral.MOV @ 0–2,5 (primer plano del estampado de la gárgola alada en la sudadera y se abre a la espalda: calca el plano de espaldas con la sudadera de calavera del original)",
+      "nota": "Seguido, sin pausa."
+    },
+    {
+      "texto": "se vuelve en tu contra y te empuja a tirar la toalla.",
+      "plano": "recursos/gym/pecho/2026-08-28_press-pecho-maquina-technogym_amigo-ayuda-al-final_camiseta-blanca-compresiva.MOV @ 33,5–36 (sentado reventado tras la serie; sustituye el clip de Peaky Blinders con la pistola, que NO conviene usar)",
+      "nota": "Énfasis en 'toalla' y pausa de 0,2 s antes del 'Porque'."
+    },
+    {
+      "texto": "Porque es justo ahí",
+      "plano": "recursos/running/2026-03-17_correr-amanecer-pasarela_02-lateral-silueta-con-el-sol_manga-larga-negra.MOV @ 3–5 (silueta corriendo con el sol saliendo detrás)",
+      "nota": "Subes la energía: aquí empieza el giro."
+    },
+    {
+      "texto": "donde se decide quién eres de verdad:",
+      "plano": "recursos/running/2025-10-20_correr-carril-dunas-atardecer_02-espaldas-y-lateral_camiseta-gris-pantalon-oliva.MOV @ 3–5 (de espaldas con el atardecer; como Diego de espaldas en las ruinas)",
+      "nota": "'De verdad' firme, pequeña pausa."
+    },
+    {
+      "texto": "en el instante en el que eliges",
+      "plano": "recursos/gym/cardio/2026-08-11_cinta-contrapicado-desde-consola_tirantes-celeste-sudada.MOV @ 2–4 (sudor, cara de esfuerzo; equivale al step-up del original)",
+      "nota": "Más rápido, en tensión."
+    },
+    {
+      "texto": "si paras para dejar de sufrir",
+      "plano": "recursos/gym/funcional/2025-07-02_tumbado-agotado-tras-wod_sin-camiseta.MOV @ 4–6,9 (se deja caer y queda tumbado en cenital = el plano cenital tumbado de Blade Runner; cortar ANTES de que se ría, ~7 s)",
+      "nota": "Más lento y bajo en 'dejar de sufrir'."
+    },
+    {
+      "texto": "o si te levantas y demuestras de lo que estás hecho.",
+      "plano": "recursos/competicion/2025-11-09_carrera-dorsal-29233_corriendo-lateral-y-frente_ropa-blanca.MOV @ 9–11,5 (de frente hacia cámara en carrera, dorsal)",
+      "nota": "Sube: es el clímax. Golpe en 'hecho'."
+    },
+    {
+      "texto": "Y aunque ahora mismo te duela,",
+      "plano": "recursos/competicion/2025-07-05_deka-zaragoza_tank-pull-cuerda_pantalon-oliva.MOV @ 1–2,5 (esfuerzo puro tirando de la cuerda)",
+      "nota": "Vuelves a bajar, cercano, como hablándole a uno solo."
+    },
+    {
+      "texto": "te prometo que un día mirarás atrás",
+      "plano": "GRABAR: tú andando de espaldas por una calle o paseo y, en 'mirarás atrás', giras la cabeza hacia cámara por encima del hombro con media sonrisa (camiseta lisa oscura, luz de tarde; 3–4 tomas, <1 min) | alternativa: recursos/running/2026-10-18_correr-calle-ladrillo_espaldas-y-lado_manga-larga-negra.MOV @ 2–4",
+      "nota": "'Te prometo' despacio y sincero."
+    },
+    {
+      "texto": "y le darás las gracias al dolor que te hizo ser quien eres.",
+      "plano": "recursos/competicion/2025-11-09_carrera-dorsal-29233_mordiendo-medalla_ropa-blanca.MOV @ 0–3,4 (mordiendo la medalla = la recompensa del dolor) | alternativa para cerrar como empezó: recursos/gym/fisico/2026-06-09_posado-luz-lateral-cuerpo-entero-a-primer-plano_conjunto-azul-gymshark.MOV @ 8–12",
+      "nota": "Final calmado, sin subir; deja respirar 2 s con la música y el rótulo SÍGUEME PARA MÁS."
+    }
+  ],
+  "palabras_guion_lucas": 103,
+  "duracion_objetivo_s": 23,
+  "viabilidad_recursos": "alta",
+  "que_grabar": [
+    "Plano andando de espaldas y girando la cabeza a cámara en 'mirarás atrás' (opcional: hay alternativa en recursos/running).",
+    "Opcional: primer plano sentado en el vestuario con la cabeza baja, para sustituir el clip de serie de 'venirse abajo' si el de las caras de fallo queda flojo."
+  ],
+  "stock": [],
+  "notas_edit": "ENFOQUE: se cambia 'roto el corazón' por 'roto' en sentido deportivo/vital (lesión, carrera que no acabas, etapa mala, el muro del km 30) para no inventar una ruptura; 'roto' sin complemento deja que cada uno ponga su herida (también la sentimental), así que se mantiene el efecto Barnum. Si Lucas quiere hacerlo personal, va en la caption: 'La vez que más roto me he sentido fue [tu momento: p. ej. una lesión, una carrera que no acabaste, una etapa en la que estabas mal]…'. Se quita 'el hombre' para no cerrar el público a chicos. CUIDADO: el original insinúa el suicidio ('saltas para dejar de sentir' + pistola en la sien + hombre tumbado en la nieve); en la versión de Lucas se cambia por 'paras para dejar de sufrir' / 'tirar la toalla' y NO se usa el clip de la pistola: encaja con su mensaje de salud mental y evita que Instagram lo limite. Los clips de series del original (HIMYM, Peaky Blinders, Blade Runner 2049) tienen copyright: aquí se sustituyen por planos suyos que calcan su función (cara de dolor, figura tumbada en cenital, espalda con estampado). RITMO: 12 planos en ~23 s (≈1,9 s/plano), corte siempre en el inicio de frase o media frase, sin transiciones ni zooms, cortes secos. Alternar interior oscuro (gym) y exterior luminoso como el original: herida = gym oscuro, giro y promesa = exteriores con sol. SUBTÍTULOS: gancho fijo en 2 líneas desde el frame 0 hasta 3 s; luego 1–3 palabras en blanco pequeño centrado, sin caja (estilo diegosicrex, ya calcado en monkey-branching). MÚSICA: 'Sailor Song' (Gigi Perez) instrumental/slowed desde el s 0, 6–9 dB por debajo de la voz; si no se puede usar, 'Restless' instrumental de recursos/sonidos (mismo creador, misma vibra). Etalonaje: unificar la gradación (contraste y tonos un poco desaturados) porque los clips vienen de sesiones distintas (azul, blanco, gris). CIERRE: el original corta en seco en 'eres' para el loop; con la voz de Lucas, regla de la casa: el plano de la medalla sigue 2 s con la música y sale 'SÍGUEME PARA MÁS' + @lucasalvarez.x (si el clip no da, Freeze del último fotograma)."
+}

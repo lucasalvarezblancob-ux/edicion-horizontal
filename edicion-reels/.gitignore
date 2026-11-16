@@ -1,0 +1,9 @@
+# Los vídeos de las referencias estándar no van en git: van al Release `edicion-reels-refs`
+# (lista y hashes en base/refs/VIDEOS.txt). Los baja instalar.sh / actualizar.sh.
+base/refs/**/*.mp4
+base/refs/**/*.MP4
+base/refs/**/*.mov
+base/refs/**/*.MOV
+base/refs/**/*.m4v
+base/refs/**/*.mp3
+.DS_Store

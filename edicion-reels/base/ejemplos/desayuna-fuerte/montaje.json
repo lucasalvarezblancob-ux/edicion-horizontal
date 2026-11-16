@@ -1,0 +1,520 @@
+{
+ "fps": 30,
+ "tramos": [
+  {
+   "desde": 20.5,
+   "hasta": 28.5,
+   "inicio_edit": 0.0,
+   "nota": "Si te estás preparando para una maratón o una media… como principiante"
+  },
+  {
+   "desde": 32.86666666666667,
+   "hasta": 34.63333333333333,
+   "inicio_edit": 8.0,
+   "nota": "Desayuna fuerte"
+  },
+  {
+   "desde": 38.9,
+   "hasta": 41.36666666666667,
+   "inicio_edit": 9.7667,
+   "nota": "No vale con un par de tortitas de maíz"
+  },
+  {
+   "desde": 57.93333333333333,
+   "hasta": 60.233333333333334,
+   "inicio_edit": 12.2333,
+   "nota": "Métete un plátano y un par de tortitas con miel"
+  },
+  {
+   "desde": 69.26666666666667,
+   "hasta": 71.5,
+   "inicio_edit": 14.5333,
+   "nota": "para que no te dé un chungo a mitad del entreno"
+  },
+  {
+   "desde": 82.53333333333333,
+   "hasta": 89.1,
+   "inicio_edit": 16.7667,
+   "nota": "Y te lo digo por experiencia… casi me desmayo por haber desayunado poco"
+  },
+  {
+   "desde": 93.53333333333333,
+   "hasta": 96.16666666666667,
+   "inicio_edit": 23.3333,
+   "nota": "Si quieres más consejos así, sígueme (+ se queda sentado para el @)"
+  }
+ ],
+ "palabras": [
+  {
+   "w": "Si",
+   "start": 0.06,
+   "end": 0.12
+  },
+  {
+   "w": "te",
+   "start": 0.16,
+   "end": 0.2
+  },
+  {
+   "w": "estás",
+   "start": 0.24,
+   "end": 0.44
+  },
+  {
+   "w": "preparando",
+   "start": 0.46,
+   "end": 0.96
+  },
+  {
+   "w": "para",
+   "start": 1.02,
+   "end": 1.14
+  },
+  {
+   "w": "una",
+   "start": 1.18,
+   "end": 1.28
+  },
+  {
+   "w": "maratón",
+   "start": 1.32,
+   "end": 1.74
+  },
+  {
+   "w": "o",
+   "start": 1.84,
+   "end": 1.9
+  },
+  {
+   "w": "una",
+   "start": 1.94,
+   "end": 2.06
+  },
+  {
+   "w": "media",
+   "start": 2.12,
+   "end": 2.42
+  },
+  {
+   "w": "y",
+   "start": 2.54,
+   "end": 2.58
+  },
+  {
+   "w": "no",
+   "start": 2.62,
+   "end": 2.72
+  },
+  {
+   "w": "quieres",
+   "start": 2.76,
+   "end": 3.0
+  },
+  {
+   "w": "desmayarte",
+   "start": 3.02,
+   "end": 3.56
+  },
+  {
+   "w": "en",
+   "start": 3.58,
+   "end": 3.64
+  },
+  {
+   "w": "las",
+   "start": 3.68,
+   "end": 3.8
+  },
+  {
+   "w": "tiradas",
+   "start": 3.86,
+   "end": 4.22
+  },
+  {
+   "w": "largas,",
+   "start": 4.28,
+   "end": 4.66
+  },
+  {
+   "w": "este",
+   "start": 4.84,
+   "end": 4.98
+  },
+  {
+   "w": "es",
+   "start": 5.0,
+   "end": 5.06
+  },
+  {
+   "w": "el",
+   "start": 5.1,
+   "end": 5.2
+  },
+  {
+   "w": "consejo",
+   "start": 5.22,
+   "end": 5.64
+  },
+  {
+   "w": "que",
+   "start": 5.76,
+   "end": 5.82
+  },
+  {
+   "w": "a",
+   "start": 5.84,
+   "end": 5.88
+  },
+  {
+   "w": "mí",
+   "start": 5.96,
+   "end": 6.08
+  },
+  {
+   "w": "me",
+   "start": 6.14,
+   "end": 6.2
+  },
+  {
+   "w": "ha",
+   "start": 6.22,
+   "end": 6.28
+  },
+  {
+   "w": "servido",
+   "start": 6.32,
+   "end": 6.64
+  },
+  {
+   "w": "más",
+   "start": 6.68,
+   "end": 6.9
+  },
+  {
+   "w": "como",
+   "start": 6.94,
+   "end": 7.12
+  },
+  {
+   "w": "principiante.",
+   "start": 7.16,
+   "end": 7.86
+  },
+  {
+   "w": "Desayuna",
+   "start": 8.113,
+   "end": 8.813
+  },
+  {
+   "w": "fuerte.",
+   "start": 9.113,
+   "end": 9.673
+  },
+  {
+   "w": "No",
+   "start": 9.907,
+   "end": 10.007
+  },
+  {
+   "w": "vale",
+   "start": 10.047,
+   "end": 10.307
+  },
+  {
+   "w": "con",
+   "start": 10.367,
+   "end": 10.587
+  },
+  {
+   "w": "un",
+   "start": 10.687,
+   "end": 10.827
+  },
+  {
+   "w": "par",
+   "start": 10.867,
+   "end": 10.987
+  },
+  {
+   "w": "de",
+   "start": 11.027,
+   "end": 11.087
+  },
+  {
+   "w": "tortitas",
+   "start": 11.147,
+   "end": 11.607
+  },
+  {
+   "w": "de",
+   "start": 11.627,
+   "end": 11.707
+  },
+  {
+   "w": "maíz.",
+   "start": 11.747,
+   "end": 12.107
+  },
+  {
+   "w": "métete",
+   "start": 12.36,
+   "end": 12.66
+  },
+  {
+   "w": "un",
+   "start": 12.7,
+   "end": 12.8
+  },
+  {
+   "w": "plato",
+   "start": 12.82,
+   "end": 13.14
+  },
+  {
+   "w": "y",
+   "start": 13.28,
+   "end": 13.32
+  },
+  {
+   "w": "un",
+   "start": 13.38,
+   "end": 13.48
+  },
+  {
+   "w": "par",
+   "start": 13.52,
+   "end": 13.62
+  },
+  {
+   "w": "de",
+   "start": 13.66,
+   "end": 13.72
+  },
+  {
+   "w": "tortitas",
+   "start": 13.76,
+   "end": 14.18
+  },
+  {
+   "w": "con",
+   "start": 14.2,
+   "end": 14.3
+  },
+  {
+   "w": "miel",
+   "start": 14.36,
+   "end": 14.5
+  },
+  {
+   "w": "Para",
+   "start": 14.567,
+   "end": 14.707
+  },
+  {
+   "w": "que",
+   "start": 14.767,
+   "end": 14.847
+  },
+  {
+   "w": "no",
+   "start": 14.867,
+   "end": 14.947
+  },
+  {
+   "w": "te",
+   "start": 14.967,
+   "end": 15.067
+  },
+  {
+   "w": "dé",
+   "start": 15.087,
+   "end": 15.147
+  },
+  {
+   "w": "un",
+   "start": 15.187,
+   "end": 15.287
+  },
+  {
+   "w": "chungo",
+   "start": 15.307,
+   "end": 15.627
+  },
+  {
+   "w": "a",
+   "start": 15.687,
+   "end": 15.727
+  },
+  {
+   "w": "mitad",
+   "start": 15.767,
+   "end": 16.027
+  },
+  {
+   "w": "del",
+   "start": 16.067,
+   "end": 16.167
+  },
+  {
+   "w": "entreno.",
+   "start": 16.207,
+   "end": 16.727
+  },
+  {
+   "w": "y",
+   "start": 16.833,
+   "end": 16.873
+  },
+  {
+   "w": "te",
+   "start": 16.913,
+   "end": 16.973
+  },
+  {
+   "w": "lo",
+   "start": 17.013,
+   "end": 17.053
+  },
+  {
+   "w": "digo",
+   "start": 17.093,
+   "end": 17.213
+  },
+  {
+   "w": "por",
+   "start": 17.253,
+   "end": 17.313
+  },
+  {
+   "w": "experiencia",
+   "start": 17.353,
+   "end": 17.773
+  },
+  {
+   "w": "porque",
+   "start": 17.813,
+   "end": 17.973
+  },
+  {
+   "w": "en",
+   "start": 17.993,
+   "end": 18.033
+  },
+  {
+   "w": "mi",
+   "start": 18.053,
+   "end": 18.113
+  },
+  {
+   "w": "última",
+   "start": 18.133,
+   "end": 18.393
+  },
+  {
+   "w": "tirada",
+   "start": 18.453,
+   "end": 18.733
+  },
+  {
+   "w": "de",
+   "start": 18.773,
+   "end": 18.833
+  },
+  {
+   "w": "veintiséis",
+   "start": 18.873,
+   "end": 19.293
+  },
+  {
+   "w": "kilómetros",
+   "start": 19.373,
+   "end": 19.893
+  },
+  {
+   "w": "en",
+   "start": 19.953,
+   "end": 20.013
+  },
+  {
+   "w": "el",
+   "start": 20.053,
+   "end": 20.153
+  },
+  {
+   "w": "kilómetro",
+   "start": 20.173,
+   "end": 20.613
+  },
+  {
+   "w": "once",
+   "start": 20.653,
+   "end": 20.933
+  },
+  {
+   "w": "casi",
+   "start": 21.053,
+   "end": 21.293
+  },
+  {
+   "w": "me",
+   "start": 21.333,
+   "end": 21.413
+  },
+  {
+   "w": "desmayo",
+   "start": 21.453,
+   "end": 21.913
+  },
+  {
+   "w": "por",
+   "start": 21.953,
+   "end": 22.033
+  },
+  {
+   "w": "haber",
+   "start": 22.053,
+   "end": 22.213
+  },
+  {
+   "w": "desayunado",
+   "start": 22.253,
+   "end": 22.793
+  },
+  {
+   "w": "poco.",
+   "start": 22.893,
+   "end": 23.213
+  },
+  {
+   "w": "Si",
+   "start": 23.44,
+   "end": 23.5
+  },
+  {
+   "w": "quieres",
+   "start": 23.56,
+   "end": 23.76
+  },
+  {
+   "w": "más",
+   "start": 23.8,
+   "end": 23.92
+  },
+  {
+   "w": "consejos",
+   "start": 23.94,
+   "end": 24.28
+  },
+  {
+   "w": "así,",
+   "start": 24.34,
+   "end": 24.6
+  },
+  {
+   "w": "sígueme.",
+   "start": 24.84,
+   "end": 25.24
+  }
+ ],
+ "duracion": 25.967
+}

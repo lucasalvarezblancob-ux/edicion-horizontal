@@ -1,0 +1,22 @@
+[
+ {"n": 1, "de": 0, "a": 7, "que": "manga larga, primer plano mirando abajo", "clip": "recursos/gym/fisico/2026-07-25_aesthetic-devant_bebe-de-la-garrafa_manga-larga-gris.MP4", "in": 0.3},
+ {"n": 2, "de": 7, "a": 12, "que": "estampado GYMSHARK de la sudadera", "clip": "recursos/gym/espalda/2026-10-31_jalon-al-pecho_espalda-y-lateral.MOV", "in": 2.6},
+ {"n": 3, "de": 12, "a": 16, "que": "logo en el pecho (fondos)", "clip": "recursos/gym/triceps/2026-07-25_aesthetic-devant_fondos-paralelas-primeros-planos_camiseta-gris.MP4", "in": 4.6},
+ {"n": 4, "de": 17, "a": 21, "que": "cintura (se ajusta el pantalon)", "clip": "recursos/gym/fisico/2026-11-05_posado-estudio-posing_de-frente-habla-y-se-acerca_camiseta-azul-petroleo-gymshark.MOV", "in": 3.0},
+ {"n": 5, "de": 22, "a": 26, "que": "curl polea neon contrapicado", "clip": "recursos/gym/biceps/2026-07-25_aesthetic-devant_06-curl-polea-barra-neon-zigzag_camiseta-gris.MP4", "in": 4.5},
+ {"n": 6, "de": 26, "a": 31, "que": "curl alterno contrapicado (cara)", "clip": "recursos/gym/biceps/2026-07-25_aesthetic-devant_04-curl-alterno-mancuernas-contrapicado_camiseta-gris.MP4", "in": 6.0},
+ {"n": 7, "de": 32, "a": 36, "que": "cruce poleas primer plano", "clip": "recursos/gym/pecho/2026-07-25_aesthetic-devant_cruce-poleas_01-llega-y-primeros-planos_camiseta-gris.MP4", "in": 15.0},
+ {"n": 8, "de": 36, "a": 38, "que": "press inclinado", "clip": "recursos/gym/pecho/2026-07-25_aesthetic-devant_press-inclinado-mancuernas_manga-larga-gris.MP4", "in": 3.0},
+ {"n": 9, "de": 38, "a": 41, "que": "curl polea de lado", "clip": "recursos/gym/biceps/2026-07-25_aesthetic-devant_05-curl-polea-barra-de-lado_camiseta-gris.MP4", "in": 6.0},
+ {"n": 10, "de": 42, "a": 46, "que": "dominadas de espaldas", "clip": "recursos/gym/espalda/2026-07-25_aesthetic-devant_dominadas-y-posado-espalda_tirantes-gris.MP4", "in": 12.0},
+ {"n": 11, "de": 74, "a": 218, "que": "posado de frente camiseta oliva (bajo GYMSHARK BLACK FRIDAY)", "clip": "recursos/gym/fisico/2026-07-23_aesthetic-devant_posado-saco-fitness-park_camiseta-oliva.MP4", "in": 0.0},
+ {"n": 12, "de": 218, "a": 240, "que": "primer plano pecho/hombro (cruce poleas)", "clip": "recursos/gym/pecho/2026-07-25_aesthetic-devant_cruce-poleas_03-de-frente-primeros-planos_camiseta-gris.MP4", "in": 30.5},
+ {"n": 13, "de": 239, "a": 297, "que": "camiseta azul: mira abajo y se ajusta la camiseta (abdomen)", "clip": "recursos/gym/fisico/2026-11-05_posado-estudio-posing_rutina-poses-frente-lado-brazos-arriba_camiseta-azul-petroleo-gymshark.MOV", "in": 22.4},
+ {"n": 14, "de": 293, "a": 340, "que": "sudadera GYMSHARK de espaldas, se lleva las manos a la capucha", "clip": "recursos/gym/espalda/2026-10-31_jalon-al-pecho_espalda-y-lateral.MOV", "in": 4.0},
+ {"n": 15, "de": 340, "a": 349, "que": "press inclinado (esfuerzo)", "clip": "recursos/gym/pecho/2026-07-25_aesthetic-devant_press-inclinado-mancuernas_manga-larga-gris.MP4", "in": 9.0},
+ {"n": 16, "de": 349, "a": 393, "que": "dominadas de espaldas rack Eleiko", "clip": "recursos/gym/espalda/2026-07-23_aesthetic-devant_dominadas-de-espaldas-rack-eleiko_tirantes-gris.MP4", "in": 3.0},
+ {"n": 17, "de": 393, "a": 416, "que": "logo en el pecho (manga larga)", "clip": "recursos/gym/fisico/2026-07-25_aesthetic-devant_bebe-de-la-garrafa_manga-larga-gris.MP4", "in": 1.6},
+ {"n": 18, "de": 416, "a": 461, "que": "camiseta azul: estira la camiseta en la cintura", "clip": "recursos/gym/fisico/2026-11-05_posado-estudio-posing_rutina-poses-frente-lado-brazos-arriba_camiseta-azul-petroleo-gymshark.MOV", "in": 0.3},
+ {"n": 19, "de": 455, "a": 505, "que": "posado de espaldas manos en la cintura", "clip": "recursos/gym/espalda/2026-07-25_aesthetic-devant_dominadas-y-posado-espalda_tirantes-gris.MP4", "in": 32.0},
+ {"n": 20, "de": 501, "a": 570, "que": "camiseta azul: brazos detras de la cabeza (abdomen)", "clip": "recursos/gym/fisico/2026-11-05_posado-estudio-posing_rutina-poses-frente-lado-brazos-arriba_camiseta-azul-petroleo-gymshark.MOV", "in": 15.0}
+]

@@ -1,0 +1,259 @@
+{
+  "id": "DeAER56AgD7",
+  "creador": "gerardfelipx",
+  "seguidores": 179000,
+  "visitas": 242000,
+  "likes": 8216,
+  "comentarios": 87,
+  "duracion_s": 48.6,
+  "url": "https://www.instagram.com/reel/DeAER56AgD7/",
+  "formato": "Confesión 'ya no sé aburrirme' + experimento (2 h en la bici sin móvil ni música)",
+  "resumen": "Reflexión sobre la incapacidad de aburrirnos (el móvil hasta en el baño, la música al andar, el móvil a los niños que lloran) que da un giro ('las pantallas no son el problema, el problema es que no sabemos vivir sin ellas') y se cierra con un experimento propio: 2 horas de bici estática en silencio. Primero va sobre su día a día en casa y después en el gym, con un plano cada 2 s.",
+  "gancho_voz": "Ya no sé aburrirme. Y no soy el único, lo sé, lo veo.",
+  "gancho_texto_pantalla": null,
+  "gancho_visual": "0–2,9 s: tirado en el sofá sin camiseta, con los AirPods puestos y el portátil en el regazo, mira al techo con cara de vacío y suspira. Plano fijo de salón (altavoz, cojín rojo). Los subtítulos salen palabra a palabra y se acumulan en la parte alta ('ya no sé aburrirme').",
+  "guion_original": [
+    {
+      "t": "0.0–3.0",
+      "texto": "Ya no sé aburrirme. Y no soy el único, lo sé, lo veo.",
+      "plano": "Sofá, sin camiseta y con AirPods, mira al techo; al final se incorpora y coge algo."
+    },
+    {
+      "t": "3.1–5.0",
+      "texto": "No puedo estar ni un minuto sin hacer nada.",
+      "plano": "2,92: mano con el mando en el sofá · 3,75: tele encendida con barras de color (zapping)."
+    },
+    {
+      "t": "5.1–7.8",
+      "texto": "No puedo ir al baño sin el móvil, o andar sin música.",
+      "plano": "≈4,9: en el baño, tira del papel higiénico (reloj en la muñeca) · 6,58: baja unas escaleras de espaldas con mochila Nike y AirPods."
+    },
+    {
+      "t": "8.0–11.8",
+      "texto": "Y no es que esté mal en sí, pero echo de menos no saber qué hacer, como cuando era pequeño.",
+      "plano": "7,87: sin camiseta, de espaldas, abre la nevera · 9,93: llena un cazo en el grifo · 11,42: cocina, plano general de espaldas."
+    },
+    {
+      "t": "12.1–14.9",
+      "texto": "Recuerdo que tenía que buscar a niños para jugar a algo.",
+      "plano": "Sigue el plano general de la cocina, cortando verdura de espaldas."
+    },
+    {
+      "t": "15.1–18.0",
+      "texto": "Hoy en día, si el niño llora, le pones un móvil y ya no molesta.",
+      "plano": "14,9: manos encendiendo la vitro táctil · 16,28: echa aceite a la sartén."
+    },
+    {
+      "t": "18.1–22.8",
+      "texto": "Y es fácil echarle la culpa a las pantallas, pero las pantallas no son el problema.",
+      "plano": "Hamburguesas a la plancha y echa calabacín a la olla · 20,77: olla y sartén desde arriba · 21,68: escurre la verdura en el colador junto a la ventana."
+    },
+    {
+      "t": "23.1–25.7",
+      "texto": "El problema es que no sabemos vivir sin ellas.",
+      "plano": "≈23: fregadero y ventana · ≈23,6: fuera, un muro de ladrillo y un tejadillo bajo la lluvia (plano quieto y sin él)."
+    },
+    {
+      "t": "26.1–26.9",
+      "texto": "Así que estoy probando algo.",
+      "plano": "25,95: en el gym, sentado en el suelo poniéndose las zapatillas (tirantes verde, pared turquesa con una ilustración)."
+    },
+    {
+      "t": "27.1–31.0",
+      "texto": "El otro día estuve dos horas en la bici, sin música, sin móvil, en silencio.",
+      "plano": "27,78: bici de spinning sin camiseta, de lado (gym oscuro con luz azul) · 28,9 / 29,67: otros ángulos · 30,92: primer plano de las piernas pedaleando."
+    },
+    {
+      "t": "31.1–35.6",
+      "texto": "Y sorprendentemente, pude ver cosas que en tres años no había visto, como esta mancha, o esto.",
+      "plano": "32,23: de espaldas en la bici, se gira y sonríe · 34,52: detalle de una mancha en la pared · 35,63: pared de ladrillo gris con un dibujo rojo y un ventilador."
+    },
+    {
+      "t": "36.1–39.0",
+      "texto": "Hablé con cada persona que entró, hablé incluso solo, contando ovejitas.",
+      "plano": "36,53: se gira sonriendo y saluda con la mano a alguien que entra · 37,85: primer plano de hombros y espalda pedaleando."
+    },
+    {
+      "t": "39.1–41.9",
+      "texto": "Y creo que eso era justo lo que necesitaba.",
+      "plano": "39,7: piernas subiendo a la bici · 40,67: plano general en la bici, agotado sobre el manillar."
+    },
+    {
+      "t": "42.1–47.8",
+      "texto": "Porque cuando estás constantemente entretenido, no solo te pierdes lo que tienes delante, también te pierdes lo que tienes dentro.",
+      "plano": "Sigue en la bici · ≈44,2: primer plano de hombros y espalda sudados, de pie · ≈46,4: bebe del bidón. Corte seco a los 48,6 s."
+    }
+  ],
+  "estructura": [
+    {
+      "bloque": "Gancho-confesión",
+      "t": "0–3",
+      "funcion": "Una confesión incómoda en primera persona ('ya no sé aburrirme') que se convierte en algo de todos ('no soy el único'): el espectador se ve reflejado."
+    },
+    {
+      "bloque": "Lista de síntomas",
+      "t": "3–7,8",
+      "funcion": "Ejemplos concretos y un poco vergonzosos (el móvil en el baño) con los que el espectador se pilla a sí mismo. Mete humor y hace que lo reconozca."
+    },
+    {
+      "bloque": "Nostalgia",
+      "t": "8–15",
+      "funcion": "Recuerdo de la infancia (buscar niños para jugar), que da calidez y conecta con la generación del espectador."
+    },
+    {
+      "bloque": "Tema polémico",
+      "t": "15–18",
+      "funcion": "El móvil a los niños que lloran es un tema delicado: mueve a padres y no padres a opinar."
+    },
+    {
+      "bloque": "Giro / reencuadre",
+      "t": "18–25,7",
+      "funcion": "'Las pantallas no son el problema; el problema es que no sabemos vivir sin ellas': da la vuelta a lo esperable y devuelve la responsabilidad a cada uno."
+    },
+    {
+      "bloque": "Experimento",
+      "t": "26–41,9",
+      "funcion": "Promete y cuenta una prueba real (2 h de bici en silencio) con detalles absurdos y divertidos (la mancha, contar ovejitas)."
+    },
+    {
+      "bloque": "Cierre-aforismo",
+      "t": "42–48,6",
+      "funcion": "Una frase redonda en dos partes (delante / dentro) que deja poso y se comparte. Corte seco."
+    }
+  ],
+  "edicion": {
+    "num_planos": 26,
+    "s_por_plano": 1.9,
+    "subtitulos": "Palabra a palabra, pequeños, blancos, sans redonda semibold en minúscula y sin puntuación. En la primera frase las palabras se acumulan escalonadas en la parte alta; después casi siempre sale una sola palabra cada vez, centrada sobre el cuerpo (pecho o espalda) o sobre una zona lisa.",
+    "texto_pantalla": "Ninguno aparte de los subtítulos.",
+    "musica": "Instrumental ambiental y emotiva (notas largas de piano o pad, se ven tonos sostenidos en el espectro) durante todo el vídeo, a volumen alto bajo la voz (≈ −20 dB en las pausas). No la he identificado. Termina con el último plano.",
+    "efectos": "Corte seco en todos los planos, sin transiciones. Etalonaje apagado y cálido en casa y frío azul o turquesa en el gym (cambio de color = cambio de capítulo). Planos de detalle muy cerrados (mando, papel higiénico, cazo, vitro) combinados con planos generales fijos. En el gym la imagen es más cinematográfica (fondo desenfocado y luz lateral).",
+    "voz": "Tranquila e introspectiva, algo cansada, en tono de reflexión y sin énfasis de coach. ≈3,6 palabras/s con micropausas entre frases."
+  },
+  "por_que_funciona": [
+    {
+      "momento": "0.0–3.0 · 'Ya no sé aburrirme. Y no soy el único, lo sé, lo veo.' (tirado en el sofá con AirPods)",
+      "mecanismo": "Autorreferencia + identificación de grupo",
+      "explicacion": "Es una frase que casi cualquiera puede decir de sí mismo, así que el cerebro la etiqueta como 'esto va de mí' y presta atención. 'No soy el único' lo convierte en un problema de grupo y quita la vergüenza de reconocerlo."
+    },
+    {
+      "momento": "5.1–6.6 · 'No puedo ir al baño sin el móvil' (plano del papel higiénico)",
+      "mecanismo": "Reconocimiento vergonzoso + humor",
+      "explicacion": "Un detalle íntimo y concreto que todos hacemos y nadie cuenta. El 'pillado' provoca una risa de reconocimiento (sorpresa + verdad), y es lo que hace que se comparta etiquetando a alguien ('tú')."
+    },
+    {
+      "momento": "12.1–14.9 · 'Recuerdo que tenía que buscar a niños para jugar a algo'",
+      "mecanismo": "Nostalgia (memoria autobiográfica)",
+      "explicacion": "Activa recuerdos propios de la infancia del espectador. La nostalgia genera calidez y conexión social y hace que el mensaje se sienta personal, no un sermón."
+    },
+    {
+      "momento": "15.1–18.0 · 'si el niño llora, le pones un móvil y ya no molesta'",
+      "mecanismo": "Polarización suave → comentarios",
+      "explicacion": "Toca un tema en el que todo el mundo tiene opinión (crianza y pantallas), sin atacar a nadie en concreto. Unos se sienten aludidos y otros quieren darle la razón: los dos comentan."
+    },
+    {
+      "momento": "18.1–25.7 · 'las pantallas no son el problema. El problema es que no sabemos vivir sin ellas'",
+      "mecanismo": "Error de predicción / reencuadre",
+      "explicacion": "El espectador espera el discurso típico contra las pantallas y recibe lo contrario. Esa sorpresa (error de predicción → pico de dopamina) hace la frase memorable y le devuelve la responsabilidad sin culparle."
+    },
+    {
+      "momento": "26.1–31.0 · 'Así que estoy probando algo… dos horas en la bici, sin música, sin móvil'",
+      "mecanismo": "Bucle abierto + prueba personal",
+      "explicacion": "'Estoy probando algo' abre una pregunta ('¿y qué pasó?') que mantiene viendo durante la segunda mitad. Que lo haya hecho él, con una cifra concreta (2 horas), da credibilidad y lo vuelve imitable."
+    },
+    {
+      "momento": "34.5–35.6 · 'como esta mancha, o esto' (corte a una mancha y a un dibujo en la pared)",
+      "mecanismo": "Error de predicción + humor → revisionado",
+      "explicacion": "Después de un discurso profundo, enseña algo ridículamente trivial. El contraste hace gracia, rompe la seriedad justo antes del cierre y engancha a quien lo vuelve a ver para fijarse en esos detalles. 'Contando ovejitas' remata el mismo efecto."
+    }
+  ],
+  "caption": "abúrrete un poco más :)\n\n#inspiracion #aburrirse #deporte #superacion",
+  "cta": "Sin CTA explícita. El cierre ('también te pierdes lo que tienes dentro') y el caption ('abúrrete un poco más :)') invitan a probarlo.",
+  "titulo_lucas": "Ya no sé aburrirme (tirada en silencio)",
+  "texto_pantalla_lucas": "Sin gancho escrito, igual que el original: solo subtítulos palabra a palabra. Si quieres portada: 'ya no sé aburrirme'.",
+  "guion_lucas": [
+    {
+      "texto": "Ya no sé aburrirme. Y no soy el único, lo sé, lo veo.",
+      "plano": "GRABAR: tirado en el sofá sin camiseta y con los cascos puestos, mirando al techo con cara de vacío y suspirando. Plano fijo, 3 s.",
+      "nota": "Lento y con desgana, como con un suspiro."
+    },
+    {
+      "texto": "No puedo estar ni un minuto sin hacer nada.",
+      "plano": "GRABAR: primer plano de tu mano cogiendo el móvil o el mando del sofá en cuanto lo sueltas (1 s) + pantalla de la tele o del móvil haciendo scroll (1 s)."
+    },
+    {
+      "texto": "No puedo ir al baño sin el móvil, o andar sin música.",
+      "plano": "GRABAR: detalle del móvil apoyado junto al rollo de papel del baño (1 s) → recursos/running/2025-06-04_selfie-correr-pasarela-dunas-atardecer_sin-camiseta.MOV @ 1–3 (con los AirPods)",
+      "nota": "Con gracia en 'al baño'."
+    },
+    {
+      "texto": "Y no es que esté mal en sí, pero echo de menos no saber qué hacer, como cuando era pequeño.",
+      "plano": "recursos/lifestyle/2025-06-27_cafe-chiringuito-playa_sin-camiseta.MOV @ 0–4 (café tranquilo, sin móvil)"
+    },
+    {
+      "texto": "Recuerdo que [tu recuerdo de pequeño, p. ej. 'bajaba a la calle a buscar a alguien para jugar a lo que fuera'].",
+      "plano": "recursos/aire-libre/2026-04-27_colgado-barras-playa-riendo_gorra-gris_sin-camiseta.MOV @ 0–3,5 (colgado y riéndose, como un crío)",
+      "nota": "Pon un recuerdo tuyo real. Cuanto más concreto, mejor."
+    },
+    {
+      "texto": "Hoy en día, si un niño llora, le pones un móvil y ya no molesta.",
+      "plano": "STOCK: niño pequeño mirando un móvil o una tablet en el sofá o en un restaurante (Pexels: 'child phone screen' / 'kid tablet')",
+      "nota": "Neutro, sin juzgar en el tono."
+    },
+    {
+      "texto": "Y es fácil echarle la culpa a las pantallas,",
+      "plano": "recursos/lifestyle/2026-09-24_andando-con-portatil-paseo-soleado_tirantes-negra.MOV @ 8–11 (andando con el portátil abierto)"
+    },
+    {
+      "texto": "pero las pantallas no son el problema. El problema es que no sabemos vivir sin ellas.",
+      "plano": "recursos/lifestyle/2026-09-24_andando-con-portatil-paseo-soleado_tirantes-negra.MOV @ 17–20 (se va de espaldas) → recursos/running/2024-12-11_selfie-hablando-carril-bici-nublado_sudadera-asics-azul-marino.MOV @ 4–7 (cielo gris y dunas, plano quieto sin ti, como el de la lluvia)",
+      "nota": "Pausa de 0,3 s antes de 'El problema es…' y recálcalo."
+    },
+    {
+      "texto": "Así que estoy probando algo.",
+      "plano": "recursos/gym/fisico/2026-11-01_hibrido_intro-sentado-cajon-nike-strength.mov @ 5,6–8 (se ata las zapatillas)"
+    },
+    {
+      "texto": "El otro día salí a correr [cuánto: p. ej. 'dos horas' / 'X km'], sin música, sin reloj, en silencio.",
+      "plano": "recursos/running/2026-03-17_correr-amanecer-pasarela_02-lateral-silueta-con-el-sol_manga-larga-negra.MOV @ 0–2,5 → recursos/running/2025-10-20_correr-carril-dunas-atardecer_03-lateral-cerca-mar_camiseta-gris-pantalon-oliva.MOV @ 0–2",
+      "nota": "Si lo que hiciste fue una sesión larga de bici (medio Ironman), di 'en la bici' y GRABA 3–4 planos tuyos pedaleando sin camiseta (de lado, piernas y de espaldas). Pon la cifra real."
+    },
+    {
+      "texto": "Y sorprendentemente, vi cosas que en [X] años corriendo por ahí no había visto, como [esta pintada], o esto.",
+      "plano": "recursos/running/2026-10-18_correr-calle-ladrillo_espaldas-y-lado_manga-larga-negra.MOV @ 19–21 (se gira y sonríe) → GRABAR: 2 detalles absurdos de tu ruta de siempre, 1 s cada uno (una pintada, una señal torcida, un banco raro…)",
+      "nota": "'O esto' con tono seco y cómico: es el chiste."
+    },
+    {
+      "texto": "Saludé a cada corredor que me crucé, hablé incluso solo, contando farolas.",
+      "plano": "recursos/running/2026-06-23_correr-paseo-dunas_medio-plano-sonriendo_tirantes-negra-aire.MOV @ 4–6 (risa y pulgar arriba) → recursos/running/2025-06-04_selfie-correr-pasarela-dunas-atardecer-sudando_sin-camiseta.MOV @ 8–10 (hablando mientras corre)",
+      "nota": "Con humor ('contando farolas' sustituye a 'contando ovejitas')."
+    },
+    {
+      "texto": "Y creo que eso era justo lo que necesitaba.",
+      "plano": "recursos/running/2026-03-17_correr-amanecer-pasarela_02-lateral-silueta-con-el-sol_manga-larga-negra.MOV @ 8–12",
+      "nota": "Más bajo y sincero."
+    },
+    {
+      "texto": "Porque cuando estás constantemente entretenido, no solo te pierdes lo que tienes delante,",
+      "plano": "recursos/running/2026-03-17_correr-amanecer-pasarela_01-pov-y-grupo-a-contraluz.MOV @ 2–5 (lo que tienes delante: el grupo a contraluz)"
+    },
+    {
+      "texto": "también te pierdes lo que tienes dentro.",
+      "plano": "recursos/running/2025-06-04_selfie-correr-pasarela-dunas-atardecer-sudando_sin-camiseta.MOV @ 5–7 (se pasa la mano por la cabeza, sudado y en paz; corte seco)",
+      "nota": "Pausa de 0,4 s antes de 'también' y acaba bajito."
+    }
+  ],
+  "duracion_objetivo_s": 48,
+  "viabilidad_recursos": "media",
+  "que_grabar": [
+    "Sofá: tirado sin camiseta, con los cascos, mirando al techo (3 s, plano fijo).",
+    "Detalles en casa: mano cogiendo el móvil o el mando (1 s), scroll en la pantalla (1 s) y el móvil junto al rollo de papel del baño (1 s).",
+    "2 detalles absurdos de tu ruta de correr habitual (1 s cada uno) para el chiste de 'como esta pintada, o esto'.",
+    "(Opcional, si la historia es de bici) 3–4 planos tuyos pedaleando sin camiseta en la bici o el rodillo: de lado, piernas y de espaldas girándote a sonreír."
+  ],
+  "stock": [
+    "Niño pequeño mirando un móvil o una tablet (Pexels: 'child phone screen', 'kid tablet couch')."
+  ],
+  "notas_edit": "Calca la estructura en dos capítulos: CASA (sofá, detalles y vida tranquila, etalonaje cálido y apagado) → al llegar a 'Así que estoy probando algo' cambias a EXTERIOR o ENTRENO (correr al amanecer o atardecer, más frío o más dorado). El cambio de color marca el giro, igual que el original pasa de la cocina al gym azul. Un plano cada ≈1,9 s (≈25 planos), corte seco sin transiciones y muchos detalles cerrados. Subtítulos palabra a palabra, pequeños, blancos, sans redonda en minúscula y sin puntuación, centrados sobre el cuerpo o una zona lisa; en la 1.ª frase acumula las palabras escalonadas arriba. Música de piano o ambiente con notas largas, emotiva, alta y constante bajo la voz (no phonk). Quita el audio de los clips. En 'o esto' deja 1 s del detalle en silencio de voz para que el chiste respire. Unifica outfits con el etalonaje: en la parte de correr hay sin camiseta, manga larga negra y tirantes; si puedes, agrupa los dos del 2026-03-17 (manga larga negra) y los dos del 2025-06-04 (sin camiseta) seguidos. Caption en la línea del original: 'abúrrete un poco más :)'.",
+  "palabras_guion_lucas": 174
+}

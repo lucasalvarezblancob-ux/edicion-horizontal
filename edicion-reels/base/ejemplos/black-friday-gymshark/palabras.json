@@ -1,0 +1,698 @@
+[
+ {
+  "w": "Se",
+  "start": 0.74,
+  "end": 0.8,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "acaban",
+  "start": 0.84,
+  "end": 1.06,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "de",
+  "start": 1.08,
+  "end": 1.16,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "filtrar",
+  "start": 1.2,
+  "end": 1.58,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "las",
+  "start": 1.64,
+  "end": 1.82,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "fechas",
+  "start": 1.88,
+  "end": 2.16,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "de",
+  "start": 2.2,
+  "end": 2.24,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "las",
+  "start": 2.28,
+  "end": 2.36,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "rebajas",
+  "start": 2.42,
+  "end": 2.82,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "del",
+  "start": 2.86,
+  "end": 2.94,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Black",
+  "start": 2.98,
+  "end": 3.12,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Friday",
+  "start": 3.16,
+  "end": 3.42,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "de",
+  "start": 3.46,
+  "end": 3.54,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Gymshark",
+  "start": 3.6,
+  "end": 4.019,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "y",
+  "start": 4.059,
+  "end": 4.1,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "no",
+  "start": 4.14,
+  "end": 4.24,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "podía",
+  "start": 4.26,
+  "end": 4.46,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "esperar",
+  "start": 4.48,
+  "end": 4.76,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "a",
+  "start": 4.8,
+  "end": 4.84,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "contároslo.",
+  "start": 4.88,
+  "end": 5.42,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "O",
+  "start": 5.46,
+  "end": 5.5,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "sea,",
+  "start": 5.56,
+  "end": 5.64,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "voy",
+  "start": 5.68,
+  "end": 5.78,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "aquí",
+  "start": 5.82,
+  "end": 6,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "con",
+  "start": 6.04,
+  "end": 6.12,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "mi",
+  "start": 6.16,
+  "end": 6.22,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "camisetita",
+  "start": 6.26,
+  "end": 6.78,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Gymshark.",
+  "start": 6.84,
+  "end": 7.26,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "El",
+  "start": 7.76,
+  "end": 7.86,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "café",
+  "start": 7.9,
+  "end": 8.119,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "también.",
+  "start": 8.2,
+  "end": 8.62,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Así",
+  "start": 9.16,
+  "end": 9.3,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "que",
+  "start": 9.36,
+  "end": 9.46,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "si",
+  "start": 9.62,
+  "end": 9.7,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "sois",
+  "start": 9.76,
+  "end": 10.06,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "tan",
+  "start": 10.3,
+  "end": 10.5,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "fanes",
+  "start": 10.56,
+  "end": 10.84,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "como",
+  "start": 10.92,
+  "end": 11.12,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "yo",
+  "start": 11.2,
+  "end": 11.32,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "de",
+  "start": 11.46,
+  "end": 11.54,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Gymshark,",
+  "start": 11.62,
+  "end": 12.04,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "apuntaos",
+  "start": 12.44,
+  "end": 12.78,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "esta",
+  "start": 12.82,
+  "end": 13,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "fecha.",
+  "start": 13.06,
+  "end": 13.36,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "El",
+  "start": 13.52,
+  "end": 13.62,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "15",
+  "start": 13.84,
+  "end": 14.2,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "de",
+  "start": 14.24,
+  "end": 14.3,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "noviembre",
+  "start": 14.36,
+  "end": 14.88,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "a",
+  "start": 14.96,
+  "end": 15,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "las",
+  "start": 15.06,
+  "end": 15.24,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "cinco",
+  "start": 15.4,
+  "end": 15.76,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "de",
+  "start": 15.8,
+  "end": 15.84,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "la",
+  "start": 15.88,
+  "end": 15.96,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "tarde,",
+  "start": 16.059,
+  "end": 16.28,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "hora",
+  "start": 16.32,
+  "end": 16.42,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "española,",
+  "start": 16.44,
+  "end": 16.98,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "van",
+  "start": 17.54,
+  "end": 17.64,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "a",
+  "start": 17.68,
+  "end": 17.7,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "empezar",
+  "start": 17.72,
+  "end": 18.14,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "las",
+  "start": 18.2,
+  "end": 18.28,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "rebajas",
+  "start": 18.34,
+  "end": 18.8,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "más",
+  "start": 18.86,
+  "end": 19,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "grandes",
+  "start": 19.04,
+  "end": 19.4,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "de",
+  "start": 19.58,
+  "end": 19.66,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "todo",
+  "start": 19.8,
+  "end": 19.98,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "el",
+  "start": 20,
+  "end": 20.08,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "año.",
+  "start": 20.14,
+  "end": 20.4,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Vais",
+  "start": 20.88,
+  "end": 21,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "a",
+  "start": 21.02,
+  "end": 21.06,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "tener",
+  "start": 21.1,
+  "end": 21.28,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "hasta",
+  "start": 21.3,
+  "end": 21.44,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "un",
+  "start": 21.48,
+  "end": 21.58,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "cincuenta",
+  "start": 21.62,
+  "end": 22.02,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "por",
+  "start": 22.06,
+  "end": 22.14,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "ciento",
+  "start": 22.18,
+  "end": 22.38,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "de",
+  "start": 22.4,
+  "end": 22.44,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "descuento",
+  "start": 22.46,
+  "end": 22.9,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "en",
+  "start": 23.06,
+  "end": 23.2,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "la",
+  "start": 23.54,
+  "end": 23.62,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "gran",
+  "start": 23.68,
+  "end": 23.86,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "mayoría",
+  "start": 23.9,
+  "end": 24.2,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "de",
+  "start": 24.24,
+  "end": 24.34,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "prendas",
+  "start": 24.38,
+  "end": 24.76,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "y",
+  "start": 25.4,
+  "end": 25.58,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "un",
+  "start": 25.64,
+  "end": 25.68,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "diez",
+  "start": 25.72,
+  "end": 25.86,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "por",
+  "start": 25.9,
+  "end": 26,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "ciento",
+  "start": 26.04,
+  "end": 26.24,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "extra",
+  "start": 26.3,
+  "end": 26.5,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "si",
+  "start": 26.54,
+  "end": 26.58,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "utilizáis",
+  "start": 26.6,
+  "end": 27.02,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "mi",
+  "start": 27.06,
+  "end": 27.16,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "código",
+  "start": 27.2,
+  "end": 27.48,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "ALVAREZ10.",
+  "start": 27.96,
+  "end": 28.58,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "Así",
+  "start": 28.64,
+  "end": 28.78,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "que",
+  "start": 28.8,
+  "end": 28.88,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "guardaos",
+  "start": 28.92,
+  "end": 29.18,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "este",
+  "start": 29.24,
+  "end": 29.44,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "vídeo",
+  "start": 29.48,
+  "end": 29.84,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "y",
+  "start": 30.52,
+  "end": 30.64,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "id",
+  "start": 31.14,
+  "end": 31.24,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "guardando,",
+  "start": 31.26,
+  "end": 31.64,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "y",
+  "start": 33.38,
+  "end": 33.46,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "id",
+  "start": 33.6,
+  "end": 33.68,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "guardandoos",
+  "start": 33.72,
+  "end": 34.18,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "las",
+  "start": 34.24,
+  "end": 34.34,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "prendas",
+  "start": 34.42,
+  "end": 34.8,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "porque",
+  "start": 34.94,
+  "end": 35.3,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "si",
+  "start": 35.62,
+  "end": 35.72,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "no",
+  "start": 35.76,
+  "end": 35.88,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "se",
+  "start": 35.94,
+  "end": 36.02,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "van",
+  "start": 36.06,
+  "end": 36.14,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "a",
+  "start": 36.16,
+  "end": 36.18,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "acabar",
+  "start": 36.24,
+  "end": 36.64,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "en",
+  "start": 36.72,
+  "end": 36.82,
+  "hablante": "speaker_0"
+ },
+ {
+  "w": "nada.",
+  "start": 37.16,
+  "end": 37.46,
+  "hablante": "speaker_0"
+ }
+]

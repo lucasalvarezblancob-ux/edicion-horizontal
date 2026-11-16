@@ -1,0 +1,223 @@
+{
+  "id": "Ddo7IYUAbMi",
+  "creador": "gerardfelipx",
+  "seguidores": 179000,
+  "visitas": 200000,
+  "likes": 8324,
+  "comentarios": 139,
+  "duracion_s": 38.2,
+  "url": "https://www.instagram.com/reel/Ddo7IYUAbMi/",
+  "formato": "Confesión de decisión vital + día a día (b-roll de rutina)",
+  "resumen": "Anuncia que deja su trabajo con 21 años aunque el contenido aún no le da para vivir, admite sus privilegios (vive con sus padres) y reencuadra el cliché: 'cuando no eliges, ya estás tomando una decisión'. Lo distinto es la honestidad sin épica sobre un b-roll cotidiano (cocina, sofá, moto, spinning) cortado a 1 plano por segundo.",
+  "gancho_voz": "He dejado mi trabajo.",
+  "gancho_texto_pantalla": null,
+  "gancho_visual": "0–1,3 s: sin camiseta en un balcón de ladrillo con luz de tarde, palmera en primer plano, mirando a un lado (físico + escena doméstica real). 1,3–2,4 s: se gira y hace doble bíceps de espaldas. Los subtítulos 'he / dejado / mi / trabajo' van apareciendo y se acumulan sobre su pecho.",
+  "guion_original": [
+    {
+      "t": "0.0–1.2",
+      "texto": "He dejado mi trabajo.",
+      "plano": "Balcón de ladrillo, sin camiseta y chándal negro Gymshark, de pie mirando a un lado; palmera delante."
+    },
+    {
+      "t": "1.3–4.0",
+      "texto": "Tengo 21 años y llevo 3 cobrando una nómina cada mes.",
+      "plano": "1,3–2,4 se gira y hace doble bíceps de espaldas · 2,4–4,2 frente a la pared de ladrillo con la barra de dominadas bajo el toldo, círculos de brazos (calienta)."
+    },
+    {
+      "t": "4.3–6.0",
+      "texto": "Hace un año empecé con esto de subir contenido",
+      "plano": "4,2–5,7 estira un brazo cruzado y se pone de espaldas · 5,7–6,9 contrapicado cerrado: agarra la barra."
+    },
+    {
+      "t": "6.4–9.6",
+      "texto": "y aunque, sinceramente, aún no da para vivir, he decidido dar el paso.",
+      "plano": "6,9–7,7 dominadas de espaldas · 7,7–8,7 abre la puerta corredera del balcón y entra · 8,7–10,0 cocina: casca un huevo en un bol (manos, shakers detrás)."
+    },
+    {
+      "t": "10.0–14.4",
+      "texto": "Trabajar 40 horas, entrenar para un ultramaratón, estudiar una carrera y crear contenido no es sostenible.",
+      "plano": "Un plano por elemento: 10,0–11,0 él con camisa estampada en su trabajo (mostrador de cristal) · 11,0–12,4 bici de spinning en gym azul oscuro · 12,4–13,4 en el sofá con el portátil (estudiar) · 13,4–14,2 manos con cámara y micro en un gimbal · 14,2–15,3 bate el huevo."
+    },
+    {
+      "t": "15.2–18.4",
+      "texto": "Llevo meses durmiendo 6 horas con miedo a elegir para no cagarla,",
+      "plano": "15,3–15,8 echa aceite a la sartén · 15,8–17,0 vierte el huevo · 17,0–18,6 cocinando sin camiseta, plano entero de la cocina."
+    },
+    {
+      "t": "18.5–22.3",
+      "texto": "pero, joder, vivo con mis padres. Tengo pocos gastos y además buscaré algo de media jornada.",
+      "plano": "18,6–19,2 la tortilla en el plato · 19,2–20,0 sentado con el portátil · 20,0–21,6 tumbado en el sofá con el portátil · 21,6–22,9 lo cierra y se levanta."
+    },
+    {
+      "t": "23.0–25.5",
+      "texto": "Así que no, mi mensaje no es «deja tu trabajo y persigue tus sueños».",
+      "plano": "22,9–24,5 pasillo: se pone la chaqueta de moto (Dainese) y el casco · 24,5–25,4 sale de plano (puerta vacía) · 25,4 calle: en la moto."
+    },
+    {
+      "t": "26.1–28.5",
+      "texto": "Mi mensaje es que cuando no eliges, ya estás tomando una decisión.",
+      "plano": "25,4–27,8 se sube a la moto y arranca · 27,8–29,3 gym: sin camiseta se gira y sonríe a cámara (la única sonrisa del vídeo)."
+    },
+    {
+      "t": "29.3–32.7",
+      "texto": "Yo no sé si esto va a salir bien, pero sé que es momento de intentarlo y de equivocarme,",
+      "plano": "Spinning en gym azul: 29,3–30,7 lateral · 30,7–31,7 más cerca · 31,7–32,5 de cerca · 32,5–33,4 primer plano de las piernas pedaleando."
+    },
+    {
+      "t": "33.5–37.5",
+      "texto": "porque prefiero cagarla intentando construir la vida que quiero que quedarme en un sitio que no es el mío.",
+      "plano": "33,4–34,3 perfil en la bici · 34,3–35,2 hombros de lado · 35,2–36,2 de espaldas en la bici · 36,2–37,3 espalda de cerca · 37,3–38,2 se inclina para bajarse. Termina sin mirar a cámara."
+    }
+  ],
+  "estructura": [
+    {
+      "bloque": "Gancho",
+      "t": "0–1,2",
+      "funcion": "Noticia de alto riesgo en 4 palabras: el cerebro predice drama/éxito y abre la pregunta '¿y de qué vas a vivir?'."
+    },
+    {
+      "bloque": "Contexto con cifras",
+      "t": "1,3–9,6",
+      "funcion": "21 años, 3 de nómina, 1 de contenido: datos concretos que lo hacen creíble y permiten compararse; admite que aún no da para vivir (baja la guardia del escéptico)."
+    },
+    {
+      "bloque": "Problema (sobrecarga)",
+      "t": "10–18,4",
+      "funcion": "Lista de 4 cargas + 6 horas de sueño + miedo a elegir: el espectador siente el agobio y se identifica."
+    },
+    {
+      "bloque": "Desactivar críticas",
+      "t": "18,5–22,3",
+      "funcion": "'Vivo con mis padres… buscaré media jornada': reconoce el privilegio antes de que lo digan en comentarios."
+    },
+    {
+      "bloque": "Giro / tesis",
+      "t": "23–28,5",
+      "funcion": "Niega el cliché ('no es deja tu trabajo y persigue tus sueños') y da la frase que se queda: 'cuando no eliges, ya estás tomando una decisión'."
+    },
+    {
+      "bloque": "Cierre abierto",
+      "t": "29,3–37,5",
+      "funcion": "No sabe si saldrá bien; prefiere equivocarse a quedarse donde no es el suyo. Final sin resolver → apoyo en comentarios y ganas de seguir la historia."
+    }
+  ],
+  "edicion": {
+    "num_planos": 37,
+    "s_por_plano": 1.03,
+    "subtitulos": "Palabra a palabra, Montserrat SemiBold blanca pequeña (≈40 px sobre 1440 de ancho), sin caja ni color de acento, a media altura sobre el cuerpo. En frases cortas las palabras se acumulan en posiciones escalonadas ('he / dejado / mi / trabajo') y se borran al empezar la siguiente; en el resto sale una palabra cada vez.",
+    "texto_pantalla": "Ninguno aparte de los subtítulos (ni título ni CTA en pantalla).",
+    "musica": "Instrumental suave de fondo durante todo el vídeo, ≈9–10 dB por debajo de la voz (−24/−26 dB en las pausas), pulso ≈118 bpm con percusión ligera. No identificada.",
+    "efectos": "Solo cortes secos, sin transiciones, zooms ni sonidos. Color natural: cálido de tarde en casa, frío y azul en el gym. Hilo visual recurrente (huevo → sartén → tortilla → plato) que cose el día a día.",
+    "voz": "Confesional, tranquila y firme, sin dramatizar; 3,9 pal/s (145 palabras en 37,5 s), pausas cortas entre frases."
+  },
+  "por_que_funciona": [
+    {
+      "momento": "0.0–1.2 · «He dejado mi trabajo.» sobre el físico en el balcón",
+      "mecanismo": "Error de predicción + bucle abierto",
+      "explicacion": "Una decisión irreversible dicha en seco, sin contexto, rompe el patrón de 'vídeo de fitness' y abre una pregunta que el cerebro necesita cerrar (¿de qué vive?, ¿le irá bien?). El físico en un escenario doméstico da el estatus suficiente para que el pulgar se pare."
+    },
+    {
+      "momento": "1.3–4.0 · «Tengo 21 años y llevo 3 cobrando una nómina»",
+      "mecanismo": "Especificidad de cifras + autorreferencia",
+      "explicacion": "Edad y años de nómina concretos: suena a verdad, no a frase de gurú, y cualquier veinteañero con curro se compara al instante ('yo también llevo X')."
+    },
+    {
+      "momento": "6.4–9.6 · «sinceramente, aún no da para vivir»",
+      "mecanismo": "Vulnerabilidad auténtica",
+      "explicacion": "Admitir que el contenido no da dinero rompe la expectativa de 'lo he petado' y genera confianza; los comentarios son de ánimo ('Arriesgarse es de valientes', 'Todo te va a salir bien'), que hacen subir la interacción."
+    },
+    {
+      "momento": "10.0–14.4 · lista «trabajar, ultramaratón, carrera, contenido» con un plano por elemento",
+      "mecanismo": "Novedad visual / reflejo de orientación + carga compartida",
+      "explicacion": "Un plano nuevo cada ~1 s en cada elemento de la lista renueva la atención; el ritmo atropellado hace sentir físicamente el 'no es sostenible'."
+    },
+    {
+      "momento": "18.5–22.3 · «pero, joder, vivo con mis padres»",
+      "mecanismo": "Inoculación (desactivar la crítica)",
+      "explicacion": "Reconoce su privilegio antes de que lo hagan los haters; el taco suena natural. Quita munición a los comentarios negativos y deja solo los de apoyo."
+    },
+    {
+      "momento": "23.0–28.5 · «mi mensaje no es 'deja tu trabajo y persigue tus sueños'… cuando no eliges, ya estás tomando una decisión» (sonrisa a cámara en 27,8)",
+      "mecanismo": "Contradicción / reencuadre + moneda social",
+      "explicacion": "Niega el cliché que el espectador esperaba y entrega una idea corta y reutilizable que da que pensar; es la frase que se guarda y se manda a un amigo atascado. La única sonrisa a cámara la marca como clímax."
+    },
+    {
+      "momento": "29.3–37.5 · «no sé si esto va a salir bien… prefiero cagarla…» sobre spinning, sin mirar a cámara",
+      "mecanismo": "Efecto Zeigarnik (historia sin cerrar) + aversión al arrepentimiento",
+      "explicacion": "El desenlace queda abierto: para saber cómo acaba hay que seguirle. 'Prefiero cagarla intentando' toca el miedo a arrepentirse de no haberlo intentado, que pesa más que el miedo a fallar."
+    }
+  ],
+  "caption": "supongo que me tenía que arriesgar…\n\n#mentalidad #inspiracion #deporte #superacion",
+  "cta": "Ninguno hablado ni en pantalla; el final abierto empuja a seguirle para ver cómo acaba y la caption invita a dar ánimos en comentarios.",
+  "titulo_lucas": "He dejado [mi trabajo]",
+  "texto_pantalla_lucas": "Sin texto aparte, como el original: solo subtítulos palabra a palabra (las de la 1.ª frase se acumulan: «He / dejado / [mi trabajo]»). Si se quiere uno para una versión de prueba: «He dejado [mi trabajo] para preparar un medio Ironman».",
+  "guion_lucas": [
+    {
+      "texto": "He dejado [mi trabajo].",
+      "plano": "recursos/gym/fisico/2026-06-09_posado-luz-lateral-cuerpo-entero-a-primer-plano_conjunto-azul-gymshark.MOV @ 1–2,3 (cuerpo entero con luz lateral, miras a un lado: el mismo gancho visual)",
+      "nota": "Seco, sin dramatizar. Pausa de 0,3 s. ⚠️ Confirmar qué has dejado de verdad; si no has dejado nada, cambia por una decisión real: «He pedido [reducción de jornada]», «He dicho que no a [un ascenso / un contrato]» o «He dejado [la carrera]», y ajusta las frases 5 y 8."
+    },
+    {
+      "texto": "Tengo [tu edad] años y llevo [X años] cobrando una nómina cada mes.",
+      "plano": "recursos/gym/fisico/2026-01-22_posado-espalda-doble-biceps_espejo-led_chandal-gris.MOV @ 5–6,2 (doble bíceps de espaldas, el mismo gesto del original) → recursos/gym/hombro/2026-11-01_movilidad-hombro-banda_de-frente.MOV @ 1,4–3,3 (dislocaciones con la banda, calentando)",
+      "nota": "Di las cifras claras: son las que dan credibilidad."
+    },
+    {
+      "texto": "Hace [X tiempo] empecé con esto de subir contenido",
+      "plano": "recursos/gym/hombro/2026-11-01_movilidad-hombro-banda_de-espaldas.MOV @ 13,5–14,6 (diagonal de espaldas) → recursos/aire-libre/2026-04-20_pasamanos-barras-playa_sin-camiseta-licra-negra.MOV @ 11–12 (agarras las barras, de frente)",
+      "nota": "Sigue sin pausa con la siguiente frase."
+    },
+    {
+      "texto": "y aunque, sinceramente, aún no da para vivir, he decidido dar el paso.",
+      "plano": "recursos/gym/espalda/2026-11-01_dominadas-sin-camiseta.MOV @ 2–3 → recursos/running/2026-03-17_correr-amanecer-pasarela_01-pov-y-grupo-a-contraluz.MOV @ 0–1 (POV de tus piernas sobre la tarima, justo en «dar el paso») → GRABAR: cascas un huevo en un bol en la encimera, plano lateral a la altura del bol (5 s)",
+      "nota": "«sinceramente» más bajito, como quien lo admite."
+    },
+    {
+      "texto": "Trabajar [40] horas, preparar un maratón y un medio Ironman, [estudiar] y crear contenido no es sostenible.",
+      "plano": "Un plano por elemento: recursos/lifestyle/2026-09-24_andando-con-portatil-paseo-soleado_tirantes-negra.MOV @ 9–10 (trabajar) → recursos/running/2026-03-17_correr-amanecer-pasarela_02-lateral-silueta-con-el-sol_manga-larga-negra.MOV @ 3–4 (maratón) → GRABAR: pedaleando en la bici (rodillo o carretera), plano lateral, 10 s (medio Ironman) → GRABAR: 1 s de [lo que hagas además] (si no hay nada, quita el elemento) → recursos/running/2026-10-30_selfie-contrapicado-trail-buenos-dias_gafas-rojas-chaleco.MOV @ 1–2 (selfie «¡Buenos días!» = crear contenido) → GRABAR: bates el huevo (1 s)",
+      "nota": "Ritmo de lista, un poco más rápido; cae en «no es sostenible». ⚠️ [estudiar] = lo que hagas además de trabajar (otro curro, estudios…); si no hay nada, quítalo."
+    },
+    {
+      "texto": "Llevo meses durmiendo [6] horas con miedo a elegir para no cagarla, y para un Ironman eso es entrenar con freno de mano.",
+      "plano": "GRABAR (misma toma de cocina): echas aceite a la sartén (0,6 s) y viertes el huevo (1,2 s) → recursos/running/2025-06-04_selfie-correr-pasarela-dunas-atardecer-sudando_sin-camiseta.MOV @ 5–7 (sudado y reventado te pasas la mano por la cabeza, en «freno de mano»)",
+      "nota": "El «freno de mano» con media sonrisa: es tu toque de humor."
+    },
+    {
+      "texto": "Pero, joder, [vivo con mis padres]. Tengo pocos gastos y además [buscaré algo de media jornada].",
+      "plano": "GRABAR: la tortilla en el plato (0,6 s) → recursos/lifestyle/2026-09-24_andando-con-portatil-paseo-soleado_tirantes-negra.MOV @ 1–2,5 (con el portátil) → GRABAR: tumbado en el sofá con el portátil, lo cierras y te levantas (2,5 s)",
+      "nota": "⚠️ Confirmar: con qué cuentas de verdad (padres, ahorros, otro ingreso) y qué plan B tienes. El «joder» natural, como quien se lo reconoce a un amigo."
+    },
+    {
+      "texto": "Así que no, mi mensaje no es «deja tu trabajo y persigue tus sueños».",
+      "plano": "recursos/running/2026-10-24_outfit-trail-se-prepara-en-parking_gafas-rojas-chaleco.MOV @ 1–2,5 (te pones las gafas, como él la chaqueta de moto) → mismo clip @ 64,5–65,5 (te ajustas el chaleco) → recursos/running/2026-10-18_correr-calle-ladrillo_espaldas-y-lado_manga-larga-negra.MOV @ 0–1 (sales corriendo de espaldas)",
+      "nota": "Lo de las comillas con tono de cliché, casi burlón."
+    },
+    {
+      "texto": "Mi mensaje es que cuando no eliges, ya estás tomando una decisión.",
+      "plano": "recursos/running/2026-10-18_correr-calle-ladrillo_espaldas-y-lado_manga-larga-negra.MOV @ 2–3,5 → recursos/running/2026-06-23_correr-paseo-dunas_medio-plano-sonriendo_tirantes-negra-aire.MOV @ 4–5,5 (te ríes a cámara: la única sonrisa del vídeo, en «decisión», como en el original)",
+      "nota": "La frase importante: más lenta, pausa de 0,4 s antes de «ya estás tomando una decisión»."
+    },
+    {
+      "texto": "Yo no sé si esto va a salir bien, pero sé que es momento de intentarlo y de equivocarme,",
+      "plano": "Bloque de esfuerzo (en el original es spinning): recursos/gym/cardio/2026-08-11_cinta-contrapicado-desde-consola_tirantes-celeste-sudada.MOV @ 2–3,4 → recursos/gym/cardio/2026-11-01_hibrido_skierg-lateral.MOV @ 4,6–5,6 → GRABAR: la bici del punto 5, otro ángulo (0,8 s) → recursos/competicion/2025-11-09_carrera-dorsal-29233_pov-pies-y-dorsal_ropa-blanca.MOV @ 0–0,9 (POV de los pies = el primer plano de las piernas del original)",
+      "nota": "Honesto, sin épica."
+    },
+    {
+      "texto": "porque prefiero cagarla intentando construir la vida que quiero que quedarme en un sitio que no es el mío.",
+      "plano": "recursos/running/2026-03-17_correr-amanecer-pasarela_02-lateral-silueta-con-el-sol_manga-larga-negra.MOV @ 8–9 → recursos/gym/cardio/2026-11-01_hibrido_cinta-de-frente.mov @ 20–21 → recursos/running/2025-10-20_correr-carril-dunas-atardecer_02-espaldas-y-lateral_camiseta-gris-pantalon-oliva.MOV @ 3–5,5 (de espaldas alejándote al atardecer; cierre abierto, sin celebración)",
+      "nota": "Baja el volumen al final; corta la música justo después de «mío»."
+    }
+  ],
+  "viabilidad_recursos": "media",
+  "que_grabar": [
+    "Una sola toma de cocina (≈1 min): cascar un huevo en un bol, batirlo, aceite y huevo a la sartén, tortilla en el plato (planos cerrados de manos, a la altura de la encimera).",
+    "Bici del medio Ironman (≈30 s): pedaleando en rodillo o en carretera, plano lateral + otro más cerrado (piernas).",
+    "Sofá (10 s): tumbado con el portátil, lo cierras y te levantas.",
+    "1 s de [lo que hagas además de trabajar] si existe (estudiar, otro curro…).",
+    "Confirmar los datos entre corchetes: qué dejas, edad, años de nómina, desde cuándo subes contenido, horas de trabajo y de sueño, con qué cuentas y plan B."
+  ],
+  "stock": [],
+  "notas_edit": "Calcar el ritmo: ≈1 plano por segundo (32–37 planos en ~39 s), siempre corte seco en el cambio de idea, sin transiciones ni efectos. En las listas, un plano por elemento justo en la palabra. Hilo de la cocina (huevo → bol → sartén → plato) repartido en 4 momentos, como en el original, para que haya una mini historia de fondo. Subtítulos palabra a palabra blancos pequeños (Montserrat SemiBold) a la altura del pecho; en la 1.ª frase y en «Mi mensaje es que…» se acumulan escalonados. Música instrumental suave desde el s 0, ≈9–10 dB bajo la voz, sin subidas. Color: cálido en casa/exterior y frío en gym (no unificar). La única sonrisa a cámara en «decisión». Cierre sin resolver: de espaldas alejándote, sin CTA. Caption tipo «supongo que me tenía que arriesgar…» + 3–4 hashtags (#mentalidad #superacion #ironman #running).",
+  "palabras_guion_lucas": 159,
+  "duracion_objetivo_s": 42
+}

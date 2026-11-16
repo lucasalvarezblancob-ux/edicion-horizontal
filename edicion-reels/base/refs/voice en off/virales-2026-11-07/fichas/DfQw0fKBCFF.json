@@ -1,0 +1,256 @@
+{
+  "id": "DfQw0fKBCFF",
+  "creador": "danielgmzs",
+  "seguidores": 121000,
+  "visitas": 760000,
+  "likes": 100777,
+  "comentarios": 478,
+  "duracion_s": 28.4,
+  "url": "https://www.instagram.com/reel/DfQw0fKBCFF/",
+  "formato": "Test '¿Qué es más…? A/B/C' → giro emocional en plano nocturno → chiste de la letra D",
+  "resumen": "Parece un test de chiste ('¿qué es más peligroso: resbalarte en el hielo o caerte de la bici?'), pero la C es 'despertar y no saber quién eres' por haberte adaptado a todos; 21 s de un único plano nocturno de él solo y remate cómico 'O letra D: quemarte' con la Antorcha Humana. El cambio de registro de broma a herida y otra vez a broma es lo que lo hace distinto.",
+  "gancho_voz": "¿Qué crees que sea más peligroso?",
+  "gancho_texto_pantalla": "¿QUE ES MÁS PELIGROSO?",
+  "gancho_visual": "Primer plano selfie dentro de un coche de noche (luz tenue, asientos negros), camiseta roja y gorra beige al revés, micro de solapa; sonríe, gesticula con la mano hacia cámara. Rótulo blanco en condensada gruesa arriba y la palabra subtitulada sobre el pecho.",
+  "guion_original": [
+    {
+      "t": "0.0–1.4",
+      "texto": "¿Qué crees que sea más peligroso?",
+      "plano": "A cámara en el coche, sonriente. Rótulo arriba '¿QUE ES MÁS PELIGROSO?'."
+    },
+    {
+      "t": "1.4–3.1",
+      "texto": "A, resbalarte en el hielo.",
+      "plano": "Mismo plano. Rótulo cambia a 'LETRA A:' + foto de stock de una persona resbalando en la nieve encima de la cabeza."
+    },
+    {
+      "t": "3.1–4.8",
+      "texto": "B, caerte de una bicicleta.",
+      "plano": "Mismo plano. 'LETRA B:' + foto de una chica tirada en el suelo con la bici encima."
+    },
+    {
+      "t": "4.8–5.3",
+      "texto": "C…",
+      "plano": "Mismo plano, 'LETRA C:' SIN foto; sonríe. Corte seco a 5,27."
+    },
+    {
+      "t": "5.4–7.8",
+      "texto": "Despertar un día y darte cuenta de que ya no sabes quién eres.",
+      "plano": "Plano nocturno fijo muy abierto: plaza adoquinada vacía, palmeras y una farola alta; él diminuto, apoyado en la farola mirando el móvil. Sin rótulo; solo subtítulo."
+    },
+    {
+      "t": "7.8–9.8",
+      "texto": "No porque hayas cambiado de la noche a la mañana,",
+      "plano": "Mismo plano nocturno."
+    },
+    {
+      "t": "9.8–12.8",
+      "texto": "sino porque pasaste años adaptándote a cada lugar al que llegabas.",
+      "plano": "Mismo plano nocturno."
+    },
+    {
+      "t": "12.8–14.2",
+      "texto": "En un lugar eras más callado,",
+      "plano": "Mismo plano nocturno."
+    },
+    {
+      "t": "14.2–15.6",
+      "texto": "en otro eras más divertido,",
+      "plano": "Mismo plano nocturno."
+    },
+    {
+      "t": "15.6–18.6",
+      "texto": "y en otro te hacías pequeño para que las personas no se fueran de tu vida.",
+      "plano": "Mismo plano nocturno."
+    },
+    {
+      "t": "18.6–20.6",
+      "texto": "Poco a poco aprendiste a encajar,",
+      "plano": "Mismo plano nocturno."
+    },
+    {
+      "t": "20.6–22.5",
+      "texto": "hasta que un día despiertas y te preguntas:",
+      "plano": "Mismo plano nocturno."
+    },
+    {
+      "t": "22.5–26.9",
+      "texto": "«Después de tanto adaptarme a los demás, ¿cuál de todas esas versiones de mí fue realmente auténtica?»",
+      "plano": "Mismo plano nocturno; 'AUTÉNTICA' se queda en pantalla ~0,7 s de silencio. Corte seco a 27,03."
+    },
+    {
+      "t": "26.9–28.4",
+      "texto": "O letra D: quemarte.",
+      "plano": "Vuelta al coche a cámara, pícaro. 'LETRA D:' + imagen de la Antorcha Humana (4 Fantásticos) en llamas encima de la cabeza. Fin."
+    }
+  ],
+  "estructura": [
+    {
+      "bloque": "Pregunta-test",
+      "t": "0–1.4",
+      "funcion": "Invita a jugar: el espectador empieza a contestar mentalmente; 'peligroso' activa alerta."
+    },
+    {
+      "bloque": "Opciones trampa A/B",
+      "t": "1.4–4.8",
+      "funcion": "Respuestas obvias y fotos ridículas: el cerebro clasifica el vídeo como 'humor ligero' y baja la guardia."
+    },
+    {
+      "bloque": "Giro C + corte",
+      "t": "4.8–5.4",
+      "funcion": "Rompe la predicción: cambia luz, voz y tono de golpe; la C no tiene foto → bucle abierto."
+    },
+    {
+      "bloque": "Diagnóstico",
+      "t": "5.4–12.8",
+      "funcion": "Nombra un miedo íntimo (no saber quién eres) y lo explica sin culpa ('no porque hayas cambiado')."
+    },
+    {
+      "bloque": "Espejo enumerativo",
+      "t": "12.8–18.6",
+      "funcion": "Tres escenas reconocibles en escalada → el espectador se ve a sí mismo (callado → divertido → hacerse pequeño)."
+    },
+    {
+      "bloque": "Pregunta final",
+      "t": "18.6–26.9",
+      "funcion": "Pregunta en 1.ª persona sin respuesta: se queda resonando y empuja a comentar/guardar."
+    },
+    {
+      "bloque": "Remate cómico D",
+      "t": "26.9–28.4",
+      "funcion": "Descarga la tensión con un chiste literal y devuelve al plano inicial → bucle y rewatch."
+    }
+  ],
+  "edicion": {
+    "num_planos": 3,
+    "s_por_plano": 9.5,
+    "subtitulos": "Palabra a palabra (1 palabra), MAYÚSCULAS, sans muy gruesa tipo Montserrat ExtraBold/Black, blanca sin caja ni borde (sombra mínima), centrada a ~78 % de alto (sobre el pecho / el suelo de la plaza). Iguales en la intro y en la noche. Fallo de autosubtítulo visible: tildes en minúscula ('QUIéN', 'AñOS', 'AUTéNTICA').",
+    "texto_pantalla": "Rótulo arriba (y≈8–10 %) en condensada gruesa blanca tipo Anton/Bebas: '¿QUE ES MÁS PELIGROSO?' (0–1,4) → 'LETRA A:' (1,4–3,1) → 'LETRA B:' (3,1–4,9) → 'LETRA C:' sin foto (4,9–5,27) → nada en la noche → 'LETRA D:' (27–28,4). Bajo el rótulo, foto de stock rectangular (~60 % del ancho, ~20 % de alto) justo encima de la cabeza, sin animación aparente (aparece en seco con el rótulo).",
+    "musica": "Cama musical continua y muy baja durante todo el vídeo: en ningún momento baja de −45 dB, y en las pausas de la voz queda a ≈ −28/−38 dB con contenido tonal (nota sostenida en torno a 262 Hz, Do4, con armónicos y un bajo de 75–95 Hz) → pad/piano emotivo y lento. La misma huella espectral sale en los tres vídeos de la serie (parece la misma cama). No se ha podido identificar el tema. Debajo de la intro jocosa no sube: el cambio de ambiente lo hacen la imagen y la voz, no la música.",
+    "efectos": "Ninguno: 3 planos con cortes secos (5,27 y 27,03), sin zooms, transiciones ni SFX. El 'efecto' es el contraste coche/sonrisa ↔ plaza nocturna vacía. Plano nocturno fijo (trípode), sin movimiento.",
+    "voz": "Intro con micro de solapa a cámara: tono jocoso, sonriente, con pausas tras cada letra (~3,2 pal/s). Voz en off (otra toma, mismo micro): baja, íntima, sin sonrisa, fluida y sin pausas largas (~4,3 pal/s). D: vuelve el tono pícaro, más lento (~2,7 pal/s)."
+  },
+  "por_que_funciona": [
+    {
+      "momento": "0.0–1.4 · '¿Qué crees que sea más peligroso?' + rótulo",
+      "mecanismo": "Participación / juego",
+      "explicacion": "Una pregunta directa en 2.ª persona con formato de test hace que el espectador genere su propia respuesta antes de que lleguen las opciones: generar una respuesta compromete más que escuchar. 'Peligroso' es palabra de amenaza → sesgo de negatividad, atención automática en el primer segundo."
+    },
+    {
+      "momento": "1.4–4.8 · 'resbalarte en el hielo', 'caerte de una bicicleta' + fotos de stock",
+      "mecanismo": "Expectativa fijada (marco de humor)",
+      "explicacion": "Opciones cotidianas, obvias y con fotos literales casi ridículas: el cerebro predice 'vídeo de chiste/trivial' y baja las defensas. Esa predicción es la que se va a romper; sin ella el giro no pegaría."
+    },
+    {
+      "momento": "4.8–5.4 · 'C…' sin foto + corte seco a la plaza de noche",
+      "mecanismo": "Error de predicción + reflejo de orientación",
+      "explicacion": "La C es la única opción sin imagen (hueco visual = bucle abierto) y a la vez cambia todo: luz, sitio, voz y ritmo. Un cambio de patrón tan brusco dispara el reflejo de orientación y el pico de dopamina por sorpresa justo cuando la mayoría haría scroll (s 5)."
+    },
+    {
+      "momento": "5.4–7.8 · 'Despertar un día y darte cuenta de que ya no sabes quién eres'",
+      "mecanismo": "Autorreferencia + reencuadre de 'peligro'",
+      "explicacion": "El peligro pasa de físico a interior: disonancia entre el test de broma y una frase que toca la identidad. 'Darte cuenta' y 'quién eres' activan procesamiento autorreferencial ('esto va de mí'), lo que más retiene y se recuerda."
+    },
+    {
+      "momento": "12.8–18.6 · 'En un lugar eras más callado, en otro más divertido, y en otro te hacías pequeño para que las personas no se fueran de tu vida'",
+      "mecanismo": "Espejo específico en escalada (efecto Barnum)",
+      "explicacion": "Tres escenas lo bastante concretas para evocar recuerdos propios y lo bastante amplias para servir a casi todos. La tercera escala al miedo al abandono: es la frase que hace guardar y enviar ('esto eres tú')."
+    },
+    {
+      "momento": "5.3–27.0 · un solo plano fijo nocturno de 21,8 s, él diminuto en una plaza vacía",
+      "mecanismo": "Espacio negativo = soledad; menos carga visual",
+      "explicacion": "Sin cortes ni información nueva en imagen, la atención se va entera a la voz. La figura pequeña en un espacio enorme y oscuro traduce en imagen 'perdido / solo' sin decirlo. El contraste con la intro hace que el plano lento se sienta intencional, no aburrido."
+    },
+    {
+      "momento": "22.5–28.4 · '¿cuál de todas esas versiones de mí fue realmente auténtica?' → 'O letra D: quemarte'",
+      "mecanismo": "Pregunta sin cerrar (Zeigarnik) + alivio cómico + bucle",
+      "explicacion": "La pregunta en 1.ª persona se queda abierta en la cabeza; justo en el pico de tensión, el chiste literal la descarga (alivio por incongruencia) y devuelve al mismo plano del inicio, lo que empuja a reverlo. La D es además cebo de comentarios: la gente propone su propia 'letra E' y el caption ('A mí me da miedo quemarme') sigue el juego."
+    }
+  ],
+  "caption": "A mi me da miedo quemarme\n\nCódigo “Daniel” \n@breathedivinity \n\n#peligroso #motivacion #encajar #personal #viral",
+  "cta": "Sin CTA hablado. La letra D hace de cebo de comentarios (la gente responde con chistes / su letra) y el caption sigue el chiste. Código de patrocinio en el caption.",
+  "titulo_lucas": "Test: ¿qué es más peligroso? (no saber quién eres)",
+  "texto_pantalla_lucas": "¿QUÉ CREES QUE ES MÁS PELIGROSO?",
+  "guion_lucas": [
+    {
+      "texto": "¿Qué crees que es más peligroso?",
+      "plano": "GRABAR: selfie a cámara de noche dentro del coche (o en tu cuarto con luz cálida), gorra, camiseta de color liso fuerte; sonriente y gesticulando. Rótulo arriba '¿QUÉ CREES QUE ES MÁS PELIGROSO?'",
+      "nota": "Tono de juego, como si retaras a un colega. Sonrisa."
+    },
+    {
+      "texto": "A, nadar entre medusas.",
+      "plano": "Mismo plano a cámara + rótulo 'LETRA A:' + foto encima de la cabeza: STOCK: foto 'swimmer jellyfish' / medusas en el mar",
+      "nota": "Pausa corta tras la 'A'."
+    },
+    {
+      "texto": "B, bajar un puerto en bici sin frenos.",
+      "plano": "Mismo plano a cámara + 'LETRA B:' + foto: STOCK: foto 'cyclist crash downhill' (caída de ciclista en bajada)",
+      "nota": "Medio riéndote en 'sin frenos'."
+    },
+    {
+      "texto": "C…",
+      "plano": "Mismo plano a cámara, 'LETRA C:' sin foto. CORTE SECO a ~5,2 s.",
+      "nota": "Alarga la 'C' y sonríe; aquí no hay foto a propósito."
+    },
+    {
+      "texto": "Despertar un día y darte cuenta de que ya no sabes quién eres.",
+      "plano": "GRABAR: de noche, plano fijo muy abierto con trípode a 15–20 m (gran angular 0,5×), sitio vacío y grande (plaza, pista de atletismo vacía o paseo marítimo) con una farola; tú solo, pequeño, apoyado en la farola mirando el móvil, con ropa de correr oscura. Graba 30 s sin moverte.",
+      "nota": "Cambio total de voz: grave, lenta, íntima, sin sonrisa."
+    },
+    {
+      "texto": "No porque hayas cambiado de la noche a la mañana,",
+      "plano": "Mismo plano nocturno (sin cortes)"
+    },
+    {
+      "texto": "sino porque llevas años adaptándote a cada sitio al que llegabas.",
+      "plano": "Mismo plano nocturno (sin cortes)"
+    },
+    {
+      "texto": "En el gym eras el que nunca se cansaba,",
+      "plano": "Mismo plano nocturno (sin cortes)",
+      "nota": "Enumeración: misma melodía en las tres frases."
+    },
+    {
+      "texto": "con tus amigos, el gracioso,",
+      "plano": "Mismo plano nocturno (sin cortes)",
+      "nota": "Aquí te estás describiendo a ti: dilo con un poco de verdad."
+    },
+    {
+      "texto": "y en casa, el que siempre estaba bien para que nadie se preocupara por ti.",
+      "plano": "Mismo plano nocturno (sin cortes)",
+      "nota": "La más importante: más despacio, pausa antes de 'para que nadie'."
+    },
+    {
+      "texto": "Poco a poco aprendiste a encajar,",
+      "plano": "Mismo plano nocturno (sin cortes)"
+    },
+    {
+      "texto": "hasta que un día te despiertas y te preguntas:",
+      "plano": "Mismo plano nocturno (sin cortes)",
+      "nota": "Pausa de medio segundo después de 'preguntas'."
+    },
+    {
+      "texto": "«Después de tanto adaptarme a los demás, ¿cuál de todas esas versiones era yo de verdad?»",
+      "plano": "Mismo plano nocturno; deja ~0,7 s de silencio con 'VERDAD' en pantalla antes del corte",
+      "nota": "En 1.ª persona, casi para ti mismo."
+    },
+    {
+      "texto": "O letra D: saltarte el día de pierna.",
+      "plano": "Vuelta al plano a cámara del principio (misma toma) + 'LETRA D:' + foto: STOCK: meme 'skip leg day' (tío con tronco enorme y piernas de alambre)",
+      "nota": "Pícaro, cara de 'esto sí que es grave'. Corta en cuanto acabe la frase."
+    }
+  ],
+  "palabras_guion_lucas": 121,
+  "duracion_objetivo_s": 28,
+  "viabilidad_recursos": "baja",
+  "que_grabar": [
+    "Intro a cámara (selfie en el coche de noche o en casa), ~8 s: pregunta + A + B + C y, en la misma toma, la letra D al final (graba 3–4 tomas).",
+    "Plano nocturno fijo de 30 s: tú pequeño y solo apoyado en una farola en un sitio grande y vacío (plaza, pista de atletismo, paseo marítimo), trípode a 15–20 m, gran angular, sin moverte."
+  ],
+  "stock": [
+    "Foto: nadador entre medusas / medusas en el mar (Pexels 'jellyfish swimmer')",
+    "Foto: caída de ciclista en una bajada (Pexels 'bike crash' / 'cyclist fall')",
+    "Meme 'skip leg day' (tronco grande, piernas finas) para la D"
+  ],
+  "notas_edit": "FORMATO COMÚN DE LA SERIE (los 3 de danielgmzs): (1) 0–5 s a cámara, casual y sonriente, en un sitio de andar por casa (coche de noche o su cuarto), pregunta '¿Qué crees que sea más ___?' con rótulo arriba; (2) A y B = respuestas literales y cotidianas, cada una con una foto de stock pequeña y algo ridícula que sale justo en el sustantivo; (3) 'C' sin foto y CORTE SECO a ~5,1–5,3 s a UN ÚNICO plano fijo nocturno de él solo, pequeño en el encuadre (13–21 s sin un solo corte) con voz en off íntima; (4) vuelta al mismo plano a cámara para 'O letra D: ___' = chiste literal con meme de cultura pop (1,4–2,2 s) y fin. Caption = continúa el chiste de la D + código de patrocinio + 5 hashtags. VARÍA: el adjetivo (peligroso / pesado / romántico) y por tanto el tema de la C (identidad / arrepentimiento / amor propio), el sitio de la intro y la camiseta, el plano nocturno (plaza con palmeras / calle con encapuchado / parque a través de un tronco), la tipografía de los subtítulos y si las letras van en rótulo arriba ('LETRA A:') o gigantes en el pecho ('A:'). El más visto (760 K) es el de identidad: el tema más universal y el adjetivo de amenaza más fuerte. | CÓMO CALCARLO: solo 3 planos y cortes secos (≈5,2 s y ≈27 s); nada de zooms, transiciones ni whoosh: el contraste es el efecto. Rótulo arriba en Anton blanca (familia de la casa): pregunta → 'LETRA A:' → 'LETRA B:' → 'LETRA C:' (sin foto) → nada en la noche → 'LETRA D:'. Fotos pequeñas (~60 % del ancho) justo encima de la cabeza, entrando en el sustantivo con pop.mp3 muy suave (el original no lleva sonido; si molesta, quitarlo). Subtítulos de la casa (Subtitulos.tsx, palabra a palabra) en los tres planos; en la noche, a ~1180–1420 sobre el suelo, que no pisen la figura. Música: pad/piano emotivo muy bajo (≈ −28 dB bajo la voz) desde el s 0 hasta el final (ElevenLabs Music si no hay otra). Voz: la intro y la D con sonido directo del micro de solapa; la voz en off grabada aparte en sitio silencioso y con otro tono (más grave y lento). Color del bruto sin tocar; el plano nocturno, con el modo noche del iPhone y nada de subirle exposición. Final = el del original: acaba en la D, sin cola; si se quiere el rótulo 'SÍGUEME PARA MÁS', encima de la D, sin alargar."
+}

@@ -1,0 +1,230 @@
+{
+  "id": "De3UyxYOVZv",
+  "creador": "danielgmzs",
+  "seguidores": 121000,
+  "visitas": 317000,
+  "likes": 37264,
+  "comentarios": 277,
+  "duracion_s": 28.1,
+  "url": "https://www.instagram.com/reel/De3UyxYOVZv/",
+  "formato": "Test '¿Qué es más pesado de cargar? A/B/C' → arrepentimiento en plano nocturno → chiste de la letra D",
+  "resumen": "Juega con el doble sentido de 'cargar': maleta, cesta de ropa… y la C es 'el peso de saber que tenías el potencial y el tiempo' y lo dejaste para mañana. Encapuchado inmóvil en una calle de noche que al final echa a andar hacia la cámara; remate 'Letra D: todo el súper de una vuelta' con Pudzianowski cargando bolsas.",
+  "gancho_voz": "¿Qué crees que sea más pesado de cargar?",
+  "gancho_texto_pantalla": "QUE CREES QUE SEA MÁS PESADO DE CARGAR?",
+  "gancho_visual": "Selfie a cámara en su cuarto (pared blanca, techo abuhardillado, rifle y sombreros colgados), gorra verde y forro polar negro, sujetando el estuche de los AirPods; sonríe mucho. Texto blanco con contorno negro en el centro, a la altura de la boca.",
+  "guion_original": [
+    {
+      "t": "0.0–1.6",
+      "texto": "¿Qué crees que sea más pesado de cargar?",
+      "plano": "A cámara en el cuarto; texto centrado 'QUE CREES QUE SEA MÁS PESADO DE CARGAR?'."
+    },
+    {
+      "t": "1.6–3.1",
+      "texto": "Letra A, una maleta.",
+      "plano": "'A:' gigante en cursiva blanca con contorno negro sobre el pecho (1,5–2,25) → foto grande de una maleta marrón que le tapa la cara (2,3–3,0)."
+    },
+    {
+      "t": "3.1–4.7",
+      "texto": "Letra B, una canasta llena de ropa.",
+      "plano": "'B:' gigante (3,0–3,55) → foto de un cesto verde de la ropa desbordado tapándole la cara (3,6–4,6)."
+    },
+    {
+      "t": "4.7–5.2",
+      "texto": "Letra C:",
+      "plano": "'C:' gigante, sin foto; sonrisa amplia. Corte seco a 5,22."
+    },
+    {
+      "t": "5.2–8.9",
+      "texto": "Cargar con el peso de saber que tenías el potencial para lograrlo todo, y también tenías el tiempo,",
+      "plano": "Plano nocturno fijo: calle estrecha con cables, farolas y fachadas verdosas/ámbar, coche aparcado; figura encapuchada de negro, de frente, con la cara en sombra, quieta en mitad de la calle."
+    },
+    {
+      "t": "8.9–11.2",
+      "texto": "pero viviste como si ambas cosas fueran a estar ahí para siempre.",
+      "plano": "Mismo plano nocturno."
+    },
+    {
+      "t": "11.2–15.4",
+      "texto": "Seguías diciéndote a ti mismo: «después lo hago, todavía tengo tiempo», como si el mañana estuviera garantizado.",
+      "plano": "Mismo plano nocturno."
+    },
+    {
+      "t": "15.4–17.4",
+      "texto": "Y ahora estás viviendo ese futuro del que tanto temías,",
+      "plano": "Mismo plano nocturno."
+    },
+    {
+      "t": "17.4–21.5",
+      "texto": "dándote cuenta de que la persona en la que pudiste haberte convertido no desapareció de la noche a la mañana.",
+      "plano": "Mismo plano nocturno."
+    },
+    {
+      "t": "21.5–26.4",
+      "texto": "La fuiste perdiendo poco a poco, cada vez que elegiste la comodidad y la escondiste llamando a la paciencia.",
+      "plano": "Mismo plano; en ~24,6 ('y la escondiste') la figura echa a andar hacia la cámara. Corte seco a 26,53."
+    },
+    {
+      "t": "26.4–28.1",
+      "texto": "Letra D: todo el súper de una vuelta.",
+      "plano": "Vuelta al cuarto, 'D:' gigante → foto del strongman Pudzianowski cargando bolsas de la compra (26,8–28,1). Fin."
+    }
+  ],
+  "estructura": [
+    {
+      "bloque": "Pregunta-test",
+      "t": "0–1.6",
+      "funcion": "Invita a jugar; 'cargar' ya prepara el doble sentido físico/emocional."
+    },
+    {
+      "bloque": "Opciones trampa A/B",
+      "t": "1.6–4.7",
+      "funcion": "Objetos domésticos y fotos enormes que le tapan la cara: humor visual, guardia baja."
+    },
+    {
+      "bloque": "Giro C + corte",
+      "t": "4.7–5.2",
+      "funcion": "'Letra C' sin foto y salto a la calle nocturna: rompe la predicción."
+    },
+    {
+      "bloque": "El peso",
+      "t": "5.2–11.2",
+      "funcion": "Define la carga: potencial + tiempo desaprovechados (miedo al arrepentimiento)."
+    },
+    {
+      "bloque": "La voz interior",
+      "t": "11.2–15.4",
+      "funcion": "Cita literal de lo que el espectador se dice ('después lo hago'): autorreferencia directa."
+    },
+    {
+      "bloque": "El futuro ya llegó",
+      "t": "15.4–21.5",
+      "funcion": "Viaje en el tiempo: 'ese futuro del que tanto temías' es hoy → urgencia."
+    },
+    {
+      "bloque": "Desenmascarar la excusa",
+      "t": "21.5–26.4",
+      "funcion": "Reencuadre que pica: tu 'paciencia' era comodidad. La figura avanza hacia ti."
+    },
+    {
+      "bloque": "Remate cómico D",
+      "t": "26.4–28.1",
+      "funcion": "Chiste universal (subir toda la compra de un viaje) que descarga y provoca comentarios."
+    }
+  ],
+  "edicion": {
+    "num_planos": 3,
+    "s_por_plano": 9.4,
+    "subtitulos": "Solo en la voz en off: palabra a palabra, minúsculas, serif gruesa tipo DM Serif/Playfair, blanca con sombra suave, a ~69 % de alto. En la intro no hay subtítulos de palabra: solo el texto de la pregunta y las letras gigantes.",
+    "texto_pantalla": "Pregunta 0–1,5 s centrada a la altura de la boca (sans gruesa blanca con contorno negro, tipo TikTok, 3 líneas). Letras 'A:' 'B:' 'C:' 'D:' gigantes en cursiva muy gruesa blanca con contorno negro sobre el pecho (~40 % del ancho). Las fotos (maleta, cesto, Pudzianowski) son grandes (~60 % del ancho, ~45 % del alto) y le TAPAN la cara: el chiste visual es que él desaparece detrás del objeto. Detección de cortes en 2,3 · 2,93 · 3,58 · 4,67 = cambios de letra/foto, no de plano.",
+    "musica": "Cama musical continua y muy baja durante todo el vídeo: en ningún momento baja de −45 dB, y en las pausas de la voz queda a ≈ −28/−38 dB con contenido tonal (nota sostenida en torno a 262 Hz, Do4, con armónicos y un bajo de 75–95 Hz) → pad/piano emotivo y lento. La misma huella espectral sale en los tres vídeos de la serie (parece la misma cama). No se ha podido identificar el tema. Debajo de la intro jocosa no sube: el cambio de ambiente lo hacen la imagen y la voz, no la música.",
+    "efectos": "Ninguno: cortes secos (5,22 y 26,53), sin zooms ni SFX. Plano nocturno fijo con color frío verdoso + farolas ámbar (look cinematográfico de noche). Único movimiento: la figura que avanza hacia cámara en los últimos 2 s del plano.",
+    "voz": "Intro: alegre, sonriente, rápida (~4,1 pal/s). Voz en off: seria, cálida y continua, la más rápida de la serie (~4,6 pal/s) sin pausas largas, cayendo el tono al final de cada frase. D: rápida y risueña (~5 pal/s)."
+  },
+  "por_que_funciona": [
+    {
+      "momento": "0.0–1.6 · '¿Qué crees que sea más pesado de cargar?'",
+      "mecanismo": "Participación + doble sentido latente",
+      "explicacion": "El test obliga a responder mentalmente y 'cargar' admite lectura física y emocional: el cerebro registra la ambigüedad sin resolverla, y eso es lo que hace que la C 'encaje' después como un clic de comprensión (insight)."
+    },
+    {
+      "momento": "2.3–4.6 · maleta y cesto de la ropa tapándole la cara",
+      "mecanismo": "Humor visual + expectativa fijada",
+      "explicacion": "Objetos cotidianos y ridículamente literales tapando al creador: risa ligera, guardia baja y una predicción clara ('esto es de broma') que la C va a romper."
+    },
+    {
+      "momento": "4.7–5.3 · 'Letra C:' sin foto + corte a la calle nocturna con un encapuchado",
+      "mecanismo": "Error de predicción + reflejo de orientación",
+      "explicacion": "Cambio total de luz, color, sitio y voz en el s 5. La figura encapuchada de frente, con la cara en sombra, es ligeramente inquietante: alerta + curiosidad ('¿quién es?'). Ese desconcierto retiene justo en el punto de abandono típico."
+    },
+    {
+      "momento": "5.2–11.2 · 'el peso de saber que tenías el potencial… y también tenías el tiempo'",
+      "mecanismo": "Miedo al arrepentimiento / aversión a la pérdida",
+      "explicacion": "Plantea una pérdida (potencial y tiempo que se van) en vez de una ganancia: las pérdidas pesan ~2 veces más. Casi nadie siente que ha aprovechado todo su potencial → identificación masiva."
+    },
+    {
+      "momento": "11.2–15.4 · «después lo hago, todavía tengo tiempo»",
+      "mecanismo": "Autorreferencia por cita literal",
+      "explicacion": "Repite palabra por palabra la frase que el espectador se dice a sí mismo: no es 'la gente procrastina', es TU voz interior. Es el momento de máxima identificación y de 'me ha dolido' en comentarios."
+    },
+    {
+      "momento": "15.4–21.5 · 'ahora estás viviendo ese futuro del que tanto temías'",
+      "mecanismo": "Viaje temporal / urgencia",
+      "explicacion": "Coloca al espectador en el futuro que temía y le dice que ya es hoy: convierte una idea abstracta en una amenaza presente → activación emocional y guardados ('para leerlo cada lunes')."
+    },
+    {
+      "momento": "21.5–28.1 · 'la escondiste llamando a la paciencia' + la figura avanza → 'Letra D: todo el súper de una vuelta'",
+      "mecanismo": "Disonancia + imagen que confirma + alivio cómico",
+      "explicacion": "Desenmascara una excusa que el espectador usa ('voy con calma' = comodidad), lo que pica y polariza un poco (comentarios). La figura caminando hacia cámara convierte en imagen a 'la persona que pudiste ser'. Justo después, el chiste universal del súper descarga la tensión y es lo que la gente cita en comentarios y caption ('todo el supermercado de una')."
+    }
+  ],
+  "caption": "Yo diría que todo el supermercado de una. \n\nCódigo “Daniel”\n@breathedivinity \n\n#cargar #pesado #motivacion #potencial #viral",
+  "cta": "Sin CTA hablado. La D es cebo de comentarios (todos tenemos la experiencia de subir la compra de un viaje) y el caption continúa el chiste. Código de patrocinio en el caption.",
+  "titulo_lucas": "Test: ¿qué es más pesado de cargar? (no haberte atrevido)",
+  "texto_pantalla_lucas": "¿QUÉ CREES QUE ES MÁS PESADO DE CARGAR?",
+  "guion_lucas": [
+    {
+      "texto": "¿Qué crees que es más pesado de cargar?",
+      "plano": "GRABAR: selfie a cámara en tu cuarto o en casa, gorra y sudadera/forro oscuro, sonriendo. Texto de la pregunta centrado a la altura de la boca.",
+      "nota": "Alegre, rápido, como un reto."
+    },
+    {
+      "texto": "Letra A: tus piernas en el kilómetro treinta y cinco.",
+      "plano": "Mismo plano + 'A:' gigante → recuadro grande tapándote la cara con recursos/competicion/2025-11-09_carrera-dorsal-29233_corriendo-lateral-y-frente_ropa-blanca.MOV @ 9–12 s (de frente hacia cámara, con dorsal)",
+      "nota": "Cara de sufrimiento exagerada en 'treinta y cinco'."
+    },
+    {
+      "texto": "Letra B: la mochila en una tirada larga.",
+      "plano": "Mismo plano + 'B:' gigante → recuadro con recursos/running/2026-10-24_outfit-trail-se-prepara-en-parking_gafas-rojas-chaleco.MOV @ 64–68 s (se ajusta el chaleco de hidratación)"
+    },
+    {
+      "texto": "Letra C:",
+      "plano": "Mismo plano, 'C:' gigante sin foto, sonrisa amplia. CORTE SECO a ~5,2 s.",
+      "nota": "Sonríe y corta."
+    },
+    {
+      "texto": "Cargar con el peso de saber que podías intentarlo, y que tenías las piernas y el tiempo,",
+      "plano": "GRABAR: de noche, calle estrecha con farolas y coches aparcados, trípode a ~8 m a la altura del pecho; tú de frente con capucha (sudadera oscura), quieto en mitad de la calle, la cara en sombra. 30 s quieto y, a los ~20 s, echas a andar despacio hacia la cámara.",
+      "nota": "Voz en off seria, cálida y seguida; baja el tono al final de cada frase."
+    },
+    {
+      "texto": "pero lo dejaste para cuando estuvieras más en forma, más preparado, con menos miedo.",
+      "plano": "Mismo plano nocturno (sin cortes)",
+      "nota": "Tres 'más' en escalera; el último ('con menos miedo') más bajo."
+    },
+    {
+      "texto": "Seguías diciéndote: «el año que viene me apunto», como si tu cuerpo te fuera a esperar siempre.",
+      "plano": "Mismo plano nocturno (sin cortes)",
+      "nota": "La cita, con la voz despreocupada de la excusa."
+    },
+    {
+      "texto": "Y ahora estás viviendo ese año que viene que tanto ibas a aprovechar,",
+      "plano": "Mismo plano nocturno (sin cortes)"
+    },
+    {
+      "texto": "dándote cuenta de que la persona que cruzaba esa meta no desapareció de la noche a la mañana.",
+      "plano": "Mismo plano nocturno (sin cortes)"
+    },
+    {
+      "texto": "La fuiste perdiendo poco a poco, cada vez que tu cabeza te dijo «no puedes» y tú lo llamaste sentido común.",
+      "plano": "Mismo plano nocturno: en «no puedes» empiezas a andar hacia la cámara; corte seco al acabar la frase",
+      "nota": "Pausa mínima antes de 'y tú lo llamaste'; remata seco."
+    },
+    {
+      "texto": "Letra D: toda la compra en un viaje.",
+      "plano": "Vuelta al plano a cámara + 'D:' gigante → recuadro: GRABAR: tú subiendo la escalera de casa cargado con 6–8 bolsas del súper, resoplando (5 s) | STOCK: meme del strongman Pudzianowski con bolsas",
+      "nota": "Risueño y rápido. Fin en seco."
+    }
+  ],
+  "palabras_guion_lucas": 136,
+  "duracion_objetivo_s": 28,
+  "viabilidad_recursos": "baja",
+  "que_grabar": [
+    "Intro a cámara en casa (~8 s): pregunta + A + B + C y la D al final, en la misma sesión (3–4 tomas).",
+    "Plano nocturno fijo de 30 s en una calle estrecha con farolas: tú encapuchado de frente, quieto y al final andando hacia la cámara.",
+    "(Opcional, para la D) 5 s subiendo la escalera cargado de bolsas del súper."
+  ],
+  "stock": [
+    "Meme de Pudzianowski con bolsas de la compra (solo si no grabas la D tú)"
+  ],
+  "notas_edit": "FORMATO COMÚN DE LA SERIE (los 3 de danielgmzs): (1) 0–5 s a cámara, casual y sonriente, en un sitio de andar por casa (coche de noche o su cuarto), pregunta '¿Qué crees que sea más ___?' con rótulo arriba; (2) A y B = respuestas literales y cotidianas, cada una con una foto de stock pequeña y algo ridícula que sale justo en el sustantivo; (3) 'C' sin foto y CORTE SECO a ~5,1–5,3 s a UN ÚNICO plano fijo nocturno de él solo, pequeño en el encuadre (13–21 s sin un solo corte) con voz en off íntima; (4) vuelta al mismo plano a cámara para 'O letra D: ___' = chiste literal con meme de cultura pop (1,4–2,2 s) y fin. Caption = continúa el chiste de la D + código de patrocinio + 5 hashtags. VARÍA: el adjetivo (peligroso / pesado / romántico) y por tanto el tema de la C (identidad / arrepentimiento / amor propio), el sitio de la intro y la camiseta, el plano nocturno (plaza con palmeras / calle con encapuchado / parque a través de un tronco), la tipografía de los subtítulos y si las letras van en rótulo arriba ('LETRA A:') o gigantes en el pecho ('A:'). El más visto (760 K) es el de identidad: el tema más universal y el adjetivo de amenaza más fuerte. | OJO: Lucas ya publicó 'mancuernas-maleta' (2026-10-31), un test '¿Qué crees que pesa más?' con la C 'potencial + tiempo + comodidad' (está en out/REGISTRO.md). Por eso aquí la C cambia a 'no haberte atrevido a intentarlo' (el límite está en la cabeza) y A/B no repiten maleta ni mancuernas; aun así, conviene separarlo unas semanas de aquel. CÓMO CALCARLO: 3 planos y cortes secos (≈5,2 y ≈26,5 s). En la intro, sin subtítulos de palabra: pregunta centrada 0–1,5 s y letras gigantes (en la casa: Anton en el acento #E6EC52 o blanca con contorno), y las 'fotos' de A/B son recuadros de clip con borde blanco fino, grandes, tapándole la cara, que entran en el sustantivo (pop.mp3 suave). En la noche, subtítulos de la casa (Subtitulos.tsx) más abajo que la figura. La figura avanzando hacia la cámara tiene que caer en la última frase. Música: pad/piano emotivo muy bajo todo el vídeo. Color del bruto sin tocar (el original lleva un look frío verdoso; solo si Lucas lo pide, y suave). Final = el del original: termina en la D."
+}

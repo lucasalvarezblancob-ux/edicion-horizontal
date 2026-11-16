@@ -1,0 +1,1379 @@
+{
+ "dur": 60.18,
+ "segs": [
+  {
+   "id": "hook",
+   "clip": "1349",
+   "a": 5.8,
+   "b": 8.55,
+   "t": 0.0,
+   "ganancia_db": 1.6,
+   "limitadas": 4404
+  },
+  {
+   "id": "venido",
+   "clip": "1349",
+   "a": 20.08,
+   "b": 22.85,
+   "t": 2.75,
+   "ganancia_db": -0.8,
+   "limitadas": 906
+  },
+  {
+   "id": "ensenas",
+   "clip": "1349",
+   "a": 27.36,
+   "b": 29.55,
+   "t": 5.52,
+   "ganancia_db": -1.6,
+   "limitadas": 0
+  },
+  {
+   "id": "paseo",
+   "clip": null,
+   "a": 0,
+   "b": 1.7,
+   "t": 7.71
+  },
+  {
+   "id": "presento",
+   "clip": "1307",
+   "a": 55.7,
+   "b": 56.78,
+   "t": 9.41,
+   "ganancia_db": 4.2,
+   "limitadas": 572
+  },
+  {
+   "id": "domane",
+   "clip": "1307",
+   "a": 58.58,
+   "b": 61.0,
+   "t": 10.49,
+   "ganancia_db": 2.3,
+   "limitadas": 0
+  },
+  {
+   "id": "project",
+   "clip": "1307",
+   "a": 61.95,
+   "b": 64.4,
+   "t": 12.91,
+   "ganancia_db": 1.6,
+   "limitadas": 0
+  },
+  {
+   "id": "locura",
+   "clip": "1307",
+   "a": 67.1,
+   "b": 68.34,
+   "t": 15.36,
+   "ganancia_db": 8.1,
+   "limitadas": 539
+  },
+  {
+   "id": "mia",
+   "clip": "1307",
+   "a": 72.56,
+   "b": 75.15,
+   "t": 16.6,
+   "ganancia_db": 0.2,
+   "limitadas": 2361
+  },
+  {
+   "id": "pintaza",
+   "clip": "1307",
+   "a": 77.34,
+   "b": 79.92,
+   "t": 19.19,
+   "ganancia_db": -1.5,
+   "limitadas": 561
+  },
+  {
+   "id": "historicos",
+   "clip": "1307",
+   "a": 90.04,
+   "b": 92.24,
+   "t": 21.77,
+   "ganancia_db": 5.6,
+   "limitadas": 5931
+  },
+  {
+   "id": "sram",
+   "clip": "1307",
+   "a": 95.48,
+   "b": 98.52,
+   "t": 23.97,
+   "ganancia_db": 1.1,
+   "limitadas": 0
+  },
+  {
+   "id": "comodo",
+   "clip": "1307",
+   "a": 101.64,
+   "b": 104.0,
+   "t": 27.01,
+   "ganancia_db": 2.9,
+   "limitadas": 0
+  },
+  {
+   "id": "ideal",
+   "clip": "1307",
+   "a": 104.2,
+   "b": 104.6,
+   "t": 29.37,
+   "ganancia_db": 5.2,
+   "limitadas": 1025
+  },
+  {
+   "id": "empezando",
+   "clip": "1307",
+   "a": 104.98,
+   "b": 106.32,
+   "t": 29.77,
+   "ganancia_db": 9.1,
+   "limitadas": 3993
+  },
+  {
+   "id": "derecha",
+   "clip": "1309",
+   "a": 78.4,
+   "b": 80.84,
+   "t": 31.11,
+   "ganancia_db": 4.9,
+   "limitadas": 0
+  },
+  {
+   "id": "izquierda",
+   "clip": "1309",
+   "a": 81.22,
+   "b": 83.76,
+   "t": 33.55,
+   "ganancia_db": 6.6,
+   "limitadas": 2455
+  },
+  {
+   "id": "plato",
+   "clip": "1309",
+   "a": 85.4,
+   "b": 86.28,
+   "t": 36.09,
+   "ganancia_db": 5.3,
+   "limitadas": 2040
+  },
+  {
+   "id": "pedales",
+   "clip": "1320",
+   "a": 26.58,
+   "b": 29.62,
+   "t": 36.97,
+   "ganancia_db": 3.8,
+   "limitadas": 1569
+  },
+  {
+   "id": "caigo",
+   "clip": "1320",
+   "a": 30.32,
+   "b": 31.46,
+   "t": 40.01,
+   "ganancia_db": 3.6,
+   "limitadas": 2504
+  },
+  {
+   "id": "bidon",
+   "clip": null,
+   "a": 0,
+   "b": 0.9,
+   "t": 41.15
+  },
+  {
+   "id": "calas",
+   "clip": "1321",
+   "a": 7.14,
+   "b": 9.26,
+   "t": 42.05,
+   "ganancia_db": 8.3,
+   "limitadas": 650
+  },
+  {
+   "id": "casco",
+   "clip": null,
+   "a": 0,
+   "b": 0.9,
+   "t": 44.17
+  },
+  {
+   "id": "verdad",
+   "clip": "1337",
+   "a": 12.56,
+   "b": 13.54,
+   "t": 45.07,
+   "ganancia_db": -1.3,
+   "limitadas": 0
+  },
+  {
+   "id": "casi",
+   "clip": "1337",
+   "a": 18.6,
+   "b": 20.56,
+   "t": 46.05,
+   "ganancia_db": -0.1,
+   "limitadas": 827
+  },
+  {
+   "id": "vuelta",
+   "clip": null,
+   "a": 0,
+   "b": 1.3,
+   "t": 48.01
+  },
+  {
+   "id": "conseguido",
+   "clip": "1339",
+   "a": 18.08,
+   "b": 20.64,
+   "t": 49.31,
+   "ganancia_db": -1.2,
+   "limitadas": 1141
+  },
+  {
+   "id": "nocaido",
+   "clip": "1340",
+   "a": 14.28,
+   "b": 15.13,
+   "t": 51.87,
+   "ganancia_db": 9.2,
+   "limitadas": 2341
+  },
+  {
+   "id": "tenemos",
+   "clip": "1359",
+   "a": 8.78,
+   "b": 12.02,
+   "t": 52.72,
+   "ganancia_db": -2.4,
+   "limitadas": 0
+  },
+  {
+   "id": "seguidme",
+   "clip": "1362",
+   "a": 1.88,
+   "b": 4.2,
+   "t": 55.96,
+   "ganancia_db": 2.1,
+   "limitadas": 3623
+  }
+ ],
+ "palabras": [
+  {
+   "w": "Acompañadme",
+   "start": 0.08,
+   "end": 0.54,
+   "seg": "hook"
+  },
+  {
+   "w": "a",
+   "start": 0.58,
+   "end": 0.62,
+   "seg": "hook"
+  },
+  {
+   "w": "buscar",
+   "start": 0.64,
+   "end": 1.02,
+   "seg": "hook"
+  },
+  {
+   "w": "mi",
+   "start": 1.08,
+   "end": 1.18,
+   "seg": "hook"
+  },
+  {
+   "w": "bici",
+   "start": 1.22,
+   "end": 1.52,
+   "seg": "hook"
+  },
+  {
+   "w": "nueva",
+   "start": 1.56,
+   "end": 1.9,
+   "seg": "hook"
+  },
+  {
+   "w": "a",
+   "start": 2.22,
+   "end": 2.26,
+   "seg": "hook"
+  },
+  {
+   "w": "Trek.",
+   "start": 2.36,
+   "end": 2.62,
+   "seg": "hook"
+  },
+  {
+   "w": "He",
+   "start": 2.79,
+   "end": 2.87,
+   "seg": "venido"
+  },
+  {
+   "w": "venido",
+   "start": 2.89,
+   "end": 3.27,
+   "seg": "venido"
+  },
+  {
+   "w": "a",
+   "start": 3.33,
+   "end": 3.35,
+   "seg": "venido"
+  },
+  {
+   "w": "por",
+   "start": 3.41,
+   "end": 3.53,
+   "seg": "venido"
+  },
+  {
+   "w": "la",
+   "start": 3.57,
+   "end": 3.65,
+   "seg": "venido"
+  },
+  {
+   "w": "bici,",
+   "start": 3.69,
+   "end": 3.91,
+   "seg": "venido"
+  },
+  {
+   "w": "que",
+   "start": 4.01,
+   "end": 4.15,
+   "seg": "venido"
+  },
+  {
+   "w": "no",
+   "start": 4.47,
+   "end": 4.57,
+   "seg": "venido"
+  },
+  {
+   "w": "la",
+   "start": 4.61,
+   "end": 4.65,
+   "seg": "venido"
+  },
+  {
+   "w": "he",
+   "start": 4.69,
+   "end": 4.73,
+   "seg": "venido"
+  },
+  {
+   "w": "visto",
+   "start": 4.79,
+   "end": 5.09,
+   "seg": "venido"
+  },
+  {
+   "w": "aún.",
+   "start": 5.15,
+   "end": 5.45,
+   "seg": "venido"
+  },
+  {
+   "w": "¿Me",
+   "start": 5.56,
+   "end": 5.72,
+   "seg": "ensenas"
+  },
+  {
+   "w": "la",
+   "start": 5.74,
+   "end": 5.78,
+   "seg": "ensenas"
+  },
+  {
+   "w": "enseñas?",
+   "start": 5.8,
+   "end": 6.32,
+   "seg": "ensenas"
+  },
+  {
+   "w": "Claro.",
+   "start": 6.38,
+   "end": 6.66,
+   "seg": "ensenas"
+  },
+  {
+   "w": "¿Preparado",
+   "start": 6.76,
+   "end": 7.12,
+   "seg": "ensenas"
+  },
+  {
+   "w": "para",
+   "start": 7.14,
+   "end": 7.22,
+   "seg": "ensenas"
+  },
+  {
+   "w": "conocerla?",
+   "start": 7.24,
+   "end": 7.64,
+   "seg": "ensenas"
+  },
+  {
+   "w": "Pues",
+   "start": 9.45,
+   "end": 9.63,
+   "seg": "presento"
+  },
+  {
+   "w": "te",
+   "start": 9.77,
+   "end": 9.85,
+   "seg": "presento"
+  },
+  {
+   "w": "presento",
+   "start": 9.89,
+   "end": 10.43,
+   "seg": "presento"
+  },
+  {
+   "w": "la",
+   "start": 10.53,
+   "end": 10.63,
+   "seg": "domane"
+  },
+  {
+   "w": "nueva",
+   "start": 10.91,
+   "end": 11.07,
+   "seg": "domane"
+  },
+  {
+   "w": "Domane,",
+   "start": 11.11,
+   "end": 11.45,
+   "seg": "domane"
+  },
+  {
+   "w": "¿vale?",
+   "start": 11.59,
+   "end": 11.85,
+   "seg": "domane"
+  },
+  {
+   "w": "Que",
+   "start": 12.05,
+   "end": 12.11,
+   "seg": "domane"
+  },
+  {
+   "w": "es",
+   "start": 12.15,
+   "end": 12.27,
+   "seg": "domane"
+  },
+  {
+   "w": "tu",
+   "start": 12.45,
+   "end": 12.51,
+   "seg": "domane"
+  },
+  {
+   "w": "bici,",
+   "start": 12.55,
+   "end": 12.85,
+   "seg": "domane"
+  },
+  {
+   "w": "un",
+   "start": 12.96,
+   "end": 13.18,
+   "seg": "project"
+  },
+  {
+   "w": "Project",
+   "start": 13.22,
+   "end": 13.54,
+   "seg": "project"
+  },
+  {
+   "w": "One",
+   "start": 13.62,
+   "end": 13.88,
+   "seg": "project"
+  },
+  {
+   "w": "con",
+   "start": 14.22,
+   "end": 14.46,
+   "seg": "project"
+  },
+  {
+   "w": "ruedas",
+   "start": 14.5,
+   "end": 14.74,
+   "seg": "project"
+  },
+  {
+   "w": "de",
+   "start": 14.76,
+   "end": 14.84,
+   "seg": "project"
+  },
+  {
+   "w": "carbono.",
+   "start": 14.88,
+   "end": 15.3,
+   "seg": "project"
+  },
+  {
+   "w": "Es",
+   "start": 15.4,
+   "end": 15.52,
+   "seg": "locura"
+  },
+  {
+   "w": "una",
+   "start": 15.62,
+   "end": 15.8,
+   "seg": "locura"
+  },
+  {
+   "w": "locura,",
+   "start": 15.84,
+   "end": 16.28,
+   "seg": "locura"
+  },
+  {
+   "w": "tío,",
+   "start": 16.44,
+   "end": 16.54,
+   "seg": "locura"
+  },
+  {
+   "w": "¿Esta",
+   "start": 16.62,
+   "end": 16.84,
+   "seg": "mia"
+  },
+  {
+   "w": "es",
+   "start": 16.86,
+   "end": 16.9,
+   "seg": "mia"
+  },
+  {
+   "w": "la",
+   "start": 16.94,
+   "end": 17.02,
+   "seg": "mia"
+  },
+  {
+   "w": "mía",
+   "start": 17.08,
+   "end": 17.36,
+   "seg": "mia"
+  },
+  {
+   "w": "o...?",
+   "start": 17.46,
+   "end": 17.8,
+   "seg": "mia"
+  },
+  {
+   "w": "Esta",
+   "start": 17.86,
+   "end": 18.02,
+   "seg": "mia"
+  },
+  {
+   "w": "es",
+   "start": 18.04,
+   "end": 18.1,
+   "seg": "mia"
+  },
+  {
+   "w": "la",
+   "start": 18.12,
+   "end": 18.2,
+   "seg": "mia"
+  },
+  {
+   "w": "tuya.",
+   "start": 18.24,
+   "end": 18.54,
+   "seg": "mia"
+  },
+  {
+   "w": "Buah.",
+   "start": 18.94,
+   "end": 19.12,
+   "seg": "mia"
+  },
+  {
+   "w": "yo",
+   "start": 19.23,
+   "end": 19.29,
+   "seg": "pintaza"
+  },
+  {
+   "w": "no",
+   "start": 19.31,
+   "end": 19.39,
+   "seg": "pintaza"
+  },
+  {
+   "w": "tengo",
+   "start": 19.45,
+   "end": 19.67,
+   "seg": "pintaza"
+  },
+  {
+   "w": "ni",
+   "start": 19.77,
+   "end": 19.81,
+   "seg": "pintaza"
+  },
+  {
+   "w": "idea",
+   "start": 19.85,
+   "end": 20.01,
+   "seg": "pintaza"
+  },
+  {
+   "w": "de",
+   "start": 20.03,
+   "end": 20.13,
+   "seg": "pintaza"
+  },
+  {
+   "w": "bicis,",
+   "start": 20.15,
+   "end": 20.39,
+   "seg": "pintaza"
+  },
+  {
+   "w": "pero",
+   "start": 20.47,
+   "end": 20.61,
+   "seg": "pintaza"
+  },
+  {
+   "w": "tiene",
+   "start": 20.65,
+   "end": 20.75,
+   "seg": "pintaza"
+  },
+  {
+   "w": "una",
+   "start": 20.79,
+   "end": 20.95,
+   "seg": "pintaza"
+  },
+  {
+   "w": "pintaza.",
+   "start": 20.99,
+   "end": 21.71,
+   "seg": "pintaza"
+  },
+  {
+   "w": "uno",
+   "start": 21.79,
+   "end": 21.91,
+   "seg": "historicos"
+  },
+  {
+   "w": "de",
+   "start": 21.93,
+   "end": 21.99,
+   "seg": "historicos"
+  },
+  {
+   "w": "los",
+   "start": 22.01,
+   "end": 22.11,
+   "seg": "historicos"
+  },
+  {
+   "w": "modelos",
+   "start": 22.15,
+   "end": 22.37,
+   "seg": "historicos"
+  },
+  {
+   "w": "históricos",
+   "start": 22.43,
+   "end": 22.89,
+   "seg": "historicos"
+  },
+  {
+   "w": "de",
+   "start": 23.17,
+   "end": 23.21,
+   "seg": "historicos"
+  },
+  {
+   "w": "la",
+   "start": 23.25,
+   "end": 23.31,
+   "seg": "historicos"
+  },
+  {
+   "w": "marca",
+   "start": 23.35,
+   "end": 23.59,
+   "seg": "historicos"
+  },
+  {
+   "w": "Trek,",
+   "start": 23.63,
+   "end": 23.91,
+   "seg": "historicos"
+  },
+  {
+   "w": "cambio",
+   "start": 24.01,
+   "end": 24.41,
+   "seg": "sram"
+  },
+  {
+   "w": "SRAM",
+   "start": 24.91,
+   "end": 25.15,
+   "seg": "sram"
+  },
+  {
+   "w": "Force",
+   "start": 25.29,
+   "end": 25.91,
+   "seg": "sram"
+  },
+  {
+   "w": "electrónico.",
+   "start": 26.19,
+   "end": 26.95,
+   "seg": "sram"
+  },
+  {
+   "w": "muy",
+   "start": 27.05,
+   "end": 27.25,
+   "seg": "comodo"
+  },
+  {
+   "w": "cómodo",
+   "start": 27.31,
+   "end": 27.71,
+   "seg": "comodo"
+  },
+  {
+   "w": "para",
+   "start": 27.77,
+   "end": 27.95,
+   "seg": "comodo"
+  },
+  {
+   "w": "estar",
+   "start": 27.99,
+   "end": 28.25,
+   "seg": "comodo"
+  },
+  {
+   "w": "muchas",
+   "start": 28.33,
+   "end": 28.55,
+   "seg": "comodo"
+  },
+  {
+   "w": "horas",
+   "start": 28.57,
+   "end": 28.73,
+   "seg": "comodo"
+  },
+  {
+   "w": "en",
+   "start": 28.77,
+   "end": 28.85,
+   "seg": "comodo"
+  },
+  {
+   "w": "bici,",
+   "start": 28.89,
+   "end": 29.33,
+   "seg": "comodo"
+  },
+  {
+   "w": "ideal",
+   "start": 29.41,
+   "end": 29.73,
+   "seg": "ideal"
+  },
+  {
+   "w": "para",
+   "start": 29.81,
+   "end": 29.97,
+   "seg": "empezando"
+  },
+  {
+   "w": "gente",
+   "start": 30.03,
+   "end": 30.23,
+   "seg": "empezando"
+  },
+  {
+   "w": "que",
+   "start": 30.25,
+   "end": 30.29,
+   "seg": "empezando"
+  },
+  {
+   "w": "está",
+   "start": 30.31,
+   "end": 30.47,
+   "seg": "empezando"
+  },
+  {
+   "w": "empezando,",
+   "start": 30.51,
+   "end": 31.05,
+   "seg": "empezando"
+  },
+  {
+   "w": "Aquí",
+   "start": 31.15,
+   "end": 31.29,
+   "seg": "derecha"
+  },
+  {
+   "w": "ves",
+   "start": 31.33,
+   "end": 31.57,
+   "seg": "derecha"
+  },
+  {
+   "w": "como",
+   "start": 31.63,
+   "end": 31.97,
+   "seg": "derecha"
+  },
+  {
+   "w": "la",
+   "start": 32.05,
+   "end": 32.11,
+   "seg": "derecha"
+  },
+  {
+   "w": "derecha",
+   "start": 32.15,
+   "end": 32.79,
+   "seg": "derecha"
+  },
+  {
+   "w": "es",
+   "start": 32.87,
+   "end": 32.93,
+   "seg": "derecha"
+  },
+  {
+   "w": "para",
+   "start": 32.97,
+   "end": 33.13,
+   "seg": "derecha"
+  },
+  {
+   "w": "subir",
+   "start": 33.19,
+   "end": 33.49,
+   "seg": "derecha"
+  },
+  {
+   "w": "y",
+   "start": 33.59,
+   "end": 33.63,
+   "seg": "izquierda"
+  },
+  {
+   "w": "la",
+   "start": 33.67,
+   "end": 33.71,
+   "seg": "izquierda"
+  },
+  {
+   "w": "izquierda",
+   "start": 33.75,
+   "end": 34.25,
+   "seg": "izquierda"
+  },
+  {
+   "w": "para",
+   "start": 34.29,
+   "end": 34.43,
+   "seg": "izquierda"
+  },
+  {
+   "w": "bajar.",
+   "start": 34.47,
+   "end": 34.83,
+   "seg": "izquierda"
+  },
+  {
+   "w": "Y",
+   "start": 35.09,
+   "end": 35.13,
+   "seg": "izquierda"
+  },
+  {
+   "w": "si",
+   "start": 35.19,
+   "end": 35.25,
+   "seg": "izquierda"
+  },
+  {
+   "w": "aprietas",
+   "start": 35.29,
+   "end": 35.63,
+   "seg": "izquierda"
+  },
+  {
+   "w": "los",
+   "start": 35.67,
+   "end": 35.79,
+   "seg": "izquierda"
+  },
+  {
+   "w": "dos,",
+   "start": 35.83,
+   "end": 36.03,
+   "seg": "izquierda"
+  },
+  {
+   "w": "cambias",
+   "start": 36.13,
+   "end": 36.37,
+   "seg": "plato"
+  },
+  {
+   "w": "el",
+   "start": 36.41,
+   "end": 36.51,
+   "seg": "plato"
+  },
+  {
+   "w": "plato.",
+   "start": 36.55,
+   "end": 36.89,
+   "seg": "plato"
+  },
+  {
+   "w": "le",
+   "start": 37.01,
+   "end": 37.05,
+   "seg": "pedales"
+  },
+  {
+   "w": "están",
+   "start": 37.07,
+   "end": 37.35,
+   "seg": "pedales"
+  },
+  {
+   "w": "montando",
+   "start": 37.39,
+   "end": 37.73,
+   "seg": "pedales"
+  },
+  {
+   "w": "los",
+   "start": 37.77,
+   "end": 37.87,
+   "seg": "pedales"
+  },
+  {
+   "w": "pedales",
+   "start": 37.95,
+   "end": 38.53,
+   "seg": "pedales"
+  },
+  {
+   "w": "y",
+   "start": 38.75,
+   "end": 39.01,
+   "seg": "pedales"
+  },
+  {
+   "w": "ahora",
+   "start": 39.09,
+   "end": 39.27,
+   "seg": "pedales"
+  },
+  {
+   "w": "nos",
+   "start": 39.31,
+   "end": 39.43,
+   "seg": "pedales"
+  },
+  {
+   "w": "subiremos",
+   "start": 39.47,
+   "end": 39.95,
+   "seg": "pedales"
+  },
+  {
+   "w": "a",
+   "start": 40.05,
+   "end": 40.11,
+   "seg": "caigo"
+  },
+  {
+   "w": "ver",
+   "start": 40.13,
+   "end": 40.25,
+   "seg": "caigo"
+  },
+  {
+   "w": "si",
+   "start": 40.29,
+   "end": 40.37,
+   "seg": "caigo"
+  },
+  {
+   "w": "no",
+   "start": 40.41,
+   "end": 40.47,
+   "seg": "caigo"
+  },
+  {
+   "w": "me",
+   "start": 40.51,
+   "end": 40.61,
+   "seg": "caigo"
+  },
+  {
+   "w": "caigo,",
+   "start": 40.65,
+   "end": 40.95,
+   "seg": "caigo"
+  },
+  {
+   "w": "¿no?",
+   "start": 41.01,
+   "end": 41.11,
+   "seg": "caigo"
+  },
+  {
+   "w": "La",
+   "start": 42.09,
+   "end": 42.17,
+   "seg": "calas"
+  },
+  {
+   "w": "primera",
+   "start": 42.23,
+   "end": 42.51,
+   "seg": "calas"
+  },
+  {
+   "w": "vez",
+   "start": 42.59,
+   "end": 42.71,
+   "seg": "calas"
+  },
+  {
+   "w": "que",
+   "start": 42.77,
+   "end": 42.83,
+   "seg": "calas"
+  },
+  {
+   "w": "me",
+   "start": 42.87,
+   "end": 42.97,
+   "seg": "calas"
+  },
+  {
+   "w": "pongo",
+   "start": 43.01,
+   "end": 43.23,
+   "seg": "calas"
+  },
+  {
+   "w": "unas",
+   "start": 43.29,
+   "end": 43.53,
+   "seg": "calas"
+  },
+  {
+   "w": "calas.",
+   "start": 43.63,
+   "end": 44.11,
+   "seg": "calas"
+  },
+  {
+   "w": "Y",
+   "start": 45.11,
+   "end": 45.15,
+   "seg": "verdad"
+  },
+  {
+   "w": "ahora",
+   "start": 45.19,
+   "end": 45.33,
+   "seg": "verdad"
+  },
+  {
+   "w": "la",
+   "start": 45.37,
+   "end": 45.43,
+   "seg": "verdad"
+  },
+  {
+   "w": "hora",
+   "start": 45.45,
+   "end": 45.57,
+   "seg": "verdad"
+  },
+  {
+   "w": "de",
+   "start": 45.59,
+   "end": 45.63,
+   "seg": "verdad"
+  },
+  {
+   "w": "la",
+   "start": 45.65,
+   "end": 45.73,
+   "seg": "verdad"
+  },
+  {
+   "w": "verdad",
+   "start": 45.75,
+   "end": 46.03,
+   "seg": "verdad"
+  },
+  {
+   "w": "¿Eh?",
+   "start": 46.29,
+   "end": 46.41,
+   "seg": "casi"
+  },
+  {
+   "w": "Uy,",
+   "start": 46.67,
+   "end": 46.79,
+   "seg": "casi"
+  },
+  {
+   "w": "ves,",
+   "start": 47.25,
+   "end": 47.43,
+   "seg": "casi"
+  },
+  {
+   "w": "casi.",
+   "start": 47.65,
+   "end": 47.95,
+   "seg": "casi"
+  },
+  {
+   "w": "he",
+   "start": 49.35,
+   "end": 49.43,
+   "seg": "conseguido"
+  },
+  {
+   "w": "conseguido",
+   "start": 49.47,
+   "end": 50.05,
+   "seg": "conseguido"
+  },
+  {
+   "w": "subir",
+   "start": 50.27,
+   "end": 50.57,
+   "seg": "conseguido"
+  },
+  {
+   "w": "y",
+   "start": 50.63,
+   "end": 50.67,
+   "seg": "conseguido"
+  },
+  {
+   "w": "dar",
+   "start": 50.71,
+   "end": 50.87,
+   "seg": "conseguido"
+  },
+  {
+   "w": "la",
+   "start": 50.91,
+   "end": 50.97,
+   "seg": "conseguido"
+  },
+  {
+   "w": "primera",
+   "start": 51.07,
+   "end": 51.45,
+   "seg": "conseguido"
+  },
+  {
+   "w": "vuelta",
+   "start": 51.53,
+   "end": 51.85,
+   "seg": "conseguido"
+  },
+  {
+   "w": "No",
+   "start": 51.91,
+   "end": 51.97,
+   "seg": "nocaido"
+  },
+  {
+   "w": "me",
+   "start": 52.01,
+   "end": 52.05,
+   "seg": "nocaido"
+  },
+  {
+   "w": "he",
+   "start": 52.05,
+   "end": 52.11,
+   "seg": "nocaido"
+  },
+  {
+   "w": "caído,",
+   "start": 52.15,
+   "end": 52.41,
+   "seg": "nocaido"
+  },
+  {
+   "w": "¿eh?",
+   "start": 52.43,
+   "end": 52.51,
+   "seg": "nocaido"
+  },
+  {
+   "w": "Bueno,",
+   "start": 52.76,
+   "end": 52.94,
+   "seg": "tenemos"
+  },
+  {
+   "w": "pues",
+   "start": 53.02,
+   "end": 53.12,
+   "seg": "tenemos"
+  },
+  {
+   "w": "ya",
+   "start": 53.14,
+   "end": 53.22,
+   "seg": "tenemos"
+  },
+  {
+   "w": "tenemos",
+   "start": 53.26,
+   "end": 53.66,
+   "seg": "tenemos"
+  },
+  {
+   "w": "bici",
+   "start": 53.72,
+   "end": 53.92,
+   "seg": "tenemos"
+  },
+  {
+   "w": "nueva",
+   "start": 53.96,
+   "end": 54.16,
+   "seg": "tenemos"
+  },
+  {
+   "w": "gracias",
+   "start": 54.2,
+   "end": 54.52,
+   "seg": "tenemos"
+  },
+  {
+   "w": "a",
+   "start": 54.58,
+   "end": 54.62,
+   "seg": "tenemos"
+  },
+  {
+   "w": "Trek",
+   "start": 54.72,
+   "end": 54.9,
+   "seg": "tenemos"
+  },
+  {
+   "w": "Barcelona",
+   "start": 54.96,
+   "end": 55.42,
+   "seg": "tenemos"
+  },
+  {
+   "w": "Centre.",
+   "start": 55.52,
+   "end": 55.9,
+   "seg": "tenemos"
+  },
+  {
+   "w": "Y",
+   "start": 56.0,
+   "end": 56.04,
+   "seg": "seguidme"
+  },
+  {
+   "w": "si",
+   "start": 56.08,
+   "end": 56.16,
+   "seg": "seguidme"
+  },
+  {
+   "w": "queréis",
+   "start": 56.2,
+   "end": 56.44,
+   "seg": "seguidme"
+  },
+  {
+   "w": "ver",
+   "start": 56.46,
+   "end": 56.58,
+   "seg": "seguidme"
+  },
+  {
+   "w": "mis",
+   "start": 56.62,
+   "end": 56.78,
+   "seg": "seguidme"
+  },
+  {
+   "w": "próximas",
+   "start": 56.8,
+   "end": 57.14,
+   "seg": "seguidme"
+  },
+  {
+   "w": "salidas,",
+   "start": 57.18,
+   "end": 57.58,
+   "seg": "seguidme"
+  },
+  {
+   "w": "seguidme",
+   "start": 57.76,
+   "end": 58.2,
+   "seg": "seguidme"
+  }
+ ]
+}

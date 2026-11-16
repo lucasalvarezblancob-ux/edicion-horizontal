@@ -1,0 +1,859 @@
+{
+ "bloques": [
+  {
+   "desde": 2,
+   "hasta": 46,
+   "y": 0.665,
+   "palabras": [
+    {
+     "texto": "casi",
+     "desde": 2,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "nadie",
+     "desde": 10,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "ha",
+     "desde": 20,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "visto",
+     "desde": 23,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "UN",
+     "desde": 35,
+     "estilo": "fuerte",
+     "salto": true
+    },
+    {
+     "texto": "NIDO",
+     "desde": 37,
+     "estilo": "fuerte",
+     "salto": false
+    }
+   ]
+  },
+  {
+   "desde": 46,
+   "hasta": 110,
+   "y": 0.665,
+   "palabras": [
+    {
+     "texto": "de",
+     "desde": 46,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "esta",
+     "desde": 50,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "especie",
+     "desde": 57,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "en",
+     "desde": 76,
+     "estilo": "remate",
+     "salto": true
+    },
+    {
+     "texto": "la",
+     "desde": 79,
+     "estilo": "remate",
+     "salto": false
+    },
+    {
+     "texto": "naturaleza",
+     "desde": 83,
+     "estilo": "remate",
+     "salto": false
+    }
+   ]
+  },
+  {
+   "desde": 110,
+   "hasta": 186,
+   "y": 0.665,
+   "palabras": [
+    {
+     "texto": "y",
+     "desde": 110,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "el",
+     "desde": 112,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "que",
+     "desde": 115,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "se",
+     "desde": 119,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "encontró",
+     "desde": 122,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "estaba",
+     "desde": 136,
+     "estilo": "relleno",
+     "salto": true
+    },
+    {
+     "texto": "dentro",
+     "desde": 146,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "de",
+     "desde": 156,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "un",
+     "desde": 158,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "TERMITERO",
+     "desde": 161,
+     "estilo": "fuerte",
+     "salto": true
+    }
+   ]
+  },
+  {
+   "desde": 186,
+   "hasta": 232,
+   "y": 0.665,
+   "palabras": [
+    {
+     "texto": "dos",
+     "desde": 186,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "huevos",
+     "desde": 193,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "escondidos",
+     "desde": 205,
+     "estilo": "remate",
+     "salto": true
+    }
+   ]
+  },
+  {
+   "desde": 232,
+   "hasta": 276,
+   "y": 0.665,
+   "palabras": [
+    {
+     "texto": "dentro",
+     "desde": 232,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "de",
+     "desde": 242,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "un",
+     "desde": 245,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "nido",
+     "desde": 247,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "de",
+     "desde": 252,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "TERMITAS",
+     "desde": 256,
+     "estilo": "fuerte",
+     "salto": true
+    }
+   ]
+  },
+  {
+   "desde": 276,
+   "hasta": 387,
+   "y": 0.665,
+   "palabras": [
+    {
+     "texto": "de",
+     "desde": 276,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "este",
+     "desde": 279,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "lagarto",
+     "desde": 284,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "sabemos",
+     "desde": 302,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "cómo",
+     "desde": 329,
+     "estilo": "remate",
+     "salto": true
+    },
+    {
+     "texto": "come,",
+     "desde": 339,
+     "estilo": "remate",
+     "salto": false
+    },
+    {
+     "texto": "cómo",
+     "desde": 361,
+     "estilo": "remate",
+     "salto": true
+    },
+    {
+     "texto": "nada,",
+     "desde": 370,
+     "estilo": "remate",
+     "salto": false
+    }
+   ]
+  },
+  {
+   "desde": 387,
+   "hasta": 474,
+   "y": 0.665,
+   "palabras": [
+    {
+     "texto": "pero",
+     "desde": 387,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "casi",
+     "desde": 395,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "NO",
+     "desde": 413,
+     "estilo": "fuerte",
+     "salto": true
+    },
+    {
+     "texto": "SABEMOS",
+     "desde": 418,
+     "estilo": "fuerte",
+     "salto": false
+    },
+    {
+     "texto": "cómo",
+     "desde": 444,
+     "estilo": "remate",
+     "salto": true
+    },
+    {
+     "texto": "nace",
+     "desde": 452,
+     "estilo": "remate",
+     "salto": false
+    }
+   ]
+  },
+  {
+   "desde": 474,
+   "hasta": 538,
+   "y": 0.665,
+   "palabras": [
+    {
+     "texto": "en",
+     "desde": 474,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "ECUADOR",
+     "desde": 478,
+     "estilo": "fuerte",
+     "salto": true
+    },
+    {
+     "texto": "se",
+     "desde": 491,
+     "estilo": "relleno",
+     "salto": true
+    },
+    {
+     "texto": "registró",
+     "desde": 496,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "un",
+     "desde": 514,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "caso",
+     "desde": 518,
+     "estilo": "relleno",
+     "salto": false
+    }
+   ]
+  },
+  {
+   "desde": 538,
+   "hasta": 618,
+   "y": 0.665,
+   "palabras": [
+    {
+     "texto": "dos",
+     "desde": 538,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "huevos",
+     "desde": 544,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "en",
+     "desde": 566,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "una",
+     "desde": 569,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "cavidad",
+     "desde": 576,
+     "estilo": "remate",
+     "salto": true
+    },
+    {
+     "texto": "de",
+     "desde": 589,
+     "estilo": "relleno",
+     "salto": true
+    },
+    {
+     "texto": "un",
+     "desde": 592,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "TERMITERO",
+     "desde": 596,
+     "estilo": "fuerte",
+     "salto": true
+    }
+   ]
+  },
+  {
+   "desde": 618,
+   "hasta": 665,
+   "y": 0.665,
+   "palabras": [
+    {
+     "texto": "a",
+     "desde": 618,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "las",
+     "desde": 620,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "orillas",
+     "desde": 628,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "de",
+     "desde": 640,
+     "estilo": "relleno",
+     "salto": true
+    },
+    {
+     "texto": "un",
+     "desde": 643,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "RÍO",
+     "desde": 648,
+     "estilo": "fuerte",
+     "salto": true
+    }
+   ]
+  },
+  {
+   "desde": 665,
+   "hasta": 715,
+   "y": 0.665,
+   "palabras": [
+    {
+     "texto": "es",
+     "desde": 665,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "de",
+     "desde": 669,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "los",
+     "desde": 673,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "POQUÍSIMOS",
+     "desde": 678,
+     "estilo": "fuerte",
+     "salto": true
+    },
+    {
+     "texto": "datos",
+     "desde": 697,
+     "estilo": "relleno",
+     "salto": true
+    }
+   ]
+  },
+  {
+   "desde": 715,
+   "hasta": 768,
+   "y": 0.665,
+   "palabras": [
+    {
+     "texto": "de",
+     "desde": 715,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "cómo",
+     "desde": 721,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "crían",
+     "desde": 733,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "en",
+     "desde": 743,
+     "estilo": "remate",
+     "salto": true
+    },
+    {
+     "texto": "libertad",
+     "desde": 747,
+     "estilo": "remate",
+     "salto": false
+    }
+   ]
+  },
+  {
+   "desde": 768,
+   "hasta": 814,
+   "y": 0.665,
+   "palabras": [
+    {
+     "texto": "en",
+     "desde": 768,
+     "estilo": "remate",
+     "salto": false
+    },
+    {
+     "texto": "cautividad",
+     "desde": 772,
+     "estilo": "remate",
+     "salto": false
+    },
+    {
+     "texto": "SE",
+     "desde": 788,
+     "estilo": "fuerte",
+     "salto": true
+    },
+    {
+     "texto": "SABE",
+     "desde": 793,
+     "estilo": "fuerte",
+     "salto": false
+    },
+    {
+     "texto": "MÁS",
+     "desde": 802,
+     "estilo": "fuerte",
+     "salto": false
+    }
+   ]
+  },
+  {
+   "desde": 814,
+   "hasta": 891,
+   "y": 0.665,
+   "palabras": [
+    {
+     "texto": "ponen",
+     "desde": 814,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "entre",
+     "desde": 830,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "4",
+     "desde": 841,
+     "estilo": "fuerte",
+     "salto": true
+    },
+    {
+     "texto": "Y",
+     "desde": 854,
+     "estilo": "fuerte",
+     "salto": false
+    },
+    {
+     "texto": "7",
+     "desde": 858,
+     "estilo": "fuerte",
+     "salto": false
+    },
+    {
+     "texto": "huevos",
+     "desde": 870,
+     "estilo": "remate",
+     "salto": true
+    }
+   ]
+  },
+  {
+   "desde": 891,
+   "hasta": 975,
+   "y": 0.665,
+   "palabras": [
+    {
+     "texto": "y",
+     "desde": 891,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "tardan",
+     "desde": 893,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "unos",
+     "desde": 906,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "5",
+     "desde": 914,
+     "estilo": "fuerte",
+     "salto": true
+    },
+    {
+     "texto": "MESES",
+     "desde": 924,
+     "estilo": "fuerte",
+     "salto": false
+    },
+    {
+     "texto": "Y",
+     "desde": 936,
+     "estilo": "fuerte",
+     "salto": false
+    },
+    {
+     "texto": "MEDIO",
+     "desde": 939,
+     "estilo": "fuerte",
+     "salto": false
+    },
+    {
+     "texto": "en",
+     "desde": 951,
+     "estilo": "remate",
+     "salto": true
+    },
+    {
+     "texto": "nacer",
+     "desde": 955,
+     "estilo": "remate",
+     "salto": false
+    }
+   ]
+  },
+  {
+   "desde": 975,
+   "hasta": 1036,
+   "y": 0.665,
+   "palabras": [
+    {
+     "texto": "pero",
+     "desde": 975,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "la",
+     "desde": 981,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "selva",
+     "desde": 985,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "sigue",
+     "desde": 994,
+     "estilo": "relleno",
+     "salto": true
+    },
+    {
+     "texto": "siendo",
+     "desde": 1002,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "un",
+     "desde": 1009,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "MISTERIO",
+     "desde": 1012,
+     "estilo": "fuerte",
+     "salto": true
+    }
+   ]
+  },
+  {
+   "desde": 1036,
+   "hasta": 1111,
+   "y": 0.665,
+   "palabras": [
+    {
+     "texto": "¿te",
+     "desde": 1036,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "imaginas",
+     "desde": 1040,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "encontrar",
+     "desde": 1056,
+     "estilo": "relleno",
+     "salto": true
+    },
+    {
+     "texto": "esto",
+     "desde": 1072,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "en",
+     "desde": 1080,
+     "estilo": "remate",
+     "salto": true
+    },
+    {
+     "texto": "el",
+     "desde": 1082,
+     "estilo": "remate",
+     "salto": false
+    },
+    {
+     "texto": "AMAZONAS?",
+     "desde": 1086,
+     "estilo": "fuerte",
+     "salto": true
+    }
+   ]
+  },
+  {
+   "desde": 1111,
+   "hasta": 1159,
+   "y": 0.6,
+   "palabras": [
+    {
+     "texto": "cuéntamelo",
+     "desde": 1111,
+     "estilo": "remate",
+     "salto": false
+    },
+    {
+     "texto": "en",
+     "desde": 1127,
+     "estilo": "relleno",
+     "salto": true
+    },
+    {
+     "texto": "comentarios",
+     "desde": 1130,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "y",
+     "desde": 1156,
+     "estilo": "relleno",
+     "salto": false
+    }
+   ]
+  },
+  {
+   "desde": 1159,
+   "hasta": 99999,
+   "y": 0.6,
+   "palabras": [
+    {
+     "texto": "SÍGUEME",
+     "desde": 1159,
+     "estilo": "fuerte",
+     "salto": false
+    },
+    {
+     "texto": "para",
+     "desde": 1177,
+     "estilo": "relleno",
+     "salto": true
+    },
+    {
+     "texto": "conocer",
+     "desde": 1184,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "mejor",
+     "desde": 1198,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "a",
+     "desde": 1214,
+     "estilo": "relleno",
+     "salto": false
+    },
+    {
+     "texto": "Zafira",
+     "desde": 1218,
+     "estilo": "remate",
+     "salto": true
+    }
+   ]
+  }
+ ],
+ "momentos": {
+  "especie": 57,
+  "termitero": 161,
+  "nace": 452,
+  "poquisimos": 678,
+  "misterio": 1012,
+  "sigueme": 1159
+ }
+}

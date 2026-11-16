@@ -1,0 +1,859 @@
+{
+ "r01-tortitas-avena-platano": {
+  "titulo": [
+   "ganar músculo",
+   "tortitas de avena y plátano"
+  ],
+  "claves": "tortitas|avena|plátano|correr|ochenta|huevos|batidora|juzga|sartén|burbujas|vuelta|frutos|rojos|miel|desayunar|aburrido|músculo|grasa|masa|rendir|recuperar|proteína|calorías|ganar|perder",
+  "bloques": [
+   {
+    "etiqueta": "la masa",
+    "valor": "80 g",
+    "texto": "avena + 1 plátano + 2 huevos"
+   },
+   {
+    "etiqueta": "a la sartén",
+    "valor": "2 min",
+    "texto": "por cada lado"
+   },
+   {
+    "etiqueta": "por encima",
+    "valor": "frutos rojos",
+    "texto": "+ un hilo de miel"
+   },
+   {
+    "n": "✓",
+    "etiqueta": "macros",
+    "valor": "≈ 600 kcal",
+    "texto": "24 g de proteína"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y hoy te va a enseñar la receta de sus tortitas de avena y plátano para ganar músculo desde el desayuno.",
+    "need": "gancho personal: café chiringuito → tortitas-miel"
+   },
+   {
+    "txt": "Empezamos con ochenta gramos de avena, un plátano bien maduro y dos huevos.",
+    "b": 0,
+    "need": "avena-vertiendo, platano-cortando, huevo-rompiendo"
+   },
+   {
+    "txt": "Todo a la batidora, sin miedo, que aquí nadie juzga.",
+    "b": 0,
+    "need": "batidora-masa"
+   },
+   {
+    "txt": "Sartén antiadherente a fuego medio y una gota de aceite. Cuando salgan burbujas, vuelta y vuelta, con la confianza de quien lo ha hecho mil veces.",
+    "b": 1,
+    "need": "aceite, tortita-sarten"
+   },
+   {
+    "txt": "Por encima, frutos rojos y un hilo de miel, que el entreno se lo ha ganado.",
+    "b": 2,
+    "need": "frutos-rojos, tortitas-miel"
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que el músculo también se gana en la cocina.",
+    "b": 3,
+    "need": "tortitas-miel + personal correr"
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "need": "personal cara"
+   }
+  ]
+ },
+ "r02-bowl-pollo-teriyaki": {
+  "titulo": [
+   "ganar músculo",
+   "bowl teriyaki · 55 g de proteína"
+  ],
+  "claves": "bowl|pollo|teriyaki|entrenar|pechuga|dados|piedad|sartén|dore|salsa|soja|miel|ajo|arroz|brócoli|sésamo|restaurante|sano|triste|músculo|grasa|masa|rendir|recuperar|proteína|calorías|ganar|perder",
+  "bloques": [
+   {
+    "etiqueta": "el pollo",
+    "valor": "200 g",
+    "texto": "de pechuga en dados"
+   },
+   {
+    "etiqueta": "la salsa",
+    "valor": "2 + 1",
+    "texto": "cucharadas de soja + miel"
+   },
+   {
+    "etiqueta": "la base",
+    "valor": "80 g",
+    "texto": "de arroz (en crudo) + brócoli"
+   },
+   {
+    "n": "✓",
+    "etiqueta": "macros",
+    "valor": "≈ 650 kcal",
+    "texto": "55 g de proteína"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y hoy te va a enseñar la receta de su bowl de pollo teriyaki para ganar músculo, con más de cincuenta gramos de proteína en un solo plato.",
+    "need": "gancho personal gym → bowl-emplatado"
+   },
+   {
+    "txt": "Empezamos cortando una pechuga en dados, sin piedad. A la sartén con un poco de aceite hasta que se dore.",
+    "b": 0,
+    "need": "pollo-cortando, pollo-sarten"
+   },
+   {
+    "txt": "Para la salsa: soja, un poco de miel y ajo, que el pollo solo no se lo come ni el pollo.",
+    "b": 1,
+    "need": "soja, miel, ajo"
+   },
+   {
+    "txt": "Mientras, arroz y brócoli al vapor.",
+    "b": 2,
+    "need": "arroz, brocoli"
+   },
+   {
+    "txt": "Se monta el bowl, salsa por encima y sésamo, que le da un toque de restaurante que no te mereces.",
+    "b": 2,
+    "need": "bowl-emplatado, sesamo"
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que comer para ganar músculo no es comer triste.",
+    "b": 3,
+    "need": "bowl + personal"
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "need": "personal cara"
+   }
+  ]
+ },
+ "r03-avena-nocturna": {
+  "titulo": [
+   "perder grasa",
+   "avena de la noche anterior"
+  ],
+  "claves": "avena|noche|correr|prisa|tarro|cincuenta|yogur|griego|leche|chía|nevera|dormir|frutos|rojos|cuchara|desayunar|tiempo|músculo|grasa|masa|rendir|recuperar|proteína|calorías|ganar|perder",
+  "bloques": [
+   {
+    "etiqueta": "en un tarro",
+    "valor": "50 g",
+    "texto": "avena + 1 yogur griego + leche"
+   },
+   {
+    "etiqueta": "chía",
+    "valor": "1",
+    "texto": "cucharada"
+   },
+   {
+    "etiqueta": "a la nevera",
+    "valor": "toda la noche",
+    "texto": "mínimo 4 horas"
+   },
+   {
+    "etiqueta": "por la mañana",
+    "valor": "frutos rojos",
+    "texto": "por encima"
+   },
+   {
+    "n": "✓",
+    "etiqueta": "macros",
+    "valor": "≈ 450 kcal",
+    "texto": "25 g de proteína"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y hoy te va a enseñar la receta de su avena de la noche anterior para perder grasa sin pasar hambre por la mañana.",
+    "need": "gancho personal correr amanecer → avena-tarro"
+   },
+   {
+    "txt": "En un tarro, cincuenta gramos de avena, un yogur griego y un chorro de leche.",
+    "b": 0,
+    "need": "avena-tarro, yogur, leche"
+   },
+   {
+    "txt": "Una cucharada de chía, que hace como que no hace nada, pero hace.",
+    "b": 1,
+    "need": "chia"
+   },
+   {
+    "txt": "Se remueve, se tapa y a la nevera, a dormir, igual que él.",
+    "b": 2,
+    "need": "avena-tarro, nevera"
+   },
+   {
+    "txt": "Por la mañana, frutos rojos por encima y a comer, con cuchara y sin pensar.",
+    "b": 3,
+    "need": "frutos-rojos, yogur-cuchara"
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que perder grasa no va de saltarse el desayuno.",
+    "b": 4,
+    "need": "personal correr + tarro"
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "need": "personal cara"
+   }
+  ]
+ },
+ "r04-pasta-atun-tomate": {
+  "titulo": [
+   "rendir más",
+   "pasta con atún para el entreno"
+  ],
+  "claves": "pasta|tirada|larga|maratón|hidratos|agua|sal|delito|ajo|cebolla|tomate|atún|lento|dente|queso|correr|buenísimo|músculo|grasa|masa|rendir|recuperar|proteína|calorías|ganar|perder",
+  "bloques": [
+   {
+    "etiqueta": "la pasta",
+    "valor": "100 g",
+    "texto": "en crudo"
+   },
+   {
+    "etiqueta": "el sofrito",
+    "valor": "ajo + cebolla",
+    "texto": "con un poco de aceite"
+   },
+   {
+    "etiqueta": "la salsa",
+    "valor": "1 lata",
+    "texto": "de atún + tomate triturado"
+   },
+   {
+    "n": "✓",
+    "etiqueta": "macros",
+    "valor": "≈ 700 kcal",
+    "texto": "40 g de proteína"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y hoy te va a enseñar la receta de su pasta con atún para rendir en el entreno y ganar músculo, que prepara un maratón y los hidratos no se negocian.",
+    "need": "gancho personal correr dunas → plato-pasta"
+   },
+   {
+    "txt": "Empezamos poniendo agua a hervir, con sal, que la pasta sosa es un delito.",
+    "b": 0,
+    "need": "pasta-hirviendo, sal"
+   },
+   {
+    "txt": "Mientras, en una sartén, ajo y cebolla picados con un poco de aceite.",
+    "b": 1,
+    "need": "ajo-cebolla, aceite"
+   },
+   {
+    "txt": "Tomate triturado, una lata de atún y a fuego lento.",
+    "b": 2,
+    "need": "tomate-salsa, atun-lata"
+   },
+   {
+    "txt": "Pasta al dente, a la salsa, y un poco de queso por encima.",
+    "b": 2,
+    "need": "plato-pasta, queso"
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que los hidratos no son el enemigo, son la gasolina.",
+    "b": 3,
+    "need": "personal correr + plato"
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "need": "personal cara"
+   }
+  ]
+ },
+ "r05-tortilla-claras-espinacas": {
+  "titulo": [
+   "perder grasa",
+   "cena de 300 kcal y 30 g de proteína"
+  ],
+  "claves": "cena|cocinar|tortilla|claras|espinacas|yema|bate|sal|pimienta|proteínas|menguan|motivación|lunes|dobla|tostada|diez|domicilio|músculo|grasa|masa|rendir|recuperar|proteína|calorías|ganar|perder",
+  "bloques": [
+   {
+    "etiqueta": "las claras",
+    "valor": "4 + 1",
+    "texto": "claras + 1 huevo entero"
+   },
+   {
+    "etiqueta": "espinacas",
+    "valor": "1 puñado",
+    "texto": "grande"
+   },
+   {
+    "etiqueta": "a la sartén",
+    "valor": "fuego medio",
+    "texto": "y se dobla"
+   },
+   {
+    "n": "✓",
+    "etiqueta": "macros",
+    "valor": "≈ 300 kcal",
+    "texto": "30 g de proteína"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y hoy te va a enseñar la receta de su cena para perder grasa: tortilla de claras con espinacas, mucha proteína y casi nada de calorías.",
+    "need": "gancho personal → tortilla"
+   },
+   {
+    "txt": "Separa las claras, y si se cuela alguna yema, tampoco pasa nada. Las bate con sal y pimienta como si fuera un batido de proteínas.",
+    "b": 0,
+    "need": "claras-separando, batir-huevos"
+   },
+   {
+    "txt": "Espinacas a la sartén, que menguan más que la motivación un lunes.",
+    "b": 1,
+    "need": "espinacas-sarten"
+   },
+   {
+    "txt": "Encima, las claras, fuego medio y se dobla por la mitad. Con una tostada al lado, cena hecha en diez minutos.",
+    "b": 2,
+    "need": "tortilla-francesa, tostada"
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que perder grasa no es cenar una manzana.",
+    "b": 3,
+    "need": "tortilla + personal"
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "need": "personal cara"
+   }
+  ]
+ },
+ "r06-salmon-al-horno": {
+  "titulo": [
+   "recuperar",
+   "salmón al horno con patata"
+  ],
+  "claves": "salmón|horno|cena|entreno|fuerte|patata|rodajas|tarda|limón|espárragos|aceite|bandeja|veinte|doscientos|ducharse|fácil|músculo|grasa|masa|rendir|recuperar|proteína|calorías|ganar|perder",
+  "bloques": [
+   {
+    "etiqueta": "la patata",
+    "valor": "200 g",
+    "texto": "en rodajas finas"
+   },
+   {
+    "etiqueta": "el salmón",
+    "valor": "150 g",
+    "texto": "sal, pimienta y limón"
+   },
+   {
+    "etiqueta": "al horno",
+    "valor": "20 min",
+    "texto": "a 200 °C"
+   },
+   {
+    "n": "✓",
+    "etiqueta": "macros",
+    "valor": "≈ 600 kcal",
+    "texto": "35 g de proteína"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y hoy te va a enseñar la receta de su salmón al horno para recuperar el músculo después de un entreno fuerte.",
+    "need": "gancho personal gym → salmon-emplatado"
+   },
+   {
+    "txt": "Empezamos con la patata en rodajas, que va primero porque tarda más.",
+    "b": 0,
+    "need": "patata-cortando"
+   },
+   {
+    "txt": "Un lomo de salmón con sal, pimienta y limón, sin complicarse la vida.",
+    "b": 1,
+    "need": "salmon-crudo, limon, sal-pimienta"
+   },
+   {
+    "txt": "Unos espárragos al lado, aceite de oliva por encima y todo a la bandeja. Veinte minutos a doscientos grados, que es justo lo que tarda en ducharse.",
+    "b": 2,
+    "need": "esparragos, aceite, horno-bandeja, personal ducha"
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que recuperar bien empieza en el plato.",
+    "b": 3,
+    "need": "salmon-emplatado"
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "need": "personal cara"
+   }
+  ]
+ },
+ "r07-batido-post-entreno": {
+  "titulo": [
+   "ganar masa",
+   "batido de 500 kcal en 2 minutos"
+  ],
+  "claves": "batido|entrenar|postre|comida|batidora|plátano|cacito|proteína|leche|crema|cacahuete|magia|hielo|avión|vaso|chupito|recuperar|riquísimo|músculo|grasa|masa|rendir|recuperar|proteína|calorías|ganar|perder",
+  "bloques": [
+   {
+    "etiqueta": "la base",
+    "valor": "1 + 1",
+    "texto": "plátano + cacito de proteína"
+   },
+   {
+    "etiqueta": "el truco",
+    "valor": "15 g",
+    "texto": "de crema de cacahuete"
+   },
+   {
+    "etiqueta": "a batir",
+    "valor": "300 ml",
+    "texto": "de leche + hielo"
+   },
+   {
+    "n": "✓",
+    "etiqueta": "macros",
+    "valor": "≈ 500 kcal",
+    "texto": "35 g de proteína"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y hoy te va a enseñar la receta de su batido para ganar masa muscular, el que sabe a postre pero cuenta como comida.",
+    "need": "gancho personal gym bebe → batido-vertiendo"
+   },
+   {
+    "txt": "A la batidora: un plátano, un cacito de proteína y leche.",
+    "b": 0,
+    "need": "platano-batidora, proteina, leche"
+   },
+   {
+    "txt": "Una cucharada de crema de cacahuete, que es la que hace la magia.",
+    "b": 1,
+    "need": "crema-cacahuete"
+   },
+   {
+    "txt": "Hielo si hace calor, y a batir hasta que suene como un avión despegando. Se sirve en vaso grande, que esto no es un chupito.",
+    "b": 2,
+    "need": "batidora, batido-vertiendo"
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que ganar masa también puede estar riquísimo.",
+    "b": 3,
+    "need": "personal bebe garrafa/lata"
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "need": "personal cara"
+   }
+  ]
+ },
+ "d01-dia-maraton": {
+  "titulo": [
+   "ganar músculo",
+   "lo que come en un día"
+  ],
+  "claves": "maratón|desayuno|tostadas|huevos|café|tirada|plátano|dátiles|gasolina|pasta|atún|hidratos|celebran|merienda|yogur|cena|salmón|recupera|correr|comer|músculo|grasa|masa|rendir|recuperar|proteína|calorías|ganar|perder",
+  "bloques": [
+   {
+    "etiqueta": "desayuno",
+    "valor": "≈ 550 kcal",
+    "texto": "tostadas + huevos + café"
+   },
+   {
+    "etiqueta": "media mañana",
+    "valor": "≈ 200 kcal",
+    "texto": "plátano + 2 dátiles"
+   },
+   {
+    "etiqueta": "comida",
+    "valor": "≈ 900 kcal",
+    "texto": "pasta con atún"
+   },
+   {
+    "etiqueta": "merienda",
+    "valor": "≈ 400 kcal",
+    "texto": "yogur + avena + frutos rojos"
+   },
+   {
+    "etiqueta": "cena",
+    "valor": "≈ 700 kcal",
+    "texto": "salmón con patata"
+   },
+   {
+    "n": "✓",
+    "etiqueta": "total del día",
+    "valor": "≈ 2750 kcal",
+    "texto": "130 g de proteína"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y hoy te va a enseñar lo que come en un día para ganar músculo.",
+    "need": "gancho personal correr"
+   },
+   {
+    "txt": "Desayuno: tostadas con aceite, huevos revueltos y un café, que sin café no entrena nadie.",
+    "b": 0,
+    "need": "tostada, huevos-revueltos, cafe"
+   },
+   {
+    "txt": "A media mañana, un plátano y un par de dátiles, gasolina para el gimnasio.",
+    "b": 1,
+    "need": "platano, datiles, personal correr"
+   },
+   {
+    "txt": "Comida: plato grande de pasta con atún, que para crecer hay que comer.",
+    "b": 2,
+    "need": "pasta"
+   },
+   {
+    "txt": "Merienda: yogur griego con avena y frutos rojos.",
+    "b": 3,
+    "need": "yogur, frutos-rojos"
+   },
+   {
+    "txt": "Y para cenar, salmón con patata, que el músculo también se construye por la noche.",
+    "b": 4,
+    "need": "salmon"
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que para ganar músculo hay que entrenar, pero también comer.",
+    "b": 5,
+    "need": "personal correr"
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "need": "personal cara"
+   }
+  ]
+ },
+ "d02-dia-definir-sin-hambre": {
+  "titulo": [
+   "perder grasa",
+   "un día de comida sin pasar hambre"
+  ],
+  "claves": "definir|hambre|desayuno|tortilla|claras|espinacas|tostada|sacia|kiwi|frutos|secos|contados|oso|ensalada|pollo|volumen|merienda|yogur|salmón|espárragos|agua|sed|músculo|grasa|masa|rendir|recuperar|proteína|calorías|ganar|perder",
+  "bloques": [
+   {
+    "etiqueta": "desayuno",
+    "valor": "≈ 400 kcal",
+    "texto": "tortilla de claras + tostada"
+   },
+   {
+    "etiqueta": "media mañana",
+    "valor": "≈ 200 kcal",
+    "texto": "kiwi + 20 g de frutos secos"
+   },
+   {
+    "etiqueta": "comida",
+    "valor": "≈ 600 kcal",
+    "texto": "ensalada grande con pollo"
+   },
+   {
+    "etiqueta": "merienda",
+    "valor": "≈ 200 kcal",
+    "texto": "yogur griego + frutos rojos"
+   },
+   {
+    "etiqueta": "cena",
+    "valor": "≈ 550 kcal",
+    "texto": "salmón con espárragos"
+   },
+   {
+    "etiqueta": "todo el día",
+    "valor": "2–3 L",
+    "texto": "de agua"
+   },
+   {
+    "n": "✓",
+    "etiqueta": "total del día",
+    "valor": "≈ 1950 kcal",
+    "texto": "150 g de proteína"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y hoy te va a enseñar lo que come en un día para perder grasa sin pasar hambre.",
+    "need": "gancho personal físico"
+   },
+   {
+    "txt": "Desayuno: tortilla de claras con espinacas y una tostada, que saciar, sacia.",
+    "b": 0,
+    "need": "tortilla, espinacas"
+   },
+   {
+    "txt": "A media mañana, un kiwi y un puñado de frutos secos, contados, no a puñados de oso.",
+    "b": 1,
+    "need": "kiwi, frutos-secos"
+   },
+   {
+    "txt": "Comida: ensalada grande con pollo, que volumen hay de sobra.",
+    "b": 2,
+    "need": "ensalada-pollo"
+   },
+   {
+    "txt": "Merienda: yogur griego con frutos rojos.",
+    "b": 3,
+    "need": "yogur, frutos-rojos"
+   },
+   {
+    "txt": "Y para cenar, salmón con espárragos, ligero pero de verdad.",
+    "b": 4,
+    "need": "salmon, esparragos"
+   },
+   {
+    "txt": "Mucha agua durante todo el día, que la sed a veces se disfraza de hambre.",
+    "b": 5,
+    "need": "agua-vaso, personal bebe"
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que perder grasa no es pasar hambre.",
+    "b": 6,
+    "need": "personal físico"
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "need": "personal cara"
+   }
+  ]
+ },
+ "d03-dia-menos-de-5-euros": {
+  "titulo": [
+   "ganar músculo",
+   "un día de comida por menos de 5 €"
+  ],
+  "claves": "cinco|euros|desayuno|avena|leche|plátano|céntimos|arroz|huevos|atún|estudiante|merienda|yogur|fruta|cena|tortilla|pan|tomate|súper|proteína|caro|músculo|grasa|masa|rendir|recuperar|proteína|calorías|ganar|perder",
+  "bloques": [
+   {
+    "etiqueta": "desayuno",
+    "valor": "0,60 €",
+    "texto": "avena con leche + plátano"
+   },
+   {
+    "etiqueta": "comida",
+    "valor": "1,80 €",
+    "texto": "arroz + 2 huevos + atún"
+   },
+   {
+    "etiqueta": "merienda",
+    "valor": "0,70 €",
+    "texto": "yogur + fruta"
+   },
+   {
+    "etiqueta": "cena",
+    "valor": "1,20 €",
+    "texto": "tortilla + pan con tomate"
+   },
+   {
+    "n": "✓",
+    "etiqueta": "total del día",
+    "valor": "4,30 €",
+    "texto": "más de 100 g de proteína"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y hoy te va a enseñar lo que come en un día para ganar músculo con menos de cinco euros.",
+    "need": "gancho personal"
+   },
+   {
+    "txt": "Desayuno: avena con leche y un plátano, que por sesenta céntimos no hay nada que lo supere.",
+    "b": 0,
+    "need": "avena, leche, platano"
+   },
+   {
+    "txt": "Comida: arroz con huevos y una lata de atún, el clásico del estudiante que nunca falla.",
+    "b": 1,
+    "need": "arroz, huevo, atun"
+   },
+   {
+    "txt": "Merienda: un yogur y una pieza de fruta.",
+    "b": 2,
+    "need": "yogur, fruta"
+   },
+   {
+    "txt": "Cena: tortilla francesa con pan y tomate.",
+    "b": 3,
+    "need": "tortilla, pan"
+   },
+   {
+    "txt": "Todo del súper, nada raro, y con más de cien gramos de proteína.",
+    "b": 4,
+    "need": "supermercado, bolsa-compra"
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que ganar músculo no tiene por qué ser caro.",
+    "b": 4,
+    "need": "personal"
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "need": "personal cara"
+   }
+  ]
+ },
+ "d04-dia-entreno-doble": {
+  "titulo": [
+   "rendir el doble",
+   "un día de comida con entreno doble"
+  ],
+  "claves": "doble|medio|ironman|dos|desayuno|avena|frutos|rojos|noche|gimnasio|batido|plátano|proteína|bowl|pollo|arroz|brócoli|correr|tostada|miel|pasta|atún|mañana|puede|también|músculo|grasa|masa|rendir|recuperar|proteína|calorías|ganar|perder",
+  "bloques": [
+   {
+    "etiqueta": "desayuno",
+    "valor": "≈ 450 kcal",
+    "texto": "avena nocturna + frutos rojos"
+   },
+   {
+    "etiqueta": "después del gym",
+    "valor": "≈ 500 kcal",
+    "texto": "batido de plátano y proteína"
+   },
+   {
+    "etiqueta": "comida",
+    "valor": "≈ 750 kcal",
+    "texto": "bowl de pollo, arroz y brócoli"
+   },
+   {
+    "etiqueta": "antes de correr",
+    "valor": "≈ 250 kcal",
+    "texto": "tostada con miel"
+   },
+   {
+    "etiqueta": "cena",
+    "valor": "≈ 750 kcal",
+    "texto": "pasta con atún"
+   },
+   {
+    "n": "✓",
+    "etiqueta": "total del día",
+    "valor": "≈ 2700 kcal",
+    "texto": "150 g de proteína"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y hoy te va a enseñar lo que come en un día para rendir en un entreno doble, porque prepara un medio Ironman.",
+    "need": "gancho personal gym + correr"
+   },
+   {
+    "txt": "Desayuno: avena nocturna con frutos rojos, preparada la noche anterior.",
+    "b": 0,
+    "need": "avena-tarro, frutos"
+   },
+   {
+    "txt": "Después del gimnasio, batido de plátano y proteína, en vaso grande.",
+    "b": 1,
+    "need": "personal gym, batido"
+   },
+   {
+    "txt": "Comida: bowl de pollo con arroz y brócoli, el de toda la vida.",
+    "b": 2,
+    "need": "pollo, arroz, bowl"
+   },
+   {
+    "txt": "Antes de salir a correr, tostada con miel.",
+    "b": 3,
+    "need": "tostada, miel, personal correr"
+   },
+   {
+    "txt": "Y para cenar, pasta con atún, que mañana hay más.",
+    "b": 4,
+    "need": "pasta"
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que para rendir el doble hay que comer bien.",
+    "b": 5,
+    "need": "personal"
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "need": "personal cara"
+   }
+  ]
+ },
+ "d05-dia-de-descanso": {
+  "titulo": [
+   "día de descanso",
+   "sin perder músculo"
+  ],
+  "claves": "descanso|cuenta|desayuno|prisas|tostada|aguacate|huevo|café|terraza|arroz|pollo|verduras|comer|merienda|tortitas|avena|capricho|ensalada|salmón|hidratos|proteína|músculo|descansando|plan|músculo|grasa|masa|rendir|recuperar|proteína|calorías|ganar|perder",
+  "bloques": [
+   {
+    "etiqueta": "desayuno",
+    "valor": "≈ 500 kcal",
+    "texto": "tostada de aguacate y huevo + café"
+   },
+   {
+    "etiqueta": "comida",
+    "valor": "≈ 650 kcal",
+    "texto": "arroz con pollo y verduras"
+   },
+   {
+    "etiqueta": "merienda",
+    "valor": "≈ 400 kcal",
+    "texto": "tortitas de avena"
+   },
+   {
+    "etiqueta": "cena",
+    "valor": "≈ 500 kcal",
+    "texto": "ensalada con salmón"
+   },
+   {
+    "n": "✓",
+    "etiqueta": "total del día",
+    "valor": "≈ 2050 kcal",
+    "texto": "130 g de proteína"
+   }
+  ],
+  "segs": [
+   {
+    "txt": "Este es Lucas y hoy te va a enseñar lo que come en un día de descanso para seguir ganando músculo.",
+    "need": "gancho personal café"
+   },
+   {
+    "txt": "Desayuno sin prisas: tostada de aguacate con huevo y un buen café en una terraza.",
+    "b": 0,
+    "need": "tostada-aguacate, cafe, personal café chiringuito"
+   },
+   {
+    "txt": "Comida: arroz con pollo y verduras, que descansar no es dejar de comer.",
+    "b": 1,
+    "need": "arroz, pollo"
+   },
+   {
+    "txt": "Merienda: tortitas de avena, que algún capricho cae.",
+    "b": 2,
+    "need": "tortitas"
+   },
+   {
+    "txt": "Cena: ensalada con salmón.",
+    "b": 3,
+    "need": "salmon, ensalada"
+   },
+   {
+    "txt": "Menos hidratos que un día de entreno, pero la proteína igual, que el músculo se construye descansando.",
+    "b": 4,
+    "need": "personal ducha spa"
+   },
+   {
+    "txt": "Y una vez más, Lucas demuestra que el músculo crece cuando descansas.",
+    "b": 4,
+    "need": "personal café"
+   },
+   {
+    "txt": "Sígueme para más.",
+    "cierre": true,
+    "need": "personal cara"
+   }
+  ]
+ }
+}
