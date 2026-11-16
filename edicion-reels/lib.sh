@@ -119,8 +119,24 @@ instalar_skills() {
 }
 
 # ── Programas, skills y piezas pesadas: se instala solo lo que falte (lo usan instalar.sh y actualizar.sh) ──
-PROGRAMAS="gh ffmpeg ffprobe whisper-cli yt-dlp node npx python3"
-programas_que_faltan() { local c; for c in $PROGRAMAS; do command -v "$c" >/dev/null || printf '%s ' "$c"; done; }
+PROGRAMAS="gh ffmpeg ffprobe whisper-cli yt-dlp node npx"
+programas_que_faltan() {
+  local c; for c in $PROGRAMAS; do command -v "$c" >/dev/null || printf '%s ' "$c"; done
+  py_para_venv >/dev/null || printf 'python3 '
+}
+# Python con el que se crea la .venv: 3.10–3.13. Con 3.14 o más nuevo (lo que deja Homebrew como python3) faltan ruedas
+# precompiladas (scikit-image de rembg…), pip intenta compilarlas y falla. Imprime la ruta del ejecutable.
+PY_VENV_OK='import sys; sys.exit(0 if (3, 10) <= sys.version_info[:2] <= (3, 13) else 1)'
+py_para_venv() {
+  local c
+  for c in python3.12 python3.11 python3.13 python3.10 /opt/homebrew/opt/python@3.12/bin/python3.12 \
+           /usr/local/opt/python@3.12/bin/python3.12 python3; do
+    if command -v "$c" >/dev/null 2>&1 && "$c" -c "$PY_VENV_OK" >/dev/null 2>&1; then
+      "$c" -c 'import sys; print(sys.executable)'; return 0
+    fi
+  done
+  return 1
+}
 instalar_programas() {
   local falta pk=() c
   falta="$(programas_que_faltan)"
@@ -132,7 +148,7 @@ instalar_programas() {
       [ -x /opt/homebrew/bin/brew ] && eval "$(/opt/homebrew/bin/brew shellenv)"
       [ -x /usr/local/bin/brew ] && eval "$(/usr/local/bin/brew shellenv)"
     fi
-    for c in $falta; do case $c in whisper-cli) pk+=(whisper.cpp);; python3) pk+=(python);; ffprobe) pk+=(ffmpeg);; npx) pk+=(node);; *) pk+=("$c");; esac; done
+    for c in $falta; do case $c in whisper-cli) pk+=(whisper.cpp);; python3) pk+=(python@3.12);; ffprobe) pk+=(ffmpeg);; npx) pk+=(node);; *) pk+=("$c");; esac; done
     # shellcheck disable=SC2207
     pk=($(printf '%s\n' "${pk[@]}" | sort -u))
     brew install "${pk[@]}" || { echo "⚠️  brew install ${pk[*]} falló."; return 1; }
@@ -155,14 +171,35 @@ instalar_reelsmaker() {   # skill it-reelsmaker dentro de la carpeta de edición
 }
 
 instalar_pesados() {      # modelo Whisper, .venv de Python y node_modules (solo lo que falte)
-  local dest="$1" m="$1/herramientas/modelos/ggml-small.bin"
+  # Cada paso va por su cuenta (si falla uno, se hacen los demás) y al final se dice qué falta. Se vuelve a intentar en
+  # cada actualizar.sh hasta que quede bien: el modelo se baja a .part y solo se da por bueno entero; la .venv vale si su
+  # Python es 3.10–3.13 y pip acabó bien con este requirements.txt (.venv/.requisitos-ok); node_modules, si npm acabó
+  # bien (node_modules/.package-lock.json).
+  local dest="$1" m="$1/herramientas/modelos/ggml-small.bin" py pv="$1/herramientas/.venv/bin/python"
+  local req="$1/herramientas/requirements.txt" marca="$1/herramientas/.venv/.requisitos-ok" falta=""
   mkdir -p "$(dirname "$m")"
-  [ -f "$m" ] || { echo "  ↓ Modelo Whisper (465 MB)"; curl -fL --progress-bar -o "$m" https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin; }
-  if [ ! -x "$dest/herramientas/.venv/bin/python" ]; then
-    echo "  → Python (.venv)"; python3 -m venv "$dest/herramientas/.venv" &&
-    "$dest/herramientas/.venv/bin/pip" install -q -r "$dest/herramientas/requirements.txt"
+  if [ ! -f "$m" ]; then
+    echo "  ↓ Modelo Whisper (465 MB)"
+    if curl -fL --progress-bar -o "$m.part" https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin; then mv "$m.part" "$m"
+    else rm -f "$m.part"; falta="$falta modelo-Whisper"; fi
   fi
-  [ -d "$dest/estudio/node_modules" ] || { echo "  → Remotion (npm)"; (cd "$dest/estudio" && npm ci --no-audit --no-fund); }
+  if [ -x "$pv" ] && ! "$pv" -c "$PY_VENV_OK" >/dev/null 2>&1; then
+    echo "  → La .venv usa un Python que no vale (3.14 o más nuevo): se rehace"; rm -rf "$dest/herramientas/.venv"
+  fi
+  if [ ! -x "$pv" ] || [ "$(cat "$marca" 2>/dev/null)" != "$(sha "$req")" ]; then
+    if [ ! -x "$pv" ]; then
+      if py="$(py_para_venv)"; then
+        echo "  → Python (.venv con $("$py" -c 'import sys; print("%d.%d" % sys.version_info[:2])'))"
+        "$py" -m venv "$dest/herramientas/.venv" || rm -rf "$dest/herramientas/.venv"
+      else echo "  ⚠️  No hay Python 3.10–3.13 (brew install python@3.12)."; fi
+    fi
+    if [ -x "$pv" ] && echo "  → Paquetes de Python" && "$pv" -m pip install -q --disable-pip-version-check -r "$req"; then sha "$req" > "$marca"
+    else falta="$falta Python(.venv)"; fi
+  fi
+  if [ ! -f "$dest/estudio/node_modules/.package-lock.json" ]; then
+    echo "  → Remotion (npm)"; (cd "$dest/estudio" && npm ci --no-audit --no-fund) || falta="$falta Remotion(npm)"
+  fi
+  if [ -n "$falta" ]; then echo "⚠️  No quedó instalado:$falta. Mira el error de arriba y vuelve a lanzar: bash .claude/skills/edicion-reels/actualizar.sh"; return 1; fi
   echo "Modelo, Python y Remotion: al día."
 }
 

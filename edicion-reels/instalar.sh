@@ -42,7 +42,7 @@ echo "→ Skills de apoyo"; instalar_skills "$DEST"
 echo "→ Referencias estándar"; bajar_refs
 
 # 5. Pesados (modelo Whisper, .venv, node_modules)
-[ $LIGERO = 0 ] && { echo "→ Modelo, Python y Remotion"; instalar_pesados "$DEST"; }
+if [ $LIGERO = 0 ]; then echo "→ Modelo, Python y Remotion"; instalar_pesados "$DEST" || echo "⚠️  Revisa lo de arriba y lanza actualizar.sh."; fi
 
 # 6. Clave de ElevenLabs (opcional)
 pedir_clave_elevenlabs "$DEST"

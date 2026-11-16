@@ -18,7 +18,7 @@ echo "→ Referencias estándar"; bajar_refs || echo "⚠️  No se pudieron baj
 echo "→ Programas"; instalar_programas || echo "⚠️  Faltan programas (mira arriba)."
 echo "→ it-reelsmaker"; instalar_reelsmaker "$DEST"
 echo "→ Skills de apoyo"; instalar_skills "$DEST"
-echo "→ Modelo, Python y Remotion"; instalar_pesados "$DEST"
+echo "→ Modelo, Python y Remotion"; instalar_pesados "$DEST" || true
 fi
 
 echo "→ Plantilla (herramientas, componentes, config)"
