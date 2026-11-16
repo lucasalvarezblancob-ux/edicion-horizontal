@@ -54,7 +54,7 @@ pedir_clave_elevenlabs "$DEST"
 
 if [ -n "$CREADOR" ]; then cat <<FIN
 
-✓ Carpeta de edición lista: $DEST, con la personalización de «$CREADOR» ya hecha (personal/$CREADOR/).
+✓ Carpeta de edición lista: $DEST, con la personalización de «${CREADOR}» ya hecha (personal/${CREADOR}/).
 Sus recursos están en su disco duro: si arriba no salió «personal/$CREADOR/recursos → …», conecta el disco y lanza
   bash .claude/skills/$NOMBRE/conectar_disco.sh $CREADOR   (desde la carpeta de edición)
 Abre Claude Code en esa carpeta: cd "$DEST" && claude

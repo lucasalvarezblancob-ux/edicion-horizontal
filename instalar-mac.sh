@@ -25,19 +25,39 @@ while [ $# -gt 0 ]; do
 done
 [ "$(uname)" = Darwin ] || { echo "Esto es para macOS. En Windows: instalar.ps1 (ver README.md)."; exit 1; }
 
+# Command Line Tools de Xcode: sin ellas no hay git ni compilador y Homebrew no se instala (Mac recién estrenado)
+if ! xcode-select -p >/dev/null 2>&1; then
+  echo "→ Faltan las Command Line Tools de Xcode. Se abre una ventana para instalarlas: pulsa «Instalar» y espera a que"
+  echo "  termine (unos minutos). Luego vuelve a pegar el mismo comando en Terminal."
+  xcode-select --install >/dev/null 2>&1 || true
+  exit 1
+fi
+
 if ! command -v brew >/dev/null 2>&1; then
   echo "→ Homebrew (te pedirá la contraseña del Mac)"
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
-[ -x /opt/homebrew/bin/brew ] && eval "$(/opt/homebrew/bin/brew shellenv)"
-[ -x /usr/local/bin/brew ] && eval "$(/usr/local/bin/brew shellenv)"
+BREW=""
+[ -x /usr/local/bin/brew ] && BREW=/usr/local/bin/brew
+[ -x /opt/homebrew/bin/brew ] && BREW=/opt/homebrew/bin/brew
+[ -n "$BREW" ] || { echo "No se pudo instalar Homebrew: https://brew.sh"; exit 1; }
+eval "$("$BREW" shellenv)"
+# que las Terminales nuevas encuentren brew, ffmpeg, node, whisper-cli…
+if ! grep -qs 'brew shellenv' "$HOME/.zprofile"; then
+  printf '\n# Homebrew (lo añadió el instalador de Publiqo Edición)\neval "$(%s shellenv)"\n' "$BREW" >> "$HOME/.zprofile"
+fi
 
 echo "→ Programas (solo los que falten)"
 faltan=()
 for c in git ffmpeg node python3 yt-dlp gh; do
   command -v "$c" >/dev/null 2>&1 || faltan+=("$c")
 done
-python3 -c "import sys; sys.exit(0 if sys.version_info >= (3, 10) else 1)" 2>/dev/null || faltan+=(python)
+# la .venv de las skills necesita Python 3.10–3.13 (con 3.14+ faltan paquetes precompilados): python@3.12 si no hay
+tiene_py=0
+for c in python3.12 python3.11 python3.13 python3.10 python3; do
+  "$c" -c "import sys; sys.exit(0 if (3, 10) <= sys.version_info[:2] <= (3, 13) else 1)" 2>/dev/null && { tiene_py=1; break; }
+done
+[ $tiene_py = 1 ] || faltan+=(python)
 if [ ${#faltan[@]} -gt 0 ]; then
   pk=""; for c in "${faltan[@]}"; do case "$c" in python3|python) pk="$pk python@3.12";; *) pk="$pk $c";; esac; done
   # shellcheck disable=SC2086
@@ -47,6 +67,13 @@ fi
 if ! command -v claude >/dev/null 2>&1; then
   echo "→ Claude Code"
   curl -fsSL https://claude.ai/install.sh | bash || echo "⚠️  No se pudo instalar Claude Code: https://claude.com/claude-code"
+fi
+# Claude Code se instala en ~/.local/bin: que esté en el PATH de las Terminales nuevas
+if [ -x "$HOME/.local/bin/claude" ]; then
+  export PATH="$HOME/.local/bin:$PATH"
+  if ! grep -qs '\.local/bin' "$HOME/.zshrc"; then
+    printf '\n# Claude Code (lo añadió el instalador de Publiqo Edición)\nexport PATH="$HOME/.local/bin:$PATH"\n' >> "$HOME/.zshrc"
+  fi
 fi
 
 echo "→ Publiqo Edición en $SKILLS_DIR"
@@ -71,6 +98,6 @@ fi
 bash "$SKILLS_DIR/edicion-reels/instalar.sh" --adoptar "$REELS" ||
   echo "⚠️  La carpeta de reels no quedó completa: vuelve a lanzar este instalador o bash \"$SKILLS_DIR/edicion-reels/actualizar.sh\" \"$REELS\""
 echo
-echo "Listo. Abre la carpeta con Claude Code:"
+echo "Listo. Cierra esta ventana de Terminal y abre una nueva (para que encuentre los programas y claude), y luego:"
 echo "  vídeo horizontal (YouTube):  cd \"$CARPETA\" && claude"
 echo "  reels verticales:            cd \"$REELS\" && claude"

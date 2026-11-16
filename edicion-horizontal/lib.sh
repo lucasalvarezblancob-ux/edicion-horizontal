@@ -20,6 +20,20 @@ py_sistema() {
   done
   return 1
 }
+# Python con el que se crea la .venv: 3.10–3.13. Con 3.14 o más nuevo (lo que deja Homebrew como python3) faltan ruedas
+# precompiladas (av de faster-whisper, scikit-image de rembg…), pip intenta compilarlas y falla. Imprime la ruta.
+PY_VENV_OK='import sys; sys.exit(0 if (3, 10) <= sys.version_info[:2] <= (3, 13) else 1)'
+py_para_venv() {
+  local c
+  for c in python3.12 python3.11 python3.13 python3.10 /opt/homebrew/opt/python@3.12/bin/python3.12 \
+           /usr/local/opt/python@3.12/bin/python3.12 "py -3.12" "py -3.11" "py -3.13" python3 python; do
+    # shellcheck disable=SC2086
+    if command -v ${c%% *} >/dev/null 2>&1 && $c -c "$PY_VENV_OK" >/dev/null 2>&1; then
+      $c -c 'import sys; print(sys.executable)' | limpia; return 0
+    fi
+  done
+  return 1
+}
 # Python de la .venv de una carpeta de edición (Scripts\ en Windows, bin/ en macOS y Linux).
 py_venv() { if [ -x "$1/herramientas/.venv/Scripts/python.exe" ]; then echo "$1/herramientas/.venv/Scripts/python.exe"; else echo "$1/herramientas/.venv/bin/python"; fi; }
 
@@ -94,7 +108,7 @@ instalar_skills() {
 programas_que_faltan() {
   local c
   for c in ffmpeg ffprobe node npx; do command -v "$c" >/dev/null 2>&1 || printf '%s ' "$c"; done
-  py_sistema >/dev/null || printf 'python '
+  py_para_venv >/dev/null || printf 'python '
 }
 recomendados_que_faltan() {
   local c
@@ -116,7 +130,7 @@ paquete() {   # nombre del paquete de un programa: paquete <programa> winget|bre
   case "$2:$1" in
     winget:ffmpeg|winget:ffprobe) echo Gyan.FFmpeg;; winget:node|winget:npx) echo OpenJS.NodeJS.LTS;; winget:python) echo Python.Python.3.12;;
     winget:yt-dlp) echo yt-dlp.yt-dlp;; winget:gh) echo GitHub.cli;; winget:mpv) echo shinchiro.mpv;;
-    brew:ffprobe) echo ffmpeg;; brew:npx) echo node;; brew:*) echo "$1";;
+    brew:ffprobe) echo ffmpeg;; brew:npx) echo node;; brew:python) echo python@3.12;; brew:*) echo "$1";;
   esac
 }
 instalar_programas() {
@@ -151,21 +165,35 @@ instalar_programas() {
 }
 
 instalar_pesados() {      # .venv de Python y node_modules (solo lo que falte). Los modelos de voz se bajan solos al primer uso.
-  local dest="$1" py pv
+  # Cada paso va por su cuenta (si falla uno, se hacen los demás) y al final se dice qué falta. Se vuelve a intentar en
+  # cada actualizar.sh hasta que quede bien: la .venv vale si su Python es 3.10–3.13 y pip acabó bien con este
+  # requirements.txt (.venv/.requisitos-ok); node_modules, si npm acabó bien (node_modules/.package-lock.json).
+  local dest="$1" py pv req="$1/herramientas/requirements.txt" marca="$1/herramientas/.venv/.requisitos-ok" falta=""
   pv="$(py_venv "$dest")"
-  if [ ! -x "$pv" ]; then
-    py="$(py_sistema)" || { echo "⚠️  No hay Python 3.10 o superior."; return 1; }
-    echo "  → Python (.venv)"; "$py" -m venv "$dest/herramientas/.venv" || return 1
-    pv="$(py_venv "$dest")"
-    # Con gráfica NVIDIA (Windows/Linux), torch con CUDA: transcribir y alinear van ~10 veces más rápido.
-    if [ "$(uname)" != Darwin ] && command -v nvidia-smi >/dev/null 2>&1; then
-      "$pv" -m pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cu126 || echo "⚠️  torch con CUDA no se instaló; irá por CPU."
-    fi
-    "$pv" -m pip install -q -r "$dest/herramientas/requirements.txt" || { echo "⚠️  pip install falló."; return 1; }
+  if [ -x "$pv" ] && ! "$pv" -c "$PY_VENV_OK" >/dev/null 2>&1; then
+    echo "  → La .venv usa un Python que no vale (3.14 o más nuevo): se rehace"; rm -rf "$dest/herramientas/.venv"
   fi
-  [ -d "$dest/estudio/node_modules" ] || { echo "  → Remotion (npm)"; (cd "$dest/estudio" && npm ci --no-audit --no-fund) || return 1; }
+  if [ ! -x "$pv" ] || [ "$(limpia < "$marca" 2>/dev/null)" != "$(sha "$req")" ]; then
+    if [ ! -x "$pv" ]; then
+      if py="$(py_para_venv)"; then
+        echo "  → Python (.venv con $("$py" -c 'import sys; print("%d.%d" % sys.version_info[:2])'))"
+        "$py" -m venv "$dest/herramientas/.venv" || rm -rf "$dest/herramientas/.venv"
+      else echo "  ⚠️  No hay Python 3.10–3.13 (brew install python@3.12 / winget install -e --id Python.Python.3.12)."; fi
+      pv="$(py_venv "$dest")"
+      # Con gráfica NVIDIA (Windows/Linux), torch con CUDA: transcribir y alinear van ~10 veces más rápido.
+      if [ -x "$pv" ] && [ "$(uname)" != Darwin ] && command -v nvidia-smi >/dev/null 2>&1; then
+        "$pv" -m pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cu126 || echo "⚠️  torch con CUDA no se instaló; irá por CPU."
+      fi
+    fi
+    if [ -x "$pv" ] && echo "  → Paquetes de Python" && "$pv" -m pip install -q --disable-pip-version-check -r "$req"; then sha "$req" > "$marca"
+    else falta="$falta Python(.venv)"; fi
+  fi
+  if [ ! -f "$dest/estudio/node_modules/.package-lock.json" ]; then
+    echo "  → Remotion (npm)"; (cd "$dest/estudio" && npm ci --no-audit --no-fund) || falta="$falta Remotion(npm)"
+  fi
   # el navegador con el que Remotion renderiza las capas (si no, se bajaría en el primer render)
   (cd "$dest/estudio" && npx --no-install remotion browser ensure >/dev/null 2>&1) || echo "  ⚠️  No se pudo preparar el navegador de Remotion (se bajará solo en el primer render)."
+  if [ -n "$falta" ]; then echo "⚠️  No quedó instalado:$falta. Mira el error de arriba y vuelve a lanzar: bash .claude/skills/$NOMBRE/actualizar.sh"; return 1; fi
   echo "Python y Remotion: al día. (La primera transcripción baja el modelo de Whisper, ~1,6 GB, y la primera alineación el de MMS, ~1,2 GB.)"
 }
 
@@ -207,7 +235,7 @@ buscar_disco() {   # imprime la carpeta <disco>/Horizontal/personal/<n> que teng
 }
 instalar_creador() {
   local dest="$1" n="$2" src="$SKILL/creadores/$2" f d disco enlace
-  [ -d "$src/personal" ] || { echo "No hay creador «$n» en la skill (hay: $(creadores_incluidos | tr '
+  [ -d "$src/personal" ] || { echo "No hay creador «${n}» en la skill (hay: $(creadores_incluidos | tr '
 ' ' '))."; return 1; }
   (cd "$src" && find personal estudio -type f 2>/dev/null) | while IFS= read -r f; do
     case "$f" in personal/*) d="$dest/personal/$n/${f#personal/}";; *) d="$dest/$f";; esac
