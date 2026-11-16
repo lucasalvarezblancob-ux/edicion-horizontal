@@ -4,7 +4,8 @@ principio de una toma ("FIN corta voz") y palabras ajenas que se cuelan.
 
 Uso: herramientas/.venv/bin/python herramientas/revisar_cortes.py AUDIO_BRUTO.wav montaje.json [ruido_desde ruido_hasta]
   ruido_desde/hasta: segundos de un tramo SIN voz del bruto para medir el ruido de agudos (por defecto, el 20 % más bajo de todo).
-Lee cada aviso: "corta voz" = falta un trozo → corrígelo; "voz N ms después/antes" = hay algo al otro lado separado por un
+Ningún aviso se ignora, aunque haya muchos (2026-11-16: un "FIN corta voz" sin resolver dejó "construimos" en "construyo").
+Lee cada aviso: "corta voz" = falta un trozo → revisar_finales.py y corrígelo; "voz N ms después/antes" = hay algo al otro lado separado por un
 silencio corto: escúchalo/transcríbelo (apuntador, respiración, retoma descartada…) y decide. (2026-11-11, lagarto-caiman-nido)
 """
 import sys, json, numpy as np, librosa
@@ -15,7 +16,8 @@ W = 0.01; hop = int(W*sr)
 hf = sosfilt(butter(4, 3000, "highpass", fs=sr, output="sos"), y)
 rms = lambda x: np.array([20*np.log10(np.sqrt(np.mean(x[i:i+hop]**2))+1e-9) for i in range(0, len(x)-hop, hop)])
 db, dbh = rms(y), rms(hf); ruido_h = np.percentile(dbh[int(float(sys.argv[3])/W):int(float(sys.argv[4])/W)] if len(sys.argv) > 4 else dbh, 20)
-voz = (db > -40) | (dbh > ruido_h + 8); T = lambda t: int(round(t/W))
+# banda completa pegada al ruido (+6 dB), no un −40 fijo: las colas nasales y flojas ("-mos", "-n") van a −32/−40 dB
+voz = (db > np.percentile(db, 20) + 6) | (dbh > ruido_h + 8); T = lambda t: int(round(t/W))
 malos = 0
 for i, t in enumerate(m["tramos"]):
     a, b = t["desde"], t["hasta"]
@@ -26,6 +28,12 @@ for i, t in enumerate(m["tramos"]):
     if en_fin: msg.append("FIN corta voz")
     if len(antes): msg.append(f"voz {int((0.14-antes[-1]*W)*1000)} ms ANTES del inicio")
     if len(despues): msg.append(f"voz {int(despues[0]*W*1000)} ms DESPUÉS del fin")
+    if msg and t.get("fin_revisado") and msg == [x for x in msg if "FIN" in x or "DESPUÉS" in x]:
+        print(f"{i:2d} {a:7.2f}-{b:7.2f}  revisado ({t['fin_revisado']}): {'; '.join(msg)}   {t['nota'][:40]}"); continue
     malos += bool(msg)
     print(f"{i:2d} {a:7.2f}-{b:7.2f}  {'OK' if not msg else '⚠ ' + '; '.join(msg)}   {t['nota'][:40]}")
 print(f"{malos} tramos con aviso")
+if malos:
+    print("NINGÚN aviso se ignora (aunque haya varios). «FIN corta voz»: pasa revisar_finales.py (transcribe el final con el corte\n"
+          "y con margen). Si la palabra está entera y lo de después es una respiración o un ruido, anota en la toma de tomas.json\n"
+          "\"fin_revisado\": \"<qué comprobaste>\"; si no, alarga el corte.")
