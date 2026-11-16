@@ -535,6 +535,21 @@ escriben como los viajeros en español. Un título no se traduce: se vuelve a es
     Y **que el suelo no corte el cuerpo**: la única descartada de las 30 tenía al creador de pie con el césped a la
     altura de la cintura, como enterrado. Si está de pie, que se vea hasta el suelo o que lo corte el borde del
     encuadre; si no, agachado, sentado o detrás de algo que tape con sentido (una mesa, el borde de la cesta).
+27. **Molde de postal** (Lucas, 2026-11-16: «métele a la skill el molde»). Es la forma de la regla 26 en que la IA
+    pone casi todo. **De referencia, solo la cara** del creador (un retrato limpio de frente) **y el animal real si
+    sale** (una captura suya, con «ignore the man in image 2»). El escenario se inventa: espectacular, como una postal
+    de viaje, con luz de cine (hora dorada, rayos entre la niebla, luna azul, tormenta con rayo) y la ropa propia de
+    esa escena (vadeadores en el estanque, chubasquero en la tormenta, parka en el hielo). El animal o el objeto que
+    dice el título va **enorme y pegado a la cara**. La cara ocupa ~30 % del alto, mira a la lente en calma, con los
+    ojos abiertos y la boca cerrada. Sin texto. En Reino Selva, 20 de 20 vídeos de animales hechos desde cero
+    gustaron. En los reworks de sus paquetes ganó lo inventado cuando era **un objeto que cuenta el título** (el
+    fluorescente con su propio chubasquero, una carretilla convertida en estanque, el perro junto a un hoyo perfecto
+    en tierra de cemento). Perdió cuando el escenario inventado envolvía a **su animal real** en una escena que no
+    pudo pasar: su perro en un jardín japonés de fantasía cayó en las tres versiones, y un pajarito tirándose de un
+    trampolín también. Con su animal real, mejor una escena que pudo pasar exagerada (24) que una de fantasía. El
+    sufijo fijo lleva siempre dos cosas, porque sin ellas la IA falla: **ANATOMY** (los dos brazos unidos a los
+    hombros, manos de cinco dedos, nada que flote; un brazo «volando» tiró una miniatura) y **ni personas ni animales
+    que no se describan** (sin esto metió un jaguar que no se había pedido). Esqueleto en «El prompt», abajo.
 
 *Texto*: llevarlo o no es estilo del canal, no palanca (MB x0,99 con y x0,97 sin; NV lo lleva el 85 %, BB casi
 nunca). Lo que separa es **qué dice**. Hasta 4 palabras, legibles de un golpe a 168 px.
@@ -621,6 +636,31 @@ DO NOT ADD: watermarks, channel logo, any logo, brand or flag that is not in the
 pointing at visible things, question marks, extra faces, sunglasses or helmet, split screen, landmarks or flags that
 reveal <place>, anything small in the bottom-right corner, any event, animal or person that is not in the video.
 ```
+
+Esqueleto del **molde de postal** (regla 27). Prefijo y sufijo fijos; entre los dos, solo la escena. Se pega como un
+único párrafo:
+
+```
+Create a YouTube thumbnail, 16:9 landscape, everything important in the central area. Attached image 1 is the man:
+keep his exact face, hair, beard and build (same person, do not beautify, do not change his age). Ignore the
+background and clothes of the attached photo; dress him as described.
+[Image 2 is his <animal>: keep the exact same <animal> (species, size, coat/pattern); ignore the man in image 2.]
+SCENE: <spectacular place + time of day + light>. <The hero animal or prop that says the title, huge, right beside
+his face, doing what the title says>. He <pose: kneels / sits / stands waist-deep…> in <clothes of the scene>,
+<what his hands hold>.
+FRAMING: close shot, his face about 30 % of the frame height, well lit, looking straight into the lens, calm
+wide-eyed deadpan, mouth closed. His body is cut by the frame edge or by something meaningful in front, never by
+the ground. ANATOMY: both his arms clearly attached to his shoulders, normal hands with five fingers, no extra or
+floating limbs; animals with correct anatomy. No other people and no animals beyond those described.
+STYLE: like a top YouTube thumbnail: one huge hero prop or animal that tells the story, right next to his face; a
+spectacular, cinematic setting with dramatic light, like a travel postcard; bright saturated colors, clean
+uncluttered background, everything razor sharp. Photorealistic, like a real photo, not an illustration, no plastic
+AI skin. No text, no numbers, no logos, no watermarks, nothing in the bottom-right corner.
+```
+
+Cada imagen va en un **chat nuevo** y hay que borrar en el cuadro de texto lo que quede escrito antes de pegar: ChatGPT
+arrastra el borrador de una pestaña a otra y dos peticiones salieron mezcladas. **Al revisar cada imagen**: brazos y
+manos, especie, que no haya animales de más y que el suelo no corte el cuerpo.
 
 **Fotos del creador** (`personal/<creador>/recursos/creador/`): pídele una vez un juego de 10–12 retratos para
 miniaturas (fondo liso, luz suave de frente, de pecho hacia arriba, con la ropa de sus vídeos o la de la prueba, sin

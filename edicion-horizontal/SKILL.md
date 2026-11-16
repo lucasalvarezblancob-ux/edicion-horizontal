@@ -211,6 +211,14 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
      `out/AAAA-MM-DD_<slug>.txt`. Enseña en el chat los cinco títulos con el texto de su miniatura y la hoja.
    - Cuando vuelvan las miniaturas generadas: `miniatura.py final A <imagen> …` y mira `youtube/prueba.jpg` (a 168 px).
    - Lo que el creador elija y lo que gane el test se apunta (§ 3).
+   - **Lista de lo que se ha quedado fuera** (SIEMPRE, junto al paquete, sin que la pidan), sacada de
+     `trabajo/descartes.md` y de la cabecera del EDL, para que el creador diga si quiere añadir algo. Agrupada:
+     1) gracioso o con su toque (frases literales con bruto y minuto; también lo que se VE: muecas, gestos, cantos,
+     bailes, el perro); 2) imagen buena sin usar; 3) fuera a propósito y por qué, en una línea por tipo (dinero,
+     llamadas, logística, retomas, lo que pidió quitar). Termina con lo que tú meterías. Lo que elija → `_v2` y se
+     apunta en «Decisiones de Lucas sobre descartes» de `base/preferencias.md` (o en su `preferencias.md` si es gusto
+     suyo). Por qué: Lucas, 2026-11-16 (`prueba-3`): «al acabar de editar el video, a parte de dar el packaging, da una
+     lista de todo lo que se ha dejado fuera por si se quiere añadir».
 9. **Correcciones**: arréglalo, vuelve a renderizar solo lo afectado, entrega como `_v2`, `_v3`… y **apúntalo** (§ 3).
 10. **Cierre** (cuando el creador da el vídeo por terminado): brutos a `bruto terminado/` como
     `AAAA-MM-DD_<slug>_<nn>-<que-se-ve>.ext` (los que sirvan de recurso, a `personal/<creador>/recursos/<tema>/` con ficha), «Usado en» en el

@@ -147,8 +147,9 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
   Regla de mano al escribir el EDL: ante la duda entre dejar una frase con gracia o quitarla, **se deja**.
 - **El repaso de descartes es para cazar lo que se escapó, no para aplazar decisiones.** Si al leer
   `trabajo/descartes.md` algo «a lo mejor no se tenía que haber descartado», ya está decidido: **se mete antes de
-  renderizar** y no se le presenta a quien edita como «descarte». Al entregar se le cuenta qué entró en ese repaso y
-  qué se ha dejado fuera a propósito y por qué (lista corta). **Se pregunta antes solo lo de verdad dudoso**: lo que
+  renderizar** y no se le presenta a quien edita como «descarte». Al entregar se le cuenta qué entró en ese repaso y,
+  **junto al paquete de YouTube, la lista de TODO lo que se ha quedado fuera** para que diga si quiere añadir algo
+  (SKILL.md § 2, paso 8). **Se pregunta antes solo lo de verdad dudoso**: lo que
   toca a terceros o a su vida privada, promociones, lo que deja mal al creador, o lo que cambia la estructura del
   vídeo. Él dice sí o no; entonces se aplica.
   Por qué: Lucas, tras la v1 de `1311` (13:55, un tercio de lo hablado; en la lista de descartes iban cuatro momentos
@@ -223,6 +224,12 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
       minutos a regar», «echarle ese abono») y lo que **anuncia** que hará o explicará;
     - las **pequeñas derrotas** («un pequeño fallo, la voy a intentar rescatar», «no me quiero mojar los pies otra vez»).
     Fuera se quedó solo lo privado: una pregunta sobre el examen de un familiar y una llamada de teléfono.
+  - 2026-11-16 (`prueba-3` v3 → v4). Lucas: «creo que omites partes graciosas en los videos, y yo creo que a parte de
+    valor hay que dejar partes graciosas». **SÍ entra:** cuando el creador **canta, baila o hace el payaso mientras
+    trabaja** (taladrando de espaldas canta «Shot me down!… ¡Halalalala!… Se acabó»), aunque no diga nada útil y no se
+    le vea la cara: va entero, con su sonido, y el ritmo lo dan palabras-golpe de lo que canta (sin cara no hay corte
+    de escala). Una canción o un tarareo no son «tiempo muerto»: en el texto de la transcripción parecen ruido
+    («¡Halalalala!»), así que al leer `descartes.md` cuenta lo que se oye, no lo que se dice.
   - **NO entra** (los cuatro que quitó en `ramon`; el motivo no lo dijo, la lectura es mía):
     - hablar del **dinero** que le cuesta («a lot of money that I am putting in here»);
     - hablar de su **poca audiencia** o de cómo va el canal («I don't have much audience in English»);
