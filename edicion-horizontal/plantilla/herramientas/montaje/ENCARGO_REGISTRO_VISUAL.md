@@ -1,7 +1,7 @@
 # Encargo: registro visual de un bruto
 
 Plantilla del encargo que se le da a cada agente (uno por bruto; los brutos de más de ~9 min, partidos en rangos).
-Rellena lo que va entre `<…>` y pégalo como prompt. **Lanza los agentes de dos en dos** si el equipo tiene 16 GB de RAM.
+Rellena lo que va entre `<…>` y pégalo como prompt. **En Mac, lanza hasta 4–5 agentes a la vez**; en Windows con 16 GB de RAM, de dos en dos.
 
 ---
 

@@ -256,7 +256,8 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
   muere», «pon el medaka o algo relacionado, de los brutos o de los recursos», «poner recursos de la várzea o algún
   plano»). (vídeo: prueba-3)
 - **Antes de montar, registro visual de TODOS los brutos** (qué se ve en cada segundo): hojas densas del paso 0 + un
-  agente por bruto con `herramientas/montaje/ENCARGO_REGISTRO_VISUAL.md`, **de dos en dos** con 16 GB de RAM. Sin
+  agente por bruto con `herramientas/montaje/ENCARGO_REGISTRO_VISUAL.md`, **hasta 4–5 a la vez en Mac** (de dos en dos
+  en Windows con 16 GB de RAM). Sin
   registro no se eligen recursos. Por qué: «estudia a fondo los brutos».
 - Se eligen de `mejores_recursos` del registro, **se miran** (`tira.py`) y, con el plan hecho, **se revisan todos** con
   `hoja_recursos.py` antes de renderizar. Si el sujeto queda pequeño, zoom al sujeto; si no hay imagen de algo que se
@@ -526,7 +527,10 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
 - **Vídeo con transparencia en Remotion**: `.webm` VP9 `yuva420p` con `<OffthreadVideo transparent>` (componente `Clip`
   de `Graficos.tsx`); comprobado en el render de capas ProRes 4444. Para leerlo con ffmpeg hay que forzar
   `-c:v libvpx-vp9` antes de `-i` (el decodificador nativo pierde el alfa).
-- **16 GB de RAM**: agentes de dos en dos; no lances demucs, whisper y un render a la vez. Si el sistema mata un proceso
+- 2026-11-16 — **Registro visual en Mac: hasta 4–5 agentes en paralelo**, no de dos en dos. Por qué: Lucas, «el
+  registro visual en mac se puede hacer con más de dos agentes en paralelo, hasta 4-5». El de dos en dos queda para
+  Windows con 16 GB. En Mac, mira la memoria libre antes de la tanda (`memory_pressure`) y baja si va justa.
+- **16 GB de RAM (Windows)**: agentes de dos en dos; no lances demucs, whisper y un render a la vez. Si el sistema mata un proceso
   en segundo plano por memoria, no lo relances sin preguntar.
 - **Claude in Chrome**: si hay varios navegadores conectados, elige el del equipo del creador antes de abrir pestañas.
 - MapLibre dentro de Remotion no cargó en render (timeout de `delayRender`): mapas con imagen estática + SVG.

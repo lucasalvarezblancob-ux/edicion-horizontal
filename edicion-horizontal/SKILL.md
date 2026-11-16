@@ -120,7 +120,8 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
 1. **Estudiar los brutos a fondo (obligatorio)**:
    - Lee todas las transcripciones enteras.
    - **Registro visual**: un agente por bruto (los largos, por rangos de ~9 min) con
-     `herramientas/montaje/ENCARGO_REGISTRO_VISUAL.md`, **lanzados de dos en dos** (16 GB de RAM). Resultado:
+     `herramientas/montaje/ENCARGO_REGISTRO_VISUAL.md`, **en paralelo: hasta 4–5 a la vez en Mac**; de dos en dos en
+     Windows con 16 GB de RAM. Resultado:
      `visual/<clip>.json` con qué se ve en cada tramo, los mejores recursos, lo que hay que evitar y los desplazamientos.
    - **Cronología**: brutos en orden de grabación, dónde está el creador en cada uno, de dónde viene y a dónde dice que
      va. Los planos de desplazamiento se quedan en su trayecto (preferencias → Orden y continuidad).

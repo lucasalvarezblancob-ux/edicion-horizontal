@@ -23,7 +23,8 @@ En un vídeo horizontal hay **tres fuentes** de planos de recurso (los que van e
 
 1. `paso0_preparar.py` saca las **hojas densas**: un fotograma por segundo, 36 por hoja, con el segundo rotulado.
 2. **Un agente por bruto** (los de más de ~9 min, partidos en rangos) con el encargo de
-   `herramientas/montaje/ENCARGO_REGISTRO_VISUAL.md`, **de dos en dos** si el equipo tiene 16 GB. Cada uno mira todas las
+   `herramientas/montaje/ENCARGO_REGISTRO_VISUAL.md`, **hasta 4–5 a la vez en Mac**; de dos en dos en Windows con 16 GB.
+   Cada uno mira todas las
    hojas y escribe `bruto/<slug>-analisis/visual/<clip>.json`: `tramos` (qué se ve en cada momento, tipo, cámara, nota
    0–3 como recurso, de qué se habla), `mejores_recursos` (con inicio y final exactos) y `evitar` (paredes, barridos).
 3. Con eso se sabe **qué hay y qué no hay en imagen**. Lo que se nombra y no se ve se apunta para decírselo al creador.
@@ -73,7 +74,7 @@ tema y tiene su ficha. Sin ficha, el clip no existe: al montar se busca en el í
 - Vista general con `herramientas/hoja_contactos.sh CLIP hoja.jpg 1` (una celda por segundo) y, donde haya algo bueno,
   más fino (`… 0.25 <inicio> <duración>`) para dar inicio y final exactos.
 - Si hablan: `herramientas/transcribir.sh` (el idioma se detecta) → qué se dice y si el audio sirve.
-- Con muchos clips, agentes de dos en dos y se juntan las fichas.
+- Con muchos clips, agentes en paralelo (hasta 4–5 en Mac; de dos en dos en Windows con 16 GB) y se juntan las fichas.
 
 ## 4. La ficha en `recursos/INDICE.md`
 
