@@ -7,7 +7,8 @@ Uso:  paso4_render.py capas [TOPE_SEG]     con TOPE_SEG no empieza otro rango pa
       paso4_render.py tramos [auto|nvenc|x264|videotoolbox] [en_paralelo=2] [ids de tramo ...]
       paso4_render.py unir ../AAAA-MM-DD_<slug>.mp4
 Reanudable: lo que ya existe no se repite. Si cambias el plan, borra trabajo/tramos (y trabajo/capas si cambian los
-gráficos o sus rangos). El color del bruto no se toca: sin filtros de color, salida bt709 limitada.
+gráficos o sus rangos). El color del bruto no se toca: sin filtros de color, salida bt709 limitada (la única excepción es
+un fail pedido en FALLOS, que va en blanco y negro).
 Brutos HDR (iPhone): `tramos` hace antes, solo, la copia SDR de los trozos que se usan (sdr.py)."""
 import json, os, shutil, subprocess, sys, time
 from concurrent.futures import ThreadPoolExecutor
@@ -68,6 +69,7 @@ def tramo(i, enc):
             P = json.load(open(pj + ".json")); m = len(tr) + len(parches); parches.append(pj + ".mov")
             f = (f"[{m}:v]setpts=PTS-STARTPTS,scale=out_color_matrix=bt709:out_range=limited,format=yuva420p[p{j}_{q}];" + f[:-1] +
                  f"[r{j}_{q}];[r{j}_{q}][p{j}_{q}]overlay=x={P['x']}:y={P['y']}:eof_action=pass,")
+        if v.get("bn"): f += "hue=s=0,"      # fail (FALLOS en plan.py): blanco y negro solo en ese tramo
         f += filtro_zoom(v)
         f += f"tpad=stop_mode=clone:stop_duration=1,trim=end_frame={v['n']},setpts=PTS-STARTPTS,setsar=1,format=yuv420p[v{j}]"; fc.append(f)
     for p in parches: cmd += ["-i", p]

@@ -209,3 +209,64 @@ class Linea:
 def video():
     """Planos del montaje (trabajo/video.json), en una lista plana."""
     return [v for t in json.load(open(f"{TRABAJO}/video.json"))["tramos"] for v in t]
+
+
+# ---- Dónde cae cada gráfico en pantalla (para que dos textos no se pisen y para la hoja de textos) ----
+# Lucas, 2026-11-17 (alimentacion): «en el punto 2/7 se solapan dos textos, esto no puede pasar nunca» y «vuelven a
+# sobreponerse textos, NO PUEDE PASAR». Causa: la tarjeta de capítulo (abajo a la izquierda, 3 s) y el rótulo de la
+# especie que se nombra en la primera frase del capítulo (abajo al centro) caían a la vez y nada comparaba sus sitios;
+# solo se comprobaba el botón de suscribir. Ahora paso3_plan.py calcula la caja de cada gráfico y se para si dos se cruzan.
+# Las medidas copian las de estudio/src/comun/Graficos.tsx (si cambias un gráfico de serie, cambia aquí su caja). Los
+# gráficos propios de un creador se miden como un rótulo abajo al centro (con "lado", "x" o "y" si los lleva) o como una
+# mascota a un lado si llevan "anim"; si alguno va en otro sitio, su caja va en personal/<creador>/ajustes.py:
+#   CAJAS = {"tipo": (x0, y0, x1, y1)}  o  {"tipo": {"der": (…), "izq": (…)}}   (en partes del lienzo, 0-1)
+BOTON_ESC = ajuste("BOTON_ESC", 0.34)      # tamaño de serie de los botones de suscribir (ancho de su lienzo original / ancho del vídeo)
+
+
+def caja_texto(it):
+    """[(x0, y0, x1, y1)] en partes del lienzo (0-1) que ocupa el gráfico `it` de capas.json; [] si no ocupa sitio."""
+    W, H = ANCHO, ALTO; t = it["t"]; cj = ajuste("CAJAS", {}).get(t)
+    s = lambda k: str(it.get(k) or "")
+    if cj: return [tuple(cj[it.get("lado", "der")] if isinstance(cj, dict) else cj)]
+    if t in ("titulo", "mapa"): return [(0.0, 0.0, 1.0, 1.0)]
+    if t == "seccion":
+        x0 = 0.07 * H; de = it.get("de") or 0
+        numw = 0.23 * H * 0.62 * len(str(it.get("n", ""))) + (0.085 * H * 0.62 * (1 + len(str(de))) if de else 0)
+        fs = min(0.075 * H, 0.62 * W / (max(len(s("titulo")), 2) * 0.82))
+        txt = max(len(s("titulo")) * fs * 0.75, len(s("sub")) * 0.034 * H * 0.5, de * 0.056 * H)
+        y1 = H * 0.93; return [(x0 / W, (y1 - 0.23 * H * 0.9) / H, (x0 + numw + 0.03 * H + txt) / W, y1 / H)]
+    if t == "golpe":
+        ls = s("txt").split("|"); n = max(len(l) for l in ls); fs = min(0.105 * H, 0.66 * W / (max(n, 2) * 0.82))
+        w, h = n * fs * 0.75 * 1.22, len(ls) * fs * 1.12 * 1.22; y1 = 1 - it.get("y", 0.1); return [((W - w) / 2 / W, y1 - h / H, (W + w) / 2 / W, y1)]
+    if t in ("nota", "sub"):
+        fs = (0.046 if t == "nota" else 0.05) * H; b = 0.075 if t == "nota" else 0.1; w = len(s("txt")) * fs * 0.52
+        return [((W - w) / 2 / W, 1 - b - fs * 1.3 / H, (W + w) / 2 / W, 1 - b)]
+    if t == "dato":
+        fs = min(0.22 * H, W * it.get("mw", 0.4) / (max(len(s("grande")), 2) * 0.82)); w = max(len(s("grande")) * fs * 0.75, len(s("peq")) * 0.04 * H * 0.55); h = fs + 0.06 * H
+        x, y = it.get("x", 0.5) * W, it.get("y", 0.74) * H; return [((x - w / 2) / W, (y - h / 2) / H, (x + w / 2) / W, (y + h / 2) / H)]
+    if t == "trk":
+        pos = it.get("pos") or []; out = []; izq = it.get("lado") == "izq"
+        w = max(len(s("grande")) * 0.06 * H * 0.7, len(s("peq")) * 0.034 * H * 0.55); h = 0.06 * H * 1.1 + 0.04 * H
+        for x, y in [pos[0], pos[len(pos) // 2], pos[-1]] if pos else []:
+            tx = min(max(x + (-1 if izq else 1) * 0.13 * H, 0.3 * H), W - 0.3 * H); ty = max(y - 0.13 * H, 0.12 * H)
+            out.append(((tx - w if izq else tx) / W, (ty - h) / H, (tx if izq else tx + w) / W, ty / H))
+        return out
+    if t == "boton":
+        c = it["caja"]; k = W * it.get("esc", BOTON_ESC) / c["ancho_original"]
+        x0 = W * it.get("x", 0.5) + (c["x"] - c["ancho_original"] / 2) * k; y0 = H * it.get("y", 0.8) + (c["y"] - c["alto_original"] / 2) * k
+        return [(x0 / W, y0 / H, (x0 + c["w"] * k) / W, (y0 + c["h"] * k) / H)]
+    if t == "suscribe": return [(0.04, 0.8, 0.3, 0.93)]
+    if it.get("anim"):      # mascota que asoma por un lado con su burbuja
+        return [(0.0, 0.25, 0.45, 1.0)] if it.get("lado") == "izq" else [(0.55, 0.25, 1.0, 1.0)]
+    if any(it.get(k) for k in ("txt", "grande")):      # rótulo propio: abajo, centrado en su lado
+        ls = (s("txt") or s("grande")).split("|"); n = max(len(l) for l in ls); fs = min(0.08 * H, 0.7 * W / (max(n, 2) * 0.82))
+        sub = s("sub"); sfs = max(0.04 * H, fs * 0.55); w = max(n * fs * 0.75, len(sub) * sfs * 0.55) * 1.08
+        h = (len(ls) * fs * 1.12 + (sfs * 1.2 if sub else 0)) * 1.08
+        x = it.get("x", {"izq": 0.28, "der": 0.72}.get(it.get("lado"), 0.5)) * W; y1 = (1 - it.get("y", 0.1)) * H
+        return [((x - w / 2) / W, (y1 - h) / H, (x + w / 2) / W, y1 / H)]
+    return []
+
+
+def cruce(a, b):
+    """Área (en partes del lienzo) en que se pisan dos listas de cajas."""
+    return max((max(0, min(p[2], q[2]) - max(p[0], q[0])) * max(0, min(p[3], q[3]) - max(p[1], q[1])) for p in a for q in b), default=0)

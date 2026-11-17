@@ -112,7 +112,13 @@ mapas, música, **colgados de frases o marcas**, nunca de frames a mano) — y l
 monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van encima.
 
 0. **Preparar** — `PY herramientas/montaje/nuevo_video.py <slug> "<carpeta de brutos>"` (desde la raíz; crea
-   `out/<slug>/`, la composición de capas y elige lienzo y fps por el mejor bruto). Luego, desde `out/<slug>/`,
+   `out/<slug>/`, la composición de capas y elige lienzo y fps por el mejor bruto). **Lo primero, el vigilante**
+   (obligatorio en todo vídeo, hasta la entrega): desde `out/<slug>/`, `PY vigilante.py` en SEGUNDO PLANO (cierra lo que
+   se cuelgue, relanza el render si se para, libera memoria; cada 10 min) y un cron de la sesión cada 10 min
+   (`CronCreate`) con `vigilante.py estado`: si cerró o relanzó algo, sigue desde ahí; si no hay nada en marcha y el
+   vídeo no está entregado, sigue con el paso siguiente. Al entregar: `vigilante.py parar` y se borra el cron. Y toda
+   orden que pueda tardar o quedarse esperando (Remotion, render, transcripción) va en segundo plano o con tope de
+   tiempo, nunca en primer plano sin límite (preferencias → Lecciones técnicas: el parón de 2 h 40 min). Luego,
    `paso0_preparar.py`: ficha técnica de cada bruto, **transcripción con el idioma detectado** (ponlo en `IDIOMA` de
    `proyecto.py` tras comprobarlo), posición de la cara (para los zooms) y hojas densas (1 fotograma/s). Va **en
    paralelo** con el mismo resultado byte a byte: la transcripción por un lado y la imagen (caras + hojas) por otro,
@@ -139,18 +145,25 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
    Enseña al creador la escaleta (capítulos y duración estimada) si es su primer vídeo o si lo pide.
 3. **Línea y voz**: `paso1_alinear.py` (alineación forzada: bordes de cada frase y frame de cada palabra) →
    `frases.py` (**frases a medias**: cada pieza con lo que se dice justo antes y después; cada aviso se resuelve
-   alargando hasta el borde de la frase, o se apunta en `OK_A_MEDIAS` del EDL por qué vale) → `paso2_voz.py` →
-   `comprobar_voz.py` (ratio ≥ 0,97 y ninguna palabra comida o repetida en un corte; si no, corrige el EDL).
-4. **Plan → `plan.py`**: recursos sobre la voz (`BROLL`, elegidos del registro visual y **mirados** con `tira.py`),
+   alargando hasta el borde de la frase, o se apunta en `OK_A_MEDIAS` del EDL por qué vale; y **la misma idea dos
+   veces** (`REPITE`): la retoma se corta y se queda la toma buena, o se apunta en `OK_REPITE` por qué va) →
+   `paso2_voz.py` → `comprobar_voz.py` (ratio ≥ 0,97 y ninguna palabra comida o repetida en un corte; si no, corrige
+   el EDL; y cada `HUECO` —silencio de más de 1,5 s dentro de lo hablado: se corta o se enseña el gesto con su sonido— y
+   cada `VOZ SIN TEXTO` —casi siempre quien graba dando indicaciones: fuera— se resuelve).
+4. **Plan → `plan.py`**: recursos sobre la voz (`BROLL`, elegidos del registro visual y **mirados** con `tira.py`; en
+   el tráiler, varios planos cortos con una lista `(ancla, [(clip, s, dur), …])`; `(None, cx, cy)` lleva el corte de
+   escala hacia el sujeto; nunca de la misma toma que la frase que tapan), fails (`FALLOS`: blanco y negro y voz
+   saturada hasta que se recupera; preferencias → Audio),
    frases fuertes y zooms (`FUERTES`, `ENTRADAS`), cifras (`DATOS`), palabras-golpe (`GOLPES`), rótulos con seguimiento
-   (`TRK`), mapas (`MAPAS`), subtítulos solo donde se oye mal (`SUBS`), título (`TITULO`), petición de suscripción
+   (`TRK`: el nombre de lo que se presenta o se enumera, con flecha, en su palabra; coordenadas con `rejilla.py`), mapas (`MAPAS`), subtítulos solo donde se oye mal (`SUBS`), título (`TITULO`), petición de suscripción
    (`BOTONES`: siempre el botón animado de la skill, abajo en el centro, en el idioma del vídeo y **solo**: ningún texto a la vez), matrículas (`TAPAR`), voz de quien no quiere que se le reconozca (`VOZ_DISFRAZ`: tono arriba, solo si el creador lo pide; preferencias → Audio), resalte de algo importante que se pierde en el plano (`FOCOS`: blanco y negro todo menos el
    sujeto; con criterio, 1–2 por vídeo), gráficos propios del creador (`PROPIOS`) y música por ventanas
    (`PISTAS`, `VENTANAS`). Los cortes de escala alternos los pone solo el motor (`dinamica.py`, con los números de
    `personal/<creador>/ajustes.py` si el creador los ha cambiado). **Aplica aquí lo del creador**: su
    `preferencias.md` y su `recursos.md` (intro, outro, mascota, tipo de música) — § 4.
    `paso3_plan.py` lo convierte en `trabajo/video.json` y `capas.json`, e imprime el ritmo (mediana de plano,
-   cortes/min) y los avisos. Si hay `TAPAR`: después, `tapar.py seguir`, `tapar.py parches` y `tapar.py hoja` (mira
+   cortes/min) y los avisos. **Se para** si un trozo de bruto sale dos veces (`REPETIDO`, con el tramo libre más cercano
+   para cambiar el recurso) o si dos gráficos se pisan (`PISA`); se arregla en el plan, nunca se fuerza. Si hay `TAPAR`: después, `tapar.py seguir`, `tapar.py parches` y `tapar.py hoja` (mira
    TODAS las hojas: solo la matrícula borrosa, nada más tapado; y a tamaño real los momentos en que alguien pasa por
    delante y solo asoma una esquina: también se lee). Si hay `FOCOS`: `foco.py parches` y `foco.py hoja` (mira la
    hoja: el sujeto entero y en color en todos los fotogramas).
@@ -160,7 +173,11 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
      Arregla en `plan.py` y repite (preferencias → Timing de los textos). Las colas de pocos fotogramas sobre un
      corte las ajusta solo `paso3_plan.py`, y también alarga solo cada texto hasta que se ha dicho entero y se
      puede leer (lo imprime; `CORTO` en `timing_textos.py` = el texto siguiente no le deja sitio).
-   - `hoja_recursos.py` → mira TODAS las hojas: cada recurso enseña su sujeto desde el primer fotograma.
+   - `hoja_recursos.py` → mira TODAS las hojas: cada recurso enseña su sujeto desde el primer fotograma. Y
+     `trabajo/trailer.jpg`: un fotograma de cada plano del tráiler; ningún animal ni momento sale dos veces.
+   - `hoja_textos.py` → mira TODAS las hojas: cada texto sobre su plano, al entrar y al irse, con su caja. Ninguno tapa
+     lo que se enseña en ese momento (el animal, las manos que hacen algo, los platos, una cara): si tapa, `lado`, `y`,
+     la mascota al otro lado o una flecha que siga al sujeto (preferencias → Textos).
    - `planos_vacios.py` → planos principales sin cara sobre pared, techo, barrido o la cámara pegada al cuerpo, con
      lo que se dice encima (`trabajo/vacios.jpg`): cada uno fuera del EDL, tapado con un recurso de lo que se habla o
      apuntado en `VACIOS_OK` (preferencias → Paredes).
@@ -188,12 +205,10 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
    cortas, que se relanzan hasta que acaban — `sdr.py 240` y `CAPAS_HILOS=4 paso4_render.py capas 240` (salen con
    código 3 si queda algo) y `paso4_render.py tramos x264 2 <ids…>` de seis en seis tramos. Medido en `1311` (13,9 min,
    4K, i7-13700HX): capas 12 min, tramos 26 min (≈ 3 s por segundo de vídeo, de dos en dos).
-   **Vigilancia mientras dura (obligatoria en renders de más de ~5 min)**: crea un cron de la sesión cada 6–8 minutos
-   (`CronCreate`; si no hay, hazlo a mano cada vez que vuelvas al render) que ejecute, desde `out/<slug>/`,
-   `vigilar_render.py <salida>`: libera memoria sin tocar el render ni cerrar nada del usuario y dice cómo va.
-   Si responde `PARADO` (se ha muerto, casi siempre por memoria): mira el final del registro y relanza
-   `render_todo.py <salida>` en segundo plano. Si `EN MARCHA`: nada más. Si `TERMINADO`: **borra el cron** y sigue con
-   el paso 7. La vigilancia no cambia el resultado: el vídeo sale idéntico con ella o sin ella.
+   **Vigilancia**: el vigilante del paso 0 sigue en marcha (`render_todo.py` le deja dicho qué render es: si se muere o
+   se cuelga, lo relanza solo, hasta 3 veces). El cron de la sesión mira `vigilante.py estado`; con `TERMINADO` o la
+   salida hecha, sigue con el paso 7. `vigilar_render.py <salida>` vale para una pasada a mano. La vigilancia no cambia
+   el resultado: el vídeo sale idéntico con ella o sin ella.
 7. **Comprueba el archivo final** (obligatorio, no se entrega sin esto): ffprobe (resolución, fps, nº de frames,
    etiquetas bt709), sonoridad (`ebur128`), **color contra el bruto** (preferencias → COLOR) y **fotogramas sacados del
    archivo final** en cada gráfico, en cada recurso y en cada cambio de sección. **Matrículas**: recortes a tamaño
@@ -211,7 +226,12 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
    - **Descripción** con capítulos (`capitulos.py`) y **etiquetas**.
    - Queda en `out/<slug>/youtube/` (`PAQUETE.md`, `A.jpg … E.jpg`, `hoja.jpg`) y, para pegar, en
      `out/AAAA-MM-DD_<slug>.txt`. Enseña en el chat los cinco títulos con el texto de su miniatura y la hoja.
-   - Cuando vuelvan las miniaturas generadas: `miniatura.py final A <imagen> …` y mira `youtube/prueba.jpg` (a 168 px).
+   - Con la persona en la miniatura, `miniatura.py cara A2` (la cara grande, de referencia de identidad: se adjunta
+     siempre) y una referencia con el mismo ángulo y mirada que pide la miniatura (titulos-miniaturas.md → la cara, fiel).
+   - Cuando vuelvan las miniaturas generadas: `miniatura.py final A <imagen> …` y mira `youtube/prueba.jpg` (a 168 px)
+     y `youtube/caras.jpg` (¿es su cara? si no, se rehace en un chat nuevo).
+   - Si las ha generado Claude en ChatGPT: con todo guardado y comprobado, **borra esos chats** (solo los apuntados en
+     `youtube/generadas/chats.md`; titulos-miniaturas.md → borrar los chats).
    - Lo que el creador elija y lo que gane el test se apunta (§ 3).
    - **Lista de lo que se ha quedado fuera** (SIEMPRE, junto al paquete, sin que la pidan), sacada de
      `trabajo/descartes.md` y de la cabecera del EDL, para que el creador diga si quiere añadir algo. Agrupada:

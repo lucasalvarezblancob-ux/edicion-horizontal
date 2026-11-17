@@ -16,6 +16,9 @@ No decide: enseña. Cada aviso se LEE con su contexto y se resuelve en edl.py de
   - se quita la pieza, si entera no merece la pena.
 Los cortes del tráiler (golpes sueltos a propósito) se listan aparte: se revisan, pero un golpe corto vale.
 
+Además, LA MISMA IDEA DOS VECES (REPITE): grupos de palabras que suenan dos veces dentro de una pieza o en las tres
+siguientes, y la retoma pegada («vamos a la várzea… vámonos a la várzea»). Se corta la toma mala o se apunta en OK_REPITE.
+
 Uso (desde out/<slug>/, después de paso1_alinear.py):  frases.py      -> trabajo/frases.md
 Sale con código 1 si queda algún aviso sin resolver."""
 import json, os, re, sys
@@ -87,6 +90,46 @@ for i, p in enumerate(edl.EDL):
            f"  `…{ant}` ({round(100 * va)} %) «**{txt}**» ({round(100 * vd)} %) `{des}…`")
     if zonas[i] == "trailer": trailer.append(lin)
     else: avisos += 1; out.append(lin)
+# ---- la misma idea dicha dos veces (retomas que se han colado) ----
+# Lucas, 2026-11-17 (alimentacion): «se repite dos veces "porque lleva un poco de pienso para tortugas" y "…para tortugas
+# vegetarianas": quita el primero», «"ahora vámonos a la várzea" lo repite dos veces» y «lo de las tortugas ninja repite el
+# plano dos veces, pon solo el bueno, si no se hace repetitivo». Causa: la retoma iba DENTRO de la misma pieza o en la de
+# al lado (la primera toma con un olvido gracioso y la buena justo después) y frases.py solo miraba los bordes. Ahora se
+# buscan grupos de 3 palabras seguidas (por su raíz, con al menos dos que no sean de relleno) que suenan dos veces en la misma pieza o
+# en las tres siguientes. Se queda la toma buena (la completa, la que va del tirón) y la otra se corta; si la repetición
+# es a propósito (un estribillo, «me lo paso demasiado bien… demasiado bien me lo paso»), va en OK_REPITE de edl.py.
+VACIAS = {x[:4] for x in ("el la los las un una unos unas lo le les se me te nos y e o u ni que de del al a en con por para sin "
+          "su sus mi mis tu es este esta esto ese eso ahi aqui pues vale bueno mira si no ya muy mas tan como "
+          "the a an and or of to in on at for with it is this that so well yeah okay here").split()}      # solo palabras de relleno: los verbos («vamos», «pongo») sí cuentan
+OKR = getattr(edl, "OK_REPITE", {}); repes = []
+_tp = [(i, p) for i, p in enumerate(edl.EDL) if p["k"] == "T" and zonas[i] != "trailer"]
+_txt = {i: [norm(x["p"])[:4] for x in W.setdefault(p["c"], palabras(p["c"]))[p["a"]:p["b"] + 1]] for i, p in _tp}      # raíz de 4 letras: «vamos» y «vámonos» cuentan igual
+N_ = 3      # grupos de 3 palabras (raíces) con al menos dos que no sean de relleno
+grupos = lambda ws: {tuple(ws[k:k + N_]): k for k in range(len(ws) - N_ + 1) if sum(x not in VACIAS for x in ws[k:k + N_]) >= 2}
+for n_, (i, p) in enumerate(_tp):
+    ws = _txt[i]; vistos_ = {}; dentro = None
+    for k in range(len(ws) - N_ + 1):
+        g = tuple(ws[k:k + N_])
+        if sum(x not in VACIAS for x in g) < 2: continue
+        if g in vistos_ and k - vistos_[g] >= N_: dentro = g; break
+        vistos_.setdefault(g, k)
+    if not dentro:      # retoma pegada: las mismas dos palabras con contenido, dos veces seguidas («vamos a la várzea… vámonos a la várzea»)
+        cs = [x for x in ws if x not in VACIAS]; vb = {}
+        for k in range(len(cs) - 1):
+            g = (cs[k], cs[k + 1])
+            if g in vb and 2 <= k - vb[g] <= 4 and g[0] != g[1]: dentro = g; break
+            vb.setdefault(g, k)
+    pares = [(i, p, dentro)] if dentro else []
+    gi = grupos(ws)
+    for j, q in _tp[n_ + 1:n_ + 4]:
+        comun_ = [g for g in grupos(_txt[j]) if g in gi]
+        if comun_: pares.append((j, q, comun_[0]))
+    for j, q, g in pares:
+        etq = lambda r: r.get("tag") or " ".join(_txt[[k for k, x in _tp if x is r][0]][:5])
+        if any(k in (p.get("tag"), q.get("tag")) or any(norm(" ".join(x["p"] for x in W[r["c"]][r["a"]:r["b"] + 1])).startswith(norm(k)) for r in (p, q)) for k in OKR): continue
+        repes.append(f"- **REPITE** «{' '.join(g)}»: " + (f"dos veces dentro de la pieza «{etq(p)}» ({p['c']})" if j == i else f"en «{etq(p)}» ({p['c']}) y otra vez en «{etq(q)}» ({q['c']})"))
+if repes: out += ["\n## La misma idea dos veces (quita la toma mala o apúntalo en OK_REPITE)\n"] + repes
+avisos += len(repes)
 if trailer: out += ["\n## Tráiler (golpes sueltos: revisar que cada uno se entienda solo)\n"] + trailer
 grises = len(trailer)
 out.append(f"\n{avisos} avisos por resolver, {grises} del tráiler (golpes sueltos: revisar), {vistos} ya vistos y dados por buenos (OK_A_MEDIAS).")

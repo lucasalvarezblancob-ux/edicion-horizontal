@@ -85,6 +85,30 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
   perro, se le cae algo), eso no es un corte: es el momento, y se deja con lo que pasa después.
   Por qué: Lucas, «y hay veces que cortas frases a medias» (v1 de `1311`: de 113 piezas de habla, una docena
   empezaban o acababan a media frase). (vídeo: 1311)
+- 2026-11-17 — **La misma idea dicha dos veces es una retoma, aunque la primera toma tenga gracia: se queda la buena.**
+  Se corta: la frase repetida dentro de la misma pieza («porque lleva pienso para tortugas, porque lleva un poco de pienso
+  para tortugas vegetarianas» → solo la segunda), la toma que el creador repite porque quien graba se lo pide («ahora
+  vamos a la várzea… vámonos a la várzea»: suena la segunda y nada de en medio) y la primera presentación que vuelve a
+  hacer entera justo después («las Tortugas Ninja son… ¿qué falta?» y luego, del tirón, «…Donatello, Rafael,
+  Michelangelo y Leonardo» → solo la buena, sin el olvido). Una retoma con un tropiezo gracioso solo se queda si el
+  tropiezo ES el momento y se quita la otra toma; nunca las dos. Lo mide `frases.py` (sección «La misma idea dos veces»:
+  grupos de palabras que suenan dos veces en la pieza o en las tres siguientes, y la retoma pegada); cada aviso se
+  resuelve en el EDL o se apunta en `OK_REPITE` con el porqué (un estribillo, «baila las congas, baila las congas»).
+  Por qué: Lucas, alimentacion v1, «se repite dos veces… yo quitaba el primero», «lo repite dos veces y se oye al cámara
+  decirle que lo diga», «repite el plano dos veces, pon solo el bueno, si no se hace repetitivo». **Causa:** criterio y
+  herramienta. Al aplicar «lo que le da toque se queda» metí la primera toma por el olvido gracioso y no vi que la
+  segunda repetía lo mismo; y `frases.py` solo miraba los bordes de cada pieza, no lo que se dice dentro ni en la de al
+  lado. La voz de quien graba pidiendo la retoma no sale en la transcripción (Whisper no la oye): `comprobar_voz.py`
+  avisa ahora de `VOZ SIN TEXTO` y de `HUECO` (silencios de más de 1,5 s dentro de lo hablado). (vídeo: alimentacion)
+- 2026-11-17 — **Fuera lo que, suelto, se puede sacar de contexto o invita a criticar al creador.** Sobre todo en un canal
+  de animales: frases que, sin lo de alrededor, suenan a que los animales mueren, sufren o están descuidados («aguanta,
+  mosca… es que se están muriendo»), escenas que alguien puede leer como maltrato o descuido aunque no lo sean (pedir que
+  se lleven al perro y amenazar con encerrarlo: «pilla al perro… si no lo voy a meter en la habitación y que se espere»),
+  peleas o riñas, quejas que dejan mal a terceros. La regla del toque **no** cubre esto: ante la duda, fuera, y se cuenta
+  al entregar en la lista de lo que se ha quedado fuera. Pregúntate con cada aparte: «¿alguien podría recortar este
+  trozo y usarlo contra él?». Por qué: Lucas, «eso sácalo porque no se sabe el contexto y se puede sacar de contexto» y
+  «bórralo, no queremos a gente criticando la escena». **Causa:** criterio. La regla de «apartes al perro, se quedan»
+  (1311) se aplicó sin el filtro de cómo se ve fuera de contexto. (vídeo: alimentacion)
 - Fuera: retomas, muletillas largas, esperas, colocar la cámara. Dentro: reacciones, risas y los silencios que cuentan,
   y **todo lo que le da toque al vídeo** (ver «Que el vídeo lo cuente todo»).
 - Límite de calidad: con bruto y salida a la misma resolución todo punch es ampliación. Hasta ×1,3–1,4 no se nota;
@@ -271,6 +295,31 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
   nombra, **no se inventa**: se queda el plano a cámara (con texto o zoom) y se le dice al creador qué falta (foto de
   banco, grabación suya).
 - Duración 1,5–4 s; si pasa de ~3 s, corte de escala a la mitad. No se repite un tramo en el mismo vídeo.
+- 2026-11-17 — **Ningún trozo de bruto sale dos veces, y un recurso de la MISMA toma que la frase que tapa no es un
+  recurso.** La regla de arriba («no se repite un tramo») no la medía nada y en alimentacion v1 había 31 repeticiones:
+  Lucas vio dos («22:55–23:03 repites el mismo clip dos veces», «se repite el clip de la terrapene en la intro»). Tres
+  causas, las tres arregladas en las herramientas:
+  1. recursos sacados del mismo bruto unos segundos antes o después de la frase (el «mejor recurso» del registro está
+     en la misma toma en que habla): el recurso enseña algo que el plano principal vuelve a enseñar enseguida. Si lo que
+     se quiere enseñar es justo lo que pasa mientras habla, no hace falta recurso: se deja el principal (o un zoom);
+  2. un `V(…)` de acción elegido por el registro visual que se solapaba con la frase de después (la pista de `T(…)` es
+     de Whisper, que puede ir 7 s desfasado: la frase empezaba en 95,9 s y el V iba de 97,5 a 102);
+  3. la alineación forzada «se comía» hacia atrás las últimas palabras de la pieza anterior del EDL (`paso1_alinear.py`
+     ya no deja que una pieza empiece antes de donde acaba, montada, la palabra que la precede).
+  `paso3_plan.py` se para con `REPETIDO` (y propone el tramo libre más cercano del mismo bruto, que se mira con
+  `tira.py`); lo repetido a propósito va en `REPETIR_OK`. El tráiler puede repetir planos del cuerpo (sale de él), pero
+  no repetirse a sí mismo. Al quitar un recurso, `planos_vacios.py` otra vez: lo que tapaba puede ser una pared. (vídeo: alimentacion)
+- 2026-11-17 — **El corte de escala de un recurso largo va hacia el SUJETO, no al centro.** Un recurso de más de 3,2 s se
+  parte en ×1,0 → ×1,25; si el sujeto no está en el centro (la tortuga abajo, en las manos), el ×1,25 lo saca de cuadro o
+  lo deja donde caen los rótulos. En `BROLL`, `(None, cx, cy)` lleva el ×1,25 hacia ese punto. Por qué: Lucas, «el zoom a
+  lo mejor un poco más centrado en la tortuga». (vídeo: alimentacion)
+- 2026-11-17 — **Un gesto que se hace callado se enseña, más cerca y con su sonido, y la frase siguiente entra por encima.**
+  Un silencio de un par de segundos dentro de lo hablado (echa el agua, coloca el plato) no se tapa con un recurso mudo
+  de otra cosa: se corta, o se enseña el gesto con zoom (`BROLL` del mismo instante con `(zoom, cx, cy)`, que sustituye
+  al principal sin repetirlo) mientras empieza la frase de después. Por qué: Lucas, «en el 1:50… hay como un segundo
+  muerto en el que pone el agua y está muteado el audio, yo pondría como pone el agua algo zoomeado y el principio de lo
+  que dice después por encima». **Causa:** el EDL se lee como texto: el silencio no estaba en ninguna parte. Ahora
+  `comprobar_voz.py` lista los `HUECO`. (vídeo: alimentacion)
 - 2026-11-12 — **Lo que se nombra y no está en los brutos del día se tapa con archivo, cuando lo haya.** El pasado
   («cuando empezamos a construir…»), otra época del año, una especie, un sitio, una planta: si en sus `recursos/` hay un
   clip clasificado de eso, va sobre su voz en el momento en que lo nombra (1,5–4 s, como cualquier recurso), aunque
@@ -309,6 +358,33 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
   Por qué: Lucas, en la v3 de `1311`: «en el minuto 6:45 el texto "fuera calcetines" sobra». Causa: salió de la pasada
   de dinamismo de la v2, que buscaba frases para tapar huecos de 25–94 s sin texto: se rotuló por llenar el hueco, no
   porque la frase lo pidiera. (vídeo: 1311)
+- 2026-11-17 — **Dos gráficos NUNCA se pisan.** Ni la tarjeta del capítulo con el rótulo de la especie que se nombra
+  en su primera frase, ni un rótulo con una palabra-golpe, ni nada con nada. `paso3_plan.py` calcula dónde cae cada
+  gráfico (`comun.caja_texto`) y se para con `PISA:` si dos coinciden en tiempo y sitio. Se arregla retrasando el
+  segundo hasta que se va el primero (`("@s7", 3.4)`: después de la tarjeta), subiéndolo (`y`), llevándolo a un lado
+  (`lado`) o quitándolo si repite lo que ya dice el otro (la tarjeta «Testudo marginata y Testudo graeca» y un rótulo
+  con lo mismo). Por qué: Lucas, alimentacion v1, «en el punto 2/7 se solapan dos textos, esto no puede pasar nunca» y
+  «21:56 vuelven a sobreponerse textos, NO PUEDE PASAR». **Causa:** herramienta y método. Solo se comprobaba el choque
+  con el botón de suscribir; la tarjeta de capítulo la pone el motor y los rótulos el creador, y nadie los comparaba.
+  En la v1 vi un solape (UROMASTYX sobre la tarjeta del 6), lo arreglé a mano y no busqué los demás: **cuando aparece un
+  fallo, se busca en todo el vídeo y se arregla la causa, no el caso**. (vídeo: alimentacion)
+- 2026-11-17 — **Un texto no tapa lo que se está enseñando en ese momento** (el animal comiendo, la tortuga en las manos,
+  los platos, la rosa de la que habla). Se mira SIEMPRE con `hoja_textos.py` después de `paso3_plan.py`: cada texto
+  sobre su plano, al entrar y al irse, con su caja dibujada. Si tapa: `lado`, `y` (rótulos y palabras-golpe:
+  `{"y": 0.62}`), otro sitio para la mascota (`"lado": "izq"`), o —si el sujeto se mueve— un rótulo con FLECHA que lo
+  sigue (`TRK`) en vez de un texto fijo («¡CAZADO! un caracol vivo» señalando la boca de la terrapene). Por qué: Lucas,
+  «el texto tapa a la tortuga, que es el foco del clip… tiene que tener en cuenta que el texto no tape lo importante en
+  el momento que aparece» y «"¡cazado!" tapa cómo come el caracol: ahí una flecha con el texto trackeando». **Causa:**
+  método. La regla («nada tapa la cara ni el sujeto») ya estaba, pero había 46 rótulos y con `ver.py` (un fotograma
+  cada vez, lento) solo miré las burbujas y los botones. La hoja los enseña todos en segundos; en la v2 salieron 18
+  textos que tapaban algo y se movieron. (vídeo: alimentacion)
+- 2026-11-17 — **Cuando el creador nombra varias cosas que se ven («flores de hibiscus, Mazuri y variado de lechugas»),
+  una flecha con el nombre a cada una, que aparece cuando la dice.** Tres `TRK` con su segundo de entrada cada uno; las
+  coordenadas, de `rejilla.py`. Lo mismo con un animal o personaje que se presenta y está en plano: su nombre con
+  flecha (y su apodo si el creador tiene uno: `personal/<creador>/preferencias.md`). Por qué: Lucas, «lo ideal es que
+  pongas una flecha con el nombre señalando a cada una de las 3 cosas que nombra… para que el espectador sepa qué es
+  cada una» y «le ponía una flecha con el nombre para resaltarlo». **Causa:** el `TRK` se quedó sin usar en todo el vídeo
+  porque había que calcular la caja a ojo; `rejilla.py` da las coordenadas en píxeles del lienzo. (vídeo: alimentacion)
 - **Nunca un texto antes de que se diga.** Todo cuelga de anclas (frase o marca), no de frames a mano; compruébalo con
   `timing_textos.py` (abajo, «Timing de los textos») y con `ver.py` en el frame anterior y en el de la palabra.
 - **Subtítulos solo donde se oye mal** (ruido, viento, voz lejana, otro idioma): abajo, una línea, 3–6 palabras, de
@@ -407,6 +483,8 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
   solapan el botón de suscribir y el texto de "soltar cable"». Causa: el botón se cuelga ~4 s antes de «suscribiros» y
   dura ~8 s, así que pisa la frase de después; el rótulo de esa frase («Soltar cable es mi deporte preferido») cayó
   dentro, los dos abajo en el centro, y nada comparaba los tiempos del botón con los de los textos. (vídeo: prueba-3)
+- 2026-11-17 — **El botón de suscribir, a un tercio del ancho** (`esc` 0,34 de serie, antes 0,5). Por qué: Lucas, «en
+  todos los vídeos… la animación de suscribirse es muy grande, hazla algo más pequeña». (vídeo: alimentacion)
 - 2026-11-12 — **El texto de un botón o de una burbuja va en el idioma del vídeo.** Los 16 botones de serie están en
   español: en un vídeo en otro idioma va la versión traducida del botón (`herramientas/boton_idioma.py`; el 2 en inglés
   ya está), no el español ni un texto dibujado. Lo que afirme un texto añadido (un dato de la
@@ -454,6 +532,13 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
   habla el cámara (señor misterio) […] distorsiona un poco la voz para que no se le reconozca, puede ser como una voz de
   pitufo; […] no debe de salir en los vídeos, o se le pixela la cara o se elimina cuando salga». Quién es ese tercero,
   en `personal/<creador>/preferencias.md`. (vídeo: prueba-3)
+- 2026-11-17 — **Un fail (se cae la cámara, se va la luz, se le cae algo) se marca: blanco y negro y la voz algo saturada,
+  hasta que se recupera.** `FALLOS = [(ancla_inicio, ancla_fin)]` en `plan.py`: `paso4_render.py` pone ese tramo en
+  blanco y negro y `paso5_audio.py` satura la voz (como una radio rota) con fundidos cortos; al volver («¡hemos
+  vuelto!») recupera el color. Es un efecto pedido, no una corrección de color: fuera del fail el color no se toca.
+  Con criterio: uno o dos por vídeo, solo en un fallo de verdad. Por qué: Lucas, «en el 20:08 que se baja la cámara,
+  puedes poner en blanco y negro y saturar un poco la voz porque es un fail, hasta el "hemos vuelto" que ya recupera
+  color». (vídeo: alimentacion)
 - Nunca huecos mudos: un plano sin voz lleva su sonido original bajo o música.
   - 2026-11-14 — **Ningún plano sin voz se queda sin música** (él andando, mirando, un recurso sin habla): los respiros
     de música entre ventanas solo caen donde se habla, y en todo rato de más de 1,5 s sin palabras la música sube
@@ -509,18 +594,26 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
 - **NVENC** (`h264_nvenc`) acelera los tramos en Windows con NVIDIA; ffmpeg 8 exige controlador ≥ 610. `auto` lo prueba
   y, si no va, usa x264. No actualices controladores sin permiso. `videotoolbox` (macOS) está escrito pero sin probar:
   compara un tramo con x264 antes de fiarte.
-- 2026-11-12 — **Memoria durante el render: se vigila y se libera, sin tocar el render.** Un render 4K con 16 GB se
-  queda sin memoria con facilidad (Remotion abre varios navegadores; ffmpeg usa 3–4 GB por tramo) y el proceso muere
-  sin avisar. Mientras dura un render: `vigilar_render.py <salida>` cada 6–8 min con un cron de la sesión (SKILL.md § 2,
-  paso 6). Qué hace y qué NO hace: cierra navegadores de Remotion colgados; en Windows, si queda poca memoria (< 3 GB o
-  < 20 %), recorta la memoria de trabajo de los procesos que no son del render (no cierra nada); en macOS no recorta
-  (el sistema comprime solo; `purge` pide contraseña y vacía la caché de disco que usa el render). **Nunca** toca
-  ffmpeg, python, node ni el navegador de Remotion, no cierra programas del usuario, no cambia la calidad, el
-  codificador ni el número de hilos de un render en marcha. Si el render se para: `render_todo.py <salida>` lo retoma
-  (con la mitad de navegadores y los tramos de uno en uno a partir del segundo intento: más lento, mismo resultado).
-  Por qué: Lucas, «cuando se estén haciendo renders liberar ram cuando sea posible, tanto en mac como en windows si
-  esto no afecta al render ni a nada, no queremos que joda el funcionamiento de la skill, que edite peor o renderice
-  peor». En macOS está escrito pero sin probar. (vídeo: ramon, v6)
+- 2026-11-17 — **Durante TODA la edición hay un vigilante aparte, no solo en el render.** Al empezar el vídeo se lanza
+  `vigilante.py` en segundo plano (y un cron de la sesión cada 10 min con `vigilante.py estado`). Cada 10 minutos: cierra
+  lo que lleve 10 min vivo sin gastar CPU (Remotion, esbuild, ffmpeg, un paso de `herramientas/` colgado) con todo lo que
+  cuelga de él, relanza el render si se ha muerto o colgado (`render_todo.py` deja `trabajo/render_pedido.json`; como
+  mucho 3 veces) y libera memoria (navegadores de Remotion y servicios de esbuild huérfanos; en Windows con poca memoria,
+  recorta lo que no es de la edición). Nunca cierra nada del usuario ni toca un render que avanza. Por qué: Lucas, «sobre
+  el parón de casi 3 h, quiero que cuando estés editando un vídeo haya un agente que cada 10 min revise si hay algún
+  proceso parado y lo relance… y de paso, que libere algo de RAM». **Causa del parón:** una orden de Remotion lanzada en
+  PRIMER PLANO se colgó (el servicio de esbuild se quedó con la salida abierta) y la herramienta Bash esperó 2 h 40 min;
+  con la sesión ocupada no salta ningún cron, y la vigilancia que había (`vigilar_render.py`) solo existía durante el
+  render. Por eso el vigilante es un proceso aparte: al cerrar lo colgado, la orden vuelve y la sesión sigue sola. Y
+  además: **toda orden que pueda tardar o quedarse esperando (Remotion, render, transcripción) va en segundo plano o con
+  tope de tiempo** (`ver.py` corta a los 4 min). Al encontrarlo había un navegador de Remotion huérfano desde hacía 4 h 30.
+  `vigilar_render.py` sigue valiendo para una pasada a mano (memoria y estado del render).
+  **«Colgado» se mide proceso a proceso, nunca con la suma del grupo** (el mismo día, en la primera prueba, el vigilante
+  cerró el render BUENO en el tramo 46: el render lanza un ffmpeg nuevo por tramo y, al acabar uno y empezar otro, la
+  CPU sumada del grupo BAJA aunque avance). Ahora cuenta la CPU gastada por cada proceso desde la pasada anterior (uno
+  nuevo cuenta entero) y, si es el render, que su registro se haya movido en los últimos 10 min. Lo relanzó solo y
+  retomó donde iba (2 min perdidos), pero un vigilante que mata lo que funciona es peor que no tenerlo: **un cambio en
+  el vigilante se prueba con `vigilante.py estado` contra un render en marcha antes de dejarlo actuar.**
 - **Filtros largos**: pásalos por archivo (`-/filter_complex archivo`), no por la línea de comandos (límite de Windows).
 - **`-nostdin`** en todo ffmpeg lanzado desde un bucle o un script.
 - **Git Bash en Windows**: un comando con un heredoc largo puede fallar («unexpected EOF»): escribe el script o el

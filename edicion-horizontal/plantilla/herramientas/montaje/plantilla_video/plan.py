@@ -16,6 +16,10 @@ A = "C0001"
 # REGLA: se eligen del registro visual (mejores_recursos) y MIRANDO sus fotogramas (tira.py); después se revisan TODOS con
 # hoja_recursos.py. Tiene que verse aquello de lo que se habla desde el primer fotograma: nada de paredes, barridos ni arranques.
 # Si el sujeto queda pequeño, 5.º elemento (zoom, cx, cy) para cerrar sobre él. ("@tag", s) tapa un plano V conservando su sonido.
+# (None, cx, cy): un recurso largo (> 3,2 s) hace su corte de escala x1,25 hacia ese punto (el sujeto), no al centro.
+# Varios planos seguidos sobre una misma voz (tráiler-resumen: 1,5-2,5 s cada uno, un animal o momento distinto por plano):
+#   ((A, "más de 100 animales", 0), [(B, 15.5, 2.0), (C, 768.0, 1.9, (1.6, 1900, 1200))])
+# Nunca de la MISMA toma que la frase que tapa ni un trozo que ya sale: paso3 se para con REPETIDO (REPETIR_OK si es a propósito).
 BROLL = [
     # ((A, "de lo que se habla", -1), A, 230.0, 2.6),
 ]
@@ -23,8 +27,12 @@ BROLL = [
 # ---- Rótulo anclado a un sujeto que se mueve: (clip, t0, t1 del bruto, [cx, cy, medio lado] de la caja inicial, "GRANDE", "pequeño", "izq"|"der")
 # Con un 8.º elemento, ancla del frame de salida, el rótulo va sobre un plano de RECURSO (BROLL con zoom fijo) que enseña ese
 # trozo de bruto: (clip, t0, t1, [cx, cy, medio lado], "GRANDE", "pequeño", "izq"|"der", ("@marca", s)).
-TRK = []
+TRK = []             # coordenadas: rejilla.py CLIP t (píxeles del lienzo). Varias cosas que se nombran: un TRK por cosa, cada uno en su segundo
 DETALLE = set()      # rótulos de TRK ("GRANDE") tras los que se cierra x1,6 sobre el sujeto; solo si has comprobado que el seguimiento aguanta
+
+# ---- Fails (se cae la cámara, se va la luz): blanco y negro y voz algo saturada hasta que se recupera. Con criterio: 1-2 por vídeo.
+FALLOS = []          # [(ancla de inicio, ancla de fin)], p. ej. [(((A, "Uy", -1), -0.3), (A, "Hemos vuelto", -1))]
+REPETIR_OK = []      # [(clip, segundo)]: tramos de bruto que salen dos veces A PROPÓSITO
 
 # ---- Mapa de satélite a pantalla completa: (ancla, duración s, [regiones encendidas], la que se presenta). Regiones: Capas.tsx
 MAPAS = []
@@ -34,7 +42,7 @@ SUBS = []
 
 # ---- Título sobre la marca "titulo" y botón de suscripción cuando se dice. Textos en el IDIOMA del vídeo.
 TITULO = None        # {"arriba": "LÍNEA PEQUEÑA", "grande": "PALABRA ENORME", "abajo": "línea pequeña", "dur": 4.0}
-BOTONES = []         # [(ancla, nº[, {"vel": 1.25, "esc": 0.5}])]: SIEMPRE que pide suscribirse, like o campana: botón ANIMADO de la
+BOTONES = []         # [(ancla, nº[, {"vel": 1.25, "esc": 0.34}])]: SIEMPRE que pide suscribirse, like o campana: botón ANIMADO de la
                      # skill (1-16), abajo en el centro. Ej.: [(((A, "suscríbete al canal", -1), -4.1), 2, {"vel": 1.25})]. Si el vídeo no
                      # es en español coge solo la versión en su idioma (b02_en…). Cuál, encaje con la voz e idiomas: base/recursos.md § 9.
 
@@ -56,7 +64,7 @@ FOCOS = []           # [(clip, t0, t1 del bruto, [cx, cy, rx, ry] del sujeto en 
 FUERTES = []         # (clip, "frase", n): punch-in de golpe x1,65 a la cara mientras dura la frase. 1-2 por minuto.
 ENTRADAS = []        # (clip, "frase", n, escala): zoom-in animado rápido con frenada («mira», el nombre del animal, el remate). Pocos.
 DATOS = []           # (ancla de frase, "CIFRA", "qué es", duración mínima s): cifra junto a la cara, en el instante en que se dice
-GOLPES = []          # (ancla, duración s, "PALABRA|SEGUNDA LÍNEA"): palabra-golpe grande abajo, crece suave
+GOLPES = []          # (ancla, duración s, "PALABRA|SEGUNDA LÍNEA"[, {"y": 0.62}]): palabra-golpe grande abajo (o más arriba, si abajo está lo que se enseña)
 NOTAS = []           # (ancla, retardo s, duración s, "*comentario del editor*"): PROPUESTAS, se validan con el creador
 
 # ---- Efectos de sonido: por defecto, uno suave por gráfico (paso5_audio.py). Para cambiarlos o quitarlos: SFX = {"dato": ("pop", 0.2)}

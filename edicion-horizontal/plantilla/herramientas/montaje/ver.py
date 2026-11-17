@@ -19,8 +19,10 @@ for arg in sys.argv[1:]:
     capa = any(a <= F_ < b for a, b in rangos)
     if capa:
         if os.path.exists(png): os.remove(png)
-        r = subprocess.run([NPX, "remotion", "still", COMP, png, f"--frame={F_}", *GL, "--scale=0.5"], cwd=ESTUDIO, capture_output=True, text=True, encoding="utf-8", errors="replace")
-        if not os.path.exists(png): print("AVISO: Remotion no ha sacado la capa; va sin gráficos.", (r.stderr or r.stdout)[-300:]); capa = False
+        # con tope de tiempo: un Remotion colgado no puede bloquear la sesión (el parón de 2 h 40 min de alimentacion)
+        try: r = subprocess.run([NPX, "remotion", "still", COMP, png, f"--frame={F_}", *GL, "--scale=0.5", "--timeout=60000"], cwd=ESTUDIO, capture_output=True, text=True, encoding="utf-8", errors="replace", stdin=subprocess.DEVNULL, timeout=240)
+        except subprocess.TimeoutExpired: r = None; print("AVISO: Remotion lleva 4 min sin sacar el fotograma: colgado (¿una fuente que no carga? quita los gráficos del creador para acotarlo)")
+        if not os.path.exists(png): print("AVISO: Remotion no ha sacado la capa; va sin gráficos.", ((r.stderr or r.stdout)[-300:] if r else "")); capa = False
     if capa:
         fc = f"[0:v]{pre}scale={w}:{h},crop={ANCHO}:{ALTO}:{x}:{y},scale={ANCHO // 2}:{ALTO // 2}[b];[b][1:v]overlay"
         subprocess.run([*base, "-i", png, "-filter_complex", fc, "-frames:v", "1", "-q:v", "3", sal], check=True)

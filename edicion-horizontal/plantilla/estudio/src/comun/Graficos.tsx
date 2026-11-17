@@ -83,6 +83,7 @@ export const Dato: React.FC<{ f: number; it: Item }> = ({ f, it }) => {
 
 // Palabra-golpe: entra con pop y sigue creciendo de forma CONTINUA y suave (x1 -> x1,22, con frenada); la escala nunca baja.
 // Regla (2026-11-11): nunca a escalones («se zumea a trozos, no es suave»). «|» parte el texto en líneas.
+// it.y: altura de la base (0,1 = abajo, de serie); más arriba cuando abajo está lo que se enseña (la rosa, los platos).
 export const Golpe: React.FC<{ f: number; dur: number; it: Item }> = ({ f, dur, it }) => {
   const { height: H, width: W } = useVideoConfig();
   const lineas = String(it.txt).split("|");
@@ -90,7 +91,7 @@ export const Golpe: React.FC<{ f: number; dur: number; it: Item }> = ({ f, dur, 
   const fs = Math.min(H * 0.105, (W * 0.66) / (largo * 0.82));
   const esc = pop(f) * interpolate(f, [0, dur], [1, 1.22], { extrapolateRight: "clamp", easing: Easing.out(Easing.quad) });
   return (
-    <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: H * 0.1 }}>
+    <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: H * (it.y ?? 0.1) }}>
       <div style={{ fontFamily: F_ANCHA, fontWeight: 900, fontSize: fs, lineHeight: 1.12, color: ACENTO, textShadow: borde(H * 0.006), textAlign: "center", whiteSpace: "nowrap", transform: "scale(" + esc + ")", transformOrigin: "50% 100%" }}>
         {lineas.map((l, i) => (
           <div key={i}>{l}</div>
@@ -146,7 +147,7 @@ export const Clip: React.FC<{ it: Item; src: string; caja: { w: number; h: numbe
 // que es donde va SIEMPRE una petición de suscripción. `arch` = el archivo (bNN o su versión en otro idioma); `vel` = velocidad.
 export const Boton: React.FC<{ it: Item }> = ({ it }) => {
   const { height: H, width: W } = useVideoConfig();
-  const k = (W * (it.esc ?? 0.5)) / it.caja.ancho_original;
+  const k = (W * (it.esc ?? 0.34)) / it.caja.ancho_original;      // 0,34 de serie (un tercio del ancho); era 0,5 y quedaba enorme (Lucas, 2026-11-17: «la animación de suscribirse es muy grande, hazla algo más pequeña»)
   return <Clip it={it} src={"botones/" + (it.arch ?? "b" + String(it.n).padStart(2, "0")) + ".webm"} caja={it.caja} w={it.caja.w * k} vel={it.vel ?? 1}
     x={W * (it.x ?? 0.5) + (it.caja.x - it.caja.ancho_original / 2) * k} y={H * (it.y ?? 0.8) + (it.caja.y - it.caja.alto_original / 2) * k} />;
 };

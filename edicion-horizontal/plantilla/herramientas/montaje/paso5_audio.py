@@ -2,7 +2,7 @@
 Efectos: SOLO pegados a gráficos (título, capítulo, rótulo, mapa, cifra…), nunca en cada corte («a veces»).
 El mapa tipo -> (sonido, ganancia) se puede cambiar o vaciar en plan.py con SFX = {...}; los sonidos están en
 estudio/public/sonidos/. Salida: trabajo/mezcla.wav (sin normalizar, para el paso 6) y trabajo/audio_final.wav."""
-import json, subprocess
+import json, os, subprocess
 import numpy as np, soundfile as sf
 from comun import CAPAS_JSON, ESTUDIO, FPS, TRABAJO, ajuste
 import plan      # después de comun: es quien mete la carpeta del vídeo en el path
@@ -64,6 +64,17 @@ if __name__ == "__main__":
         for t0, t1, txt, p, db in candidatas()[0]:
             if not any(min(t1, b) - max(t0, a) > 0.3 * (t1 - t0) for a, b in hechas):
                 print(f"AVISO VOZ: {int(t0 // 60)}:{t0 % 60:05.2f} «{txt}» suena a la otra persona ({p:.0f} Hz, {db:.0f} dB) y no está en VOZ_DISFRAZ")
+    # ---- fails (FALLOS en plan.py; paso3 deja los tramos en trabajo/fallos.json): la voz algo saturada, como una radio
+    # rota, mientras la imagen va en blanco y negro. Lucas, 2026-11-17: «poner en blanco y negro y saturar un poco la voz
+    # porque es un fail». Entra y sale con un fundido corto, para que no haya clic.
+    fallos = json.load(open(f"{TRABAJO}/fallos.json")) if os.path.exists(f"{TRABAJO}/fallos.json") else []
+    for f0, f1 in fallos:
+        a0, a1 = f0 * SR // FPS, min(len(y), f1 * SR // FPS); seg = np.ascontiguousarray(y[a0:a1], dtype=np.float32).reshape(a1 - a0, -1)
+        raw = subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-f", "f32le", "-ar", str(SR), "-ac", str(seg.shape[1]), "-i", "-", "-af",
+                              "highpass=f=350,lowpass=f=3800,volume=14dB,asoftclip=type=tanh,volume=-9dB", "-f", "f32le", "-"], input=seg.tobytes(), capture_output=True, check=True).stdout
+        pr = np.frombuffer(raw, np.float32).reshape(-1, seg.shape[1])[:len(seg)]; pr = np.vstack([pr, np.zeros((len(seg) - len(pr), seg.shape[1]), np.float32)])
+        xf = min(int(0.03 * SR), len(seg) // 4); w = np.ones(len(seg), np.float32); w[:xf] = np.linspace(0, 1, xf); w[-xf:] = np.linspace(1, 0, xf)
+        y[a0:a1] = (seg * (1 - w[:, None]) + pr * w[:, None]).reshape(y[a0:a1].shape); print(f"fail: voz saturada {f0 / FPS:.1f}-{f1 / FPS:.1f} s")
     cache = {}
     def snd(n, vel=1.0):      # vel: el clip al que acompaña va a esa velocidad (un botón acelerado para que quepa); el tono no cambia
         if (n, vel) not in cache:

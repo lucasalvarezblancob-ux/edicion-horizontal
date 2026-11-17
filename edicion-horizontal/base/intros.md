@@ -24,6 +24,17 @@ Reglas:
     promesa de lo que se va a ver.
   - *Tráiler en directo* (tipo Paul Cuffaro): 4–6 momentos con su sonido original, 2,2–2,5 s por plano; la música se
     apaga 2–3 veces para dejar una frase limpia; el último plano es el más largo y deja la sorpresa sin enseñar.
+- 2026-11-17 — **Tráiler-resumen: planos cortos, llamativos y un animal (o momento) distinto en cada uno.** Una frase
+  general («tenemos más de 100 animales repartidos por todo el territorio») no lleva UN plano de 6 s: lleva 2–3 planos de
+  1,5–2 s de lo más espectacular (en un canal de animales: el lagarto caimán, los uromastyx, las ranas), con
+  `BROLL` en lista. Y nada sale dos veces en el tráiler: si un animal sale cuando se le nombra, no sale también antes,
+  ni en el resumen ni en la ráfaga. Se comprueba con `trabajo/trailer.jpg` (`hoja_recursos.py`: un fotograma de cada
+  plano del tráiler, en orden); `paso3_plan.py` avisa de los recursos del tráiler de más de 2,6 s. Por qué: Lucas,
+  alimentacion v1, «el primer clip se ve muy largo… si la intro es un recap, los clips tienen que ser llamativos para la
+  retención» y «se repite el clip de la terrapene en la intro: está bien cuando la menciona, pero el de antes lo
+  aprovecharía y pondría otro animal». **Causa:** criterio y herramienta: cada recurso se eligió por si encajaba con su
+  frase, sin mirar el tráiler entero (la terrapene salía 7 s antes de nombrarla; Cherry, las ranas y la sulcata salían
+  en el resumen y otra vez en la ráfaga), y un `BROLL` con duración `None` tapaba la frase entera con un solo plano.
 - **No destripes el clímax**: se enseña que pasa algo, no cómo acaba.
 - **Cada frase del gancho va con su imagen**: si dice «tortugas», se ven tortugas desde el primer fotograma (misma regla
   que los planos de recurso). Las frases del gancho se sacan de la transcripción con `T(...)` y los planos de `BROLL`.

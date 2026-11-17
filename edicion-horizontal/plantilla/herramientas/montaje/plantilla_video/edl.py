@@ -31,3 +31,8 @@ EDL = [
     X("cierre"),
     # T(A, 900, "y esto es todo por hoy"),
 ]
+
+# frases.py: piezas que empiezan o acaban a medias A PROPÓSITO {"tag o primeras palabras": "por qué"}
+# OK_A_MEDIAS = {}
+# frases.py -> REPITE: la misma idea dos veces que se deja A PROPÓSITO (un estribillo, una gracia) {"tag o primeras palabras": "por qué"}
+# OK_REPITE = {}

@@ -33,6 +33,36 @@ no en el idioma en que te escriben. Claude no sube ni publica nada, y no genera 
 
 ## 1. Qué decide el clic (léelo antes de escribir nada)
 
+> **2026-11-17 — Las cinco parejas venden EL MISMO vídeo.** Cada título dice qué ES el vídeo (su promesa central: «doy
+> de comer a todos mis animales», «visito el zoo X», «me paso el juego Y») y cambia solo el gancho que se añade (la
+> cifra, el animal que no se fía, un detalle curioso entre paréntesis). Un momento de 30 s del vídeo (los caracoles, la
+> señal de salud, las Tortugas Ninja) va como gancho DENTRO de la promesa, nunca como el tema del título: quien entra
+> por «La señal de que tu tortuga está sana» espera un vídeo de salud, se encuentra 23 min de comidas y se va (y la
+> prueba A/B compara vídeos distintos, no envoltorios). Prueba: tapa el vídeo y lee solo el título; ¿alguien sabría
+> de qué van los 20 minutos? Si no, no vale. Las palancas distintas (pregunta 24) son ganchos distintos sobre la
+> misma promesa, no temas distintos. Por qué: Lucas, alimentacion, «es un vídeo de alimentación de animales; los dos
+> primeros títulos están muy bien, pero los otros tres tienen relación con el vídeo, pero no acaban de decir lo que
+> realmente es el vídeo». **Causa:** criterio. Leí «cinco parejas con palancas distintas» como cinco temas distintos y
+> convertí tres detalles del vídeo (C caracoles, D uratos, E Tortugas Ninja) en su tema; las dos buenas (A y B) eran
+> justo las que mantenían «Doy de comer a +100 animales». (vídeo: alimentacion)
+>
+> **Cómo se lee el contexto antes de titular** (el método que dio los títulos buenos; Lucas: «ahora sí que me parecen
+> buenos títulos»):
+> 1. **La promesa sale de la escaleta, no de los momentos.** Mira los capítulos `S(…)` del EDL y la frase con que el
+>    creador abre el vídeo, y escribe en UNA frase qué hace durante los 20 minutos y a qué escala: «doy de comer a los
+>    +100 animales, recinto a recinto». Eso es lo que tiene que entender quien solo lee el título.
+> 2. **Los momentos son ganchos, en otra lista.** La tabla de activos (frase literal, imagen, palanca) es de dónde salen
+>    los paréntesis y los sujetos de la miniatura; ninguno es el tema.
+> 3. **Cada título = la promesa (o una variante que diga lo mismo) + UN gancho distinto.** Variantes de la promesa:
+>    «Doy de comer a +100 animales…», «Doy de comer a TODOS mis animales…», «Qué come cada uno de mis +100 animales».
+>    Ganchos: la cifra, el animal que no se fía, «algunos comen caracoles vivos», «hasta a las Tortugas Ninja».
+> 4. **La miniatura enseña la promesa EN ACCIÓN** (él dando de comer, los platos, los animales comiendo) con el gancho
+>    como sujeto principal; no el gancho suelto fuera de su contexto.
+> 5. **Prueba del tapado** antes de entregar: cada título, solo, ¿dice de qué van los 20 minutos?
+> El paquete aprobado de alimentacion: A «Doy de Comer a TODOS Mis Animales (Más de 100)», B «Doy de Comer a +100
+> Animales (y el Lagarto Caimán No Se Fía)», C «Doy de Comer a +100 Animales (Algunos Comen Caracoles Vivos)», D «Qué
+> Come Cada Uno de Mis +100 Animales», E «Doy de Comer a Todos Mis Animales (Hasta a las Tortugas Ninja)».
+
 1. **El tema pesa más que el diseño** (los 15). Quién sale, de qué va, la serie y el episodio, si la idea es nueva, el
    invitado y el destino explican más que la tipografía (NO: el peor episodio de su serie de lujo supera al mejor de las
    otras dos; BZ primer vídeo de cada idea x2,98 frente a secuelas x0,98). Pregunta antes qué apetece de verdad ver de
@@ -587,12 +617,51 @@ animal que no son los del vídeo.
 - **Idioma**: el prompt, **en inglés** (lo que mejor entienden las IA de imagen); encima, una línea en español con la
   idea para quien lo pega. **El texto de la miniatura, literal y en el idioma del vídeo**, entre comillas.
 - **Un prompt, una imagen**: cada variante es un mensaje nuevo en un chat nuevo, con su referencia adjunta.
+- 2026-11-17 — **Si las miniaturas las genera Claude en ChatGPT (Claude in Chrome), al acabar se borran sus chats.**
+  Al abrir cada chat se apunta su URL en `youtube/generadas/chats.md` (letra, versión, URL). Cuando TODAS las imágenes
+  están guardadas en `youtube/generadas/`, pasadas por `miniatura.py final` y comprobadas (`prueba.jpg`, `caras.jpg`),
+  se borran esos chats y solo esos (menú del chat → Eliminar), también los de intentos descartados; nunca otro chat de
+  la cuenta, aunque se llame igual. Antes de borrar, la imagen de cada chat tiene que estar guardada en local (borrar
+  en ChatGPT no se deshace). Si alguno no se puede borrar o no se encuentra, se dice al entregar con su URL. Pedir que
+  se generen las miniaturas ya incluye este borrado. Por qué: Lucas, alimentacion, «cuando se le diga que genere las
+  miniaturas, borre las conversaciones en ChatGPT de las miniaturas una vez acabadas».
+- **El título del vídeo NO va en el prompt** (ni como «contexto»): ChatGPT lo escribe en la imagen aunque el prompt diga
+  «No text anywhere». Visto en alimentacion C y E, 2026-11-17 (dos de tres salieron con el título rotulado y hubo que
+  pedir quitarlo). Lo que el título promete se describe como escena; el texto, solo si la miniatura lo lleva (bloque 8).
 - **Si la referencia no enseña la cara** (de espaldas, mirando abajo, pequeña o tapada), **adjunta desde el primer
   mensaje una segunda captura con la cara** (`A2.jpg`: de frente, ojos visibles, el mismo día y con la misma ropa; o una
   foto de `recursos/creador/`) y nómbrala en el prompt («image 2 = the same man facing the camera, for his face»). Sin
   ella, la IA inventa una cara. Y no lo arregles después en el mismo chat pidiendo «cambia su cara por la de esta foto»:
   ChatGPT lo bloquea por sus normas (visto en `1311` B, 2026-11-14); rehazla en un chat nuevo con las dos desde el
   principio. Los retoques de parecido que sí pasan: «his hair is fuller and wavier, his beard thicker», sin pedir un cambio de cara.
+- 2026-11-17 — **La cara de la persona, lo más fiel posible: es la persona real, no un parecido.** La IA conserva la
+  cara que VE y redibuja la que tiene que imaginar. Por eso:
+  1. **La referencia de la cara ya tiene el ángulo, la mirada y el gesto que pide la miniatura**: si la miniatura le
+     quiere mirando a cámara, la referencia mira a cámara (un fotograma así o una foto de `recursos/creador/`); si solo
+     hay capturas de lado o mirando abajo, la composición se adapta a esa cara («looking down at the plate», «in
+     three-quarter view, as in image 2») en vez de pedir otra. Nunca ojos cerrados, cabeza gacha ni cara de lado como
+     única referencia.
+  2. **La cara grande y aparte**: `miniatura.py cara A2` recorta la cara de la referencia a ≥ 1024 px
+     (`youtube/A2_cara.jpg`) y se adjunta SIEMPRE como una imagen más: «image 3 = close-up of his face: identity
+     reference — copy his facial features exactly (eye shape, nose, jaw, beard line, hairline, skin texture); do not
+     idealise, do not change his age». Si avisa de que la cara mide menos de 160 px o no encuentra ninguna, se busca otro
+     fotograma o una foto. **Más fotos de la cara solo si son coherentes**: lo que mejor clava la cara es una referencia
+     de cuerpo y su propio recorte (la misma foto: misma luz, mismo día, mismo ángulo). Una tercera foto de otro momento,
+     con otra luz, otro peinado u otro ángulo, no suma: la IA las mezcla y saca una cara «media». Como mucho una más, del
+     mismo día y en un ángulo parecido. (Pregunta de Lucas, 2026-11-17; es lo que se espera de cómo funcionan estas IA,
+     sin medir aún: si una prueba dice otra cosa, se corrige aquí.)
+  3. **En la miniatura, la cara no es diminuta** (como mínimo ~20–25 % del alto si sale): una cara pequeña la IA la
+     inventa entera.
+  4. **Se comprueba**: `miniatura.py final` deja `youtube/caras.jpg` con la cara de cada miniatura junto a la de su
+     referencia. Misma nariz, ojos, mandíbula, barba y nacimiento del pelo; si no es él, **se rehace en un chat nuevo**
+     con mejor referencia (pedir «cambia su cara» en el mismo chat lo bloquea ChatGPT, regla de arriba). Lo que no se
+     pueda comprobar se le dice a quien edita al entregar.
+  Por qué: Lucas, alimentacion, «en la miniatura B le ha cambiado la cara a la persona demasiado… hay que intentar
+  mantener lo más fiel posible la cara de la persona» y «lo mismo en la E». **Causa:** la referencia de la cara de la
+  B era un fotograma con él mirando abajo y los ojos casi cerrados (la IA inventó los ojos y la mirada), y la E pedía
+  mirar a la lente sonriendo con una referencia de tres cuartos mirando a otro lado (tuvo que inventar la cara de
+  frente). En la A, con la cara grande y en un ángulo parecido al pedido, salió fiel. Se comprobaba solo a 168 px, donde
+  no se ve si la cara es la suya. (vídeo: alimentacion)
 - **Orden fijo de bloques** (el del esqueleto de abajo):
 
 | Bloque | Qué pide |
@@ -728,7 +797,7 @@ Si una pareja depende de esto, dilo en el paquete y prueba las dos opciones en �
 22. ¿Lo inventado es decorado o símbolo de algo que el vídeo cumple? ¿Nada de suceso, emoción, animal ni famoso inventados?
 23. ¿La referencia se entiende a 168 px (`miniatura.py hoja`)? ¿El sujeto es lo más grande y lo más nítido? Si en ella
     no se le ve la cara de frente, ¿va una segunda captura con la cara (`A2.jpg`)?
-24. ¿Las cinco parejas tiran de palancas distintas? ¿Ninguna es relleno para llegar a cinco? (Mejor cuatro buenas.)
+24. ¿Cada título dice qué ES el vídeo (su promesa central), y las cinco cambian solo el gancho? ¿Tiran de palancas distintas sin cambiar de tema? ¿Ninguna es relleno para llegar a cinco? (Mejor cuatro buenas.)
 
 ## 8. Entrega: el paquete de YouTube
 

@@ -12,7 +12,7 @@ antes de lanzarlo). No pisa una SALIDA que ya existe.
 
 Uso (desde out/<slug>/, después de paso3_plan.py y de comprobarlo todo con ver.py), en segundo plano:
   render_todo.py ../AAAA-MM-DD_<slug>.mp4
-y, mientras dura, vigilar_render.py cada 5-10 minutos (libera memoria y avisa si se ha parado)."""
+y, mientras dura, lo vigila vigilante.py (lanzado al empezar el vídeo): si se muere o se cuelga, lo relanza solo."""
 import glob, json, os, subprocess, sys
 from comun import PY, TRABAJO
 import plan      # después de comun
@@ -28,6 +28,8 @@ salida = libres[0]; hilos = int(op("--hilos", os.environ.get("CAPAS_HILOS", "6")
 if os.path.exists(salida): raise SystemExit(f"{salida} ya existe: no se pisa. Si quieres rehacerlo, dale otro nombre a la salida o aparta ese archivo.")
 otros = render_vivo()
 if otros: raise SystemExit(f"Ya hay un render en marcha (procesos {[p[0] for p in otros]}): no se lanza otro encima.")
+# el vigilante (vigilante.py) relanza el render si se muere o se cuelga antes de acabar: le dejamos dicho cuál es
+json.dump({"salida": salida, "args": sys.argv[1:], "py": PY}, open(f"{TRABAJO}/render_pedido.json", "w"))
 for f in glob.glob(f"{TRABAJO}/capas/*.tmp.mov") + glob.glob(f"{TRABAJO}/tramos/*.tmp.mp4"): os.remove(f)      # restos de un proceso muerto
 
 paso = lambda nombre, *a, **env: subprocess.run([PY, f"{AQUI}/{nombre}", *a], env={**os.environ, **{k: str(v) for k, v in env.items()}}).returncode
@@ -51,4 +53,6 @@ if getattr(plan, "PISTAS", None) and getattr(plan, "VENTANAS", None) and paso("p
 print("== unir", flush=True)
 base, ext = os.path.splitext(salida); parcial = f"{base}.parcial{ext}"
 if paso("paso4_render.py", "unir", parcial) or not os.path.exists(parcial): raise SystemExit("la unión ha fallado")
-os.replace(parcial, salida); print(f"LISTO: {salida} ({os.path.getsize(salida) / 2**30:.2f} GB). Falta comprobar el archivo final (SKILL.md § 2, paso 7).")
+os.replace(parcial, salida)
+if os.path.exists(f"{TRABAJO}/render_pedido.json"): os.remove(f"{TRABAJO}/render_pedido.json")
+print(f"LISTO: {salida} ({os.path.getsize(salida) / 2**30:.2f} GB). Falta comprobar el archivo final (SKILL.md § 2, paso 7).")

@@ -150,7 +150,7 @@ en `personal/<creador>/recursos.md`. Cómo se monta todo eso: `SKILL.md` § 4.
 sus medidas y `.mp3` con su sonido: clic y campanilla). Se piden en `plan.py`:
 
 ```python
-BOTONES = [((A, "suscríbete al canal", -1), 2)]                       # abajo al centro, a media anchura (así va siempre)
+BOTONES = [((A, "suscríbete al canal", -1), 2)]                       # abajo al centro, a un tercio del ancho (así va siempre)
 BOTONES = [(((A, "suscríbete al canal", -1), -4.1), 2, {"vel": 1.25})]  # empieza 4,1 s antes de la frase y va un 25 % más rápido
 ```
 **Regla (Lucas, 2026-11-12): cada vez que el creador pide suscribirse, dar a me gusta o activar la campana, va uno de
@@ -160,7 +160,7 @@ pone subscribe en texto en vez de usar lo que te dije» y «cuando se ponga susc
 animaciones estas, no en un lado» (vídeo: ramon, v5).
 
 Dura lo que dura la animación y suena su propio sonido (0,35). Opciones: `vel` (velocidad; el sonido se acelera igual,
-sin cambiar de tono), `esc` (tamaño: ancho del lienzo original, 0,5 de serie), `y` (altura del centro, 0,8 de serie; solo
+sin cambiar de tono), `esc` (tamaño: ancho del lienzo original; 0,34 de serie desde 2026-11-17: con 0,5 Lucas lo veía «muy grande»), `y` (altura del centro, 0,8 de serie; solo
 se cambia si abajo tapa algo que se está enseñando). **Encájalo con la voz**: que el clic en «SUSCRÍBETE» caiga en la
 palabra (en el 2, el clic es a los 5,2 s de animación: empieza 5,2 s antes, o 4,1 s con `vel` 1,25) y que la barra se
 haya recogido antes del corte siguiente o del outro. Si no cabe: `vel` hasta 1,5 o un botón corto (6, 10).

@@ -52,7 +52,11 @@ def alinear(c, a, b_):
 
 
 piezas, pal, marcas, secciones = [], [], {}, []
-o = 0
+o = 0; fin_pal = {}      # (clip, palabra) -> segundo del bruto en que acaba, tal como ha quedado montada
+# Lucas, 2026-11-17 (alimentacion): un trozo de bruto salía dos veces. Una causa: la alineación forzada de una frase
+# «se comía» hacia atrás las últimas palabras de la pieza anterior del EDL (la que acaba justo en la palabra de antes):
+# «…baila las congas» sonaba al final de una pieza y otra vez al principio de la siguiente. Ninguna pieza empieza antes
+# de donde acaba, ya montada, la palabra que la precede.
 for n_it, it in enumerate(EDL):
     if it["k"] == "X": marcas[it["tag"]] = o; continue
     if it["k"] == "S": secciones.append({**it, "o": o}); marcas[f"s{it['n']}"] = o; continue
@@ -81,9 +85,12 @@ for n_it, it in enumerate(EDL):
     for gi, g in enumerate(grupos):
         s, e = al[g[0]][0] - LEAD, al[g[-1]][1] + TAIL
         if gi == 0 and prev is not None: s = max(s, min(prev + 0.02, al[g[0]][0] - 0.02))            # sin pisar la palabra de antes
+        if (c, a + g[0] - 1) in fin_pal: s = max(s, fin_pal[(c, a + g[0] - 1)] + 0.02)                 # ni lo que ya suena en la pieza anterior
+        if e - s < 0.2: continue
         if gi == len(grupos) - 1 and nxt is not None: e = min(e, max(nxt - 0.02, al[g[-1]][1] + 0.03))   # ni la de después
         i0, i1 = max(0, math.floor(s * FPS)), min(math.ceil(e * FPS), len(wav(c)) * FPS // 16000)   # sin salirse del bruto (frase en el segundo 0 o en el último)
         piezas.append({"clip": c, "in": i0, "out": i1, "o": o, "n": i1 - i0, "item": n_it, "k": "T", "vol": 1.0, "speed": 1.0, "tag": it.get("tag") if gi == 0 else None})
+        fin_pal[(c, a + g[-1])] = i1 / FPS
         for i in g:
             pal.append({"w": w[a + i]["p"].strip(), "clip": c, "idx": a + i, "o0": round(o + al[i][0] * FPS - i0, 2), "o1": round(o + al[i][1] * FPS - i0, 2), "s0": round(al[i][0], 3), "dif": round(al[i][0] - w[a + i]["t"], 3)})
         o += i1 - i0

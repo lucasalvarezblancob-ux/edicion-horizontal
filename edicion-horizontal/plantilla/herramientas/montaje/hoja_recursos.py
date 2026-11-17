@@ -28,3 +28,20 @@ for i, pl in enumerate(g):
     filas.append(im)
 for k in range(0, len(filas), 9): cv2.imwrite(f"{TRABAJO}/recursos_{k // 9 + 1}.jpg", np.vstack(filas[k:k + 9]), [cv2.IMWRITE_JPEG_QUALITY, 80])
 print(len(g), "recursos ->", ", ".join(f"{TRABAJO}/recursos_{k // 9 + 1}.jpg" for k in range(0, len(filas), 9)))
+
+# ---- el tráiler, plano a plano: que no salga dos veces el mismo animal o el mismo momento ----
+# Lucas, 2026-11-17 (alimentacion): «se repite el clip de la terrapene en la intro: está bien cuando la menciona, pero el de
+# antes aprovecharía y pondría otro animal». En un tráiler-resumen cada plano enseña algo DISTINTO y llamativo (el animal
+# más espectacular, una acción, una reacción). Esta tira tiene un fotograma de cada plano del tráiler, en orden: mírala.
+import json as _j
+_m = _j.load(open(f"{TRABAJO}/linea.json", encoding="utf-8"))["marcas"]; _fin = _m.get("cuerpo", 0); tr = []
+for v in video():
+    if v["o"] >= _fin: break
+    f = v["o"] + v["n"] // 2; W2, H2, x, y = encuadre(v["z1"], v.get("cx"), v.get("cy"), v.get("ax", 0.5), v.get("ay", 0.5)); ent, pre = fuente(v["clip"], (v["in"] + v["n"] // 2 * v["speed"]) / FPS)
+    raw = subprocess.run(["ffmpeg", "-nostdin", "-v", "error", *ent, "-frames:v", "1", "-vf", f"{pre}scale={W2}:{H2},crop={ANCHO}:{ALTO}:{x}:{y},scale={w}:{h}", "-pix_fmt", "bgr24", "-f", "rawvideo", "-"], capture_output=True).stdout
+    im = np.frombuffer(raw, np.uint8).reshape(h, w, 3).copy() if len(raw) == w * h * 3 else np.zeros((h, w, 3), np.uint8)
+    s = v["o"] / FPS; cv2.rectangle(im, (0, 0), (w, 30), (0, 0, 0), -1)
+    cv2.putText(im, f"{int(s // 60)}:{s % 60:04.1f} {v['clip']} {v['n'] / FPS:.1f}s {'REC' if v['b'] else ''}", (6, 22), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (80, 240, 240), 2); tr.append(im)
+if tr:
+    while len(tr) % 4: tr.append(np.zeros_like(tr[0]))
+    cv2.imwrite(f"{TRABAJO}/trailer.jpg", np.vstack([np.hstack(tr[k:k + 4]) for k in range(0, len(tr), 4)]), [cv2.IMWRITE_JPEG_QUALITY, 80]); print(f"tráiler plano a plano -> {TRABAJO}/trailer.jpg")
