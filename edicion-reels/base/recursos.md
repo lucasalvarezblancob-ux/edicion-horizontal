@@ -133,7 +133,8 @@ están en `base/preferencias.md` → Recursos (2026-11-05 y 2026-11-16).
 - Formatos que se apoyan en stock por diseño (p. ej. recetas con voz en off: manos y comida de stock).
 
 **Cuándo no**: si hay un clip propio que casa, va el propio. El stock tapa huecos, no sustituye lo grabado. En vídeos
-hablando a cámara, nada de clips a pantalla completa encima de la cara salvo que lo pidan
+hablando a cámara, nada de clips (ni propios ni de stock) a pantalla completa encima de la cara **salvo que el ajuste
+«B-roll en hablando a cámara» esté activado** en `personal/preferencias.md` → Ajustes **o lo pidan para ese vídeo**
 (`refs/hablando a camara/CONTEXTO.md`).
 
 **Cómo**

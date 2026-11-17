@@ -25,6 +25,13 @@ diga y pon su @ y código en `estudio/src/comun/marca.ts` (el color de serie es 
 solo se cambia si lo pide). **Clave de ElevenLabs: opcional** — `instalar.sh` la pregunta una vez (se puede saltar);
 si no hay `estudio/.env.local`, ofrécesela una sola vez explicando para qué sirve (§ 6) y no insistas.
 
+**Ajustes** — interruptores de quien edita, en `personal/preferencias.md` → Ajustes (léelos al empezar; si falta una
+línea, vale el valor de serie que dice la plantilla). Se cambian diciéndolo ("activa los recursos en hablando a cámara",
+"desactiva…", "cambia en preferencias…"): cambia **solo esa línea**, confírmalo en una línea y vale desde ese momento.
+Si la sección no existe (carpeta instalada antes), créala arriba con lo que haya en `<skill>/plantilla/personal/
+preferencias.md`. Como `personal/` es local, `actualizar.sh` no los toca nunca. Hoy: **B-roll en hablando a cámara**
+(recursos propios y de stock encima de la cara; de serie, desactivado).
+
 **Modo** — compruébalo al empezar: `<skill>/modo.sh` imprime `autor` o `local`.
 - `local` (todos menos Lucas): **no edites nada dentro de `<skill>`** (ni SKILL.md, ni `base/`, ni `plantilla/`),
   aunque te lo pidan. Si quieren cambiar una regla estándar, la regla nueva va en `personal/preferencias.md` (manda
