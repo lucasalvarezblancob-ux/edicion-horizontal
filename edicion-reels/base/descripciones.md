@@ -6,6 +6,13 @@
 > están en `personal/perfil.md`; donde aquí pone `@lucasalvarez.x`, `@lucaselatleta` o `ALVAREZ10`, usa los tuyos. Tus
 > reglas de `personal/preferencias.md` (sección Entrega y publicación) mandan sobre estas.
 
+**La descripción sale siempre del contexto del vídeo.** Si el vídeo lo has editado con esta skill, ya tienes ese
+contexto: el bruto analizado, la transcripción, el guion, el tipo de edición, el gancho y lo que se ve en cada plano
+(`estudio/src/videos/<slug>/`, `out/REGISTRO.md`). Si no, mira el vídeo o pregunta de qué va antes de escribir. Lo que
+el vídeo dice y enseña decide la forma: si es una lista, la descripción es una lista; si es una reflexión, una historia
+o un chiste, **no** se convierte en lista ni se le añaden puntos que el vídeo no trae. Ningún formato de esta guía se
+aplica porque sí: todos dependen de lo que pida el vídeo.
+
 **No es una plantilla fija**: identifica el tipo de vídeo, adapta la estructura y entrega el texto listo para copiar,
 sin explicar lo que has hecho. Tono: el del creador (español de España salvo que su perfil diga otra cosa), cercano,
 directo, frases cortas. Que parezca escrita por él, no por una agencia.
@@ -14,15 +21,16 @@ directo, frases cortas. Que parezca escrita por él, no por una agencia.
 
 Toda descripción tiene que pasar los tres. Si falla uno, se reescribe.
 
-1. **Relevante** → dice con palabras que la gente busca de qué va el vídeo, y casa con lo que se ve. Instagram indexa
+1. **Relevante** → dice con palabras que la gente busca de qué va **este** vídeo, y casa con lo que se ve y se dice. Instagram indexa
    en Google las publicaciones de cuentas profesionales públicas, y los buscadores de Instagram, TikTok y YouTube leen
    la descripción (además del texto en pantalla y lo que se dice). Sin keyword, el vídeo solo vive en el feed unos días;
    con keyword, se sigue encontrando meses después.
-2. **Valiosa** → aporta algo que el vídeo no da del todo: la lista entera, los pasos con su clave, las cantidades, el
-   porqué, los errores típicos. Es lo que hace que lo **guarden** para leerlo luego. Una descripción que solo repite el
-   gancho no vale nada.
+2. **Valiosa** → aporta algo que el vídeo no da del todo, **dentro de su tema**: si enseña ejercicios, su clave
+   técnica; si da un consejo, el porqué y ejemplos; si cuenta una historia, los datos reales y lo que aprendió; si
+   promete varios puntos, todos. Es lo que hace que lo **guarden** para leerlo luego. Una descripción que solo repite el
+   gancho no vale nada, y una que se va a otro tema tampoco.
 3. **Genera interacción** → un CTA pensado para que respondan de verdad (ver "CTA de interacción": los que funcionan
-   dan algo a cambio, dejan decidir o se responden en dos segundos), más el CTA de seguir.
+   dejan decidir o se responden en dos segundos, o piden guardar o compartir), más el CTA de seguir.
 
 ## Lo que dicen los datos (un año de @lucasalvarez.x, nov 2025 – nov 2026)
 
@@ -32,10 +40,10 @@ sobre todo seguidores, que comentan más. Aun así las diferencias son de 10× a
 
 | Qué | Resultado | Regla que sale |
 |---|---|---|
-| **Lista accionable dentro de la descripción** ("50 cosas para hacer solo este año", "10 cosas para hacer en diciembre") | Guardados = **1,2–1,8 %** de las reproducciones, frente a 0,25–0,9 % en la mayoría de reflexiones sin lista (×2–6). El post más visto del año (≈10 M) fue un reel con el gancho en pantalla y **la lista completa en la descripción** | Si el vídeo promete varios puntos, la descripción los da todos: el vídeo es el gancho y la descripción, el contenido |
+| **Lista accionable dentro de la descripción** ("50 cosas para hacer solo este año", "10 cosas para hacer en diciembre") | Guardados = **1,2–1,8 %** de las reproducciones, frente a 0,25–0,9 % en la mayoría de reflexiones sin lista (×2–6). El post más visto del año (≈10 M) fue un reel con el gancho en pantalla y **la lista completa en la descripción** | Solo cuando el vídeo es una lista o promete varios puntos: entonces la descripción los da todos. Si el vídeo no es una lista, no se inventa una |
 | CTA de seguir **dentro de la lista** (como ítem 5 o tras el 15: "5. Sígueme en @… si te gusta salir de tu zona de confort") | Lo llevaban 4 de los 5 reels de lista con más guardados | En las listas largas, el "Sígueme" va entre los primeros ítems, donde la gente ya está leyendo |
-| "Comenta PALABRA si estás comprometido…" sin nada a cambio | **0,04–0,5 %** comentarios por "me gusta" | No lo uses: pide un gesto que no le da nada a quien lo ve |
-| "Comenta RUN y te mando la rutina" · "¿Qué deporte pruebo en el próximo capítulo?" · "¿Qué meta te vas a poner este mes?" · "Ponle nota al outfit del 1 al 10" | **11–18 %** comentarios por "me gusta" | El comentario tiene que llevarse algo, decidir algo o responderse en dos segundos |
+| "Comenta PALABRA si estás comprometido…" | **0,04–0,5 %** comentarios por "me gusta" | No lo uses. "Comenta PALABRA" es para captar leads (autoDM): solo si el creador lo pide |
+| "¿Qué deporte pruebo en el próximo capítulo?" · "¿Qué meta te vas a poner este mes?" · "Ponle nota al outfit del 1 al 10" | **11–18 %** comentarios por "me gusta" | La pregunta tiene que dejar decidir algo o responderse en dos segundos |
 | Pregunta concreta o binaria ("¿Tomas suplementos o eres del equipo 'eso es una tontería'?", "¿Os ha pasado alguna vez?") | 2–3 % | Mejor que una frase de identidad; peor que dar algo o dejar decidir |
 | Humor identificable con descripción corta | 87 % de retención y ~4 % de compartidos sobre alcance (los reels de lista: ~0,8 %) | En humor, corta, sin explicar el chiste, y empujando a compartir |
 | Carruseles de mentalidad; la mayoría cerraban con "Bienvenido a mi cuenta" + CTA de seguir | Los que más seguidores trajeron (hasta ~1,1–1,4 % del alcance en seguidores nuevos) | En contenido que ve sobre todo gente nueva, dale la bienvenida y dile por qué seguirte |
@@ -68,13 +76,13 @@ sobre todo seguidores, que comentan más. Aun así las diferencias son de 10× a
    - Qué: el tema concreto ("rutinas de gimnasio", "consejos de running", "recetas de batch cooking"), no "contenido";
      o la identidad de quien lo ve ("si tú también estás preparando tu primera maratón").
 3. **Emojis para que sea visual, sin abusar**: el de la primera línea, 👉 en el CTA de seguir, 1️⃣ 2️⃣ 3️⃣ en los pasos,
-   📌 en el "guárdala", 💬 en el CTA de comentar. Ninguno en mitad de las frases ni en los hashtags.
+   📌 en el "guárdala", 💬 en la pregunta para comentar. Ninguno en mitad de las frases ni en los hashtags.
 4. **Hashtags: 3–5** (Instagram ya limita a 5), específicos del tema y con las mismas palabras clave de la primera
    línea. Pesan menos que las palabras del texto: no sustituyen a la keyword. Nada de relleno (#fyp, #viral,
    #instagood, #goodvibes). Cambian con el tema.
 5. **No inventar**: todo lo que pone sale en el vídeo, en el guion o lo ha dicho el creador (marcas, cifras, tiempos,
    resultados, experiencias). Si una cifra la propuse yo y está pendiente de confirmar, no la presentes como experiencia
-   suya. Tampoco estadísticas de relleno ni promesas que no se cumplen ("te lo mando" sin autoDM).
+   suya. Tampoco estadísticas de relleno ni promesas que no se cumplen.
 6. Las coletillas del gancho ("perra") y los tacos del vídeo no van en la descripción.
 7. **Voz del creador**: su género, su edad, su historia (`perfil.md`). Si la idea viene de otra cuenta o de una
    referencia, se reescribe entera.
@@ -84,11 +92,11 @@ sobre todo seguidores, que comentan más. Aun así las diferencias son de 10× a
 
 ## Según el tipo de vídeo
 
-**Lista / ideas / hábitos** ("10 hábitos que ojalá hubiese empezado a los 18", "50 cosas para hacer solo", "7 desayunos
-altos en proteína") → **la descripción es el contenido**.
+**Lista / ideas / hábitos — solo si el vídeo es una lista** ("10 hábitos que ojalá hubiese empezado a los 18", "50 cosas para hacer solo", "7 desayunos
+altos en proteína") → la descripción da la lista entera, con los mismos puntos que el vídeo.
 Primera línea con número + keyword → 1 línea de por qué importa → lista numerada completa (cada ítem en una línea; si
 hace falta, una segunda línea corta con el porqué) con el CTA de seguir metido tras los primeros ítems → una línea de
-cierre que resuma la idea → CTA de interacción (📌 guardar, o 💬 comenta PALABRA si hay autoDM) → hashtags.
+cierre que resuma la idea → `📌 Guárdalo para…` → hashtags.
 
 **Rutina / entreno con voz en off** (rutina-hibrida, entreno-empuje, movilidad-hombro…) → lista.
 Primera línea SEO → CTA de seguir → ejercicios numerados en el orden del vídeo, cada uno con su clave técnica en una
@@ -130,20 +138,20 @@ hashtags.
 ## CTA de interacción (uno principal, el que pegue)
 
 De más a menos fuerte según los datos:
-1. **Comenta PALABRA y te mando X** (la rutina, la guía, la lista de la compra…) → solo **si hay un autoDM de GoFeed
-   para esa palabra** (compruébalo con `autodm_list`); si no, promete algo que no llega. Palabras cortas y del tema
-   (RUN, ABS, CINTA, PASOS, GUÍA).
-2. **Que decidan el siguiente vídeo**: "¿Qué deporte pruebo en el próximo capítulo?", "El mejor comentario lo hacemos
+1. **Que decidan el siguiente vídeo**: "¿Qué deporte pruebo en el próximo capítulo?", "El mejor comentario lo hacemos
    realidad".
-3. **Pregunta que se responde en dos segundos**: elegir entre dos ("¿Oversize o compresiva?"), un número ("Ponle nota
+2. **Pregunta que se responde en dos segundos**: elegir entre dos ("¿Oversize o compresiva?"), un número ("Ponle nota
    del 1 al 10", "¿Cuánto crees que costó?"), o su caso concreto ("¿Tú qué desayunas antes de una tirada larga?").
    Nunca "¿qué opináis?".
-4. **Guardar** → rutinas, listas, consejos y fechas, diciendo para cuándo: "📌 Guárdala para tu próximo día de pierna",
+3. **Guardar** → rutinas, listas, consejos y fechas, diciendo para cuándo: "📌 Guárdala para tu próximo día de pierna",
    "📌 Guárdate este vídeo para que no se te pase la fecha".
-5. **Compartir** → humor, colabs y trial reels (los ven no seguidores), con alguien concreto: "Mándaselo a tu compi de
+4. **Compartir** → humor, colabs y trial reels (los ven no seguidores), con alguien concreto: "Mándaselo a tu compi de
    gym".
 
-No uses "Comenta X si estás comprometido / si te sientes identificado" sin nada detrás: casi nadie comenta (ver datos).
+**"Comenta PALABRA" (RUN, GUÍA, CAMBIO…) no se pone salvo que el creador lo pida**: es una herramienta para captar
+leads con un autoDM, no un CTA de interacción. Si lo pide, comprueba que el autoDM existe en GoFeed (`autodm_list`)
+antes de publicarlo. Y nunca "Comenta X si estás comprometido / si te sientes identificado": casi nadie comenta (ver
+datos).
 
 ## Por red (mismo post en GoFeed, texto propio por cuenta con `customContent`)
 
@@ -159,7 +167,8 @@ Los 3 filtros valen igual en las tres; cambia el formato.
 ## Antes de entregar
 
 - **¿Relevante?** ¿La primera línea se entiende sola, empieza por algo que la gente busca y casa con el vídeo?
-- **¿Valiosa?** ¿Da algo que el vídeo no da del todo (lista entera, pasos, porqués, ejemplos)? ¿Alguien la guardaría?
+- **¿Sale del contexto del vídeo?** ¿La forma (lista, explicación, historia, corta) es la que pide el vídeo y no otra?
+- **¿Valiosa?** ¿Da algo que el vídeo no da del todo, sin salirse de su tema? ¿Alguien la guardaría?
 - **¿Genera interacción?** ¿Un CTA de seguir con el @ correcto y un CTA de interacción que dé algo, deje decidir o se
   responda en dos segundos, sin repetir?
 - ¿Todo lo que pone sale en el vídeo o lo ha dicho el creador? ¿Marcas y nombres bien escritos? ¿Su voz y su género?
@@ -185,7 +194,7 @@ Rutina de empuje para ganar pecho, hombro y tríceps en máquinas 💪
 #rutinadeempuje #rutinadepecho #entrenamientodepecho #gimnasio #hombrosytriceps
 ```
 
-**Lista (patrón del post con más guardados del año, ya con primera línea SEO)**
+**Lista (para un vídeo que es una lista; patrón del post con más guardados del año, ya con primera línea SEO)**
 ```
 10 hábitos que ojalá hubiese empezado a los 18 para cambiar tu vida 📈
 
@@ -208,3 +217,4 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si contradice algo de arr
 - 2026-11-01 — En el CTA va el @: "Sígueme en @lucasalvarez.x para más…". (movilidad-hombro)
 - 2026-11-03 — En los consejos (nutrición, running…), la descripción va **a lo práctico que se busca** (qué comer, qué hacer) y **amplía el vídeo con valor extra**: varios ejemplos/opciones numerados + 3–4 claves útiles, aunque quede larga. El objetivo es que se guarden el vídeo para leer la descripción después. La anécdota de Lucas, solo como prueba en una línea. Los consejos generales que añado van como recomendaciones, **nunca como experiencia de Lucas**, y sin cifras dudosas. Por qué: "varios ejemplos de desayuno, que quede un poco más largo… aportar valor para que la gente se guarde el vídeo para leer la descripción más adelante". (desayuna-fuerte)
 - 2026-11-17 — **Toda descripción tiene que ser relevante, valiosa y generar interacción, en Instagram, TikTok y YouTube** (los 3 filtros de arriba), y para cualquier nicho, no solo fitness. Instagram indexa en Google: buenas keywords siempre. Reglas y tipos revisados con el análisis de un año de descripciones de @lucasalvarez.x cruzado con sus métricas (tabla "Lo que dicen los datos"). Por qué: Lucas, "tiene que ser relevante, valiosa y que genere interacción. Esto tanto para Instagram como para YouTube como para TikTok" y "Instagram ahora indexa en Google, tiene SEO, por lo que también es importante que tenga buenas keywords".
+- 2026-11-17 — **La descripción depende siempre del contexto del vídeo** (el que genera la edición: bruto, transcripción, guion, tipo): lista solo si el vídeo es una lista; si no, la forma que pida el vídeo. **"Comenta PALABRA" no se pone salvo que el creador lo pida** (es para captar leads con autoDM). Por qué: Lucas, "comentar una palabra, si el creador no te lo pide, no lo pongas, ya que normalmente eso es para captación de leads" y "si el contexto no pide una lista, no la pongas, y que la descripción dependa del contexto siempre".
