@@ -32,7 +32,7 @@ Toda descripción tiene que pasar los tres. Si falla uno, se reescribe.
 3. **Genera interacción** → un CTA pensado para que respondan de verdad (ver "CTA de interacción": los que funcionan
    dejan decidir o se responden en dos segundos, o piden guardar o compartir), más el CTA de seguir.
 
-## Lo que dicen los datos (un año de @lucasalvarez.x, nov 2025 – nov 2026)
+## Lo que dicen los datos (un año de una cuenta de fitness y lifestyle de ~114K, nov 2025 – nov 2026)
 
 Unas 230 descripciones propias leídas en Instagram y cruzadas con las métricas de GoFeed (guardados, compartidos,
 seguidores ganados, comentarios). Ojo con comparar comentarios entre posts de alcance muy distinto: los pequeños los ven
@@ -49,7 +49,7 @@ sobre todo seguidores, que comentan más. Aun así las diferencias son de 10× a
 | Carruseles de mentalidad; la mayoría cerraban con "Bienvenido a mi cuenta" + CTA de seguir | Los que más seguidores trajeron (hasta ~1,1–1,4 % del alcance en seguidores nuevos) | En contenido que ve sobre todo gente nueva, dale la bienvenida y dile por qué seguirte |
 
 **Errores que se repetían y no deben volver a pasar:**
-- El **@ de otra red** en el CTA (durante meses las descripciones de Instagram decían "Sígueme en @lucaselatleta", que
+- El **@ de otra red** en el CTA (durante meses las descripciones de Instagram decían "Sígueme en @<su usuario de TikTok>", que
   es el usuario de TikTok). El @ del CTA es siempre el de la cuenta donde se publica (`perfil.md`).
 - **Textos adaptados de otra cuenta sin cambiar la voz**: "No soy perfecta", "Bienvenida a mi cuenta", "me sentía
   estancada" en la cuenta de un chico. Si partes de un texto ajeno, reescríbelo entero con la voz y el género del creador.
@@ -201,7 +201,7 @@ Rutina de empuje para ganar pecho, hombro y tríceps en máquinas 💪
 1. Entrenar de forma constante. No por estética: por salud, energía y confianza.
 2. Leer todos los días. 10 páginas al día cambian más de lo que imaginas.
 3. Dormir 7–8 horas. La mayoría infravalora el impacto del sueño.
-👉 Sígueme en @lucasalvarez.x para más hábitos que ojalá hubiese sabido antes.
+👉 Sígueme en @<tu cuenta> para más hábitos que ojalá hubiese sabido antes.
 4. …
 10. Dejar de esperar el momento perfecto. Casi todo lo bueno empieza antes de estar listo.
 
@@ -216,5 +216,5 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si contradice algo de arr
 - 2026-11-01 — Emojis sin abusar (ver regla 3). Por qué: "así es más visual, sin abusar". (entreno-empuje)
 - 2026-11-01 — En el CTA va el @: "Sígueme en @lucasalvarez.x para más…". (movilidad-hombro)
 - 2026-11-03 — En los consejos (nutrición, running…), la descripción va **a lo práctico que se busca** (qué comer, qué hacer) y **amplía el vídeo con valor extra**: varios ejemplos/opciones numerados + 3–4 claves útiles, aunque quede larga. El objetivo es que se guarden el vídeo para leer la descripción después. La anécdota de Lucas, solo como prueba en una línea. Los consejos generales que añado van como recomendaciones, **nunca como experiencia de Lucas**, y sin cifras dudosas. Por qué: "varios ejemplos de desayuno, que quede un poco más largo… aportar valor para que la gente se guarde el vídeo para leer la descripción más adelante". (desayuna-fuerte)
-- 2026-11-17 — **Toda descripción tiene que ser relevante, valiosa y generar interacción, en Instagram, TikTok y YouTube** (los 3 filtros de arriba), y para cualquier nicho, no solo fitness. Instagram indexa en Google: buenas keywords siempre. Reglas y tipos revisados con el análisis de un año de descripciones de @lucasalvarez.x cruzado con sus métricas (tabla "Lo que dicen los datos"). Por qué: Lucas, "tiene que ser relevante, valiosa y que genere interacción. Esto tanto para Instagram como para YouTube como para TikTok" y "Instagram ahora indexa en Google, tiene SEO, por lo que también es importante que tenga buenas keywords".
+- 2026-11-17 — **Toda descripción tiene que ser relevante, valiosa y generar interacción, en Instagram, TikTok y YouTube** (los 3 filtros de arriba), y para cualquier nicho, no solo fitness. Instagram indexa en Google: buenas keywords siempre. Reglas y tipos revisados con el análisis de un año de descripciones de su cuenta cruzado con sus métricas (tabla "Lo que dicen los datos"). Por qué: Lucas, "tiene que ser relevante, valiosa y que genere interacción. Esto tanto para Instagram como para YouTube como para TikTok" y "Instagram ahora indexa en Google, tiene SEO, por lo que también es importante que tenga buenas keywords".
 - 2026-11-17 — **La descripción depende siempre del contexto del vídeo** (el que genera la edición: bruto, transcripción, guion, tipo): lista solo si el vídeo es una lista; si no, la forma que pida el vídeo. **"Comenta PALABRA" no se pone salvo que el creador lo pida** (es para captar leads con autoDM). Por qué: Lucas, "comentar una palabra, si el creador no te lo pide, no lo pongas, ya que normalmente eso es para captación de leads" y "si el contexto no pide una lista, no la pongas, y que la descripción dependa del contexto siempre".
