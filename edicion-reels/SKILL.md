@@ -110,6 +110,38 @@ Python: usa siempre `herramientas/.venv/bin/python` (si falta: `python3 -m venv 
 9. **Descargas del vídeo**: si bajaste material solo para este vídeo (clips de películas, memes, canciones de YouTube…), al acabar pregunta "¿Hemos acabado o quieres un retoque más?" y, si ha acabado, "¿Borro lo descargado para este vídeo?" con la lista (ver preferencias → Entrega). En esa lista va también el `out/AAAA-MM-DD_<slug>_sin-edits.mp4` (el render antes de Edits), si lo hay.
 10. **Limpieza automática (estándar desde 2026-11-03)**: a los **30 días** del render de un edit en `out/` se borra sola **la carpeta entera `estudio/public/<slug>/`** (proxies, clips, voz, música, audio de la ref, LUTs…) para liberar espacio. **Si se borra el render de `out/`, la regla es la misma**: los 30 días cuentan desde que el script ve por primera vez que ya no está (fecha en `herramientas/limpieza-estado.json`), y pasado ese plazo se borra aunque no exista en `out/`. Se salta el edit si se ha tocado algo suyo en los últimos 30 días. Lo hace `herramientas/limpiar_renders.py`, lanzado por el hook `SessionStart` de `.claude/settings.json` al abrir cada sesión. Lo borrado queda en `herramientas/limpieza.log`; si el hook avisa de que ha borrado algo, avísalo en una línea. Para ver qué borraría: `python3 -I herramientas/limpiar_renders.py --simular`. **Nunca se borra** (ni este script ni a mano): `recursos/` (sus clips grabados de gym, running, competición…), `bruto terminado/`, `refs/`, la skill y lo aprendido (`personal/`, los `CONTEXTO.md`), el código de cada edit (`estudio/src/videos/<slug>/`, sirve de plantilla) y los renders de `out/` (esos solo los borra el creador). **Para retocar un edit limpiado** hay que rehacer `public/<slug>/`: proxies con `herramientas/proxy.sh` desde `recursos/` o `bruto terminado/` (rutas en el comentario de la composición), y la voz, música o audio que hagan falta.
 
+### Varios brutos a la vez: hasta 3 en paralelo (solo Mac; estándar desde 2026-11-17)
+
+Si piden editar **más de un vídeo** a la vez y el ordenador es un Mac (`uname` = `Darwin`), se editan **en paralelo, de
+3 en 3 como máximo**, con un subagente por vídeo, en vez de uno detrás de otro. En Windows/Linux, en serie, de uno en
+uno. Si hay más de 3, en tandas: cuando termina uno entra el siguiente. **El resultado tiene que ser idéntico al de
+editarlos de uno en uno**: mismas reglas, mismas comprobaciones, misma calidad. Si algo de esto no se puede garantizar
+para un vídeo (p. ej. depende de otro o hay dudas que solo resuelve quien edita), ese vídeo va en serie.
+
+**La conversación principal es el orquestador** y no edita ella misma ningún vídeo de la tanda: guarda el contexto y el
+hilo con quien edita, reparte el trabajo, hace todo lo que toca archivos compartidos o la pantalla, y revisa cada
+resultado antes de darlo por bueno.
+1. **Antes de lanzar**: aclara con quien edita lo que necesite cada vídeo (tipo, gancho, guion, música, voz…), igual que
+   si fuera uno solo; los subagentes no pueden preguntarle nada. Fija un `<slug>` distinto por vídeo, crea
+   `src/videos/<slug>/` con un componente mínimo que exporte su `<…>Comp` y regístralo en `Root.tsx` (una línea por
+   vídeo). Así ningún agente tiene que tocar `Root.tsx`.
+2. **Cada subagente recibe un encargo completo**: ruta del bruto, `<slug>`, tipo, lo que ha pedido quien edita (literal)
+   y la orden de cargar la skill `edicion-reels` y seguir las secciones 0 y 2 (pasos 1–6) como si fuera el único vídeo:
+   leer preferencias, `personal/`, el `CONTEXTO.md` del tipo, `ganchos.md`, analizar el bruto, proxy con `proxy.sh`,
+   montar, sacar stills y revisar cortes y textos. **Solo escribe en `src/videos/<slug>/` y `public/<slug>/`.** Si
+   necesita cambiar algo compartido (`src/comun/`, `marca.ts`, herramientas, `Root.tsx`) o tiene una duda de gusto, no
+   lo hace: lo devuelve en su informe. Termina **antes del render** con: composición lista, stills revisados, lo que ha
+   decidido y por qué, dudas y avisos de los scripts (`verificar_hablante.py`, `revisar_cortes.py`, `revisar_finales.py`).
+3. **Al volver cada uno, el orquestador** revisa sus stills y su informe (si algo no cumple, se lo devuelve al mismo
+   agente para que lo corrija), resuelve las dudas con quien edita y aplica los cambios compartidos de uno en uno.
+4. **Lo pesado y lo que usa la pantalla va de uno en uno, desde el orquestador**: el render (paso 7, con
+   `render_por_tramos.sh` si toca), la comprobación de color en QuickTime, el paso por Edits, el cierre (mover brutos,
+   `recursos/INDICE.md`, `out/REGISTRO.md`) y la descripción (`base/descripciones.md`, con el contexto que ha devuelto
+   el agente). Mientras se renderiza uno, los demás agentes pueden seguir montando.
+5. **Las correcciones se apuntan desde el orquestador** (sección 3), nunca desde un subagente, para que no haya dos
+   escribiendo a la vez en `personal/` o en los `CONTEXTO.md`. Si quien edita corrige un vídeo de la tanda, se arregla
+   en ese vídeo (con su agente, si sigue abierto, o desde el orquestador) y la regla se apunta una sola vez.
+
 Remotion: carga la skill `remotion-best-practices` antes de escribir código. Studio: `cd estudio && npx remotion studio`.
 
 ## 3. Aprender de las correcciones (obligatorio)
