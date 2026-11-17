@@ -100,8 +100,9 @@ si queda pequeño, apunta dónde está para cerrarle zoom (hasta ×1,4 sin que s
    luz, época y outfit.
 3. **Técnica**: la mejor resolución que haya; HDR y SDR se pueden mezclar: `sdr.py` pasa a SDR los trozos HDR que se usan.
 4. **Variedad**: no repitas un tramo en el mismo vídeo; mira «Usado en» para no repetir el mismo clip en vídeos seguidos.
-5. **Si nada encaja**: se queda el plano a cámara (con zoom o texto) y se le dice al creador qué falta. No se inventa ni
-   se descarga nada sin que lo pida.
+5. **Si nada encaja**: primero el banco de stock del ordenador (§ 5 bis: Shutterstock con Claude in Chrome, si
+   `personal/bancos.md` dice que hay); si tampoco, se queda el plano a cámara (con zoom o texto) y se le dice al creador
+   qué falta. No se inventa nada.
 6. **Menciones sin imagen → archivo** (Lucas, 2026-11-12). Al estudiar los brutos se hace la lista de **todo lo que se
    nombra y no se ve en ellos**: el pasado («cuando construimos esto»), especies, sitios, plantas, obras, otra época.
    Para cada mención se busca en `recursos/INDICE.md` (por tema, especie, sitio y época) y, si hay clip, va sobre su
@@ -113,10 +114,55 @@ si queda pequeño, apunta dónde está para cerrarle zoom (hasta ×1,4 sin que s
 
 Al acabar el vídeo, añade «Usado en: <slug> (tramos)» en la ficha de cada recurso de `recursos/` usado.
 
+## 5 bis. Música nueva y vídeo de stock: Shutterstock con Claude in Chrome, primero
+
+**Orden para lo que no está en los brutos ni en `recursos/` del creador** (pistas nuevas, el animal o el sitio que se
+nombra y no hay, un plano de recurso): 1) **Shutterstock, buscado y descargado por Claude con Claude in Chrome** en el
+navegador de ese ordenador, si `personal/bancos.md` dice que tiene sesión; 2) el banco que el creador use (su
+`perfil.md`); 3) solo si no hay nada de eso, bancos gratis (Mixkit, Pexels) o el plano a cámara. Por qué: Lucas,
+2026-11-17, «para sacar músicas nuevas y vídeos de stock, prioritariamente la skill debería usar Claude in Chrome con
+Shutterstock… la primera vez se haga un test de si tiene Shutterstock… y así para músicas nuevas, etcétera, siempre
+puedes usar Claude in Chrome en ese ordenador». (En alimentacion la música salió de Mixkit porque era una prueba sin
+banco: con Shutterstock en el ordenador, no vuelve a pasar.)
+
+**`personal/bancos.md`: lo que hay en ESTE ordenador** (local, no va en git; uno por carpeta de edición, sirve para
+todos los creadores de esa carpeta). Si no existe, **la primera vez que haga falta música o stock se hace la prueba**:
+1. ¿Hay Claude in Chrome? (`tabs_context_mcp` responde). Si hay varios navegadores conectados, se elige con
+   `switch_browser` y lo confirma quien edita; se apunta cuál es.
+2. Pestaña nueva en `https://www.shutterstock.com/`: ¿hay sesión iniciada (menú de la cuenta, «Descargas» o
+   «Licencias») o pide «Iniciar sesión»? En el menú de la cuenta, qué cubre el plan (música, vídeo, imágenes) y los
+   créditos que quedan, si se ven. **Claude nunca inicia sesión ni escribe contraseñas**: si no hay sesión, se le
+   pide a quien edita que la inicie él en ese navegador y se repite la prueba.
+3. Si no hay Claude in Chrome o no se puede comprobar, se pregunta en una línea: «¿tienes Shutterstock (música y/o
+   vídeo)? ¿lo abro con Claude in Chrome en este ordenador?».
+4. Se escribe `personal/bancos.md`:
+   ```
+   # Bancos de este ordenador (prueba: AAAA-MM-DD)
+   - Shutterstock: SÍ | NO | SIN SESIÓN — por Claude in Chrome, navegador «<nombre que da switch_browser>»
+     - cubre: música sí/no · vídeo sí/no · imágenes sí/no · créditos: <n o «no se ve»>
+   - Otros bancos: …
+   - Notas: (lo que falle al descargar, cambios de la web)
+   ```
+   Si una descarga falla porque se cerró la sesión o cambió el plan, se repite la prueba y se actualiza el archivo.
+
+**Cómo se usa** (con `bancos.md` en SÍ):
+- **Buscar y escuchar/ver previas, libre**: se busca por mood, género y BPM (música) o por lo que dice la frase
+  (vídeo: la especie exacta, el sitio, el gesto; en un canal de animales, la especie correcta o nada). Para cada hueco,
+  2–3 candidatos.
+- **Descargar, con UNA confirmación por tanda**: antes de descargar se enseña la lista (pista o clip, id, duración,
+  para qué ventana o frase, y créditos que gasta si el plan los cuenta) y quien edita dice «sí» una vez para esa tanda;
+  no hace falta pedir pista a pista. **Nunca** extras de pago (stems, licencias ampliadas, comprar créditos o cambiar
+  de plan) ni aceptar condiciones nuevas: si la web los pide, se para y se pregunta.
+- Lo descargado va a la carpeta del creador: música a `recursos/musica/` + `CATALOGO.md` (con banco e id); vídeo a
+  la carpeta de su tema + ficha en `recursos/INDICE.md` (banco, id, «stock»). Así el siguiente vídeo ya lo tiene.
+- Las previas con marca de agua no se usan nunca en un vídeo.
+- Los pasos de la web (botones, formatos) se apuntan en «Shutterstock, lo aprendido» (§ 6) y en `bancos.md` → Notas.
+
 ## 6. Música
 
-- **La skill no trae música.** Cada creador usa su banco con licencia (Lucas: Shutterstock). Las pistas las descarga el
-  creador, o Claude **solo con confirmación pista a pista** («descarga esas»), y nunca se sube nada.
+- **La skill no trae música.** Cada creador usa su banco con licencia. La música nueva sale primero de **Shutterstock
+  con Claude in Chrome** si el ordenador lo tiene (§ 5 bis, `personal/bancos.md`): Claude busca, propone y descarga con
+  una confirmación por tanda; nunca se sube nada.
 - Van a `recursos/musica/` como `<titulo>_<autor>_<bpm>bpm.wav` (WAV 48 kHz si el banco lo da) y se apuntan en
   `recursos/musica/CATALOGO.md`: título, autor, banco e id, BPM, duración, sonoridad original, mood, energía 1–5 y en
   qué vídeos se ha usado.

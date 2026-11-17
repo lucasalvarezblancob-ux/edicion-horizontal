@@ -158,7 +158,8 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
    (`TRK`: el nombre de lo que se presenta o se enumera, con flecha, en su palabra; coordenadas con `rejilla.py`), mapas (`MAPAS`), subtítulos solo donde se oye mal (`SUBS`), título (`TITULO`), petición de suscripción
    (`BOTONES`: siempre el botón animado de la skill, abajo en el centro, en el idioma del vídeo y **solo**: ningún texto a la vez), matrículas (`TAPAR`), voz de quien no quiere que se le reconozca (`VOZ_DISFRAZ`: tono arriba, solo si el creador lo pide; preferencias → Audio), resalte de algo importante que se pierde en el plano (`FOCOS`: blanco y negro todo menos el
    sujeto; con criterio, 1–2 por vídeo), gráficos propios del creador (`PROPIOS`) y música por ventanas
-   (`PISTAS`, `VENTANAS`). Los cortes de escala alternos los pone solo el motor (`dinamica.py`, con los números de
+   (`PISTAS`, `VENTANAS`; pistas nuevas y planos que faltan: Shutterstock con Claude in Chrome si `personal/bancos.md`
+   lo tiene —si no existe, se hace la prueba—, `base/recursos.md` § 5 bis). Los cortes de escala alternos los pone solo el motor (`dinamica.py`, con los números de
    `personal/<creador>/ajustes.py` si el creador los ha cambiado). **Aplica aquí lo del creador**: su
    `preferencias.md` y su `recursos.md` (intro, outro, mascota, tipo de música) — § 4.
    `paso3_plan.py` lo convierte en `trabajo/video.json` y `capas.json`, e imprime el ritmo (mediana de plano,
@@ -334,8 +335,10 @@ Lo ya estudiado (diez canales, 631 vídeos, 2026-11-13) está en `<skill>/base/r
 
 Guía completa en `<skill>/base/recursos.md`: registro visual de los brutos, carpetas y fichas de `personal/<creador>/recursos/`, cómo
 elegir un recurso, catálogo de música, mapas de satélite, **botones de YouTube** (§ 9: los únicos recursos que trae la
-skill, con los efectos de sonido) y cómo quitar el fondo a animaciones y logos (§ 10). La skill no trae música. **Descargas de un
-banco (Shutterstock u otro): solo con confirmación pista a pista; nunca se sube ni se compra nada.**
+skill, con los efectos de sonido) y cómo quitar el fondo a animaciones y logos (§ 10). La skill no trae música.
+**Música nueva y vídeo de stock: primero Shutterstock con Claude in Chrome** en ese ordenador (`base/recursos.md` § 5 bis):
+la primera vez se prueba si hay sesión y se apunta en `personal/bancos.md`; Claude busca y propone, y descarga con una
+confirmación por tanda. Nunca inicia sesión, ni compra, ni marca extras de pago, ni sube nada.
 
 ## 7. Otras skills y servicios
 

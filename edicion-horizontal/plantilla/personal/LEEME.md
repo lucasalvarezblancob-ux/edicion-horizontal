@@ -58,3 +58,9 @@ cualquier bruto, por su nombre sin extensión: `V("intro", 0, 4.8, vol=0)`.
 No hace falta editar nada a mano: díselo a Claude con tus palabras («los zooms más suaves», «mi color es el naranja»,
 «pon siempre mi cabecera después del gancho») y lo apunta en el archivo que toca del creador. Para volver a la base
 en algo, se borra esa línea.
+
+## `bancos.md` (de este ordenador, no de un creador)
+
+Qué bancos de música y vídeo de stock hay en este ordenador y si Claude puede usarlos con Claude in Chrome
+(Shutterstock primero). Lo crea Claude la primera vez que hace falta música o stock, tras comprobarlo en el navegador o
+preguntarte (`<skill>/base/recursos.md` § 5 bis). Si cambias de plan o cierras sesión, bórralo y se vuelve a comprobar.
