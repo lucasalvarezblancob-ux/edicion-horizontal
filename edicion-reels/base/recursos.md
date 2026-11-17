@@ -52,7 +52,15 @@ busca en el índice, no mirando carpetas.
    quitar el audio (voces de fondo, música, conversación).
 5. **Movimientos que se repiten** (repeticiones, saltos, pasos, cortes de cuchillo…):
    `herramientas/puntos_movimiento.py CLIP INICIO FIN` da las paradas; confírmalas con una hoja a 4 fps.
-6. Con muchos clips, reparte el análisis en subagentes en paralelo (un lote por sesión) y junta las fichas.
+6. **Con muchos clips (un lote, o el material de alguien que empieza): `herramientas/inventario_recursos.py`**:
+   `pendientes` (clips sin ficha, fichas que se quedan cortas y por qué, duplicados, nombres repetidos) → `preparar
+   [--transcribir]` (técnica, hoja de contactos con la leyenda de segundos, audio y lo que se dice; lotes en
+   `herramientas/alta_recursos/`, la misma sesión junta) → un subagente por lote con `herramientas/ENCARGO_RECURSOS.md`
+   (formato, criterios y ejemplos) → `juntar [--mover]` (las fichas al índice; con `--mover`, cada clip a su carpeta y
+   nombre) → `comprobar`. Es el mismo método de siempre, escrito para que salga igual en cualquier ordenador: cada
+   segundo del clip con lo que pasa, para que los tiempos sean buenos al montar. Por qué (Lucas, 2026-11-17): «tiene
+   que haber un buen contexto generado de cada vídeo de recursos. No puede ser un contexto pobre, porque así los
+   timings son buenos a la hora de meter la edición».
 
 ## 4. La ficha en `recursos/INDICE.md`
 
@@ -67,6 +75,11 @@ Una línea por clip, dentro de la sección de su carpeta:
 ```
 
 - **Outfit, Vibe y Temas son obligatorios**: sin ellos no se puede elegir bien (ver § 6).
+- **La línea de tiempo de TODO el clip** (2026-11-17): cada tramo con su segundo, también lo que no sirve, como las
+  mejores fichas del índice (`0–23 colocan la cámara · 24–29 de frente · **36–41 se suben la camiseta** · …`): es lo que
+  da tiempos buenos al montar. En fichas nuevas puede ir en una línea **Momentos** aparte (formato y ejemplos en
+  `herramientas/ENCARGO_RECURSOS.md`). Las fichas que ya hay siguen valiendo; `inventario_recursos.py pendientes` dice
+  cuáles se quedan cortas, para completarlas cuando se vaya a usar ese clip o cuando el creador lo pida.
 - Clips de la misma sesión: una **cabecera de sesión** con lo común (fecha, sitio, luz, outfit, técnica) y debajo
   una línea por clip con lo que cambia. Mantener la sesión junta ayuda a casar outfits.
 - Tiempos en segundos del archivo original, con coma decimal.

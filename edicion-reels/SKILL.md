@@ -146,7 +146,8 @@ carpetas para cualquier nicho, cómo nombrar los archivos, cómo analizar un cli
 transcripción, puntos de movimiento), la ficha de `recursos/INDICE.md` (qué se ve, **tramos útiles, outfit, vibe y
 temas**), cómo elegir los fotogramas buenos y cómo elegir recursos para un vídeo.
 Cuando el creador suba material a `recursos/` (o lo deje en `bruto/` diciendo que son recursos) o se use uno en un
-edit: analízalo y apúntalo en el índice. Al meterlos en un vídeo, cada clip casa con **lo que se dice en ese
+edit: analízalo y apúntalo en el índice. Si son muchos clips: `herramientas/inventario_recursos.py` (lotes para subagentes con
+`herramientas/ENCARGO_RECURSOS.md`, y `comprobar` al final; `base/recursos.md` § 3). Al meterlos en un vídeo, cada clip casa con **lo que se dice en ese
 momento** y con **el outfit, los colores y el vibe del resto** (preferencias → Recursos). Antes de pedir material
 nuevo, busca en el índice. Si no hay nada que sirva (o `recursos/` está vacío), clips libres de Pexels con
 `herramientas/pexels.py` (preferencias → Recursos, 2026-11-16); lo del creador va primero cuando casa.
