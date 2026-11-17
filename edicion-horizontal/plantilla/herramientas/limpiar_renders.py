@@ -32,7 +32,10 @@ VIDEOS = RAIZ / "estudio" / "src" / "videos"
 OUT = RAIZ / "out"
 LOG = RAIZ / "herramientas" / "limpieza.log"
 ESTADO = RAIZ / "herramientas" / "limpieza-estado.json"  # slug -> epoch en que se vio sin render
-NO_SON_EDITS = {"sonidos"}  # carpetas compartidas de public/
+# Carpetas compartidas de public/ que NO son de un vídeo: los efectos de sonido y los botones de la skill, y los recursos
+# ya preparados de cada creador (public/personal/<creador>/). Antes solo estaba «sonidos»: botones/ y personal/ se
+# tomaban por vídeos sin render y se habrían borrado a los 30 días (y botones/ no se repone al actualizar). 2026-11-17.
+NO_SON_EDITS = {"sonidos", "botones", "personal"}
 
 
 def ultimo_cambio(carpeta: Path) -> float:
@@ -55,7 +58,9 @@ def main() -> int:
         return [PUBLIC / slug, OUT / slug / "trabajo", RAIZ / "estudio" / f"build-{slug}"]
 
     slugs = set()
-    if PUBLIC.exists(): slugs |= {d.name for d in PUBLIC.iterdir() if d.is_dir() and d.name not in NO_SON_EDITS}
+    # en public/, solo cuenta como vídeo una carpeta que tenga su composición (src/videos/<slug>) o su montaje (out/<slug>)
+    if PUBLIC.exists(): slugs |= {d.name for d in PUBLIC.iterdir() if d.is_dir() and d.name not in NO_SON_EDITS
+                                  and ((VIDEOS / d.name).is_dir() or (OUT / d.name).is_dir())}
     if OUT.exists(): slugs |= {d.name for d in OUT.iterdir() if d.is_dir() and (d / "trabajo").is_dir()}
     slugs = sorted(slugs)
 
