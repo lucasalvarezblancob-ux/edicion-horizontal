@@ -131,7 +131,7 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
 - 2026-11-02 — **Material descargado para UN vídeo concreto (clips de películas/dibujos, memes, sonidos o canciones de YouTube…) no se guarda para siempre.** Al terminar el render, pregunta a Lucas: "¿Hemos acabado ya el vídeo o quieres algún retoque más?" y, si ha acabado, "¿Borro lo que descargué para este vídeo?" con la lista concreta (archivos y tamaño). Hasta que conteste, no borres nada (hacen falta para retoques). Las referencias de `refs/` no entran aquí. Por qué: "para no almacenar cosas que posiblemente se vayan a utilizar para un vídeo concreto y ya está". (monkey-branching)
 
 ## Publicación (GoFeed)
-- **Descripciones / captions → `descripciones.md`** (junto a este archivo): reglas, estructura por tipo de vídeo, CTA, hashtags, texto por red y ejemplo aprobado. Las correcciones de descripciones se apuntan allí.
+- **Descripciones / captions → `descripciones.md`** (junto a este archivo): los 3 filtros (relevante con keyword SEO, valiosa, que genere interacción), lo que dicen los datos de un año de publicaciones, reglas, estructura por tipo de vídeo, CTA, hashtags, texto por red y ejemplos aprobados. Las correcciones de descripciones se apuntan allí.
 - 2026-11-01 — **Si publicas con GoFeed: trial reels siempre con salida MANUAL**, nunca automática. Por qué: "si yo quiero ya los subiré a mi perfil". (rutina-hibrida)
 
 ## Lo que funciona (aprobado)

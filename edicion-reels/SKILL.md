@@ -41,7 +41,7 @@ si no hay `estudio/.env.local`, ofrécesela una sola vez explicando para qué si
    nunca un proxy HDR a mano con zscale/tonemap), render en bt709 y **comprobación contra el bruto antes de montar y
    antes de entregar**: QuickTime en Mac, `herramientas/comparar_color.sh` (mpv) en Windows/Linux. Ver preferencias → COLOR.
 2. `<skill>/base/ganchos.md` si hay gancho que proponer o reforzar; `<skill>/base/descripciones.md` si hay
-   descripción que escribir o programar.
+   descripción que escribir o programar (Instagram, TikTok o YouTube: siempre relevante con keyword SEO, valiosa y que genere interacción).
 3. Del tipo de edición que toca (o de varios si se combinan): `<skill>/base/refs/<tipo>/CONTEXTO.md` (estándar) y,
    si existe, `refs/<tipo>/CONTEXTO.md` de la carpeta (local, manda). Tipos estándar:
    - `voice en off` — guion + voz en off (IA estilo Blair, o la voz propia) sobre el bruto.
