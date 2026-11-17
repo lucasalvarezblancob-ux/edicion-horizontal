@@ -333,6 +333,11 @@ Lo ya estudiado (diez canales, 631 vídeos, 2026-11-13) está en `<skill>/base/r
 
 ## 6. Recursos y música
 
+**Al montar se mira el archivo del creador**: en el paso 1 (lo que se nombra y no se ve en los brutos) y en el paso 4
+(cada `BROLL`), en `personal/<creador>/recursos/INDICE.md`: Temas para la frase, Momentos y Útil para el segundo exacto,
+Vibe y Outfit para que case. **Dar de alta recursos** (los que trae el creador, un disco entero, los brutos que sirven de
+recurso al cerrar un vídeo): `herramientas/inventario_recursos.py` → lotes → un agente por lote con
+`herramientas/ENCARGO_RECURSOS.md` → `juntar` → `comprobar` (ninguna ficha pobre: `base/recursos.md` § 3–4).
 Guía completa en `<skill>/base/recursos.md`: registro visual de los brutos, carpetas y fichas de `personal/<creador>/recursos/`, cómo
 elegir un recurso, catálogo de música, mapas de satélite, **botones de YouTube** (§ 9: los únicos recursos que trae la
 skill, con los efectos de sonido) y cómo quitar el fondo a animaciones y logos (§ 10). La skill no trae música.

@@ -74,17 +74,42 @@ tema y tiene su ficha. Sin ficha, el clip no existe: al montar se busca en el í
 - Vista general con `herramientas/hoja_contactos.sh CLIP hoja.jpg 1` (una celda por segundo) y, donde haya algo bueno,
   más fino (`… 0.25 <inicio> <duración>`) para dar inicio y final exactos.
 - Si hablan: `herramientas/transcribir.sh` (el idioma se detecta) → qué se dice y si el audio sirve.
-- Con muchos clips, agentes en paralelo (hasta 4–5 en Mac; de dos en dos en Windows con 16 GB) y se juntan las fichas.
+- **Un lote de clips (o una biblioteca entera de un disco): `herramientas/inventario_recursos.py`**, siempre:
+  1. `PY herramientas/inventario_recursos.py pendientes`: qué clips no tienen ficha, qué fichas son POBRES (y por qué),
+     duplicados, nombres repetidos entre carpetas y fichas de archivos que ya no están. Encuentra sola la carpeta
+     (`personal/<creador>/recursos`, aunque esté enlazada a un disco; con varios creadores, `--creador <nombre>`).
+  2. `… preparar [--transcribir]`: técnica, hoja de contactos con la leyenda de segundos, audio y lo que se dice de cada
+     clip, y los lotes (`herramientas/alta_recursos/lote_NN.md`, la misma sesión junta). Se retoma si se corta.
+  3. Un agente por lote con `herramientas/ENCARGO_RECURSOS.md` (formato, criterios y ejemplos), en paralelo: hasta
+     4–5 en Mac, de dos en dos en Windows con 16 GB.
+  4. `… juntar [--mover]`: mete las fichas en `INDICE.md` (sustituye la vieja del mismo archivo; con `--mover`, mueve y
+     renombra cada clip a su carpeta y nombre, con `deshacer_movimientos.sh`) y `… comprobar`: sale con error si queda
+     un clip sin ficha o una ficha pobre. **Una ficha pobre no se da por buena**: se repite su lote.
+  Por qué (Lucas, 2026-11-17): «tiene que haber un buen contexto generado de cada vídeo de recursos. No puede ser un
+  contexto pobre, porque así los timings son buenos a la hora de meter la edición». **Causa:** el método estaba escrito,
+  pero «agentes en paralelo y se juntan las fichas» sin encargo fijo daba fichas desiguales (unas con la línea de tiempo
+  segundo a segundo, otras de una frase sin Vibe ni Temas), y nada medía si una ficha bastaba para editar.
 
-## 4. La ficha en `recursos/INDICE.md`
+## 4. La ficha en `recursos/INDICE.md`: contexto RICO (lo único que se lee al editar)
+
+Al editar nadie vuelve a mirar el clip: se elige y se corta con la ficha. Por eso lleva **cada segundo del clip con lo
+que pasa** (Momentos), lo mejor (Útil), y para qué frases de voz sirve (Temas). Formato y ejemplos buenos y malos:
+`herramientas/ENCARGO_RECURSOS.md`.
 
 ```
-- `carpeta/AAAA-MM-DD_que-se-ve.MP4` (C0123, 42 s, 4K 25 fps SDR): qué se ve (sujeto, acción, encuadre, trípode o a
-  pulso). **Útil 2–5 · 8–10** (en negrita lo mejor; apunta lo que no sirve: «0–1,5 arranque de cámara»).
-  **Vibe**: sitio, luz, época. **Temas**: 2–4 frases en las que encaja. Audio: sirve / quitar. Usado en: <slug> (tramos).
+- `carpeta/AAAA-MM-DD_que-se-ve.MP4` (C0123, 42 s, 3840×2160 25 fps SDR, trípode)
+  **Qué se ve**: sujeto y acción, quién sale, dónde, encuadre.
+  **Momentos**: 0–1,8 coloca la cámara (no sirve) · 1,8–6,2 **la sulcata muerde la lechuga, primer plano** · 6,2–9,5 … · 41+ se va.
+  **Útil**: **1,8–6,2** (el mejor) · 12–15,5 (pequeña: zoom ×1,3 a la derecha).
+  **Vibe**: sitio, luz, época, energía. **Temas**: «…» · «…» · «…» (3–5 frases de voz).
+  **Outfit**: si sale una persona. **Audio**: sirve / quitar (por qué). **Ojo**: matrículas, caras, marcas, la casa.
+  Usado en: <slug> (tramos)
 ```
 
-- Una línea por clip, en la **sección de su carpeta** (`## recintos/varzea/`). Clips de la misma sesión: una cabecera
+Mínimo para que valga (lo mide `inventario_recursos.py comprobar`): la línea de tiempo cubre el 70 % del clip (50 % en
+clips de más de 3 min) con un tramo cada 10–15 s como mucho; Útil, Vibe, Temas (≥ 2) y Audio; ≥ 35 palabras.
+
+- Cada ficha, en la **sección de su carpeta** (`## recintos/varzea/`). Clips de la misma sesión: una cabecera
   de sesión con lo común (fecha, sitio, luz, outfit, técnica) y debajo una línea por clip con lo que cambia.
 - Tiempos en segundos del archivo original. Si sale una persona, apunta **outfit** (para que case con el vídeo).
 - Si hay marcas, matrículas o caras de terceros, apúntalo.
@@ -95,7 +120,10 @@ si queda pequeño, apunta dónde está para cerrarle zoom (hasta ×1,4 sin que s
 
 ## 5. Elegir recursos para un vídeo
 
-1. **Tema**: lo que ilustra **la frase que suena en ese momento**. Manda sobre todo lo demás.
+1. **Tema**: lo que ilustra **la frase que suena en ese momento**. Manda sobre todo lo demás. Se busca en
+   `personal/<creador>/recursos/INDICE.md` por **Temas** y «Qué se ve» (y en el registro visual de los brutos del día).
+   **El tramo sale de la ficha**: de **Momentos** y **Útil**, con su segundo exacto de entrada (`BROLL`), empezando en
+   el gesto y no en el arranque; la duración, la que cubre la frase.
 2. **Del mismo día y sitio antes que de archivo**: primero los brutos del vídeo; luego `recursos/` que casen en sitio,
    luz, época y outfit.
 3. **Técnica**: la mejor resolución que haya; HDR y SDR se pueden mezclar: `sdr.py` pasa a SDR los trozos HDR que se usan.
