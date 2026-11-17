@@ -4,17 +4,28 @@ copia su centro y medio lado: TRK = [(clip, t0, t1, [cx, cy, medio_lado], "NOMBR
 solo y hoja_textos.py enseña la flecha (punto rojo = el sujeto seguido) en cada fotograma.
 Por qué: el TRK se dejaba sin usar porque había que calcular la caja a ojo; Lucas, 2026-11-17: «le ponía una flecha con
 el nombre para resaltarlo» (Ragnar dormido) y «una flecha con el nombre señalando a cada una de las 3 cosas que nombra».
+LA CAJA SE MIDE AQUÍ, en el t0 exacto del rótulo (el primer segundo en que se ve ESE plano en el montaje, no el de la
+frase), y NUNCA con las fracciones del registro visual: son aproximadas y la cámara se mueve (planto-estanque,
+2026-11-17: la caja del registro quedó a 250 px del pájaro y la flecha siguió a las hojas). Medio lado ≈ medio tamaño del
+sujeto (pájaro: 60–80 px en 4K; perro: 150–250): si la caja coge fondo, la flecha sigue al fondo. Después, siempre,
+hoja_seguimiento.py (8 fotogramas por rótulo, el punto rojo encima del sujeto en todos).
 Ejemplo: rejilla.py C0170 41 43.5"""
 import subprocess, sys
 import numpy as np, cv2
-from comun import ALTO, ANCHO, TRABAJO, fuente
+from comun import ALTO, ANCHO, TRABAJO, bruto, fuente
 
 a = sys.argv[1:]
 if len(a) < 2: raise SystemExit(__doc__)
 c = a[0]; w = 960; h = 2 * round(w * ALTO / ANCHO / 2); k = ANCHO / w; ims = []
 for t in map(float, a[1:]):
     ent, pre = fuente(c, t)
-    raw = subprocess.run(["ffmpeg", "-nostdin", "-v", "error", *ent, "-frames:v", "1", "-vf", f"{pre}scale={w}:{h}", "-pix_fmt", "bgr24", "-f", "rawvideo", "-"], capture_output=True, check=True).stdout
+    r = subprocess.run(["ffmpeg", "-nostdin", "-v", "error", *ent, "-frames:v", "1", "-vf", f"{pre}scale={w}:{h}", "-pix_fmt", "bgr24", "-f", "rawvideo", "-"], capture_output=True)
+    raw = r.stdout
+    if len(raw) != w * h * 3:
+        # bruto HDR sin copia SDR de ese segundo y un ffmpeg sin libplacebo/Vulkan (el de Homebrew en Mac): se saca sin
+        # convertir el color (se ve lavado, pero las coordenadas son las mismas). planto-estanque, 2026-11-17.
+        print(f"AVISO: {c} {t:g}s sin conversión de color ({r.stderr.decode(errors='ignore').strip()[:120] or 'sin copia SDR'}): se ve lavado, las coordenadas valen")
+        raw = subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-ss", f"{t}", "-i", bruto(c), "-frames:v", "1", "-vf", f"scale={w}:{h}", "-pix_fmt", "bgr24", "-f", "rawvideo", "-"], capture_output=True, check=True).stdout
     im = np.frombuffer(raw, np.uint8).reshape(h, w, 3).copy(); paso = 240      # cada 240 px del lienzo
     for x in range(0, ANCHO, paso):
         cv2.line(im, (int(x / k), 0), (int(x / k), h), (0, 255, 255) if x % 960 == 0 else (0, 160, 160), 1)

@@ -28,6 +28,10 @@ export const borde = (r: number) => {
 };
 // tamaño de letra para que un texto de una línea quepa en `max` px (la familia ancha ocupa ~0,82 de su cuerpo por letra)
 export const ajusta = (txt: string, max: number, tope: number, ancho = 0.82) => Math.min(tope, max / (Math.max(txt.length, 2) * ancho));
+// NINGÚN texto se sale del cuadro (Lucas, 2026-11-17: «los textos no se pueden salir de pantalla nunca, es un error muy
+// grande»): margen al borde y centro que se encoge para que la caja entera quepa. Mismo cálculo en comun.caja_texto.
+export const MARGEN = 0.04;          // del ancho
+export const dentro = (centro: number, mitad: number, W: number) => Math.min(Math.max(centro, W * MARGEN + mitad), W * (1 - MARGEN) - mitad);
 
 // Título del vídeo: línea pequeña, palabra enorme en acento, línea pequeña. Sobre el plano de fondo oscurecido.
 export const Titulo: React.FC<{ f: number; dur: number; it: Item }> = ({ f, dur, it }) => {
@@ -73,8 +77,9 @@ export const Seccion: React.FC<{ f: number; dur: number; it: Item }> = ({ f, it 
 export const Dato: React.FC<{ f: number; it: Item }> = ({ f, it }) => {
   const { height: H, width: W } = useVideoConfig();
   const fs = ajusta(String(it.grande), W * it.mw, H * 0.22);
+  const mitad = (Math.max(String(it.grande).length * fs * 0.9, String(it.peq ?? "").length * H * 0.04 * 0.6) * 1.15) / 2;
   return (
-    <div style={{ position: "absolute", left: W * it.x, top: H * it.y, transform: "translate(-50%, -50%) scale(" + pop(f) + ") rotate(-3deg)", textAlign: "center", whiteSpace: "nowrap" }}>
+    <div style={{ position: "absolute", left: dentro(W * it.x, mitad, W), top: H * it.y, transform: "translate(-50%, -50%) scale(" + pop(f) + ") rotate(-3deg)", textAlign: "center", whiteSpace: "nowrap" }}>
       <div style={{ fontFamily: F_ANCHA, fontWeight: 900, fontSize: fs, lineHeight: 1, color: ACENTO, textShadow: borde(H * 0.007) }}>{it.grande}</div>
       <div style={{ fontFamily: F_TXT, fontWeight: 800, fontSize: H * 0.04, color: "white", textShadow: borde(H * 0.003), marginTop: H * 0.012, opacity: f >= 7 ? 1 : 0 }}>{it.peq}</div>
     </div>
@@ -159,9 +164,14 @@ export const Seguido: React.FC<{ f: number; dur: number; it: Item }> = ({ f, dur
   const [x, y] = it.pos[Math.min(f, it.pos.length - 1)];
   const o = entra(f, 4) * sale(f, dur, 5);
   const s = pop(f);
-  const izq = it.lado === "izq";
+  // el nombre va al lado pedido; si por ese lado no cabe entero, al otro (ningún texto se sale del cuadro)
+  const ancho = Math.max(String(it.grande).length * H * 0.06 * 0.9, String(it.peq ?? "").length * H * 0.034 * 0.6) * 1.12;
+  let izq = it.lado === "izq";
+  const sitio = (iz: boolean) => { const t = Math.min(Math.max(x + (iz ? -1 : 1) * H * 0.13, H * 0.3), Wd - H * 0.3); return iz ? t - ancho >= Wd * 0.02 : t + ancho <= Wd * 0.98; };
+  if (!sitio(izq) && sitio(!izq)) izq = !izq;
   const dx = (izq ? -1 : 1) * H * 0.13, dy = -H * 0.13;
-  const tx = Math.min(Math.max(x + dx, H * 0.3), Wd - H * 0.3), ty = Math.max(y + dy, H * 0.12);
+  const tx0 = Math.min(Math.max(x + dx, H * 0.3), Wd - H * 0.3);
+  const tx = izq ? Math.max(tx0, Wd * 0.02 + ancho) : Math.min(tx0, Wd * 0.98 - ancho), ty = Math.max(y + dy, H * 0.12);
   const ang = (Math.atan2(y - ty, x - tx) * 180) / Math.PI;
   const largo = Math.hypot(x - tx, y - ty) - H * 0.075;
   return (

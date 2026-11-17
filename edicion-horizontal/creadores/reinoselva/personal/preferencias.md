@@ -90,6 +90,16 @@ de correcciones suyas: lo que coincide en los cuatro es regla; lo que varía se 
   algo que resalte un poco más al animal comiendo, o blanco y negro todo menos la tortuga comiendo». El resalte en sí es
   base de la skill (`base/preferencias.md` → Resaltar); esto es dónde lo quiere él. (vídeo: ramon, v6, 4:12)
 
+- 2026-11-17 — **Ragnar (el perro) sale con su nombre y su apodo: «RAGNAR / jefe de seguridad».** La primera vez que
+  sale en plano en un vídeo (o cuando él lo presenta: «Ragnar ya ha comido y está disfrutando de su merecida siestaca»),
+  un rótulo con flecha que lo sigue (`TRK`, coordenadas con `rejilla.py`). Es un personaje fijo del canal: el apodo se
+  reutiliza en todos los vídeos. Por qué: Lucas, alimentacion v1, «yo le ponía una flecha con el nombre para resaltarlo
+  un poco y a lo mejor algo como "Jefe de seguridad"». (vídeo: alimentacion)
+- 2026-11-17 — **Nada que, suelto, pueda leerse como descuido o maltrato de los animales** (base → «Fuera lo que se puede
+  sacar de contexto»): en este canal es lo primero que se mira al repasar el EDL. Fuera, en alimentacion: «es que se
+  están muriendo» (las moscas) y la escena de «pilla al perro… si no lo voy a meter en la habitación». Por qué: Lucas,
+  «no queremos a gente criticando la escena». (vídeo: alimentacion)
+
 ## Música y sonido
 - 2026-11-12 — **Música en casi todo el vídeo** (96–97 %), no «solo donde toca»: una ventana por capítulo, cambiando
   de pista en cada uno, y **3–8 s sin música al cambiar de bloque**. Bajo la voz va muy baja (16–18 dB por debajo) y

@@ -17,9 +17,9 @@ Lee plan.py del vídeo (todo opcional; lo que no esté, no se pone):
   PROPIOS   gráficos PROPIOS del creador (su mascota, su logo…): [(ancla, segundos, "tipo", {datos})]; los pinta
             estudio/src/personal/<creador>/ y se documentan en personal/<creador>/recursos.md
 Los cortes de escala los pone dinamica.py. Al final imprime el ritmo (mediana de plano, cortes/min) y los avisos."""
-import json, os, subprocess
+import json, os, subprocess, sys
 import numpy as np, cv2
-from comun import ALTO as AH, ANCHO as AW, BOTON_ESC, CAPAS_JSON, CREADOR, ESTUDIO, F, FPS, IDIOMA, TRABAJO, Linea, bruto, buscar, caja_texto, cruce, marca, texto_dicho
+from comun import ALTO as AH, ANCHO as AW, BOTON_ESC, CAPAS_JSON, CREADOR, ESTUDIO, F, FPS, IDIOMA, TRABAJO, Linea, bruto, buscar, caja_texto, cruce, fuera, marca, texto_dicho
 import plan      # después de comun: es quien mete la carpeta del vídeo en el path
 from dinamica import Caras, Z_FUERTE, encuadre, planos_de_voz
 
@@ -41,26 +41,66 @@ def src2out(c, t):
     raise SystemExit(f"{c} {t}s no está en el montaje")
 
 
+_TRK_TAPADO = 0.0
+# --legado: para retocar un vídeo YA ENTREGADO con una versión anterior de la skill. Las comprobaciones que se añadieron
+# después (REPETIDO, PISA) avisan pero no paran, para poder corregir un detalle sin rehacer el vídeo entero. Lo que nunca
+# se deja pasar: un texto que se sale del cuadro ni un rótulo con flecha sobre el plano equivocado. (planto-estanque,
+# 2026-11-17: la v3.5 paraba en 46 REPETIDO y 3 PISA sobre un vídeo ya aprobado.)
+LEGADO = "--legado" in sys.argv or os.environ.get("PLAN_LEGADO") == "1"
+def parar(msg):
+    if LEGADO: print("LEGADO (aviso, no para): " + msg)
+    else: raise SystemExit(msg)
+
+
 def seguir(c, t0, t1, caja):
-    """Seguimiento de puntos (Lucas-Kanade + mediana) a 960 px de ancho; devuelve [x, y] por frame en px del lienzo."""
+    """Seguimiento a 960 px de ancho; devuelve [x, y] por frame en px del lienzo.
+    Lucas-Kanade (ida y vuelta: solo cuentan los puntos que vuelven a su sitio) + mediana, y una COMPROBACIÓN DE ASPECTO:
+    el recorte del sujeto del primer fotograma se compara en cada frame con lo que hay en el punto. Si algo lo tapa (una
+    mano que pasa, alguien que cruza) el punto se queda quieto en vez de irse con lo que tapa, y cuando el sujeto vuelve a
+    verse se le busca alrededor y se recupera. Por qué (alimentacion, 2026-11-17): en «HIBISCUS» pasó un guante por
+    delante de la flor y la flecha se fue con la mano hasta quedarse 150 px al lado, en una hoja."""
+    global _TRK_TAPADO
     n = round((t1 - t0) * FPS); sw = 960; sh = 2 * round(sw * AH / AW / 2); k = AW / sw
     raw = subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-ss", f"{t0}", "-i", bruto(c), "-frames:v", str(n), "-vf", f"fps={FPS},scale={sw}:{sh}", "-pix_fmt", "gray", "-f", "rawvideo", "-"], capture_output=True, check=True).stdout
     fr = np.frombuffer(raw, np.uint8).reshape(-1, sh, sw); cx, cy, r = [v / k for v in caja]; pos = [[cx, cy]]
+    r = max(r, 10.0); R = int(round(r))
+    def recorte(im, x, y, rr):
+        x0, y0 = int(round(x)) - rr, int(round(y)) - rr
+        if x0 < 0 or y0 < 0 or x0 + 2 * rr > sw or y0 + 2 * rr > sh: return None
+        return im[y0:y0 + 2 * rr, x0:x0 + 2 * rr]
+    def parecido(im, x, y):
+        p = recorte(im, x, y, R)
+        return -1.0 if p is None or ref is None else float(cv2.matchTemplate(p, ref, cv2.TM_CCOEFF_NORMED)[0, 0])
+    ref = recorte(fr[0], cx, cy, R); tapado = 0
     for i in range(1, len(fr)):
+        nx, ny = cx, cy; buenos = 0; paso = 0.0
         m = np.zeros((sh, sw), np.uint8); m[max(0, int(cy - r)):int(cy + r), max(0, int(cx - r)):int(cx + r)] = 255
         p0 = cv2.goodFeaturesToTrack(fr[i - 1], 80, 0.01, 4, mask=m)
         if p0 is not None:
             p1, st, _ = cv2.calcOpticalFlowPyrLK(fr[i - 1], fr[i], p0, None, winSize=(31, 31), maxLevel=3)
-            ok = st.ravel() == 1
+            pb, stb, _ = cv2.calcOpticalFlowPyrLK(fr[i], fr[i - 1], p1, None, winSize=(31, 31), maxLevel=3)
+            ok = (st.ravel() == 1) & (stb.ravel() == 1) & (np.linalg.norm((pb - p0).reshape(-1, 2), axis=1) < 1.0)
             if ok.sum() >= 4:
-                d = np.median((p1 - p0)[ok].reshape(-1, 2), axis=0); cx += float(d[0]); cy += float(d[1])
+                d = np.median((p1 - p0)[ok].reshape(-1, 2), axis=0); nx, ny = cx + float(d[0]), cy + float(d[1])
+                buenos = int(ok.sum()); paso = float(np.hypot(*d))
+        # se acepta el paso si el sujeto se sigue pareciendo, o si es un paso pequeño y con muchos puntos de acuerdo (un
+        # animal que come cambia de forma, pero no salta); lo que se rechaza es el salto de algo que pasa por delante
+        if ref is None or parecido(fr[i], nx, ny) >= 0.45 or (buenos >= 8 and paso < 0.35 * r): cx, cy = nx, ny
+        else:      # tapado o perdido: se busca el sujeto alrededor; si no aparece, el punto se queda donde estaba
+            tapado += 1; S = int(3 * r)
+            x0, y0 = max(0, int(cx) - S - R), max(0, int(cy) - S - R); x1, y1 = min(sw, int(cx) + S + R), min(sh, int(cy) + S + R)
+            zona = fr[i][y0:y1, x0:x1]
+            if zona.shape[0] > 2 * R and zona.shape[1] > 2 * R:
+                res = cv2.matchTemplate(zona, ref, cv2.TM_CCOEFF_NORMED); _, sc, _, (bx, by) = cv2.minMaxLoc(res)
+                if sc >= 0.6: cx, cy = x0 + bx + R, y0 + by + R
         pos.append([cx, cy])
+    _TRK_TAPADO = tapado / max(len(fr) - 1, 1)
     pos = np.array(pos) * k
     q = np.ones(5) / 5; sm = np.stack([np.convolve(np.pad(pos[:, j], 2, mode="edge"), q, "valid") for j in (0, 1)], 1)
     return sm.round(1).tolist()
 
 
-items = []; esp = []
+items = []; esp = []; TRK_PRINCIPAL = []   # TRK de 7 campos: se comprueban DESPUÉS de pegar los BROLL
 # ---- rótulos con seguimiento: (clip, t0, t1 del bruto, caja inicial [cx, cy, medio lado] en px del lienzo, grande, pequeño, lado) ----
 TRK_REC = [t for t in TRK if len(t) == 8]      # con ancla: van sobre un plano de RECURSO (se colocan después de BROLL)
 for c, t0, t1, caja, grande, peq, lado in [t for t in TRK if len(t) == 7]:
@@ -71,9 +111,14 @@ for c, t0, t1, caja, grande, peq, lado in [t for t in TRK if len(t) == 7]:
     pos = seguir(c, t0, t1 + extra, caja); n = round((t1 - t0) * FPS)
     items.append({"t": "trk", "f0": o0, "f1": o0 + n, "pos": pos[:n], "grande": grande, "peq": peq, "lado": lado})
     esp.append({"tipo": "fijo", "z": 1.0, "f0": o0 - F(0.4), "f1": o0 + n})
+    TRK_PRINCIPAL.append((items[-1], esp[-1], c, t0, caja))
     if extra:
         cx, cy = np.median(np.array(pos[n:]), axis=0); esp.append({"tipo": "detalle", "z": 1.6, "t": F(0.4), "f0": o0 + n, "f1": o0 + len(pos), "cx": float(cx), "cy": float(cy)})
-    print("seguimiento", grande, round(o0 / FPS, 1), "s; desplazamiento", np.ptp(np.array(pos), axis=0).round(), "detalle", round(extra, 1), "s")
+    mov = np.ptp(np.array(pos), axis=0)
+    print("seguimiento", grande, round(o0 / FPS, 1), "s; desplazamiento", mov.round(), "detalle", round(extra, 1), "s")
+    if _TRK_TAPADO > 0.2: print(f"AVISO TRK: «{grande}»: el sujeto está tapado o no se reconoce el {_TRK_TAPADO * 100:.0f} % del tramo (el punto se queda quieto mientras): mira su trk_N.jpg")
+    if max(mov) > 3 * max(caja[2], 40):      # un sujeto pequeño con la cámara casi quieta no se mueve 300 px: sigue al fondo
+        print(f"AVISO TRK: el seguimiento de «{grande}» se mueve {max(mov):.0f} px (más de 3 veces el medio lado, {caja[2]}): puede haberse ido al fondo. Mira su trk_N.jpg (hoja_seguimiento.py)")
 
 # ---- especiales: frase fuerte, entrada animada, dato ----
 for c, fr, n in FUERTES:
@@ -145,6 +190,24 @@ for c, t0, t1, caja, grande, peq, lado, a in TRK_REC:
     items.append({"t": "trk", "f0": o0, "f1": o0 + n, "pos": pos, "grande": grande, "peq": peq, "lado": lado})
     print("seguimiento sobre recurso", grande, round(o0 / FPS, 1), "s; en pantalla", np.array(pos)[[0, -1]].round().tolist())
 
+# ---- TRK sobre el PLANO PRINCIPAL: se colocó en la línea de voz, ANTES de pegar los BROLL. Con los recursos ya puestos,
+# cada frame del rótulo tiene que enseñar SU clip y SU segundo. Si un recurso tapa el principio, el rótulo empieza cuando
+# vuelve su plano (y se avisa: hay que medir la caja otra vez en ese segundo); si lo tapa por medio o entero, se para.
+# Por qué (planto-estanque, 2026-11-17): «UN VISITANTE» entraba 1,07 s antes, sobre el recurso del abono, y la flecha
+# señalaba al agua; nada lo comprobaba (el TRK de 8 campos, sobre recurso, sí).
+def _ensena(f, c, t0, f0):
+    v = next(v for v in vid if v["o"] <= f < v["o"] + v["n"])
+    return (not v["b"]) and v["clip"] == c and abs((v["in"] + (f - v["o"]) * v["speed"]) / FPS - (t0 + (f - f0) / FPS)) < 0.06
+for it, e, c, t0, caja in TRK_PRINCIPAL:
+    ok = [_ensena(f, c, t0, it["f0"]) for f in range(it["f0"], it["f1"])]
+    if not any(ok): raise SystemExit(f"rótulo {it['grande']}: su plano ({c} {t0} s) está tapado entero por un recurso: mueve el recurso o el rótulo")
+    k = ok.index(True)
+    if k:
+        print(f"AVISO TRK: «{it['grande']}» empezaba {k / FPS:.2f} s antes de que se vea su plano (lo tapaba un recurso): recortado. "
+              f"Mide la caja con rejilla.py en {c} {t0 + k / FPS:.2f} y pon ese t0 en plan.py")
+        it["f0"] += k; it["pos"] = it["pos"][k:]; e["f0"] = it["f0"] - F(0.4); ok = ok[k:]
+    if not all(ok): raise SystemExit(f"rótulo {it['grande']}: un recurso tapa su plano por medio (frame {it['f0'] + ok.index(False)}): mueve el recurso o acorta t1")
+
 # ---- fails: el tramo en blanco y negro (y la voz saturada en paso5_audio.py) ----
 # Lucas, 2026-11-17 (alimentacion, 20:08): «se baja la cámara, puedes poner en blanco y negro y saturar un poco la voz porque
 # es un fail, hasta el "hemos vuelto", que ya recupera color». Es un efecto, no una corrección de color: el color del bruto
@@ -179,7 +242,7 @@ for r_ in _rep: print(r_)
 for c, a, b, o, z, rb in _us:
     if rb and z == "cuerpo" and any(f" {c} " in r_ and _mm(o) in r_ for r_ in _rep):
         t = _libre(c, a, b, o); print(f"  -> el recurso de {c} en {_mm(o)} ({a:.1f} s): tramo libre más cercano en {t} s (míralo con tira.py antes de usarlo)" if t is not None else f"  -> el recurso de {c} en {_mm(o)}: no hay tramo libre cerca: otro bruto")
-if _rep: raise SystemExit("Hay trozos de bruto que salen dos veces: cambia el recurso, recorta el V(…) o la frase en edl.py, o, si es a propósito, REPETIR_OK en plan.py")
+if _rep: parar("Hay trozos de bruto que salen dos veces: cambia el recurso, recorta el V(…) o la frase en edl.py, o, si es a propósito, REPETIR_OK en plan.py")
 # ---- tráiler-resumen: planos cortos y variados ----
 # Lucas, 2026-11-17: «el primer clip se ve muy largo… si la intro es un recap, los clips tienen que ser llamativos para la
 # retención». Un recurso del tráiler de más de 2,6 s se monta con varios planos (BROLL con lista).
@@ -287,11 +350,25 @@ _vis = [it for it in items if it["t"] not in ("boton", "suscribe")]
 _pis = []
 for i, x in enumerate(_vis):
     for y in _vis[i + 1:]:
-        if x["f0"] < y["f1"] and y["f0"] < x["f1"] and cruce(caja_texto(x), caja_texto(y)) > 0.0015:
+        if not (x["f0"] < y["f1"] and y["f0"] < x["f1"]): continue
+        if x["t"] in ("mapa", "titulo") and y["t"] in ("mapa", "titulo"): continue     # a pantalla completa: el segundo sustituye al primero (mapas encadenados)
+        # los rótulos con flecha se mueven: se comparan instante a instante (5 muestras del tiempo en que coinciden)
+        a0, a1 = max(x["f0"], y["f0"]), min(x["f1"], y["f1"])
+        _ms = [a0 + (a1 - a0) * k // 4 for k in range(5)] if "trk" in (x["t"], y["t"]) else [None]
+        if max(cruce(caja_texto(x, m), caja_texto(y, m)) for m in _ms) > 0.0015:
             nom = lambda it: (" ".join(str(it.get(k, "")) for k in ("txt", "grande", "titulo") if it.get(k)) or it["t"])[:30]
             _pis.append(f"PISA: «{nom(x)}» ({x['t']}, {x['f0'] / FPS:.1f}-{x['f1'] / FPS:.1f} s) y «{nom(y)}» ({y['t']}, {y['f0'] / FPS:.1f}-{y['f1'] / FPS:.1f} s) a la vez y en el mismo sitio")
 for p_ in _pis: print(p_)
-if _pis: raise SystemExit("Dos gráficos se pisan: retrasa el segundo hasta que se vaya el primero (su ancla + segundos), súbelo (\"y\"), llévalo a un lado (\"lado\") o quítalo. Nunca se renderiza con un solape.")
+if _pis: parar("Dos gráficos se pisan: retrasa el segundo hasta que se vaya el primero (su ancla + segundos), súbelo (\"y\"), llévalo a un lado (\"lado\") o quítalo. Nunca se renderiza con un solape.")
+# ---- ningún texto se sale del cuadro (Lucas, 2026-11-17: «los textos no se pueden salir de pantalla nunca, es un error muy
+# grande»; en alimentacion v2, dos rótulos con lado="der" se cortaban por la derecha). Los componentes ya se encogen y se
+# pegan al borde con margen; esto avisa si aun así algo queda fuera (texto larguísimo, x a mano, un gráfico propio nuevo).
+_fue = [(it, fuera(caja_texto(it))) for it in items if it["t"] not in ("titulo", "mapa")]
+_fue = [(it, d) for it, d in _fue if d > 0]
+for it, d in _fue:
+    nom = (" ".join(str(it.get(k, "")) for k in ("txt", "grande", "titulo") if it.get(k)) or it["t"])[:40]
+    print(f"SE SALE: «{nom}» ({it['t']}, {it['f0'] / FPS:.1f} s) se sale del cuadro un {d * 100:.1f} %")
+if _fue: raise SystemExit("Un texto se sale del cuadro: acórtalo (o pártelo en dos líneas con «|»), quita \"x\" a mano o cámbialo de lado. Nunca se renderiza con un texto cortado.")
 items.sort(key=lambda x: x["f0"])
 # rangos con gráfico (los que Remotion renderiza): se funden los que quedan a menos de medio segundo
 rangos = []

@@ -10,7 +10,8 @@ import { ACENTO, F_ANCHA, F_TXT } from "../../comun/marca";
 // Qué es cada uno, qué animación va con qué comentario y cuándo se usa: personal/reinoselva/recursos.md.
 // Archivos: estudio/public/personal/reinoselva/ (animaciones sin fondo hechas con herramientas/quitar_fondo.py).
 const F_IMPACTO = loadAnton("normal", { weights: ["400"], subsets: ["latin", "latin-ext"] }).fontFamily;
-const F_REDONDA = loadMontserrat("normal", { weights: ["800"], subsets: ["latin", "latin-ext"] }).fontFamily;
+// Montserrat solo "latin" (2026-11-17): con "latin-ext" la carga no terminaba y Remotion se quedaba en «Waiting for root component» (latin ya trae ñ y tildes).
+const F_REDONDA = loadMontserrat("normal", { weights: ["800"], subsets: ["latin"] }).fontFamily;
 const DIR = "personal/reinoselva/";
 
 // Animaciones de la tortuga. caja = lo que deja quitar_fondo.py; lienzo = [x, y, lado] del cuadrado original en que se
@@ -140,18 +141,28 @@ export const Rotulo: React.FC<{ it: Item; f: number; dur: number }> = ({ it, f, 
   const fSub = f - Math.round(Number(it.subEn ?? 0) * fps);   // subEn: la segunda línea entra cuando se DICE, no antes
   const lineas = String(it.txt).split("|");
   const largo = Math.max(...lineas.map((l) => l.length));
-  const fs = Math.min(H * 0.08, (W * 0.7) / (largo * 0.82));
+  // NUNCA se sale del cuadro (Lucas, 2026-11-17, alimentacion v2: «ASTROCHELYS RADIATA» y «AGUA DE ÓSMOSIS» con lado
+  // "der" se cortaban por la derecha: iban centrados en el 72 % con el tamaño pensado para el 70 % del ancho). Con lado,
+  // pegado a ese borde con margen y del tamaño que cabe en el 58 % del ancho; sin lado, centrado en el 86 %. Ya cuenta el
+  // crecimiento (×1,08). Mismo cálculo en herramientas/montaje/comun.py (caja_texto), que paso3 comprueba (SE SALE).
+  const lado = it.lado === "izq" || it.lado === "der" ? it.lado : null;
+  const disp = ((lado ? 0.58 : 0.86) * W) / 1.08;
+  const fs = Math.min(H * 0.08, disp / (Math.max(largo, 2) * 0.9));
+  const sub = String(it.sub ?? "");
+  const sfs = sub ? Math.min(Math.max(H * 0.04, fs * 0.55), disp / (sub.length * 0.6)) : H * 0.04;
   const esc = pop(f) * interpolate(f, [0, dur], [1, 1.08], { extrapolateRight: "clamp", easing: Easing.out(Easing.quad) });
-  const x = it.lado === "izq" ? 0.28 : it.lado === "der" ? 0.72 : 0.5;
+  const M = W * 0.04;
+  const sitio = lado === "der" ? { right: M } : lado === "izq" ? { left: M } : { left: W * 0.5 };
+  const origen = lado === "der" ? "100% 100%" : lado === "izq" ? "0% 100%" : "50% 100%";
   return (
     <AbsoluteFill>
-      <div style={{ position: "absolute", left: W * x, bottom: H * (it.y ?? 0.1), transform: "translateX(-50%) scale(" + esc + ")", transformOrigin: "50% 100%", textAlign: "center", whiteSpace: "nowrap" }}>
+      <div style={{ position: "absolute", ...sitio, bottom: H * (it.y ?? 0.1), transform: (lado ? "" : "translateX(-50%) ") + "scale(" + esc + ")", transformOrigin: origen, textAlign: lado === "der" ? "right" : lado === "izq" ? "left" : "center", whiteSpace: "nowrap" }}>
         <div style={{ fontFamily: F_ANCHA, fontWeight: 900, fontSize: fs, lineHeight: 1.12, color: "white", textShadow: borde(H * 0.005) }}>
           {lineas.map((l, i) => (
             <div key={i}>{l}</div>
           ))}
         </div>
-        {it.sub ? <div style={{ fontFamily: F_TXT, fontWeight: 800, fontSize: Math.max(H * 0.04, fs * 0.55), color: ACENTO, textShadow: borde(H * 0.004), marginTop: H * 0.004, opacity: fSub >= 0 ? 1 : 0, transform: "scale(" + pop(Math.max(0, fSub)) + ")", transformOrigin: "50% 0%" }}>{it.sub}</div> : null}
+        {it.sub ? <div style={{ fontFamily: F_TXT, fontWeight: 800, fontSize: sfs, color: ACENTO, textShadow: borde(H * 0.004), marginTop: H * 0.004, opacity: fSub >= 0 ? 1 : 0, transform: "scale(" + pop(Math.max(0, fSub)) + ")", transformOrigin: lado === "der" ? "100% 0%" : lado === "izq" ? "0% 0%" : "50% 0%" }}>{it.sub}</div> : null}
       </div>
     </AbsoluteFill>
   );

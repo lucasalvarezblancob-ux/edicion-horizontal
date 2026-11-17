@@ -16,6 +16,7 @@ for arg in sys.argv[1:]:
     t = (v["in"] + k * v["speed"]) / FPS; w, h, x, y = encuadre(z, v.get("cx"), v.get("cy"), v.get("ax", 0.5), v.get("ay", CARA_Y))
     png = os.path.abspath(f"{TRABAJO}/still/s{F_}.png"); sal = f"{TRABAJO}/still/v{F_}.jpg"
     ent, pre = fuente(v["clip"], t); base = ["ffmpeg", "-nostdin", "-v", "error", "-y", *ent]
+    if v.get("bn"): pre += "hue=s=0,"          # el fail (FALLOS) va en blanco y negro, como en el render
     capa = any(a <= F_ < b for a, b in rangos)
     if capa:
         if os.path.exists(png): os.remove(png)

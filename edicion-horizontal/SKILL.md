@@ -155,7 +155,9 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
    escala hacia el sujeto; nunca de la misma toma que la frase que tapan), fails (`FALLOS`: blanco y negro y voz
    saturada hasta que se recupera; preferencias → Audio),
    frases fuertes y zooms (`FUERTES`, `ENTRADAS`), cifras (`DATOS`), palabras-golpe (`GOLPES`), rótulos con seguimiento
-   (`TRK`: el nombre de lo que se presenta o se enumera, con flecha, en su palabra; coordenadas con `rejilla.py`), mapas (`MAPAS`), subtítulos solo donde se oye mal (`SUBS`), título (`TITULO`), petición de suscripción
+   (`TRK`: el nombre de lo que se presenta o se enumera, con flecha, en su palabra; **la caja se mide con `rejilla.py` en
+   el `t0` exacto, el primer segundo en que se ve ESE plano en el montaje, nunca con las fracciones del registro visual;
+   medio lado ≈ medio tamaño del sujeto**: pájaro 60–80 px en 4K, perro 150–250), mapas (`MAPAS`), subtítulos solo donde se oye mal (`SUBS`), título (`TITULO`), petición de suscripción
    (`BOTONES`: siempre el botón animado de la skill, abajo en el centro, en el idioma del vídeo y **solo**: ningún texto a la vez), matrículas (`TAPAR`), voz de quien no quiere que se le reconozca (`VOZ_DISFRAZ`: tono arriba, solo si el creador lo pide; preferencias → Audio), resalte de algo importante que se pierde en el plano (`FOCOS`: blanco y negro todo menos el
    sujeto; con criterio, 1–2 por vídeo), gráficos propios del creador (`PROPIOS`) y música por ventanas
    (`PISTAS`, `VENTANAS`; pistas nuevas y planos que faltan: Shutterstock con Claude in Chrome si `personal/bancos.md`
@@ -176,6 +178,9 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
      puede leer (lo imprime; `CORTO` en `timing_textos.py` = el texto siguiente no le deja sitio).
    - `hoja_recursos.py` → mira TODAS las hojas: cada recurso enseña su sujeto desde el primer fotograma. Y
      `trabajo/trailer.jpg`: un fotograma de cada plano del tráiler; ningún animal ni momento sale dos veces.
+   - `hoja_seguimiento.py` → mira cada `trabajo/trk_N.jpg`: 8 fotogramas del montaje por rótulo con flecha; en los 8,
+     su plano (`principal`, o el recurso que toca si va sobre recurso) y el punto rojo **encima del sujeto**. Si no: `t0`
+     al primer segundo en que se ve el plano y la caja medida otra vez con `rejilla.py` (preferencias → Textos).
    - `hoja_textos.py` → mira TODAS las hojas: cada texto sobre su plano, al entrar y al irse, con su caja. Ninguno tapa
      lo que se enseña en ese momento (el animal, las manos que hacen algo, los platos, una cara): si tapa, `lado`, `y`,
      la mascota al otro lado o una flecha que siga al sujeto (preferencias → Textos).
@@ -198,7 +203,9 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
 6. **Render híbrido** — `paso4_render.py capas` (Remotion, solo los rangos con gráfico, ProRes con alfa) →
    `paso4_render.py tramos auto 2` (ffmpeg desde los brutos; NVENC si hay, si no x264) → audio: `paso5_audio.py` (voz +
    efectos, −14 LUFS) y, si hay música, `paso6_musica.py` (rellena solo los planos sin voz que quedaban sin música: `puente: …`) → `paso4_render.py unir ../AAAA-MM-DD_<slug>.mp4`.
-   Es reanudable. Si cambias el plan, se rehacen solo los tramos y capas que cambian (compara `video.json` con el
+   Es reanudable. Para retocar un vídeo ya entregado con una versión anterior de la skill, `paso3_plan.py --legado`
+   (las comprobaciones nuevas de solapes y repeticiones avisan sin parar; un texto fuera del cuadro sí para).
+   Si cambias el plan, se rehacen solo los tramos y capas que cambian (compara `video.json` con el
    anterior y borra esos `trabajo/tramos/tNNN.mp4`). Tiempo orientativo: ×2,7 la duración en 4K.
    **Todo seguido y en segundo plano**: `render_todo.py ../AAAA-MM-DD_<slug>.mp4` hace los cuatro pasos, retoma donde
    se quedó y reintenta con menos carga si algo falla.

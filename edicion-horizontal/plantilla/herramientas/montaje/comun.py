@@ -223,8 +223,21 @@ def video():
 BOTON_ESC = ajuste("BOTON_ESC", 0.34)      # tamaño de serie de los botones de suscribir (ancho de su lienzo original / ancho del vídeo)
 
 
-def caja_texto(it):
-    """[(x0, y0, x1, y1)] en partes del lienzo (0-1) que ocupa el gráfico `it` de capas.json; [] si no ocupa sitio."""
+MARGEN = 0.04       # ningún texto se sale del cuadro: margen al borde, como Graficos.tsx (MARGEN, dentro)
+
+
+def dentro(centro, mitad):
+    return min(max(centro, ANCHO * MARGEN + mitad), ANCHO * (1 - MARGEN) - mitad)
+
+
+def fuera(cajas, tol=0.004):
+    """Lo que se sale del cuadro (en partes del lienzo, la mayor de las cuatro); 0 si cabe entero."""
+    return max((max(-x0, -y0, x1 - 1, y1 - 1) for x0, y0, x1, y1 in cajas), default=0) if cajas else 0
+
+
+def caja_texto(it, f=None):
+    """[(x0, y0, x1, y1)] en partes del lienzo (0-1) que ocupa el gráfico `it` de capas.json; [] si no ocupa sitio.
+    Con `f` (frame del montaje), la de ese instante (los rótulos con flecha se mueven con su sujeto)."""
     W, H = ANCHO, ALTO; t = it["t"]; cj = ajuste("CAJAS", {}).get(t)
     s = lambda k: str(it.get(k) or "")
     if cj: return [tuple(cj[it.get("lado", "der")] if isinstance(cj, dict) else cj)]
@@ -242,13 +255,18 @@ def caja_texto(it):
         fs = (0.046 if t == "nota" else 0.05) * H; b = 0.075 if t == "nota" else 0.1; w = len(s("txt")) * fs * 0.52
         return [((W - w) / 2 / W, 1 - b - fs * 1.3 / H, (W + w) / 2 / W, 1 - b)]
     if t == "dato":
-        fs = min(0.22 * H, W * it.get("mw", 0.4) / (max(len(s("grande")), 2) * 0.82)); w = max(len(s("grande")) * fs * 0.75, len(s("peq")) * 0.04 * H * 0.55); h = fs + 0.06 * H
-        x, y = it.get("x", 0.5) * W, it.get("y", 0.74) * H; return [((x - w / 2) / W, (y - h / 2) / H, (x + w / 2) / W, (y + h / 2) / H)]
+        fs = min(0.22 * H, W * it.get("mw", 0.4) / (max(len(s("grande")), 2) * 0.82)); w = max(len(s("grande")) * fs * 0.9, len(s("peq")) * 0.04 * H * 0.6) * 1.15; h = fs + 0.06 * H
+        x, y = dentro(it.get("x", 0.5) * W, w / 2), it.get("y", 0.74) * H; return [((x - w / 2) / W, (y - h / 2) / H, (x + w / 2) / W, (y + h / 2) / H)]
     if t == "trk":
-        pos = it.get("pos") or []; out = []; izq = it.get("lado") == "izq"
-        w = max(len(s("grande")) * 0.06 * H * 0.7, len(s("peq")) * 0.034 * H * 0.55); h = 0.06 * H * 1.1 + 0.04 * H
-        for x, y in [pos[0], pos[len(pos) // 2], pos[-1]] if pos else []:
-            tx = min(max(x + (-1 if izq else 1) * 0.13 * H, 0.3 * H), W - 0.3 * H); ty = max(y - 0.13 * H, 0.12 * H)
+        pos = it.get("pos") or []; out = []
+        w = max(len(s("grande")) * 0.06 * H * 0.9, len(s("peq")) * 0.034 * H * 0.6) * 1.12; h = 0.06 * H * 1.1 + 0.04 * H
+        muestras = [pos[min(max(f - it["f0"], 0), len(pos) - 1)]] if (pos and f is not None) else ([pos[0], pos[len(pos) // 2], pos[-1]] if pos else [])
+        for x, y in muestras:
+            sitio = lambda iz: (lambda t: t - w >= W * 0.02 if iz else t + w <= W * 0.98)(min(max(x + (-1 if iz else 1) * 0.13 * H, 0.3 * H), W - 0.3 * H))
+            izq = it.get("lado") == "izq"
+            if not sitio(izq) and sitio(not izq): izq = not izq          # como Graficos.tsx: al otro lado si no cabe
+            tx = min(max(x + (-1 if izq else 1) * 0.13 * H, 0.3 * H), W - 0.3 * H); tx = max(tx, W * 0.02 + w) if izq else min(tx, W * 0.98 - w)
+            ty = max(y - 0.13 * H, 0.12 * H)
             out.append(((tx - w if izq else tx) / W, (ty - h) / H, (tx if izq else tx + w) / W, ty / H))
         return out
     if t == "boton":
@@ -258,12 +276,13 @@ def caja_texto(it):
     if t == "suscribe": return [(0.04, 0.8, 0.3, 0.93)]
     if it.get("anim"):      # mascota que asoma por un lado con su burbuja
         return [(0.0, 0.25, 0.45, 1.0)] if it.get("lado") == "izq" else [(0.55, 0.25, 1.0, 1.0)]
-    if any(it.get(k) for k in ("txt", "grande")):      # rótulo propio: abajo, centrado en su lado
-        ls = (s("txt") or s("grande")).split("|"); n = max(len(l) for l in ls); fs = min(0.08 * H, 0.7 * W / (max(n, 2) * 0.82))
-        sub = s("sub"); sfs = max(0.04 * H, fs * 0.55); w = max(n * fs * 0.75, len(sub) * sfs * 0.55) * 1.08
-        h = (len(ls) * fs * 1.12 + (sfs * 1.2 if sub else 0)) * 1.08
-        x = it.get("x", {"izq": 0.28, "der": 0.72}.get(it.get("lado"), 0.5)) * W; y1 = (1 - it.get("y", 0.1)) * H
-        return [((x - w / 2) / W, (y1 - h) / H, (x + w / 2) / W, y1 / H)]
+    if any(it.get(k) for k in ("txt", "grande")):      # rótulo propio: abajo; con «lado», pegado a ese borde (con margen)
+        ls = (s("txt") or s("grande")).split("|"); n = max(len(l) for l in ls); lado = it.get("lado") if it.get("lado") in ("izq", "der") else None
+        disp = (0.58 if lado else 0.86) * W / 1.08; fs = min(0.08 * H, disp / (max(n, 2) * 0.9))
+        sub = s("sub"); sfs = max(0.04 * H, fs * 0.55); sfs = min(sfs, disp / (len(sub) * 0.6)) if sub else sfs
+        w = max(n * fs * 0.9, len(sub) * sfs * 0.6) * 1.08; h = (len(ls) * fs * 1.12 + (sfs * 1.2 if sub else 0)) * 1.08
+        x0 = MARGEN * W if lado == "izq" else (1 - MARGEN) * W - w if lado == "der" else (W - w) / 2; y1 = (1 - it.get("y", 0.1)) * H
+        return [(x0 / W, (y1 - h) / H, (x0 + w) / W, y1 / H)]
     return []
 
 

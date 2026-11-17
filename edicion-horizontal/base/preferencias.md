@@ -368,6 +368,31 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
   con el botón de suscribir; la tarjeta de capítulo la pone el motor y los rótulos el creador, y nadie los comparaba.
   En la v1 vi un solape (UROMASTYX sobre la tarjeta del 6), lo arreglé a mano y no busqué los demás: **cuando aparece un
   fallo, se busca en todo el vídeo y se arregla la causa, no el caso**. (vídeo: alimentacion)
+- 2026-11-17 — **El rótulo con flecha (`TRK`) entra con SU plano, nunca sobre el recurso de antes, y la flecha señala
+  al sujeto durante todo el tramo**: caja medida con `rejilla.py` en el primer fotograma de ese plano (no con el
+  registro visual) y comprobada con `hoja_seguimiento.py` (8 fotogramas, el punto rojo sobre el sujeto en todos).
+  `paso3_plan.py` ya recorta el rótulo si un recurso tapa el principio de su plano (y se para si lo tapa por medio),
+  avisa si el punto se mueve demasiado para un sujeto pequeño, y el seguimiento ya no se va con lo que pasa por
+  delante (una mano, alguien que cruza): se queda quieto y recupera al sujeto cuando vuelve a verse. Por qué: Reino
+  (planto-estanque, 15:24), «el texto de un visitante sale antes de tiempo… empieza antes de poner el plano del
+  pájaro… la flecha no está apuntando bien a este». **Causa:** el `TRK` sobre plano principal se colocaba en la línea de
+  voz ANTES de pegar los recursos y nadie lo volvía a mirar (salía 1,07 s sobre el recurso del abono); la caja salió de
+  las fracciones del registro visual, a 250 px del pájaro, y siguió a las hojas; `hoja_textos.py` enseña 2 fotogramas a
+  640 px, donde no se ve. En alimentacion pasó lo mismo con «HIBISCUS»: un guante pasó por delante y la flecha se fue
+  con la mano. (vídeos: planto-estanque, alimentacion)
+- 2026-11-17 — **Ningún texto se sale del cuadro. Nunca.** Es de los errores más graves: se ve cortado y parece hecho
+  sin mirar. En alimentacion v2 se cortaban por la derecha «ASTROCHELYS RADIATA» y «AGUA DE ÓSMOSIS» (y había otros 12
+  rótulos con `lado` a punto). **Causa:** al llevar un rótulo a un lado (`lado="der"`) se centraba en el 72 % del ancho
+  pero conservaba el tamaño pensado para ir centrado (70 % del ancho): con un nombre largo, la mitad sobresalía. La
+  comprobación de solapes medía la caja con la misma cuenta equivocada y la hoja de textos dibuja una estimación, no el
+  texto real, así que nada lo vio; y al moverlos de sitio en la v2 solo se miró que no taparan al sujeto. **Arreglo:**
+  con `lado`, el rótulo va pegado a ese borde con un margen del 4 % y su tamaño es el que cabe en el 58 % del ancho
+  (contando el crecimiento); las flechas cambian solas de lado si por el suyo no cabe el nombre; las cifras se meten
+  dentro; y `paso3_plan.py` se para con `SE SALE` si una caja queda fuera. **Y al cambiar un texto de sitio, se mira con
+  `ver.py` en su fotograma de máximo tamaño (el último), no solo con la hoja de textos.** Un gráfico propio nuevo de un
+  creador tiene que seguir la misma regla (margen y tamaño que quepa) y su caja ir en `comun.caja_texto`. Por qué:
+  Lucas, «aquí el texto se sale del vídeo, esto no puede pasar» y «los textos no se pueden salir de pantalla nunca, es
+  un error muy grande». (vídeo: alimentacion)
 - 2026-11-17 — **Un texto no tapa lo que se está enseñando en ese momento** (el animal comiendo, la tortuga en las manos,
   los platos, la rosa de la que habla). Se mira SIEMPRE con `hoja_textos.py` después de `paso3_plan.py`: cada texto
   sobre su plano, al entrar y al irse, con su caja dibujada. Si tapa: `lado`, `y` (rótulos y palabras-golpe:
@@ -536,6 +561,8 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
   hasta que se recupera.** `FALLOS = [(ancla_inicio, ancla_fin)]` en `plan.py`: `paso4_render.py` pone ese tramo en
   blanco y negro y `paso5_audio.py` satura la voz (como una radio rota) con fundidos cortos; al volver («¡hemos
   vuelto!») recupera el color. Es un efecto pedido, no una corrección de color: fuera del fail el color no se toca.
+  **Con subtítulos** (`SUBS`) de lo que se dice mientras dura: la voz saturada se entiende peor. Sin que pisen la
+  palabra-golpe de la vuelta.
   Con criterio: uno o dos por vídeo, solo en un fallo de verdad. Por qué: Lucas, «en el 20:08 que se baja la cámara,
   puedes poner en blanco y negro y saturar un poco la voz porque es un fail, hasta el "hemos vuelto" que ya recupera
   color». (vídeo: alimentacion)
