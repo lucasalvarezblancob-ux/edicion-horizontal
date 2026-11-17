@@ -17,6 +17,15 @@ aplica porque sí: todos dependen de lo que pida el vídeo.
 sin explicar lo que has hecho. Tono: el del creador (español de España salvo que su perfil diga otra cosa), cercano,
 directo, frases cortas. Que parezca escrita por él, no por una agencia.
 
+## Idioma
+
+**La descripción va en el idioma del vídeo.** Si el vídeo es en inglés, la descripción entera va en inglés en Instagram,
+TikTok y YouTube: primera línea con la keyword **que se busca en inglés** (no traducida palabra por palabra: "Push day
+workout for chest growth 💪", no "Push routine to gain chest"), CTA `👉 Follow @<cuenta> for more <tema>.`
+(`👉 Subscribe for more <tema>.` en YouTube), CTA de interacción y hashtags en inglés (#pushday #chestworkout…). Mismos 3
+filtros y mismas reglas. Si el vídeo es en español, en español (de España salvo que el perfil diga otra cosa). El nombre
+del archivo y de la carpeta del vídeo también va en el idioma del vídeo (preferencias → Entrega).
+
 ## Los 3 filtros (obligatorios, en Instagram, TikTok y YouTube)
 
 Toda descripción tiene que pasar los tres. Si falla uno, se reescribe.
@@ -218,3 +227,4 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si contradice algo de arr
 - 2026-11-03 — En los consejos (nutrición, running…), la descripción va **a lo práctico que se busca** (qué comer, qué hacer) y **amplía el vídeo con valor extra**: varios ejemplos/opciones numerados + 3–4 claves útiles, aunque quede larga. El objetivo es que se guarden el vídeo para leer la descripción después. La anécdota de Lucas, solo como prueba en una línea. Los consejos generales que añado van como recomendaciones, **nunca como experiencia de Lucas**, y sin cifras dudosas. Por qué: "varios ejemplos de desayuno, que quede un poco más largo… aportar valor para que la gente se guarde el vídeo para leer la descripción más adelante". (desayuna-fuerte)
 - 2026-11-17 — **Toda descripción tiene que ser relevante, valiosa y generar interacción, en Instagram, TikTok y YouTube** (los 3 filtros de arriba), y para cualquier nicho, no solo fitness. Instagram indexa en Google: buenas keywords siempre. Reglas y tipos revisados con el análisis de un año de descripciones de su cuenta cruzado con sus métricas (tabla "Lo que dicen los datos"). Por qué: Lucas, "tiene que ser relevante, valiosa y que genere interacción. Esto tanto para Instagram como para YouTube como para TikTok" y "Instagram ahora indexa en Google, tiene SEO, por lo que también es importante que tenga buenas keywords".
 - 2026-11-17 — **La descripción depende siempre del contexto del vídeo** (el que genera la edición: bruto, transcripción, guion, tipo): lista solo si el vídeo es una lista; si no, la forma que pida el vídeo. **"Comenta PALABRA" no se pone salvo que el creador lo pida** (es para captar leads con autoDM). Por qué: Lucas, "comentar una palabra, si el creador no te lo pide, no lo pongas, ya que normalmente eso es para captación de leads" y "si el contexto no pide una lista, no la pongas, y que la descripción dependa del contexto siempre".
+- 2026-11-17 — **Vídeo en inglés → descripción en inglés** (y keywords y hashtags que se buscan en inglés), en todas las redes. Por qué: Lucas, «las descripciones obviamente en inglés también». (sección Idioma)
