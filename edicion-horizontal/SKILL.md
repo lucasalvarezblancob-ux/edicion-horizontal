@@ -114,7 +114,9 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
 0. **Preparar** — `PY herramientas/montaje/nuevo_video.py <slug> "<carpeta de brutos>"` (desde la raíz; crea
    `out/<slug>/`, la composición de capas y elige lienzo y fps por el mejor bruto). Luego, desde `out/<slug>/`,
    `paso0_preparar.py`: ficha técnica de cada bruto, **transcripción con el idioma detectado** (ponlo en `IDIOMA` de
-   `proyecto.py` tras comprobarlo), posición de la cara (para los zooms) y hojas densas (1 fotograma/s).
+   `proyecto.py` tras comprobarlo), posición de la cara (para los zooms) y hojas densas (1 fotograma/s). Va **en
+   paralelo** con el mismo resultado byte a byte: la transcripción por un lado y la imagen (caras + hojas) por otro,
+   varios brutos a la vez según gráfica, núcleos y memoria (−35 % medido en Windows; `PASO0_WHISPER`/`PASO0_HILOS` lo fijan).
    Brutos HDR (iPhone): no se convierten enteros; tras el paso 4, `sdr.py` hace la copia SDR solo de los trozos que se
    usan y se comprueba el color (preferencias → COLOR).
 1. **Estudiar los brutos a fondo (obligatorio)**:

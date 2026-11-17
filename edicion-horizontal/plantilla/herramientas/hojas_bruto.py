@@ -1,12 +1,15 @@
-"""hojas_bruto.py CARPETA_BRUTOS CARPETA_SALIDA [paso_s=1]: hojas de contactos DENSAS de cada bruto (un fotograma por segundo,
+"""hojas_bruto.py CARPETA_BRUTOS|BRUTO CARPETA_SALIDA [paso_s=1]: hojas de contactos DENSAS de cada bruto (un fotograma por segundo,
 6x6 por hoja, con el segundo rotulado) para hacer el registro visual: qué se ve en cada momento.
-Rápido: solo decodifica fotogramas clave (-skip_frame nokey)."""
+Rápido: solo decodifica fotogramas clave (-skip_frame nokey). Con un ARCHIVO en vez de una carpeta, solo ese bruto
+(paso0_preparar.py lanza uno por bruto, varios a la vez). Las extensiones no distinguen mayúsculas: en Mac, «*.mov» no
+encontraba los .MOV del iPhone y esos brutos se quedaban sin hojas."""
 import sys, os, glob, subprocess, numpy as np, cv2
 src, dst = sys.argv[1], sys.argv[2]; paso = float(sys.argv[3]) if len(sys.argv) > 3 else 1.0
 os.makedirs(dst, exist_ok=True); W, H, COLS, FILAS = 480, 270, 6, 6
-for f in sorted(glob.glob(os.path.join(src, "*.MP4")) + glob.glob(os.path.join(src, "*.mp4")) + glob.glob(os.path.join(src, "*.mov"))):
+EXT = (".mp4", ".mov", ".m4v", ".mxf", ".mkv")
+for f in [src] if os.path.isfile(src) else sorted(f for f in glob.glob(os.path.join(glob.escape(src), "*")) if f.lower().endswith(EXT)):
     clip = os.path.splitext(os.path.basename(f))[0]
-    if glob.glob(os.path.join(dst, clip + "_*.jpg")): continue
+    if glob.glob(os.path.join(glob.escape(dst), glob.escape(clip) + "_*.jpg")): continue
     p = subprocess.Popen(["ffmpeg", "-nostdin", "-v", "error", "-skip_frame", "nokey", "-i", f, "-vf", f"fps={1 / paso},scale={W}:{H}", "-pix_fmt", "bgr24", "-f", "rawvideo", "-"], stdout=subprocess.PIPE)
     ims = []; n = 0; k = 0
     def volcar():
