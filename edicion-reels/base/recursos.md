@@ -121,6 +121,41 @@ sujeto.
 
 Al acabar el vídeo, añade "Usado en: <slug> (tramos)" en la ficha de cada recurso usado.
 
+## 6b. Vídeos de stock como recursos (cuando toca)
+
+Cómo se han usado en los edits de Lucas (fisico-redes, recetas-este-es-lucas, montajes de vida); las reglas de detalle
+están en `base/preferencias.md` → Recursos (2026-11-05 y 2026-11-16).
+
+**Cuándo sí**
+- La frase habla de algo que el creador **no tiene grabado** (culturistas, alguien mirando el móvil, un partido, unas
+  escaleras, un animal…): un clip que lo enseñe de verdad es mejor que forzar un recurso suyo que no lo ilustra.
+- `recursos/` está vacío o no hay nada en el índice que case (carpeta recién instalada).
+- Formatos que se apoyan en stock por diseño (p. ej. recetas con voz en off: manos y comida de stock).
+
+**Cuándo no**: si hay un clip propio que casa, va el propio. El stock tapa huecos, no sustituye lo grabado. En vídeos
+hablando a cámara, nada de clips a pantalla completa encima de la cara salvo que lo pidan
+(`refs/hablando a camara/CONTEXTO.md`).
+
+**Cómo**
+1. **Buscar** en inglés y en vertical: `herramientas/pexels.py buscar "…" --miniaturas <dir>` (con `PEXELS_API_KEY`;
+   sin clave, el método del navegador de preferencias → Recursos). **Mira las portadas o el clip** antes de bajarlo:
+   tiene que enseñar exactamente lo que dice la frase (la especie, el ejercicio, el sitio). Pexels: uso libre, sin
+   atribución obligatoria.
+2. **Que case con el resto** igual que un recurso propio (§ 6): tema de la frase primero, luego paleta, luz, sitio,
+   época y energía del vídeo (si el gancho es oscuro, stock oscuro).
+3. **Que siga pareciendo del creador**: él sale en el gancho, en las frases que hablan de él y en el cierre (con la
+   misma ropa del gancho si se puede). Si el stock hace de él (cocinar, preparar algo), solo **manos y planos de
+   detalle**, nunca la cara de otra persona como si fuera él.
+4. **Bajar** a `estudio/public/<slug>/` (`pexels.py bajar <id> …`), la mejor resolución vertical. Si el vídeo es 4K y
+   el clip 1080p, escálalo a 2160×3840 (lanczos + `unsharp`). Al stock **sí** se le puede tocar la exposición o el
+   color para que case (no es un bruto del creador); a lo suyo, no.
+5. **Apuntar el origen**: el id de Pexels (y el autor) de cada clip en el comentario de la composición, o en un
+   `catalogo.json` si son muchos (recetas). Así se pueden volver a bajar para un retoque.
+6. **Al entregar**, di qué planos son de stock.
+7. **Al terminar el vídeo**: si el clip puede volver a servir, catalógalo en `recursos/` como uno propio (§ 1–4), con
+   "Pexels <id>" en la ficha. Si no, se borra de `public/<slug>/` cuando quien edita da el vídeo por acabado (o con la
+   limpieza de 30 días); los ids quedan apuntados para bajarlos otra vez.
+
 ## 7. Mantenimiento
 
 - Al cerrar un edit, los brutos que sirvan de b-roll van a su carpeta de `recursos/` con su ficha (flujo, paso 8);
