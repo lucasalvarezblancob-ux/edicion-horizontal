@@ -38,3 +38,4 @@ MUSICA_NIVELES = {"BASE": -28.0}
 
 # Sonoridad final del vídeo en LUFS (YouTube normaliza a -14).
 # LUFS = -14
+CONTADOR_CAPITULOS = False     # Reino Selva, 2026-11-19: «saca el contador» (capítulos solo con título y subtítulo)

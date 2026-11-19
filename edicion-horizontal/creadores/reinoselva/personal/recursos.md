@@ -1,8 +1,11 @@
 # Recursos fijos de Reino Selva (LOCAL)
 
-> **Dónde está** (Lucas, 2026-11-13): la carpeta `recursos/` está en el disco externo **D:** (My Passport), en
-> `D:\Horizontal\personal\reinoselva\recursos`; aquí queda un enlace (junction) con su mismo nombre, así que las rutas
-> de abajo valen igual. Con el disco desconectado no hay intro, outro, música ni archivo.
+> **Dónde está** (2026-11-17): disco externo **«RS Recursos»** (WD My Passport 5 TB, **exFAT**: lectura y escritura en
+> Mac y en Windows). En el Mac: `/Volumes/RS Recursos/Horizontal/personal/reinoselva/recursos`, enlazado aquí como
+> `personal/reinoselva/recursos`. En Windows, `<letra>:\Horizontal\personal\reinoselva\recursos` con un enlace (junction)
+> del mismo nombre. Los recursos VERTICALES de Reels van en el mismo disco, en `/Volumes/RS Recursos/Reels/recursos`
+> (enlazado desde `~/Desktop/Reels/recursos`). Se formateó el 2026-11-17 (antes era NTFS, solo lectura en Mac); la copia de
+> lo que no está en Drive quedó en `~/Copia_disco_reinoselva_2026-11-17`. Con el disco desconectado no hay intro, outro, música ni archivo.
 
 Lo que usa **siempre o casi siempre** y cuándo. **Todo su material está en `personal/reinoselva/recursos/`, ordenado
 por carpetas** (Lucas, 2026-11-13; fichas en `recursos/INDICE.md`): los originales fijos en `recursos/marca/`, el

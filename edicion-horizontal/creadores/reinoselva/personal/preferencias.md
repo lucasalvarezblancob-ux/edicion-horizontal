@@ -99,6 +99,32 @@ de correcciones suyas: lo que coincide en los cuatro es regla; lo que varía se 
   sacar de contexto»): en este canal es lo primero que se mira al repasar el EDL. Fuera, en alimentacion: «es que se
   están muriendo» (las moscas) y la escena de «pilla al perro… si no lo voy a meter en la habitación». Por qué: Lucas,
   «no queremos a gente criticando la escena». (vídeo: alimentacion)
+- 2026-11-17 — **Rótulo con flecha (`TRK`): entra con SU plano y la flecha señala al sujeto todo el rato.** `t0` = el
+  primer segundo en que se ve el plano del sujeto en el montaje (que ningún `BROLL` tape el principio: `paso3_plan.py`
+  lo recorta y avisa). Caja medida con `rejilla.py` en ese `t0`, nunca con las fracciones del registro visual, y con
+  medio lado ≈ medio tamaño del sujeto (pájaro: 60–80 px). Después, `hoja_seguimiento.py`: el punto encima del sujeto en
+  los 8 fotogramas. Por qué: Reino, «el texto de un visitante sale antes de tiempo […] empieza antes de poner el plano
+  del pájaro […] la flecha no está apuntando bien a este» (salía 1,1 s sobre el recurso del abono; la caja venía del
+  registro visual, 250 px lejos). Ya está en la base. (vídeo: planto-estanque, 15:24)
+- 2026-11-19 — **Capítulos SIN contador**: el rótulo de capítulo lleva solo el título y su línea de debajo; nada de
+  «2/8» ni de casillas de progreso (`CONTADOR_CAPITULOS = False` en su `ajustes.py`). Las fichas numeradas de una serie
+  dentro del vídeo, como los tres sospechosos, sí llevan su número: «sacar marcadores de nuevo, pero no los de los 3
+  posibles pájaros». Por qué: Reino Selva, «saca el contador» (con captura del «2/8 MI PRIMER ESTANQUE»). El fallo: se
+  usó el rótulo de serie de la skill sin preguntar si el contador encajaba con su estilo; en sus vídeos no hay marcador
+  de progreso. (vídeo: vaciamos-estanque v2)
+- 2026-11-19 — **Cuando lee el teleprompter (no mira a cámara), no se queda en su plano**: se tapa con planos de lo que
+  nombra (cada animal con la frase que lo nombra; si no hay en sus brutos ni en su archivo, Shutterstock, con una
+  confirmación por tanda) o con la otra cámara si en esa mira al objetivo. Por qué: Reino Selva, «4:04 - 6:40: no miro
+  a cámara, porque estoy leyendo teleprompter, usar shutterstock sobre los distintos pájaros» y «10:53: intenta pillar
+  tomas de la otra cámara». El fallo: se quedaron sus planos del iPhone mirando al lado porque la voz era buena; el
+  registro visual decía «mira fuera de cámara» y no se usó. (vídeo: vaciamos-estanque-2 v2)
+- 2026-11-19 — **La otra cámara, SIEMPRE sincronizada con la voz**: un plano de la segunda cámara (la Sony en trípode)
+  sobre su voz se saca del MISMO instante: `sincro.py` mide el desfase → `SINCRO` en `proyecto.py` → `@sync:<clip>` en
+  `BROLL`. Nunca de otra toma de la misma frase ni «a ojo». Si no hay toma sincronizable, que no se le vean los labios.
+  Por qué: Reino Selva, «11:34 hay lag con mi voz y mis labios» (la Sony iba 0,47 s adelantada; otros dos planos eran de
+  otra toma). Medido: iPhone → Sony 2,82 s, sin deriva. (vídeo: vaciamos-estanque-2 v2)
+- 2026-11-19 — **Tomas falsas solo si son buenas** (graciosas o con algo que pasa); leer mal el guion no lo es. Ante la
+  duda, fuera. Por qué: Reino Selva, «quita esas tomas falsas, no son buenas». (vídeo: vaciamos-estanque-2 v2)
 
 ## Música y sonido
 - 2026-11-12 — **Música en casi todo el vídeo** (96–97 %), no «solo donde toca»: una ventana por capítulo, cambiando
@@ -117,6 +143,18 @@ de correcciones suyas: lo que coincide en los cuatro es regla; lo que varía se 
 - 2026-11-12 — **La tortuga asoma sin sonido**: en sus vídeos no se detecta ningún efecto al entrar (análisis de
   `q323zB0BsLY` y `GdnMPaRmpDI`). Sus otros efectos de sonido (silbidos en transiciones, sonido propio de intro y outro): **sin
   comprobar**, Claude no oye. De momento, los efectos de la skill en los gráficos de la skill. A confirmar con él.
+- 2026-11-19 — **TODAS las palabrotas con pitido** («jodido», «hostia», «cojones», «puta»…, también «vaya hostia me he
+  llevado»), las suyas y las de quien graba, todas las veces, sin que lo pida: `PITIDOS` en `plan.py` (pitido de 1 kHz
+  encima de la palabra; lo aplica `paso5_audio.py`). Antes de renderizar, `palabrotas.py` (las del texto del EDL) y
+  `trabajo/voz.json` leído buscándolas (las de quien graba entre frases), y van todas. Y si el comentario entero de
+  quien graba es una palabrota sin más («en mi puta vida me imaginé que iba a estar grabando una cosa así»), fuera del
+  EDL. Por qué: Reino Selva, «digo "jodido" poner un pitido o algo en cada ocasión» y luego «pita también los hostia y
+  cojones y demás palabrotas». El fallo: en la v2 solo se pitó la palabra que dijo, sin generalizar. (vídeo: vaciamos-estanque v2–v3)
+- 2026-11-19 — **Fuera las órdenes de rodaje** («corta», «ven», «graba», «para»), aunque estén en mitad de una frase
+  buena. Por qué: Reino Selva, «11:00 digo "corta" eso sobra». El fallo: Whisper no transcribió «Ven, corta.» (entre
+  «cero kills» y «el único animal herido») y la alineación forzada estiró las palabras de la frase por encima, así que
+  `comprobar_voz.py` no vio ningún hueco. Ahora sale como `AVISO ESTIRADA` en `paso1_alinear.py` y se confirma con
+  `retranscribir.py`. (vídeo: vaciamos-estanque v2)
 
 ## Títulos y miniaturas
 <!-- Lo tuyo sobre `base/titulos-miniaturas.md`: los moldes de título que te funcionan (de tu canal: herramientas/canal_youtube.py),
@@ -188,6 +226,19 @@ y qué pareja ganó en cada test de YouTube. -->
   más y unos 3 dB por debajo de la de Ramón, que va a ~110 Hz con el micro puesto) y ninguna `AVISO VOZ:` en
   `paso5_audio.py`. La voz de pitufo es SOLO de este canal. Por qué: Lucas, prueba-3 v2, «se te han escapado
   bastantes partes en las que habla el cámara» y «lo de la voz de pitufo se aplica a Reino Selva». (vídeo: prueba-3)
+  2026-11-19 — **Las voces de fondo también van con voz de pitufo, aunque sean GRAVES**: en vaciamos-estanque se
+  escaparon «de color negro» (6:36), un «un mes» de fondo (9:47) y todo lo que dice quien graba cuando Ragnar le muerde
+  («Ragnar, no me muerda», «me está pegando bocaditos», «me rompes el móvil, me rompes todo»). Esa voz iba a ~95 Hz, más
+  grave que Ramón (~116 Hz), y muy baja (−40/−51 dB); `voces.py` solo buscaba voces más agudas (ya mira las dos
+  direcciones y lista aparte las muy bajas; en sus vídeos salen también frases de Ramón, que va de ~90 a ~150 Hz). Además de `voces.py`, mira en `voz.json` las frases que van muy por debajo de su
+  nivel o que le contestan o le hablan de tú, sea cual sea su tono, y pregunta las dudosas. Por qué: Reino Selva,
+  «distorsionar voz de fondo pitufo», «voz pitufo en todo lo que dice la otra persona». (vídeo: vaciamos-estanque v2)
+- 2026-11-19 — **Nadie reconocible al fondo**: cualquier persona que no sea él y se vea en un plano, aunque esté lejos y
+  de espaldas (un operario trabajando entre las plantas), se difumina en todo el tiempo en que está en plano
+  (`TAPAR_PERSONAS` + `tapar_persona.py`; caja a mano por fotogramas clave cada 0,125 s, medida con `rejilla.py`, y
+  difuminado fuerte con borde suave); luego se miran TODAS las hojas `trabajo/tapado/persona_N.jpg`. Por qué: Reino
+  Selva, «13:16 blur a la persona que sale de fondo, no puede saberse quien es». El fallo: en el registro visual solo se
+  miraron las personas en primer plano y las manos que entran a cuadro, no las figuras del fondo. (vídeo: vaciamos-estanque v2)
 - 2026-11-12 — Matrículas siempre difuminadas (regla de la skill). En su finca hay coches aparcados al fondo: mirar los
   planos a cámara del exterior. (vídeo: ramon, clip C0246)
 
