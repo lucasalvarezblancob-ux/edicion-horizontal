@@ -4,7 +4,7 @@ en el de la palabra, sí), cada cifra junto a la cara, cada zoom (¿apunta a la 
 F = frame de salida; con mm:ss.d también vale (ver.py 4:18.2)."""
 import json, os, shutil, subprocess, sys
 from comun import ALTO, ANCHO, COMP, ESTUDIO, FPS, TRABAJO, fuente, video
-from dinamica import CARA_Y, encuadre
+from dinamica import CARA_Y, RECORTE_169, encuadre
 
 os.makedirs(f"{TRABAJO}/still", exist_ok=True); NPX = shutil.which("npx") or "npx"; GL = ["--gl=angle"] if os.name == "nt" else []
 vid = video(); rangos = json.load(open(f"{TRABAJO}/video.json"))["rangos"]
@@ -25,8 +25,8 @@ for arg in sys.argv[1:]:
         except subprocess.TimeoutExpired: r = None; print("AVISO: Remotion lleva 4 min sin sacar el fotograma: colgado (¿una fuente que no carga? quita los gráficos del creador para acotarlo)")
         if not os.path.exists(png): print("AVISO: Remotion no ha sacado la capa; va sin gráficos.", ((r.stderr or r.stdout)[-300:] if r else "")); capa = False
     if capa:
-        fc = f"[0:v]{pre}scale={w}:{h},crop={ANCHO}:{ALTO}:{x}:{y},scale={ANCHO // 2}:{ALTO // 2}[b];[b][1:v]overlay"
+        fc = f"[0:v]{pre}{RECORTE_169}scale={w}:{h},crop={ANCHO}:{ALTO}:{x}:{y},scale={ANCHO // 2}:{ALTO // 2}[b];[b][1:v]overlay"
         subprocess.run([*base, "-i", png, "-filter_complex", fc, "-frames:v", "1", "-q:v", "3", sal], check=True)
     else:
-        subprocess.run([*base, "-vf", f"{pre}scale={w}:{h},crop={ANCHO}:{ALTO}:{x}:{y},scale={ANCHO // 2}:{ALTO // 2}", "-frames:v", "1", "-q:v", "3", sal], check=True)
+        subprocess.run([*base, "-vf", f"{pre}{RECORTE_169}scale={w}:{h},crop={ANCHO}:{ALTO}:{x}:{y},scale={ANCHO // 2}:{ALTO // 2}", "-frames:v", "1", "-q:v", "3", sal], check=True)
     print(F_, v["clip"], f"{t:.2f} s del bruto", "x", round(z, 3), "recurso" if v["b"] else "", "->", sal)

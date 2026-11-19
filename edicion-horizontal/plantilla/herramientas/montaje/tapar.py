@@ -302,8 +302,10 @@ def ancla(S, v, k):
 
 
 def parches():
-    for f in os.listdir(D):
-        if f.startswith("p") and f.endswith((".mov", ".json")): os.remove(f"{D}/{f}")
+    for f in os.listdir(D):          # los parches de persona (tapar_persona.py, "persona": true en su .json) no se tocan
+        if f.startswith("p") and f.endswith(".json") and not json.load(open(f"{D}/{f}")).get("persona"):
+            for e in (".json", ".mov"):
+                if os.path.exists(f"{D}/{f[:-5]}{e}"): os.remove(f"{D}/{f[:-5]}{e}")
     for S, v in planos_afectados():
         res = []; caja = None
         for k, im in enumerate(leer(v["clip"], v["in"] / FPS, v["n"], v["speed"])):
@@ -314,6 +316,7 @@ def parches():
         if not nvis: continue
         a, b, c, d = caja; a -= a % 2; c -= c % 2; b += (b - a) % 2; d += (d - c) % 2; h, w = b - a, d - c
         o = f"{D}/p{v['o']}"
+        if os.path.exists(o + ".json"): raise SystemExit(f"plano o={v['o']}: ya tiene un parche (una persona de tapar_persona.py u otra matrícula); no se pueden tapar dos cosas en el mismo plano")
         p = subprocess.Popen(["ffmpeg", "-nostdin", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "bgra", "-s", f"{w}x{h}", "-r", str(FPS), "-i", "-", "-c:v", "qtrle", o + ".mov"], stdin=subprocess.PIPE)
         for q in res:
             fr = np.zeros((h, w, 4), np.uint8)

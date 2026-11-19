@@ -19,7 +19,7 @@ Lee plan.py del vídeo (todo opcional; lo que no esté, no se pone):
 Los cortes de escala los pone dinamica.py. Al final imprime el ritmo (mediana de plano, cortes/min) y los avisos."""
 import json, os, subprocess, sys
 import numpy as np, cv2
-from comun import ALTO as AH, ANCHO as AW, BOTON_ESC, CAPAS_JSON, CREADOR, ESTUDIO, F, FPS, IDIOMA, TRABAJO, Linea, bruto, buscar, caja_texto, cruce, fuera, marca, texto_dicho
+from comun import ALTO as AH, ANCHO as AW, BOTON_ESC, CAPAS_JSON, CREADOR, ESTUDIO, F, FPS, IDIOMA, SINCRO, TRABAJO, Linea, ajuste, bruto, buscar, caja_texto, cruce, fuera, marca, texto_dicho
 import plan      # después de comun: es quien mete la carpeta del vídeo en el path
 from dinamica import Caras, Z_FUERTE, encuadre, planos_de_voz
 
@@ -150,11 +150,21 @@ def cortar(f):   # parte el plano que contiene el frame f
 #                   ×1,25 al centro dejaba la tortuga abajo, tapada por el rótulo: «el zoom un poco más centrado en la tortuga»).
 #   (ancla, [(clip, segundo, duración[, (zoom, cx, cy)]), …]): VARIOS planos seguidos sobre la misma voz (montaje). Para
 #                   el tráiler-resumen: «más de 100 animales» con tres animales distintos de 1,5–2 s, no un plano de 6 s.
-nb = 0
+#   (ancla, "@sync:<clip>", duración | None[, zoom]): la OTRA CÁMARA en el MISMO instante que suena la voz (SINCRO en
+#                   proyecto.py, medido con sincro.py). El segundo sale del montaje (pieza de voz que suena + desfase), nunca
+#                   a mano, y el plano no pasa del final de esa pieza. Zoom (1,9 si no se da) con la cara a ~30 % del alto.
+#                   Por qué: vaciamos-estanque-2 (2026-11-19), «hay lag con mi voz y mis labios»: un plano de la Sony puesto
+#                   a ojo iba 0,47 s adelantado y otros dos eran de otra toma de la misma frase.
+nb = 0; _caras = Caras(TRABAJO)
 def pegar(f):   # nada de planos de un puñado de frames: el recurso se pega al corte más cercano
     cs = [v["o"] for v in vid] + [L.total]; c_ = min(cs, key=lambda x: abs(x - f)); return c_ if abs(c_ - f) <= F(0.48) else f
 for b_ in BROLL:
-    a = b_[0]; f0 = L.ancla(a)
+    a = b_[0]; f0 = L.ancla(a); sync = None
+    if isinstance(b_[1], str) and b_[1].startswith("@sync:"):
+        sync = b_[1][6:]
+        if sync not in SINCRO: raise SystemExit(f"BROLL {b_[1]}: falta {sync!r} en SINCRO de proyecto.py (mídelo con sincro.py)")
+        zsync = float(b_[3]) if len(b_) > 3 and b_[3] else 1.9
+        b_ = (a, sync, 0.0, b_[2] if len(b_) > 2 else None)      # el segundo se calcula después de pegar al corte
     if isinstance(b_[1], list): fuentes = [(x[0], x[1], x[2], *x[3:]) for x in b_[1]]; f1 = f0 + sum(F(x[2]) for x in b_[1])
     else:
         c, t, d, *zz = b_[1:]
@@ -163,6 +173,18 @@ for b_ in BROLL:
         else: f1 = f0 + F(d)
         fuentes = None
     f0, f1 = pegar(f0), pegar(f1)
+    if sync:
+        voz, off = SINCRO[sync]
+        p = next((p for p in P if p["o"] <= f0 < p["o"] + p["n"]), None)
+        if not p or p["clip"] != voz: raise SystemExit(f"BROLL @sync:{sync} en {f0 / FPS:.1f} s: ahí suena {p and p['clip']}, no {voz}: no hay toma sincronizable")
+        if abs(p.get("speed", 1) - 1) > 1e-6: raise SystemExit(f"BROLL @sync:{sync} en {f0 / FPS:.1f} s: la voz va acelerada (x{p['speed']}): así no se sincroniza")
+        f1 = min(f1, p["o"] + p["n"])            # nunca pasa del corte de la pieza: si la voz salta a otra toma, se desincroniza
+        t = (p["in"] + (f0 - p["o"])) / FPS + off
+        z = zsync; cara = _caras.en(sync, round(t * FPS), f1 - f0); alto = AH / z
+        cx, cy = (cara["cx"], cara["cy"]) if cara else (AW / 2, alto / 2)
+        cy = max(alto / 2, min(AH - alto / 2, cy + alto * 0.2))       # la cara a ~30 % del alto del cuadro
+        zz = [(z, int(cx), int(cy))]
+        if not cara: print(f"AVISO SYNC: @sync:{sync} en {f0 / FPS:.1f} s: sin cara detectada en {sync} {t:.1f} s; encuadre arriba al centro (míralo en hoja_recursos.py)")
     cortar(f0); cortar(f1)
     i0 = next(i for i, v in enumerate(vid) if v["o"] == f0); i1 = next((i for i, v in enumerate(vid) if v["o"] == f1), len(vid))
     n = f1 - f0; base = {"speed": 1.0, "b": 1, "t": 0, "cx": None, "cy": None, "ax": 0.5, "ay": 0.5}
@@ -179,6 +201,16 @@ for b_ in BROLL:
     else: nuevos = [{**base, "clip": c, "in": round(t * FPS), "n": n, "o": f0, "z0": 1.0, "z1": 1.0}]
     vid[i0:i1] = nuevos; nb += 1
 assert all(vid[i]["o"] + vid[i]["n"] == vid[i + 1]["o"] for i in range(len(vid) - 1)) and vid[-1]["o"] + vid[-1]["n"] == L.total
+# ---- la otra cámara sobre la voz: ¿va en el MISMO instante? (los @sync ya lo van; esto pilla los puestos a mano) ----
+for v in vid:
+    if not v["b"] or v["clip"] not in SINCRO: continue
+    voz, off = SINCRO[v["clip"]]; p = next((p for p in P if p["o"] <= v["o"] < p["o"] + p["n"]), None); mm = f"{int(v['o'] / FPS // 60)}:{v['o'] / FPS % 60:04.1f}"
+    if p and p["clip"] == v["clip"]: continue          # recurso del mismo clip que la voz: no es la otra cámara
+    if not p or p["clip"] != voz:
+        print(f"AVISO LABIOS: {v['clip']} en {mm} va sobre la voz de {p and p['clip']} (otra toma): si habla a cámara, que no se le vean los labios, o usa @sync:{v['clip']}")
+        continue
+    dif = (v["in"] - (p["in"] + (v["o"] - p["o"]) * p.get("speed", 1)) - off * FPS) / FPS
+    if abs(dif) > 1.0 / FPS: print(f"AVISO LABIOS: {v['clip']} en {mm} va {dif:+.2f} s desfasado de la voz: usa (ancla, \"@sync:{v['clip']}\", …) en BROLL")
 # rótulo con seguimiento sobre un plano de recurso: (clip, t0, t1, caja, grande, pequeño, lado, ancla del frame en que suena t0)
 for c, t0, t1, caja, grande, peq, lado, a in TRK_REC:
     o0 = L.ancla(a); v = next(v for v in vid if v["o"] <= o0 < v["o"] + v["n"]); n = round((t1 - t0) * FPS)
@@ -259,7 +291,8 @@ for pl in _g:
 if TITULO and "titulo" in M:
     items.append({"t": "titulo", "f0": M["titulo"], "f1": M["titulo"] + F(TITULO.get("dur", 4.0)), "arriba": TITULO.get("arriba", ""), "grande": TITULO["grande"], "abajo": TITULO.get("abajo", "")})
 for s in L.secciones:
-    items.append({"t": "seccion", "f0": s["o"] + F(0.12), "f1": s["o"] + F(3.12), "n": s["n"], "de": len(L.secciones), "titulo": s["titulo"], "sub": s["sub"]})
+    items.append({"t": "seccion", "f0": s["o"] + F(0.12), "f1": s["o"] + F(3.12), "n": s["n"], "de": len(L.secciones), "titulo": s["titulo"], "sub": s["sub"],
+                  **({} if ajuste("CONTADOR_CAPITULOS", True) else {"contador": False})})
 for a, d, reg, nueva in MAPAS:
     f0 = L.ancla(a); items.append({"t": "mapa", "f0": f0, "f1": f0 + F(d), "reg": reg, "nueva": nueva})
 for a, d, txt, *col in SUBS:
@@ -342,6 +375,16 @@ for b, it in _choques:
     txt = " ".join(str(it.get(k, "")) for k in ("txt", "grande", "titulo", "sub") if it.get(k)) or it["t"]
     print(f"CHOQUE: «{txt[:40]}» ({it['t']}, {it['f0'] / FPS:.1f}-{it['f1'] / FPS:.1f} s) pisa el botón de suscribir ({b['f0'] / FPS:.1f}-{b['f1'] / FPS:.1f} s)")
 if _choques: raise SystemExit("El botón de suscribir va solo: cuelga esos textos de después del botón (la repetición de su frase o la siguiente) o mueve el botón en plan.py")
+# el botón acaba mientras él habla: si no, su final (el cuadrado rojo recogiéndose) se ve sobre lo que viene después de la
+# voz (un negro, la intro, el outro, un clip sin voz). vaciamos-estanque (2026-11-19): 0,5 s sobre un negro; se arregló con
+# "vel": 1.45. Seguir sobre otra pieza HABLADA (un corte dentro de lo que dice) es normal y no avisa.
+for b in [it for it in items if it["t"] in ("boton", "suscribe")]:
+    sobra = [p for p in P if p["k"] != "T" and p["o"] < b["f1"] and p["o"] + p["n"] > b["f0"]]
+    fin = min([p["o"] for p in sobra] + [L.total])
+    if b["f1"] > fin + F(0.1):
+        que = f"{sobra[0]['clip']}" + (f" ({sobra[0]['tag']})" if sobra and sobra[0].get("tag") else "") if sobra else "el final del vídeo"
+        print(f"AVISO BOTÓN: el botón ({b['f0'] / FPS:.1f}-{b['f1'] / FPS:.1f} s) sigue {(b['f1'] - fin) / FPS:.1f} s sobre {que}, que no es voz: "
+              f"sube \"vel\" en BOTONES o adelanta su ancla")
 # ---- dos gráficos nunca se pisan en pantalla ----
 # (comun.caja_texto: dónde cae cada uno). La tarjeta de capítulo y el rótulo de la especie de su primera frase eran el
 # caso típico: el rótulo se cuelga de DESPUÉS de la tarjeta (su f1 + 0,3 s: la siguiente vez que se nombra, o con un

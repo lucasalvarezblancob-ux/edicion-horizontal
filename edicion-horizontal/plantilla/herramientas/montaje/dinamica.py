@@ -115,14 +115,23 @@ def planos_de_voz(P, W, caras, esp, secciones, sin_escala=()):
     return vid
 
 
+# Fuente que no es 16:9 (stock DCI 4096x2160, vertical): se recorta al centro a la proporción del lienzo ANTES de escalar.
+# Con una fuente 16:9 no hace nada. Lo usan filtro_zoom y las hojas (ver.py, hoja_recursos.py, hoja_textos.py).
+RECORTE_169 = f"crop=w='2*trunc(min(iw,ih*{AW}/{AH})/2)':h='2*trunc(min(ih,iw*{AH}/{AW})/2)',"
+
+
 def filtro_zoom(v):
     """Filtro ffmpeg (tras fps=FPS) para la escala y el encuadre de un plano. Siempre deja la imagen en ANCHO x ALTO."""
     z0, z1, t, n = v["z0"], v["z1"], v.get("t", 0), v["n"]
-    if z0 == 1 and z1 == 1: return f"scale={AW}:{AH}:flags=bicubic,"
+    # fuente que no es 16:9 (stock DCI 4096x2160, vertical): primero se recorta al centro a la proporción del lienzo; con una
+    # fuente 16:9 no hace nada (min(iw, ih*16/9) = iw). Sin esto, scale a ANCHO x ALTO la deformaba (vaciamos-estanque-2,
+    # 2026-11-19). En un vertical el centro casi nunca es el sujeto: ahí, mejor una copia _h recortada a mano a su altura.
+    pre = RECORTE_169
+    if z0 == 1 and z1 == 1: return pre + f"scale={AW}:{AH}:flags=bicubic,"
     cx, cy, ax, ay = v.get("cx"), v.get("cy"), v.get("ax", 0.5), v.get("ay", CARA_Y)
     if t == 0 and z0 == z1:
         w, h, x, y = encuadre(z1, cx, cy, ax, ay)
-        return f"scale={w}:{h}:flags=bicubic,crop={AW}:{AH}:{x}:{y},"
+        return pre + f"scale={w}:{h}:flags=bicubic,crop={AW}:{AH}:{x}:{y},"
     if t:   # animado con frenada (ease-out cúbico) en t frames, luego se queda
         Z = f"({z1}+({z0 - z1:.4f})*pow(max(0,1-t/{t / FPS:.3f}),3))"
     else:   # lento, lineal en todo el plano (solo para imágenes fijas, paisajes y rótulos)
@@ -131,4 +140,4 @@ def filtro_zoom(v):
     # (ramon v2: todos los zooms animados recortaban desde la esquina). Por eso el recorte se calcula con Z(t), no con iw.
     xs = f"({AW}*{Z}-{AW})/2" if cx is None else f"min(max({cx:.0f}*{Z}-{ax * AW:.0f},0),max({AW}*{Z}-{AW + 2},0))"
     ys = f"({AH}*{Z}-{AH})/2" if cy is None else f"min(max({cy:.0f}*{Z}-{ay * AH:.0f},0),max({AH}*{Z}-{AH + 2},0))"
-    return f"scale=w='2*trunc({AW // 2}*{Z}+0.01)':h='2*trunc({AH // 2}*{Z}+0.01)':eval=frame:flags=bicubic,crop=w={AW}:h={AH}:x='{xs}':y='{ys}',"
+    return pre + f"scale=w='2*trunc({AW // 2}*{Z}+0.01)':h='2*trunc({AH // 2}*{Z}+0.01)':eval=frame:flags=bicubic,crop=w={AW}:h={AH}:x='{xs}':y='{ys}',"

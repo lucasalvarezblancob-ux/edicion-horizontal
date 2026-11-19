@@ -48,17 +48,22 @@ export const Titulo: React.FC<{ f: number; dur: number; it: Item }> = ({ f, dur,
 };
 
 // Capítulo: número enorme en acento + título blanco, de golpe; debajo, las casillas del contador (marcador de progreso).
+// Con it.contador === false (CONTADOR_CAPITULOS = False en ajustes.py): solo título y subtítulo.
 export const Seccion: React.FC<{ f: number; dur: number; it: Item }> = ({ f, it }) => {
   const { height: H, width: W } = useVideoConfig();
-  const de = Number(it.de ?? 0);
+  // it.contador === false: sin número «n/total» ni casillas, solo título y subtítulo (Reino Selva, 2026-11-19: «saca el contador»)
+  const sinContador = it.contador === false;
+  const de = sinContador ? 0 : Number(it.de ?? 0);
   const fs = ajusta(String(it.titulo ?? ""), W * 0.62, H * 0.075);
   return (
     <AbsoluteFill style={{ background: "linear-gradient(15deg, rgba(0,0,0,.7) 0%, rgba(0,0,0,0) 50%)" }}>
       <div style={{ position: "absolute", left: H * 0.07, bottom: H * 0.07, display: "flex", alignItems: "flex-end", gap: H * 0.03, transform: "scale(" + pop(f) + ")", transformOrigin: "0 100%" }}>
-        <div style={{ fontFamily: F_ANCHA, fontWeight: 900, fontSize: H * 0.23, lineHeight: 0.86, color: ACENTO, textShadow: borde(H * 0.006) }}>
-          {it.n}
-          {de ? <span style={{ fontSize: H * 0.085, color: "white" }}>/{de}</span> : null}
-        </div>
+        {sinContador ? null : (
+          <div style={{ fontFamily: F_ANCHA, fontWeight: 900, fontSize: H * 0.23, lineHeight: 0.86, color: ACENTO, textShadow: borde(H * 0.006) }}>
+            {it.n}
+            {de ? <span style={{ fontSize: H * 0.085, color: "white" }}>/{de}</span> : null}
+          </div>
+        )}
         <div style={{ paddingBottom: H * 0.004 }}>
           <div style={{ fontFamily: F_ANCHA, fontWeight: 900, fontSize: fs, color: "white", textShadow: borde(H * 0.004), lineHeight: 1.1, whiteSpace: "nowrap", opacity: f >= 4 ? 1 : 0 }}>{it.titulo}</div>
           <div style={{ fontFamily: F_TXT, fontSize: H * 0.034, fontWeight: 600, color: "white", textShadow: borde(H * 0.0025), marginTop: H * 0.006, opacity: f >= 10 ? 1 : 0 }}>{it.sub}</div>

@@ -38,3 +38,8 @@
 
 # Sonoridad final del vídeo en LUFS (YouTube normaliza a -14).
 # LUFS = -14
+
+# ---------- Rótulos (paso3_plan.py) ----------
+# False: el rótulo de capítulo sin «n/total» ni casillas de progreso (solo título y subtítulo). Las series numeradas
+# DENTRO del vídeo (sospechosos, pasos, top 5) llevan su número siempre.
+# CONTADOR_CAPITULOS = True

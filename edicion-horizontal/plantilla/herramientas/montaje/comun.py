@@ -24,6 +24,7 @@ FPS = _g("FPS", 25)
 ANCHO, ALTO = _g("ANCHO", 3840), _g("ALTO", 2160)                            # lienzo = el del mejor bruto (nunca menos)
 IDIOMA = _g("IDIOMA")                                                        # idioma HABLADO (lo detecta paso0); nunca supuesto
 NUMEROS = _g("NUMEROS", {})                                                  # cifras -> como se dicen, para alinear: {"100": "onehundred"}
+SINCRO = _g("SINCRO", {})                                                    # otra cámara: {"C0132": ("IMG_2120", 2.82)} (sincro.py lo mide)
 ESTUDIO = os.path.abspath(_g("ESTUDIO", "../../estudio"))
 TRABAJO = "trabajo"
 CAPAS_JSON = f"{ESTUDIO}/src/videos/{SLUG}/capas.json"
@@ -143,13 +144,20 @@ def palabras(clip):
     return _pal[clip]
 
 
+_AVISADAS = set()
 def buscar(W, clip, frase, n):
     """Índices (primera, última) de una frase literal dentro de las palabras del MONTAJE (linea.json).
-    n = 0 primera vez que suena (p. ej. en el tráiler), -1 la última, 1 la segunda…"""
+    n = 0 primera vez que suena (p. ej. en el tráiler), -1 la última, 1 la segunda…
+    Si la frase suena más de una vez avisa (AVISO ANCLA) con el minuto de cada una: una frase corta casi siempre está
+    dentro de otra y lo del tráiler suena dos veces (vaciamos-estanque-2, 2026-11-19: la garza bajo la ficha del cormorán
+    porque «es un ave grande» casaba antes con «el cormorán es un ave grande»)."""
     q = [norm(x) for x in frase.split()]; q = [x for x in q if x]
     idx = [i for i, w in enumerate(W) if w["clip"] == clip and norm(w["w"])]
     hits = [idx[j] for j in range(len(idx) - len(q) + 1) if [norm(W[i]["w"]) for i in idx[j:j + len(q)]] == q]
     if not hits: raise SystemExit(f"frase no encontrada en el montaje: {clip} {frase!r}")
+    if len(hits) > 1 and (clip, frase, n) not in _AVISADAS:      # la misma frase suena varias veces (tráiler y cuerpo, frase dentro de otra)
+        _AVISADAS.add((clip, frase, n)); mm = lambda h: f"{int(W[h]['o0'] / FPS // 60)}:{W[h]['o0'] / FPS % 60:04.1f}"
+        print(f"AVISO ANCLA: «{frase}» ({clip}) suena {len(hits)} veces en el montaje ({', '.join(mm(h) for h in hits)}); n={n} → {mm(hits[n])}")
     i = hits[n]; return i, idx[idx.index(i) + len(q) - 1]
 
 

@@ -263,6 +263,20 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
       sale): resta autoridad y no enseña nada.
     Mi lectura: fuera lo que habla del canal y del negocio en vez del tema, y lo que deja al creador en mal lugar.
     Si en otro vídeo dice que sí a algo de esto, corrige esta lista.
+- 2026-11-19 — **Fuera las órdenes de rodaje** («corta», «ven», «graba», «para», «otra vez», «¿ya?»), aunque estén en
+  mitad de una frase buena: se parte el `T()` en dos. Whisper casi nunca las transcribe (con su filtro de silencios) y
+  la alineación forzada estira las palabras de al lado por encima, así que `comprobar_voz.py` no ve ningún hueco: salen
+  como `AVISO ESTIRADA` en `paso1_alinear.py` (una palabra que dura más de 1 s, 1,5 s si es una cifra) y se confirman con
+  `retranscribir.py <clip> <t0> <t1> --prompt "Corta. Ven."` (sin VAD; con `--escribir` corrige el `.w.json`). Por qué:
+  Reino Selva, «11:00 digo "corta" eso sobra»: «Ven, corta.» quedó dentro de «…2026 cero kills. El único animal herido…»
+  («2026» duraba 4,3 s y «kills» 2 s en la línea). (vídeo: vaciamos-estanque v2)
+- 2026-11-19 — **Un comentario de quien graba que solo aporta una palabrota o un juicio** («en mi puta vida me imaginé
+  que iba a estar grabando una cosa así») va fuera del EDL, no pitado. Si aporta algo (una pregunta, un aviso, humor), se
+  queda con su pitido (Audio → Palabrotas). (vídeo: vaciamos-estanque v3)
+- 2026-11-19 — **Tomas falsas solo si son buenas de verdad**: graciosas o con algo que pasa (un susto, el perro, una
+  caída). Equivocarse leyendo o repetir una frase no lo es. Ante la duda, fuera, y se dice al entregar en «lo que se ha
+  quedado fuera». Por qué: Reino Selva, «quita esas tomas falsas, no son buenas» (dos tropiezos leyendo el guion con un
+  rótulo «TOMAS FALSAS» al final). (vídeo: vaciamos-estanque-2 v2)
 
 ## Planos de recurso (sobre la voz)
 - 2026-11-11 — **Un recurso tiene que enseñar aquello de lo que se habla desde su primer fotograma.** Nada de paredes,
@@ -334,10 +348,33 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
   en los recursos de la skill de reels».
 - Material de `personal/<creador>/recursos/`: cómo catalogarlo y elegirlo, en `base/recursos.md`. Los recursos fijos del
   creador (cabecera, cortinillas, logos) y cuándo van: `personal/<creador>/recursos.md`.
+- 2026-11-19 — **Si el creador lee** (teleprompter o notas: `mirada: fuera_lee` en el registro visual durante frases
+  seguidas), **su plano no se queda**, aunque la voz sea buena. Por orden:
+  1. la otra cámara, si en ella mira al objetivo, SINCRONIZADA (`@sync`, abajo);
+  2. recursos de lo que nombra, uno por frase, empezando en la palabra que lo nombra (o lo que hace: «se lanzan sobre
+     sus presas» → el martín pescador lanzándose);
+  3. si no hay, stock de lo que nombra (`base/recursos.md` § 5 bis), de la especie exacta.
+  Una ficha gráfica encima no basta: debajo sigue viéndose que lee. Por qué: Reino Selva, «4:04 - 6:40: no miro a
+  cámara, porque estoy leyendo teleprompter, usar shutterstock sobre los distintos pájaros» y «10:53: intenta pillar
+  tomas de la otra cámara con el audio de la otra cámara». El registro visual decía «mira fuera de cámara» y no se usó.
+  (vídeo: vaciamos-estanque-2 v2)
+- 2026-11-19 — **Un plano de otra cámara sobre la voz se saca del MISMO instante**: el desfase se mide por correlación
+  del audio (`sincro.py <clip voz> <clip otra>` → `SINCRO` en `proyecto.py`) y el plano se pide con
+  `(ancla, "@sync:<clip>", duración | None, zoom)` en `BROLL`: el segundo sale del montaje y no pasa del final de la
+  pieza de voz. Nunca de otra toma de la misma frase ni a ojo; `paso3_plan.py` avisa con `AVISO LABIOS` de los que no
+  cuadran. Si no hay toma sincronizable, que no se le vean los labios (plano de lejos o de espaldas). La voz sigue siendo
+  la del micro bueno; solo cambia la imagen. Por qué: Reino Selva, «11:34 hay lag con mi voz y mis labios» (la Sony
+  puesta a ojo iba 0,47 s adelantada; otros dos planos eran de otra toma de la misma frase). (vídeo: vaciamos-estanque-2 v2)
+- 2026-11-19 — **Cada `AVISO ANCLA` de `paso3_plan.py` se mira**: ¿el minuto elegido es el de la escaleta? Una frase
+  corta casi siempre está dentro de otra y las frases del tráiler suenan dos veces (`n=0` es la del tráiler, `-1` la del
+  cuerpo). Tras `paso3`, comprueba con `ver.py` en el minuto real cada recurso que nombra algo concreto. Por qué (lo vi
+  al revisar el archivo, antes de entregar): la garza salía bajo la ficha del cormorán porque «es un ave grande»
+  casaba antes con «el cormorán es un ave grande»; el plano de la garza con el koi caía en el tráiler; y un
+  `VOZ_DISFRAZ` con «un mes», n=0, disfrazó al creador en vez de a quien grababa (era n=1). (vídeo: vaciamos-estanque-2)
 
 ## Textos y gráficos
 - 2026-11-11 — **Guía: Plex y Xokas.** Una familia ancha y negra para lo grande; entran de golpe (pop en 5–6 f) y salen
-  por corte; pocos y con función. Tipos de serie (`estudio/src/comun/Graficos.tsx`): título, capítulo (n/total), cifra
+  por corte; pocos y con función. Tipos de serie (`estudio/src/comun/Graficos.tsx`): título, capítulo (n/total, o solo título con `CONTADOR_CAPITULOS = False`), cifra
   junto a la cara, palabra-golpe, nota del editor, rótulo con seguimiento, subtítulo. La suscripción no es un rótulo:
   es un botón animado (abajo, «Clips y gráficos superpuestos»).
 - 2026-11-11 — **Texto que crece: zoom continuo y suave, nunca a escalones.** Pop de entrada y luego ×1 → ×1,22 con
@@ -557,6 +594,27 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
   habla el cámara (señor misterio) […] distorsiona un poco la voz para que no se le reconozca, puede ser como una voz de
   pitufo; […] no debe de salir en los vídeos, o se le pixela la cara o se elimina cuando salga». Quién es ese tercero,
   en `personal/<creador>/preferencias.md`. (vídeo: prueba-3)
+  2026-11-19 — **`voces.py` no basta, y la otra voz puede ser MÁS GRAVE.** Ahora mira las dos direcciones (más aguda,
+  `TONO_OTRA`; más grave, `TONO_GRAVE` ÷1,15 y al menos 6 dB más baja, `DB_GRAVE`) y lista aparte las DUDOSAS (≥ 12 dB
+  por debajo del creador, `DB_LEJOS`; casi siempre él hablando bajo). Con una voz que sube y baja mucho salen frases del
+  creador entre las candidatas (en alimentacion, 21): por eso además se lee `voz.json` entero buscando lo que dice la
+  otra persona por el SENTIDO:
+  - réplicas a lo que dice el creador;
+  - frases de tú a tú («lo cuidaste»);
+  - quejas de quien sostiene la cámara («me rompes el móvil», el perro le muerde);
+  - comentarios del fondo.
+  Las dudosas se preguntan. Cada línea `voz disfrazada` de `paso5_audio.py` dice lo que suena ahí: comprueba que es de la
+  otra persona (si la frase suena dos veces, la `n` decide cuál se disfraza). Por qué: Reino Selva, «distorsionar voz de
+  fondo pitufo», «voz pitufo en todo lo que dice la otra persona»: quien grababa iba a ~95 Hz, más grave que el creador
+  (~116 Hz), y a −40/−51 dB; `voces.py` solo buscaba voces más agudas y encontró 1 de 5. (vídeo: vaciamos-estanque v2)
+- 2026-11-19 — **Palabrotas.** Si el creador pide pitar una palabrota, se pitan TODAS las del vídeo, las suyas y las de
+  quien graba, todas las veces que suenan: `palabrotas.py` (las del texto del EDL, listas para pegar) y, además,
+  `trabajo/voz.json` leído buscándolas (lo que dice quien graba entre frases). Van todas en
+  `PITIDOS = [(clip, "palabra", n), …]` de `plan.py` antes de renderizar: `paso5_audio.py` pone encima un pitido de
+  1 kHz al nivel de la voz, de principio a fin de la palabra, sin clic. Se apunta en su `preferencias.md` para que en los
+  siguientes vídeos se haga sin que lo pida. Por qué: Reino Selva, «digo "jodido" poner un pitido o algo en cada
+  ocasión» y, en la corrección siguiente, «pita también los hostia y cojones y demás palabrotas»: se aplicó literal (solo
+  «jodido») en vez de generalizar. (vídeo: vaciamos-estanque v2–v3)
 - 2026-11-17 — **Un fail (se cae la cámara, se va la luz, se le cae algo) se marca: blanco y negro y la voz algo saturada,
   hasta que se recupera.** `FALLOS = [(ancla_inicio, ancla_fin)]` en `plan.py`: `paso4_render.py` pone ese tramo en
   blanco y negro y `paso5_audio.py` satura la voz (como una radio rota) con fundidos cortos; al volver («¡hemos
@@ -605,6 +663,14 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
     ese plano en el archivo, a tamaño real y fotograma a fotograma en la zona del coche. Por qué: en la v2 de `1311` la
     muestra cogía el todoterreno entrando, de techo, y en la hoja no se veía nada; 0,7 s después se leía la matrícula
     entera (se vio en el repaso final, y hubo que tapar y rehacer el tramo). Descubierto en el repaso; no lo pidió Lucas. (vídeo: 1311)
+- 2026-11-19 — **Nadie reconocible al fondo sin permiso.** Cualquier persona que no sea el creador y no participe en el
+  vídeo (un operario, alguien que pasa), aunque esté lejos o de espaldas o solo asome por un borde, se difumina todo el
+  tiempo que esté en plano (`TAPAR_PERSONAS` en `plan.py` + `tapar_persona.py` y `tapar_persona.py hoja`; caja a mano en
+  fotogramas clave cada 0,125 s, medida con `rejilla.py`), o se cambia el plano. Se miran TODAS las hojas
+  `persona_N.jpg`. El registro visual las anota en `personas_fondo`. Un tercero que sí participa (habla con él, sale a
+  propósito) es de la regla de abajo: se pregunta. Por qué: Reino Selva, «13:16 blur a la persona que sale de fondo, no
+  puede saberse quien es»: un operario entre las plantas, 2,5 s detrás del creador; en el registro visual solo se habían
+  anotado las personas en primer plano. (vídeo: vaciamos-estanque v2)
 - **Avisa de lo que el creador debe decidir**: caras de terceros, menores, pantallas con datos, marcas. Eso no se tapa
   ni se publica por iniciativa propia.
 - Con el vídeo, siempre, el **paquete de YouTube**: 5 parejas de título + miniatura para test A/B (cada una con su
@@ -661,6 +727,20 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
   en segundo plano por memoria, no lo relances sin preguntar.
 - **Claude in Chrome**: si hay varios navegadores conectados, elige el del equipo del creador antes de abrir pestañas.
 - MapLibre dentro de Remotion no cargó en render (timeout de `delayRender`): mapas con imagen estática + SVG.
+- 2026-11-19 — **`paso3_plan.py && render_todo.py …`, nunca con `;`.** Si paso3 se para, no se renderiza. Por qué: paso3
+  se paró con `REPETIDO` sin reescribir `video.json` y `render_todo.py`, encadenado con `;`, empezó a renderizar el plan
+  anterior. Ahora `render_todo.py` se niega si `plan.py` o `edl.py` son más nuevos que `trabajo/video.json`.
+  (vídeo: vaciamos-estanque)
+- 2026-11-19 — **Retoques: `rehacer.py guardar` antes de paso3 y `rehacer.py borrar` después**, y `render_todo.py` con
+  una salida nueva (`_v2`): solo se rehacen los tramos y las capas que cambian. Lo que no ve (parches de `tapar.py`,
+  `tapar_persona.py` o `foco.py` rehechos; un `.tsx` cambiado) se borra a mano.
+- 2026-11-19 — **Recursos de stock que no son 16:9** (DCI 4096×2160, verticales): el render los recorta al centro a 16:9
+  antes de escalar (`dinamica.RECORTE_169`; antes se deformaban) y `hoja_recursos.py` avisa con `AVISO PROPORCIÓN`. En
+  un vertical el centro casi nunca es el sujeto: copia `_h` recortada a mano a su altura
+  (`ffmpeg -i in.mp4 -vf "crop=2160:1215:0:Y,scale=3840:2160:flags=lanczos,format=yuv420p" -c:v libx264 -crf 16 -an in_h.mp4`).
+- 2026-11-19 — **El botón de suscribir acaba mientras él habla** (`AVISO BOTÓN` en `paso3_plan.py`): si no, su final
+  (el cuadrado rojo recogiéndose) se ve sobre lo que viene después de la voz (un negro, el outro, un clip sin voz). Se arregla subiendo `"vel"` en `BOTONES` (1,45 lo dejó en 7,0 s) o adelantando
+  su ancla. (vídeo: vaciamos-estanque)
 
 ## Lo que funciona (aprobado)
 - 2026-11-11 — El mapa de satélite animado de `ramon` («va a la skill»).

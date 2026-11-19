@@ -47,11 +47,14 @@ Reglas:
   título: mejor 8 s buenos que 25 s de relleno.
 
 ## Capítulos
-Cada sección abre con su rótulo (`S("TÍTULO", …)` en el EDL → número/total + título, ~3 s, con zoom-out de entrada y
-música ~10–14 s). Los tiempos de los capítulos de la descripción salen de esas mismas marcas (`base/descripciones.md`).
+Cada sección abre con su rótulo (`S("TÍTULO", …)` en el EDL → título (y, si el creador lo quiere, número/total con
+casillas: `CONTADOR_CAPITULOS` en su `ajustes.py`, sí de serie), ~3 s, con zoom-out de entrada y música ~10–14 s). Las
+series numeradas DENTRO del vídeo (sospechosos, pasos, top 5) llevan su número siempre. Los tiempos de los capítulos de la descripción salen de esas mismas marcas (`base/descripciones.md`).
 
 ## Cierre
 Despedida corta (≤ 20 s), sin resumen largo. Si lo que queda abierto sirve de gancho al siguiente vídeo, dilo ahí.
+Tomas falsas solo si son buenas de verdad: graciosas o con algo que pasa (un susto, el perro, una caída). Equivocarse
+leyendo o repetir una frase no lo es. Ante la duda, fuera, y se dice al entregar en «lo que se ha quedado fuera».
 Pantalla final de 8–15 s con un único CTA solo si el creador la pide (YouTube pone sus tarjetas encima: deja libre la
 mitad derecha o las zonas que te diga).
 

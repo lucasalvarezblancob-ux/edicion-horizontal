@@ -30,7 +30,7 @@ barrido de cámara. Todo en español de España.
   "donde": "sitio(s) en que transcurre el clip, y de dónde viene y a dónde va el creador si se deduce",
   "tramos": [
     {"t0": 0, "t1": 12, "tipo": "a_camara", "que": "de pie en el garaje hablando a cámara, plano medio",
-     "sujeto": "el creador", "camara": "trípode", "recurso": 0, "dice": "presenta la tortuga rusa", "nota": ""}
+     "sujeto": "el creador", "camara": "trípode", "recurso": 0, "dice": "presenta la tortuga rusa", "mirada": "camara", "nota": ""}
   ],
   "mejores_recursos": [
     {"t0": 541.0, "t1": 545.5, "que": "tortuga rusa quieta bajo la lámpara, plano cercano estable", "para": "cuando hable de la tortuga rusa o de recintos secos"}
@@ -40,6 +40,9 @@ barrido de cámara. Todo en español de España.
   ],
   "momentos": [
     {"t0": 604.8, "t1": 609.5, "que": "se agacha y el micro se le cae al agua del estanque; lo saca chorreando", "tipo": "fail", "luego_dice": "se me ha caído el micro (621 s)"}
+  ],
+  "personas_fondo": [
+    {"t0": 41.5, "t1": 54.1, "donde": "al fondo a la izquierda, entre las plantas; se agacha y cruza hacia el centro", "reconocible": "sí (camiseta blanca, cara visible a ratos)"}
   ]
 }
 ```
@@ -55,6 +58,9 @@ barrido de cámara. Todo en español de España.
 - `recurso`: 0 = no vale como plano de recurso; 1 = flojo; 2 = bueno; 3 = muy bueno (sujeto claro, estable y bien
   encuadrado durante al menos 2,5 s seguidos).
 - `dice`: de qué habla en ese tramo (una frase, en español), o "" si no habla.
+- `mirada` (solo si habla): `camara`, `fuera_lee` (mira fijo a un lado o un poco por encima del objetivo, como quien lee:
+  teleprompter o notas) o `fuera_habla` (habla con alguien fuera de plano). Un tramo leído no se queda en el montaje
+  aunque la voz sea buena: el montador lo tapa con la otra cámara o con recursos de lo que nombra.
 - `desplazamiento` (solo si alguien se mueve de un sitio a otro: anda, baja escaleras, entra, conduce): de dónde sale y
   a dónde llega, por lo que se ve ("de la piscina, por la portezuela, baja a la terraza de los recintos"). El montador lo
   usa para poner ese plano en el momento del vídeo en que ocurre ese trayecto, no en otro.
@@ -68,6 +74,10 @@ barrido de cámara. Todo en español de España.
   creador lo cuenta después («se me ha caído el micro»), pon en `luego_dice` qué y en qué segundo: **el momento en sí
   vale más que contarlo** y va en el vídeo junto a la frase. Búscalos sobre todo en los segundos de antes de un «se me
   ha caído», «me he mojado», «casi», «¡ay!», «mira lo que ha hecho»: casi siempre la acción no tiene palabras.
+- `personas_fondo`: TODA persona que no sea el creador y se vea en el plano, aunque esté lejos, pequeña, de espaldas o
+  solo asome por un borde. Mira los bordes y el fondo de cada hoja, no solo el primer plano. Inicio y final exactos con
+  fotogramas sueltos. Se difuminan todo el rato que estén en plano (lección de vaciamos-estanque, 2026-11-19: un
+  operario trabajando al fondo entre las plantas se escapó porque solo se anotaron las personas en primer plano).
 - Apunta en `nota` cualquier cosa que el creador deba decidir: matrículas, caras de terceros, pantallas con datos
   personales, menores, marcas.
 
@@ -76,4 +86,5 @@ barrido de cámara. Todo en español de España.
 - No modifiques nada fuera de tu JSON y tu carpeta `tmp_<clip>`. No descargues ni subas nada, no toques git.
 - En bucles con ffmpeg usa `-nostdin`. Para scripts largos escribe un archivo, no un heredoc.
 - Devuélveme al final: la ruta del JSON, el número de tramos, los 5 mejores recursos del clip en una línea cada uno, los
-  momentos (fallos, sustos, animales) y los avisos (lo que NO hay en imagen aunque se hable de ello; lo que haya que tapar).
+  momentos (fallos, sustos, animales), las personas del fondo, los tramos en que lee (`fuera_lee`) y los avisos (lo que
+  NO hay en imagen aunque se hable de ello; lo que haya que tapar).

@@ -149,16 +149,17 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
    veces** (`REPITE`): la retoma se corta y se queda la toma buena, o se apunta en `OK_REPITE` por qué va) →
    `paso2_voz.py` → `comprobar_voz.py` (ratio ≥ 0,97 y ninguna palabra comida o repetida en un corte; si no, corrige
    el EDL; y cada `HUECO` —silencio de más de 1,5 s dentro de lo hablado: se corta o se enseña el gesto con su sonido— y
-   cada `VOZ SIN TEXTO` —casi siempre quien graba dando indicaciones: fuera— se resuelve).
+   cada `VOZ SIN TEXTO` —casi siempre quien graba dando indicaciones: fuera— se resuelve; y cada `AVISO ESTIRADA` de
+   `paso1_alinear.py` —ahí suena algo que Whisper no transcribió, casi siempre una orden de rodaje—, con `retranscribir.py`).
 4. **Plan → `plan.py`**: recursos sobre la voz (`BROLL`, elegidos del registro visual y **mirados** con `tira.py`; en
    el tráiler, varios planos cortos con una lista `(ancla, [(clip, s, dur), …])`; `(None, cx, cy)` lleva el corte de
-   escala hacia el sujeto; nunca de la misma toma que la frase que tapan), fails (`FALLOS`: blanco y negro y voz
+   escala hacia el sujeto; nunca de la misma toma que la frase que tapan; la otra cámara sobre su voz, siempre `@sync` con `SINCRO` medido por `sincro.py`; si lee un teleprompter, su plano no se queda), fails (`FALLOS`: blanco y negro y voz
    saturada hasta que se recupera; preferencias → Audio),
    frases fuertes y zooms (`FUERTES`, `ENTRADAS`), cifras (`DATOS`), palabras-golpe (`GOLPES`), rótulos con seguimiento
    (`TRK`: el nombre de lo que se presenta o se enumera, con flecha, en su palabra; **la caja se mide con `rejilla.py` en
    el `t0` exacto, el primer segundo en que se ve ESE plano en el montaje, nunca con las fracciones del registro visual;
    medio lado ≈ medio tamaño del sujeto**: pájaro 60–80 px en 4K, perro 150–250), mapas (`MAPAS`), subtítulos solo donde se oye mal (`SUBS`), título (`TITULO`), petición de suscripción
-   (`BOTONES`: siempre el botón animado de la skill, abajo en el centro, en el idioma del vídeo y **solo**: ningún texto a la vez), matrículas (`TAPAR`), voz de quien no quiere que se le reconozca (`VOZ_DISFRAZ`: tono arriba, solo si el creador lo pide; preferencias → Audio), resalte de algo importante que se pierde en el plano (`FOCOS`: blanco y negro todo menos el
+   (`BOTONES`: siempre el botón animado de la skill, abajo en el centro, en el idioma del vídeo y **solo**: ningún texto a la vez), matrículas (`TAPAR`), personas del fondo (`TAPAR_PERSONAS`), palabrotas (`PITIDOS`: si el creador lo pide, TODAS; lista con `palabrotas.py`), voz de quien no quiere que se le reconozca (`VOZ_DISFRAZ`: tono arriba, solo si el creador lo pide; preferencias → Audio), resalte de algo importante que se pierde en el plano (`FOCOS`: blanco y negro todo menos el
    sujeto; con criterio, 1–2 por vídeo), gráficos propios del creador (`PROPIOS`) y música por ventanas
    (`PISTAS`, `VENTANAS`; pistas nuevas y planos que faltan: Shutterstock con Claude in Chrome si `personal/bancos.md`
    lo tiene —si no existe, se hace la prueba—, `base/recursos.md` § 5 bis). Los cortes de escala alternos los pone solo el motor (`dinamica.py`, con los números de
@@ -168,7 +169,9 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
    cortes/min) y los avisos. **Se para** si un trozo de bruto sale dos veces (`REPETIDO`, con el tramo libre más cercano
    para cambiar el recurso) o si dos gráficos se pisan (`PISA`); se arregla en el plan, nunca se fuerza. Si hay `TAPAR`: después, `tapar.py seguir`, `tapar.py parches` y `tapar.py hoja` (mira
    TODAS las hojas: solo la matrícula borrosa, nada más tapado; y a tamaño real los momentos en que alguien pasa por
-   delante y solo asoma una esquina: también se lee). Si hay `FOCOS`: `foco.py parches` y `foco.py hoja` (mira la
+   delante y solo asoma una esquina: también se lee). Si hay `TAPAR_PERSONAS` (personas del fondo, `personas_fondo` del
+   registro visual): `tapar_persona.py` y `tapar_persona.py hoja` (mira TODAS: la persona no se reconoce en ninguna y
+   no se tapa nada más). Si hay `FOCOS`: `foco.py parches` y `foco.py hoja` (mira la
    hoja: el sujeto entero y en color en todos los fotogramas).
 5. **Comprueba ANTES de renderizar** (obligatorio):
    - `timing_textos.py` → cada texto frente a la voz y a los cortes: entra EN su palabra (no al principio de la
@@ -205,8 +208,8 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
    efectos, −14 LUFS) y, si hay música, `paso6_musica.py` (rellena solo los planos sin voz que quedaban sin música: `puente: …`) → `paso4_render.py unir ../AAAA-MM-DD_<slug>.mp4`.
    Es reanudable. Para retocar un vídeo ya entregado con una versión anterior de la skill, `paso3_plan.py --legado`
    (las comprobaciones nuevas de solapes y repeticiones avisan sin parar; un texto fuera del cuadro sí para).
-   Si cambias el plan, se rehacen solo los tramos y capas que cambian (compara `video.json` con el
-   anterior y borra esos `trabajo/tramos/tNNN.mp4`). Tiempo orientativo: ×2,7 la duración en 4K.
+   Si cambias el plan, se rehacen solo los tramos y capas que cambian: `rehacer.py guardar` antes de `paso3_plan.py` y
+   `rehacer.py borrar` después; luego `paso3_plan.py && render_todo.py` con una salida nueva (`&&`, nunca `;`). Tiempo orientativo: ×2,7 la duración en 4K.
    **Todo seguido y en segundo plano**: `render_todo.py ../AAAA-MM-DD_<slug>.mp4` hace los cuatro pasos, retoma donde
    se quedó y reintenta con menos carga si algo falla.
    **Equipo con poca memoria o con límite de tiempo por orden** (16 GB, sesión con otras cosas abiertas): por tandas

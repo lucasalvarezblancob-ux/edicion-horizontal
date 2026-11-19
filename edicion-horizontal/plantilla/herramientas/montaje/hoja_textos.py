@@ -16,7 +16,7 @@ Uso (desde out/<slug>/):  hoja_textos.py [tipo ...]   (sin tipos: todos menos el
 import json, subprocess, sys
 import numpy as np, cv2
 from comun import ALTO, ANCHO, CAPAS_JSON, FPS, TRABAJO, caja_texto, fuente, video
-from dinamica import CARA_Y, encuadre
+from dinamica import CARA_Y, RECORTE_169, encuadre
 
 tipos = set(sys.argv[1:]); vid = video(); w = 640; h = 2 * round(w * ALTO / ANCHO / 2)
 items = [it for it in json.load(open(CAPAS_JSON, encoding="utf-8"))["items"] if (it["t"] in tipos if tipos else it["t"] != "titulo") and caja_texto(it)]
@@ -29,7 +29,7 @@ def fotograma(F_):
     W2, H2, x, y = encuadre(z, v.get("cx"), v.get("cy"), v.get("ax", 0.5), v.get("ay", CARA_Y if not v["b"] else 0.5))
     ent, pre = fuente(v["clip"], (v["in"] + k * v["speed"]) / FPS)
     bn = "hue=s=0," if v.get("bn") else ""
-    raw = subprocess.run(["ffmpeg", "-nostdin", "-v", "error", *ent, "-frames:v", "1", "-vf", f"{pre}{bn}scale={W2}:{H2},crop={ANCHO}:{ALTO}:{x}:{y},scale={w}:{h}", "-pix_fmt", "bgr24", "-f", "rawvideo", "-"], capture_output=True).stdout
+    raw = subprocess.run(["ffmpeg", "-nostdin", "-v", "error", *ent, "-frames:v", "1", "-vf", f"{pre}{bn}{RECORTE_169}scale={W2}:{H2},crop={ANCHO}:{ALTO}:{x}:{y},scale={w}:{h}", "-pix_fmt", "bgr24", "-f", "rawvideo", "-"], capture_output=True).stdout
     return np.frombuffer(raw, np.uint8).reshape(h, w, 3).copy() if len(raw) == w * h * 3 else np.zeros((h, w, 3), np.uint8), v
 
 

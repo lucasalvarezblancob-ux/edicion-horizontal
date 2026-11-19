@@ -26,6 +26,12 @@ if not libres: raise SystemExit(__doc__)
 salida = libres[0]; hilos = int(op("--hilos", os.environ.get("CAPAS_HILOS", "6"))); par = int(op("--paralelo", "2")); enc = op("--enc", "auto")
 
 if os.path.exists(salida): raise SystemExit(f"{salida} ya existe: no se pisa. Si quieres rehacerlo, dale otro nombre a la salida o aparta ese archivo.")
+# paso3_plan.py no terminó bien después del último cambio de plan.py/edl.py: se renderizaría el plan viejo (vaciamos-estanque,
+# 2026-11-19: paso3 se paró con REPETIDO y render_todo.py, encadenado con «;», empezó con el video.json anterior)
+if not os.path.exists(f"{TRABAJO}/video.json"): raise SystemExit("falta trabajo/video.json: lanza antes paso3_plan.py")
+for f in ("plan.py", "edl.py"):
+    if os.path.exists(f) and os.path.getmtime(f) > os.path.getmtime(f"{TRABAJO}/video.json"):
+        raise SystemExit(f"{f} es más nuevo que trabajo/video.json: paso3_plan.py no ha terminado bien. Arregla sus avisos, repítelo y vuelve a lanzar.")
 otros = render_vivo()
 if otros: raise SystemExit(f"Ya hay un render en marcha (procesos {[p[0] for p in otros]}): no se lanza otro encima.")
 # el vigilante (vigilante.py) relanza el render si se muere o se cuelga antes de acabar: le dejamos dicho cuál es

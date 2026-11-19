@@ -184,7 +184,29 @@ todos los creadores de esa carpeta). Si no existe, **la primera vez que haga fal
 - Lo descargado va a la carpeta del creador: música a `recursos/musica/` + `CATALOGO.md` (con banco e id); vídeo a
   la carpeta de su tema + ficha en `recursos/INDICE.md` (banco, id, «stock»). Así el siguiente vídeo ya lo tiene.
 - Las previas con marca de agua no se usan nunca en un vídeo.
-- Los pasos de la web (botones, formatos) se apuntan en «Shutterstock, lo aprendido» (§ 6) y en `bancos.md` → Notas.
+- Los pasos de la web (botones, formatos) se apuntan en «Shutterstock, lo aprendido» (§ 6 para música, abajo para
+  vídeo) y en `bancos.md` → Notas.
+- **El stock también sirve para tapar partes leídas**: si el creador lee de un teleprompter o de notas y no hay otra
+  cámara en la que mire al objetivo, se tapa con planos de lo que nombra, uno por frase (preferencias → Planos de recurso).
+
+**Shutterstock vídeo, lo aprendido** (2026-11-19, vaciamos-estanque-2: 14 clips, 33 planos):
+- **Resolución**: la más alta viene preseleccionada. Hay clips que **solo** se ofrecen en HD aunque el buscador diga 4K;
+  se aceptan si el plano es bueno.
+- **Extra de pago**: en cada página aparece «Protecciones legales mejoradas». Se deja **sin marcar** (no hace falta y se
+  cobra aparte).
+- **Archivos**: bajan como `shutterstock_<id>.mov`/`.mp4`. Pueden ser verticales o DCI 4096×2160: `ffprobe` antes de
+  montar. El render recorta al centro a 16:9 lo que no lo es (`hoja_recursos.py` avisa con `AVISO PROPORCIÓN`); un
+  vertical, mejor como copia `_h` recortada a mano a la altura del sujeto (preferencias → Lecciones técnicas).
+- **Tamaño**: pueden pesar hasta 2,2 GB cada uno (ProRes). Se bajan por tandas y se mueven al disco de recursos del
+  creador en cuanto acaban, para no llenar el ordenador.
+- **Especie**: en un canal de animales, compruébala en el título de cada clip. Garza real es *Ardea cinerea*, no la garza
+  azulada (*A. herodias*) ni garcetas. Cormorán grande es *Phalacrocorax carbo*. Martín pescador común es *Alcedo atthis*.
+- **Encuadre**: el sujeto suele salir pequeño. `(zoom, cx, cy)` en el `BROLL` y se mira en `hoja_recursos.py`.
+- **Uno por frase**: cada plano empieza en la frase que nombra al animal o lo que hace («se lanzan directamente sobre
+  sus presas» → el martín pescador lanzándose; «puede entrar caminando» → garza andando).
+- **Ficha**: cada clip con ficha en el `INDICE.md` del creador, en la carpeta de su especie o tema: «**Stock de
+  Shutterstock**», id, fecha, resolución y tramos útiles con lo que pasa en cada segundo, para poder reutilizarlo.
+- **Cuenta**: `personal/bancos.md` dice si hay cuenta y qué plan.
 
 ## 6. Música
 

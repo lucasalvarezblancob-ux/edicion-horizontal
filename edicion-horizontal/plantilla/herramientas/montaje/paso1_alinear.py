@@ -100,3 +100,11 @@ print(f"total {o} frames = {o / FPS / 60:.2f} min; {len(piezas)} piezas; {len(pa
 for k, v in marcas.items(): print(f"  {k:14} {v / FPS / 60:5.2f} min")
 big = [p for p in pal if abs(p["dif"]) > 0.5]
 if big: print("desfases > 0,5 s (revisa esos bordes en comprobar_voz.py):", [(p["clip"], p["idx"], p["w"], p["dif"]) for p in big][:40])
+# Palabra ESTIRADA: la alineación forzada reparte el audio entre las palabras que conoce; si Whisper se saltó algo (una orden
+# de rodaje, una respuesta de quien graba), la palabra de al lado se estira por encima. vaciamos-estanque (2026-11-19): «Ven,
+# corta.» quedó dentro de «2026 cero kills» (4,3 s y 2 s) sin que comprobar_voz.py viera ningún hueco.
+for p in pal:
+    dur = (p["o1"] - p["o0"]) / FPS
+    if dur > (1.5 if any(ch.isdigit() for ch in p["w"]) else 1.0):
+        print(f"AVISO ESTIRADA: {p['clip']} {p['s0']:.2f} s «{p['w']}» dura {dur:.1f} s: ahí suena algo que Whisper no transcribió. "
+              f"Mira qué es: retranscribir.py {p['clip']} {max(0, p['s0'] - 2):.1f} {p['s0'] + dur + 2:.1f}")

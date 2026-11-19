@@ -58,7 +58,11 @@ if __name__ == "__main__":
             pr = np.vstack([pr, np.zeros((len(seg) - len(pr), seg.shape[1]), np.float32)])
             w = np.ones(len(seg), np.float32); w[:xf] = np.linspace(0, 1, xf); w[-xf:] = np.linspace(1, 0, xf)
             y[a0:a1] = (seg * (1 - w[:, None]) + pr * w[:, None]).reshape(y[a0:a1].shape)
-            print(f"voz disfrazada {a0 / SR:.2f}-{a1 / SR:.2f} s: «{a[1]}»")
+            # lo que suena ahí según voz.json: así se ve al momento si se ha disfrazado la aparición equivocada (en
+            # vaciamos-estanque, ("IMG_2053", "un mes", 0) era el «un mes» del creador; el de fondo era n=1)
+            oido = " ".join(f["texto"].strip() for f in json.load(open(f"{TRABAJO}/voz.json", encoding="utf-8"))["frases"]
+                            if f["hasta"] > a0 / SR and f["desde"] < a1 / SR) if os.path.exists(f"{TRABAJO}/voz.json") else "?"
+            print(f"voz disfrazada {a0 / SR:.2f}-{a1 / SR:.2f} s: «{a[1]}»  — lo que suena ahí: «{oido}» (¿es de la otra persona?)")
         # ¿queda alguna frase con pinta de ser de la otra persona sin disfrazar? (voces.py; Lucas, prueba-3 v2: «se te han
         # escapado bastantes partes en las que habla el cámara»)
         for t0, t1, txt, p, db in candidatas()[0]:
@@ -75,6 +79,29 @@ if __name__ == "__main__":
         pr = np.frombuffer(raw, np.float32).reshape(-1, seg.shape[1])[:len(seg)]; pr = np.vstack([pr, np.zeros((len(seg) - len(pr), seg.shape[1]), np.float32)])
         xf = min(int(0.03 * SR), len(seg) // 4); w = np.ones(len(seg), np.float32); w[:xf] = np.linspace(0, 1, xf); w[-xf:] = np.linspace(1, 0, xf)
         y[a0:a1] = (seg * (1 - w[:, None]) + pr * w[:, None]).reshape(y[a0:a1].shape); print(f"fail: voz saturada {f0 / FPS:.1f}-{f1 / FPS:.1f} s")
+    # ---- pitidos (PITIDOS en plan.py): cada palabrota tapada con un pitido de 1 kHz, del principio al final de la palabra
+    # según la alineación forzada (linea.json), con 15 ms de fundido para que no haya clic. Formato: (clip, "palabra o frase
+    # literal", n) como cualquier ancla de frase (n = 0 la primera vez que suena en el montaje, -1 la última, 1 la segunda…).
+    # Va DESPUÉS de VOZ_DISFRAZ y de los fails: si una palabra está en los dos, manda el pitido. Lista de las que suenan:
+    # palabrotas.py. Reino Selva, 2026-11-19 (vaciamos-estanque): «pita también los hostia y cojones y demás palabrotas».
+    pitidos = getattr(plan, "PITIDOS", [])
+    if pitidos:
+        from comun import Linea, buscar
+        from voces import buscar_oido
+        Lp = Linea()
+        for a in pitidos:
+            try:
+                i, j = buscar(Lp.palabras, *a); s0, s1 = Lp.palabras[i]["o0"] / FPS - 0.03, Lp.palabras[j]["o1"] / FPS + 0.04
+            except (Exception, SystemExit):          # no está en el texto del EDL: la dice quien graba entre palabras (en voz.json)
+                r = buscar_oido(a[1], a[2])
+                if not r: raise SystemExit(f"PITIDOS: «{a[1]}» no está en el EDL ni se oye en voz.json")
+                s0, s1 = r[0] - 0.03, r[1] + 0.04
+            a0, a1 = max(0, int(s0 * SR)), min(len(y), int(s1 * SR)); n_ = a1 - a0; xf = min(int(0.015 * SR), n_ // 3)
+            seg = y[a0:a1].reshape(n_, -1); rms = float(np.sqrt(np.mean(seg ** 2))) or 0.05
+            tono = (np.sin(2 * np.pi * 1000 * np.arange(n_) / SR) * min(0.35, rms * 1.6)).astype(np.float32)
+            w = np.ones(n_, np.float32); w[:xf] = np.linspace(0, 1, xf); w[n_ - xf:] = np.linspace(1, 0, xf)
+            y[a0:a1] = (seg * (1 - w[:, None]) + tono[:, None] * w[:, None]).reshape(y[a0:a1].shape)
+            print(f"pitido {s0:.2f}-{s1:.2f} s: «{a[1]}»")
     cache = {}
     def snd(n, vel=1.0):      # vel: el clip al que acompaña va a esa velocidad (un botón acelerado para que quepa); el tono no cambia
         if (n, vel) not in cache:
